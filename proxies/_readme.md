@@ -8,10 +8,10 @@
   <img src="https://img.shields.io/github/actions/workflow/status/proxifly/free-proxy-list/fetch.yml?label=Updated%20Every%2010%20Minutes">
   <br>
   <a href="https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/all/data.txt">
-    <img src="https://img.shields.io/badge/all-154-blue">
+    <img src="https://img.shields.io/badge/all-192-blue">
   </a>
   <a href="https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.txt">
-    <img src="https://img.shields.io/badge/http-154-blue">
+    <img src="https://img.shields.io/badge/http-192-blue">
   </a>
   <a href="https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks4/data.txt">
     <img src="https://img.shields.io/badge/socks4-0-blue">
@@ -44,7 +44,7 @@
 
 <!-- It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list. -->
 
-> Proxifly found **154** proxies from **45** countries in the latest update. Usable proxies are below.
+> Proxifly found **192** proxies from **49** countries in the latest update. Usable proxies are below.
 
 ## 🦄 Features
 * ⚡ Extremely fast
@@ -64,11 +64,12 @@ Click on your preferred file format to get the updated list
 
 |Type|Count|.json|.txt|.csv|
 |-----|----|----|--|--|
-|All Proxies|154|[JSON File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/all/data.json)|[Text File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/all/data.txt)|[CSV File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/all/data.csv)|
-|HTTP Proxies|154|[JSON File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.json)|[Text File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.txt)|[CSV File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.csv)|
+|All Proxies|192|[JSON File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/all/data.json)|[Text File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/all/data.txt)|[CSV File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/all/data.csv)|
+|HTTP Proxies|192|[JSON File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.json)|[Text File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.txt)|[CSV File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.csv)|
 |SOCKS4 Proxies|0|[JSON File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks4/data.json)|[Text File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks4/data.txt)|[CSV File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks4/data.csv)|
 |SOCKS5 Proxies|0|[JSON File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.json)|[Text File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.txt)|[CSV File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.csv)|
-|Proxies by Country|45|[JSON File](https://github.com/proxifly/free-proxy-list/tree/main/proxies/countries)|[Text File](https://github.com/proxifly/free-proxy-list/tree/main/proxies/countries)|[CSV File](https://github.com/proxifly/free-proxy-list/tree/main/proxies/countries)|
+
+You can also [get proxies by country](https://github.com/proxifly/free-proxy-list/tree/main/proxies/countries). There are currently **49** countries available.
 
 
 ### 💎 Proxifly NPM Module
