@@ -1,2 +1,2 @@
-# free-proxy-list
-🚀 Free HTTP, SOCKS4, &amp; SOCKS5 Proxy List **Updated every 5 minutes**
+# free-proxy-list-harvester
+🚀 Harvester for the [free-proxy-list](https://github.com/proxifly/free-proxy-list) repo
