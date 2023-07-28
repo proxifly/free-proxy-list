@@ -44,13 +44,13 @@ Every 10 minutes, **Proxifly** fetches fresh proxies—including **HTTP**, **SOC
 
 <!-- It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list. -->
 
-> Proxifly found **130** working proxies from **42** countries in the latest update.
+> Proxifly found **130** working proxies from **40** countries in the latest update.
 
 ## 🦄 Features
 * ⚡ Extremely fast
 * 📝 Validated every 10 minutes
 * 📓 Sorted into **HTTP**, **SOCKS4**, & **SOCKS5**
-* 🌎 Contains 42 countries
+* 🌎 Contains 40 countries
 * 📦 Available in **.json**, **.txt**, & **.csv** formats
 * 🔐 Supports HTTPS connection
 * 😊 No duplicates
@@ -69,7 +69,7 @@ Click on your preferred file format to get the updated list
 |SOCKS4 Proxies|0|[JSON File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks4/data.json)|[Text File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks4/data.txt)|[CSV File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks4/data.csv)|
 |SOCKS5 Proxies|0|[JSON File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.json)|[Text File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.txt)|[CSV File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.csv)|
 
-You can also [get proxies by country](https://github.com/proxifly/free-proxy-list/tree/main/proxies/countries). There are currently **42** countries available.
+You can also [get proxies by country](https://github.com/proxifly/free-proxy-list/tree/main/proxies/countries). There are currently **40** countries available.
 
 
 ### 💎 Proxifly NPM Module
