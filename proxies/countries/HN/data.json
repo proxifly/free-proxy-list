@@ -1,15 +1,28 @@
 [
   {
-    "proxy": "http://45.190.185.101:8080",
+    "proxy": "http://190.61.48.24:999",
     "protocol": "http",
-    "ip": "45.190.185.101",
-    "port": 8080,
+    "ip": "190.61.48.24",
+    "port": 999,
     "https": true,
     "anonymity": "elite",
     "score": 2,
     "geolocation": {
       "country": "HN",
-      "city": "Valle de Angeles"
+      "city": "Atenas de San Cristóbal"
+    }
+  },
+  {
+    "proxy": "socks4://138.59.177.117:5678",
+    "protocol": "socks4",
+    "ip": "138.59.177.117",
+    "port": "5678",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "HN",
+      "city": "Unknown"
     }
   }
 ]
