@@ -1,28 +1,41 @@
 [
   {
-    "proxy": "http://188.132.222.137:8080",
+    "proxy": "http://45.139.199.91:3128",
     "protocol": "http",
-    "ip": "188.132.222.137",
-    "port": 8080,
+    "ip": "45.139.199.91",
+    "port": 3128,
     "https": true,
     "anonymity": "elite",
     "score": 2,
     "geolocation": {
       "country": "TR",
-      "city": "Reyhanli"
+      "city": "Bursa"
     }
   },
   {
-    "proxy": "http://185.200.37.98:8080",
-    "protocol": "http",
-    "ip": "185.200.37.98",
-    "port": 8080,
-    "https": true,
-    "anonymity": "elite",
-    "score": 2,
+    "proxy": "socks4://92.45.19.35:5678",
+    "protocol": "socks4",
+    "ip": "92.45.19.35",
+    "port": "5678",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
     "geolocation": {
       "country": "TR",
-      "city": "Antakya"
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://194.124.36.106:10820",
+    "protocol": "socks5",
+    "ip": "194.124.36.106",
+    "port": "10820",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "TR",
+      "city": "Unknown"
     }
   }
 ]
