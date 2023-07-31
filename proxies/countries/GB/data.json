@@ -1,31 +1,5 @@
 [
   {
-    "proxy": "http://80.194.38.106:3333",
-    "protocol": "http",
-    "ip": "80.194.38.106",
-    "port": 3333,
-    "https": true,
-    "anonymity": "elite",
-    "score": 2,
-    "geolocation": {
-      "country": "GB",
-      "city": "Catford"
-    }
-  },
-  {
-    "proxy": "socks4://92.207.253.226:4145",
-    "protocol": "socks4",
-    "ip": "92.207.253.226",
-    "port": "4145",
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "GB",
-      "city": "Unknown"
-    }
-  },
-  {
     "proxy": "socks4://213.19.205.18:54321",
     "protocol": "socks4",
     "ip": "213.19.205.18",
@@ -56,6 +30,19 @@
     "protocol": "socks5",
     "ip": "212.83.138.60",
     "port": "15859",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "GB",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://174.138.176.77:48992",
+    "protocol": "socks5",
+    "ip": "174.138.176.77",
+    "port": "48992",
     "https": false,
     "anonymity": "transparent",
     "score": 1,
