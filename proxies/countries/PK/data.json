@@ -1,15 +1,28 @@
 [
   {
-    "proxy": "http://110.93.225.217:3128",
-    "protocol": "http",
-    "ip": "110.93.225.217",
-    "port": 3128,
-    "https": true,
-    "anonymity": "elite",
-    "score": 2,
+    "proxy": "socks4://203.124.53.122:5678",
+    "protocol": "socks4",
+    "ip": "203.124.53.122",
+    "port": "5678",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
     "geolocation": {
       "country": "PK",
-      "city": "Karachi"
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks4://39.62.0.244:5678",
+    "protocol": "socks4",
+    "ip": "39.62.0.244",
+    "port": "5678",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "PK",
+      "city": "Unknown"
     }
   }
 ]
