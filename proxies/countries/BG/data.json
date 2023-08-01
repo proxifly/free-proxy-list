@@ -1,15 +1,28 @@
 [
   {
-    "proxy": "http://77.238.79.111:8080",
+    "proxy": "http://185.189.199.75:23500",
     "protocol": "http",
-    "ip": "77.238.79.111",
-    "port": 8080,
+    "ip": "185.189.199.75",
+    "port": 23500,
     "https": true,
     "anonymity": "elite",
     "score": 2,
     "geolocation": {
       "country": "BG",
-      "city": "Sofia"
+      "city": "Bansko"
+    }
+  },
+  {
+    "proxy": "socks4://46.47.80.186:5678",
+    "protocol": "socks4",
+    "ip": "46.47.80.186",
+    "port": "5678",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "BG",
+      "city": "Unknown"
     }
   }
 ]
