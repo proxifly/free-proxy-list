@@ -1,5 +1,18 @@
 [
   {
+    "proxy": "http://147.135.134.57:5566",
+    "protocol": "http",
+    "ip": "147.135.134.57",
+    "port": 5566,
+    "https": true,
+    "anonymity": "elite",
+    "score": 2,
+    "geolocation": {
+      "country": "FR",
+      "city": "Gravelines"
+    }
+  },
+  {
     "proxy": "http://13.39.199.224:80",
     "protocol": "http",
     "ip": "13.39.199.224",
@@ -26,23 +39,36 @@
     }
   },
   {
-    "proxy": "http://212.129.15.88:8080",
-    "protocol": "http",
-    "ip": "212.129.15.88",
-    "port": 8080,
-    "https": true,
-    "anonymity": "elite",
-    "score": 2,
+    "proxy": "socks4://51.195.137.62:46353",
+    "protocol": "socks4",
+    "ip": "51.195.137.62",
+    "port": "46353",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
     "geolocation": {
       "country": "FR",
-      "city": "Paris"
+      "city": "Unknown"
     }
   },
   {
-    "proxy": "socks5://91.121.163.199:45689",
+    "proxy": "socks5://37.187.91.192:21981",
     "protocol": "socks5",
-    "ip": "91.121.163.199",
-    "port": "45689",
+    "ip": "37.187.91.192",
+    "port": "21981",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "FR",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://176.31.182.123:59166",
+    "protocol": "socks5",
+    "ip": "176.31.182.123",
+    "port": "59166",
     "https": false,
     "anonymity": "transparent",
     "score": 1,
