@@ -1,5 +1,18 @@
 [
   {
+    "proxy": "http://31.197.253.254:48678",
+    "protocol": "http",
+    "ip": "31.197.253.254",
+    "port": 48678,
+    "https": true,
+    "anonymity": "elite",
+    "score": 2,
+    "geolocation": {
+      "country": "IT",
+      "city": "Montemurlo"
+    }
+  },
+  {
     "proxy": "http://151.22.181.212:8080",
     "protocol": "http",
     "ip": "151.22.181.212",
@@ -13,16 +26,29 @@
     }
   },
   {
-    "proxy": "http://151.22.181.211:8080",
+    "proxy": "http://18.102.57.72:80",
     "protocol": "http",
-    "ip": "151.22.181.211",
-    "port": 8080,
+    "ip": "18.102.57.72",
+    "port": 80,
     "https": true,
     "anonymity": "elite",
     "score": 2,
     "geolocation": {
       "country": "IT",
-      "city": "Strongoli"
+      "city": "Milan"
+    }
+  },
+  {
+    "proxy": "socks4://37.99.254.217:5678",
+    "protocol": "socks4",
+    "ip": "37.99.254.217",
+    "port": "5678",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "IT",
+      "city": "Unknown"
     }
   }
 ]
