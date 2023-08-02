@@ -1,15 +1,28 @@
 [
   {
-    "proxy": "http://102.220.121.56:3128",
-    "protocol": "http",
-    "ip": "102.220.121.56",
-    "port": 3128,
-    "https": true,
-    "anonymity": "elite",
-    "score": 2,
+    "proxy": "socks4://105.214.73.208:5678",
+    "protocol": "socks4",
+    "ip": "105.214.73.208",
+    "port": "5678",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
     "geolocation": {
       "country": "ZA",
-      "city": "Middelburg"
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks4://105.214.7.46:5678",
+    "protocol": "socks4",
+    "ip": "105.214.7.46",
+    "port": "5678",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "ZA",
+      "city": "Unknown"
     }
   }
 ]
