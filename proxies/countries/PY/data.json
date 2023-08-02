@@ -1,8 +1,8 @@
 [
   {
-    "proxy": "http://170.83.242.250:999",
+    "proxy": "http://170.83.242.251:999",
     "protocol": "http",
-    "ip": "170.83.242.250",
+    "ip": "170.83.242.251",
     "port": 999,
     "https": true,
     "anonymity": "elite",
@@ -10,6 +10,19 @@
     "geolocation": {
       "country": "PY",
       "city": "Asunción"
+    }
+  },
+  {
+    "proxy": "socks4://143.255.141.113:5678",
+    "protocol": "socks4",
+    "ip": "143.255.141.113",
+    "port": "5678",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "PY",
+      "city": "Unknown"
     }
   }
 ]
