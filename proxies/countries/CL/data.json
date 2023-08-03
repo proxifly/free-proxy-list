@@ -1,8 +1,21 @@
 [
   {
-    "proxy": "http://38.7.223.128:999",
+    "proxy": "http://190.211.250.130:999",
     "protocol": "http",
-    "ip": "38.7.223.128",
+    "ip": "190.211.250.130",
+    "port": 999,
+    "https": true,
+    "anonymity": "elite",
+    "score": 2,
+    "geolocation": {
+      "country": "CL",
+      "city": "Lago Ranco"
+    }
+  },
+  {
+    "proxy": "http://209.14.250.192:999",
+    "protocol": "http",
+    "ip": "209.14.250.192",
     "port": 999,
     "https": true,
     "anonymity": "elite",
@@ -13,16 +26,55 @@
     }
   },
   {
-    "proxy": "http://190.82.91.202:999",
-    "protocol": "http",
-    "ip": "190.82.91.202",
-    "port": 999,
-    "https": true,
-    "anonymity": "elite",
-    "score": 2,
+    "proxy": "socks4://45.236.185.1:4153",
+    "protocol": "socks4",
+    "ip": "45.236.185.1",
+    "port": "4153",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
     "geolocation": {
       "country": "CL",
-      "city": "Santiago"
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks4://216.155.93.238:5678",
+    "protocol": "socks4",
+    "ip": "216.155.93.238",
+    "port": "5678",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CL",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks4://190.54.12.74:5678",
+    "protocol": "socks4",
+    "ip": "190.54.12.74",
+    "port": "5678",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CL",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks4://190.4.205.226:4153",
+    "protocol": "socks4",
+    "ip": "190.4.205.226",
+    "port": "4153",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CL",
+      "city": "Unknown"
     }
   }
 ]
