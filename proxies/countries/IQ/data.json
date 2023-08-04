@@ -13,16 +13,29 @@
     }
   },
   {
-    "proxy": "http://62.201.218.174:8183",
-    "protocol": "http",
-    "ip": "62.201.218.174",
-    "port": 8183,
-    "https": true,
-    "anonymity": "elite",
-    "score": 2,
+    "proxy": "socks4://109.224.12.170:52015",
+    "protocol": "socks4",
+    "ip": "109.224.12.170",
+    "port": "52015",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
     "geolocation": {
       "country": "IQ",
-      "city": "Sulaymaniyah"
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks4://65.20.183.34:35010",
+    "protocol": "socks4",
+    "ip": "65.20.183.34",
+    "port": "35010",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "IQ",
+      "city": "Unknown"
     }
   }
 ]
