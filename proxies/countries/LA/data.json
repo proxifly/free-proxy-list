@@ -1,15 +1,28 @@
 [
   {
-    "proxy": "http://103.137.91.250:8080",
+    "proxy": "http://202.137.134.160:8088",
     "protocol": "http",
-    "ip": "103.137.91.250",
-    "port": 8080,
+    "ip": "202.137.134.160",
+    "port": 8088,
     "https": true,
     "anonymity": "elite",
     "score": 2,
     "geolocation": {
       "country": "LA",
       "city": "Vientiane"
+    }
+  },
+  {
+    "proxy": "socks4://183.182.102.135:5678",
+    "protocol": "socks4",
+    "ip": "183.182.102.135",
+    "port": "5678",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "LA",
+      "city": "Unknown"
     }
   }
 ]
