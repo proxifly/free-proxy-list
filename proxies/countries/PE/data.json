@@ -13,10 +13,23 @@
     }
   },
   {
-    "proxy": "http://161.132.125.244:8080",
+    "proxy": "http://45.190.170.254:999",
     "protocol": "http",
-    "ip": "161.132.125.244",
-    "port": 8080,
+    "ip": "45.190.170.254",
+    "port": 999,
+    "https": true,
+    "anonymity": "elite",
+    "score": 2,
+    "geolocation": {
+      "country": "PE",
+      "city": "Lima region"
+    }
+  },
+  {
+    "proxy": "http://45.169.92.154:999",
+    "protocol": "http",
+    "ip": "45.169.92.154",
+    "port": 999,
     "https": true,
     "anonymity": "elite",
     "score": 2,
@@ -26,29 +39,55 @@
     }
   },
   {
-    "proxy": "http://190.235.185.115:999",
-    "protocol": "http",
-    "ip": "190.235.185.115",
-    "port": 999,
-    "https": true,
-    "anonymity": "elite",
-    "score": 2,
+    "proxy": "socks4://190.119.167.154:5678",
+    "protocol": "socks4",
+    "ip": "190.119.167.154",
+    "port": "5678",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
     "geolocation": {
       "country": "PE",
-      "city": "Guadalupe"
+      "city": "Unknown"
     }
   },
   {
-    "proxy": "http://190.237.238.76:999",
-    "protocol": "http",
-    "ip": "190.237.238.76",
-    "port": 999,
-    "https": true,
-    "anonymity": "elite",
-    "score": 2,
+    "proxy": "socks4://190.232.89.125:5678",
+    "protocol": "socks4",
+    "ip": "190.232.89.125",
+    "port": "5678",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
     "geolocation": {
       "country": "PE",
-      "city": "Trujillo"
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks4://190.119.235.210:4153",
+    "protocol": "socks4",
+    "ip": "190.119.235.210",
+    "port": "4153",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "PE",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks4://204.199.174.93:5678",
+    "protocol": "socks4",
+    "ip": "204.199.174.93",
+    "port": "5678",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "PE",
+      "city": "Unknown"
     }
   }
 ]
