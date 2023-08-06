@@ -1,15 +1,28 @@
 [
   {
-    "proxy": "http://85.117.63.207:8080",
+    "proxy": "http://185.139.56.133:6961",
     "protocol": "http",
-    "ip": "85.117.63.207",
-    "port": 8080,
+    "ip": "185.139.56.133",
+    "port": 6961,
     "https": true,
     "anonymity": "elite",
     "score": 2,
     "geolocation": {
       "country": "GE",
       "city": "Tbilisi"
+    }
+  },
+  {
+    "proxy": "socks4://188.169.84.30:5678",
+    "protocol": "socks4",
+    "ip": "188.169.84.30",
+    "port": "5678",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "GE",
+      "city": "Unknown"
     }
   }
 ]
