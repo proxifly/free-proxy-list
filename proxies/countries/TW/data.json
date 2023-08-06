@@ -1,15 +1,41 @@
 [
   {
-    "proxy": "http://210.200.169.134:33333",
-    "protocol": "http",
-    "ip": "210.200.169.134",
-    "port": 33333,
-    "https": true,
-    "anonymity": "elite",
-    "score": 2,
+    "proxy": "socks4://220.132.33.150:4145",
+    "protocol": "socks4",
+    "ip": "220.132.33.150",
+    "port": "4145",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
     "geolocation": {
       "country": "TW",
-      "city": "Kaohsiung City"
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks4://125.228.94.199:4145",
+    "protocol": "socks4",
+    "ip": "125.228.94.199",
+    "port": "4145",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "TW",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://125.227.225.157:3389",
+    "protocol": "socks5",
+    "ip": "125.227.225.157",
+    "port": "3389",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "TW",
+      "city": "Unknown"
     }
   }
 ]
