@@ -1,15 +1,41 @@
 [
   {
-    "proxy": "http://104.199.219.13:3128",
+    "proxy": "http://210.200.169.134:33333",
     "protocol": "http",
-    "ip": "104.199.219.13",
-    "port": 3128,
+    "ip": "210.200.169.134",
+    "port": 33333,
     "https": true,
     "anonymity": "elite",
     "score": 2,
     "geolocation": {
       "country": "TW",
-      "city": "Taipei"
+      "city": "Kaohsiung City"
+    }
+  },
+  {
+    "proxy": "socks4://220.136.25.162:5678",
+    "protocol": "socks4",
+    "ip": "220.136.25.162",
+    "port": "5678",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "TW",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks4://118.166.220.124:4145",
+    "protocol": "socks4",
+    "ip": "118.166.220.124",
+    "port": "4145",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "TW",
+      "city": "Unknown"
     }
   }
 ]
