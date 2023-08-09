@@ -1,5 +1,18 @@
 [
   {
+    "proxy": "http://38.111.111.39:80",
+    "protocol": "http",
+    "ip": "38.111.111.39",
+    "port": 80,
+    "https": true,
+    "anonymity": "elite",
+    "score": 2,
+    "geolocation": {
+      "country": "CA",
+      "city": "Toronto"
+    }
+  },
+  {
     "proxy": "http://199.243.245.94:8080",
     "protocol": "http",
     "ip": "199.243.245.94",
@@ -13,10 +26,36 @@
     }
   },
   {
+    "proxy": "http://67.43.228.251:8085",
+    "protocol": "http",
+    "ip": "67.43.228.251",
+    "port": 8085,
+    "https": true,
+    "anonymity": "elite",
+    "score": 2,
+    "geolocation": {
+      "country": "CA",
+      "city": "Montreal"
+    }
+  },
+  {
     "proxy": "socks4://70.35.213.226:4153",
     "protocol": "socks4",
     "ip": "70.35.213.226",
     "port": "4153",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CA",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks4://45.73.0.118:5678",
+    "protocol": "socks4",
+    "ip": "45.73.0.118",
+    "port": "5678",
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -130,10 +169,23 @@
     }
   },
   {
-    "proxy": "socks4://51.222.241.8:23392",
+    "proxy": "socks4://38.113.171.88:57775",
+    "protocol": "socks4",
+    "ip": "38.113.171.88",
+    "port": "57775",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CA",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks4://51.222.241.8:42378",
     "protocol": "socks4",
     "ip": "51.222.241.8",
-    "port": "23392",
+    "port": "42378",
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -238,6 +290,19 @@
     "protocol": "socks5",
     "ip": "198.8.94.174",
     "port": "39078",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CA",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://143.198.41.48:29229",
+    "protocol": "socks5",
+    "ip": "143.198.41.48",
+    "port": "29229",
     "https": false,
     "anonymity": "transparent",
     "score": 1,
