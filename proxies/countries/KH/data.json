@@ -13,16 +13,29 @@
     }
   },
   {
-    "proxy": "http://103.101.81.240:32650",
+    "proxy": "http://202.8.74.14:8080",
     "protocol": "http",
-    "ip": "103.101.81.240",
-    "port": 32650,
+    "ip": "202.8.74.14",
+    "port": 8080,
     "https": true,
     "anonymity": "elite",
     "score": 2,
     "geolocation": {
       "country": "KH",
       "city": "Phnom Penh"
+    }
+  },
+  {
+    "proxy": "socks4://103.118.47.74:4145",
+    "protocol": "socks4",
+    "ip": "103.118.47.74",
+    "port": "4145",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "KH",
+      "city": "Unknown"
     }
   },
   {
@@ -39,9 +52,22 @@
     }
   },
   {
-    "proxy": "socks4://110.235.249.8:33333",
+    "proxy": "socks4://36.37.174.80:33333",
     "protocol": "socks4",
-    "ip": "110.235.249.8",
+    "ip": "36.37.174.80",
+    "port": "33333",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "KH",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks4://45.127.155.58:33333",
+    "protocol": "socks4",
+    "ip": "45.127.155.58",
     "port": "33333",
     "https": false,
     "anonymity": "transparent",
