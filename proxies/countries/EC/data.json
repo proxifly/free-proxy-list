@@ -13,16 +13,29 @@
     }
   },
   {
-    "proxy": "http://190.152.182.150:41890",
-    "protocol": "http",
-    "ip": "190.152.182.150",
-    "port": 41890,
-    "https": true,
-    "anonymity": "elite",
-    "score": 2,
+    "proxy": "socks4://45.238.57.1:3629",
+    "protocol": "socks4",
+    "ip": "45.238.57.1",
+    "port": "3629",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
     "geolocation": {
       "country": "EC",
-      "city": "Quito"
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks4://181.211.148.26:59842",
+    "protocol": "socks4",
+    "ip": "181.211.148.26",
+    "port": "59842",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "EC",
+      "city": "Unknown"
     }
   }
 ]
