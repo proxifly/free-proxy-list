@@ -13,16 +13,29 @@
     }
   },
   {
-    "proxy": "http://95.217.68.48:80",
+    "proxy": "http://135.181.36.209:8080",
     "protocol": "http",
-    "ip": "95.217.68.48",
-    "port": 80,
+    "ip": "135.181.36.209",
+    "port": 8080,
     "https": true,
     "anonymity": "elite",
     "score": 2,
     "geolocation": {
       "country": "FI",
-      "city": "Helsinki"
+      "city": "Tuusula"
+    }
+  },
+  {
+    "proxy": "socks5://212.83.143.191:54953",
+    "protocol": "socks5",
+    "ip": "212.83.143.191",
+    "port": "54953",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "FI",
+      "city": "Unknown"
     }
   }
 ]
