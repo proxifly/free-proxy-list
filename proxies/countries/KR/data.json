@@ -1,28 +1,41 @@
 [
   {
-    "proxy": "http://115.144.99.220:11116",
+    "proxy": "http://115.144.221.125:10761",
     "protocol": "http",
-    "ip": "115.144.99.220",
-    "port": 11116,
+    "ip": "115.144.221.125",
+    "port": 10761,
     "https": true,
     "anonymity": "elite",
     "score": 2,
     "geolocation": {
       "country": "KR",
-      "city": "Mapo-gu"
+      "city": "Nowon-gu"
     }
   },
   {
-    "proxy": "http://211.106.84.247:1022",
-    "protocol": "http",
-    "ip": "211.106.84.247",
-    "port": 1022,
-    "https": true,
-    "anonymity": "elite",
-    "score": 2,
+    "proxy": "socks4://121.66.198.76:4145",
+    "protocol": "socks4",
+    "ip": "121.66.198.76",
+    "port": "4145",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
     "geolocation": {
       "country": "KR",
-      "city": "Suncheon"
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks4://106.245.183.60:4145",
+    "protocol": "socks4",
+    "ip": "106.245.183.60",
+    "port": "4145",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "KR",
+      "city": "Unknown"
     }
   }
 ]
