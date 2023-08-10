@@ -1,18 +1,5 @@
 [
   {
-    "proxy": "http://104.199.219.13:3128",
-    "protocol": "http",
-    "ip": "104.199.219.13",
-    "port": 3128,
-    "https": true,
-    "anonymity": "elite",
-    "score": 2,
-    "geolocation": {
-      "country": "TW",
-      "city": "Taipei"
-    }
-  },
-  {
     "proxy": "http://34.80.202.6:3128",
     "protocol": "http",
     "ip": "34.80.202.6",
@@ -26,49 +13,36 @@
     }
   },
   {
-    "proxy": "socks4://220.132.33.150:4145",
+    "proxy": "http://104.199.219.13:3128",
+    "protocol": "http",
+    "ip": "104.199.219.13",
+    "port": 3128,
+    "https": true,
+    "anonymity": "elite",
+    "score": 2,
+    "geolocation": {
+      "country": "TW",
+      "city": "Taipei"
+    }
+  },
+  {
+    "proxy": "socks4://103.159.88.72:29001",
     "protocol": "socks4",
-    "ip": "220.132.33.150",
+    "ip": "103.159.88.72",
+    "port": "29001",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "TW",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks4://36.224.85.91:4145",
+    "protocol": "socks4",
+    "ip": "36.224.85.91",
     "port": "4145",
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "TW",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "socks4://122.116.29.68:4145",
-    "protocol": "socks4",
-    "ip": "122.116.29.68",
-    "port": "4145",
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "TW",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "socks4://1.34.179.119:5678",
-    "protocol": "socks4",
-    "ip": "1.34.179.119",
-    "port": "5678",
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "TW",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "socks5://125.227.225.157:3389",
-    "protocol": "socks5",
-    "ip": "125.227.225.157",
-    "port": "3389",
     "https": false,
     "anonymity": "transparent",
     "score": 1,
