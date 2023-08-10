@@ -1,15 +1,28 @@
 [
   {
-    "proxy": "http://122.3.41.154:8090",
+    "proxy": "http://122.3.121.231:8082",
     "protocol": "http",
-    "ip": "122.3.41.154",
-    "port": 8090,
+    "ip": "122.3.121.231",
+    "port": 8082,
     "https": true,
     "anonymity": "elite",
     "score": 2,
     "geolocation": {
       "country": "PH",
-      "city": "Bagong Pagasa"
+      "city": "Taytay"
+    }
+  },
+  {
+    "proxy": "socks4://36.255.61.138:5678",
+    "protocol": "socks4",
+    "ip": "36.255.61.138",
+    "port": "5678",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "PH",
+      "city": "Unknown"
     }
   }
 ]
