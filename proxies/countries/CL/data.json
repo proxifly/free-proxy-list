@@ -1,9 +1,22 @@
 [
   {
-    "proxy": "http://200.111.182.6:443",
+    "proxy": "http://201.220.112.98:999",
     "protocol": "http",
-    "ip": "200.111.182.6",
-    "port": 443,
+    "ip": "201.220.112.98",
+    "port": 999,
+    "https": true,
+    "anonymity": "elite",
+    "score": 2,
+    "geolocation": {
+      "country": "CL",
+      "city": "Treguaco"
+    }
+  },
+  {
+    "proxy": "http://181.212.41.171:999",
+    "protocol": "http",
+    "ip": "181.212.41.171",
+    "port": 999,
     "https": true,
     "anonymity": "elite",
     "score": 2,
@@ -13,23 +26,23 @@
     }
   },
   {
-    "proxy": "http://201.187.70.206:999",
-    "protocol": "http",
-    "ip": "201.187.70.206",
-    "port": 999,
-    "https": true,
-    "anonymity": "elite",
-    "score": 2,
+    "proxy": "socks4://216.155.93.238:5678",
+    "protocol": "socks4",
+    "ip": "216.155.93.238",
+    "port": "5678",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
     "geolocation": {
       "country": "CL",
-      "city": "Valdivia"
+      "city": "Unknown"
     }
   },
   {
-    "proxy": "socks4://190.4.205.226:4153",
+    "proxy": "socks4://186.103.133.91:5678",
     "protocol": "socks4",
-    "ip": "190.4.205.226",
-    "port": "4153",
+    "ip": "186.103.133.91",
+    "port": "5678",
     "https": false,
     "anonymity": "transparent",
     "score": 1,
