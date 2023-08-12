@@ -1,8 +1,21 @@
 [
   {
-    "proxy": "http://181.37.126.112:999",
+    "proxy": "http://38.159.231.60:999",
     "protocol": "http",
-    "ip": "181.37.126.112",
+    "ip": "38.159.231.60",
+    "port": 999,
+    "https": true,
+    "anonymity": "elite",
+    "score": 2,
+    "geolocation": {
+      "country": "DO",
+      "city": "Santiago de los Caballeros"
+    }
+  },
+  {
+    "proxy": "http://205.233.79.250:999",
+    "protocol": "http",
+    "ip": "205.233.79.250",
     "port": 999,
     "https": true,
     "anonymity": "elite",
@@ -26,16 +39,16 @@
     }
   },
   {
-    "proxy": "http://177.52.221.106:999",
-    "protocol": "http",
-    "ip": "177.52.221.106",
-    "port": 999,
-    "https": true,
-    "anonymity": "elite",
-    "score": 2,
+    "proxy": "socks4://38.44.240.237:5678",
+    "protocol": "socks4",
+    "ip": "38.44.240.237",
+    "port": "5678",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
     "geolocation": {
       "country": "DO",
-      "city": "Santiago de los Caballeros"
+      "city": "Unknown"
     }
   }
 ]
