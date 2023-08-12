@@ -13,16 +13,16 @@
     }
   },
   {
-    "proxy": "http://83.171.205.68:8080",
-    "protocol": "http",
-    "ip": "83.171.205.68",
-    "port": 8080,
-    "https": true,
-    "anonymity": "elite",
-    "score": 2,
+    "proxy": "socks4://62.201.233.59:4145",
+    "protocol": "socks4",
+    "ip": "62.201.233.59",
+    "port": "4145",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
     "geolocation": {
       "country": "IQ",
-      "city": "Baghdad"
+      "city": "Unknown"
     }
   },
   {
@@ -39,10 +39,23 @@
     }
   },
   {
-    "proxy": "socks4://65.20.188.53:33333",
+    "proxy": "socks4://62.201.214.45:5678",
     "protocol": "socks4",
-    "ip": "65.20.188.53",
-    "port": "33333",
+    "ip": "62.201.214.45",
+    "port": "5678",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "IQ",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks4://65.20.235.3:55555",
+    "protocol": "socks4",
+    "ip": "65.20.235.3",
+    "port": "55555",
     "https": false,
     "anonymity": "transparent",
     "score": 1,
