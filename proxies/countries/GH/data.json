@@ -1,15 +1,28 @@
 [
   {
-    "proxy": "http://197.251.233.124:8080",
-    "protocol": "http",
-    "ip": "197.251.233.124",
-    "port": 8080,
-    "https": true,
-    "anonymity": "elite",
-    "score": 2,
+    "proxy": "socks4://196.29.231.1:4145",
+    "protocol": "socks4",
+    "ip": "196.29.231.1",
+    "port": "4145",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
     "geolocation": {
       "country": "GH",
-      "city": "Koforidua"
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://45.91.93.166:22965",
+    "protocol": "socks5",
+    "ip": "45.91.93.166",
+    "port": "22965",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "GH",
+      "city": "Unknown"
     }
   }
 ]
