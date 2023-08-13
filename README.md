@@ -8,16 +8,16 @@
   <img src="https://img.shields.io/github/actions/workflow/status/mertguvencli/http-proxy-list/main.yml?label=Updated%20Every%2010%20Minutes">
   <br>
   <a href="https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/all/data.txt">
-    <img src="https://img.shields.io/badge/all-754-blue">
+    <img src="https://img.shields.io/badge/all-1023-blue">
   </a>
   <a href="https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.txt">
-    <img src="https://img.shields.io/badge/http-424-blue">
+    <img src="https://img.shields.io/badge/http-471-blue">
   </a>
   <a href="https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks4/data.txt">
-    <img src="https://img.shields.io/badge/socks4-216-blue">
+    <img src="https://img.shields.io/badge/socks4-416-blue">
   </a>
   <a href="https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.txt">
-    <img src="https://img.shields.io/badge/socks5-114-blue">
+    <img src="https://img.shields.io/badge/socks5-136-blue">
   </a>
   <br>
   <!-- <img src="https://img.shields.io/librariesio/release/npm/node-powertools.svg"> -->
@@ -37,14 +37,14 @@
 # 🌎 Proxifly's Free Proxy List
 Every 10 minutes, **Proxifly** fetches fresh proxies—including **HTTP**, **SOCKS4**, and **SOCKS5** proxies—from around the web.
 
-> Proxifly found **754** working proxies from **72** countries in the latest update.
+> Proxifly found **1023** working proxies from **84** countries in the latest update.
 
 
 ## 🦄 Features
 * ⚡ Extremely fast
 * 📝 Validated every 10 minutes
 * 📓 Sorted into **HTTP**, **SOCKS4**, & **SOCKS5**
-* 🌎 Contains 72 countries
+* 🌎 Contains 84 countries
 * 📦 Available in **.json**, **.txt**, & **.csv** formats
 * 🔐 Supports HTTPS connection
 * 😊 No duplicates
@@ -63,10 +63,10 @@ Click on your preferred file format to get the updated list
 
 |Type|Count|.json|.txt|.csv|
 |----|-----|-----|----|----|
-|All Proxies|754|[JSON File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/all/data.json)|[Text File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/all/data.txt)|[CSV File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/all/data.csv)|
-|HTTP Proxies|424|[JSON File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.json)|[Text File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.txt)|[CSV File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.csv)|
-|SOCKS4 Proxies|216|[JSON File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks4/data.json)|[Text File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks4/data.txt)|[CSV File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks4/data.csv)|
-|SOCKS5 Proxies|114|[JSON File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.json)|[Text File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.txt)|[CSV File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.csv)|
+|All Proxies|1023|[JSON File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/all/data.json)|[Text File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/all/data.txt)|[CSV File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/all/data.csv)|
+|HTTP Proxies|471|[JSON File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.json)|[Text File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.txt)|[CSV File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.csv)|
+|SOCKS4 Proxies|416|[JSON File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks4/data.json)|[Text File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks4/data.txt)|[CSV File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks4/data.csv)|
+|SOCKS5 Proxies|136|[JSON File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.json)|[Text File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.txt)|[CSV File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.csv)|
 
 
 #### Other Sorted Proxies
