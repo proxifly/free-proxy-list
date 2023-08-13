@@ -1,15 +1,28 @@
 [
   {
-    "proxy": "http://62.23.184.84:8080",
+    "proxy": "http://212.23.175.80:8443",
     "protocol": "http",
-    "ip": "62.23.184.84",
-    "port": 8080,
+    "ip": "212.23.175.80",
+    "port": 8443,
     "https": true,
     "anonymity": "elite",
     "score": 2,
     "geolocation": {
       "country": "FR",
-      "city": "Paris"
+      "city": "Courbevoie"
+    }
+  },
+  {
+    "proxy": "socks5://89.58.45.94:43840",
+    "protocol": "socks5",
+    "ip": "89.58.45.94",
+    "port": "43840",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "FR",
+      "city": "Unknown"
     }
   },
   {
