@@ -1,15 +1,28 @@
 [
   {
-    "proxy": "http://195.178.56.32:8080",
+    "proxy": "http://109.111.236.70:6666",
     "protocol": "http",
-    "ip": "195.178.56.32",
-    "port": 8080,
+    "ip": "109.111.236.70",
+    "port": 6666,
     "https": true,
     "anonymity": "elite",
     "score": 2,
     "geolocation": {
       "country": "RS",
       "city": "Belgrade"
+    }
+  },
+  {
+    "proxy": "socks4://89.216.28.7:4153",
+    "protocol": "socks4",
+    "ip": "89.216.28.7",
+    "port": "4153",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "RS",
+      "city": "Unknown"
     }
   }
 ]
