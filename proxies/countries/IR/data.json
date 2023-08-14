@@ -1,15 +1,28 @@
 [
   {
-    "proxy": "http://91.241.21.237:9812",
-    "protocol": "http",
-    "ip": "91.241.21.237",
-    "port": 9812,
-    "https": true,
-    "anonymity": "elite",
-    "score": 2,
+    "proxy": "socks4://46.209.100.250:5678",
+    "protocol": "socks4",
+    "ip": "46.209.100.250",
+    "port": "5678",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
     "geolocation": {
       "country": "IR",
-      "city": "Bandar Abbas"
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks4://109.230.76.246:33333",
+    "protocol": "socks4",
+    "ip": "109.230.76.246",
+    "port": "33333",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "IR",
+      "city": "Unknown"
     }
   }
 ]
