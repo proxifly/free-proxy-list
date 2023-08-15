@@ -1,15 +1,28 @@
 [
   {
-    "proxy": "http://94.23.1.178:3128",
+    "proxy": "http://212.23.175.80:8443",
     "protocol": "http",
-    "ip": "94.23.1.178",
-    "port": 3128,
+    "ip": "212.23.175.80",
+    "port": 8443,
     "https": true,
     "anonymity": "elite",
     "score": 2,
     "geolocation": {
       "country": "FR",
-      "city": "Roubaix"
+      "city": "Courbevoie"
+    }
+  },
+  {
+    "proxy": "http://213.32.75.88:9300",
+    "protocol": "http",
+    "ip": "213.32.75.88",
+    "port": 9300,
+    "https": true,
+    "anonymity": "elite",
+    "score": 2,
+    "geolocation": {
+      "country": "FR",
+      "city": "Gravelines"
     }
   },
   {
@@ -26,6 +39,19 @@
     }
   },
   {
+    "proxy": "socks4://141.94.254.138:22521",
+    "protocol": "socks4",
+    "ip": "141.94.254.138",
+    "port": "22521",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "FR",
+      "city": "Unknown"
+    }
+  },
+  {
     "proxy": "socks4://92.205.107.238:5370",
     "protocol": "socks4",
     "ip": "92.205.107.238",
@@ -39,10 +65,23 @@
     }
   },
   {
-    "proxy": "socks4://92.205.107.238:50398",
+    "proxy": "socks4://141.94.254.138:54388",
     "protocol": "socks4",
+    "ip": "141.94.254.138",
+    "port": "54388",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "FR",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://92.205.107.238:41610",
+    "protocol": "socks5",
     "ip": "92.205.107.238",
-    "port": "50398",
+    "port": "41610",
     "https": false,
     "anonymity": "transparent",
     "score": 1,
