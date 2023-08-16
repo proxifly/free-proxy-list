@@ -1,9 +1,9 @@
 [
   {
-    "proxy": "http://67.43.228.253:28293",
+    "proxy": "http://67.43.228.253:4309",
     "protocol": "http",
     "ip": "67.43.228.253",
-    "port": 28293,
+    "port": 4309,
     "https": true,
     "anonymity": "elite",
     "score": 2,
@@ -13,16 +13,42 @@
     }
   },
   {
-    "proxy": "http://158.69.121.191:10080",
+    "proxy": "http://158.69.53.132:9300",
     "protocol": "http",
-    "ip": "158.69.121.191",
-    "port": 10080,
+    "ip": "158.69.53.132",
+    "port": 9300,
     "https": true,
     "anonymity": "elite",
     "score": 2,
     "geolocation": {
       "country": "CA",
       "city": "Montreal"
+    }
+  },
+  {
+    "proxy": "http://172.105.24.172:3128",
+    "protocol": "http",
+    "ip": "172.105.24.172",
+    "port": 3128,
+    "https": true,
+    "anonymity": "elite",
+    "score": 2,
+    "geolocation": {
+      "country": "CA",
+      "city": "Toronto"
+    }
+  },
+  {
+    "proxy": "http://51.79.50.31:9300",
+    "protocol": "http",
+    "ip": "51.79.50.31",
+    "port": 9300,
+    "https": true,
+    "anonymity": "elite",
+    "score": 2,
+    "geolocation": {
+      "country": "CA",
+      "city": "Beauharnois"
     }
   },
   {
@@ -36,19 +62,6 @@
     "geolocation": {
       "country": "CA",
       "city": "Toronto"
-    }
-  },
-  {
-    "proxy": "socks4://192.111.130.5:17002",
-    "protocol": "socks4",
-    "ip": "192.111.130.5",
-    "port": "17002",
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "CA",
-      "city": "Unknown"
     }
   },
   {
@@ -104,19 +117,6 @@
     }
   },
   {
-    "proxy": "socks4://192.111.130.2:4145",
-    "protocol": "socks4",
-    "ip": "192.111.130.2",
-    "port": "4145",
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "CA",
-      "city": "Unknown"
-    }
-  },
-  {
     "proxy": "socks4://198.8.94.170:4145",
     "protocol": "socks4",
     "ip": "198.8.94.170",
@@ -130,10 +130,10 @@
     }
   },
   {
-    "proxy": "socks4://138.197.134.114:40331",
+    "proxy": "socks4://68.71.254.6:4145",
     "protocol": "socks4",
-    "ip": "138.197.134.114",
-    "port": "40331",
+    "ip": "68.71.254.6",
+    "port": "4145",
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -211,6 +211,19 @@
     "proxy": "socks5://68.71.247.130:4145",
     "protocol": "socks5",
     "ip": "68.71.247.130",
+    "port": "4145",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CA",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://198.8.84.3:4145",
+    "protocol": "socks5",
+    "ip": "198.8.84.3",
     "port": "4145",
     "https": false,
     "anonymity": "transparent",
