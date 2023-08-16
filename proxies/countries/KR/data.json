@@ -1,9 +1,22 @@
 [
   {
-    "proxy": "http://115.144.123.219:10297",
+    "proxy": "http://115.144.221.125:10761",
     "protocol": "http",
-    "ip": "115.144.123.219",
-    "port": 10297,
+    "ip": "115.144.221.125",
+    "port": 10761,
+    "https": true,
+    "anonymity": "elite",
+    "score": 2,
+    "geolocation": {
+      "country": "KR",
+      "city": "Nowon-gu"
+    }
+  },
+  {
+    "proxy": "http://115.144.102.39:10080",
+    "protocol": "http",
+    "ip": "115.144.102.39",
+    "port": 10080,
     "https": true,
     "anonymity": "elite",
     "score": 2,
@@ -13,10 +26,23 @@
     }
   },
   {
-    "proxy": "socks5://211.223.168.24:58963",
-    "protocol": "socks5",
-    "ip": "211.223.168.24",
-    "port": "58963",
+    "proxy": "socks4://121.66.198.76:4145",
+    "protocol": "socks4",
+    "ip": "121.66.198.76",
+    "port": "4145",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "KR",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks4://175.203.138.160:5678",
+    "protocol": "socks4",
+    "ip": "175.203.138.160",
+    "port": "5678",
     "https": false,
     "anonymity": "transparent",
     "score": 1,
