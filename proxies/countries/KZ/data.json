@@ -1,18 +1,5 @@
 [
   {
-    "proxy": "http://5.188.64.240:3128",
-    "protocol": "http",
-    "ip": "5.188.64.240",
-    "port": 3128,
-    "https": true,
-    "anonymity": "elite",
-    "score": 2,
-    "geolocation": {
-      "country": "KZ",
-      "city": "Almaty"
-    }
-  },
-  {
     "proxy": "http://95.56.254.139:3128",
     "protocol": "http",
     "ip": "95.56.254.139",
@@ -23,6 +10,19 @@
     "geolocation": {
       "country": "KZ",
       "city": "Almaty"
+    }
+  },
+  {
+    "proxy": "socks4://185.215.160.27:5678",
+    "protocol": "socks4",
+    "ip": "185.215.160.27",
+    "port": "5678",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "KZ",
+      "city": "Unknown"
     }
   }
 ]
