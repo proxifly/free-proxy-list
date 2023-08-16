@@ -1,9 +1,9 @@
 [
   {
-    "proxy": "http://200.54.22.74:8080",
+    "proxy": "http://181.212.41.171:999",
     "protocol": "http",
-    "ip": "200.54.22.74",
-    "port": 8080,
+    "ip": "181.212.41.171",
+    "port": 999,
     "https": true,
     "anonymity": "elite",
     "score": 2,
@@ -13,16 +13,29 @@
     }
   },
   {
-    "proxy": "http://179.49.237.101:999",
-    "protocol": "http",
-    "ip": "179.49.237.101",
-    "port": 999,
-    "https": true,
-    "anonymity": "elite",
-    "score": 2,
+    "proxy": "socks4://190.54.12.74:5678",
+    "protocol": "socks4",
+    "ip": "190.54.12.74",
+    "port": "5678",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
     "geolocation": {
       "country": "CL",
-      "city": "Santiago"
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks4://186.67.152.107:4153",
+    "protocol": "socks4",
+    "ip": "186.67.152.107",
+    "port": "4153",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CL",
+      "city": "Unknown"
     }
   }
 ]
