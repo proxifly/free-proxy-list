@@ -13,16 +13,29 @@
     }
   },
   {
-    "proxy": "http://168.138.211.5:8080",
+    "proxy": "http://150.230.109.27:3128",
     "protocol": "http",
-    "ip": "168.138.211.5",
-    "port": 8080,
+    "ip": "150.230.109.27",
+    "port": 3128,
     "https": true,
     "anonymity": "elite",
     "score": 2,
     "geolocation": {
       "country": "JP",
       "city": "Tokyo"
+    }
+  },
+  {
+    "proxy": "socks5://43.163.205.37:15673",
+    "protocol": "socks5",
+    "ip": "43.163.205.37",
+    "port": "15673",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "JP",
+      "city": "Unknown"
     }
   }
 ]
