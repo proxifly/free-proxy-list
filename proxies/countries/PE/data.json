@@ -1,8 +1,8 @@
 [
   {
-    "proxy": "http://45.169.92.149:999",
+    "proxy": "http://45.169.92.146:999",
     "protocol": "http",
-    "ip": "45.169.92.149",
+    "ip": "45.169.92.146",
     "port": 999,
     "https": true,
     "anonymity": "elite",
@@ -10,6 +10,19 @@
     "geolocation": {
       "country": "PE",
       "city": "Lima"
+    }
+  },
+  {
+    "proxy": "socks4://204.199.174.93:5678",
+    "protocol": "socks4",
+    "ip": "204.199.174.93",
+    "port": "5678",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "PE",
+      "city": "Unknown"
     }
   }
 ]
