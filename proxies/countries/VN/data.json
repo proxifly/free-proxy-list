@@ -1,15 +1,28 @@
 [
   {
-    "proxy": "http://171.244.10.75:1911",
+    "proxy": "http://14.161.24.81:2022",
     "protocol": "http",
-    "ip": "171.244.10.75",
-    "port": 1911,
+    "ip": "14.161.24.81",
+    "port": 2022,
     "https": true,
     "anonymity": "elite",
     "score": 2,
     "geolocation": {
       "country": "VN",
-      "city": "Hanoi"
+      "city": "Ho Chi Minh City"
+    }
+  },
+  {
+    "proxy": "socks4://116.118.98.25:5678",
+    "protocol": "socks4",
+    "ip": "116.118.98.25",
+    "port": "5678",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "VN",
+      "city": "Unknown"
     }
   }
 ]
