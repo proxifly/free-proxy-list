@@ -1,5 +1,18 @@
 [
   {
+    "proxy": "http://89.20.184.90:8080",
+    "protocol": "http",
+    "ip": "89.20.184.90",
+    "port": 8080,
+    "https": true,
+    "anonymity": "elite",
+    "score": 2,
+    "geolocation": {
+      "country": "NL",
+      "city": "Maarssen"
+    }
+  },
+  {
     "proxy": "http://20.31.205.142:3128",
     "protocol": "http",
     "ip": "20.31.205.142",
@@ -10,6 +23,19 @@
     "geolocation": {
       "country": "NL",
       "city": "Amsterdam"
+    }
+  },
+  {
+    "proxy": "socks5://163.172.144.132:16379",
+    "protocol": "socks5",
+    "ip": "163.172.144.132",
+    "port": "16379",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "NL",
+      "city": "Unknown"
     }
   }
 ]
