@@ -1,8 +1,8 @@
 [
   {
-    "proxy": "http://45.236.172.173:999",
+    "proxy": "http://45.169.92.146:999",
     "protocol": "http",
-    "ip": "45.236.172.173",
+    "ip": "45.169.92.146",
     "port": 999,
     "https": true,
     "anonymity": "elite",
@@ -13,9 +13,9 @@
     }
   },
   {
-    "proxy": "http://45.169.92.150:999",
+    "proxy": "http://45.169.92.152:999",
     "protocol": "http",
-    "ip": "45.169.92.150",
+    "ip": "45.169.92.152",
     "port": 999,
     "https": true,
     "anonymity": "elite",
@@ -39,29 +39,42 @@
     }
   },
   {
-    "proxy": "http://179.43.94.237:999",
+    "proxy": "http://190.43.92.76:999",
     "protocol": "http",
-    "ip": "179.43.94.237",
+    "ip": "190.43.92.76",
     "port": 999,
     "https": true,
     "anonymity": "elite",
     "score": 2,
     "geolocation": {
       "country": "PE",
-      "city": "Arequipa"
+      "city": "Tacna"
     }
   },
   {
-    "proxy": "http://190.238.231.118:1994",
-    "protocol": "http",
-    "ip": "190.238.231.118",
-    "port": 1994,
-    "https": true,
-    "anonymity": "elite",
-    "score": 2,
+    "proxy": "socks4://45.189.108.161:8899",
+    "protocol": "socks4",
+    "ip": "45.189.108.161",
+    "port": "8899",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
     "geolocation": {
       "country": "PE",
-      "city": "Ica"
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks4://190.232.89.125:5678",
+    "protocol": "socks4",
+    "ip": "190.232.89.125",
+    "port": "5678",
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "PE",
+      "city": "Unknown"
     }
   }
 ]
