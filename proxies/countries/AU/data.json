@@ -1,15 +1,28 @@
 [
   {
-    "proxy": "http://103.169.142.0:80",
+    "proxy": "http://103.62.50.130:443",
     "protocol": "http",
-    "ip": "103.169.142.0",
-    "port": 80,
-    "https": false,
-    "anonymity": "elite",
+    "ip": "103.62.50.130",
+    "port": 443,
+    "https": true,
+    "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "AU",
-      "city": ""
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://103.62.50.130:9443",
+    "protocol": "http",
+    "ip": "103.62.50.130",
+    "port": 9443,
+    "https": true,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "AU",
+      "city": "Unknown"
     }
   },
   {
@@ -23,6 +36,32 @@
     "geolocation": {
       "country": "AU",
       "city": "Melbourne"
+    }
+  },
+  {
+    "proxy": "http://167.103.103.28:9401",
+    "protocol": "http",
+    "ip": "167.103.103.28",
+    "port": 9401,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "AU",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://103.169.142.0:80",
+    "protocol": "http",
+    "ip": "103.169.142.0",
+    "port": 80,
+    "https": false,
+    "anonymity": "elite",
+    "score": 1,
+    "geolocation": {
+      "country": "AU",
+      "city": ""
     }
   }
 ]
