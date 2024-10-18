@@ -1,9 +1,22 @@
 [
   {
-    "proxy": "socks5://31.211.142.115:8192",
-    "protocol": "socks5",
-    "ip": "31.211.142.115",
-    "port": 8192,
+    "proxy": "socks4://83.228.118.73:60606",
+    "protocol": "socks4",
+    "ip": "83.228.118.73",
+    "port": 60606,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "BG",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks4://87.121.77.130:4145",
+    "protocol": "socks4",
+    "ip": "87.121.77.130",
+    "port": 4145,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -23,19 +36,6 @@
     "geolocation": {
       "country": "BG",
       "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://212.70.154.240:8080",
-    "protocol": "http",
-    "ip": "212.70.154.240",
-    "port": 8080,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "BG",
-      "city": "Kameno"
     }
   },
   {
@@ -62,6 +62,19 @@
     "geolocation": {
       "country": "BG",
       "city": "Sofia"
+    }
+  },
+  {
+    "proxy": "http://212.70.154.240:8080",
+    "protocol": "http",
+    "ip": "212.70.154.240",
+    "port": 8080,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "BG",
+      "city": "Kameno"
     }
   }
 ]
