@@ -1,8 +1,21 @@
 [
   {
-    "proxy": "http://190.119.76.150:8080",
+    "proxy": "socks4://190.119.235.210:4153",
+    "protocol": "socks4",
+    "ip": "190.119.235.210",
+    "port": 4153,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "PE",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://161.132.39.58:8080",
     "protocol": "http",
-    "ip": "190.119.76.150",
+    "ip": "161.132.39.58",
     "port": 8080,
     "https": false,
     "anonymity": "transparent",
@@ -13,10 +26,10 @@
     }
   },
   {
-    "proxy": "http://67.43.236.20:19409",
+    "proxy": "http://38.137.203.13:999",
     "protocol": "http",
-    "ip": "67.43.236.20",
-    "port": 19409,
+    "ip": "38.137.203.13",
+    "port": 999,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -26,10 +39,10 @@
     }
   },
   {
-    "proxy": "http://67.43.236.20:13681",
+    "proxy": "http://161.132.41.36:8080",
     "protocol": "http",
-    "ip": "67.43.236.20",
-    "port": 13681,
+    "ip": "161.132.41.36",
+    "port": 8080,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -39,23 +52,10 @@
     }
   },
   {
-    "proxy": "http://67.43.228.250:7867",
+    "proxy": "http://67.43.228.252:31665",
     "protocol": "http",
-    "ip": "67.43.228.250",
-    "port": 7867,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "PE",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://72.10.160.94:23713",
-    "protocol": "http",
-    "ip": "72.10.160.94",
-    "port": 23713,
+    "ip": "67.43.228.252",
+    "port": 31665,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -69,6 +69,19 @@
     "protocol": "http",
     "ip": "72.10.160.171",
     "port": 28665,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "PE",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://67.43.227.227:5839",
+    "protocol": "http",
+    "ip": "67.43.227.227",
+    "port": 5839,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
