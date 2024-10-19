@@ -1,5 +1,18 @@
 [
   {
+    "proxy": "socks4://201.144.20.231:5678",
+    "protocol": "socks4",
+    "ip": "201.144.20.231",
+    "port": 5678,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "MX",
+      "city": "Unknown"
+    }
+  },
+  {
     "proxy": "http://159.54.145.18:443",
     "protocol": "http",
     "ip": "159.54.145.18",
@@ -135,11 +148,11 @@
     "ip": "45.175.239.8",
     "port": 999,
     "https": false,
-    "anonymity": "elite",
+    "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "MX",
-      "city": "El Arenal"
+      "city": "Unknown"
     }
   },
   {
@@ -153,6 +166,19 @@
     "geolocation": {
       "country": "MX",
       "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://201.168.199.7:999",
+    "protocol": "http",
+    "ip": "201.168.199.7",
+    "port": 999,
+    "https": false,
+    "anonymity": "elite",
+    "score": 1,
+    "geolocation": {
+      "country": "MX",
+      "city": "Zapopan"
     }
   },
   {
