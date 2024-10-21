@@ -1,5 +1,18 @@
 [
   {
+    "proxy": "socks4://124.41.213.174:5678",
+    "protocol": "socks4",
+    "ip": "124.41.213.174",
+    "port": 5678,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "NP",
+      "city": "Kathmandu"
+    }
+  },
+  {
     "proxy": "socks4://202.79.52.244:5678",
     "protocol": "socks4",
     "ip": "202.79.52.244",
@@ -13,9 +26,9 @@
     }
   },
   {
-    "proxy": "socks4://202.166.211.22:60606",
+    "proxy": "socks4://202.166.211.89:60606",
     "protocol": "socks4",
-    "ip": "202.166.211.22",
+    "ip": "202.166.211.89",
     "port": 60606,
     "https": false,
     "anonymity": "transparent",
@@ -26,9 +39,9 @@
     }
   },
   {
-    "proxy": "socks4://202.79.49.67:60606",
+    "proxy": "socks4://202.79.56.73:60606",
     "protocol": "socks4",
-    "ip": "202.79.49.67",
+    "ip": "202.79.56.73",
     "port": 60606,
     "https": false,
     "anonymity": "transparent",
@@ -39,11 +52,11 @@
     }
   },
   {
-    "proxy": "http://202.51.68.205:443",
-    "protocol": "http",
-    "ip": "202.51.68.205",
-    "port": 443,
-    "https": true,
+    "proxy": "socks4://202.166.211.14:60606",
+    "protocol": "socks4",
+    "ip": "202.166.211.14",
+    "port": 60606,
+    "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
@@ -65,16 +78,29 @@
     }
   },
   {
-    "proxy": "socks4://124.41.213.174:5678",
-    "protocol": "socks4",
-    "ip": "124.41.213.174",
-    "port": 5678,
+    "proxy": "http://202.51.68.205:443",
+    "protocol": "http",
+    "ip": "202.51.68.205",
+    "port": 443,
+    "https": true,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "NP",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://38.54.71.67:80",
+    "protocol": "http",
+    "ip": "38.54.71.67",
+    "port": 80,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "NP",
-      "city": "Kathmandu"
+      "city": "Unknown"
     }
   }
 ]
