@@ -1,9 +1,22 @@
 [
   {
-    "proxy": "http://139.180.105.99:9002",
+    "proxy": "socks4://14.1.44.33:60606",
+    "protocol": "socks4",
+    "ip": "14.1.44.33",
+    "port": 60606,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "NZ",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://72.10.160.90:1887",
     "protocol": "http",
-    "ip": "139.180.105.99",
-    "port": 9002,
+    "ip": "72.10.160.90",
+    "port": 1887,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
