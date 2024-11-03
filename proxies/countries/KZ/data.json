@@ -1235,16 +1235,29 @@
     }
   },
   {
-    "proxy": "http://213.148.10.199:3128",
+    "proxy": "socks4://109.248.236.150:60606",
+    "protocol": "socks4",
+    "ip": "109.248.236.150",
+    "port": 60606,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "KZ",
+      "city": "Kostanay"
+    }
+  },
+  {
+    "proxy": "http://31.43.179.234:80",
     "protocol": "http",
-    "ip": "213.148.10.199",
-    "port": 3128,
-    "https": true,
+    "ip": "31.43.179.234",
+    "port": 80,
+    "https": false,
     "anonymity": "elite",
     "score": 1,
     "geolocation": {
       "country": "KZ",
-      "city": "Almaty"
+      "city": ""
     }
   },
   {
@@ -4540,19 +4553,6 @@
     "proxy": "http://31.43.179.232:80",
     "protocol": "http",
     "ip": "31.43.179.232",
-    "port": 80,
-    "https": false,
-    "anonymity": "elite",
-    "score": 1,
-    "geolocation": {
-      "country": "KZ",
-      "city": ""
-    }
-  },
-  {
-    "proxy": "http://31.43.179.234:80",
-    "protocol": "http",
-    "ip": "31.43.179.234",
     "port": 80,
     "https": false,
     "anonymity": "elite",
