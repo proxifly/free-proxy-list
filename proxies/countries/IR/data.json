@@ -1,5 +1,18 @@
 [
   {
+    "proxy": "socks4://80.191.40.40:5678",
+    "protocol": "socks4",
+    "ip": "80.191.40.40",
+    "port": 5678,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "IR",
+      "city": "Unknown"
+    }
+  },
+  {
     "proxy": "http://80.249.112.162:80",
     "protocol": "http",
     "ip": "80.249.112.162",
@@ -13,10 +26,10 @@
     }
   },
   {
-    "proxy": "http://94.182.40.51:3128",
+    "proxy": "http://80.249.112.163:80",
     "protocol": "http",
-    "ip": "94.182.40.51",
-    "port": 3128,
+    "ip": "80.249.112.163",
+    "port": 80,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -30,12 +43,12 @@
     "protocol": "http",
     "ip": "185.141.134.120",
     "port": 8080,
-    "https": false,
+    "https": true,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "IR",
-      "city": "Unknown"
+      "city": "Tehran"
     }
   }
 ]
