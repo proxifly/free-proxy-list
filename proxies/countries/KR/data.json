@@ -1,18 +1,5 @@
 [
   {
-    "proxy": "socks4://211.174.99.161:4153",
-    "protocol": "socks4",
-    "ip": "211.174.99.161",
-    "port": 4153,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "KR",
-      "city": "Unknown"
-    }
-  },
-  {
     "proxy": "http://121.161.134.245:8888",
     "protocol": "http",
     "ip": "121.161.134.245",
@@ -29,6 +16,19 @@
     "proxy": "http://222.122.110.26:443",
     "protocol": "http",
     "ip": "222.122.110.26",
+    "port": 443,
+    "https": true,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "KR",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://168.126.68.80:443",
+    "protocol": "http",
+    "ip": "168.126.68.80",
     "port": 443,
     "https": true,
     "anonymity": "transparent",
@@ -65,48 +65,9 @@
     }
   },
   {
-    "proxy": "http://61.79.73.225:80",
-    "protocol": "http",
-    "ip": "61.79.73.225",
-    "port": 80,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "KR",
-      "city": "Busanjin-gu"
-    }
-  },
-  {
-    "proxy": "http://116.125.141.115:80",
-    "protocol": "http",
-    "ip": "116.125.141.115",
-    "port": 80,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "KR",
-      "city": "Unknown"
-    }
-  },
-  {
     "proxy": "http://168.126.68.80:80",
     "protocol": "http",
     "ip": "168.126.68.80",
-    "port": 80,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "KR",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://222.122.110.26:80",
-    "protocol": "http",
-    "ip": "222.122.110.26",
     "port": 80,
     "https": false,
     "anonymity": "transparent",
@@ -126,7 +87,20 @@
     "score": 1,
     "geolocation": {
       "country": "KR",
-      "city": "Unknown"
+      "city": "Haeundae-gu"
+    }
+  },
+  {
+    "proxy": "http://61.79.73.225:80",
+    "protocol": "http",
+    "ip": "61.79.73.225",
+    "port": 80,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "KR",
+      "city": "Busanjin-gu"
     }
   }
 ]
