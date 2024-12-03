@@ -1,5 +1,31 @@
 [
   {
+    "proxy": "socks5://91.229.23.62:11228",
+    "protocol": "socks5",
+    "ip": "91.229.23.62",
+    "port": 11228,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "TW",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks4://114.32.176.158:4145",
+    "protocol": "socks4",
+    "ip": "114.32.176.158",
+    "port": 4145,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "TW",
+      "city": "Unknown"
+    }
+  },
+  {
     "proxy": "socks4://125.228.143.207:4145",
     "protocol": "socks4",
     "ip": "125.228.143.207",
@@ -39,11 +65,11 @@
     }
   },
   {
-    "proxy": "http://34.81.72.31:443",
-    "protocol": "http",
-    "ip": "34.81.72.31",
-    "port": 443,
-    "https": true,
+    "proxy": "socks4://220.132.41.160:1088",
+    "protocol": "socks4",
+    "ip": "220.132.41.160",
+    "port": 1088,
+    "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
@@ -52,9 +78,9 @@
     }
   },
   {
-    "proxy": "http://182.155.254.159:443",
+    "proxy": "http://34.81.72.31:443",
     "protocol": "http",
-    "ip": "182.155.254.159",
+    "ip": "34.81.72.31",
     "port": 443,
     "https": true,
     "anonymity": "transparent",
@@ -156,88 +182,10 @@
     }
   },
   {
-    "proxy": "http://122.116.125.115:8888",
-    "protocol": "http",
-    "ip": "122.116.125.115",
-    "port": 8888,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "TW",
-      "city": "New Taipei City"
-    }
-  },
-  {
-    "proxy": "http://182.155.254.159:80",
-    "protocol": "http",
-    "ip": "182.155.254.159",
-    "port": 80,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "TW",
-      "city": "Taichung"
-    }
-  },
-  {
-    "proxy": "http://72.10.160.172:28049",
-    "protocol": "http",
-    "ip": "72.10.160.172",
-    "port": 28049,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "TW",
-      "city": "Unknown"
-    }
-  },
-  {
     "proxy": "http://67.43.236.19:3869",
     "protocol": "http",
     "ip": "67.43.236.19",
     "port": 3869,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "TW",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://210.209.237.59:80",
-    "protocol": "http",
-    "ip": "210.209.237.59",
-    "port": 80,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "TW",
-      "city": "Taichung"
-    }
-  },
-  {
-    "proxy": "http://67.43.227.227:12425",
-    "protocol": "http",
-    "ip": "67.43.227.227",
-    "port": 12425,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "TW",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://67.43.227.226:8165",
-    "protocol": "http",
-    "ip": "67.43.227.226",
-    "port": 8165,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -273,19 +221,6 @@
     }
   },
   {
-    "proxy": "http://72.10.160.90:20207",
-    "protocol": "http",
-    "ip": "72.10.160.90",
-    "port": 20207,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "TW",
-      "city": "Unknown"
-    }
-  },
-  {
     "proxy": "http://72.10.164.178:29099",
     "protocol": "http",
     "ip": "72.10.164.178",
@@ -296,6 +231,45 @@
     "geolocation": {
       "country": "TW",
       "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://182.155.254.159:80",
+    "protocol": "http",
+    "ip": "182.155.254.159",
+    "port": 80,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "TW",
+      "city": "Taichung"
+    }
+  },
+  {
+    "proxy": "http://210.209.237.59:80",
+    "protocol": "http",
+    "ip": "210.209.237.59",
+    "port": 80,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "TW",
+      "city": "Taichung"
+    }
+  },
+  {
+    "proxy": "http://122.116.125.115:8888",
+    "protocol": "http",
+    "ip": "122.116.125.115",
+    "port": 8888,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "TW",
+      "city": "New Taipei City"
     }
   }
 ]
