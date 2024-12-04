@@ -26,11 +26,24 @@
     }
   },
   {
-    "proxy": "http://122.151.54.147:443",
+    "proxy": "http://72.10.164.178:10257",
     "protocol": "http",
-    "ip": "122.151.54.147",
-    "port": 443,
-    "https": true,
+    "ip": "72.10.164.178",
+    "port": 10257,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "AU",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://72.10.160.90:7117",
+    "protocol": "http",
+    "ip": "72.10.160.90",
+    "port": 7117,
+    "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
@@ -52,16 +65,16 @@
     }
   },
   {
-    "proxy": "http://139.180.164.103:80",
+    "proxy": "http://103.169.142.0:80",
     "protocol": "http",
-    "ip": "139.180.164.103",
+    "ip": "103.169.142.0",
     "port": 80,
     "https": false,
-    "anonymity": "transparent",
+    "anonymity": "elite",
     "score": 1,
     "geolocation": {
       "country": "AU",
-      "city": "Unknown"
+      "city": ""
     }
   },
   {
@@ -75,19 +88,6 @@
     "geolocation": {
       "country": "AU",
       "city": "Sydney"
-    }
-  },
-  {
-    "proxy": "http://103.169.142.0:80",
-    "protocol": "http",
-    "ip": "103.169.142.0",
-    "port": 80,
-    "https": false,
-    "anonymity": "elite",
-    "score": 1,
-    "geolocation": {
-      "country": "AU",
-      "city": ""
     }
   }
 ]
