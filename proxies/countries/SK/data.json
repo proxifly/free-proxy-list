@@ -1,10 +1,10 @@
 [
   {
-    "proxy": "http://37.9.171.157:443",
-    "protocol": "http",
-    "ip": "37.9.171.157",
-    "port": 443,
-    "https": true,
+    "proxy": "socks4://85.248.57.129:4153",
+    "protocol": "socks4",
+    "ip": "85.248.57.129",
+    "port": 4153,
+    "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
@@ -13,11 +13,11 @@
     }
   },
   {
-    "proxy": "http://46.243.71.2:8888",
+    "proxy": "http://37.9.171.157:443",
     "protocol": "http",
-    "ip": "46.243.71.2",
-    "port": 8888,
-    "https": false,
+    "ip": "37.9.171.157",
+    "port": 443,
+    "https": true,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
@@ -36,19 +36,6 @@
     "geolocation": {
       "country": "SK",
       "city": "?ilina"
-    }
-  },
-  {
-    "proxy": "http://185.196.68.106:3128",
-    "protocol": "http",
-    "ip": "185.196.68.106",
-    "port": 3128,
-    "https": true,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "SK",
-      "city": "Bratislava"
     }
   }
 ]
