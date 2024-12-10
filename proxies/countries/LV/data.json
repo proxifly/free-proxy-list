@@ -1,9 +1,9 @@
 [
   {
-    "proxy": "http://109.205.126.6:8080",
-    "protocol": "http",
-    "ip": "109.205.126.6",
-    "port": 8080,
+    "proxy": "socks4://46.109.146.244:4145",
+    "protocol": "socks4",
+    "ip": "46.109.146.244",
+    "port": 4145,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -23,6 +23,19 @@
     "geolocation": {
       "country": "LV",
       "city": "Riga"
+    }
+  },
+  {
+    "proxy": "http://109.205.126.6:8080",
+    "protocol": "http",
+    "ip": "109.205.126.6",
+    "port": 8080,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "LV",
+      "city": "Unknown"
     }
   }
 ]
