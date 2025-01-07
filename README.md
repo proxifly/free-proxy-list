@@ -11,13 +11,13 @@
     <img src="https://img.shields.io/badge/all-15048-blue">
   </a>
   <a href="https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.txt">
-    <img src="https://img.shields.io/badge/http-11992-blue">
+    <img src="https://img.shields.io/badge/http-11991-blue">
   </a>
   <a href="https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks4/data.txt">
     <img src="https://img.shields.io/badge/socks4-455-blue">
   </a>
   <a href="https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.txt">
-    <img src="https://img.shields.io/badge/socks5-329-blue">
+    <img src="https://img.shields.io/badge/socks5-330-blue">
   </a>
   <br>
   <!-- <img src="https://img.shields.io/librariesio/release/npm/node-powertools.svg"> -->
@@ -64,11 +64,11 @@ Click on your preferred file format to get the updated list
 |Type|Count|.json|.txt|.csv|
 |----|-----|-----|----|----|
 |All Proxies|15048|[JSON File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/all/data.json)|[Text File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/all/data.txt)|[CSV File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/all/data.csv)|
-|HTTP Proxies|11992|[JSON File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.json)|[Text File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.txt)|[CSV File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.csv)|
+|HTTP Proxies|11991|[JSON File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.json)|[Text File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.txt)|[CSV File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.csv)|
 |HTTPS Proxies|2272|[JSON File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/https/data.json)|[Text File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/https/data.txt)|[CSV File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/https/data.csv)|
 |SOCKS4 Proxies|455|[JSON File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks4/data.json)|[Text File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks4/data.txt)|[CSV File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks4/data.csv)|
-|SOCKS5 Proxies|329|[JSON File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.json)|[Text File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.txt)|[CSV File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.csv)|
-|U.S. Proxies ([View More Countries](https://github.com/proxifly/free-proxy-list/tree/main/proxies/countries))|6159|[JSON File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/countries/US/data.json)|[Text File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/countries/US/data.txt)|[CSV File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/countries/US/data.csv)|
+|SOCKS5 Proxies|330|[JSON File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.json)|[Text File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.txt)|[CSV File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.csv)|
+|U.S. Proxies ([View More Countries](https://github.com/proxifly/free-proxy-list/tree/main/proxies/countries))|6161|[JSON File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/countries/US/data.json)|[Text File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/countries/US/data.txt)|[CSV File](https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/countries/US/data.csv)|
 
 
 #### Other Sorted Proxies
