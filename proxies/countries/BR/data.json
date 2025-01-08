@@ -1031,12 +1031,12 @@
     "protocol": "http",
     "ip": "200.174.198.86",
     "port": 8888,
-    "https": false,
+    "https": true,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "BR",
-      "city": "Unknown"
+      "city": "Piracicaba"
     }
   },
   {
@@ -1183,6 +1183,19 @@
     }
   },
   {
+    "proxy": "socks4://149.78.186.176:32566",
+    "protocol": "socks4",
+    "ip": "149.78.186.176",
+    "port": 32566,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "BR",
+      "city": "Barueri"
+    }
+  },
+  {
     "proxy": "http://179.96.28.58:80",
     "protocol": "http",
     "ip": "179.96.28.58",
@@ -1206,19 +1219,6 @@
     "geolocation": {
       "country": "BR",
       "city": "S?o Geraldo do Araguaia"
-    }
-  },
-  {
-    "proxy": "socks4://149.78.186.176:32566",
-    "protocol": "socks4",
-    "ip": "149.78.186.176",
-    "port": 32566,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "BR",
-      "city": "Barueri"
     }
   }
 ]
