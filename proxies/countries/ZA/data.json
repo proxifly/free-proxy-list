@@ -1,21 +1,8 @@
 [
   {
-    "proxy": "socks4://169.239.45.51:4153",
-    "protocol": "socks4",
-    "ip": "169.239.45.51",
-    "port": 4153,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "ZA",
-      "city": "Durban"
-    }
-  },
-  {
-    "proxy": "http://160.123.255.10:80",
+    "proxy": "http://160.123.255.6:80",
     "protocol": "http",
-    "ip": "160.123.255.10",
+    "ip": "160.123.255.6",
     "port": 80,
     "https": false,
     "anonymity": "elite",
@@ -26,9 +13,22 @@
     }
   },
   {
-    "proxy": "http://160.123.255.6:80",
+    "proxy": "http://160.123.255.5:80",
     "protocol": "http",
-    "ip": "160.123.255.6",
+    "ip": "160.123.255.5",
+    "port": 80,
+    "https": false,
+    "anonymity": "elite",
+    "score": 1,
+    "geolocation": {
+      "country": "ZA",
+      "city": ""
+    }
+  },
+  {
+    "proxy": "http://160.123.255.10:80",
+    "protocol": "http",
+    "ip": "160.123.255.10",
     "port": 80,
     "https": false,
     "anonymity": "elite",
@@ -65,16 +65,16 @@
     }
   },
   {
-    "proxy": "http://160.123.255.5:80",
-    "protocol": "http",
-    "ip": "160.123.255.5",
-    "port": 80,
+    "proxy": "socks4://169.239.45.51:4153",
+    "protocol": "socks4",
+    "ip": "169.239.45.51",
+    "port": 4153,
     "https": false,
-    "anonymity": "elite",
+    "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "ZA",
-      "city": ""
+      "city": "Durban"
     }
   }
 ]
