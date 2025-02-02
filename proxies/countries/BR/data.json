@@ -1,7 +1,20 @@
 [
   {
-    "proxy": "socks4://172.233.14.116:1080",
-    "protocol": "socks4",
+    "proxy": "http://45.239.175.19:8080",
+    "protocol": "http",
+    "ip": "45.239.175.19",
+    "port": 8080,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "BR",
+      "city": "Lagarto"
+    }
+  },
+  {
+    "proxy": "socks5://172.233.14.116:1080",
+    "protocol": "socks5",
     "ip": "172.233.14.116",
     "port": 1080,
     "https": false,
@@ -23,19 +36,6 @@
     "geolocation": {
       "country": "BR",
       "city": "Guaraciama"
-    }
-  },
-  {
-    "proxy": "http://45.239.175.19:8080",
-    "protocol": "http",
-    "ip": "45.239.175.19",
-    "port": 8080,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "BR",
-      "city": "Lagarto"
     }
   }
 ]
