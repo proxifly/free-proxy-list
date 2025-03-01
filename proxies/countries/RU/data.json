@@ -1,11 +1,50 @@
 [
   {
-    "proxy": "http://95.181.186.144:3128",
-    "protocol": "http",
-    "ip": "95.181.186.144",
-    "port": 3128,
-    "https": true,
+    "proxy": "socks4://31.130.127.215:5678",
+    "protocol": "socks4",
+    "ip": "31.130.127.215",
+    "port": 5678,
+    "https": false,
     "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "RU",
+      "city": ""
+    }
+  },
+  {
+    "proxy": "socks4://92.255.190.64:4153",
+    "protocol": "socks4",
+    "ip": "92.255.190.64",
+    "port": 4153,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "RU",
+      "city": "Omsk"
+    }
+  },
+  {
+    "proxy": "socks4://95.31.42.199:3629",
+    "protocol": "socks4",
+    "ip": "95.31.42.199",
+    "port": 3629,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "RU",
+      "city": "Moscow"
+    }
+  },
+  {
+    "proxy": "http://45.67.215.203:80",
+    "protocol": "http",
+    "ip": "45.67.215.203",
+    "port": 80,
+    "https": false,
+    "anonymity": "elite",
     "score": 1,
     "geolocation": {
       "country": "RU",
@@ -432,19 +471,6 @@
     "proxy": "http://185.174.138.19:80",
     "protocol": "http",
     "ip": "185.174.138.19",
-    "port": 80,
-    "https": false,
-    "anonymity": "elite",
-    "score": 1,
-    "geolocation": {
-      "country": "RU",
-      "city": ""
-    }
-  },
-  {
-    "proxy": "http://45.67.215.203:80",
-    "protocol": "http",
-    "ip": "45.67.215.203",
     "port": 80,
     "https": false,
     "anonymity": "elite",
