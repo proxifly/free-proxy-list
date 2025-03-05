@@ -1,5 +1,31 @@
 [
   {
+    "proxy": "http://31.12.75.145:80",
+    "protocol": "http",
+    "ip": "31.12.75.145",
+    "port": 80,
+    "https": false,
+    "anonymity": "elite",
+    "score": 1,
+    "geolocation": {
+      "country": "RU",
+      "city": ""
+    }
+  },
+  {
+    "proxy": "socks4://46.8.60.2:1080",
+    "protocol": "socks4",
+    "ip": "46.8.60.2",
+    "port": 1080,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "RU",
+      "city": "Krasnodar"
+    }
+  },
+  {
     "proxy": "socks5://185.46.97.75:1080",
     "protocol": "socks5",
     "ip": "185.46.97.75",
@@ -432,19 +458,6 @@
     "proxy": "http://45.8.211.110:80",
     "protocol": "http",
     "ip": "45.8.211.110",
-    "port": 80,
-    "https": false,
-    "anonymity": "elite",
-    "score": 1,
-    "geolocation": {
-      "country": "RU",
-      "city": ""
-    }
-  },
-  {
-    "proxy": "http://31.12.75.145:80",
-    "protocol": "http",
-    "ip": "31.12.75.145",
     "port": 80,
     "https": false,
     "anonymity": "elite",
