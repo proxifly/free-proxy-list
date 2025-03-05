@@ -1,11 +1,37 @@
 [
   {
-    "proxy": "http://45.8.211.9:80",
-    "protocol": "http",
-    "ip": "45.8.211.9",
-    "port": 80,
+    "proxy": "socks4://176.120.181.43:800",
+    "protocol": "socks4",
+    "ip": "176.120.181.43",
+    "port": 800,
     "https": false,
-    "anonymity": "elite",
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "RU",
+      "city": "Tver"
+    }
+  },
+  {
+    "proxy": "socks5://195.98.77.179:1080",
+    "protocol": "socks5",
+    "ip": "195.98.77.179",
+    "port": 1080,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "RU",
+      "city": "Voronezh"
+    }
+  },
+  {
+    "proxy": "socks5://178.178.2.177:1080",
+    "protocol": "socks5",
+    "ip": "178.178.2.177",
+    "port": 1080,
+    "https": false,
+    "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "RU",
@@ -26,29 +52,16 @@
     }
   },
   {
-    "proxy": "socks5://178.178.2.177:1080",
-    "protocol": "socks5",
-    "ip": "178.178.2.177",
-    "port": 1080,
+    "proxy": "http://45.8.211.9:80",
+    "protocol": "http",
+    "ip": "45.8.211.9",
+    "port": 80,
     "https": false,
-    "anonymity": "transparent",
+    "anonymity": "elite",
     "score": 1,
     "geolocation": {
       "country": "RU",
       "city": ""
-    }
-  },
-  {
-    "proxy": "socks5://195.98.77.179:1080",
-    "protocol": "socks5",
-    "ip": "195.98.77.179",
-    "port": 1080,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "RU",
-      "city": "Voronezh"
     }
   },
   {
@@ -413,32 +426,6 @@
     "geolocation": {
       "country": "RU",
       "city": ""
-    }
-  },
-  {
-    "proxy": "http://178.177.54.157:8080",
-    "protocol": "http",
-    "ip": "178.177.54.157",
-    "port": 8080,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "RU",
-      "city": ""
-    }
-  },
-  {
-    "proxy": "socks4://176.120.181.43:800",
-    "protocol": "socks4",
-    "ip": "176.120.181.43",
-    "port": 800,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "RU",
-      "city": "Tver"
     }
   }
 ]
