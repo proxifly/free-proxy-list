@@ -1,34 +1,21 @@
 [
   {
-    "proxy": "socks4://170.238.239.71:60606",
-    "protocol": "socks4",
-    "ip": "170.238.239.71",
-    "port": 60606,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "CO",
-      "city": "Buenaventura"
-    }
-  },
-  {
-    "proxy": "socks4://190.184.144.222:5678",
-    "protocol": "socks4",
-    "ip": "190.184.144.222",
-    "port": 5678,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "CO",
-      "city": "Bucaramanga"
-    }
-  },
-  {
     "proxy": "http://188.114.98.138:80",
     "protocol": "http",
     "ip": "188.114.98.138",
+    "port": 80,
+    "https": false,
+    "anonymity": "elite",
+    "score": 1,
+    "geolocation": {
+      "country": "CO",
+      "city": "Medell?n"
+    }
+  },
+  {
+    "proxy": "http://188.114.96.0:80",
+    "protocol": "http",
+    "ip": "188.114.96.0",
     "port": 80,
     "https": false,
     "anonymity": "elite",
@@ -65,16 +52,29 @@
     }
   },
   {
-    "proxy": "http://188.114.96.0:80",
-    "protocol": "http",
-    "ip": "188.114.96.0",
-    "port": 80,
+    "proxy": "socks4://170.238.239.71:60606",
+    "protocol": "socks4",
+    "ip": "170.238.239.71",
+    "port": 60606,
     "https": false,
-    "anonymity": "elite",
+    "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "CO",
-      "city": "Medell?n"
+      "city": "Buenaventura"
+    }
+  },
+  {
+    "proxy": "socks4://190.184.144.222:5678",
+    "protocol": "socks4",
+    "ip": "190.184.144.222",
+    "port": 5678,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CO",
+      "city": "Bucaramanga"
     }
   }
 ]
