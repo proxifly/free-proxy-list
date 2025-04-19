@@ -1,10 +1,10 @@
 [
   {
-    "proxy": "http://95.181.186.144:3128",
-    "protocol": "http",
-    "ip": "95.181.186.144",
+    "proxy": "socks4://195.133.250.173:3128",
+    "protocol": "socks4",
+    "ip": "195.133.250.173",
     "port": 3128,
-    "https": true,
+    "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
@@ -13,24 +13,24 @@
     }
   },
   {
-    "proxy": "socks5://46.147.65.44:61986",
-    "protocol": "socks5",
-    "ip": "46.147.65.44",
-    "port": 61986,
+    "proxy": "http://95.66.138.21:8880",
+    "protocol": "http",
+    "ip": "95.66.138.21",
+    "port": 8880,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "RU",
-      "city": "Naberezhnyye Chelny"
+      "city": "Vladimir"
     }
   },
   {
-    "proxy": "socks5://195.133.250.173:3128",
-    "protocol": "socks5",
-    "ip": "195.133.250.173",
+    "proxy": "http://95.181.186.144:3128",
+    "protocol": "http",
+    "ip": "95.181.186.144",
     "port": 3128,
-    "https": false,
+    "https": true,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
@@ -374,19 +374,6 @@
     "geolocation": {
       "country": "RU",
       "city": "Yaroslavl"
-    }
-  },
-  {
-    "proxy": "http://95.66.138.21:8880",
-    "protocol": "http",
-    "ip": "95.66.138.21",
-    "port": 8880,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "RU",
-      "city": "Vladimir"
     }
   }
 ]
