@@ -1,8 +1,21 @@
 [
   {
-    "proxy": "http://36.95.78.156:8080",
+    "proxy": "socks4://36.95.245.81:5678",
+    "protocol": "socks4",
+    "ip": "36.95.245.81",
+    "port": 5678,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "ID",
+      "city": "Bekasi"
+    }
+  },
+  {
+    "proxy": "http://160.22.92.24:8080",
     "protocol": "http",
-    "ip": "36.95.78.156",
+    "ip": "160.22.92.24",
     "port": 8080,
     "https": false,
     "anonymity": "elite",
@@ -26,29 +39,29 @@
     }
   },
   {
-    "proxy": "http://43.229.254.221:8181",
+    "proxy": "http://49.156.23.217:8077",
     "protocol": "http",
-    "ip": "43.229.254.221",
-    "port": 8181,
+    "ip": "49.156.23.217",
+    "port": 8077,
+    "https": false,
+    "anonymity": "elite",
+    "score": 1,
+    "geolocation": {
+      "country": "ID",
+      "city": "Jakarta"
+    }
+  },
+  {
+    "proxy": "http://36.95.78.156:8080",
+    "protocol": "http",
+    "ip": "36.95.78.156",
+    "port": 8080,
     "https": false,
     "anonymity": "elite",
     "score": 1,
     "geolocation": {
       "country": "ID",
       "city": ""
-    }
-  },
-  {
-    "proxy": "http://223.25.110.41:8085",
-    "protocol": "http",
-    "ip": "223.25.110.41",
-    "port": 8085,
-    "https": false,
-    "anonymity": "elite",
-    "score": 1,
-    "geolocation": {
-      "country": "ID",
-      "city": "Surabaya"
     }
   },
   {
@@ -62,19 +75,6 @@
     "geolocation": {
       "country": "ID",
       "city": "Bogor"
-    }
-  },
-  {
-    "proxy": "http://103.123.25.65:80",
-    "protocol": "http",
-    "ip": "103.123.25.65",
-    "port": 80,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "ID",
-      "city": ""
     }
   }
 ]
