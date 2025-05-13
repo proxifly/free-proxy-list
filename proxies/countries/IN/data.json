@@ -1,22 +1,9 @@
 [
   {
-    "proxy": "http://139.59.1.14:3128",
+    "proxy": "http://139.59.1.14:80",
     "protocol": "http",
     "ip": "139.59.1.14",
-    "port": 3128,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "IN",
-      "city": "Bengaluru"
-    }
-  },
-  {
-    "proxy": "http://139.59.1.14:8080",
-    "protocol": "http",
-    "ip": "139.59.1.14",
-    "port": 8080,
+    "port": 80,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -30,6 +17,45 @@
     "protocol": "socks5",
     "ip": "139.59.1.14",
     "port": 1080,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "IN",
+      "city": "Bengaluru"
+    }
+  },
+  {
+    "proxy": "socks4://45.116.230.79:4673",
+    "protocol": "socks4",
+    "ip": "45.116.230.79",
+    "port": 4673,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "IN",
+      "city": "Vyttila"
+    }
+  },
+  {
+    "proxy": "socks4://45.116.114.37:5678",
+    "protocol": "socks4",
+    "ip": "45.116.114.37",
+    "port": 5678,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "IN",
+      "city": "Salem"
+    }
+  },
+  {
+    "proxy": "http://139.59.1.14:8080",
+    "protocol": "http",
+    "ip": "139.59.1.14",
+    "port": 8080,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
