@@ -1,7 +1,7 @@
 [
   {
-    "proxy": "socks4://94.136.190.22:8080",
-    "protocol": "socks4",
+    "proxy": "socks5://94.136.190.22:8080",
+    "protocol": "socks5",
     "ip": "94.136.190.22",
     "port": 8080,
     "https": false,
@@ -10,6 +10,19 @@
     "geolocation": {
       "country": "IN",
       "city": "Mumbai"
+    }
+  },
+  {
+    "proxy": "socks5://139.59.1.14:1080",
+    "protocol": "socks5",
+    "ip": "139.59.1.14",
+    "port": 1080,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "IN",
+      "city": "Bengaluru"
     }
   },
   {
@@ -49,19 +62,6 @@
     "geolocation": {
       "country": "IN",
       "city": "Chennai"
-    }
-  },
-  {
-    "proxy": "socks5://139.59.1.14:1080",
-    "protocol": "socks5",
-    "ip": "139.59.1.14",
-    "port": 1080,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "IN",
-      "city": "Bengaluru"
     }
   }
 ]
