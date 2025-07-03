@@ -1,8 +1,21 @@
 [
   {
-    "proxy": "http://185.174.138.20:80",
+    "proxy": "socks4://46.8.60.2:1080",
+    "protocol": "socks4",
+    "ip": "46.8.60.2",
+    "port": 1080,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "RU",
+      "city": "Krasnodar"
+    }
+  },
+  {
+    "proxy": "http://185.221.160.60:80",
     "protocol": "http",
-    "ip": "185.174.138.20",
+    "ip": "185.221.160.60",
     "port": 80,
     "https": false,
     "anonymity": "elite",
@@ -19,6 +32,32 @@
     "port": 5566,
     "https": false,
     "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "RU",
+      "city": ""
+    }
+  },
+  {
+    "proxy": "http://185.174.138.20:80",
+    "protocol": "http",
+    "ip": "185.174.138.20",
+    "port": 80,
+    "https": false,
+    "anonymity": "elite",
+    "score": 1,
+    "geolocation": {
+      "country": "RU",
+      "city": ""
+    }
+  },
+  {
+    "proxy": "http://45.67.215.139:80",
+    "protocol": "http",
+    "ip": "45.67.215.139",
+    "port": 80,
+    "https": false,
+    "anonymity": "elite",
     "score": 1,
     "geolocation": {
       "country": "RU",
@@ -107,19 +146,6 @@
     "proxy": "http://31.12.75.11:80",
     "protocol": "http",
     "ip": "31.12.75.11",
-    "port": 80,
-    "https": false,
-    "anonymity": "elite",
-    "score": 1,
-    "geolocation": {
-      "country": "RU",
-      "city": ""
-    }
-  },
-  {
-    "proxy": "http://45.67.215.139:80",
-    "protocol": "http",
-    "ip": "45.67.215.139",
     "port": 80,
     "https": false,
     "anonymity": "elite",
@@ -1586,19 +1612,6 @@
     }
   },
   {
-    "proxy": "http://185.10.129.14:3128",
-    "protocol": "http",
-    "ip": "185.10.129.14",
-    "port": 3128,
-    "https": true,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "RU",
-      "city": "Yaroslavl"
-    }
-  },
-  {
     "proxy": "http://45.8.211.92:80",
     "protocol": "http",
     "ip": "45.8.211.92",
@@ -1641,19 +1654,6 @@
     "proxy": "http://46.254.93.182:80",
     "protocol": "http",
     "ip": "46.254.93.182",
-    "port": 80,
-    "https": false,
-    "anonymity": "elite",
-    "score": 1,
-    "geolocation": {
-      "country": "RU",
-      "city": ""
-    }
-  },
-  {
-    "proxy": "http://185.221.160.60:80",
-    "protocol": "http",
-    "ip": "185.221.160.60",
     "port": 80,
     "https": false,
     "anonymity": "elite",
