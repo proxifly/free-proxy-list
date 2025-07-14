@@ -1,7 +1,7 @@
 [
   {
-    "proxy": "socks5://123.143.162.221:6388",
-    "protocol": "socks5",
+    "proxy": "socks4://123.143.162.221:6388",
+    "protocol": "socks4",
     "ip": "123.143.162.221",
     "port": 6388,
     "https": false,
@@ -10,6 +10,19 @@
     "geolocation": {
       "country": "KR",
       "city": "Gangnam-gu"
+    }
+  },
+  {
+    "proxy": "http://183.109.79.187:80",
+    "protocol": "http",
+    "ip": "183.109.79.187",
+    "port": 80,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "KR",
+      "city": "Yeongdeungpo-gu"
     }
   },
   {
@@ -127,19 +140,6 @@
     "geolocation": {
       "country": "KR",
       "city": "Yongin-si"
-    }
-  },
-  {
-    "proxy": "http://146.56.162.25:80",
-    "protocol": "http",
-    "ip": "146.56.162.25",
-    "port": 80,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "KR",
-      "city": "Seoul"
     }
   }
 ]
