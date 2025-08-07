@@ -1,8 +1,21 @@
 [
   {
-    "proxy": "http://173.245.49.126:80",
+    "proxy": "socks4://51.158.70.246:16379",
+    "protocol": "socks4",
+    "ip": "51.158.70.246",
+    "port": 16379,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "FR",
+      "city": "Paris"
+    }
+  },
+  {
+    "proxy": "http://173.245.49.192:80",
     "protocol": "http",
-    "ip": "173.245.49.126",
+    "ip": "173.245.49.192",
     "port": 80,
     "https": false,
     "anonymity": "elite",
@@ -237,19 +250,6 @@
     "proxy": "socks4://51.158.117.213:16379",
     "protocol": "socks4",
     "ip": "51.158.117.213",
-    "port": 16379,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "FR",
-      "city": "Paris"
-    }
-  },
-  {
-    "proxy": "socks5://51.158.70.246:16379",
-    "protocol": "socks5",
-    "ip": "51.158.70.246",
     "port": 16379,
     "https": false,
     "anonymity": "transparent",
@@ -588,58 +588,6 @@
     "proxy": "http://173.245.49.29:80",
     "protocol": "http",
     "ip": "173.245.49.29",
-    "port": 80,
-    "https": false,
-    "anonymity": "elite",
-    "score": 1,
-    "geolocation": {
-      "country": "FR",
-      "city": "Paris"
-    }
-  },
-  {
-    "proxy": "http://173.245.49.67:80",
-    "protocol": "http",
-    "ip": "173.245.49.67",
-    "port": 80,
-    "https": false,
-    "anonymity": "elite",
-    "score": 1,
-    "geolocation": {
-      "country": "FR",
-      "city": "Paris"
-    }
-  },
-  {
-    "proxy": "http://173.245.49.47:80",
-    "protocol": "http",
-    "ip": "173.245.49.47",
-    "port": 80,
-    "https": false,
-    "anonymity": "elite",
-    "score": 1,
-    "geolocation": {
-      "country": "FR",
-      "city": "Paris"
-    }
-  },
-  {
-    "proxy": "http://173.245.49.192:80",
-    "protocol": "http",
-    "ip": "173.245.49.192",
-    "port": 80,
-    "https": false,
-    "anonymity": "elite",
-    "score": 1,
-    "geolocation": {
-      "country": "FR",
-      "city": "Paris"
-    }
-  },
-  {
-    "proxy": "http://173.245.49.103:80",
-    "protocol": "http",
-    "ip": "173.245.49.103",
     "port": 80,
     "https": false,
     "anonymity": "elite",
