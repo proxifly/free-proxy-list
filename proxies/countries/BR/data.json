@@ -1,11 +1,11 @@
 [
   {
-    "proxy": "http://45.236.66.163:8520",
-    "protocol": "http",
-    "ip": "45.236.66.163",
-    "port": 8520,
+    "proxy": "socks4://138.0.207.18:38328",
+    "protocol": "socks4",
+    "ip": "138.0.207.18",
+    "port": 38328,
     "https": false,
-    "anonymity": "elite",
+    "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "BR",
@@ -26,12 +26,25 @@
     }
   },
   {
-    "proxy": "socks4://138.0.207.18:38328",
-    "protocol": "socks4",
-    "ip": "138.0.207.18",
-    "port": 38328,
+    "proxy": "http://179.96.28.58:80",
+    "protocol": "http",
+    "ip": "179.96.28.58",
+    "port": 80,
     "https": false,
     "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "BR",
+      "city": "Goi?nia"
+    }
+  },
+  {
+    "proxy": "http://45.236.66.163:8520",
+    "protocol": "http",
+    "ip": "45.236.66.163",
+    "port": 8520,
+    "https": false,
+    "anonymity": "elite",
     "score": 1,
     "geolocation": {
       "country": "BR",
@@ -49,19 +62,6 @@
     "geolocation": {
       "country": "BR",
       "city": "S?o Jo?o do Pacu?"
-    }
-  },
-  {
-    "proxy": "http://179.96.28.58:80",
-    "protocol": "http",
-    "ip": "179.96.28.58",
-    "port": 80,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "BR",
-      "city": "Goi?nia"
     }
   }
 ]
