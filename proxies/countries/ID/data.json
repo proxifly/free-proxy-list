@@ -13,12 +13,38 @@
     }
   },
   {
-    "proxy": "http://45.123.142.146:8181",
-    "protocol": "http",
-    "ip": "45.123.142.146",
-    "port": 8181,
+    "proxy": "socks4://103.244.107.106:1080",
+    "protocol": "socks4",
+    "ip": "103.244.107.106",
+    "port": 1080,
     "https": false,
-    "anonymity": "elite",
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "ID",
+      "city": ""
+    }
+  },
+  {
+    "proxy": "http://202.137.14.57:8085",
+    "protocol": "http",
+    "ip": "202.137.14.57",
+    "port": 8085,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "ID",
+      "city": "Bekasi"
+    }
+  },
+  {
+    "proxy": "http://210.87.125.146:8090",
+    "protocol": "http",
+    "ip": "210.87.125.146",
+    "port": 8090,
+    "https": false,
+    "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "ID",
@@ -36,32 +62,6 @@
     "geolocation": {
       "country": "ID",
       "city": ""
-    }
-  },
-  {
-    "proxy": "socks5://103.171.83.25:10810",
-    "protocol": "socks5",
-    "ip": "103.171.83.25",
-    "port": 10810,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "ID",
-      "city": ""
-    }
-  },
-  {
-    "proxy": "socks5://103.130.183.165:8199",
-    "protocol": "socks5",
-    "ip": "103.130.183.165",
-    "port": 8199,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "ID",
-      "city": "Jakarta"
     }
   }
 ]
