@@ -1,9 +1,35 @@
 [
   {
+    "proxy": "http://103.172.42.183:2525",
+    "protocol": "http",
+    "ip": "103.172.42.183",
+    "port": 2525,
+    "https": false,
+    "anonymity": "elite",
+    "score": 1,
+    "geolocation": {
+      "country": "ID",
+      "city": ""
+    }
+  },
+  {
     "proxy": "http://103.65.237.92:5678",
     "protocol": "http",
     "ip": "103.65.237.92",
     "port": 5678,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "ID",
+      "city": ""
+    }
+  },
+  {
+    "proxy": "socks5://103.174.178.138:1144",
+    "protocol": "socks5",
+    "ip": "103.174.178.138",
+    "port": 1144,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -49,19 +75,6 @@
     "geolocation": {
       "country": "ID",
       "city": "Jakarta"
-    }
-  },
-  {
-    "proxy": "http://163.61.55.113:7777",
-    "protocol": "http",
-    "ip": "163.61.55.113",
-    "port": 7777,
-    "https": false,
-    "anonymity": "elite",
-    "score": 1,
-    "geolocation": {
-      "country": "ID",
-      "city": "Probolinggo"
     }
   }
 ]
