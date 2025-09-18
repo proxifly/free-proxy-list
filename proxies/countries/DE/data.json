@@ -1,11 +1,24 @@
 [
   {
-    "proxy": "socks5://43.157.34.94:1777",
+    "proxy": "socks5://43.131.9.114:1777",
     "protocol": "socks5",
-    "ip": "43.157.34.94",
+    "ip": "43.131.9.114",
     "port": 1777,
     "https": false,
     "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "DE",
+      "city": "Frankfurt am Main"
+    }
+  },
+  {
+    "proxy": "http://47.91.65.23:3128",
+    "protocol": "http",
+    "ip": "47.91.65.23",
+    "port": 3128,
+    "https": false,
+    "anonymity": "elite",
     "score": 1,
     "geolocation": {
       "country": "DE",
@@ -91,19 +104,6 @@
     }
   },
   {
-    "proxy": "socks5://43.131.9.114:1777",
-    "protocol": "socks5",
-    "ip": "43.131.9.114",
-    "port": 1777,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "DE",
-      "city": "Frankfurt am Main"
-    }
-  },
-  {
     "proxy": "http://80.150.50.226:80",
     "protocol": "http",
     "ip": "80.150.50.226",
@@ -114,19 +114,6 @@
     "geolocation": {
       "country": "DE",
       "city": "Bakum"
-    }
-  },
-  {
-    "proxy": "http://47.91.65.23:3128",
-    "protocol": "http",
-    "ip": "47.91.65.23",
-    "port": 3128,
-    "https": false,
-    "anonymity": "elite",
-    "score": 1,
-    "geolocation": {
-      "country": "DE",
-      "city": "Frankfurt am Main"
     }
   }
 ]
