@@ -1,7 +1,7 @@
 [
   {
-    "proxy": "socks4://143.110.190.60:1080",
-    "protocol": "socks4",
+    "proxy": "socks5://143.110.190.60:1080",
+    "protocol": "socks5",
     "ip": "143.110.190.60",
     "port": 1080,
     "https": false,
@@ -13,10 +13,23 @@
     }
   },
   {
-    "proxy": "socks4://64.227.131.240:1080",
-    "protocol": "socks4",
-    "ip": "64.227.131.240",
-    "port": 1080,
+    "proxy": "http://49.207.36.81:80",
+    "protocol": "http",
+    "ip": "49.207.36.81",
+    "port": 80,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "IN",
+      "city": "Chennai"
+    }
+  },
+  {
+    "proxy": "http://139.59.1.14:8080",
+    "protocol": "http",
+    "ip": "139.59.1.14",
+    "port": 8080,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -26,16 +39,16 @@
     }
   },
   {
-    "proxy": "socks4://139.59.24.173:1080",
-    "protocol": "socks4",
-    "ip": "139.59.24.173",
-    "port": 1080,
+    "proxy": "http://202.179.93.132:58080",
+    "protocol": "http",
+    "ip": "202.179.93.132",
+    "port": 58080,
     "https": false,
-    "anonymity": "transparent",
+    "anonymity": "elite",
     "score": 1,
     "geolocation": {
       "country": "IN",
-      "city": "Bengaluru"
+      "city": "Mumbai"
     }
   },
   {
@@ -65,19 +78,6 @@
     }
   },
   {
-    "proxy": "http://49.207.36.81:80",
-    "protocol": "http",
-    "ip": "49.207.36.81",
-    "port": 80,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "IN",
-      "city": "Chennai"
-    }
-  },
-  {
     "proxy": "http://65.1.148.157:80",
     "protocol": "http",
     "ip": "65.1.148.157",
@@ -88,19 +88,6 @@
     "geolocation": {
       "country": "IN",
       "city": "Mumbai"
-    }
-  },
-  {
-    "proxy": "http://139.59.1.14:8080",
-    "protocol": "http",
-    "ip": "139.59.1.14",
-    "port": 8080,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "IN",
-      "city": "Bengaluru"
     }
   },
   {
