@@ -1,8 +1,34 @@
 [
   {
-    "proxy": "http://23.227.38.145:80",
+    "proxy": "socks4://198.8.84.3:4145",
+    "protocol": "socks4",
+    "ip": "198.8.84.3",
+    "port": 4145,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CA",
+      "city": ""
+    }
+  },
+  {
+    "proxy": "socks4://192.111.130.5:17002",
+    "protocol": "socks4",
+    "ip": "192.111.130.5",
+    "port": 17002,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CA",
+      "city": "Oakville"
+    }
+  },
+  {
+    "proxy": "http://23.227.39.113:80",
     "protocol": "http",
-    "ip": "23.227.38.145",
+    "ip": "23.227.39.113",
     "port": 80,
     "https": false,
     "anonymity": "elite",
@@ -26,19 +52,6 @@
     }
   },
   {
-    "proxy": "socks4://198.8.84.3:4145",
-    "protocol": "socks4",
-    "ip": "198.8.84.3",
-    "port": 4145,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "CA",
-      "city": ""
-    }
-  },
-  {
     "proxy": "socks4://192.111.129.145:16894",
     "protocol": "socks4",
     "ip": "192.111.129.145",
@@ -49,19 +62,6 @@
     "geolocation": {
       "country": "CA",
       "city": "Toronto"
-    }
-  },
-  {
-    "proxy": "socks4://192.111.130.5:17002",
-    "protocol": "socks4",
-    "ip": "192.111.130.5",
-    "port": 17002,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "CA",
-      "city": "Oakville"
     }
   },
   {
@@ -104,10 +104,10 @@
     }
   },
   {
-    "proxy": "socks4://192.252.214.20:15864",
+    "proxy": "socks4://192.252.215.5:16137",
     "protocol": "socks4",
-    "ip": "192.252.214.20",
-    "port": 15864,
+    "ip": "192.252.215.5",
+    "port": 16137,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -117,10 +117,10 @@
     }
   },
   {
-    "proxy": "socks4://192.252.215.5:16137",
+    "proxy": "socks4://192.252.214.20:15864",
     "protocol": "socks4",
-    "ip": "192.252.215.5",
-    "port": 16137,
+    "ip": "192.252.214.20",
+    "port": 15864,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
