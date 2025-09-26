@@ -1,15 +1,28 @@
 [
   {
-    "proxy": "http://45.167.126.169:999",
-    "protocol": "http",
-    "ip": "45.167.126.169",
-    "port": 999,
+    "proxy": "socks4://186.1.181.2:60606",
+    "protocol": "socks4",
+    "ip": "186.1.181.2",
+    "port": 60606,
     "https": false,
-    "anonymity": "elite",
+    "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "CO",
-      "city": "Popay?n"
+      "city": "Santa Marta"
+    }
+  },
+  {
+    "proxy": "socks4://181.48.217.158:5678",
+    "protocol": "socks4",
+    "ip": "181.48.217.158",
+    "port": 5678,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CO",
+      "city": "Bogot?"
     }
   },
   {
@@ -23,6 +36,32 @@
     "geolocation": {
       "country": "CO",
       "city": "Santiago de Cali"
+    }
+  },
+  {
+    "proxy": "http://181.78.75.13:999",
+    "protocol": "http",
+    "ip": "181.78.75.13",
+    "port": 999,
+    "https": false,
+    "anonymity": "elite",
+    "score": 1,
+    "geolocation": {
+      "country": "CO",
+      "city": "Bogot?"
+    }
+  },
+  {
+    "proxy": "http://45.167.126.169:999",
+    "protocol": "http",
+    "ip": "45.167.126.169",
+    "port": 999,
+    "https": false,
+    "anonymity": "elite",
+    "score": 1,
+    "geolocation": {
+      "country": "CO",
+      "city": "Popay?n"
     }
   }
 ]
