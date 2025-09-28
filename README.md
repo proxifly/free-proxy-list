@@ -37,7 +37,7 @@
 # 🌎 Proxifly's Free Proxy List
 Every 5 minutes, **Proxifly** fetches fresh proxies—including **HTTP**, **HTTPS**, **SOCKS4**, and **SOCKS5** proxies—from around the web.
 
-> Proxifly found **603** working proxies from **44** countries in the latest update (**Sep 28, 2025, 03:18 PM UTC**).
+> Proxifly found **603** working proxies from **44** countries in the latest update (**Sep 28, 2025, 03:28 PM UTC**).
 
 ## 🦄 Features
 * ⚡ Extremely fast
