@@ -1,9 +1,9 @@
 [
   {
-    "proxy": "http://57.129.81.201:999",
+    "proxy": "http://161.35.70.249:3128",
     "protocol": "http",
-    "ip": "57.129.81.201",
-    "port": 999,
+    "ip": "161.35.70.249",
+    "port": 3128,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -26,16 +26,29 @@
     }
   },
   {
-    "proxy": "http://80.74.54.148:3128",
+    "proxy": "http://57.129.81.201:999",
     "protocol": "http",
-    "ip": "80.74.54.148",
-    "port": 3128,
+    "ip": "57.129.81.201",
+    "port": 999,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "DE",
-      "city": "Wachtendonk"
+      "city": "Frankfurt am Main"
+    }
+  },
+  {
+    "proxy": "http://161.35.70.249:8080",
+    "protocol": "http",
+    "ip": "161.35.70.249",
+    "port": 8080,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "DE",
+      "city": "Frankfurt am Main"
     }
   },
   {
@@ -52,9 +65,87 @@
     }
   },
   {
-    "proxy": "http://46.249.100.124:80",
+    "proxy": "http://89.58.57.45:80",
     "protocol": "http",
-    "ip": "46.249.100.124",
+    "ip": "89.58.57.45",
+    "port": 80,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "DE",
+      "city": "Nuremberg"
+    }
+  },
+  {
+    "proxy": "http://47.91.65.23:3128",
+    "protocol": "http",
+    "ip": "47.91.65.23",
+    "port": 3128,
+    "https": false,
+    "anonymity": "elite",
+    "score": 1,
+    "geolocation": {
+      "country": "DE",
+      "city": "Frankfurt am Main"
+    }
+  },
+  {
+    "proxy": "http://80.74.54.148:3128",
+    "protocol": "http",
+    "ip": "80.74.54.148",
+    "port": 3128,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "DE",
+      "city": "Wachtendonk"
+    }
+  },
+  {
+    "proxy": "socks4://57.129.81.201:1080",
+    "protocol": "socks4",
+    "ip": "57.129.81.201",
+    "port": 1080,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "DE",
+      "city": "Frankfurt am Main"
+    }
+  },
+  {
+    "proxy": "socks4://206.189.57.182:1080",
+    "protocol": "socks4",
+    "ip": "206.189.57.182",
+    "port": 1080,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "DE",
+      "city": "Frankfurt am Main"
+    }
+  },
+  {
+    "proxy": "http://94.130.177.190:9999",
+    "protocol": "http",
+    "ip": "94.130.177.190",
+    "port": 9999,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "DE",
+      "city": "Nuremberg"
+    }
+  },
+  {
+    "proxy": "http://18.194.195.73:80",
+    "protocol": "http",
+    "ip": "18.194.195.73",
     "port": 80,
     "https": false,
     "anonymity": "transparent",
@@ -91,19 +182,6 @@
     }
   },
   {
-    "proxy": "socks5://206.189.57.182:1080",
-    "protocol": "socks5",
-    "ip": "206.189.57.182",
-    "port": 1080,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "DE",
-      "city": "Frankfurt am Main"
-    }
-  },
-  {
     "proxy": "http://128.140.113.110:5678",
     "protocol": "http",
     "ip": "128.140.113.110",
@@ -114,84 +192,6 @@
     "geolocation": {
       "country": "DE",
       "city": "Falkenstein"
-    }
-  },
-  {
-    "proxy": "http://45.80.111.91:80",
-    "protocol": "http",
-    "ip": "45.80.111.91",
-    "port": 80,
-    "https": false,
-    "anonymity": "elite",
-    "score": 1,
-    "geolocation": {
-      "country": "DE",
-      "city": ""
-    }
-  },
-  {
-    "proxy": "socks4://57.129.81.201:1080",
-    "protocol": "socks4",
-    "ip": "57.129.81.201",
-    "port": 1080,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "DE",
-      "city": "Frankfurt am Main"
-    }
-  },
-  {
-    "proxy": "http://161.35.70.249:8080",
-    "protocol": "http",
-    "ip": "161.35.70.249",
-    "port": 8080,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "DE",
-      "city": "Frankfurt am Main"
-    }
-  },
-  {
-    "proxy": "http://89.58.55.33:80",
-    "protocol": "http",
-    "ip": "89.58.55.33",
-    "port": 80,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "DE",
-      "city": "Nuremberg"
-    }
-  },
-  {
-    "proxy": "http://47.91.65.23:3128",
-    "protocol": "http",
-    "ip": "47.91.65.23",
-    "port": 3128,
-    "https": false,
-    "anonymity": "elite",
-    "score": 1,
-    "geolocation": {
-      "country": "DE",
-      "city": "Frankfurt am Main"
-    }
-  },
-  {
-    "proxy": "http://18.194.195.73:80",
-    "protocol": "http",
-    "ip": "18.194.195.73",
-    "port": 80,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "DE",
-      "city": "Frankfurt am Main"
     }
   }
 ]
