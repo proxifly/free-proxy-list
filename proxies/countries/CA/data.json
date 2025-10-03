@@ -1,8 +1,21 @@
 [
   {
-    "proxy": "http://23.227.39.194:80",
+    "proxy": "socks4://192.111.129.150:4145",
+    "protocol": "socks4",
+    "ip": "192.111.129.150",
+    "port": 4145,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CA",
+      "city": "North York"
+    }
+  },
+  {
+    "proxy": "http://23.227.39.140:80",
     "protocol": "http",
-    "ip": "23.227.39.194",
+    "ip": "23.227.39.140",
     "port": 80,
     "https": false,
     "anonymity": "elite",
@@ -13,9 +26,9 @@
     }
   },
   {
-    "proxy": "http://23.227.39.199:80",
+    "proxy": "http://23.227.39.232:80",
     "protocol": "http",
-    "ip": "23.227.39.199",
+    "ip": "23.227.39.232",
     "port": 80,
     "https": false,
     "anonymity": "elite",
@@ -192,58 +205,6 @@
     "geolocation": {
       "country": "CA",
       "city": ""
-    }
-  },
-  {
-    "proxy": "socks4://192.111.129.150:4145",
-    "protocol": "socks4",
-    "ip": "192.111.129.150",
-    "port": 4145,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "CA",
-      "city": "North York"
-    }
-  },
-  {
-    "proxy": "http://23.227.39.146:80",
-    "protocol": "http",
-    "ip": "23.227.39.146",
-    "port": 80,
-    "https": false,
-    "anonymity": "elite",
-    "score": 1,
-    "geolocation": {
-      "country": "CA",
-      "city": "Ottawa"
-    }
-  },
-  {
-    "proxy": "http://23.227.39.140:80",
-    "protocol": "http",
-    "ip": "23.227.39.140",
-    "port": 80,
-    "https": false,
-    "anonymity": "elite",
-    "score": 1,
-    "geolocation": {
-      "country": "CA",
-      "city": "Ottawa"
-    }
-  },
-  {
-    "proxy": "http://23.227.39.43:80",
-    "protocol": "http",
-    "ip": "23.227.39.43",
-    "port": 80,
-    "https": false,
-    "anonymity": "elite",
-    "score": 1,
-    "geolocation": {
-      "country": "CA",
-      "city": "Ottawa"
     }
   }
 ]
