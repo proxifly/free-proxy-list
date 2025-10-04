@@ -1,8 +1,21 @@
 [
   {
-    "proxy": "http://23.227.39.144:80",
+    "proxy": "socks4://192.252.215.5:16137",
+    "protocol": "socks4",
+    "ip": "192.252.215.5",
+    "port": 16137,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CA",
+      "city": "Toronto"
+    }
+  },
+  {
+    "proxy": "http://23.227.39.24:80",
     "protocol": "http",
-    "ip": "23.227.39.144",
+    "ip": "23.227.39.24",
     "port": 80,
     "https": false,
     "anonymity": "elite",
@@ -296,19 +309,6 @@
     "geolocation": {
       "country": "CA",
       "city": "Calgary"
-    }
-  },
-  {
-    "proxy": "socks4://192.252.215.5:16137",
-    "protocol": "socks4",
-    "ip": "192.252.215.5",
-    "port": 16137,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "CA",
-      "city": "Toronto"
     }
   }
 ]
