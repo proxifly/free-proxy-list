@@ -1,7 +1,7 @@
 [
   {
-    "proxy": "socks5://206.189.57.182:1080",
-    "protocol": "socks5",
+    "proxy": "socks4://206.189.57.182:1080",
+    "protocol": "socks4",
     "ip": "206.189.57.182",
     "port": 1080,
     "https": false,
@@ -10,6 +10,19 @@
     "geolocation": {
       "country": "DE",
       "city": "Frankfurt am Main"
+    }
+  },
+  {
+    "proxy": "http://89.58.55.33:80",
+    "protocol": "http",
+    "ip": "89.58.55.33",
+    "port": 80,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "DE",
+      "city": "Nuremberg"
     }
   },
   {
@@ -127,19 +140,6 @@
     "geolocation": {
       "country": "DE",
       "city": "Falkenstein"
-    }
-  },
-  {
-    "proxy": "http://89.58.55.33:80",
-    "protocol": "http",
-    "ip": "89.58.55.33",
-    "port": 80,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "DE",
-      "city": "Nuremberg"
     }
   }
 ]
