@@ -1,15 +1,41 @@
 [
   {
-    "proxy": "http://45.80.111.193:80",
+    "proxy": "socks4://206.189.57.182:1080",
+    "protocol": "socks4",
+    "ip": "206.189.57.182",
+    "port": 1080,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "DE",
+      "city": "Frankfurt am Main"
+    }
+  },
+  {
+    "proxy": "http://57.129.29.184:1080",
     "protocol": "http",
-    "ip": "45.80.111.193",
-    "port": 80,
+    "ip": "57.129.29.184",
+    "port": 1080,
     "https": false,
     "anonymity": "elite",
     "score": 1,
     "geolocation": {
       "country": "DE",
-      "city": ""
+      "city": "Frankfurt am Main"
+    }
+  },
+  {
+    "proxy": "http://62.171.159.232:8888",
+    "protocol": "http",
+    "ip": "62.171.159.232",
+    "port": 8888,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "DE",
+      "city": "Frankfurt am Main"
     }
   },
   {
@@ -88,19 +114,6 @@
     "geolocation": {
       "country": "DE",
       "city": "R?dermark"
-    }
-  },
-  {
-    "proxy": "socks4://206.189.57.182:1080",
-    "protocol": "socks4",
-    "ip": "206.189.57.182",
-    "port": 1080,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "DE",
-      "city": "Frankfurt am Main"
     }
   }
 ]
