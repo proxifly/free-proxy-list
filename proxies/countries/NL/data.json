@@ -1,8 +1,21 @@
 [
   {
-    "proxy": "http://45.131.208.56:80",
+    "proxy": "socks4://144.124.228.87:1080",
+    "protocol": "socks4",
+    "ip": "144.124.228.87",
+    "port": 1080,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "NL",
+      "city": "Amsterdam"
+    }
+  },
+  {
+    "proxy": "http://45.131.4.124:80",
     "protocol": "http",
-    "ip": "45.131.208.56",
+    "ip": "45.131.4.124",
     "port": 80,
     "https": false,
     "anonymity": "elite",
@@ -13,9 +26,9 @@
     }
   },
   {
-    "proxy": "http://188.114.96.81:80",
+    "proxy": "http://188.114.97.95:80",
     "protocol": "http",
-    "ip": "188.114.96.81",
+    "ip": "188.114.97.95",
     "port": 80,
     "https": false,
     "anonymity": "elite",
