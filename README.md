@@ -37,7 +37,7 @@
 # 🌎 Proxifly's Free Proxy List
 Every 5 minutes, **Proxifly** fetches fresh proxies—including **HTTP**, **HTTPS**, **SOCKS4**, and **SOCKS5** proxies—from around the web.
 
-> Proxifly found **283** working proxies from **39** countries in the latest update (**Oct 10, 2025, 01:46 AM UTC**).
+> Proxifly found **283** working proxies from **39** countries in the latest update (**Oct 10, 2025, 02:06 AM UTC**).
 
 ## 🦄 Features
 * ⚡ Extremely fast
@@ -53,22 +53,24 @@ Every 5 minutes, **Proxifly** fetches fresh proxies—including **HTTP**, **HTTP
 ## 📦 Usage
 There are so many ways to get our free proxies.
 
-You can just download the whole list as a `.txt` file, or you can even use the **Proxifly NPM module** to fetch proxies into your application programatically.
+<!-- You can just download the whole list as a `.txt` file, or you can even use the **Proxifly NPM module** to fetch proxies into your application programatically.
 
-Proxifly sorts the proxies by protocol and country, but you can also just get the whole unsorted list too.
+Proxifly sorts the proxies by protocol and country, but you can also just get the whole unsorted list too. -->
 
 
 ### 👑 Download From Our Website
 Scrape directly from our website's [free proxy list](https://proxifly.dev/tools/proxy-list/).
 
+[![View Free Proxy List](https://flat.badgen.net/badge/label/Download%20from%20Website?icon=chrome&color=4285F4&label=&labelColor=4285F4&scale=1.5)](https://proxifly.dev/tools/proxy-list/)
+
+
 
 ### 💎 Download in our Scraping Software
 Get proxies with our free [proxy scraper software](https://proxifly.dev/download).
 
-[![Windows](https://img.shields.io/badge/-Windows_x64-blue.svg?style=for-the-badge&logo=windows)](https://proxifly.dev/download?download=windows)
-[![MacOS](https://img.shields.io/badge/-MacOS-lightblue.svg?style=for-the-badge&logo=apple)](https://proxifly.dev/download?download=macos)
-[![Unix](https://img.shields.io/badge/-Linux/BSD-red.svg?style=for-the-badge&logo=linux)](https://proxifly.dev/download?download=linux)
-[![All versions](https://img.shields.io/badge/-All_Versions-lightgrey.svg?style=for-the-badge)](https://proxifly.dev/download?download=null)
+[![Windows](https://flat.badgen.net/badge/label/Windows?icon=windows&color=blue&label=&labelColor=blue&scale=1.5)](https://proxifly.dev/download?download=windows)
+[![MacOS](https://flat.badgen.net/badge/label/MacOS?icon=apple&color=black&label=&labelColor=black&scale=1.5)](https://proxifly.dev/download?download=macos)
+[![Linux](https://flat.badgen.net/badge/label/Linux?icon=terminal&color=orange&label=&labelColor=orange&scale=1.5)](https://proxifly.dev/download?download=linux)
 
 
 ### 🔗 Direct Download Links
