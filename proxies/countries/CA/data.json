@@ -1,8 +1,21 @@
 [
   {
-    "proxy": "http://23.227.39.32:80",
+    "proxy": "socks5://159.203.61.169:1080",
+    "protocol": "socks5",
+    "ip": "159.203.61.169",
+    "port": 1080,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CA",
+      "city": "Toronto"
+    }
+  },
+  {
+    "proxy": "http://23.227.38.116:80",
     "protocol": "http",
-    "ip": "23.227.39.32",
+    "ip": "23.227.38.116",
     "port": 80,
     "https": false,
     "anonymity": "elite",
@@ -273,19 +286,6 @@
     }
   },
   {
-    "proxy": "socks5://159.203.61.169:1080",
-    "protocol": "socks5",
-    "ip": "159.203.61.169",
-    "port": 1080,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "CA",
-      "city": "Toronto"
-    }
-  },
-  {
     "proxy": "http://23.227.38.198:80",
     "protocol": "http",
     "ip": "23.227.38.198",
@@ -348,32 +348,6 @@
     "geolocation": {
       "country": "CA",
       "city": "Calgary"
-    }
-  },
-  {
-    "proxy": "http://23.227.39.148:80",
-    "protocol": "http",
-    "ip": "23.227.39.148",
-    "port": 80,
-    "https": false,
-    "anonymity": "elite",
-    "score": 1,
-    "geolocation": {
-      "country": "CA",
-      "city": "Ottawa"
-    }
-  },
-  {
-    "proxy": "http://23.227.39.220:80",
-    "protocol": "http",
-    "ip": "23.227.39.220",
-    "port": 80,
-    "https": false,
-    "anonymity": "elite",
-    "score": 1,
-    "geolocation": {
-      "country": "CA",
-      "city": ""
     }
   }
 ]
