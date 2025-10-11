@@ -1,8 +1,21 @@
 [
   {
-    "proxy": "http://89.116.250.227:80",
+    "proxy": "socks4://213.197.136.218:5678",
+    "protocol": "socks4",
+    "ip": "213.197.136.218",
+    "port": 5678,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "LT",
+      "city": "Vilnius"
+    }
+  },
+  {
+    "proxy": "http://89.116.250.140:80",
     "protocol": "http",
-    "ip": "89.116.250.227",
+    "ip": "89.116.250.140",
     "port": 80,
     "https": false,
     "anonymity": "elite",
@@ -13,9 +26,9 @@
     }
   },
   {
-    "proxy": "http://89.116.250.140:80",
+    "proxy": "http://89.116.250.227:80",
     "protocol": "http",
-    "ip": "89.116.250.140",
+    "ip": "89.116.250.227",
     "port": 80,
     "https": false,
     "anonymity": "elite",
