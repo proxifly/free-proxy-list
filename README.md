@@ -40,7 +40,7 @@
 # 🌎 Proxifly's Free Proxy List
 Every 5 minutes, **Proxifly** fetches fresh proxies—including **HTTP**, **HTTPS**, **SOCKS4**, and **SOCKS5** proxies—from around the web.
 
-> Proxifly found **2952** working proxies from **87** countries in the latest update (**Oct 15, 2025, 10:14 AM UTC**).
+> Proxifly found **2952** working proxies from **87** countries in the latest update (**Oct 15, 2025, 10:20 AM UTC**).
 
 ## 🦄 Features
 * ⚡ Extremely fast
@@ -51,7 +51,9 @@ Every 5 minutes, **Proxifly** fetches fresh proxies—including **HTTP**, **HTTP
 * 🔐 Supports HTTPS connection
 * 😊 No duplicates
 
-## 📦 Usage
+## 📦 How do I Use the Proxies?
+You have a few different options for getting the proxies:
+
 <!-- There are so many ways to get our free proxies. -->
 
 <!-- You can just download the whole list as a `.txt` file, or you can even use the **Proxifly NPM module** to fetch proxies into your application programatically.
@@ -92,10 +94,12 @@ Click on your preferred file format to get the updated list
 Easily fetch updated proxies in your application with the official **Proxifly NPM module**.
 
 ```shell
+# Run this command to install the module:
 npm install proxifly
 ```
 
 ```js
+// Import and initialize the Proxifly module:
 const proxifly = new (require('proxifly'))({
   // Not required, but having one removes limits (get your key at https://proxifly.dev).
   apiKey: 'api_test_key'
@@ -103,6 +107,7 @@ const proxifly = new (require('proxifly'))({
 ```
 
 ```js
+// Fetch proxies with your desired options:
 var options = {
   protocol: 'http', // http | socks4 | socks5
   anonymity: 'elite', // transparent | anonymous | elite
