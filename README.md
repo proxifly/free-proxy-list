@@ -40,7 +40,7 @@
 # 🌎 Proxifly's Free Proxy List
 Every 5 minutes, **Proxifly** fetches fresh proxies—including **HTTP**, **HTTPS**, **SOCKS4**, and **SOCKS5** proxies—from around the web.
 
-> Proxifly found **2952** working proxies from **87** countries in the latest update (**Oct 15, 2025, 10:20 AM UTC**).
+> Proxifly found **2952** working proxies from **87** countries in the latest update (**Oct 15, 2025, 10:22 AM UTC**).
 
 ## 🦄 Features
 * ⚡ Extremely fast
@@ -60,6 +60,7 @@ You have a few different options for getting the proxies:
 
 Proxifly sorts the proxies by protocol and country, but you can also just get the whole unsorted list too. -->
 
+🛑 Please follow the [GitHub Acceptable Use Policy](https://docs.github.com/en/site-policy/acceptable-use-policies/github-acceptable-use-policies) when using this project. You should use these proxies responsibly, without abusing them, and without intent to commit illegal activity.
 
 ### 👑 Download From our Website: [Free Proxy List](https://proxifly.dev/tools/proxy-list)
 [![View Free Proxy List](https://flat.badgen.net/badge/label/Download%20from%20Website?icon=chrome&color=4285F4&label=&labelColor=4285F4&scale=1.5)](https://proxifly.dev/tools/proxy-list)
@@ -71,8 +72,6 @@ Proxifly sorts the proxies by protocol and country, but you can also just get th
 [![MacOS](https://flat.badgen.net/badge/label/MacOS?icon=apple&color=black&label=&labelColor=black&scale=1.5)](https://proxifly.dev/download?download=macos)
 [![Linux](https://flat.badgen.net/badge/label/Linux?icon=terminal&color=orange&label=&labelColor=orange&scale=1.5)](https://proxifly.dev/download?download=linux)
 
-
-### 🛑 Please follow the [GitHub Acceptable Use Policy](https://docs.github.com/en/site-policy/acceptable-use-policies/github-acceptable-use-policies) when using this project. You should use these proxies responsibly, without abusing them, and without intent to commit illegal activity.
 
 ### 🔗 Direct Download Links
 Click on your preferred file format to get the updated list
