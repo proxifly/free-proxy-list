@@ -1,10 +1,23 @@
 [
   {
-    "proxy": "http://183.109.79.187:443",
-    "protocol": "http",
-    "ip": "183.109.79.187",
-    "port": 443,
-    "https": true,
+    "proxy": "socks5://121.169.46.116:1090",
+    "protocol": "socks5",
+    "ip": "121.169.46.116",
+    "port": 1090,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "KR",
+      "city": "Osan"
+    }
+  },
+  {
+    "proxy": "socks5://185.93.89.181:8023",
+    "protocol": "socks5",
+    "ip": "185.93.89.181",
+    "port": 8023,
+    "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
@@ -26,32 +39,6 @@
     }
   },
   {
-    "proxy": "http://220.116.142.217:80",
-    "protocol": "http",
-    "ip": "220.116.142.217",
-    "port": 80,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "KR",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://61.79.72.201:80",
-    "protocol": "http",
-    "ip": "61.79.72.201",
-    "port": 80,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "KR",
-      "city": "Unknown"
-    }
-  },
-  {
     "proxy": "http://112.216.83.10:3128",
     "protocol": "http",
     "ip": "112.216.83.10",
@@ -65,16 +52,29 @@
     }
   },
   {
-    "proxy": "socks5://121.169.46.116:1090",
-    "protocol": "socks5",
-    "ip": "121.169.46.116",
-    "port": 1090,
+    "proxy": "http://121.177.104.201:3160",
+    "protocol": "http",
+    "ip": "121.177.104.201",
+    "port": 3160,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "KR",
-      "city": "Osan"
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://72.10.164.178:7165",
+    "protocol": "http",
+    "ip": "72.10.164.178",
+    "port": 7165,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "KR",
+      "city": "Unknown"
     }
   }
 ]
