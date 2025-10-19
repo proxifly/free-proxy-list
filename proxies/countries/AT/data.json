@@ -1,10 +1,10 @@
 [
   {
-    "proxy": "http://45.91.94.197:443",
-    "protocol": "http",
-    "ip": "45.91.94.197",
-    "port": 443,
-    "https": true,
+    "proxy": "socks4://83.218.186.22:5678",
+    "protocol": "socks4",
+    "ip": "83.218.186.22",
+    "port": 5678,
+    "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
@@ -13,11 +13,11 @@
     }
   },
   {
-    "proxy": "http://89.26.83.25:8080",
+    "proxy": "http://45.91.94.197:443",
     "protocol": "http",
-    "ip": "89.26.83.25",
-    "port": 8080,
-    "https": false,
+    "ip": "45.91.94.197",
+    "port": 443,
+    "https": true,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
@@ -36,19 +36,6 @@
     "geolocation": {
       "country": "AT",
       "city": "Altenberg bei Linz"
-    }
-  },
-  {
-    "proxy": "http://212.183.88.192:80",
-    "protocol": "http",
-    "ip": "212.183.88.192",
-    "port": 80,
-    "https": false,
-    "anonymity": "elite",
-    "score": 1,
-    "geolocation": {
-      "country": "AT",
-      "city": "M?dling"
     }
   }
 ]
