@@ -1,10 +1,36 @@
 [
   {
-    "proxy": "http://149.57.28.9:9443",
-    "protocol": "http",
-    "ip": "149.57.28.9",
-    "port": 9443,
-    "https": true,
+    "proxy": "socks4://192.111.129.150:4145",
+    "protocol": "socks4",
+    "ip": "192.111.129.150",
+    "port": 4145,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CA",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks4://143.110.217.153:1080",
+    "protocol": "socks4",
+    "ip": "143.110.217.153",
+    "port": 1080,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CA",
+      "city": "Toronto"
+    }
+  },
+  {
+    "proxy": "socks4://45.138.69.30:562",
+    "protocol": "socks4",
+    "ip": "45.138.69.30",
+    "port": 562,
+    "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
@@ -65,6 +91,19 @@
     }
   },
   {
+    "proxy": "http://148.113.172.51:8080",
+    "protocol": "http",
+    "ip": "148.113.172.51",
+    "port": 8080,
+    "https": false,
+    "anonymity": "elite",
+    "score": 1,
+    "geolocation": {
+      "country": "CA",
+      "city": ""
+    }
+  },
+  {
     "proxy": "http://4.206.212.39:3128",
     "protocol": "http",
     "ip": "4.206.212.39",
@@ -101,19 +140,6 @@
     "geolocation": {
       "country": "CA",
       "city": "Ottawa"
-    }
-  },
-  {
-    "proxy": "socks4://143.110.217.153:1080",
-    "protocol": "socks4",
-    "ip": "143.110.217.153",
-    "port": 1080,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "CA",
-      "city": "Toronto"
     }
   },
   {
@@ -199,19 +225,6 @@
     "protocol": "http",
     "ip": "23.227.38.160",
     "port": 80,
-    "https": false,
-    "anonymity": "elite",
-    "score": 1,
-    "geolocation": {
-      "country": "CA",
-      "city": ""
-    }
-  },
-  {
-    "proxy": "http://148.113.172.51:8080",
-    "protocol": "http",
-    "ip": "148.113.172.51",
-    "port": 8080,
     "https": false,
     "anonymity": "elite",
     "score": 1,
