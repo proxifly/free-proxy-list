@@ -1,9 +1,22 @@
 [
   {
-    "proxy": "socks5://24.37.120.42:1080",
+    "proxy": "socks5://152.53.36.101:22059",
     "protocol": "socks5",
-    "ip": "24.37.120.42",
-    "port": 1080,
+    "ip": "152.53.36.101",
+    "port": 22059,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CA",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks4://45.138.69.35:563",
+    "protocol": "socks4",
+    "ip": "45.138.69.35",
+    "port": 563,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -16,19 +29,6 @@
     "proxy": "http://149.57.28.9:9443",
     "protocol": "http",
     "ip": "149.57.28.9",
-    "port": 9443,
-    "https": true,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "CA",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://149.57.28.10:9443",
-    "protocol": "http",
-    "ip": "149.57.28.10",
     "port": 9443,
     "https": true,
     "anonymity": "transparent",
@@ -88,6 +88,19 @@
     "geolocation": {
       "country": "CA",
       "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://23.227.39.126:80",
+    "protocol": "http",
+    "ip": "23.227.39.126",
+    "port": 80,
+    "https": false,
+    "anonymity": "elite",
+    "score": 1,
+    "geolocation": {
+      "country": "CA",
+      "city": "Ottawa"
     }
   },
   {
@@ -341,32 +354,6 @@
     "proxy": "http://23.227.39.140:80",
     "protocol": "http",
     "ip": "23.227.39.140",
-    "port": 80,
-    "https": false,
-    "anonymity": "elite",
-    "score": 1,
-    "geolocation": {
-      "country": "CA",
-      "city": "Ottawa"
-    }
-  },
-  {
-    "proxy": "http://23.227.38.192:80",
-    "protocol": "http",
-    "ip": "23.227.38.192",
-    "port": 80,
-    "https": false,
-    "anonymity": "elite",
-    "score": 1,
-    "geolocation": {
-      "country": "CA",
-      "city": ""
-    }
-  },
-  {
-    "proxy": "http://23.227.39.126:80",
-    "protocol": "http",
-    "ip": "23.227.39.126",
     "port": 80,
     "https": false,
     "anonymity": "elite",
