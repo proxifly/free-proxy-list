@@ -52,8 +52,21 @@
     }
   },
   {
-    "proxy": "socks4://65.109.27.32:1080",
-    "protocol": "socks4",
+    "proxy": "http://65.108.203.37:18080",
+    "protocol": "http",
+    "ip": "65.108.203.37",
+    "port": 18080,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "FI",
+      "city": "Helsinki"
+    }
+  },
+  {
+    "proxy": "socks5://65.109.27.32:1080",
+    "protocol": "socks5",
     "ip": "65.109.27.32",
     "port": 1080,
     "https": false,
