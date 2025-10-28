@@ -1,15 +1,28 @@
 [
   {
-    "proxy": "http://38.156.73.154:8080",
+    "proxy": "socks4://176.236.14.2:4153",
+    "protocol": "socks4",
+    "ip": "176.236.14.2",
+    "port": 4153,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "TR",
+      "city": "Aydin"
+    }
+  },
+  {
+    "proxy": "http://213.74.255.14:8080",
     "protocol": "http",
-    "ip": "38.156.73.154",
+    "ip": "213.74.255.14",
     "port": 8080,
     "https": false,
     "anonymity": "elite",
     "score": 1,
     "geolocation": {
       "country": "TR",
-      "city": "Antakya"
+      "city": "Istanbul"
     }
   }
 ]
