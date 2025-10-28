@@ -1,8 +1,21 @@
 [
   {
-    "proxy": "http://185.162.229.10:80",
+    "proxy": "socks4://81.16.9.222:3629",
+    "protocol": "socks4",
+    "ip": "81.16.9.222",
+    "port": 3629,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "AM",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://185.162.230.165:80",
     "protocol": "http",
-    "ip": "185.162.229.10",
+    "ip": "185.162.230.165",
     "port": 80,
     "https": false,
     "anonymity": "elite",
