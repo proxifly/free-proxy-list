@@ -13,11 +13,11 @@
     }
   },
   {
-    "proxy": "http://1.234.23.159:443",
-    "protocol": "http",
-    "ip": "1.234.23.159",
-    "port": 443,
-    "https": true,
+    "proxy": "socks4://150.230.249.42:42311",
+    "protocol": "socks4",
+    "ip": "150.230.249.42",
+    "port": 42311,
+    "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
@@ -26,9 +26,9 @@
     }
   },
   {
-    "proxy": "http://61.79.72.201:443",
+    "proxy": "http://1.234.23.159:443",
     "protocol": "http",
-    "ip": "61.79.72.201",
+    "ip": "1.234.23.159",
     "port": 443,
     "https": true,
     "anonymity": "transparent",
@@ -65,6 +65,19 @@
     }
   },
   {
+    "proxy": "http://72.10.160.90:13081",
+    "protocol": "http",
+    "ip": "72.10.160.90",
+    "port": 13081,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "KR",
+      "city": "Unknown"
+    }
+  },
+  {
     "proxy": "socks4://8.220.194.115:1080",
     "protocol": "socks4",
     "ip": "8.220.194.115",
@@ -88,19 +101,6 @@
     "geolocation": {
       "country": "KR",
       "city": "Seongdong-gu"
-    }
-  },
-  {
-    "proxy": "http://146.56.162.25:80",
-    "protocol": "http",
-    "ip": "146.56.162.25",
-    "port": 80,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "KR",
-      "city": "Seoul"
     }
   }
 ]
