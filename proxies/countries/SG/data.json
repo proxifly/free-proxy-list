@@ -1,18 +1,5 @@
 [
   {
-    "proxy": "socks5://47.237.64.190:1100",
-    "protocol": "socks5",
-    "ip": "47.237.64.190",
-    "port": 1100,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "SG",
-      "city": "Unknown"
-    }
-  },
-  {
     "proxy": "http://184.168.123.21:443",
     "protocol": "http",
     "ip": "184.168.123.21",
@@ -29,6 +16,19 @@
     "proxy": "http://128.199.207.200:443",
     "protocol": "http",
     "ip": "128.199.207.200",
+    "port": 443,
+    "https": true,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "SG",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://51.79.173.71:443",
+    "protocol": "http",
+    "ip": "51.79.173.71",
     "port": 443,
     "https": true,
     "anonymity": "transparent",
@@ -56,6 +56,19 @@
     "protocol": "http",
     "ip": "128.199.195.19",
     "port": 8888,
+    "https": true,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "SG",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://165.225.113.220:11680",
+    "protocol": "http",
+    "ip": "165.225.113.220",
+    "port": 11680,
     "https": true,
     "anonymity": "transparent",
     "score": 1,
@@ -143,19 +156,6 @@
     }
   },
   {
-    "proxy": "http://103.210.22.17:3128",
-    "protocol": "http",
-    "ip": "103.210.22.17",
-    "port": 3128,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "SG",
-      "city": "Unknown"
-    }
-  },
-  {
     "proxy": "http://140.245.102.185:3128",
     "protocol": "http",
     "ip": "140.245.102.185",
@@ -182,12 +182,12 @@
     }
   },
   {
-    "proxy": "http://206.238.239.250:80",
-    "protocol": "http",
-    "ip": "206.238.239.250",
-    "port": 80,
+    "proxy": "socks4://34.124.190.108:8080",
+    "protocol": "socks4",
+    "ip": "34.124.190.108",
+    "port": 8080,
     "https": false,
-    "anonymity": "elite",
+    "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "SG",
