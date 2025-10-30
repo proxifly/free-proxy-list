@@ -1,10 +1,23 @@
 [
   {
-    "proxy": "http://183.109.79.187:443",
-    "protocol": "http",
-    "ip": "183.109.79.187",
-    "port": 443,
-    "https": true,
+    "proxy": "socks5://121.169.46.116:1090",
+    "protocol": "socks5",
+    "ip": "121.169.46.116",
+    "port": 1090,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "KR",
+      "city": "Osan"
+    }
+  },
+  {
+    "proxy": "socks4://175.203.138.160:5678",
+    "protocol": "socks4",
+    "ip": "175.203.138.160",
+    "port": 5678,
+    "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
@@ -26,35 +39,9 @@
     }
   },
   {
-    "proxy": "http://61.79.72.201:443",
-    "protocol": "http",
-    "ip": "61.79.72.201",
-    "port": 443,
-    "https": true,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "KR",
-      "city": "Unknown"
-    }
-  },
-  {
     "proxy": "http://183.109.79.187:80",
     "protocol": "http",
     "ip": "183.109.79.187",
-    "port": 80,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "KR",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://220.116.142.217:80",
-    "protocol": "http",
-    "ip": "220.116.142.217",
     "port": 80,
     "https": false,
     "anonymity": "transparent",
@@ -91,29 +78,16 @@
     }
   },
   {
-    "proxy": "http://193.123.237.191:8080",
-    "protocol": "http",
-    "ip": "193.123.237.191",
-    "port": 8080,
+    "proxy": "socks4://146.56.150.146:32241",
+    "protocol": "socks4",
+    "ip": "146.56.150.146",
+    "port": 32241,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "KR",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "socks5://121.169.46.116:1090",
-    "protocol": "socks5",
-    "ip": "121.169.46.116",
-    "port": 1090,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "KR",
-      "city": "Osan"
+      "city": "Seoul"
     }
   },
   {
