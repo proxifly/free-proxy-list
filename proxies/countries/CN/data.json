@@ -1,9 +1,22 @@
 [
   {
-    "proxy": "http://220.197.44.36:3128",
-    "protocol": "http",
-    "ip": "220.197.44.36",
-    "port": 3128,
+    "proxy": "socks5://103.216.253.50:20000",
+    "protocol": "socks5",
+    "ip": "103.216.253.50",
+    "port": 20000,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CN",
+      "city": ""
+    }
+  },
+  {
+    "proxy": "socks5://58.219.244.102:8989",
+    "protocol": "socks5",
+    "ip": "58.219.244.102",
+    "port": 8989,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -13,16 +26,42 @@
     }
   },
   {
-    "proxy": "http://39.185.41.193:5911",
+    "proxy": "http://121.237.181.137:8888",
     "protocol": "http",
-    "ip": "39.185.41.193",
-    "port": 5911,
+    "ip": "121.237.181.137",
+    "port": 8888,
     "https": false,
     "anonymity": "elite",
     "score": 1,
     "geolocation": {
       "country": "CN",
-      "city": "Ningbo"
+      "city": ""
+    }
+  },
+  {
+    "proxy": "http://58.216.109.17:800",
+    "protocol": "http",
+    "ip": "58.216.109.17",
+    "port": 800,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CN",
+      "city": ""
+    }
+  },
+  {
+    "proxy": "http://113.108.13.120:8083",
+    "protocol": "http",
+    "ip": "113.108.13.120",
+    "port": 8083,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CN",
+      "city": ""
     }
   },
   {
@@ -43,19 +82,6 @@
     "protocol": "socks5",
     "ip": "221.202.27.194",
     "port": 10807,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "CN",
-      "city": ""
-    }
-  },
-  {
-    "proxy": "socks5://103.216.253.50:20000",
-    "protocol": "socks5",
-    "ip": "103.216.253.50",
-    "port": 20000,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -117,19 +143,6 @@
     }
   },
   {
-    "proxy": "http://121.237.181.137:8888",
-    "protocol": "http",
-    "ip": "121.237.181.137",
-    "port": 8888,
-    "https": false,
-    "anonymity": "elite",
-    "score": 1,
-    "geolocation": {
-      "country": "CN",
-      "city": ""
-    }
-  },
-  {
     "proxy": "http://221.231.13.198:1080",
     "protocol": "http",
     "ip": "221.231.13.198",
@@ -153,6 +166,19 @@
     "geolocation": {
       "country": "CN",
       "city": ""
+    }
+  },
+  {
+    "proxy": "http://39.185.41.193:5911",
+    "protocol": "http",
+    "ip": "39.185.41.193",
+    "port": 5911,
+    "https": false,
+    "anonymity": "elite",
+    "score": 1,
+    "geolocation": {
+      "country": "CN",
+      "city": "Ningbo"
     }
   },
   {
@@ -231,32 +257,6 @@
     "geolocation": {
       "country": "CN",
       "city": "Shangqiu"
-    }
-  },
-  {
-    "proxy": "http://58.216.109.17:800",
-    "protocol": "http",
-    "ip": "58.216.109.17",
-    "port": 800,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "CN",
-      "city": ""
-    }
-  },
-  {
-    "proxy": "http://113.108.13.120:8083",
-    "protocol": "http",
-    "ip": "113.108.13.120",
-    "port": 8083,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "CN",
-      "city": ""
     }
   }
 ]
