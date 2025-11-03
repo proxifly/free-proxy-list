@@ -1,31 +1,5 @@
 [
   {
-    "proxy": "http://1.234.23.159:443",
-    "protocol": "http",
-    "ip": "1.234.23.159",
-    "port": 443,
-    "https": true,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "KR",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://183.109.79.187:80",
-    "protocol": "http",
-    "ip": "183.109.79.187",
-    "port": 80,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "KR",
-      "city": "Yeongdeungpo-gu"
-    }
-  },
-  {
     "proxy": "socks5://121.169.46.116:1090",
     "protocol": "socks5",
     "ip": "121.169.46.116",
@@ -39,16 +13,29 @@
     }
   },
   {
-    "proxy": "socks4://8.220.194.115:1080",
-    "protocol": "socks4",
-    "ip": "8.220.194.115",
-    "port": 1080,
+    "proxy": "http://1.234.23.159:443",
+    "protocol": "http",
+    "ip": "1.234.23.159",
+    "port": 443,
+    "https": true,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "KR",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://67.43.228.254:2747",
+    "protocol": "http",
+    "ip": "67.43.228.254",
+    "port": 2747,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "KR",
-      "city": "Seoul"
+      "city": "Unknown"
     }
   }
 ]
