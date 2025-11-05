@@ -13,10 +13,23 @@
     }
   },
   {
-    "proxy": "http://200.40.90.2:8080",
+    "proxy": "socks4://200.125.40.38:5678",
+    "protocol": "socks4",
+    "ip": "200.125.40.38",
+    "port": 5678,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "UY",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://72.10.160.170:17723",
     "protocol": "http",
-    "ip": "200.40.90.2",
-    "port": 8080,
+    "ip": "72.10.160.170",
+    "port": 17723,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
