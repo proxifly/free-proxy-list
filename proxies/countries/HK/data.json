@@ -1,5 +1,18 @@
 [
   {
+    "proxy": "socks5://47.239.10.198:1111",
+    "protocol": "socks5",
+    "ip": "47.239.10.198",
+    "port": 1111,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "HK",
+      "city": "Unknown"
+    }
+  },
+  {
     "proxy": "socks5://183.232.157.102:1011",
     "protocol": "socks5",
     "ip": "183.232.157.102",
@@ -26,49 +39,10 @@
     }
   },
   {
-    "proxy": "socks5://121.199.77.230:6890",
-    "protocol": "socks5",
-    "ip": "121.199.77.230",
-    "port": 6890,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "HK",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "socks5://8.217.23.241:1024",
-    "protocol": "socks5",
-    "ip": "8.217.23.241",
-    "port": 1024,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "HK",
-      "city": "Unknown"
-    }
-  },
-  {
     "proxy": "socks5://152.53.171.242:28443",
     "protocol": "socks5",
     "ip": "152.53.171.242",
     "port": 28443,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "HK",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "socks5://89.58.45.94:54737",
-    "protocol": "socks5",
-    "ip": "89.58.45.94",
-    "port": 54737,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -95,19 +69,6 @@
     "protocol": "http",
     "ip": "47.242.121.18",
     "port": 8443,
-    "https": true,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "HK",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://43.135.36.240:443",
-    "protocol": "http",
-    "ip": "43.135.36.240",
-    "port": 443,
     "https": true,
     "anonymity": "transparent",
     "score": 1,
@@ -169,10 +130,10 @@
     }
   },
   {
-    "proxy": "http://43.135.36.240:6555",
+    "proxy": "http://43.135.36.240:80",
     "protocol": "http",
     "ip": "43.135.36.240",
-    "port": 6555,
+    "port": 80,
     "https": false,
     "anonymity": "elite",
     "score": 1,
@@ -182,10 +143,10 @@
     }
   },
   {
-    "proxy": "http://43.135.36.240:80",
+    "proxy": "http://43.135.36.240:6555",
     "protocol": "http",
     "ip": "43.135.36.240",
-    "port": 80,
+    "port": 6555,
     "https": false,
     "anonymity": "elite",
     "score": 1,
