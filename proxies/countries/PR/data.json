@@ -13,23 +13,36 @@
     }
   },
   {
-    "proxy": "http://192.203.0.254:999",
-    "protocol": "http",
-    "ip": "192.203.0.254",
-    "port": 999,
+    "proxy": "socks4://67.206.213.202:55555",
+    "protocol": "socks4",
+    "ip": "67.206.213.202",
+    "port": 55555,
     "https": false,
-    "anonymity": "elite",
+    "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "PR",
-      "city": "Humacao"
+      "city": "Unknown"
     }
   },
   {
-    "proxy": "http://72.50.33.170:999",
+    "proxy": "http://192.203.0.62:999",
     "protocol": "http",
-    "ip": "72.50.33.170",
+    "ip": "192.203.0.62",
     "port": 999,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "PR",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://198.52.243.21:9999",
+    "protocol": "http",
+    "ip": "198.52.243.21",
+    "port": 9999,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -49,6 +62,19 @@
     "geolocation": {
       "country": "PR",
       "city": "San Juan"
+    }
+  },
+  {
+    "proxy": "http://192.203.0.254:999",
+    "protocol": "http",
+    "ip": "192.203.0.254",
+    "port": 999,
+    "https": false,
+    "anonymity": "elite",
+    "score": 1,
+    "geolocation": {
+      "country": "PR",
+      "city": "Humacao"
     }
   }
 ]
