@@ -1,11 +1,24 @@
 [
   {
-    "proxy": "http://77.105.137.42:8080",
-    "protocol": "http",
-    "ip": "77.105.137.42",
+    "proxy": "socks4://77.246.100.210:8080",
+    "protocol": "socks4",
+    "ip": "77.246.100.210",
     "port": 8080,
     "https": false,
     "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "NL",
+      "city": "Amsterdam"
+    }
+  },
+  {
+    "proxy": "http://45.131.209.162:80",
+    "protocol": "http",
+    "ip": "45.131.209.162",
+    "port": 80,
+    "https": false,
+    "anonymity": "elite",
     "score": 1,
     "geolocation": {
       "country": "NL",
