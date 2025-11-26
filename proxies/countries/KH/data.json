@@ -1,9 +1,22 @@
 [
   {
-    "proxy": "http://203.95.199.159:8080",
-    "protocol": "http",
-    "ip": "203.95.199.159",
-    "port": 8080,
+    "proxy": "socks4://202.84.76.190:5678",
+    "protocol": "socks4",
+    "ip": "202.84.76.190",
+    "port": 5678,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "KH",
+      "city": "Phnom Penh"
+    }
+  },
+  {
+    "proxy": "socks4://110.74.195.152:1080",
+    "protocol": "socks4",
+    "ip": "110.74.195.152",
+    "port": 1080,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -26,10 +39,10 @@
     }
   },
   {
-    "proxy": "http://72.10.164.178:32213",
+    "proxy": "http://203.95.196.40:8080",
     "protocol": "http",
-    "ip": "72.10.164.178",
-    "port": 32213,
+    "ip": "203.95.196.40",
+    "port": 8080,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -39,9 +52,9 @@
     }
   },
   {
-    "proxy": "http://103.17.214.186:8080",
+    "proxy": "http://50.114.33.134:8080",
     "protocol": "http",
-    "ip": "103.17.214.186",
+    "ip": "50.114.33.134",
     "port": 8080,
     "https": false,
     "anonymity": "transparent",
@@ -91,23 +104,10 @@
     }
   },
   {
-    "proxy": "http://72.10.160.171:11621",
+    "proxy": "http://203.95.196.196:8080",
     "protocol": "http",
-    "ip": "72.10.160.171",
-    "port": 11621,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "KH",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://72.10.160.173:11621",
-    "protocol": "http",
-    "ip": "72.10.160.173",
-    "port": 11621,
+    "ip": "203.95.196.196",
+    "port": 8080,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -127,19 +127,6 @@
     "geolocation": {
       "country": "KH",
       "city": ""
-    }
-  },
-  {
-    "proxy": "socks4://202.84.76.190:5678",
-    "protocol": "socks4",
-    "ip": "202.84.76.190",
-    "port": 5678,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "KH",
-      "city": "Phnom Penh"
     }
   }
 ]
