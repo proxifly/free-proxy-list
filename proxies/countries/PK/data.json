@@ -13,10 +13,23 @@
     }
   },
   {
-    "proxy": "http://103.253.18.6:8080",
+    "proxy": "socks4://58.65.167.165:4145",
+    "protocol": "socks4",
+    "ip": "58.65.167.165",
+    "port": 4145,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "PK",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://67.43.228.253:20583",
     "protocol": "http",
-    "ip": "103.253.18.6",
-    "port": 8080,
+    "ip": "67.43.228.253",
+    "port": 20583,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
