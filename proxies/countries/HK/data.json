@@ -13,10 +13,10 @@
     }
   },
   {
-    "proxy": "socks5://47.243.94.125:1080",
-    "protocol": "socks5",
-    "ip": "47.243.94.125",
-    "port": 1080,
+    "proxy": "socks4://118.145.198.145:10808",
+    "protocol": "socks4",
+    "ip": "118.145.198.145",
+    "port": 10808,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -43,6 +43,19 @@
     "protocol": "http",
     "ip": "47.242.121.18",
     "port": 8443,
+    "https": true,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "HK",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://43.135.36.240:443",
+    "protocol": "http",
+    "ip": "43.135.36.240",
+    "port": 443,
     "https": true,
     "anonymity": "transparent",
     "score": 1,
@@ -156,45 +169,6 @@
     }
   },
   {
-    "proxy": "http://43.135.36.240:6555",
-    "protocol": "http",
-    "ip": "43.135.36.240",
-    "port": 6555,
-    "https": false,
-    "anonymity": "elite",
-    "score": 1,
-    "geolocation": {
-      "country": "HK",
-      "city": "Hong Kong"
-    }
-  },
-  {
-    "proxy": "http://45.15.10.174:3128",
-    "protocol": "http",
-    "ip": "45.15.10.174",
-    "port": 3128,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "HK",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://113.95.135.60:8888",
-    "protocol": "http",
-    "ip": "113.95.135.60",
-    "port": 8888,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "HK",
-      "city": "Unknown"
-    }
-  },
-  {
     "proxy": "http://8.218.238.34:8855",
     "protocol": "http",
     "ip": "8.218.238.34",
@@ -218,6 +192,19 @@
     "geolocation": {
       "country": "HK",
       "city": ""
+    }
+  },
+  {
+    "proxy": "http://43.135.36.240:6555",
+    "protocol": "http",
+    "ip": "43.135.36.240",
+    "port": 6555,
+    "https": false,
+    "anonymity": "elite",
+    "score": 1,
+    "geolocation": {
+      "country": "HK",
+      "city": "Hong Kong"
     }
   }
 ]
