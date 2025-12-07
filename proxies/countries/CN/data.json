@@ -1,10 +1,36 @@
 [
   {
-    "proxy": "http://220.243.154.24:11143",
-    "protocol": "http",
-    "ip": "220.243.154.24",
-    "port": 11143,
-    "https": true,
+    "proxy": "socks5://221.202.27.194:10808",
+    "protocol": "socks5",
+    "ip": "221.202.27.194",
+    "port": 10808,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CN",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://203.25.208.163:1011",
+    "protocol": "socks5",
+    "ip": "203.25.208.163",
+    "port": 1011,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CN",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks4://124.16.100.155:26001",
+    "protocol": "socks4",
+    "ip": "124.16.100.155",
+    "port": 26001,
+    "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
@@ -26,10 +52,10 @@
     }
   },
   {
-    "proxy": "http://218.71.38.176:8082",
+    "proxy": "http://182.138.104.91:80",
     "protocol": "http",
-    "ip": "218.71.38.176",
-    "port": 8082,
+    "ip": "182.138.104.91",
+    "port": 80,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -39,16 +65,16 @@
     }
   },
   {
-    "proxy": "http://71.136.119.178:3128",
+    "proxy": "http://111.3.102.207:30001",
     "protocol": "http",
-    "ip": "71.136.119.178",
-    "port": 3128,
+    "ip": "111.3.102.207",
+    "port": 30001,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "CN",
-      "city": "Unknown"
+      "city": "Jiaxing"
     }
   },
   {
@@ -205,19 +231,6 @@
     "geolocation": {
       "country": "CN",
       "city": ""
-    }
-  },
-  {
-    "proxy": "http://111.3.102.207:30001",
-    "protocol": "http",
-    "ip": "111.3.102.207",
-    "port": 30001,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "CN",
-      "city": "Jiaxing"
     }
   }
 ]
