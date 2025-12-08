@@ -1,15 +1,28 @@
 [
   {
-    "proxy": "http://146.103.115.27:8444",
-    "protocol": "http",
-    "ip": "146.103.115.27",
-    "port": 8444,
-    "https": true,
+    "proxy": "socks4://213.136.92.199:8024",
+    "protocol": "socks4",
+    "ip": "213.136.92.199",
+    "port": 8024,
+    "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "AT",
       "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://213.33.98.123:8080",
+    "protocol": "http",
+    "ip": "213.33.98.123",
+    "port": 8080,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "AT",
+      "city": "Altenberg bei Linz"
     }
   },
   {
@@ -49,19 +62,6 @@
     "geolocation": {
       "country": "AT",
       "city": "Vienna"
-    }
-  },
-  {
-    "proxy": "http://213.33.98.123:8080",
-    "protocol": "http",
-    "ip": "213.33.98.123",
-    "port": 8080,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "AT",
-      "city": "Altenberg bei Linz"
     }
   }
 ]
