@@ -1,10 +1,10 @@
 [
   {
-    "proxy": "http://213.89.75.98:443",
-    "protocol": "http",
-    "ip": "213.89.75.98",
-    "port": 443,
-    "https": true,
+    "proxy": "socks5://109.120.155.9:1080",
+    "protocol": "socks5",
+    "ip": "109.120.155.9",
+    "port": 1080,
+    "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
@@ -13,9 +13,22 @@
     }
   },
   {
-    "proxy": "http://188.120.171.94:80",
+    "proxy": "socks4://85.228.42.230:4153",
+    "protocol": "socks4",
+    "ip": "85.228.42.230",
+    "port": 4153,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "SE",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://80.78.18.54:80",
     "protocol": "http",
-    "ip": "188.120.171.94",
+    "ip": "80.78.18.54",
     "port": 80,
     "https": false,
     "anonymity": "transparent",
@@ -26,22 +39,9 @@
     }
   },
   {
-    "proxy": "http://213.89.75.98:80",
+    "proxy": "http://80.78.31.129:80",
     "protocol": "http",
-    "ip": "213.89.75.98",
-    "port": 80,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "SE",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://80.78.30.35:80",
-    "protocol": "http",
-    "ip": "80.78.30.35",
+    "ip": "80.78.31.129",
     "port": 80,
     "https": false,
     "anonymity": "transparent",
@@ -65,9 +65,35 @@
     }
   },
   {
+    "proxy": "http://80.78.31.24:80",
+    "protocol": "http",
+    "ip": "80.78.31.24",
+    "port": 80,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "SE",
+      "city": "Unknown"
+    }
+  },
+  {
     "proxy": "http://80.78.31.23:80",
     "protocol": "http",
     "ip": "80.78.31.23",
+    "port": 80,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "SE",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://80.78.28.172:80",
+    "protocol": "http",
+    "ip": "80.78.28.172",
     "port": 80,
     "https": false,
     "anonymity": "transparent",
