@@ -1,8 +1,8 @@
 [
   {
-    "proxy": "socks5://193.233.254.8:1080",
+    "proxy": "socks5://193.233.254.9:1080",
     "protocol": "socks5",
-    "ip": "193.233.254.8",
+    "ip": "193.233.254.9",
     "port": 1080,
     "https": false,
     "anonymity": "transparent",
@@ -39,10 +39,10 @@
     }
   },
   {
-    "proxy": "socks5://43.131.9.114:1777",
-    "protocol": "socks5",
-    "ip": "43.131.9.114",
-    "port": 1777,
+    "proxy": "socks4://34.124.190.108:8080",
+    "protocol": "socks4",
+    "ip": "34.124.190.108",
+    "port": 8080,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -143,10 +143,23 @@
     }
   },
   {
-    "proxy": "http://165.225.72.38:11747",
+    "proxy": "http://165.225.72.38:11742",
     "protocol": "http",
     "ip": "165.225.72.38",
-    "port": 11747,
+    "port": 11742,
+    "https": true,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "DE",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://165.225.72.38:11273",
+    "protocol": "http",
+    "ip": "165.225.72.38",
+    "port": 11273,
     "https": true,
     "anonymity": "transparent",
     "score": 1,
@@ -169,32 +182,6 @@
     }
   },
   {
-    "proxy": "http://165.225.72.38:11723",
-    "protocol": "http",
-    "ip": "165.225.72.38",
-    "port": 11723,
-    "https": true,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "DE",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://165.225.72.38:10227",
-    "protocol": "http",
-    "ip": "165.225.72.38",
-    "port": 10227,
-    "https": true,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "DE",
-      "city": "Unknown"
-    }
-  },
-  {
     "proxy": "http://167.235.198.62:443",
     "protocol": "http",
     "ip": "167.235.198.62",
@@ -208,10 +195,10 @@
     }
   },
   {
-    "proxy": "http://62.171.146.164:443",
+    "proxy": "http://165.225.72.38:11679",
     "protocol": "http",
-    "ip": "62.171.146.164",
-    "port": 443,
+    "ip": "165.225.72.38",
+    "port": 11679,
     "https": true,
     "anonymity": "transparent",
     "score": 1,
@@ -221,10 +208,10 @@
     }
   },
   {
-    "proxy": "http://94.156.112.198:3129",
+    "proxy": "http://62.171.146.164:443",
     "protocol": "http",
-    "ip": "94.156.112.198",
-    "port": 3129,
+    "ip": "62.171.146.164",
+    "port": 443,
     "https": true,
     "anonymity": "transparent",
     "score": 1,
@@ -251,19 +238,6 @@
     "protocol": "http",
     "ip": "158.173.154.3",
     "port": 9002,
-    "https": true,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "DE",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://165.225.72.38:11722",
-    "protocol": "http",
-    "ip": "165.225.72.38",
-    "port": 11722,
     "https": true,
     "anonymity": "transparent",
     "score": 1,
@@ -312,32 +286,6 @@
     }
   },
   {
-    "proxy": "http://165.225.72.38:11680",
-    "protocol": "http",
-    "ip": "165.225.72.38",
-    "port": 11680,
-    "https": true,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "DE",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://165.225.72.38:11888",
-    "protocol": "http",
-    "ip": "165.225.72.38",
-    "port": 11888,
-    "https": true,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "DE",
-      "city": "Unknown"
-    }
-  },
-  {
     "proxy": "http://47.91.65.23:3128",
     "protocol": "http",
     "ip": "47.91.65.23",
@@ -364,9 +312,22 @@
     }
   },
   {
-    "proxy": "http://165.232.77.140:3128",
+    "proxy": "http://195.58.38.78:3128",
     "protocol": "http",
-    "ip": "165.232.77.140",
+    "ip": "195.58.38.78",
+    "port": 3128,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "DE",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://85.214.190.195:3128",
+    "protocol": "http",
+    "ip": "85.214.190.195",
     "port": 3128,
     "https": false,
     "anonymity": "transparent",
@@ -455,6 +416,32 @@
     }
   },
   {
+    "proxy": "http://82.153.217.169:80",
+    "protocol": "http",
+    "ip": "82.153.217.169",
+    "port": 80,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "DE",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://68.183.68.1:80",
+    "protocol": "http",
+    "ip": "68.183.68.1",
+    "port": 80,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "DE",
+      "city": "Unknown"
+    }
+  },
+  {
     "proxy": "http://188.245.91.223:80",
     "protocol": "http",
     "ip": "188.245.91.223",
@@ -472,6 +459,32 @@
     "protocol": "http",
     "ip": "103.228.171.195",
     "port": 80,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "DE",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://91.98.78.64:80",
+    "protocol": "http",
+    "ip": "91.98.78.64",
+    "port": 80,
+    "https": false,
+    "anonymity": "elite",
+    "score": 1,
+    "geolocation": {
+      "country": "DE",
+      "city": "Nuremberg"
+    }
+  },
+  {
+    "proxy": "http://164.92.137.207:3128",
+    "protocol": "http",
+    "ip": "164.92.137.207",
+    "port": 3128,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -546,19 +559,6 @@
     }
   },
   {
-    "proxy": "http://128.140.12.90:3128",
-    "protocol": "http",
-    "ip": "128.140.12.90",
-    "port": 3128,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "DE",
-      "city": "Unknown"
-    }
-  },
-  {
     "proxy": "http://185.216.178.204:8888",
     "protocol": "http",
     "ip": "185.216.178.204",
@@ -572,9 +572,9 @@
     }
   },
   {
-    "proxy": "http://212.34.132.22:5555",
+    "proxy": "http://212.34.146.152:5555",
     "protocol": "http",
-    "ip": "212.34.132.22",
+    "ip": "212.34.146.152",
     "port": 5555,
     "https": false,
     "anonymity": "transparent",
@@ -582,19 +582,6 @@
     "geolocation": {
       "country": "DE",
       "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://91.98.78.64:80",
-    "protocol": "http",
-    "ip": "91.98.78.64",
-    "port": 80,
-    "https": false,
-    "anonymity": "elite",
-    "score": 1,
-    "geolocation": {
-      "country": "DE",
-      "city": "Nuremberg"
     }
   },
   {
