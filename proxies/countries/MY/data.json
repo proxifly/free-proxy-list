@@ -1,9 +1,22 @@
 [
   {
-    "proxy": "http://124.13.132.208:8080",
+    "proxy": "socks4://103.1.105.10:4153",
+    "protocol": "socks4",
+    "ip": "103.1.105.10",
+    "port": 4153,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "MY",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://67.43.228.250:13641",
     "protocol": "http",
-    "ip": "124.13.132.208",
-    "port": 8080,
+    "ip": "67.43.228.250",
+    "port": 13641,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
