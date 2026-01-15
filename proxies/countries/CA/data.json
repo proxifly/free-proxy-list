@@ -1,8 +1,21 @@
 [
   {
-    "proxy": "http://149.57.28.10:9443",
+    "proxy": "socks4://24.76.21.10:5678",
+    "protocol": "socks4",
+    "ip": "24.76.21.10",
+    "port": 5678,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CA",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://149.57.28.9:9443",
     "protocol": "http",
-    "ip": "149.57.28.10",
+    "ip": "149.57.28.9",
     "port": 9443,
     "https": true,
     "anonymity": "transparent",
@@ -49,6 +62,19 @@
     "geolocation": {
       "country": "CA",
       "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://146.19.9.236:80",
+    "protocol": "http",
+    "ip": "146.19.9.236",
+    "port": 80,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CA",
+      "city": "Beauharnois"
     }
   },
   {
@@ -2077,19 +2103,6 @@
     "geolocation": {
       "country": "CA",
       "city": ""
-    }
-  },
-  {
-    "proxy": "http://146.19.9.236:80",
-    "protocol": "http",
-    "ip": "146.19.9.236",
-    "port": 80,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "CA",
-      "city": "Beauharnois"
     }
   },
   {
