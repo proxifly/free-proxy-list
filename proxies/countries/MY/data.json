@@ -1,10 +1,23 @@
 [
   {
-    "proxy": "http://47.243.181.85:41488",
-    "protocol": "http",
-    "ip": "47.243.181.85",
-    "port": 41488,
-    "https": true,
+    "proxy": "socks4://175.139.201.193:4153",
+    "protocol": "socks4",
+    "ip": "175.139.201.193",
+    "port": 4153,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "MY",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks4://1.32.57.85:5678",
+    "protocol": "socks4",
+    "ip": "1.32.57.85",
+    "port": 5678,
+    "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
@@ -26,16 +39,42 @@
     }
   },
   {
-    "proxy": "http://67.43.236.18:27033",
+    "proxy": "http://58.84.16.214:1231",
     "protocol": "http",
-    "ip": "67.43.236.18",
-    "port": 27033,
+    "ip": "58.84.16.214",
+    "port": 1231,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "MY",
       "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://219.93.101.62:80",
+    "protocol": "http",
+    "ip": "219.93.101.62",
+    "port": 80,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "MY",
+      "city": "Johor Bahru"
+    }
+  },
+  {
+    "proxy": "http://219.93.101.63:80",
+    "protocol": "http",
+    "ip": "219.93.101.63",
+    "port": 80,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "MY",
+      "city": "Shah Alam"
     }
   }
 ]
