@@ -1,8 +1,21 @@
 [
   {
-    "proxy": "http://37.120.213.210:9443",
+    "proxy": "socks4://5.199.166.251:9097",
+    "protocol": "socks4",
+    "ip": "5.199.166.251",
+    "port": 9097,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CH",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://37.120.213.194:9443",
     "protocol": "http",
-    "ip": "37.120.213.210",
+    "ip": "37.120.213.194",
     "port": 9443,
     "https": true,
     "anonymity": "transparent",
@@ -13,16 +26,16 @@
     }
   },
   {
-    "proxy": "http://84.39.112.144:3128",
+    "proxy": "http://217.162.8.134:80",
     "protocol": "http",
-    "ip": "84.39.112.144",
-    "port": 3128,
+    "ip": "217.162.8.134",
+    "port": 80,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "CH",
-      "city": "Zurich"
+      "city": "Wolhusen"
     }
   },
   {
