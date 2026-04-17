@@ -1,9 +1,22 @@
 [
   {
-    "proxy": "socks5://206.123.156.225:10122",
+    "proxy": "socks5://206.123.156.217:4875",
     "protocol": "socks5",
-    "ip": "206.123.156.225",
-    "port": 10122,
+    "ip": "206.123.156.217",
+    "port": 4875,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "MY",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://206.123.156.231:5630",
+    "protocol": "socks5",
+    "ip": "206.123.156.231",
+    "port": 5630,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -16,19 +29,6 @@
     "proxy": "http://210.48.154.99:443",
     "protocol": "http",
     "ip": "210.48.154.99",
-    "port": 443,
-    "https": true,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "MY",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://210.19.96.163:443",
-    "protocol": "http",
-    "ip": "210.19.96.163",
     "port": 443,
     "https": true,
     "anonymity": "transparent",
@@ -88,6 +88,19 @@
     "geolocation": {
       "country": "MY",
       "city": "Kuala Lumpur"
+    }
+  },
+  {
+    "proxy": "http://219.93.101.63:80",
+    "protocol": "http",
+    "ip": "219.93.101.63",
+    "port": 80,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "MY",
+      "city": "Shah Alam"
     }
   }
 ]
