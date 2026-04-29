@@ -1,10 +1,10 @@
 [
   {
-    "proxy": "http://51.38.191.151:443",
-    "protocol": "http",
-    "ip": "51.38.191.151",
-    "port": 443,
-    "https": true,
+    "proxy": "socks5://158.178.198.31:1080",
+    "protocol": "socks5",
+    "ip": "158.178.198.31",
+    "port": 1080,
+    "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
@@ -13,10 +13,23 @@
     }
   },
   {
-    "proxy": "http://84.17.43.225:9443",
+    "proxy": "socks4://185.178.185.100:1080",
+    "protocol": "socks4",
+    "ip": "185.178.185.100",
+    "port": 1080,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "FR",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://51.38.191.151:443",
     "protocol": "http",
-    "ip": "84.17.43.225",
-    "port": 9443,
+    "ip": "51.38.191.151",
+    "port": 443,
     "https": true,
     "anonymity": "transparent",
     "score": 1,
@@ -133,19 +146,6 @@
     "proxy": "http://82.64.46.151:443",
     "protocol": "http",
     "ip": "82.64.46.151",
-    "port": 443,
-    "https": true,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "FR",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://207.180.228.55:443",
-    "protocol": "http",
-    "ip": "207.180.228.55",
     "port": 443,
     "https": true,
     "anonymity": "transparent",
@@ -572,11 +572,11 @@
     }
   },
   {
-    "proxy": "http://80.15.99.54:8090",
+    "proxy": "http://38.242.212.16:3128",
     "protocol": "http",
-    "ip": "80.15.99.54",
-    "port": 8090,
-    "https": true,
+    "ip": "38.242.212.16",
+    "port": 3128,
+    "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
@@ -617,19 +617,6 @@
     "port": 80,
     "https": false,
     "anonymity": "elite",
-    "score": 1,
-    "geolocation": {
-      "country": "FR",
-      "city": "Paris"
-    }
-  },
-  {
-    "proxy": "http://202.133.88.173:80",
-    "protocol": "http",
-    "ip": "202.133.88.173",
-    "port": 80,
-    "https": false,
-    "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "FR",
