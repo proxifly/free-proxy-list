@@ -1,9 +1,22 @@
 [
   {
-    "proxy": "socks5://206.123.156.217:9362",
+    "proxy": "socks5://206.123.156.222:9312",
     "protocol": "socks5",
-    "ip": "206.123.156.217",
-    "port": 9362,
+    "ip": "206.123.156.222",
+    "port": 9312,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "TW",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "socks5://206.123.156.234:4711",
+    "protocol": "socks5",
+    "ip": "206.123.156.234",
+    "port": 4711,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -39,22 +52,22 @@
     }
   },
   {
-    "proxy": "socks5://206.123.156.226:8924",
-    "protocol": "socks5",
-    "ip": "206.123.156.226",
-    "port": 8924,
+    "proxy": "socks4://125.228.143.207:4145",
+    "protocol": "socks4",
+    "ip": "125.228.143.207",
+    "port": 4145,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "TW",
-      "city": "Unknown"
+      "city": "New Taipei City"
     }
   },
   {
-    "proxy": "socks4://125.228.94.232:4145",
+    "proxy": "socks4://125.228.94.153:4145",
     "protocol": "socks4",
-    "ip": "125.228.94.232",
+    "ip": "125.228.94.153",
     "port": 4145,
     "https": false,
     "anonymity": "transparent",
@@ -69,6 +82,19 @@
     "protocol": "http",
     "ip": "47.243.181.85",
     "port": 41131,
+    "https": true,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "TW",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://47.243.181.85:41135",
+    "protocol": "http",
+    "ip": "47.243.181.85",
+    "port": 41135,
     "https": true,
     "anonymity": "transparent",
     "score": 1,
@@ -208,22 +234,9 @@
     }
   },
   {
-    "proxy": "socks4://125.228.143.207:4145",
+    "proxy": "socks4://125.228.94.232:4145",
     "protocol": "socks4",
-    "ip": "125.228.143.207",
-    "port": 4145,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "TW",
-      "city": "New Taipei City"
-    }
-  },
-  {
-    "proxy": "socks4://125.228.94.153:4145",
-    "protocol": "socks4",
-    "ip": "125.228.94.153",
+    "ip": "125.228.94.232",
     "port": 4145,
     "https": false,
     "anonymity": "transparent",
