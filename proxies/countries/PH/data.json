@@ -1,9 +1,22 @@
 [
   {
-    "proxy": "http://124.217.5.100:5050",
+    "proxy": "socks4://180.191.22.50:4153",
+    "protocol": "socks4",
+    "ip": "180.191.22.50",
+    "port": 4153,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "PH",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://120.28.139.2:8082",
     "protocol": "http",
-    "ip": "124.217.5.100",
-    "port": 5050,
+    "ip": "120.28.139.2",
+    "port": 8082,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
