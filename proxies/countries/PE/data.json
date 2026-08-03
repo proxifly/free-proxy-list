@@ -1,9 +1,22 @@
 [
   {
-    "proxy": "http://38.226.49.203:8080",
+    "proxy": "socks4://38.226.49.122:1080",
+    "protocol": "socks4",
+    "ip": "38.226.49.122",
+    "port": 1080,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "PE",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://38.19.228.244:999",
     "protocol": "http",
-    "ip": "38.226.49.203",
-    "port": 8080,
+    "ip": "38.19.228.244",
+    "port": 999,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
