@@ -165,7 +165,7 @@ curl -sL https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/count
 ```
 
 ## ✨ Star history
-[![Star History Chart](https://api.star-history.com/svg?repos=proxifly/free-proxy-list&type=Date)](https://www.star-history.com/#proxifly/free-proxy-list&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=proxifly/free-proxy-list&type=Date)](https://star-history.dera.page/#proxifly/free-proxy-list&type=Date)
 
 ## 🧸 Contributing
 Contributions are welcome, and they are greatly appreciated! Every
