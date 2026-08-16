@@ -1,10 +1,23 @@
 [
   {
-    "proxy": "http://178.253.39.103:10809",
-    "protocol": "http",
+    "proxy": "socks5://178.253.39.103:10808",
+    "protocol": "socks5",
     "ip": "178.253.39.103",
-    "port": 10809,
+    "port": 10808,
     "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "EE",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://95.153.31.66:9443",
+    "protocol": "http",
+    "ip": "95.153.31.66",
+    "port": 9443,
+    "https": true,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
