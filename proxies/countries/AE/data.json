@@ -1,9 +1,22 @@
 [
   {
-    "proxy": "http://150.241.139.166:9443",
+    "proxy": "socks5://111.119.162.248:10901",
+    "protocol": "socks5",
+    "ip": "111.119.162.248",
+    "port": 10901,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "AE",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://150.241.139.164:443",
     "protocol": "http",
-    "ip": "150.241.139.166",
-    "port": 9443,
+    "ip": "150.241.139.164",
+    "port": 443,
     "https": true,
     "anonymity": "transparent",
     "score": 1,
