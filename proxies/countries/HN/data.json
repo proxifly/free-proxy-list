@@ -26,10 +26,23 @@
     }
   },
   {
-    "proxy": "http://168.232.169.65:999",
+    "proxy": "socks4://181.115.75.102:5678",
+    "protocol": "socks4",
+    "ip": "181.115.75.102",
+    "port": 5678,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "HN",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://194.87.98.120:3128",
     "protocol": "http",
-    "ip": "168.232.169.65",
-    "port": 999,
+    "ip": "194.87.98.120",
+    "port": 3128,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
