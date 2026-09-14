@@ -65,9 +65,9 @@
     }
   },
   {
-    "proxy": "socks4://195.225.116.14:4145",
+    "proxy": "socks4://195.225.116.15:4145",
     "protocol": "socks4",
-    "ip": "195.225.116.14",
+    "ip": "195.225.116.15",
     "port": 4145,
     "https": false,
     "anonymity": "transparent",
@@ -91,8 +91,8 @@
     }
   },
   {
-    "proxy": "socks4://188.244.117.60:9050",
-    "protocol": "socks4",
+    "proxy": "socks5://188.244.117.60:9050",
+    "protocol": "socks5",
     "ip": "188.244.117.60",
     "port": 9050,
     "https": false,
@@ -104,16 +104,29 @@
     }
   },
   {
-    "proxy": "socks5://188.244.117.60:9050",
-    "protocol": "socks5",
-    "ip": "188.244.117.60",
-    "port": 9050,
+    "proxy": "http://74.242.169.16:3128",
+    "protocol": "http",
+    "ip": "74.242.169.16",
+    "port": 3128,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "CH",
       "city": "Zurich"
+    }
+  },
+  {
+    "proxy": "http://2.56.178.63:3128",
+    "protocol": "http",
+    "ip": "2.56.178.63",
+    "port": 3128,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CH",
+      "city": "Bern"
     }
   },
   {
@@ -130,16 +143,29 @@
     }
   },
   {
-    "proxy": "http://195.225.116.15:4145",
+    "proxy": "http://45.85.93.15:4567",
     "protocol": "http",
-    "ip": "195.225.116.15",
-    "port": 4145,
+    "ip": "45.85.93.15",
+    "port": 4567,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "CH",
-      "city": "Unknown"
+      "city": "Geneva"
+    }
+  },
+  {
+    "proxy": "http://45.90.57.25:1080",
+    "protocol": "http",
+    "ip": "45.90.57.25",
+    "port": 1080,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CH",
+      "city": "Geneva"
     }
   }
 ]
