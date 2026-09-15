@@ -1,8 +1,8 @@
 [
   {
-    "proxy": "https://45.156.248.50:443",
+    "proxy": "https://185.164.35.16:443",
     "protocol": "https",
-    "ip": "45.156.248.50",
+    "ip": "185.164.35.16",
     "port": 443,
     "https": true,
     "anonymity": "transparent",
@@ -13,9 +13,9 @@
     }
   },
   {
-    "proxy": "https://45.156.248.50:9443",
+    "proxy": "https://185.164.35.16:9443",
     "protocol": "https",
-    "ip": "45.156.248.50",
+    "ip": "185.164.35.16",
     "port": 9443,
     "https": true,
     "anonymity": "transparent",
@@ -26,8 +26,8 @@
     }
   },
   {
-    "proxy": "http://212.39.114.139:5678",
-    "protocol": "http",
+    "proxy": "socks4://212.39.114.139:5678",
+    "protocol": "socks4",
     "ip": "212.39.114.139",
     "port": 5678,
     "https": false,
@@ -36,6 +36,19 @@
     "geolocation": {
       "country": "BA",
       "city": "Livno"
+    }
+  },
+  {
+    "proxy": "http://77.77.210.90:21056",
+    "protocol": "http",
+    "ip": "77.77.210.90",
+    "port": 21056,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "BA",
+      "city": "Sarajevo"
     }
   }
 ]
