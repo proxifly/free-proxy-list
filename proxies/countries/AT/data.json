@@ -1,5 +1,18 @@
 [
   {
+    "proxy": "socks4://83.218.186.22:5678",
+    "protocol": "socks4",
+    "ip": "83.218.186.22",
+    "port": 5678,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "AT",
+      "city": "Unknown"
+    }
+  },
+  {
     "proxy": "https://195.192.209.130:443",
     "protocol": "https",
     "ip": "195.192.209.130",
@@ -65,16 +78,16 @@
     }
   },
   {
-    "proxy": "http://90.146.196.18:8080",
-    "protocol": "http",
-    "ip": "90.146.196.18",
-    "port": 8080,
-    "https": false,
+    "proxy": "https://152.53.107.196:443",
+    "protocol": "https",
+    "ip": "152.53.107.196",
+    "port": 443,
+    "https": true,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "AT",
-      "city": "Pasching"
+      "city": "Unknown"
     }
   },
   {
@@ -117,8 +130,8 @@
     }
   },
   {
-    "proxy": "socks5://152.53.183.107:8081",
-    "protocol": "socks5",
+    "proxy": "socks4://152.53.183.107:8081",
+    "protocol": "socks4",
     "ip": "152.53.183.107",
     "port": 8081,
     "https": false,
@@ -130,8 +143,8 @@
     }
   },
   {
-    "proxy": "socks4://152.53.183.107:8081",
-    "protocol": "socks4",
+    "proxy": "socks5://152.53.183.107:8081",
+    "protocol": "socks5",
     "ip": "152.53.183.107",
     "port": 8081,
     "https": false,
@@ -192,19 +205,6 @@
     "geolocation": {
       "country": "AT",
       "city": "Vienna"
-    }
-  },
-  {
-    "proxy": "http://178.189.56.158:4153",
-    "protocol": "http",
-    "ip": "178.189.56.158",
-    "port": 4153,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "AT",
-      "city": "Ramsau am Dachstein"
     }
   }
 ]
