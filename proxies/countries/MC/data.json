@@ -1,7 +1,7 @@
 [
   {
-    "proxy": "http://109.172.8.142:666",
-    "protocol": "http",
+    "proxy": "socks5://109.172.8.142:666",
+    "protocol": "socks5",
     "ip": "109.172.8.142",
     "port": 666,
     "https": false,
@@ -15,6 +15,19 @@
   {
     "proxy": "socks4://109.172.8.142:666",
     "protocol": "socks4",
+    "ip": "109.172.8.142",
+    "port": 666,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "MC",
+      "city": "Monte Carlo"
+    }
+  },
+  {
+    "proxy": "http://109.172.8.142:666",
+    "protocol": "http",
     "ip": "109.172.8.142",
     "port": 666,
     "https": false,
