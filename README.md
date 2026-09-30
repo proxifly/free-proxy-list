@@ -5,9 +5,9 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Updated_Every_5_Minutes-passing-success">
   <br>
-  <a href="https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/all/data.txt"><img src="https://img.shields.io/badge/all-41418-blue"></a>
-  <a href="https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/http/data.txt"><img src="https://img.shields.io/badge/http-6503-blue"></a>
-  <a href="https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/https/data.txt"><img src="https://img.shields.io/badge/https-1053-blue"></a>
+  <a href="https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/all/data.txt"><img src="https://img.shields.io/badge/all-41300-blue"></a>
+  <a href="https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/http/data.txt"><img src="https://img.shields.io/badge/http-6533-blue"></a>
+  <a href="https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/https/data.txt"><img src="https://img.shields.io/badge/https-905-blue"></a>
   <a href="https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/socks4/data.txt"><img src="https://img.shields.io/badge/socks4-397-blue"></a>
   <a href="https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/socks5/data.txt"><img src="https://img.shields.io/badge/socks5-33465-blue"></a>
   <br>
@@ -28,7 +28,7 @@
 # 🌎 Proxifly's free proxy list
 Every 5 minutes, **Proxifly** fetches fresh proxies—including **HTTP**, **HTTPS**, **SOCKS4**, and **SOCKS5** proxies—from around the web.
 
-> Proxifly found **41418** working proxies from **143** countries in the latest update (**Sep 30, 2026, 10:24 PM UTC**).
+> Proxifly found **41300** working proxies from **143** countries in the latest update (**Sep 30, 2026, 10:24 PM UTC**).
 
 ## 🦄 Features
 * ⚡ Extremely fast
@@ -72,12 +72,12 @@ Click on your preferred file format to get the updated list
 
 |Type|Count|.json|.txt|.csv|
 |----|-----|-----|----|----|
-|All Proxies|41418|[JSON File](https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/all/data.json)|[Text File](https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/all/data.txt)|[CSV File](https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/all/data.csv)|
-|HTTP Proxies|6503|[JSON File](https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/http/data.json)|[Text File](https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/http/data.txt)|[CSV File](https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/http/data.csv)|
-|HTTPS Proxies|1053|[JSON File](https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/https/data.json)|[Text File](https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/https/data.txt)|[CSV File](https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/https/data.csv)|
+|All Proxies|41300|[JSON File](https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/all/data.json)|[Text File](https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/all/data.txt)|[CSV File](https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/all/data.csv)|
+|HTTP Proxies|6533|[JSON File](https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/http/data.json)|[Text File](https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/http/data.txt)|[CSV File](https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/http/data.csv)|
+|HTTPS Proxies|905|[JSON File](https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/https/data.json)|[Text File](https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/https/data.txt)|[CSV File](https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/https/data.csv)|
 |SOCKS4 Proxies|397|[JSON File](https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/socks4/data.json)|[Text File](https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/socks4/data.txt)|[CSV File](https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/socks4/data.csv)|
 |SOCKS5 Proxies|33465|[JSON File](https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/socks5/data.json)|[Text File](https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/socks5/data.txt)|[CSV File](https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/socks5/data.csv)|
-|U.S. proxies ([view more countries](https://github.com/proxifly/free-proxy-list/tree/main/proxies/countries))|3845|[JSON File](https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/countries/US/data.json)|[Text File](https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/countries/US/data.txt)|[CSV File](https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/countries/US/data.csv)|
+|U.S. proxies ([view more countries](https://github.com/proxifly/free-proxy-list/tree/main/proxies/countries))|3792|[JSON File](https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/countries/US/data.json)|[Text File](https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/countries/US/data.txt)|[CSV File](https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/countries/US/data.csv)|
 
 
 #### Other sorted proxies
