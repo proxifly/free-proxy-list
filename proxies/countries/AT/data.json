@@ -130,10 +130,10 @@
     }
   },
   {
-    "proxy": "socks4://152.53.183.107:8081",
-    "protocol": "socks4",
+    "proxy": "http://152.53.183.107:8082",
+    "protocol": "http",
     "ip": "152.53.183.107",
-    "port": 8081,
+    "port": 8082,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -143,8 +143,8 @@
     }
   },
   {
-    "proxy": "http://152.53.183.107:8081",
-    "protocol": "http",
+    "proxy": "socks4://152.53.183.107:8081",
+    "protocol": "socks4",
     "ip": "152.53.183.107",
     "port": 8081,
     "https": false,
@@ -221,10 +221,10 @@
     }
   },
   {
-    "proxy": "http://152.53.183.107:8082",
+    "proxy": "http://152.53.183.107:8081",
     "protocol": "http",
     "ip": "152.53.183.107",
-    "port": 8082,
+    "port": 8081,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -234,29 +234,68 @@
     }
   },
   {
-    "proxy": "http://80.64.140.192:31337",
+    "proxy": "http://194.182.187.78:3128",
     "protocol": "http",
-    "ip": "80.64.140.192",
-    "port": 31337,
+    "ip": "194.182.187.78",
+    "port": 3128,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "AT",
-      "city": "Sankt Florian"
+      "city": "Vienna"
     }
   },
   {
-    "proxy": "http://83.215.25.66:9050",
+    "proxy": "http://213.173.75.222:5678",
     "protocol": "http",
-    "ip": "83.215.25.66",
+    "ip": "213.173.75.222",
+    "port": 5678,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "AT",
+      "city": "Kindberg"
+    }
+  },
+  {
+    "proxy": "http://152.53.228.24:19150",
+    "protocol": "http",
+    "ip": "152.53.228.24",
+    "port": 19150,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "AT",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://78.153.130.53:9050",
+    "protocol": "http",
+    "ip": "78.153.130.53",
     "port": 9050,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "AT",
-      "city": "Zell am See"
+      "city": "Vienna"
+    }
+  },
+  {
+    "proxy": "http://152.53.53.54:10801",
+    "protocol": "http",
+    "ip": "152.53.53.54",
+    "port": 10801,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "AT",
+      "city": "Unknown"
     }
   }
 ]
