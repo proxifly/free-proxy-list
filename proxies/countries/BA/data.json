@@ -1,10 +1,23 @@
 [
   {
-    "proxy": "socks5://185.99.3.100:995",
-    "protocol": "socks5",
-    "ip": "185.99.3.100",
-    "port": 995,
-    "https": false,
+    "proxy": "https://45.156.248.50:443",
+    "protocol": "https",
+    "ip": "45.156.248.50",
+    "port": 443,
+    "https": true,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "BA",
+      "city": "Novi Travnik"
+    }
+  },
+  {
+    "proxy": "https://45.156.248.50:9443",
+    "protocol": "https",
+    "ip": "45.156.248.50",
+    "port": 9443,
+    "https": true,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
@@ -26,21 +39,8 @@
     }
   },
   {
-    "proxy": "socks4://212.39.114.139:5678",
-    "protocol": "socks4",
-    "ip": "212.39.114.139",
-    "port": 5678,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "BA",
-      "city": "Livno"
-    }
-  },
-  {
-    "proxy": "http://185.99.3.100:995",
-    "protocol": "http",
+    "proxy": "socks5://185.99.3.100:995",
+    "protocol": "socks5",
     "ip": "185.99.3.100",
     "port": 995,
     "https": false,
@@ -49,19 +49,6 @@
     "geolocation": {
       "country": "BA",
       "city": "Novi Travnik"
-    }
-  },
-  {
-    "proxy": "http://212.39.114.139:5678",
-    "protocol": "http",
-    "ip": "212.39.114.139",
-    "port": 5678,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "BA",
-      "city": "Livno"
     }
   },
   {
