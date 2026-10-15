@@ -13,6 +13,19 @@
     }
   },
   {
+    "proxy": "https://51.17.99.135:58496",
+    "protocol": "https",
+    "ip": "51.17.99.135",
+    "port": 58496,
+    "https": true,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "IL",
+      "city": "Tel Aviv"
+    }
+  },
+  {
     "proxy": "socks5://80.65.211.149:8888",
     "protocol": "socks5",
     "ip": "80.65.211.149",
@@ -23,19 +36,6 @@
     "geolocation": {
       "country": "IL",
       "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://83.229.73.225:13554",
-    "protocol": "http",
-    "ip": "83.229.73.225",
-    "port": 13554,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "IL",
-      "city": "Haifa"
     }
   },
   {
@@ -143,32 +143,6 @@
     }
   },
   {
-    "proxy": "http://83.229.73.113:13554",
-    "protocol": "http",
-    "ip": "83.229.73.113",
-    "port": 13554,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "IL",
-      "city": "Haifa"
-    }
-  },
-  {
-    "proxy": "http://77.91.74.77:80",
-    "protocol": "http",
-    "ip": "77.91.74.77",
-    "port": 80,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "IL",
-      "city": "Unknown"
-    }
-  },
-  {
     "proxy": "http://80.65.211.149:8888",
     "protocol": "http",
     "ip": "80.65.211.149",
@@ -182,16 +156,29 @@
     }
   },
   {
-    "proxy": "http://191.96.130.22:5785",
+    "proxy": "http://51.17.99.135:3208",
     "protocol": "http",
-    "ip": "191.96.130.22",
-    "port": 5785,
+    "ip": "51.17.99.135",
+    "port": 3208,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "IL",
-      "city": "Petah Tikva"
+      "city": "Tel Aviv"
+    }
+  },
+  {
+    "proxy": "http://77.91.74.77:80",
+    "protocol": "http",
+    "ip": "77.91.74.77",
+    "port": 80,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "IL",
+      "city": "Unknown"
     }
   }
 ]
