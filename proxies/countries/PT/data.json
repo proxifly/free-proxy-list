@@ -39,8 +39,8 @@
     }
   },
   {
-    "proxy": "http://185.228.160.145:1080",
-    "protocol": "http",
+    "proxy": "socks4://185.228.160.145:1080",
+    "protocol": "socks4",
     "ip": "185.228.160.145",
     "port": 1080,
     "https": false,
@@ -56,6 +56,19 @@
     "protocol": "http",
     "ip": "193.126.225.110",
     "port": 8089,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "PT",
+      "city": "Lisbon"
+    }
+  },
+  {
+    "proxy": "http://185.228.160.145:1080",
+    "protocol": "http",
+    "ip": "185.228.160.145",
+    "port": 1080,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
