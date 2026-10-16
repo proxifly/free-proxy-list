@@ -1,10 +1,10 @@
 [
   {
-    "proxy": "https://129.151.160.199:443",
-    "protocol": "https",
-    "ip": "129.151.160.199",
-    "port": 443,
-    "https": true,
+    "proxy": "socks4://213.150.221.198:4153",
+    "protocol": "socks4",
+    "ip": "213.150.221.198",
+    "port": 4153,
+    "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
@@ -13,55 +13,29 @@
     }
   },
   {
-    "proxy": "https://196.21.109.82:443",
-    "protocol": "https",
-    "ip": "196.21.109.82",
-    "port": 443,
-    "https": true,
+    "proxy": "socks4://102.215.245.6:4153",
+    "protocol": "socks4",
+    "ip": "102.215.245.6",
+    "port": 4153,
+    "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "ZA",
-      "city": "Pretoria"
+      "city": "Benoni"
     }
   },
   {
-    "proxy": "https://196.21.60.44:443",
-    "protocol": "https",
-    "ip": "196.21.60.44",
-    "port": 443,
-    "https": true,
+    "proxy": "socks4://105.27.180.194:1080",
+    "protocol": "socks4",
+    "ip": "105.27.180.194",
+    "port": 1080,
+    "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "ZA",
-      "city": "Durban"
-    }
-  },
-  {
-    "proxy": "http://206.238.236.92:80",
-    "protocol": "http",
-    "ip": "206.238.236.92",
-    "port": 80,
-    "https": false,
-    "anonymity": "elite",
-    "score": 1,
-    "geolocation": {
-      "country": "ZA",
-      "city": "Midrand"
-    }
-  },
-  {
-    "proxy": "http://206.238.236.248:80",
-    "protocol": "http",
-    "ip": "206.238.236.248",
-    "port": 80,
-    "https": false,
-    "anonymity": "elite",
-    "score": 1,
-    "geolocation": {
-      "country": "ZA",
-      "city": "Midrand"
+      "city": "Johannesburg"
     }
   },
   {
@@ -91,19 +65,6 @@
     }
   },
   {
-    "proxy": "http://196.223.129.21:80",
-    "protocol": "http",
-    "ip": "196.223.129.21",
-    "port": 80,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "ZA",
-      "city": "Cape Town"
-    }
-  },
-  {
     "proxy": "socks4://105.214.42.19:5678",
     "protocol": "socks4",
     "ip": "105.214.42.19",
@@ -117,42 +78,133 @@
     }
   },
   {
-    "proxy": "http://102.66.161.31:8888",
-    "protocol": "http",
-    "ip": "102.66.161.31",
-    "port": 8888,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "ZA",
-      "city": "Nelspruit"
-    }
-  },
-  {
-    "proxy": "http://20.33.10.79:80",
-    "protocol": "http",
-    "ip": "20.33.10.79",
-    "port": 80,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "ZA",
-      "city": "Johannesburg"
-    }
-  },
-  {
-    "proxy": "socks4://105.214.51.178:5678",
+    "proxy": "socks4://105.214.74.10:5678",
     "protocol": "socks4",
-    "ip": "105.214.51.178",
+    "ip": "105.214.74.10",
     "port": 5678,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "ZA",
+      "city": "Pretoria"
+    }
+  },
+  {
+    "proxy": "https://129.151.160.199:443",
+    "protocol": "https",
+    "ip": "129.151.160.199",
+    "port": 443,
+    "https": true,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "ZA",
       "city": "Johannesburg"
+    }
+  },
+  {
+    "proxy": "https://196.21.109.82:443",
+    "protocol": "https",
+    "ip": "196.21.109.82",
+    "port": 443,
+    "https": true,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "ZA",
+      "city": "Pretoria"
+    }
+  },
+  {
+    "proxy": "https://108.181.120.26:443",
+    "protocol": "https",
+    "ip": "108.181.120.26",
+    "port": 443,
+    "https": true,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "ZA",
+      "city": "Johannesburg"
+    }
+  },
+  {
+    "proxy": "https://108.181.120.26:9443",
+    "protocol": "https",
+    "ip": "108.181.120.26",
+    "port": 9443,
+    "https": true,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "ZA",
+      "city": "Johannesburg"
+    }
+  },
+  {
+    "proxy": "http://102.222.51.105:8080",
+    "protocol": "http",
+    "ip": "102.222.51.105",
+    "port": 8080,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "ZA",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://156.155.51.117:8080",
+    "protocol": "http",
+    "ip": "156.155.51.117",
+    "port": 8080,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "ZA",
+      "city": "Johannesburg"
+    }
+  },
+  {
+    "proxy": "http://206.238.236.92:80",
+    "protocol": "http",
+    "ip": "206.238.236.92",
+    "port": 80,
+    "https": false,
+    "anonymity": "elite",
+    "score": 1,
+    "geolocation": {
+      "country": "ZA",
+      "city": "Midrand"
+    }
+  },
+  {
+    "proxy": "http://206.238.236.248:80",
+    "protocol": "http",
+    "ip": "206.238.236.248",
+    "port": 80,
+    "https": false,
+    "anonymity": "elite",
+    "score": 1,
+    "geolocation": {
+      "country": "ZA",
+      "city": "Midrand"
+    }
+  },
+  {
+    "proxy": "http://196.251.212.52:8081",
+    "protocol": "http",
+    "ip": "196.251.212.52",
+    "port": 8081,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "ZA",
+      "city": "Brits"
     }
   },
   {
@@ -195,55 +247,94 @@
     }
   },
   {
-    "proxy": "http://41.78.38.197:8005",
+    "proxy": "http://154.117.154.194:8080",
     "protocol": "http",
-    "ip": "41.78.38.197",
-    "port": 8005,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "ZA",
-      "city": "Krugersdorp"
-    }
-  },
-  {
-    "proxy": "http://217.29.208.206:9999",
-    "protocol": "http",
-    "ip": "217.29.208.206",
-    "port": 9999,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "ZA",
-      "city": "Potchefstroom"
-    }
-  },
-  {
-    "proxy": "http://102.218.41.98:8082",
-    "protocol": "http",
-    "ip": "102.218.41.98",
-    "port": 8082,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "ZA",
-      "city": "Newcastle"
-    }
-  },
-  {
-    "proxy": "http://196.25.34.194:8080",
-    "protocol": "http",
-    "ip": "196.25.34.194",
+    "ip": "154.117.154.194",
     "port": 8080,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "ZA",
-      "city": "Port Elizabeth"
+      "city": "Havenside"
+    }
+  },
+  {
+    "proxy": "http://102.221.118.74:8080",
+    "protocol": "http",
+    "ip": "102.221.118.74",
+    "port": 8080,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "ZA",
+      "city": "Johannesburg"
+    }
+  },
+  {
+    "proxy": "http://196.251.222.242:8102",
+    "protocol": "http",
+    "ip": "196.251.222.242",
+    "port": 8102,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "ZA",
+      "city": "Brits"
+    }
+  },
+  {
+    "proxy": "http://102.66.161.31:8888",
+    "protocol": "http",
+    "ip": "102.66.161.31",
+    "port": 8888,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "ZA",
+      "city": "Nelspruit"
+    }
+  },
+  {
+    "proxy": "http://196.251.221.33:8080",
+    "protocol": "http",
+    "ip": "196.251.221.33",
+    "port": 8080,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "ZA",
+      "city": "Brits"
+    }
+  },
+  {
+    "proxy": "http://196.223.129.21:80",
+    "protocol": "http",
+    "ip": "196.223.129.21",
+    "port": 80,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "ZA",
+      "city": "Cape Town"
+    }
+  },
+  {
+    "proxy": "http://20.33.10.79:80",
+    "protocol": "http",
+    "ip": "20.33.10.79",
+    "port": 80,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "ZA",
+      "city": "Johannesburg"
     }
   },
   {
@@ -260,55 +351,29 @@
     }
   },
   {
-    "proxy": "http://13.245.183.150:3491",
+    "proxy": "http://41.78.36.250:8005",
     "protocol": "http",
-    "ip": "13.245.183.150",
-    "port": 3491,
+    "ip": "41.78.36.250",
+    "port": 8005,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "ZA",
-      "city": "Cape Town"
+      "city": "Krugersdorp"
     }
   },
   {
-    "proxy": "http://102.36.127.231:1080",
+    "proxy": "http://41.216.190.239:8080",
     "protocol": "http",
-    "ip": "102.36.127.231",
-    "port": 1080,
+    "ip": "41.216.190.239",
+    "port": 8080,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "ZA",
-      "city": "Nelspruit"
-    }
-  },
-  {
-    "proxy": "http://105.214.51.178:5678",
-    "protocol": "http",
-    "ip": "105.214.51.178",
-    "port": 5678,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "ZA",
-      "city": "Johannesburg"
-    }
-  },
-  {
-    "proxy": "http://105.214.105.25:5678",
-    "protocol": "http",
-    "ip": "105.214.105.25",
-    "port": 5678,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "ZA",
-      "city": "Johannesburg"
+      "city": "Unknown"
     }
   },
   {
@@ -351,9 +416,74 @@
     }
   },
   {
-    "proxy": "http://41.216.190.239:8080",
+    "proxy": "http://105.214.66.61:5678",
     "protocol": "http",
-    "ip": "41.216.190.239",
+    "ip": "105.214.66.61",
+    "port": 5678,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "ZA",
+      "city": "Pretoria"
+    }
+  },
+  {
+    "proxy": "http://105.214.105.25:5678",
+    "protocol": "http",
+    "ip": "105.214.105.25",
+    "port": 5678,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "ZA",
+      "city": "Johannesburg"
+    }
+  },
+  {
+    "proxy": "http://105.214.19.138:5678",
+    "protocol": "http",
+    "ip": "105.214.19.138",
+    "port": 5678,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "ZA",
+      "city": "Johannesburg"
+    }
+  },
+  {
+    "proxy": "http://105.214.87.243:5678",
+    "protocol": "http",
+    "ip": "105.214.87.243",
+    "port": 5678,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "ZA",
+      "city": "Johannesburg"
+    }
+  },
+  {
+    "proxy": "http://196.251.222.154:8080",
+    "protocol": "http",
+    "ip": "196.251.222.154",
+    "port": 8080,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "ZA",
+      "city": "Brits"
+    }
+  },
+  {
+    "proxy": "http://41.216.191.85:8080",
+    "protocol": "http",
+    "ip": "41.216.191.85",
     "port": 8080,
     "https": false,
     "anonymity": "transparent",
@@ -361,6 +491,45 @@
     "geolocation": {
       "country": "ZA",
       "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://102.36.127.249:1080",
+    "protocol": "http",
+    "ip": "102.36.127.249",
+    "port": 1080,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "ZA",
+      "city": "Nelspruit"
+    }
+  },
+  {
+    "proxy": "http://217.29.208.206:9999",
+    "protocol": "http",
+    "ip": "217.29.208.206",
+    "port": 9999,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "ZA",
+      "city": "Potchefstroom"
+    }
+  },
+  {
+    "proxy": "http://168.253.92.93:10808",
+    "protocol": "http",
+    "ip": "168.253.92.93",
+    "port": 10808,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "ZA",
+      "city": "Middelburg"
     }
   },
   {
@@ -377,16 +546,29 @@
     }
   },
   {
-    "proxy": "http://213.172.130.3:9999",
+    "proxy": "http://156.155.50.93:8080",
     "protocol": "http",
-    "ip": "213.172.130.3",
-    "port": 9999,
+    "ip": "156.155.50.93",
+    "port": 8080,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "ZA",
-      "city": "Worcester"
+      "city": "Johannesburg"
+    }
+  },
+  {
+    "proxy": "http://160.19.112.18:8080",
+    "protocol": "http",
+    "ip": "160.19.112.18",
+    "port": 8080,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "ZA",
+      "city": "Bellville"
     }
   }
 ]
