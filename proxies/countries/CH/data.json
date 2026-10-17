@@ -1,15 +1,28 @@
 [
   {
-    "proxy": "https://37.120.213.194:9443",
-    "protocol": "https",
-    "ip": "37.120.213.194",
-    "port": 9443,
-    "https": true,
+    "proxy": "socks5://37.35.109.132:1080",
+    "protocol": "socks5",
+    "ip": "37.35.109.132",
+    "port": 1080,
+    "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "CH",
-      "city": "Zurich"
+      "city": "Cartigny"
+    }
+  },
+  {
+    "proxy": "socks4://195.225.116.15:4145",
+    "protocol": "socks4",
+    "ip": "195.225.116.15",
+    "port": 4145,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CH",
+      "city": "Unknown"
     }
   },
   {
@@ -52,11 +65,11 @@
     }
   },
   {
-    "proxy": "http://185.191.239.248:3128",
-    "protocol": "http",
-    "ip": "185.191.239.248",
-    "port": 3128,
-    "https": false,
+    "proxy": "https://194.0.213.155:443",
+    "protocol": "https",
+    "ip": "194.0.213.155",
+    "port": 443,
+    "https": true,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
@@ -65,16 +78,29 @@
     }
   },
   {
-    "proxy": "http://178.83.46.167:3128",
+    "proxy": "https://194.0.213.155:9443",
+    "protocol": "https",
+    "ip": "194.0.213.155",
+    "port": 9443,
+    "https": true,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CH",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://147.161.246.47:8800",
     "protocol": "http",
-    "ip": "178.83.46.167",
-    "port": 3128,
+    "ip": "147.161.246.47",
+    "port": 8800,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "CH",
-      "city": "Basel"
+      "city": "Zurich"
     }
   },
   {
@@ -88,45 +114,6 @@
     "geolocation": {
       "country": "CH",
       "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "socks4://178.83.46.167:1080",
-    "protocol": "socks4",
-    "ip": "178.83.46.167",
-    "port": 1080,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "CH",
-      "city": "Basel"
-    }
-  },
-  {
-    "proxy": "socks4://136.0.7.206:20001",
-    "protocol": "socks4",
-    "ip": "136.0.7.206",
-    "port": 20001,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "CH",
-      "city": "Zurich"
-    }
-  },
-  {
-    "proxy": "socks5://37.35.109.132:1080",
-    "protocol": "socks5",
-    "ip": "37.35.109.132",
-    "port": 1080,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "CH",
-      "city": "Cartigny"
     }
   },
   {
@@ -286,19 +273,6 @@
     }
   },
   {
-    "proxy": "http://136.0.7.206:20001",
-    "protocol": "http",
-    "ip": "136.0.7.206",
-    "port": 20001,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "CH",
-      "city": "Zurich"
-    }
-  },
-  {
     "proxy": "http://62.220.129.81:8080",
     "protocol": "http",
     "ip": "62.220.129.81",
@@ -312,10 +286,10 @@
     }
   },
   {
-    "proxy": "http://178.83.46.167:1080",
+    "proxy": "http://178.83.46.167:3128",
     "protocol": "http",
     "ip": "178.83.46.167",
-    "port": 1080,
+    "port": 3128,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -351,29 +325,16 @@
     }
   },
   {
-    "proxy": "http://37.35.109.132:1080",
+    "proxy": "http://136.0.7.206:20001",
     "protocol": "http",
-    "ip": "37.35.109.132",
-    "port": 1080,
+    "ip": "136.0.7.206",
+    "port": 20001,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "CH",
-      "city": "Cartigny"
-    }
-  },
-  {
-    "proxy": "http://178.83.46.167:3129",
-    "protocol": "http",
-    "ip": "178.83.46.167",
-    "port": 3129,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "CH",
-      "city": "Basel"
+      "city": "Zurich"
     }
   }
 ]
