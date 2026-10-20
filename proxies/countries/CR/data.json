@@ -1,21 +1,34 @@
 [
   {
-    "proxy": "socks4://200.192.236.242:1080",
-    "protocol": "socks4",
-    "ip": "200.192.236.242",
-    "port": 1080,
-    "https": false,
+    "proxy": "https://190.113.112.147:4443",
+    "protocol": "https",
+    "ip": "190.113.112.147",
+    "port": 4443,
+    "https": true,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "CR",
-      "city": "Unknown"
+      "city": "Alajuela"
     }
   },
   {
     "proxy": "https://138.118.81.189:443",
     "protocol": "https",
     "ip": "138.118.81.189",
+    "port": 443,
+    "https": true,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CR",
+      "city": "Alajuela"
+    }
+  },
+  {
+    "proxy": "https://190.113.112.147:443",
+    "protocol": "https",
+    "ip": "190.113.112.147",
     "port": 443,
     "https": true,
     "anonymity": "transparent",
@@ -52,19 +65,6 @@
     }
   },
   {
-    "proxy": "http://190.7.214.134:8080",
-    "protocol": "http",
-    "ip": "190.7.214.134",
-    "port": 8080,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "CR",
-      "city": "San Jose Sur"
-    }
-  },
-  {
     "proxy": "http://190.61.84.166:9812",
     "protocol": "http",
     "ip": "190.61.84.166",
@@ -78,16 +78,16 @@
     }
   },
   {
-    "proxy": "http://186.15.187.158:999",
+    "proxy": "http://190.7.214.134:8080",
     "protocol": "http",
-    "ip": "186.15.187.158",
-    "port": 999,
+    "ip": "190.7.214.134",
+    "port": 8080,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "CR",
-      "city": "Heredia"
+      "city": "San Jose Sur"
     }
   }
 ]
