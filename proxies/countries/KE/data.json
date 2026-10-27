@@ -1,8 +1,21 @@
 [
   {
-    "proxy": "http://102.0.21.148:8080",
+    "proxy": "http://102.215.79.167:8080",
     "protocol": "http",
-    "ip": "102.0.21.148",
+    "ip": "102.215.79.167",
+    "port": 8080,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "KE",
+      "city": "Nairobi"
+    }
+  },
+  {
+    "proxy": "http://102.0.14.38:8080",
+    "protocol": "http",
+    "ip": "102.0.14.38",
     "port": 8080,
     "https": false,
     "anonymity": "transparent",
@@ -13,9 +26,22 @@
     }
   },
   {
-    "proxy": "http://102.0.21.22:8080",
+    "proxy": "socks5://102.0.14.42:1080",
+    "protocol": "socks5",
+    "ip": "102.0.14.42",
+    "port": 1080,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "KE",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://102.0.25.8:8080",
     "protocol": "http",
-    "ip": "102.0.21.22",
+    "ip": "102.0.25.8",
     "port": 8080,
     "https": false,
     "anonymity": "transparent",
@@ -39,16 +65,16 @@
     }
   },
   {
-    "proxy": "http://102.213.179.66:8080",
+    "proxy": "http://102.0.28.78:8083",
     "protocol": "http",
-    "ip": "102.213.179.66",
-    "port": 8080,
+    "ip": "102.0.28.78",
+    "port": 8083,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "KE",
-      "city": "Nairobi"
+      "city": "Unknown"
     }
   },
   {
@@ -62,32 +88,6 @@
     "geolocation": {
       "country": "KE",
       "city": "Nairobi"
-    }
-  },
-  {
-    "proxy": "socks5://102.0.14.42:1080",
-    "protocol": "socks5",
-    "ip": "102.0.14.42",
-    "port": 1080,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "KE",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://102.0.28.78:8083",
-    "protocol": "http",
-    "ip": "102.0.28.78",
-    "port": 8083,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "KE",
-      "city": "Unknown"
     }
   },
   {
@@ -247,9 +247,9 @@
     }
   },
   {
-    "proxy": "http://102.0.14.38:8080",
+    "proxy": "http://197.232.25.204:8080",
     "protocol": "http",
-    "ip": "102.0.14.38",
+    "ip": "197.232.25.204",
     "port": 8080,
     "https": false,
     "anonymity": "transparent",
@@ -260,35 +260,9 @@
     }
   },
   {
-    "proxy": "http://41.72.213.182:8090",
+    "proxy": "http://197.248.16.109:8080",
     "protocol": "http",
-    "ip": "41.72.213.182",
-    "port": 8090,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "KE",
-      "city": "Nairobi"
-    }
-  },
-  {
-    "proxy": "http://41.139.160.219:8103",
-    "protocol": "http",
-    "ip": "41.139.160.219",
-    "port": 8103,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "KE",
-      "city": "Eldoret"
-    }
-  },
-  {
-    "proxy": "http://197.248.193.143:8080",
-    "protocol": "http",
-    "ip": "197.248.193.143",
+    "ip": "197.248.16.109",
     "port": 8080,
     "https": false,
     "anonymity": "transparent",
@@ -296,6 +270,19 @@
     "geolocation": {
       "country": "KE",
       "city": "Nairobi"
+    }
+  },
+  {
+    "proxy": "http://41.139.160.219:8104",
+    "protocol": "http",
+    "ip": "41.139.160.219",
+    "port": 8104,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "KE",
+      "city": "Eldoret"
     }
   }
 ]
