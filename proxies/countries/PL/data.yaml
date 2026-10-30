@@ -1,23 +1,3 @@
-- proxy: socks4://185.32.4.126:4153
-  protocol: socks4
-  ip: 185.32.4.126
-  port: 4153
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Unknown
-- proxy: socks4://212.126.5.245:42344
-  protocol: socks4
-  ip: 212.126.5.245
-  port: 42344
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Poznan
 - proxy: socks4://91.150.189.122:1080
   protocol: socks4
   ip: 91.150.189.122
@@ -28,26 +8,6 @@
   geolocation:
     country: PL
     city: Rzeszów
-- proxy: socks4://89.186.8.107:1080
-  protocol: socks4
-  ip: 89.186.8.107
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Lublin
-- proxy: socks4://37.131.164.94:59341
-  protocol: socks4
-  ip: 37.131.164.94
-  port: 59341
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Drezdenko
 - proxy: https://151.115.78.51:443
   protocol: https
   ip: 151.115.78.51
@@ -308,16 +268,36 @@
   geolocation:
     country: PL
     city: Olsztyn
-- proxy: http://185.166.196.14:3128
-  protocol: http
-  ip: 185.166.196.14
-  port: 3128
+- proxy: socks5://88.218.206.170:22
+  protocol: socks5
+  ip: 88.218.206.170
+  port: 22
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: PL
     city: Warsaw
+- proxy: socks4://46.171.28.162:59311
+  protocol: socks4
+  ip: 46.171.28.162
+  port: 59311
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PL
+    city: Radomsko
+- proxy: socks4://185.147.69.48:1080
+  protocol: socks4
+  ip: 185.147.69.48
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PL
+    city: Rewal
 - proxy: socks5://88.218.206.170:5432
   protocol: socks5
   ip: 88.218.206.170
@@ -328,6 +308,16 @@
   geolocation:
     country: PL
     city: Warsaw
+- proxy: socks5://91.202.5.45:1080
+  protocol: socks5
+  ip: 91.202.5.45
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PL
+    city: Unknown
 - proxy: socks5://194.177.28.66:10808
   protocol: socks5
   ip: 194.177.28.66
@@ -348,16 +338,6 @@
   geolocation:
     country: PL
     city: Unknown
-- proxy: socks5://91.202.5.45:1080
-  protocol: socks5
-  ip: 91.202.5.45
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Unknown
 - proxy: socks5://109.95.175.64:1080
   protocol: socks5
   ip: 109.95.175.64
@@ -368,16 +348,6 @@
   geolocation:
     country: PL
     city: Lubawa
-- proxy: socks5://88.218.206.170:22
-  protocol: socks5
-  ip: 88.218.206.170
-  port: 22
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Warsaw
 - proxy: socks5://194.31.175.83:1080
   protocol: socks5
   ip: 194.31.175.83
