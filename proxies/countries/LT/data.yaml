@@ -1,48 +1,8 @@
-- proxy: socks4://81.7.112.174:4145
-  protocol: socks4
-  ip: 81.7.112.174
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: LT
-    city: Elektrėnai
 - proxy: https://93.115.26.111:443
   protocol: https
   ip: 93.115.26.111
   port: 443
   https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: LT
-    city: Unknown
-- proxy: https://185.82.92.225:443
-  protocol: https
-  ip: 185.82.92.225
-  port: 443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: LT
-    city: Vilnius
-- proxy: https://185.82.92.225:9443
-  protocol: https
-  ip: 185.82.92.225
-  port: 9443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: LT
-    city: Vilnius
-- proxy: http://46.166.167.60:8080
-  protocol: http
-  ip: 46.166.167.60
-  port: 8080
-  https: false
   anonymity: transparent
   score: 1
   geolocation:
@@ -178,3 +138,13 @@
   geolocation:
     country: LT
     city: Vilnius
+- proxy: http://88.119.139.237:53281
+  protocol: http
+  ip: 88.119.139.237
+  port: 53281
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: LT
+    city: Klaipėda

@@ -1,13 +1,13 @@
-- proxy: http://190.61.80.68:999
+- proxy: http://190.61.37.136:999
   protocol: http
-  ip: 190.61.80.68
+  ip: 190.61.37.136
   port: 999
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: HN
-    city: Tegucigalpa
+    city: Unknown
 - proxy: socks5://45.4.136.106:10801
   protocol: socks5
   ip: 45.4.136.106
@@ -58,6 +58,16 @@
   geolocation:
     country: HN
     city: Rio Comayagua
+- proxy: http://190.61.80.68:999
+  protocol: http
+  ip: 190.61.80.68
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: HN
+    city: Tegucigalpa
 - proxy: http://179.49.117.20:999
   protocol: http
   ip: 179.49.117.20
@@ -118,3 +128,23 @@
   geolocation:
     country: HN
     city: Unknown
+- proxy: http://190.61.37.139:999
+  protocol: http
+  ip: 190.61.37.139
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: HN
+    city: Unknown
+- proxy: http://38.7.24.169:999
+  protocol: http
+  ip: 38.7.24.169
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: HN
+    city: San Pedro Sula

@@ -8,6 +8,26 @@
   geolocation:
     country: CH
     city: Zurich
+- proxy: socks4://195.225.116.14:4145
+  protocol: socks4
+  ip: 195.225.116.14
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CH
+    city: Unknown
+- proxy: socks4://195.225.116.15:4145
+  protocol: socks4
+  ip: 195.225.116.15
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CH
+    city: Unknown
 - proxy: https://84.72.72.153:443
   protocol: https
   ip: 84.72.72.153
@@ -48,36 +68,46 @@
   geolocation:
     country: CH
     city: Unknown
-- proxy: http://147.161.247.9:10101
+- proxy: http://147.161.247.9:11105
   protocol: http
   ip: 147.161.247.9
-  port: 10101
+  port: 11105
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: CH
     city: Zurich
-- proxy: http://147.161.247.9:12852
+- proxy: http://147.161.247.9:11321
   protocol: http
   ip: 147.161.247.9
-  port: 12852
+  port: 11321
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: CH
     city: Zurich
-- proxy: http://147.161.247.9:12644
+- proxy: http://147.161.247.9:10819
   protocol: http
   ip: 147.161.247.9
-  port: 12644
+  port: 10819
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: CH
     city: Zurich
+- proxy: http://185.85.111.18:80
+  protocol: http
+  ip: 185.85.111.18
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CH
+    city: Unknown
 - proxy: socks4://178.83.46.167:1080
   protocol: socks4
   ip: 178.83.46.167
@@ -218,16 +248,6 @@
   geolocation:
     country: CH
     city: Geneva
-- proxy: http://185.85.111.18:80
-  protocol: http
-  ip: 185.85.111.18
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CH
-    city: Unknown
 - proxy: http://51.103.137.65:80
   protocol: http
   ip: 51.103.137.65
@@ -288,16 +308,6 @@
   geolocation:
     country: CH
     city: Unknown
-- proxy: http://178.83.46.167:3129
-  protocol: http
-  ip: 178.83.46.167
-  port: 3129
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CH
-    city: Basel
 - proxy: http://62.220.129.81:8080
   protocol: http
   ip: 62.220.129.81

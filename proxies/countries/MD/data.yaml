@@ -1,33 +1,13 @@
-- proxy: https://178.175.142.7:443
-  protocol: https
-  ip: 178.175.142.7
-  port: 443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MD
-    city: Unknown
-- proxy: https://178.175.142.7:9443
-  protocol: https
-  ip: 178.175.142.7
-  port: 9443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MD
-    city: Unknown
-- proxy: socks5://95.65.99.157:1080
-  protocol: socks5
-  ip: 95.65.99.157
-  port: 1080
+- proxy: socks4://46.55.3.113:4145
+  protocol: socks4
+  ip: 46.55.3.113
+  port: 4145
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: MD
-    city: Cahul
+    city: Chisinau
 - proxy: socks5://109.107.166.207:30385
   protocol: socks5
   ip: 109.107.166.207
@@ -38,6 +18,16 @@
   geolocation:
     country: MD
     city: Soroca
+- proxy: socks5://95.65.99.157:1080
+  protocol: socks5
+  ip: 95.65.99.157
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MD
+    city: Cahul
 - proxy: socks5://45.142.212.32:40001
   protocol: socks5
   ip: 45.142.212.32

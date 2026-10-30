@@ -1,143 +1,13 @@
-- proxy: https://189.204.255.4:8443
-  protocol: https
-  ip: 189.204.255.4
-  port: 8443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MX
-    city: Oaxaca City
-- proxy: https://200.52.72.14:443
-  protocol: https
-  ip: 200.52.72.14
-  port: 443
-  https: true
+- proxy: socks4://189.203.181.34:1080
+  protocol: socks4
+  ip: 189.203.181.34
+  port: 1080
+  https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: MX
     city: Mexico City
-- proxy: http://187.190.58.152:8081
-  protocol: http
-  ip: 187.190.58.152
-  port: 8081
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MX
-    city: Mazatlán
-- proxy: http://200.94.38.45:2604
-  protocol: http
-  ip: 200.94.38.45
-  port: 2604
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MX
-    city: Monterrey
-- proxy: http://148.224.57.58:999
-  protocol: http
-  ip: 148.224.57.58
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MX
-    city: San Luis Potosí City
-- proxy: http://187.249.159.60:999
-  protocol: http
-  ip: 187.249.159.60
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MX
-    city: Unknown
-- proxy: http://201.165.152.231:999
-  protocol: http
-  ip: 201.165.152.231
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MX
-    city: Unknown
-- proxy: http://189.201.153.89:999
-  protocol: http
-  ip: 189.201.153.89
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MX
-    city: Tuxtla Gutiérrez
-- proxy: http://187.147.213.105:8080
-  protocol: http
-  ip: 187.147.213.105
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MX
-    city: Mérida
-- proxy: http://189.202.188.149:80
-  protocol: http
-  ip: 189.202.188.149
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MX
-    city: Kanasin
-- proxy: http://45.190.78.183:999
-  protocol: http
-  ip: 45.190.78.183
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MX
-    city: Tala
-- proxy: http://38.7.22.165:999
-  protocol: http
-  ip: 38.7.22.165
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MX
-    city: Unknown
-- proxy: http://187.245.220.100:999
-  protocol: http
-  ip: 187.245.220.100
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MX
-    city: Monterrey
-- proxy: http://187.249.92.247:999
-  protocol: http
-  ip: 187.249.92.247
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MX
-    city: Unknown
 - proxy: socks4://189.202.204.53:1080
   protocol: socks4
   ip: 189.202.204.53
@@ -148,9 +18,109 @@
   geolocation:
     country: MX
     city: Monterrey
-- proxy: http://187.249.150.214:999
+- proxy: socks4://170.81.140.79:61437
+  protocol: socks4
+  ip: 170.81.140.79
+  port: 61437
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Aguascalientes
+- proxy: https://200.52.72.14:443
+  protocol: https
+  ip: 200.52.72.14
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Mexico City
+- proxy: http://187.251.224.167:8081
   protocol: http
-  ip: 187.249.150.214
+  ip: 187.251.224.167
+  port: 8081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Gustavo Adolfo Madero
+- proxy: http://45.7.67.158:999
+  protocol: http
+  ip: 45.7.67.158
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Zaragoza
+- proxy: http://189.196.32.16:8080
+  protocol: http
+  ip: 189.196.32.16
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Toluca
+- proxy: http://189.202.188.149:80
+  protocol: http
+  ip: 189.202.188.149
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Kanasin
+- proxy: http://187.243.251.66:999
+  protocol: http
+  ip: 187.243.251.66
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Ahome
+- proxy: http://45.188.76.107:999
+  protocol: http
+  ip: 45.188.76.107
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Comalcalco
+- proxy: http://187.188.171.231:10101
+  protocol: http
+  ip: 187.188.171.231
+  port: 10101
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Puebla City
+- proxy: http://189.148.34.54:8080
+  protocol: http
+  ip: 189.148.34.54
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Tapachula
+- proxy: http://201.165.152.231:999
+  protocol: http
+  ip: 201.165.152.231
   port: 999
   https: false
   anonymity: transparent
@@ -158,26 +128,6 @@
   geolocation:
     country: MX
     city: Unknown
-- proxy: http://45.189.60.72:999
-  protocol: http
-  ip: 45.189.60.72
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MX
-    city: Bacalar
-- proxy: http://189.143.62.172:999
-  protocol: http
-  ip: 189.143.62.172
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MX
-    city: Acapulco de Juárez
 - proxy: http://177.240.243.4:999
   protocol: http
   ip: 177.240.243.4
@@ -188,26 +138,36 @@
   geolocation:
     country: MX
     city: León
-- proxy: http://45.174.250.9:999
+- proxy: http://148.230.17.254:999
   protocol: http
-  ip: 45.174.250.9
+  ip: 148.230.17.254
   port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Huixquilucan de Degollado
+- proxy: http://187.190.127.212:8081
+  protocol: http
+  ip: 187.190.127.212
+  port: 8081
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: MX
     city: Morelia
-- proxy: http://45.174.242.147:999
+- proxy: http://207.248.108.129:20185
   protocol: http
-  ip: 45.174.242.147
-  port: 999
+  ip: 207.248.108.129
+  port: 20185
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: MX
-    city: Candelaria
+    city: Morelia
 - proxy: http://187.251.224.167:80
   protocol: http
   ip: 187.251.224.167
@@ -218,56 +178,26 @@
   geolocation:
     country: MX
     city: Gustavo Adolfo Madero
-- proxy: http://45.190.76.17:999
+- proxy: http://187.251.230.15:8080
   protocol: http
-  ip: 45.190.76.17
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MX
-    city: Zapopan
-- proxy: http://148.224.7.78:999
-  protocol: http
-  ip: 148.224.7.78
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MX
-    city: Cerro de San Pedro
-- proxy: http://189.203.181.34:8080
-  protocol: http
-  ip: 189.203.181.34
+  ip: 187.251.230.15
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: MX
-    city: Mexico City
-- proxy: http://201.165.146.146:999
+    city: Puebla City
+- proxy: http://187.190.127.212:80
   protocol: http
-  ip: 201.165.146.146
-  port: 999
+  ip: 187.190.127.212
+  port: 80
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: MX
-    city: Unknown
-- proxy: http://187.199.36.52:8080
-  protocol: http
-  ip: 187.199.36.52
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MX
-    city: Cabo San Lucas
+    city: Morelia
 - proxy: socks5://201.165.172.3:1080
   protocol: socks5
   ip: 201.165.172.3
@@ -358,6 +288,16 @@
   geolocation:
     country: MX
     city: Cerro de San Pedro
+- proxy: http://45.190.78.183:999
+  protocol: http
+  ip: 45.190.78.183
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Tala
 - proxy: http://148.224.14.220:999
   protocol: http
   ip: 148.224.14.220
@@ -448,6 +388,16 @@
   geolocation:
     country: MX
     city: Unknown
+- proxy: http://45.174.250.9:999
+  protocol: http
+  ip: 45.174.250.9
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Morelia
 - proxy: http://187.249.89.39:999
   protocol: http
   ip: 187.249.89.39
@@ -498,6 +448,16 @@
   geolocation:
     country: MX
     city: Jimenez
+- proxy: http://187.190.58.152:8081
+  protocol: http
+  ip: 187.190.58.152
+  port: 8081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Mazatlán
 - proxy: http://138.186.201.77:8081
   protocol: http
   ip: 138.186.201.77
@@ -528,6 +488,16 @@
   geolocation:
     country: MX
     city: Unknown
+- proxy: http://45.174.242.147:999
+  protocol: http
+  ip: 45.174.242.147
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Candelaria
 - proxy: http://187.249.158.195:999
   protocol: http
   ip: 187.249.158.195
@@ -568,26 +538,6 @@
   geolocation:
     country: MX
     city: Unknown
-- proxy: http://187.188.171.231:10101
-  protocol: http
-  ip: 187.188.171.231
-  port: 10101
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MX
-    city: Puebla City
-- proxy: http://207.248.108.129:20185
-  protocol: http
-  ip: 207.248.108.129
-  port: 20185
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MX
-    city: Morelia
 - proxy: http://187.62.106.161:999
   protocol: http
   ip: 187.62.106.161
@@ -748,6 +698,16 @@
   geolocation:
     country: MX
     city: Calimaya
+- proxy: http://187.249.92.247:999
+  protocol: http
+  ip: 187.249.92.247
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Unknown
 - proxy: http://187.204.126.28:8081
   protocol: http
   ip: 187.204.126.28
@@ -898,6 +858,16 @@
   geolocation:
     country: MX
     city: La Barca
+- proxy: http://187.249.159.60:999
+  protocol: http
+  ip: 187.249.159.60
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Unknown
 - proxy: http://138.117.229.17:999
   protocol: http
   ip: 138.117.229.17
@@ -928,9 +898,9 @@
   geolocation:
     country: MX
     city: Chihuahua City
-- proxy: http://45.190.87.193:999
+- proxy: http://38.7.20.200:999
   protocol: http
-  ip: 45.190.87.193
+  ip: 38.7.20.200
   port: 999
   https: false
   anonymity: transparent
@@ -938,116 +908,6 @@
   geolocation:
     country: MX
     city: Unknown
-- proxy: http://187.152.157.59:8080
-  protocol: http
-  ip: 187.152.157.59
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MX
-    city: El Salto
-- proxy: http://201.123.64.140:999
-  protocol: http
-  ip: 201.123.64.140
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MX
-    city: Veracruz
-- proxy: http://38.49.142.174:999
-  protocol: http
-  ip: 38.49.142.174
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MX
-    city: Apaseo el Grande
-- proxy: http://187.251.230.15:8080
-  protocol: http
-  ip: 187.251.230.15
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MX
-    city: Puebla City
-- proxy: http://201.123.66.38:999
-  protocol: http
-  ip: 201.123.66.38
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MX
-    city: Veracruz
-- proxy: http://38.65.175.69:3129
-  protocol: http
-  ip: 38.65.175.69
-  port: 3129
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MX
-    city: Unknown
-- proxy: http://148.244.84.34:3129
-  protocol: http
-  ip: 148.244.84.34
-  port: 3129
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MX
-    city: Monterrey
-- proxy: http://148.224.14.219:999
-  protocol: http
-  ip: 148.224.14.219
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MX
-    city: Cerro de San Pedro
-- proxy: http://38.7.18.119:999
-  protocol: http
-  ip: 38.7.18.119
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MX
-    city: Unknown
-- proxy: http://138.186.201.77:8083
-  protocol: http
-  ip: 138.186.201.77
-  port: 8083
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MX
-    city: Piedras Negras
-- proxy: http://189.51.168.30:999
-  protocol: http
-  ip: 189.51.168.30
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MX
-    city: Mérida
 - proxy: http://148.222.136.64:999
   protocol: http
   ip: 148.222.136.64
@@ -1058,6 +918,36 @@
   geolocation:
     country: MX
     city: Unknown
+- proxy: http://38.49.156.238:10101
+  protocol: http
+  ip: 38.49.156.238
+  port: 10101
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Unknown
+- proxy: http://187.249.150.214:999
+  protocol: http
+  ip: 187.249.150.214
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Unknown
+- proxy: http://190.9.109.80:999
+  protocol: http
+  ip: 190.9.109.80
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Juarez
 - proxy: http://201.170.52.13:999
   protocol: http
   ip: 201.170.52.13
@@ -1068,6 +958,116 @@
   geolocation:
     country: MX
     city: Tijuana
+- proxy: http://148.244.84.34:3129
+  protocol: http
+  ip: 148.244.84.34
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Monterrey
+- proxy: http://148.244.144.194:8097
+  protocol: http
+  ip: 148.244.144.194
+  port: 8097
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Uman
+- proxy: http://45.190.87.41:999
+  protocol: http
+  ip: 45.190.87.41
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Unknown
+- proxy: http://200.76.169.46:999
+  protocol: http
+  ip: 200.76.169.46
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Huehuetoca
+- proxy: http://38.7.18.119:999
+  protocol: http
+  ip: 38.7.18.119
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Unknown
+- proxy: http://38.7.22.165:999
+  protocol: http
+  ip: 38.7.22.165
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Unknown
+- proxy: http://45.189.60.72:999
+  protocol: http
+  ip: 45.189.60.72
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Bacalar
+- proxy: http://201.123.64.140:999
+  protocol: http
+  ip: 201.123.64.140
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Veracruz
+- proxy: http://201.159.126.85:8081
+  protocol: http
+  ip: 201.159.126.85
+  port: 8081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Monterrey
+- proxy: http://187.245.202.15:999
+  protocol: http
+  ip: 187.245.202.15
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Unknown
+- proxy: http://201.165.146.146:999
+  protocol: http
+  ip: 201.165.146.146
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Unknown
 - proxy: http://85.92.127.30:999
   protocol: http
   ip: 85.92.127.30
@@ -1078,9 +1078,119 @@
   geolocation:
     country: MX
     city: Unknown
-- proxy: http://148.230.17.252:999
+- proxy: http://201.159.107.165:8081
   protocol: http
-  ip: 148.230.17.252
+  ip: 201.159.107.165
+  port: 8081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Monterrey
+- proxy: http://164.163.188.115:999
+  protocol: http
+  ip: 164.163.188.115
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Morelia
+- proxy: http://148.224.57.58:999
+  protocol: http
+  ip: 148.224.57.58
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: San Luis Potosí City
+- proxy: http://189.158.80.249:8080
+  protocol: http
+  ip: 189.158.80.249
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: General Escobedo
+- proxy: http://201.123.66.38:999
+  protocol: http
+  ip: 201.123.66.38
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Veracruz
+- proxy: http://45.188.76.238:999
+  protocol: http
+  ip: 45.188.76.238
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Jalpa de Mendez
+- proxy: http://38.49.140.226:999
+  protocol: http
+  ip: 38.49.140.226
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: San Felipe
+- proxy: http://187.199.36.52:8080
+  protocol: http
+  ip: 187.199.36.52
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Cabo San Lucas
+- proxy: http://187.249.89.57:999
+  protocol: http
+  ip: 187.249.89.57
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Unknown
+- proxy: http://148.224.7.77:999
+  protocol: http
+  ip: 148.224.7.77
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Cerro de San Pedro
+- proxy: http://200.71.111.222:999
+  protocol: http
+  ip: 200.71.111.222
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Alamo
+- proxy: http://148.230.4.225:999
+  protocol: http
+  ip: 148.230.4.225
   port: 999
   https: false
   anonymity: transparent
@@ -1088,3 +1198,13 @@
   geolocation:
     country: MX
     city: Huixquilucan de Degollado
+- proxy: http://201.159.111.137:8081
+  protocol: http
+  ip: 201.159.111.137
+  port: 8081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MX
+    city: Cienega de Flores
