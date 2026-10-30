@@ -1,7 +1,17 @@
-- proxy: socks4://118.91.175.146:5678
+- proxy: socks4://124.41.213.174:5678
   protocol: socks4
-  ip: 118.91.175.146
+  ip: 124.41.213.174
   port: 5678
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: NP
+    city: Kathmandu
+- proxy: socks4://103.167.187.4:1080
+  protocol: socks4
+  ip: 103.167.187.4
+  port: 1080
   https: false
   anonymity: transparent
   score: 1
@@ -28,10 +38,20 @@
   geolocation:
     country: NP
     city: Unknown
-- proxy: socks4://202.166.196.105:48293
+- proxy: socks4://182.93.75.162:1080
   protocol: socks4
-  ip: 202.166.196.105
-  port: 48293
+  ip: 182.93.75.162
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: NP
+    city: Madanpokhara
+- proxy: http://110.34.1.180:32650
+  protocol: http
+  ip: 110.34.1.180
+  port: 32650
   https: false
   anonymity: transparent
   score: 1
@@ -108,13 +128,3 @@
   geolocation:
     country: NP
     city: Jāwalākhel
-- proxy: http://110.34.1.180:32650
-  protocol: http
-  ip: 110.34.1.180
-  port: 32650
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: NP
-    city: Kathmandu
