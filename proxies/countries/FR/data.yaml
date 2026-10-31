@@ -38,6 +38,16 @@
   geolocation:
     country: FR
     city: Échirolles
+- proxy: https://82.64.46.151:443
+  protocol: https
+  ip: 82.64.46.151
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: FR
+    city: Saint-Maur-des-Fossés
 - proxy: https://195.200.166.126:443
   protocol: https
   ip: 195.200.166.126
@@ -98,6 +108,16 @@
   geolocation:
     country: FR
     city: Unknown
+- proxy: https://217.181.201.254:8090
+  protocol: https
+  ip: 217.181.201.254
+  port: 8090
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: FR
+    city: Unknown
 - proxy: https://82.96.128.175:8090
   protocol: https
   ip: 82.96.128.175
@@ -118,16 +138,6 @@
   geolocation:
     country: FR
     city: Froges
-- proxy: https://31.172.173.58:443
-  protocol: https
-  ip: 31.172.173.58
-  port: 443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: FR
-    city: Aubergenville
 - proxy: https://54.36.110.57:443
   protocol: https
   ip: 54.36.110.57
@@ -188,6 +198,16 @@
   geolocation:
     country: FR
     city: Le Mee-sur-Seine
+- proxy: https://82.64.46.151:8013
+  protocol: https
+  ip: 82.64.46.151
+  port: 8013
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: FR
+    city: Saint-Maur-des-Fossés
 - proxy: https://79.137.85.144:443
   protocol: https
   ip: 79.137.85.144
@@ -228,6 +248,16 @@
   geolocation:
     country: FR
     city: Unknown
+- proxy: https://82.64.46.151:8012
+  protocol: https
+  ip: 82.64.46.151
+  port: 8012
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: FR
+    city: Saint-Maur-des-Fossés
 - proxy: https://51.210.167.149:443
   protocol: https
   ip: 51.210.167.149
@@ -248,16 +278,6 @@
   geolocation:
     country: FR
     city: Le Mee-sur-Seine
-- proxy: https://82.64.46.151:8007
-  protocol: https
-  ip: 82.64.46.151
-  port: 8007
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: FR
-    city: Saint-Maur-des-Fossés
 - proxy: https://193.49.168.97:443
   protocol: https
   ip: 193.49.168.97
@@ -318,16 +338,6 @@
   geolocation:
     country: FR
     city: Unknown
-- proxy: https://82.64.46.151:8017
-  protocol: https
-  ip: 82.64.46.151
-  port: 8017
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: FR
-    city: Saint-Maur-des-Fossés
 - proxy: https://31.32.19.111:8081
   protocol: https
   ip: 31.32.19.111
@@ -348,26 +358,16 @@
   geolocation:
     country: FR
     city: Paris
-- proxy: https://13.38.27.183:56145
+- proxy: https://13.38.27.183:15314
   protocol: https
   ip: 13.38.27.183
-  port: 56145
+  port: 15314
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: FR
     city: Paris
-- proxy: http://141.94.220.45:3128
-  protocol: http
-  ip: 141.94.220.45
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: FR
-    city: Unknown
 - proxy: http://173.245.49.114:80
   protocol: http
   ip: 173.245.49.114
@@ -888,16 +888,6 @@
   geolocation:
     country: FR
     city: Paris
-- proxy: http://162.19.177.244:10007
-  protocol: http
-  ip: 162.19.177.244
-  port: 10007
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: FR
-    city: Unknown
 - proxy: http://188.165.199.207:80
   protocol: http
   ip: 188.165.199.207
@@ -908,6 +898,26 @@
   geolocation:
     country: FR
     city: Unknown
+- proxy: socks5://57.128.249.250:9052
+  protocol: socks5
+  ip: 57.128.249.250
+  port: 9052
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: FR
+    city: Unknown
+- proxy: http://51.159.6.55:5555
+  protocol: http
+  ip: 51.159.6.55
+  port: 5555
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: FR
+    city: Paris
 - proxy: socks5://185.171.202.170:9150
   protocol: socks5
   ip: 185.171.202.170
@@ -918,26 +928,6 @@
   geolocation:
     country: FR
     city: Paris
-- proxy: http://149.202.184.186:3128
-  protocol: http
-  ip: 149.202.184.186
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: FR
-    city: Unknown
-- proxy: http://45.9.117.63:3128
-  protocol: http
-  ip: 45.9.117.63
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: FR
-    city: Strasbourg
 - proxy: socks5://92.205.186.129:1080
   protocol: socks5
   ip: 92.205.186.129
@@ -972,16 +962,6 @@
   protocol: socks5
   ip: 163.5.53.209
   port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: FR
-    city: Unknown
-- proxy: socks5://57.128.249.250:9052
-  protocol: socks5
-  ip: 57.128.249.250
-  port: 9052
   https: false
   anonymity: transparent
   score: 1
@@ -1728,10 +1708,10 @@
   geolocation:
     country: FR
     city: Unknown
-- proxy: http://141.94.220.45:3129
+- proxy: http://163.172.232.12:8080
   protocol: http
-  ip: 141.94.220.45
-  port: 3129
+  ip: 163.172.232.12
+  port: 8080
   https: false
   anonymity: transparent
   score: 1

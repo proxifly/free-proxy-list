@@ -1,13 +1,3 @@
-- proxy: http://90.156.160.234:3128
-  protocol: http
-  ip: 90.156.160.234
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: UZ
-    city: Unknown
 - proxy: socks5://213.230.121.41:1080
   protocol: socks5
   ip: 213.230.121.41
@@ -32,6 +22,16 @@
   protocol: http
   ip: 31.135.214.17
   port: 8026
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: UZ
+    city: Unknown
+- proxy: http://90.156.160.234:3128
+  protocol: http
+  ip: 90.156.160.234
+  port: 3128
   https: false
   anonymity: transparent
   score: 1

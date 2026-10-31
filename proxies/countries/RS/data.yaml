@@ -1,13 +1,3 @@
-- proxy: socks4://217.16.130.83:4145
-  protocol: socks4
-  ip: 217.16.130.83
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RS
-    city: Unknown
 - proxy: https://212.200.119.174:443
   protocol: https
   ip: 212.200.119.174
@@ -18,16 +8,6 @@
   geolocation:
     country: RS
     city: Aleksandrovac
-- proxy: http://79.175.107.227:6666
-  protocol: http
-  ip: 79.175.107.227
-  port: 6666
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RS
-    city: Unknown
 - proxy: socks5://138.124.125.198:1080
   protocol: socks5
   ip: 138.124.125.198
@@ -148,3 +128,13 @@
   geolocation:
     country: RS
     city: Belgrade
+- proxy: http://79.175.107.227:6666
+  protocol: http
+  ip: 79.175.107.227
+  port: 6666
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RS
+    city: Unknown

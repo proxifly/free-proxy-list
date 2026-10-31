@@ -1,23 +1,3 @@
-- proxy: socks4://212.34.230.102:4153
-  protocol: socks4
-  ip: 212.34.230.102
-  port: 4153
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AM
-    city: Yerevan
-- proxy: socks4://130.193.123.34:5678
-  protocol: socks4
-  ip: 130.193.123.34
-  port: 5678
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AM
-    city: Yerevan
 - proxy: socks4://81.16.9.222:3629
   protocol: socks4
   ip: 81.16.9.222
@@ -28,6 +8,16 @@
   geolocation:
     country: AM
     city: Yerevan
+- proxy: socks4://37.186.66.36:3629
+  protocol: socks4
+  ip: 37.186.66.36
+  port: 3629
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AM
+    city: Unknown
 - proxy: https://80.86.231.109:443
   protocol: https
   ip: 80.86.231.109
@@ -43,16 +33,6 @@
   ip: 91.221.229.86
   port: 443
   https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AM
-    city: Unknown
-- proxy: http://45.133.107.234:81
-  protocol: http
-  ip: 45.133.107.234
-  port: 81
-  https: false
   anonymity: transparent
   score: 1
   geolocation:
@@ -248,6 +228,16 @@
   geolocation:
     country: AM
     city: Unknown
+- proxy: socks4://130.193.123.34:5678
+  protocol: socks4
+  ip: 130.193.123.34
+  port: 5678
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AM
+    city: Yerevan
 - proxy: socks5://46.226.165.82:8443
   protocol: socks5
   ip: 46.226.165.82
@@ -292,16 +282,6 @@
   protocol: http
   ip: 89.249.193.136
   port: 5874
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AM
-    city: Unknown
-- proxy: http://91.204.190.140:81
-  protocol: http
-  ip: 91.204.190.140
-  port: 81
   https: false
   anonymity: transparent
   score: 1
