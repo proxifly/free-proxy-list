@@ -8,6 +8,26 @@
   geolocation:
     country: NG
     city: Unknown
+- proxy: socks4://41.217.205.6:4153
+  protocol: socks4
+  ip: 41.217.205.6
+  port: 4153
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: NG
+    city: Abuja
+- proxy: http://102.213.84.244:8080
+  protocol: http
+  ip: 102.213.84.244
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: NG
+    city: Lagos
 - proxy: socks5://102.69.146.59:7080
   protocol: socks5
   ip: 102.69.146.59
@@ -38,16 +58,6 @@
   geolocation:
     country: NG
     city: Unknown
-- proxy: http://102.213.84.244:8080
-  protocol: http
-  ip: 102.213.84.244
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: NG
-    city: Lagos
 - proxy: http://41.184.92.220:80
   protocol: http
   ip: 41.184.92.220
@@ -78,13 +88,3 @@
   geolocation:
     country: NG
     city: Abuja
-- proxy: http://41.203.83.242:8080
-  protocol: http
-  ip: 41.203.83.242
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: NG
-    city: Port Harcourt
