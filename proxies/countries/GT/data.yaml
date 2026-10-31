@@ -1,13 +1,33 @@
-- proxy: http://45.164.151.150:999
+- proxy: http://45.228.233.78:999
   protocol: http
-  ip: 45.164.151.150
+  ip: 45.228.233.78
   port: 999
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: GT
-    city: Unknown
+    city: Guatemala City
+- proxy: http://181.119.109.10:999
+  protocol: http
+  ip: 181.119.109.10
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GT
+    city: Guatemala City
+- proxy: http://45.5.119.17:999
+  protocol: http
+  ip: 45.5.119.17
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GT
+    city: Guatemala City
 - proxy: http://138.118.106.237:999
   protocol: http
   ip: 138.118.106.237
@@ -48,26 +68,6 @@
   geolocation:
     country: GT
     city: Santiago Sacatepequez
-- proxy: http://45.5.119.17:999
-  protocol: http
-  ip: 45.5.119.17
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GT
-    city: Guatemala City
-- proxy: http://181.119.109.10:999
-  protocol: http
-  ip: 181.119.109.10
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GT
-    city: Guatemala City
 - proxy: http://190.61.88.147:8080
   protocol: http
   ip: 190.61.88.147
@@ -88,3 +88,13 @@
   geolocation:
     country: GT
     city: Unknown
+- proxy: http://181.119.111.59:999
+  protocol: http
+  ip: 181.119.111.59
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GT
+    city: Guatemala City

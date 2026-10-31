@@ -8,26 +8,36 @@
   geolocation:
     country: IL
     city: Ramat Gan
-- proxy: https://51.17.99.116:33698
+- proxy: https://51.17.99.135:5100
   protocol: https
-  ip: 51.17.99.116
-  port: 33698
+  ip: 51.17.99.135
+  port: 5100
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: IL
     city: Tel Aviv
-- proxy: https://51.17.99.116:26284
-  protocol: https
-  ip: 51.17.99.116
-  port: 26284
-  https: true
+- proxy: http://80.65.211.149:8888
+  protocol: http
+  ip: 80.65.211.149
+  port: 8888
+  https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IL
-    city: Tel Aviv
+    city: Unknown
+- proxy: http://83.229.73.225:13554
+  protocol: http
+  ip: 83.229.73.225
+  port: 13554
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IL
+    city: Haifa
 - proxy: socks5://80.65.211.149:8888
   protocol: socks5
   ip: 80.65.211.149
@@ -158,16 +168,6 @@
   geolocation:
     country: IL
     city: Tel Aviv
-- proxy: http://80.65.211.149:8888
-  protocol: http
-  ip: 80.65.211.149
-  port: 8888
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IL
-    city: Unknown
 - proxy: http://77.91.74.77:80
   protocol: http
   ip: 77.91.74.77
