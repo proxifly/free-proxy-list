@@ -1,3 +1,13 @@
+- proxy: socks4://179.189.219.98:4145
+  protocol: socks4
+  ip: 179.189.219.98
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PY
+    city: Asunción
 - proxy: https://181.126.49.38:443
   protocol: https
   ip: 181.126.49.38
@@ -18,40 +28,20 @@
   geolocation:
     country: PY
     city: Asunción
-- proxy: http://45.177.16.129:999
-  protocol: http
-  ip: 45.177.16.129
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PY
-    city: Ciudad del Este
-- proxy: http://170.245.132.82:9000
-  protocol: http
-  ip: 170.245.132.82
-  port: 9000
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PY
-    city: Carapegua
-- proxy: http://181.78.95.59:999
-  protocol: http
-  ip: 181.78.95.59
-  port: 999
+- proxy: socks5://181.94.197.37:13049
+  protocol: socks5
+  ip: 181.94.197.37
+  port: 13049
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: PY
     city: Asunción
-- proxy: socks5://181.94.197.37:13049
-  protocol: socks5
-  ip: 181.94.197.37
-  port: 13049
+- proxy: http://181.78.94.189:999
+  protocol: http
+  ip: 181.78.94.189
+  port: 999
   https: false
   anonymity: transparent
   score: 1

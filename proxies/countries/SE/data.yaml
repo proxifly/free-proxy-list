@@ -58,29 +58,9 @@
   geolocation:
     country: SE
     city: Unknown
-- proxy: http://194.14.207.87:8001
-  protocol: http
-  ip: 194.14.207.87
-  port: 8001
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SE
-    city: Falun
-- proxy: http://194.14.207.87:80
-  protocol: http
-  ip: 194.14.207.87
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SE
-    city: Falun
-- proxy: socks5://91.90.25.84:1080
+- proxy: socks5://91.90.25.89:1080
   protocol: socks5
-  ip: 91.90.25.84
+  ip: 91.90.25.89
   port: 1080
   https: false
   anonymity: transparent
@@ -91,6 +71,16 @@
 - proxy: socks5://91.90.25.66:1080
   protocol: socks5
   ip: 91.90.25.66
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SE
+    city: Unknown
+- proxy: socks5://91.90.25.84:1080
+  protocol: socks5
+  ip: 91.90.25.84
   port: 1080
   https: false
   anonymity: transparent
@@ -168,16 +158,6 @@
   geolocation:
     country: SE
     city: Åkersberga
-- proxy: socks5://91.90.25.89:1080
-  protocol: socks5
-  ip: 91.90.25.89
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SE
-    city: Unknown
 - proxy: socks5://13.61.194.88:1080
   protocol: socks5
   ip: 13.61.194.88
@@ -428,6 +408,16 @@
   geolocation:
     country: SE
     city: Unknown
+- proxy: http://194.14.207.87:80
+  protocol: http
+  ip: 194.14.207.87
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SE
+    city: Falun
 - proxy: http://84.8.248.36:3128
   protocol: http
   ip: 84.8.248.36
@@ -458,6 +448,16 @@
   geolocation:
     country: SE
     city: Unknown
+- proxy: http://194.14.207.87:8001
+  protocol: http
+  ip: 194.14.207.87
+  port: 8001
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SE
+    city: Falun
 - proxy: http://81.228.44.187:65530
   protocol: http
   ip: 81.228.44.187

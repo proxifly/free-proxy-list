@@ -1,13 +1,13 @@
-- proxy: socks5://1.53.40.240:1080
+- proxy: socks5://183.80.59.62:1083
   protocol: socks5
-  ip: 1.53.40.240
-  port: 1080
+  ip: 183.80.59.62
+  port: 1083
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: VN
-    city: Ho Chi Minh City
+    city: Hanoi
 - proxy: socks5://14.225.205.152:1081
   protocol: socks5
   ip: 14.225.205.152
@@ -28,30 +28,10 @@
   geolocation:
     country: VN
     city: Thai Nguyen
-- proxy: socks5://42.115.72.145:1080
-  protocol: socks5
-  ip: 42.115.72.145
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Quan Mot
 - proxy: socks5://42.115.72.145:1081
   protocol: socks5
   ip: 42.115.72.145
   port: 1081
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Quan Mot
-- proxy: socks5://42.115.72.145:1083
-  protocol: socks5
-  ip: 42.115.72.145
-  port: 1083
   https: false
   anonymity: transparent
   score: 1
@@ -68,16 +48,26 @@
   geolocation:
     country: VN
     city: Thai Nguyen
-- proxy: socks4://103.182.22.57:9000
-  protocol: socks4
-  ip: 103.182.22.57
-  port: 9000
+- proxy: socks5://42.115.72.145:1088
+  protocol: socks5
+  ip: 42.115.72.145
+  port: 1088
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: VN
-    city: Unknown
+    city: Quan Mot
+- proxy: socks5://42.115.72.145:1085
+  protocol: socks5
+  ip: 42.115.72.145
+  port: 1085
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Quan Mot
 - proxy: https://103.70.115.234:8443
   protocol: https
   ip: 103.70.115.234
@@ -128,40 +118,90 @@
   geolocation:
     country: VN
     city: Unknown
-- proxy: http://113.176.92.71:3128
+- proxy: http://14.224.181.172:8080
   protocol: http
-  ip: 113.176.92.71
+  ip: 14.224.181.172
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Ho Chi Minh City
+- proxy: http://115.79.70.69:8470
+  protocol: http
+  ip: 115.79.70.69
+  port: 8470
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Ho Chi Minh City
+- proxy: http://171.244.129.3:3128
+  protocol: http
+  ip: 171.244.129.3
   port: 3128
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: VN
-    city: Hanoi
-- proxy: http://118.69.183.149:8080
-  protocol: http
-  ip: 118.69.183.149
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Ho Chi Minh City
-- proxy: http://14.224.183.185:8080
-  protocol: http
-  ip: 14.224.183.185
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Ho Chi Minh City
+    city: Unknown
 - proxy: http://123.30.154.171:7777
   protocol: http
   ip: 123.30.154.171
   port: 7777
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Unknown
+- proxy: socks4://103.182.22.221:9000
+  protocol: socks4
+  ip: 103.182.22.221
+  port: 9000
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Unknown
+- proxy: socks4://103.182.22.51:9000
+  protocol: socks4
+  ip: 103.182.22.51
+  port: 9000
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Unknown
+- proxy: http://203.205.49.2:10098
+  protocol: http
+  ip: 203.205.49.2
+  port: 10098
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Da Nang
+- proxy: socks4://103.182.22.244:9000
+  protocol: socks4
+  ip: 103.182.22.244
+  port: 9000
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Unknown
+- proxy: socks5://103.182.22.223:9000
+  protocol: socks5
+  ip: 103.182.22.223
+  port: 9000
   https: false
   anonymity: transparent
   score: 1
@@ -178,50 +218,10 @@
   geolocation:
     country: VN
     city: Ho Chi Minh City
-- proxy: http://123.26.164.203:8080
+- proxy: http://203.205.49.2:10105
   protocol: http
-  ip: 123.26.164.203
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Hanoi
-- proxy: http://222.252.144.246:8080
-  protocol: http
-  ip: 222.252.144.246
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Hanoi
-- proxy: http://103.182.22.200:8000
-  protocol: http
-  ip: 103.182.22.200
-  port: 8000
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Unknown
-- proxy: http://14.170.154.193:19132
-  protocol: http
-  ip: 14.170.154.193
-  port: 19132
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Thai Nguyen
-- proxy: http://118.69.176.114:8080
-  protocol: http
-  ip: 118.69.176.114
-  port: 8080
+  ip: 203.205.49.2
+  port: 10105
   https: false
   anonymity: transparent
   score: 1
@@ -238,50 +238,10 @@
   geolocation:
     country: VN
     city: Ho Chi Minh City
-- proxy: http://103.56.163.147:3128
-  protocol: http
-  ip: 103.56.163.147
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Unknown
-- proxy: http://203.205.49.2:10082
-  protocol: http
-  ip: 203.205.49.2
-  port: 10082
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Da Nang
-- proxy: http://203.205.49.2:10237
-  protocol: http
-  ip: 203.205.49.2
-  port: 10237
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Da Nang
-- proxy: http://103.122.141.155:80
-  protocol: http
-  ip: 103.122.141.155
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Unknown
-- proxy: http://103.182.22.244:8000
-  protocol: http
-  ip: 103.182.22.244
-  port: 8000
+- proxy: socks4://103.182.22.189:9000
+  protocol: socks4
+  ip: 103.182.22.189
+  port: 9000
   https: false
   anonymity: transparent
   score: 1
@@ -298,10 +258,200 @@
   geolocation:
     country: VN
     city: Đông Hà
-- proxy: http://103.182.22.187:8000
+- proxy: socks4://103.182.22.200:9000
+  protocol: socks4
+  ip: 103.182.22.200
+  port: 9000
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Unknown
+- proxy: http://14.170.154.193:19132
   protocol: http
-  ip: 103.182.22.187
+  ip: 14.170.154.193
+  port: 19132
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Thai Nguyen
+- proxy: socks4://171.250.216.22:1080
+  protocol: socks4
+  ip: 171.250.216.22
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: My Tho
+- proxy: http://118.69.186.75:1452
+  protocol: http
+  ip: 118.69.186.75
+  port: 1452
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Ho Chi Minh City
+- proxy: socks4://103.182.22.57:9000
+  protocol: socks4
+  ip: 103.182.22.57
+  port: 9000
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Unknown
+- proxy: socks4://103.182.22.198:9000
+  protocol: socks4
+  ip: 103.182.22.198
+  port: 9000
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Unknown
+- proxy: socks4://171.248.212.248:1080
+  protocol: socks4
+  ip: 171.248.212.248
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Ho Chi Minh City
+- proxy: socks4://103.182.22.54:9000
+  protocol: socks4
+  ip: 103.182.22.54
+  port: 9000
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Unknown
+- proxy: http://203.205.49.2:10008
+  protocol: http
+  ip: 203.205.49.2
+  port: 10008
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Da Nang
+- proxy: socks4://103.182.22.48:9000
+  protocol: socks4
+  ip: 103.182.22.48
+  port: 9000
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Unknown
+- proxy: socks4://171.247.245.54:1080
+  protocol: socks4
+  ip: 171.247.245.54
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: My Tho
+- proxy: socks5://103.182.22.197:9000
+  protocol: socks5
+  ip: 103.182.22.197
+  port: 9000
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Unknown
+- proxy: http://103.182.22.200:8000
+  protocol: http
+  ip: 103.182.22.200
   port: 8000
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Unknown
+- proxy: socks4://103.182.22.223:9000
+  protocol: socks4
+  ip: 103.182.22.223
+  port: 9000
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Unknown
+- proxy: http://118.69.176.114:8080
+  protocol: http
+  ip: 118.69.176.114
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Da Nang
+- proxy: socks4://103.182.22.58:9000
+  protocol: socks4
+  ip: 103.182.22.58
+  port: 9000
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Unknown
+- proxy: http://222.252.144.246:8080
+  protocol: http
+  ip: 222.252.144.246
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Hanoi
+- proxy: http://14.225.2.98:808
+  protocol: http
+  ip: 14.225.2.98
+  port: 808
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Unknown
+- proxy: socks4://103.182.22.187:9000
+  protocol: socks4
+  ip: 103.182.22.187
+  port: 9000
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Unknown
+- proxy: socks5://103.182.22.247:9000
+  protocol: socks5
+  ip: 103.182.22.247
+  port: 9000
   https: false
   anonymity: transparent
   score: 1
@@ -318,19 +468,29 @@
   geolocation:
     country: VN
     city: Unknown
-- proxy: http://103.182.22.18:8000
-  protocol: http
-  ip: 103.182.22.18
-  port: 8000
+- proxy: socks4://27.77.224.226:1080
+  protocol: socks4
+  ip: 27.77.224.226
+  port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: VN
-    city: Unknown
-- proxy: socks4://103.182.22.197:9000
+    city: Ho Chi Minh City
+- proxy: http://118.69.32.171:8080
+  protocol: http
+  ip: 118.69.32.171
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Ho Chi Minh City
+- proxy: socks4://103.182.22.245:9000
   protocol: socks4
-  ip: 103.182.22.197
+  ip: 103.182.22.245
   port: 9000
   https: false
   anonymity: transparent
@@ -338,80 +498,30 @@
   geolocation:
     country: VN
     city: Unknown
-- proxy: http://203.205.49.2:10130
+- proxy: http://123.58.199.232:8168
   protocol: http
-  ip: 203.205.49.2
-  port: 10130
+  ip: 123.58.199.232
+  port: 8168
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: VN
-    city: Da Nang
+    city: Ho Chi Minh City
+- proxy: socks5://1.53.40.240:1080
+  protocol: socks5
+  ip: 1.53.40.240
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Ho Chi Minh City
 - proxy: socks5://180.93.102.159:40015
   protocol: socks5
   ip: 180.93.102.159
   port: 40015
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Ho Chi Minh City
-- proxy: socks5://103.182.22.247:9000
-  protocol: socks5
-  ip: 103.182.22.247
-  port: 9000
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Unknown
-- proxy: http://103.182.22.179:8000
-  protocol: http
-  ip: 103.182.22.179
-  port: 8000
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Unknown
-- proxy: http://113.173.78.217:10001
-  protocol: http
-  ip: 113.173.78.217
-  port: 10001
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Ho Chi Minh City
-- proxy: socks4://103.182.22.187:9000
-  protocol: socks4
-  ip: 103.182.22.187
-  port: 9000
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Unknown
-- proxy: http://103.182.22.85:8000
-  protocol: http
-  ip: 103.182.22.85
-  port: 8000
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Unknown
-- proxy: http://115.79.70.69:8470
-  protocol: http
-  ip: 115.79.70.69
-  port: 8470
   https: false
   anonymity: transparent
   score: 1
@@ -442,36 +552,6 @@
   protocol: socks5
   ip: 103.182.22.86
   port: 9000
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Unknown
-- proxy: http://103.182.22.245:8000
-  protocol: http
-  ip: 103.182.22.245
-  port: 8000
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Unknown
-- proxy: socks5://183.80.59.62:1083
-  protocol: socks5
-  ip: 183.80.59.62
-  port: 1083
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Hanoi
-- proxy: http://103.182.22.223:8000
-  protocol: http
-  ip: 103.182.22.223
-  port: 8000
   https: false
   anonymity: transparent
   score: 1
@@ -598,16 +678,6 @@
   geolocation:
     country: VN
     city: Ho Chi Minh City
-- proxy: socks5://103.182.22.197:9000
-  protocol: socks5
-  ip: 103.182.22.197
-  port: 9000
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Unknown
 - proxy: socks5://103.182.22.198:9000
   protocol: socks5
   ip: 103.182.22.198
@@ -738,16 +808,6 @@
   geolocation:
     country: VN
     city: Ho Chi Minh City
-- proxy: socks5://103.182.22.223:9000
-  protocol: socks5
-  ip: 103.182.22.223
-  port: 9000
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Unknown
 - proxy: socks5://180.93.102.159:40027
   protocol: socks5
   ip: 180.93.102.159
@@ -3258,16 +3318,6 @@
   geolocation:
     country: VN
     city: Unknown
-- proxy: http://14.224.181.172:8080
-  protocol: http
-  ip: 14.224.181.172
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Ho Chi Minh City
 - proxy: http://113.161.93.6:8080
   protocol: http
   ip: 113.161.93.6
@@ -3298,6 +3348,16 @@
   geolocation:
     country: VN
     city: Unknown
+- proxy: http://113.176.92.71:3128
+  protocol: http
+  ip: 113.176.92.71
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Hanoi
 - proxy: http://42.116.10.198:514
   protocol: http
   ip: 42.116.10.198
@@ -3318,16 +3378,6 @@
   geolocation:
     country: VN
     city: Ho Chi Minh City
-- proxy: http://14.225.2.98:808
-  protocol: http
-  ip: 14.225.2.98
-  port: 808
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Unknown
 - proxy: http://14.248.84.131:8080
   protocol: http
   ip: 14.248.84.131
@@ -3348,6 +3398,16 @@
   geolocation:
     country: VN
     city: Hanoi
+- proxy: http://103.182.22.179:8000
+  protocol: http
+  ip: 103.182.22.179
+  port: 8000
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Unknown
 - proxy: http://103.182.22.57:8000
   protocol: http
   ip: 103.182.22.57
@@ -3528,6 +3588,16 @@
   geolocation:
     country: VN
     city: Unknown
+- proxy: http://103.182.22.85:8000
+  protocol: http
+  ip: 103.182.22.85
+  port: 8000
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Unknown
 - proxy: http://14.178.142.11:80
   protocol: http
   ip: 14.178.142.11
@@ -3588,16 +3658,6 @@
   geolocation:
     country: VN
     city: Unknown
-- proxy: http://123.58.199.232:8168
-  protocol: http
-  ip: 123.58.199.232
-  port: 8168
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Ho Chi Minh City
 - proxy: http://183.80.59.62:1083
   protocol: http
   ip: 183.80.59.62
@@ -3612,6 +3672,16 @@
   protocol: http
   ip: 103.182.22.174
   port: 9000
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Unknown
+- proxy: http://103.182.22.223:8000
+  protocol: http
+  ip: 103.182.22.223
+  port: 8000
   https: false
   anonymity: transparent
   score: 1
@@ -3668,6 +3738,26 @@
   geolocation:
     country: VN
     city: Hanoi
+- proxy: http://103.56.163.147:3128
+  protocol: http
+  ip: 103.56.163.147
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Unknown
+- proxy: http://103.182.22.18:8000
+  protocol: http
+  ip: 103.182.22.18
+  port: 8000
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Unknown
 - proxy: http://118.71.99.233:5678
   protocol: http
   ip: 118.71.99.233
@@ -3718,26 +3808,6 @@
   geolocation:
     country: VN
     city: My Tho
-- proxy: http://103.182.22.198:9000
-  protocol: http
-  ip: 103.182.22.198
-  port: 9000
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Unknown
-- proxy: http://103.182.22.48:9000
-  protocol: http
-  ip: 103.182.22.48
-  port: 9000
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Unknown
 - proxy: http://103.182.22.175:8000
   protocol: http
   ip: 103.182.22.175
@@ -3788,103 +3858,3 @@
   geolocation:
     country: VN
     city: Ninh Binh
-- proxy: http://103.182.22.247:8000
-  protocol: http
-  ip: 103.182.22.247
-  port: 8000
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Unknown
-- proxy: http://123.16.15.41:1452
-  protocol: http
-  ip: 123.16.15.41
-  port: 1452
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Hanoi
-- proxy: http://180.93.102.159:40023
-  protocol: http
-  ip: 180.93.102.159
-  port: 40023
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Ho Chi Minh City
-- proxy: http://14.225.240.23:8562
-  protocol: http
-  ip: 14.225.240.23
-  port: 8562
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Ho Chi Minh City
-- proxy: http://116.101.54.121:8080
-  protocol: http
-  ip: 116.101.54.121
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Hanoi
-- proxy: http://203.205.33.131:1452
-  protocol: http
-  ip: 203.205.33.131
-  port: 1452
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Ho Chi Minh City
-- proxy: http://117.6.249.98:8080
-  protocol: http
-  ip: 117.6.249.98
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Ha Tinh
-- proxy: http://119.17.211.204:8080
-  protocol: http
-  ip: 119.17.211.204
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Hanoi
-- proxy: http://103.182.22.197:8000
-  protocol: http
-  ip: 103.182.22.197
-  port: 8000
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Unknown
-- proxy: http://222.252.97.26:8008
-  protocol: http
-  ip: 222.252.97.26
-  port: 8008
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Hanoi
