@@ -1,63 +1,13 @@
-- proxy: socks5://186.26.95.249:61445
-  protocol: socks5
-  ip: 186.26.95.249
-  port: 61445
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Sao Joao de Meriti
-- proxy: socks4://168.232.213.9:4153
+- proxy: socks4://189.39.118.210:5678
   protocol: socks4
-  ip: 168.232.213.9
-  port: 4153
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Rio de Janeiro
-- proxy: socks4://177.26.112.65:5678
-  protocol: socks4
-  ip: 177.26.112.65
+  ip: 189.39.118.210
   port: 5678
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: BR
-    city: São Paulo
-- proxy: socks4://200.188.246.122:60606
-  protocol: socks4
-  ip: 200.188.246.122
-  port: 60606
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Florianópolis
-- proxy: socks4://170.244.0.179:4145
-  protocol: socks4
-  ip: 170.244.0.179
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Itaperuna
-- proxy: socks4://190.89.104.88:5432
-  protocol: socks4
-  ip: 190.89.104.88
-  port: 5432
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Curitiba
+    city: Paulista
 - proxy: socks4://170.247.43.142:32812
   protocol: socks4
   ip: 170.247.43.142
@@ -68,16 +18,6 @@
   geolocation:
     country: BR
     city: Alto
-- proxy: socks4://187.19.127.246:8011
-  protocol: socks4
-  ip: 187.19.127.246
-  port: 8011
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Itabaiana
 - proxy: socks4://190.109.72.41:33633
   protocol: socks4
   ip: 190.109.72.41
@@ -88,46 +28,6 @@
   geolocation:
     country: BR
     city: Sao Geraldo do Araguaia
-- proxy: socks4://190.109.72.224:33633
-  protocol: socks4
-  ip: 190.109.72.224
-  port: 33633
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Sao Geraldo do Araguaia
-- proxy: socks4://190.109.72.17:33633
-  protocol: socks4
-  ip: 190.109.72.17
-  port: 33633
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Sao Geraldo do Araguaia
-- proxy: socks4://138.255.240.66:40736
-  protocol: socks4
-  ip: 138.255.240.66
-  port: 40736
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Unknown
-- proxy: socks4://177.207.247.189:4153
-  protocol: socks4
-  ip: 177.207.247.189
-  port: 4153
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Recife
 - proxy: https://168.138.159.191:443
   protocol: https
   ip: 168.138.159.191
@@ -158,6 +58,16 @@
   geolocation:
     country: BR
     city: Fortaleza
+- proxy: https://152.233.16.161:9443
+  protocol: https
+  ip: 152.233.16.161
+  port: 9443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Unknown
 - proxy: https://134.65.17.77:443
   protocol: https
   ip: 134.65.17.77
@@ -178,16 +88,6 @@
   geolocation:
     country: BR
     city: São Paulo
-- proxy: https://201.54.216.54:443
-  protocol: https
-  ip: 201.54.216.54
-  port: 443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Belo Horizonte
 - proxy: https://200.133.218.122:443
   protocol: https
   ip: 200.133.218.122
@@ -208,16 +108,16 @@
   geolocation:
     country: BR
     city: Brasília
-- proxy: https://152.233.50.161:9443
+- proxy: https://149.102.251.193:9443
   protocol: https
-  ip: 152.233.50.161
+  ip: 149.102.251.193
   port: 9443
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: BR
-    city: Unknown
+    city: São Paulo
 - proxy: https://179.96.182.182:443
   protocol: https
   ip: 179.96.182.182
@@ -228,49 +128,89 @@
   geolocation:
     country: BR
     city: Rio das Ostras
-- proxy: https://18.231.126.121:18871
-  protocol: https
-  ip: 18.231.126.121
-  port: 18871
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: São Paulo
-- proxy: http://45.168.244.10:9090
+- proxy: http://168.181.151.168:8081
   protocol: http
-  ip: 45.168.244.10
-  port: 9090
+  ip: 168.181.151.168
+  port: 8081
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: BR
-    city: Sao Joao Batista do Gloria
-- proxy: http://177.20.167.139:8080
+    city: Unknown
+- proxy: http://143.208.152.62:3180
   protocol: http
-  ip: 177.20.167.139
+  ip: 143.208.152.62
+  port: 3180
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Unknown
+- proxy: http://187.33.151.110:3128
+  protocol: http
+  ip: 187.33.151.110
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Unknown
+- proxy: http://177.190.118.239:999
+  protocol: http
+  ip: 177.190.118.239
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Frederico Westphalen
+- proxy: http://45.236.65.201:8520
+  protocol: http
+  ip: 45.236.65.201
+  port: 8520
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Araçatuba
+- proxy: http://179.43.10.233:8874
+  protocol: http
+  ip: 179.43.10.233
+  port: 8874
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Jaicos
+- proxy: http://187.103.105.20:8085
+  protocol: http
+  ip: 187.103.105.20
+  port: 8085
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Florianópolis
+- proxy: http://191.44.91.60:8080
+  protocol: http
+  ip: 191.44.91.60
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: BR
-    city: Bofete
-- proxy: http://177.193.203.146:8080
+    city: Fortaleza
+- proxy: http://201.4.69.240:8080
   protocol: http
-  ip: 177.193.203.146
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Salvador
-- proxy: http://201.4.65.190:8080
-  protocol: http
-  ip: 201.4.65.190
+  ip: 201.4.69.240
   port: 8080
   https: false
   anonymity: transparent
@@ -278,19 +218,39 @@
   geolocation:
     country: BR
     city: Sete Lagoas
-- proxy: http://201.7.31.58:8080
+- proxy: http://201.62.125.142:8080
   protocol: http
-  ip: 201.7.31.58
+  ip: 201.62.125.142
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: BR
-    city: Aparecida de Goiania
-- proxy: http://201.4.68.80:8080
+    city: Rio Claro
+- proxy: http://187.44.188.238:4040
   protocol: http
-  ip: 201.4.68.80
+  ip: 187.44.188.238
+  port: 4040
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Salvador
+- proxy: http://201.54.176.64:8080
+  protocol: http
+  ip: 201.54.176.64
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Ico
+- proxy: http://201.4.68.106:8080
+  protocol: http
+  ip: 201.4.68.106
   port: 8080
   https: false
   anonymity: transparent
@@ -318,126 +278,36 @@
   geolocation:
     country: BR
     city: São Paulo
-- proxy: http://128.201.30.222:8666
+- proxy: http://170.246.146.192:8080
   protocol: http
-  ip: 128.201.30.222
-  port: 8666
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Salvador
-- proxy: socks4://189.39.118.210:5678
-  protocol: socks4
-  ip: 189.39.118.210
-  port: 5678
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Paulista
-- proxy: http://164.163.237.196:9091
-  protocol: http
-  ip: 164.163.237.196
-  port: 9091
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Inubia Paulista
-- proxy: http://45.234.101.120:8081
-  protocol: http
-  ip: 45.234.101.120
-  port: 8081
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Recife
-- proxy: http://191.44.127.206:8080
-  protocol: http
-  ip: 191.44.127.206
+  ip: 170.246.146.192
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: BR
-    city: Fortaleza
-- proxy: http://45.4.192.225:8080
+    city: Sao Jeronimo da Serra
+- proxy: http://201.4.65.21:8080
   protocol: http
-  ip: 45.4.192.225
+  ip: 201.4.65.21
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: BR
-    city: Brasília
-- proxy: http://167.250.141.73:8080
+    city: Sete Lagoas
+- proxy: http://170.246.202.150:8080
   protocol: http
-  ip: 167.250.141.73
+  ip: 170.246.202.150
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: BR
-    city: Caico
-- proxy: http://179.184.163.133:44443
-  protocol: http
-  ip: 179.184.163.133
-  port: 44443
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Belo Horizonte
-- proxy: http://179.125.61.201:8080
-  protocol: http
-  ip: 179.125.61.201
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Urania
-- proxy: http://191.5.126.28:8080
-  protocol: http
-  ip: 191.5.126.28
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Olimpia
-- proxy: http://201.79.50.139:10000
-  protocol: http
-  ip: 201.79.50.139
-  port: 10000
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Juazeiro do Norte
-- proxy: http://186.65.104.52:2024
-  protocol: http
-  ip: 186.65.104.52
-  port: 2024
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Salvador
+    city: Sapucaia do Sul
 - proxy: http://205.234.123.37:8080
   protocol: http
   ip: 205.234.123.37
@@ -448,66 +318,66 @@
   geolocation:
     country: BR
     city: São Paulo
-- proxy: http://201.4.68.243:8080
+- proxy: http://200.201.134.184:8787
   protocol: http
-  ip: 201.4.68.243
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Sete Lagoas
-- proxy: socks5://179.254.86.154:3129
-  protocol: socks5
-  ip: 179.254.86.154
-  port: 3129
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Goiânia
-- proxy: http://201.7.31.41:8080
-  protocol: http
-  ip: 201.7.31.41
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Aparecida de Goiania
-- proxy: http://201.7.31.56:8080
-  protocol: http
-  ip: 201.7.31.56
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Aparecida de Goiania
-- proxy: socks4://191.240.153.170:53841
-  protocol: socks4
-  ip: 191.240.153.170
-  port: 53841
+  ip: 200.201.134.184
+  port: 8787
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: BR
     city: São Paulo
-- proxy: http://186.235.255.220:8080
+- proxy: http://38.156.14.138:999
   protocol: http
-  ip: 186.235.255.220
+  ip: 38.156.14.138
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Unknown
+- proxy: http://177.11.151.185:12323
+  protocol: http
+  ip: 177.11.151.185
+  port: 12323
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Senador Canedo
+- proxy: http://177.193.203.146:8080
+  protocol: http
+  ip: 177.193.203.146
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: BR
-    city: Tijucas
+    city: Salvador
+- proxy: http://131.0.120.162:9292
+  protocol: http
+  ip: 131.0.120.162
+  port: 9292
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Estrela do Norte
+- proxy: http://201.7.31.45:8080
+  protocol: http
+  ip: 201.7.31.45
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Aparecida de Goiania
 - proxy: http://200.225.60.15:999
   protocol: http
   ip: 200.225.60.15
@@ -528,9 +398,69 @@
   geolocation:
     country: BR
     city: Juazeiro do Norte
-- proxy: http://201.4.69.113:8080
+- proxy: http://177.136.5.208:6666
   protocol: http
-  ip: 201.4.69.113
+  ip: 177.136.5.208
+  port: 6666
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Lauro de Freitas
+- proxy: http://201.7.31.56:8080
+  protocol: http
+  ip: 201.7.31.56
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Aparecida de Goiania
+- proxy: socks4://179.189.248.129:5432
+  protocol: socks4
+  ip: 179.189.248.129
+  port: 5432
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Agua Preta
+- proxy: http://179.184.163.133:44443
+  protocol: http
+  ip: 179.184.163.133
+  port: 44443
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Belo Horizonte
+- proxy: http://170.81.211.79:8080
+  protocol: http
+  ip: 170.81.211.79
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Carapicuiba
+- proxy: http://138.204.95.193:8989
+  protocol: http
+  ip: 138.204.95.193
+  port: 8989
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Caieiras
+- proxy: http://201.4.69.194:8080
+  protocol: http
+  ip: 201.4.69.194
   port: 8080
   https: false
   anonymity: transparent
@@ -538,9 +468,29 @@
   geolocation:
     country: BR
     city: Sete Lagoas
-- proxy: http://201.4.69.29:8080
+- proxy: http://149.40.26.240:8080
   protocol: http
-  ip: 201.4.69.29
+  ip: 149.40.26.240
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Vila Velha
+- proxy: http://179.254.86.154:8080
+  protocol: http
+  ip: 179.254.86.154
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Goiânia
+- proxy: http://201.4.68.113:8080
+  protocol: http
+  ip: 201.4.68.113
   port: 8080
   https: false
   anonymity: transparent
@@ -548,66 +498,66 @@
   geolocation:
     country: BR
     city: Sete Lagoas
-- proxy: http://138.94.236.71:8080
+- proxy: http://186.65.106.90:2024
   protocol: http
-  ip: 138.94.236.71
+  ip: 186.65.106.90
+  port: 2024
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Salvador
+- proxy: http://206.42.16.94:8080
+  protocol: http
+  ip: 206.42.16.94
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: BR
-    city: Novo Progresso
-- proxy: http://205.234.123.116:8080
+    city: Pereiro
+- proxy: http://177.12.140.108:8080
   protocol: http
-  ip: 205.234.123.116
+  ip: 177.12.140.108
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: BR
-    city: São Paulo
-- proxy: http://201.4.69.46:8080
+    city: Bitupita
+- proxy: http://179.48.11.6:8085
   protocol: http
-  ip: 201.4.69.46
-  port: 8080
+  ip: 179.48.11.6
+  port: 8085
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: BR
-    city: Sete Lagoas
-- proxy: http://201.4.69.240:8080
-  protocol: http
-  ip: 201.4.69.240
-  port: 8080
+    city: Campo Maior
+- proxy: socks5://186.26.95.249:61445
+  protocol: socks5
+  ip: 186.26.95.249
+  port: 61445
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: BR
-    city: Sete Lagoas
-- proxy: http://201.4.64.241:8080
-  protocol: http
-  ip: 201.4.64.241
-  port: 8080
+    city: Sao Joao de Meriti
+- proxy: socks5://179.254.86.154:3129
+  protocol: socks5
+  ip: 179.254.86.154
+  port: 3129
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: BR
-    city: Sete Lagoas
-- proxy: http://187.0.36.2:8080
-  protocol: http
-  ip: 187.0.36.2
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Chapadinha
+    city: Goiânia
 - proxy: socks5://45.179.145.12:6080
   protocol: socks5
   ip: 45.179.145.12
@@ -1068,16 +1018,6 @@
   geolocation:
     country: BR
     city: Aparecida de Goiania
-- proxy: http://177.12.140.108:8080
-  protocol: http
-  ip: 177.12.140.108
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Bitupita
 - proxy: http://177.136.39.242:6666
   protocol: http
   ip: 177.136.39.242
@@ -1108,6 +1048,16 @@
   geolocation:
     country: BR
     city: Fortaleza
+- proxy: http://45.234.101.120:8081
+  protocol: http
+  ip: 45.234.101.120
+  port: 8081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Recife
 - proxy: http://177.139.174.81:8080
   protocol: http
   ip: 177.139.174.81
@@ -1118,6 +1068,16 @@
   geolocation:
     country: BR
     city: Santo André
+- proxy: http://201.7.31.58:8080
+  protocol: http
+  ip: 201.7.31.58
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Aparecida de Goiania
 - proxy: http://201.4.69.40:8080
   protocol: http
   ip: 201.4.69.40
@@ -1128,6 +1088,16 @@
   geolocation:
     country: BR
     city: Sete Lagoas
+- proxy: http://128.201.30.222:8666
+  protocol: http
+  ip: 128.201.30.222
+  port: 8666
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Salvador
 - proxy: http://200.53.2.161:8402
   protocol: http
   ip: 200.53.2.161
@@ -1208,6 +1178,36 @@
   geolocation:
     country: BR
     city: Aparecida de Goiania
+- proxy: http://164.163.237.196:9091
+  protocol: http
+  ip: 164.163.237.196
+  port: 9091
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Inubia Paulista
+- proxy: http://179.125.61.201:8080
+  protocol: http
+  ip: 179.125.61.201
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Urania
+- proxy: http://201.4.69.113:8080
+  protocol: http
+  ip: 201.4.69.113
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Sete Lagoas
 - proxy: http://190.83.40.166:3128
   protocol: http
   ip: 190.83.40.166
@@ -1218,16 +1218,6 @@
   geolocation:
     country: BR
     city: Altamira do Maranhao
-- proxy: http://170.246.202.150:8080
-  protocol: http
-  ip: 170.246.202.150
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Sapucaia do Sul
 - proxy: http://201.4.69.37:8080
   protocol: http
   ip: 201.4.69.37
@@ -1238,16 +1228,6 @@
   geolocation:
     country: BR
     city: Sete Lagoas
-- proxy: http://170.246.146.192:8080
-  protocol: http
-  ip: 170.246.146.192
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Sao Jeronimo da Serra
 - proxy: http://189.91.149.19:3128
   protocol: http
   ip: 189.91.149.19
@@ -1288,6 +1268,16 @@
   geolocation:
     country: BR
     city: Brasília
+- proxy: http://186.235.255.220:8080
+  protocol: http
+  ip: 186.235.255.220
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Tijucas
 - proxy: http://45.229.9.142:8402
   protocol: http
   ip: 45.229.9.142
@@ -1318,6 +1308,16 @@
   geolocation:
     country: BR
     city: Sete Lagoas
+- proxy: http://201.4.68.80:8080
+  protocol: http
+  ip: 201.4.68.80
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Sete Lagoas
 - proxy: http://134.65.245.71:8118
   protocol: http
   ip: 134.65.245.71
@@ -1328,6 +1328,16 @@
   geolocation:
     country: BR
     city: Vinhedo
+- proxy: http://201.4.69.29:8080
+  protocol: http
+  ip: 201.4.69.29
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Sete Lagoas
 - proxy: http://187.49.83.166:53000
   protocol: http
   ip: 187.49.83.166
@@ -1338,26 +1348,6 @@
   geolocation:
     country: BR
     city: Cascavel
-- proxy: http://201.4.69.194:8080
-  protocol: http
-  ip: 201.4.69.194
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Sete Lagoas
-- proxy: http://38.156.14.138:999
-  protocol: http
-  ip: 38.156.14.138
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Unknown
 - proxy: http://201.7.31.37:8080
   protocol: http
   ip: 201.7.31.37
@@ -1378,6 +1368,16 @@
   geolocation:
     country: BR
     city: Santo Anastacio
+- proxy: http://201.79.50.139:10000
+  protocol: http
+  ip: 201.79.50.139
+  port: 10000
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Juazeiro do Norte
 - proxy: http://201.4.64.239:8080
   protocol: http
   ip: 201.4.64.239
@@ -1588,16 +1588,6 @@
   geolocation:
     country: BR
     city: Fortaleza
-- proxy: http://149.40.26.240:8080
-  protocol: http
-  ip: 149.40.26.240
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Vila Velha
 - proxy: http://45.227.195.121:8082
   protocol: http
   ip: 45.227.195.121
@@ -1948,16 +1938,6 @@
   geolocation:
     country: BR
     city: Fortaleza
-- proxy: http://191.44.91.60:8080
-  protocol: http
-  ip: 191.44.91.60
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Fortaleza
 - proxy: http://45.238.112.229:56789
   protocol: http
   ip: 45.238.112.229
@@ -1978,16 +1958,6 @@
   geolocation:
     country: BR
     city: Maringá
-- proxy: http://179.48.11.6:8085
-  protocol: http
-  ip: 179.48.11.6
-  port: 8085
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Campo Maior
 - proxy: http://200.215.160.210:5678
   protocol: http
   ip: 200.215.160.210
@@ -2048,6 +2018,16 @@
   geolocation:
     country: BR
     city: Sao Joao Batista do Gloria
+- proxy: http://201.7.31.41:8080
+  protocol: http
+  ip: 201.7.31.41
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Aparecida de Goiania
 - proxy: http://187.49.178.237:8080
   protocol: http
   ip: 187.49.178.237
@@ -2088,6 +2068,16 @@
   geolocation:
     country: BR
     city: Sete Lagoas
+- proxy: http://177.20.167.139:8080
+  protocol: http
+  ip: 177.20.167.139
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Bofete
 - proxy: http://177.55.68.68:8080
   protocol: http
   ip: 177.55.68.68
@@ -2158,3 +2148,183 @@
   geolocation:
     country: BR
     city: Salvador
+- proxy: http://138.94.236.71:8080
+  protocol: http
+  ip: 138.94.236.71
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Novo Progresso
+- proxy: http://201.4.69.49:8080
+  protocol: http
+  ip: 201.4.69.49
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Sete Lagoas
+- proxy: http://201.182.57.147:8080
+  protocol: http
+  ip: 201.182.57.147
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: João Pessoa
+- proxy: http://177.10.202.115:35452
+  protocol: http
+  ip: 177.10.202.115
+  port: 35452
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Campina Grande
+- proxy: http://191.44.127.206:8080
+  protocol: http
+  ip: 191.44.127.206
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Fortaleza
+- proxy: http://187.94.16.59:39665
+  protocol: http
+  ip: 187.94.16.59
+  port: 39665
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Irece
+- proxy: http://187.0.36.2:8080
+  protocol: http
+  ip: 187.0.36.2
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Chapadinha
+- proxy: http://201.4.65.190:8080
+  protocol: http
+  ip: 201.4.65.190
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Sete Lagoas
+- proxy: http://179.48.25.1:8095
+  protocol: http
+  ip: 179.48.25.1
+  port: 8095
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Timon
+- proxy: http://177.136.44.193:54443
+  protocol: http
+  ip: 177.136.44.193
+  port: 54443
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Lauro de Freitas
+- proxy: http://45.70.52.248:8080
+  protocol: http
+  ip: 45.70.52.248
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Capela do Alto
+- proxy: http://201.182.204.18:9999
+  protocol: http
+  ip: 201.182.204.18
+  port: 9999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Candeias
+- proxy: http://201.7.31.44:8080
+  protocol: http
+  ip: 201.7.31.44
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Aparecida de Goiania
+- proxy: http://201.4.64.237:8080
+  protocol: http
+  ip: 201.4.64.237
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Sete Lagoas
+- proxy: http://201.4.64.241:8080
+  protocol: http
+  ip: 201.4.64.241
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Sete Lagoas
+- proxy: http://191.36.128.73:8080
+  protocol: http
+  ip: 191.36.128.73
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: São Paulo
+- proxy: http://177.130.104.149:7171
+  protocol: http
+  ip: 177.130.104.149
+  port: 7171
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Nova Andradina
+- proxy: http://201.4.65.188:8080
+  protocol: http
+  ip: 201.4.65.188
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Sete Lagoas

@@ -1,3 +1,13 @@
+- proxy: socks5://171.25.158.95:1080
+  protocol: socks5
+  ip: 171.25.158.95
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SE
+    city: Vaxjo
 - proxy: https://84.235.228.156:443
   protocol: https
   ip: 84.235.228.156
@@ -38,42 +48,12 @@
   geolocation:
     country: SE
     city: Unknown
-- proxy: http://80.225.250.95:8888
-  protocol: http
-  ip: 80.225.250.95
-  port: 8888
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SE
-    city: Unknown
 - proxy: http://185.146.173.20:80
   protocol: http
   ip: 185.146.173.20
   port: 80
   https: false
   anonymity: elite
-  score: 1
-  geolocation:
-    country: SE
-    city: Unknown
-- proxy: socks5://91.90.25.66:1080
-  protocol: socks5
-  ip: 91.90.25.66
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SE
-    city: Unknown
-- proxy: http://84.8.248.36:3128
-  protocol: http
-  ip: 84.8.248.36
-  port: 3128
-  https: false
-  anonymity: transparent
   score: 1
   geolocation:
     country: SE
@@ -88,26 +68,36 @@
   geolocation:
     country: SE
     city: Falun
-- proxy: http://46.59.120.87:81
+- proxy: http://194.14.207.87:80
   protocol: http
-  ip: 46.59.120.87
-  port: 81
+  ip: 194.14.207.87
+  port: 80
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: SE
-    city: Laholm
-- proxy: socks5://171.25.158.95:1080
+    city: Falun
+- proxy: socks5://91.90.25.84:1080
   protocol: socks5
-  ip: 171.25.158.95
+  ip: 91.90.25.84
   port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: SE
-    city: Vaxjo
+    city: Unknown
+- proxy: socks5://91.90.25.66:1080
+  protocol: socks5
+  ip: 91.90.25.66
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SE
+    city: Unknown
 - proxy: socks5://91.90.25.88:1080
   protocol: socks5
   ip: 91.90.25.88
@@ -121,16 +111,6 @@
 - proxy: socks5://91.90.25.95:1080
   protocol: socks5
   ip: 91.90.25.95
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SE
-    city: Unknown
-- proxy: socks5://91.90.25.84:1080
-  protocol: socks5
-  ip: 91.90.25.84
   port: 1080
   https: false
   anonymity: transparent
@@ -448,16 +428,26 @@
   geolocation:
     country: SE
     city: Unknown
-- proxy: http://194.14.207.87:80
+- proxy: http://84.8.248.36:3128
   protocol: http
-  ip: 194.14.207.87
-  port: 80
+  ip: 84.8.248.36
+  port: 3128
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: SE
-    city: Falun
+    city: Unknown
+- proxy: http://80.225.250.95:8888
+  protocol: http
+  ip: 80.225.250.95
+  port: 8888
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SE
+    city: Unknown
 - proxy: http://217.142.24.106:8085
   protocol: http
   ip: 217.142.24.106

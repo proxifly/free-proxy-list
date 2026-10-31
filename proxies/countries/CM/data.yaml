@@ -1,7 +1,17 @@
-- proxy: socks4://41.216.232.213:4153
-  protocol: socks4
-  ip: 41.216.232.213
-  port: 4153
+- proxy: http://102.244.78.61:8082
+  protocol: http
+  ip: 102.244.78.61
+  port: 8082
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CM
+    city: Unknown
+- proxy: http://102.244.78.61:8081
+  protocol: http
+  ip: 102.244.78.61
+  port: 8081
   https: false
   anonymity: transparent
   score: 1
@@ -12,26 +22,6 @@
   protocol: http
   ip: 102.244.78.61
   port: 8083
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CM
-    city: Unknown
-- proxy: http://102.244.78.61:8086
-  protocol: http
-  ip: 102.244.78.61
-  port: 8086
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CM
-    city: Unknown
-- proxy: http://102.244.78.61:8082
-  protocol: http
-  ip: 102.244.78.61
-  port: 8082
   https: false
   anonymity: transparent
   score: 1
