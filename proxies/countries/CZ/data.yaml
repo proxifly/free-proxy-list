@@ -8,26 +8,6 @@
   geolocation:
     country: CZ
     city: Stribro
-- proxy: socks4://217.197.151.182:5678
-  protocol: socks4
-  ip: 217.197.151.182
-  port: 5678
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Přerov
-- proxy: socks4://109.69.211.18:1080
-  protocol: socks4
-  ip: 109.69.211.18
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Chropyne
 - proxy: socks4://46.174.23.200:5678
   protocol: socks4
   ip: 46.174.23.200
@@ -88,16 +68,6 @@
   geolocation:
     country: CZ
     city: Klatovy
-- proxy: https://95.173.219.1:9443
-  protocol: https
-  ip: 95.173.219.1
-  port: 9443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Prague
 - proxy: https://176.102.64.4:443
   protocol: https
   ip: 176.102.64.4
@@ -108,16 +78,26 @@
   geolocation:
     country: CZ
     city: Prague
-- proxy: https://185.216.35.130:443
-  protocol: https
-  ip: 185.216.35.130
-  port: 443
-  https: true
+- proxy: http://93.91.156.65:8080
+  protocol: http
+  ip: 93.91.156.65
+  port: 8080
+  https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: CZ
-    city: Prague
+    city: Kadan
+- proxy: http://217.75.208.178:8080
+  protocol: http
+  ip: 217.75.208.178
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Louny
 - proxy: http://147.231.163.133:80
   protocol: http
   ip: 147.231.163.133
@@ -138,6 +118,26 @@
   geolocation:
     country: CZ
     city: Semcice
+- proxy: http://91.139.78.174:3128
+  protocol: http
+  ip: 91.139.78.174
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Rokycany
+- proxy: http://95.129.101.73:80
+  protocol: http
+  ip: 95.129.101.73
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Unknown
 - proxy: socks5://31.47.103.207:1080
   protocol: socks5
   ip: 31.47.103.207
@@ -328,16 +328,6 @@
   geolocation:
     country: CZ
     city: Unknown
-- proxy: http://95.129.101.73:80
-  protocol: http
-  ip: 95.129.101.73
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Unknown
 - proxy: http://81.19.4.118:8000
   protocol: http
   ip: 81.19.4.118
@@ -348,16 +338,6 @@
   geolocation:
     country: CZ
     city: Brno
-- proxy: http://91.139.78.174:3128
-  protocol: http
-  ip: 91.139.78.174
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Rokycany
 - proxy: http://185.82.238.42:8888
   protocol: http
   ip: 185.82.238.42
@@ -418,13 +398,3 @@
   geolocation:
     country: CZ
     city: Unknown
-- proxy: http://93.91.156.65:8080
-  protocol: http
-  ip: 93.91.156.65
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Kadan

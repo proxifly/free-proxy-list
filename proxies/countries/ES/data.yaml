@@ -1,13 +1,3 @@
-- proxy: socks4://83.56.15.57:5678
-  protocol: socks4
-  ip: 83.56.15.57
-  port: 5678
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ES
-    city: Madrid
 - proxy: https://82.194.68.10:443
   protocol: https
   ip: 82.194.68.10
@@ -18,16 +8,6 @@
   geolocation:
     country: ES
     city: Unknown
-- proxy: https://217.12.21.132:443
-  protocol: https
-  ip: 217.12.21.132
-  port: 443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ES
-    city: Retamar
 - proxy: https://213.96.140.33:443
   protocol: https
   ip: 213.96.140.33
@@ -48,9 +28,9 @@
   geolocation:
     country: ES
     city: Palma
-- proxy: https://150.241.139.32:9443
+- proxy: https://150.241.139.162:9443
   protocol: https
-  ip: 150.241.139.32
+  ip: 150.241.139.162
   port: 9443
   https: true
   anonymity: transparent
@@ -78,16 +58,36 @@
   geolocation:
     country: ES
     city: Silla
-- proxy: http://217.217.227.158:3128
+- proxy: http://82.86.112.48:999
   protocol: http
-  ip: 217.217.227.158
+  ip: 82.86.112.48
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ES
+    city: Unknown
+- proxy: http://217.216.37.99:3128
+  protocol: http
+  ip: 217.216.37.99
   port: 3128
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ES
-    city: Málaga
+    city: Jerez de la Frontera
+- proxy: http://85.85.185.71:8080
+  protocol: http
+  ip: 85.85.185.71
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ES
+    city: Barakaldo
 - proxy: http://195.114.209.50:80
   protocol: http
   ip: 195.114.209.50
@@ -178,19 +178,19 @@
   geolocation:
     country: ES
     city: Unknown
-- proxy: http://79.154.0.209:8080
+- proxy: http://90.161.186.147:3128
   protocol: http
-  ip: 79.154.0.209
-  port: 8080
+  ip: 90.161.186.147
+  port: 3128
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ES
-    city: Barcelona
-- proxy: http://82.86.112.48:999
+    city: Pineda de Mar
+- proxy: http://185.56.111.3:999
   protocol: http
-  ip: 82.86.112.48
+  ip: 185.56.111.3
   port: 999
   https: false
   anonymity: transparent
@@ -198,16 +198,16 @@
   geolocation:
     country: ES
     city: Unknown
-- proxy: http://193.38.224.169:8081
+- proxy: http://158.172.217.112:999
   protocol: http
-  ip: 193.38.224.169
-  port: 8081
+  ip: 158.172.217.112
+  port: 999
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ES
-    city: Madrid
+    city: Unknown
 - proxy: socks5://85.117.248.36:1080
   protocol: socks5
   ip: 85.117.248.36
@@ -458,16 +458,6 @@
   geolocation:
     country: ES
     city: Unknown
-- proxy: http://158.172.217.112:999
-  protocol: http
-  ip: 158.172.217.112
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ES
-    city: Unknown
 - proxy: http://185.202.165.1:53281
   protocol: http
   ip: 185.202.165.1
@@ -478,6 +468,16 @@
   geolocation:
     country: ES
     city: Monda
+- proxy: http://193.38.224.169:8081
+  protocol: http
+  ip: 193.38.224.169
+  port: 8081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ES
+    city: Madrid
 - proxy: http://82.86.112.52:999
   protocol: http
   ip: 82.86.112.52
@@ -488,16 +488,6 @@
   geolocation:
     country: ES
     city: Unknown
-- proxy: http://90.161.186.147:3128
-  protocol: http
-  ip: 90.161.186.147
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ES
-    city: Pineda de Mar
 - proxy: http://80.78.128.94:8080
   protocol: http
   ip: 80.78.128.94
@@ -618,43 +608,3 @@
   geolocation:
     country: ES
     city: Las Palmas de Gran Canaria
-- proxy: http://81.0.49.104:20500
-  protocol: http
-  ip: 81.0.49.104
-  port: 20500
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ES
-    city: Madrid
-- proxy: http://185.56.111.3:999
-  protocol: http
-  ip: 185.56.111.3
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ES
-    city: Unknown
-- proxy: http://95.60.60.204:3129
-  protocol: http
-  ip: 95.60.60.204
-  port: 3129
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ES
-    city: Madrid
-- proxy: http://38.50.38.130:999
-  protocol: http
-  ip: 38.50.38.130
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ES
-    city: Alcobendas

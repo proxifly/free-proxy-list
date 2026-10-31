@@ -8,26 +8,16 @@
   geolocation:
     country: NZ
     city: Unknown
-- proxy: https://130.195.250.18:443
-  protocol: https
-  ip: 130.195.250.18
-  port: 443
-  https: true
+- proxy: http://218.100.23.130:8080
+  protocol: http
+  ip: 218.100.23.130
+  port: 8080
+  https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: NZ
-    city: Wellington
-- proxy: https://130.195.250.18:9443
-  protocol: https
-  ip: 130.195.250.18
-  port: 9443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: NZ
-    city: Wellington
+    city: Unknown
 - proxy: socks5://202.74.203.17:1080
   protocol: socks5
   ip: 202.74.203.17
@@ -52,16 +42,6 @@
   protocol: socks5
   ip: 103.208.85.116
   port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: NZ
-    city: Unknown
-- proxy: http://218.100.23.130:8080
-  protocol: http
-  ip: 218.100.23.130
-  port: 8080
   https: false
   anonymity: transparent
   score: 1

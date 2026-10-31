@@ -1,7 +1,7 @@
-- proxy: socks4://190.12.95.170:37209
-  protocol: socks4
-  ip: 190.12.95.170
-  port: 37209
+- proxy: http://190.223.41.250:999
+  protocol: http
+  ip: 190.223.41.250
+  port: 999
   https: false
   anonymity: transparent
   score: 1
@@ -28,29 +28,9 @@
   geolocation:
     country: PE
     city: Lima
-- proxy: http://181.176.68.118:8443
+- proxy: http://177.53.154.218:999
   protocol: http
-  ip: 181.176.68.118
-  port: 8443
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PE
-    city: Lima
-- proxy: http://200.49.241.146:999
-  protocol: http
-  ip: 200.49.241.146
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PE
-    city: Sullana
-- proxy: http://181.66.252.65:999
-  protocol: http
-  ip: 181.66.252.65
+  ip: 177.53.154.218
   port: 999
   https: false
   anonymity: transparent
@@ -58,30 +38,10 @@
   geolocation:
     country: PE
     city: Lima
-- proxy: http://161.132.45.20:1084
+- proxy: http://179.63.6.239:999
   protocol: http
-  ip: 161.132.45.20
-  port: 1084
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PE
-    city: Unknown
-- proxy: http://200.60.102.51:8080
-  protocol: http
-  ip: 200.60.102.51
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PE
-    city: Lima
-- proxy: http://200.107.142.38:3128
-  protocol: http
-  ip: 200.107.142.38
-  port: 3128
+  ip: 179.63.6.239
+  port: 999
   https: false
   anonymity: transparent
   score: 1
@@ -98,9 +58,19 @@
   geolocation:
     country: PE
     city: La Perla
-- proxy: http://200.48.35.126:999
+- proxy: http://38.158.83.241:999
   protocol: http
-  ip: 200.48.35.126
+  ip: 38.158.83.241
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PE
+    city: Arequipa
+- proxy: http://179.63.6.249:999
+  protocol: http
+  ip: 179.63.6.249
   port: 999
   https: false
   anonymity: transparent
@@ -108,26 +78,36 @@
   geolocation:
     country: PE
     city: Lima
-- proxy: http://38.253.80.169:999
+- proxy: http://190.102.146.98:10101
   protocol: http
-  ip: 38.253.80.169
-  port: 999
+  ip: 190.102.146.98
+  port: 10101
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: PE
     city: Lima
-- proxy: http://38.253.80.165:999
+- proxy: http://38.158.83.65:999
   protocol: http
-  ip: 38.253.80.165
+  ip: 38.158.83.65
   port: 999
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: PE
-    city: Lima
+    city: Arequipa
+- proxy: http://201.230.121.228:999
+  protocol: http
+  ip: 201.230.121.228
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PE
+    city: Iquitos
 - proxy: http://138.99.176.139:999
   protocol: http
   ip: 138.99.176.139
@@ -178,16 +158,6 @@
   geolocation:
     country: PE
     city: Lima
-- proxy: http://190.102.146.98:10101
-  protocol: http
-  ip: 190.102.146.98
-  port: 10101
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PE
-    city: Lima
 - proxy: http://38.56.213.20:999
   protocol: http
   ip: 38.56.213.20
@@ -218,29 +188,9 @@
   geolocation:
     country: PE
     city: Lima region
-- proxy: http://179.63.6.239:999
-  protocol: http
-  ip: 179.63.6.239
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PE
-    city: Lima
 - proxy: http://38.252.218.77:999
   protocol: http
   ip: 38.252.218.77
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PE
-    city: Lima
-- proxy: http://177.53.154.218:999
-  protocol: http
-  ip: 177.53.154.218
   port: 999
   https: false
   anonymity: transparent
@@ -258,6 +208,16 @@
   geolocation:
     country: PE
     city: Trujillo
+- proxy: http://200.60.102.51:8080
+  protocol: http
+  ip: 200.60.102.51
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PE
+    city: Lima
 - proxy: http://179.63.6.166:999
   protocol: http
   ip: 179.63.6.166
@@ -308,16 +268,6 @@
   geolocation:
     country: PE
     city: Lima
-- proxy: http://201.230.121.228:999
-  protocol: http
-  ip: 201.230.121.228
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PE
-    city: Iquitos
 - proxy: http://179.43.96.178:8080
   protocol: http
   ip: 179.43.96.178
@@ -401,116 +351,6 @@
 - proxy: http://138.99.176.138:999
   protocol: http
   ip: 138.99.176.138
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PE
-    city: Lima
-- proxy: http://200.107.142.38:3129
-  protocol: http
-  ip: 200.107.142.38
-  port: 3129
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PE
-    city: Lima
-- proxy: http://38.172.129.168:999
-  protocol: http
-  ip: 38.172.129.168
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PE
-    city: Lurin
-- proxy: http://38.52.182.55:999
-  protocol: http
-  ip: 38.52.182.55
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PE
-    city: Lurin
-- proxy: http://38.172.129.23:8800
-  protocol: http
-  ip: 38.172.129.23
-  port: 8800
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PE
-    city: Lurin
-- proxy: http://64.76.106.119:999
-  protocol: http
-  ip: 64.76.106.119
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PE
-    city: Lima region
-- proxy: http://138.99.176.35:999
-  protocol: http
-  ip: 138.99.176.35
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PE
-    city: Lima
-- proxy: http://138.99.176.254:999
-  protocol: http
-  ip: 138.99.176.254
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PE
-    city: Lima
-- proxy: http://177.53.155.24:999
-  protocol: http
-  ip: 177.53.155.24
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PE
-    city: Lima
-- proxy: http://179.63.6.161:999
-  protocol: http
-  ip: 179.63.6.161
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PE
-    city: Lima
-- proxy: http://190.216.163.198:999
-  protocol: http
-  ip: 190.216.163.198
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PE
-    city: Lima region
-- proxy: http://177.53.155.28:999
-  protocol: http
-  ip: 177.53.155.28
   port: 999
   https: false
   anonymity: transparent

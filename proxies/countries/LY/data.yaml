@@ -1,7 +1,37 @@
-- proxy: http://102.68.132.5:18000
+- proxy: http://102.68.128.212:8080
   protocol: http
-  ip: 102.68.132.5
-  port: 18000
+  ip: 102.68.128.212
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: LY
+    city: Tripoli
+- proxy: http://102.214.104.58:8080
+  protocol: http
+  ip: 102.214.104.58
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: LY
+    city: Unknown
+- proxy: http://102.68.128.217:8080
+  protocol: http
+  ip: 102.68.128.217
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: LY
+    city: Tripoli
+- proxy: http://102.68.128.216:8080
+  protocol: http
+  ip: 102.68.128.216
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
@@ -11,6 +41,16 @@
 - proxy: http://62.68.48.22:8080
   protocol: http
   ip: 62.68.48.22
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: LY
+    city: Unknown
+- proxy: http://102.213.228.136:8080
+  protocol: http
+  ip: 102.213.228.136
   port: 8080
   https: false
   anonymity: transparent
@@ -28,26 +68,6 @@
   geolocation:
     country: LY
     city: Zliten
-- proxy: http://102.68.128.216:8080
-  protocol: http
-  ip: 102.68.128.216
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: LY
-    city: Tripoli
-- proxy: http://102.213.228.136:8080
-  protocol: http
-  ip: 102.213.228.136
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: LY
-    city: Unknown
 - proxy: http://154.73.29.65:8080
   protocol: http
   ip: 154.73.29.65
@@ -68,16 +88,6 @@
   geolocation:
     country: LY
     city: Tripoli
-- proxy: http://102.68.128.212:8080
-  protocol: http
-  ip: 102.68.128.212
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: LY
-    city: Tripoli
 - proxy: http://102.68.129.54:8080
   protocol: http
   ip: 102.68.129.54
@@ -88,43 +98,3 @@
   geolocation:
     country: LY
     city: Tripoli
-- proxy: http://102.38.30.245:8080
-  protocol: http
-  ip: 102.38.30.245
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: LY
-    city: Unknown
-- proxy: http://102.38.29.36:8080
-  protocol: http
-  ip: 102.38.29.36
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: LY
-    city: Unknown
-- proxy: http://165.16.59.65:8080
-  protocol: http
-  ip: 165.16.59.65
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: LY
-    city: Zliten
-- proxy: http://102.38.13.9:19000
-  protocol: http
-  ip: 102.38.13.9
-  port: 19000
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: LY
-    city: Unknown

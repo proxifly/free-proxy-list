@@ -1,13 +1,23 @@
-- proxy: socks5://31.76.110.221:1080
+- proxy: socks5://141.147.109.224:1080
   protocol: socks5
-  ip: 31.76.110.221
+  ip: 141.147.109.224
   port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: GB
-    city: Unknown
+    city: Slough
+- proxy: socks4://79.76.52.220:1080
+  protocol: socks4
+  ip: 79.76.52.220
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GB
+    city: Halifax
 - proxy: https://23.106.56.35:16927
   protocol: https
   ip: 23.106.56.35
@@ -238,26 +248,6 @@
   geolocation:
     country: GB
     city: Unknown
-- proxy: https://185.164.138.162:443
-  protocol: https
-  ip: 185.164.138.162
-  port: 443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GB
-    city: Poplar
-- proxy: https://185.164.138.162:9443
-  protocol: https
-  ip: 185.164.138.162
-  port: 9443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GB
-    city: Poplar
 - proxy: https://94.229.79.82:443
   protocol: https
   ip: 94.229.79.82
@@ -328,16 +318,6 @@
   geolocation:
     country: GB
     city: Unknown
-- proxy: https://109.204.49.129:9443
-  protocol: https
-  ip: 109.204.49.129
-  port: 9443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GB
-    city: Belsize Park
 - proxy: https://81.208.170.208:443
   protocol: https
   ip: 81.208.170.208
@@ -348,9 +328,9 @@
   geolocation:
     country: GB
     city: Unknown
-- proxy: http://109.224.242.211:8080
+- proxy: http://109.224.242.171:8080
   protocol: http
-  ip: 109.224.242.211
+  ip: 109.224.242.171
   port: 8080
   https: false
   anonymity: transparent
@@ -358,46 +338,36 @@
   geolocation:
     country: GB
     city: Bristol
-- proxy: http://82.41.42.113:8080
+- proxy: http://79.98.32.82:8080
   protocol: http
-  ip: 82.41.42.113
+  ip: 79.98.32.82
   port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GB
-    city: Doncaster
-- proxy: http://34.105.252.3:3128
-  protocol: http
-  ip: 34.105.252.3
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GB
-    city: London
-- proxy: http://172.212.125.72:3128
-  protocol: http
-  ip: 172.212.125.72
-  port: 3128
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: GB
     city: Unknown
-- proxy: http://148.253.212.68:8080
+- proxy: http://85.189.13.157:8080
   protocol: http
-  ip: 148.253.212.68
+  ip: 85.189.13.157
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: GB
-    city: Faversham
+    city: Unknown
+- proxy: http://80.74.30.136:31286
+  protocol: http
+  ip: 80.74.30.136
+  port: 31286
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GB
+    city: Unknown
 - proxy: http://164.38.155.59:80
   protocol: http
   ip: 164.38.155.59
@@ -568,16 +538,26 @@
   geolocation:
     country: GB
     city: Unknown
-- proxy: http://80.74.30.136:31286
-  protocol: http
-  ip: 80.74.30.136
-  port: 31286
+- proxy: socks4://82.22.23.79:10015
+  protocol: socks4
+  ip: 82.22.23.79
+  port: 10015
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: GB
-    city: Unknown
+    city: Southampton
+- proxy: http://82.40.58.188:8080
+  protocol: http
+  ip: 82.40.58.188
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GB
+    city: Isleworth
 - proxy: socks4://31.76.110.221:1080
   protocol: socks4
   ip: 31.76.110.221
@@ -588,6 +568,76 @@
   geolocation:
     country: GB
     city: Unknown
+- proxy: http://85.234.158.253:5002
+  protocol: http
+  ip: 85.234.158.253
+  port: 5002
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GB
+    city: Unknown
+- proxy: http://37.230.57.236:999
+  protocol: http
+  ip: 37.230.57.236
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GB
+    city: Unknown
+- proxy: http://79.98.32.126:8080
+  protocol: http
+  ip: 79.98.32.126
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GB
+    city: Unknown
+- proxy: http://83.106.227.118:80
+  protocol: http
+  ip: 83.106.227.118
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GB
+    city: Unknown
+- proxy: http://195.26.224.135:80
+  protocol: http
+  ip: 195.26.224.135
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GB
+    city: Southampton
+- proxy: socks5://5.39.250.32:9249
+  protocol: socks5
+  ip: 5.39.250.32
+  port: 9249
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GB
+    city: Runcorn
+- proxy: http://82.41.42.229:1080
+  protocol: http
+  ip: 82.41.42.229
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GB
+    city: Doncaster
 - proxy: http://198.244.254.77:3128
   protocol: http
   ip: 198.244.254.77
@@ -598,6 +648,26 @@
   geolocation:
     country: GB
     city: London
+- proxy: http://82.69.119.68:49200
+  protocol: http
+  ip: 82.69.119.68
+  port: 49200
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GB
+    city: Milton Keynes
+- proxy: socks5://31.76.110.221:1080
+  protocol: socks5
+  ip: 31.76.110.221
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GB
+    city: Unknown
 - proxy: socks5://31.76.34.91:1080
   protocol: socks5
   ip: 31.76.34.91
@@ -778,16 +848,6 @@
   geolocation:
     country: GB
     city: Southampton
-- proxy: socks5://141.147.109.224:1080
-  protocol: socks5
-  ip: 141.147.109.224
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GB
-    city: Slough
 - proxy: socks5://82.22.77.35:1080
   protocol: socks5
   ip: 82.22.77.35
@@ -808,16 +868,6 @@
   geolocation:
     country: GB
     city: London
-- proxy: socks5://5.39.250.32:9249
-  protocol: socks5
-  ip: 5.39.250.32
-  port: 9249
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GB
-    city: Runcorn
 - proxy: socks5://82.22.7.240:1080
   protocol: socks5
   ip: 82.22.7.240
@@ -2198,16 +2248,6 @@
   geolocation:
     country: GB
     city: Unknown
-- proxy: http://37.230.57.236:999
-  protocol: http
-  ip: 37.230.57.236
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GB
-    city: Unknown
 - proxy: http://157.173.115.35:1081
   protocol: http
   ip: 157.173.115.35
@@ -2288,6 +2328,16 @@
   geolocation:
     country: GB
     city: Unknown
+- proxy: http://34.105.252.3:3128
+  protocol: http
+  ip: 34.105.252.3
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GB
+    city: London
 - proxy: http://8.208.85.87:8080
   protocol: http
   ip: 8.208.85.87
@@ -2338,6 +2388,16 @@
   geolocation:
     country: GB
     city: Isleworth
+- proxy: http://82.41.42.113:8080
+  protocol: http
+  ip: 82.41.42.113
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GB
+    city: Doncaster
 - proxy: http://23.144.56.65:80
   protocol: http
   ip: 23.144.56.65
@@ -2628,16 +2688,6 @@
   geolocation:
     country: GB
     city: Slough
-- proxy: http://85.234.158.253:5002
-  protocol: http
-  ip: 85.234.158.253
-  port: 5002
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GB
-    city: Unknown
 - proxy: http://82.26.238.225:6532
   protocol: http
   ip: 82.26.238.225
@@ -2988,16 +3038,6 @@
   geolocation:
     country: GB
     city: Newport
-- proxy: http://79.98.32.82:8080
-  protocol: http
-  ip: 79.98.32.82
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GB
-    city: Unknown
 - proxy: http://104.143.224.73:5934
   protocol: http
   ip: 104.143.224.73
@@ -3028,73 +3068,3 @@
   geolocation:
     country: GB
     city: Slough
-- proxy: http://195.26.224.135:80
-  protocol: http
-  ip: 195.26.224.135
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GB
-    city: Southampton
-- proxy: http://185.27.144.74:999
-  protocol: http
-  ip: 185.27.144.74
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GB
-    city: Unknown
-- proxy: http://2.26.234.231:8080
-  protocol: http
-  ip: 2.26.234.231
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GB
-    city: Middlesbrough
-- proxy: http://37.230.57.239:999
-  protocol: http
-  ip: 37.230.57.239
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GB
-    city: Unknown
-- proxy: http://109.224.242.133:8585
-  protocol: http
-  ip: 109.224.242.133
-  port: 8585
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GB
-    city: Bristol
-- proxy: http://80.74.30.136:31296
-  protocol: http
-  ip: 80.74.30.136
-  port: 31296
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GB
-    city: Unknown
-- proxy: http://34.105.252.3:3129
-  protocol: http
-  ip: 34.105.252.3
-  port: 3129
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GB
-    city: London
