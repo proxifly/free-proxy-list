@@ -28,50 +28,60 @@
   geolocation:
     country: CH
     city: Richterswil
-- proxy: http://147.161.247.9:12426
+- proxy: https://169.150.197.162:9443
+  protocol: https
+  ip: 169.150.197.162
+  port: 9443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CH
+    city: Zurich
+- proxy: http://147.161.247.9:11172
   protocol: http
   ip: 147.161.247.9
-  port: 12426
+  port: 11172
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: CH
     city: Zurich
-- proxy: http://147.161.247.9:11901
+- proxy: http://147.161.247.9:10242
   protocol: http
   ip: 147.161.247.9
-  port: 11901
+  port: 10242
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: CH
     city: Zurich
-- proxy: http://147.161.247.9:10001
+- proxy: http://147.161.247.9:12223
   protocol: http
   ip: 147.161.247.9
-  port: 10001
+  port: 12223
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: CH
     city: Zurich
-- proxy: http://62.220.129.81:8080
-  protocol: http
-  ip: 62.220.129.81
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CH
-    city: La Tour-de-Peilz
 - proxy: http://185.85.111.18:80
   protocol: http
   ip: 185.85.111.18
   port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CH
+    city: Unknown
+- proxy: socks4://195.225.116.14:4145
+  protocol: socks4
+  ip: 195.225.116.14
+  port: 4145
   https: false
   anonymity: transparent
   score: 1

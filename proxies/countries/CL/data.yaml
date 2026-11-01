@@ -1,7 +1,7 @@
-- proxy: socks4://152.231.81.18:1080
+- proxy: socks4://190.54.100.74:5678
   protocol: socks4
-  ip: 152.231.81.18
-  port: 1080
+  ip: 190.54.100.74
+  port: 5678
   https: false
   anonymity: transparent
   score: 1
@@ -48,26 +48,46 @@
   geolocation:
     country: CL
     city: Santiago
-- proxy: http://45.225.204.11:999
+- proxy: http://181.78.234.82:999
   protocol: http
-  ip: 45.225.204.11
+  ip: 181.78.234.82
   port: 999
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: CL
-    city: Las Cabras
-- proxy: http://179.1.182.20:999
-  protocol: http
-  ip: 179.1.182.20
-  port: 999
+    city: Unknown
+- proxy: socks4://152.231.81.18:1080
+  protocol: socks4
+  ip: 152.231.81.18
+  port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: CL
     city: Santiago
+- proxy: http://45.232.210.177:999
+  protocol: http
+  ip: 45.232.210.177
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CL
+    city: La Pintana
+- proxy: http://181.74.82.91:999
+  protocol: http
+  ip: 181.74.82.91
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CL
+    city: Limache
 - proxy: socks4://190.13.147.241:5678
   protocol: socks4
   ip: 190.13.147.241
@@ -78,39 +98,9 @@
   geolocation:
     country: CL
     city: San Pedro de la Paz
-- proxy: http://45.4.0.12:999
+- proxy: http://186.78.121.133:999
   protocol: http
-  ip: 45.4.0.12
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CL
-    city: Santiago
-- proxy: http://45.225.206.248:999
-  protocol: http
-  ip: 45.225.206.248
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CL
-    city: Las Cabras
-- proxy: http://190.102.247.122:999
-  protocol: http
-  ip: 190.102.247.122
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CL
-    city: Laja
-- proxy: http://186.67.94.10:999
-  protocol: http
-  ip: 186.67.94.10
+  ip: 186.78.121.133
   port: 999
   https: false
   anonymity: transparent
@@ -118,36 +108,6 @@
   geolocation:
     country: CL
     city: Villa Alemana
-- proxy: http://45.232.211.1:999
-  protocol: http
-  ip: 45.232.211.1
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CL
-    city: Santiago
-- proxy: http://45.232.210.225:999
-  protocol: http
-  ip: 45.232.210.225
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CL
-    city: La Pintana
-- proxy: http://38.7.195.80:999
-  protocol: http
-  ip: 38.7.195.80
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CL
-    city: Santiago
 - proxy: socks5://38.7.195.108:1080
   protocol: socks5
   ip: 38.7.195.108
@@ -168,6 +128,16 @@
   geolocation:
     country: CL
     city: Santiago
+- proxy: http://190.102.247.122:999
+  protocol: http
+  ip: 190.102.247.122
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CL
+    city: Laja
 - proxy: http://201.186.41.170:999
   protocol: http
   ip: 201.186.41.170
@@ -208,16 +178,6 @@
   geolocation:
     country: CL
     city: Las Cabras
-- proxy: http://45.232.210.177:999
-  protocol: http
-  ip: 45.232.210.177
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CL
-    city: La Pintana
 - proxy: http://179.1.182.28:999
   protocol: http
   ip: 179.1.182.28
@@ -328,6 +288,16 @@
   geolocation:
     country: CL
     city: Osorno
+- proxy: http://45.232.210.225:999
+  protocol: http
+  ip: 45.232.210.225
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CL
+    city: La Pintana
 - proxy: http://190.54.100.74:8080
   protocol: http
   ip: 190.54.100.74
@@ -378,6 +348,16 @@
   geolocation:
     country: CL
     city: Valdivia
+- proxy: http://45.225.206.248:999
+  protocol: http
+  ip: 45.225.206.248
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CL
+    city: Las Cabras
 - proxy: http://45.162.135.201:999
   protocol: http
   ip: 45.162.135.201
@@ -398,16 +378,26 @@
   geolocation:
     country: CL
     city: Melipilla
-- proxy: http://181.74.82.91:999
+- proxy: http://45.4.0.12:999
   protocol: http
-  ip: 181.74.82.91
+  ip: 45.4.0.12
   port: 999
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: CL
-    city: Limache
+    city: Santiago
+- proxy: http://45.232.211.1:999
+  protocol: http
+  ip: 45.232.211.1
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CL
+    city: Santiago
 - proxy: http://200.27.110.29:57702
   protocol: http
   ip: 200.27.110.29
@@ -438,6 +428,16 @@
   geolocation:
     country: CL
     city: Osorno
+- proxy: http://179.1.182.20:999
+  protocol: http
+  ip: 179.1.182.20
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CL
+    city: Santiago
 - proxy: http://45.162.132.9:999
   protocol: http
   ip: 45.162.132.9
@@ -478,33 +478,3 @@
   geolocation:
     country: CL
     city: Santiago
-- proxy: http://45.180.26.1:999
-  protocol: http
-  ip: 45.180.26.1
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CL
-    city: Unknown
-- proxy: http://177.128.115.198:999
-  protocol: http
-  ip: 177.128.115.198
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CL
-    city: Melipilla
-- proxy: http://186.78.121.133:999
-  protocol: http
-  ip: 186.78.121.133
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CL
-    city: Villa Alemana
