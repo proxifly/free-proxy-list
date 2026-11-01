@@ -1,27 +1,57 @@
-- proxy: socks5://5.75.133.113:10808
+- proxy: socks5://49.13.22.249:10811
   protocol: socks5
-  ip: 5.75.133.113
-  port: 10808
+  ip: 49.13.22.249
+  port: 10811
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: DE
     city: Unknown
-- proxy: socks5://5.75.133.113:10814
+- proxy: socks5://49.13.22.249:10803
   protocol: socks5
-  ip: 5.75.133.113
-  port: 10814
+  ip: 49.13.22.249
+  port: 10803
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: DE
     city: Unknown
-- proxy: socks5://5.75.133.113:10813
+- proxy: socks5://5.75.133.113:10806
   protocol: socks5
   ip: 5.75.133.113
-  port: 10813
+  port: 10806
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Unknown
+- proxy: socks5://5.75.133.113:10805
+  protocol: socks5
+  ip: 5.75.133.113
+  port: 10805
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Unknown
+- proxy: socks5://5.75.133.113:10807
+  protocol: socks5
+  ip: 5.75.133.113
+  port: 10807
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Unknown
+- proxy: socks5://49.13.22.249:10807
+  protocol: socks5
+  ip: 49.13.22.249
+  port: 10807
   https: false
   anonymity: transparent
   score: 1
@@ -38,6 +68,16 @@
   geolocation:
     country: DE
     city: Nuremberg
+- proxy: socks5://84.200.89.140:1080
+  protocol: socks5
+  ip: 84.200.89.140
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Unknown
 - proxy: https://173.249.37.45:5051
   protocol: https
   ip: 173.249.37.45
@@ -238,6 +278,26 @@
   geolocation:
     country: DE
     city: Unknown
+- proxy: https://207.180.228.55:443
+  protocol: https
+  ip: 207.180.228.55
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Nuremberg
+- proxy: https://157.180.98.233:443
+  protocol: https
+  ip: 157.180.98.233
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Unknown
 - proxy: https://213.109.163.119:443
   protocol: https
   ip: 213.109.163.119
@@ -282,6 +342,16 @@
   protocol: https
   ip: 164.92.161.42
   port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Frankfurt am Main
+- proxy: https://18.157.159.247:29448
+  protocol: https
+  ip: 18.157.159.247
+  port: 29448
   https: true
   anonymity: transparent
   score: 1
@@ -388,26 +458,26 @@
   geolocation:
     country: DE
     city: Berlin
-- proxy: https://18.157.159.247:9050
-  protocol: https
-  ip: 18.157.159.247
-  port: 9050
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DE
-    city: Frankfurt am Main
-- proxy: http://213.220.146.95:8080
+- proxy: http://46.232.249.209:40001
   protocol: http
-  ip: 213.220.146.95
-  port: 8080
+  ip: 46.232.249.209
+  port: 40001
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: DE
-    city: Berlin
+    city: Unknown
+- proxy: http://161.97.176.48:3128
+  protocol: http
+  ip: 161.97.176.48
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Düsseldorf
 - proxy: http://188.40.57.101:80
   protocol: http
   ip: 188.40.57.101
@@ -478,10 +548,20 @@
   geolocation:
     country: DE
     city: Nuremberg
-- proxy: http://207.180.217.98:3129
+- proxy: socks5://195.201.246.53:1089
+  protocol: socks5
+  ip: 195.201.246.53
+  port: 1089
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Gunzenhausen
+- proxy: http://207.180.254.198:8080
   protocol: http
-  ip: 207.180.217.98
-  port: 3129
+  ip: 207.180.254.198
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
@@ -498,46 +578,76 @@
   geolocation:
     country: DE
     city: Bockenem
-- proxy: socks5://195.201.246.53:1088
+- proxy: socks5://46.232.249.209:40001
   protocol: socks5
-  ip: 195.201.246.53
-  port: 1088
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DE
-    city: Gunzenhausen
-- proxy: socks5://195.201.246.53:1089
-  protocol: socks5
-  ip: 195.201.246.53
-  port: 1089
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DE
-    city: Gunzenhausen
-- proxy: http://78.31.64.152:3133
-  protocol: http
-  ip: 78.31.64.152
-  port: 3133
+  ip: 46.232.249.209
+  port: 40001
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: DE
     city: Unknown
-- proxy: http://165.227.169.229:3080
-  protocol: http
-  ip: 165.227.169.229
-  port: 3080
+- proxy: socks5://8.209.96.245:4153
+  protocol: socks5
+  ip: 8.209.96.245
+  port: 4153
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: DE
     city: Frankfurt am Main
+- proxy: socks5://138.2.146.227:9104
+  protocol: socks5
+  ip: 138.2.146.227
+  port: 9104
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Frankfurt am Main
+- proxy: socks5://161.35.70.249:1080
+  protocol: socks5
+  ip: 161.35.70.249
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Frankfurt am Main
+- proxy: http://37.58.62.48:3128
+  protocol: http
+  ip: 37.58.62.48
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Berlin
+- proxy: socks5://8.209.96.245:8090
+  protocol: socks5
+  ip: 8.209.96.245
+  port: 8090
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Frankfurt am Main
+- proxy: socks5://195.201.246.53:1083
+  protocol: socks5
+  ip: 195.201.246.53
+  port: 1083
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Gunzenhausen
 - proxy: socks4://138.2.146.227:9104
   protocol: socks4
   ip: 138.2.146.227
@@ -548,46 +658,86 @@
   geolocation:
     country: DE
     city: Frankfurt am Main
-- proxy: http://188.68.52.45:80
+- proxy: socks4://46.232.249.209:40001
+  protocol: socks4
+  ip: 46.232.249.209
+  port: 40001
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Unknown
+- proxy: http://176.96.138.105:2025
   protocol: http
-  ip: 188.68.52.45
-  port: 80
+  ip: 176.96.138.105
+  port: 2025
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: DE
-    city: Unknown
-- proxy: socks5://49.13.22.249:10809
+    city: Düsseldorf
+- proxy: socks5://138.199.222.72:9050
   protocol: socks5
-  ip: 49.13.22.249
-  port: 10809
+  ip: 138.199.222.72
+  port: 9050
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: DE
     city: Unknown
-- proxy: socks5://49.13.22.249:10814
-  protocol: socks5
-  ip: 49.13.22.249
-  port: 10814
+- proxy: socks4://193.158.12.141:4153
+  protocol: socks4
+  ip: 193.158.12.141
+  port: 4153
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: DE
-    city: Unknown
-- proxy: http://77.42.95.221:8889
+    city: Berlin
+- proxy: http://43.157.41.157:3128
   protocol: http
-  ip: 77.42.95.221
-  port: 8889
+  ip: 43.157.41.157
+  port: 3128
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: DE
-    city: Unknown
+    city: Frankfurt am Main
+- proxy: http://89.208.103.84:3128
+  protocol: http
+  ip: 89.208.103.84
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Frankfurt am Main
+- proxy: http://47.91.65.23:3128
+  protocol: http
+  ip: 47.91.65.23
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Frankfurt am Main
+- proxy: socks5://195.201.246.53:1088
+  protocol: socks5
+  ip: 195.201.246.53
+  port: 1088
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Gunzenhausen
 - proxy: socks5://45.92.217.106:1080
   protocol: socks5
   ip: 45.92.217.106
@@ -608,16 +758,6 @@
   geolocation:
     country: DE
     city: Frankfurt am Main
-- proxy: socks5://195.201.246.53:1084
-  protocol: socks5
-  ip: 195.201.246.53
-  port: 1084
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DE
-    city: Gunzenhausen
 - proxy: socks5://158.220.101.43:1080
   protocol: socks5
   ip: 158.220.101.43
@@ -642,16 +782,6 @@
   protocol: socks5
   ip: 176.65.132.138
   port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DE
-    city: Unknown
-- proxy: socks5://49.13.22.249:10813
-  protocol: socks5
-  ip: 49.13.22.249
-  port: 10813
   https: false
   anonymity: transparent
   score: 1
@@ -698,16 +828,6 @@
   geolocation:
     country: DE
     city: Unknown
-- proxy: socks5://46.232.249.209:40001
-  protocol: socks5
-  ip: 46.232.249.209
-  port: 40001
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DE
-    city: Unknown
 - proxy: socks5://94.249.150.91:1080
   protocol: socks5
   ip: 94.249.150.91
@@ -738,16 +858,6 @@
   geolocation:
     country: DE
     city: Nuremberg
-- proxy: socks5://161.35.70.249:1080
-  protocol: socks5
-  ip: 161.35.70.249
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DE
-    city: Frankfurt am Main
 - proxy: socks5://144.24.171.189:555
   protocol: socks5
   ip: 144.24.171.189
@@ -948,16 +1058,6 @@
   geolocation:
     country: DE
     city: Nuremberg
-- proxy: socks5://138.199.222.72:9050
-  protocol: socks5
-  ip: 138.199.222.72
-  port: 9050
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DE
-    city: Unknown
 - proxy: socks5://91.107.153.123:9083
   protocol: socks5
   ip: 91.107.153.123
@@ -3098,16 +3198,6 @@
   geolocation:
     country: DE
     city: Frankfurt am Main
-- proxy: http://47.91.65.23:3128
-  protocol: http
-  ip: 47.91.65.23
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DE
-    city: Frankfurt am Main
 - proxy: http://138.199.221.100:8118
   protocol: http
   ip: 138.199.221.100
@@ -3148,16 +3238,6 @@
   geolocation:
     country: DE
     city: Unknown
-- proxy: http://43.157.41.157:3128
-  protocol: http
-  ip: 43.157.41.157
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DE
-    city: Frankfurt am Main
 - proxy: http://77.67.8.122:443
   protocol: http
   ip: 77.67.8.122
@@ -3188,6 +3268,16 @@
   geolocation:
     country: DE
     city: Berlin
+- proxy: http://77.42.95.221:8889
+  protocol: http
+  ip: 77.42.95.221
+  port: 8889
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Unknown
 - proxy: http://161.35.70.249:3128
   protocol: http
   ip: 161.35.70.249
@@ -3238,16 +3328,6 @@
   geolocation:
     country: DE
     city: Unknown
-- proxy: http://8.209.96.245:8443
-  protocol: http
-  ip: 8.209.96.245
-  port: 8443
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DE
-    city: Frankfurt am Main
 - proxy: http://139.177.183.22:8080
   protocol: http
   ip: 139.177.183.22
@@ -3338,26 +3418,6 @@
   geolocation:
     country: DE
     city: Unknown
-- proxy: http://8.209.96.245:3128
-  protocol: http
-  ip: 8.209.96.245
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DE
-    city: Frankfurt am Main
-- proxy: http://207.180.254.198:8080
-  protocol: http
-  ip: 207.180.254.198
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DE
-    city: Nuremberg
 - proxy: http://94.249.153.213:1080
   protocol: http
   ip: 94.249.153.213
@@ -3628,16 +3688,6 @@
   geolocation:
     country: DE
     city: Frankfurt am Main
-- proxy: http://46.232.249.209:40001
-  protocol: http
-  ip: 46.232.249.209
-  port: 40001
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DE
-    city: Unknown
 - proxy: http://46.101.102.134:3128
   protocol: http
   ip: 46.101.102.134
@@ -3778,6 +3828,16 @@
   geolocation:
     country: DE
     city: Frankfurt am Main
+- proxy: http://188.68.52.45:80
+  protocol: http
+  ip: 188.68.52.45
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Unknown
 - proxy: http://173.249.37.45:5005
   protocol: http
   ip: 173.249.37.45
@@ -3838,3 +3898,53 @@
   geolocation:
     country: DE
     city: Unknown
+- proxy: http://80.74.54.148:3129
+  protocol: http
+  ip: 80.74.54.148
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Bockenem
+- proxy: http://62.171.168.211:3129
+  protocol: http
+  ip: 62.171.168.211
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Nuremberg
+- proxy: http://79.132.138.143:2080
+  protocol: http
+  ip: 79.132.138.143
+  port: 2080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Frankfurt am Main
+- proxy: http://79.137.202.109:3129
+  protocol: http
+  ip: 79.137.202.109
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Frankfurt am Main
+- proxy: http://47.91.65.23:3129
+  protocol: http
+  ip: 47.91.65.23
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Frankfurt am Main
