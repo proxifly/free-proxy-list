@@ -1,3 +1,23 @@
+- proxy: socks5://121.169.46.116:1090
+  protocol: socks5
+  ip: 121.169.46.116
+  port: 1090
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KR
+    city: Bucheon-si
+- proxy: socks5://183.106.215.208:1080
+  protocol: socks5
+  ip: 183.106.215.208
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KR
+    city: Pohang
 - proxy: https://43.133.231.149:443
   protocol: https
   ip: 43.133.231.149
@@ -48,20 +68,10 @@
   geolocation:
     country: KR
     city: Gwanak-gu
-- proxy: https://43.202.114.177:8809
+- proxy: https://43.202.114.177:42063
   protocol: https
   ip: 43.202.114.177
-  port: 8809
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KR
-    city: Incheon
-- proxy: https://43.202.114.177:43775
-  protocol: https
-  ip: 43.202.114.177
-  port: 43775
+  port: 42063
   https: true
   anonymity: transparent
   score: 1
@@ -78,16 +88,6 @@
   geolocation:
     country: KR
     city: Yangp'yong
-- proxy: socks5://121.169.46.116:1090
-  protocol: socks5
-  ip: 121.169.46.116
-  port: 1090
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KR
-    city: Bucheon-si
 - proxy: http://183.110.216.128:8090
   protocol: http
   ip: 183.110.216.128
@@ -118,6 +118,36 @@
   geolocation:
     country: KR
     city: Yeongdeungpo-gu
+- proxy: socks4://152.70.237.238:3128
+  protocol: socks4
+  ip: 152.70.237.238
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KR
+    city: Seoul
+- proxy: socks4://114.108.177.104:60984
+  protocol: socks4
+  ip: 114.108.177.104
+  port: 60984
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KR
+    city: Unknown
+- proxy: socks5://43.155.143.227:1080
+  protocol: socks5
+  ip: 43.155.143.227
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KR
+    city: Seoul
 - proxy: socks4://183.106.215.208:1080
   protocol: socks4
   ip: 183.106.215.208
@@ -128,10 +158,30 @@
   geolocation:
     country: KR
     city: Pohang
-- proxy: socks4://114.108.177.104:60984
+- proxy: socks4://8.220.204.92:55443
   protocol: socks4
-  ip: 114.108.177.104
-  port: 60984
+  ip: 8.220.204.92
+  port: 55443
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KR
+    city: Seoul
+- proxy: socks4://8.220.204.92:30001
+  protocol: socks4
+  ip: 8.220.204.92
+  port: 30001
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KR
+    city: Seoul
+- proxy: http://183.110.216.159:8091
+  protocol: http
+  ip: 183.110.216.159
+  port: 8091
   https: false
   anonymity: transparent
   score: 1
@@ -148,26 +198,6 @@
   geolocation:
     country: KR
     city: Dong-gu
-- proxy: socks4://221.157.45.249:80
-  protocol: socks4
-  ip: 221.157.45.249
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KR
-    city: Dalseo-gu
-- proxy: socks5://43.155.143.227:1080
-  protocol: socks5
-  ip: 43.155.143.227
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KR
-    city: Seoul
 - proxy: socks5://8.220.205.172:45
   protocol: socks5
   ip: 8.220.205.172
@@ -228,16 +258,6 @@
   geolocation:
     country: KR
     city: Seoul
-- proxy: socks5://183.106.215.208:1080
-  protocol: socks5
-  ip: 183.106.215.208
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KR
-    city: Pohang
 - proxy: socks5://118.36.13.131:1080
   protocol: socks5
   ip: 118.36.13.131
@@ -282,26 +302,6 @@
   protocol: socks5
   ip: 8.220.204.92
   port: 41
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KR
-    city: Seoul
-- proxy: socks5://8.220.204.92:1081
-  protocol: socks5
-  ip: 8.220.204.92
-  port: 1081
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KR
-    city: Seoul
-- proxy: socks5://8.220.204.92:90
-  protocol: socks5
-  ip: 8.220.204.92
-  port: 90
   https: false
   anonymity: transparent
   score: 1
@@ -798,16 +798,6 @@
   geolocation:
     country: KR
     city: Cheongju-si
-- proxy: http://183.110.216.159:8091
-  protocol: http
-  ip: 183.110.216.159
-  port: 8091
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KR
-    city: Unknown
 - proxy: http://183.110.216.128:8091
   protocol: http
   ip: 183.110.216.128

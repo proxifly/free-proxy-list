@@ -1,6 +1,6 @@
-- proxy: socks5://78.109.137.53:1080
+- proxy: socks5://195.190.121.154:1080
   protocol: socks5
-  ip: 78.109.137.53
+  ip: 195.190.121.154
   port: 1080
   https: false
   anonymity: transparent
@@ -8,26 +8,46 @@
   geolocation:
     country: RU
     city: Unknown
-- proxy: socks5://91.196.33.189:1080
+- proxy: socks5://89.148.196.156:1080
   protocol: socks5
-  ip: 91.196.33.189
+  ip: 89.148.196.156
   port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: RU
+    city: Perm
+- proxy: socks5://31.41.227.175:2080
+  protocol: socks5
+  ip: 31.41.227.175
+  port: 2080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
     city: Unknown
-- proxy: socks4://109.106.196.250:4145
+- proxy: socks5://46.48.26.53:10808
+  protocol: socks5
+  ip: 46.48.26.53
+  port: 10808
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Nizhny Tagil
+- proxy: socks4://94.247.241.70:51006
   protocol: socks4
-  ip: 109.106.196.250
-  port: 4145
+  ip: 94.247.241.70
+  port: 51006
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: RU
-    city: Unknown
+    city: St Petersburg
 - proxy: socks4://37.18.73.60:5566
   protocol: socks4
   ip: 37.18.73.60
@@ -52,16 +72,6 @@
   protocol: https
   ip: 77.221.136.60
   port: 8443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Unknown
-- proxy: https://37.203.243.6:443
-  protocol: https
-  ip: 37.203.243.6
-  port: 443
   https: true
   anonymity: transparent
   score: 1
@@ -258,26 +268,46 @@
   geolocation:
     country: RU
     city: Unknown
-- proxy: http://176.208.93.34:8989
+- proxy: http://80.252.137.246:1194
   protocol: http
-  ip: 176.208.93.34
-  port: 8989
+  ip: 80.252.137.246
+  port: 1194
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Moscow
+- proxy: http://185.136.185.120:8080
+  protocol: http
+  ip: 185.136.185.120
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: RU
     city: Unknown
-- proxy: http://45.8.88.156:8095
+- proxy: http://185.167.120.183:8080
   protocol: http
-  ip: 45.8.88.156
-  port: 8095
+  ip: 185.167.120.183
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: RU
-    city: Orenburg
+    city: Unknown
+- proxy: http://85.237.39.139:8080
+  protocol: http
+  ip: 85.237.39.139
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Zasechnoye
 - proxy: http://46.161.6.165:8080
   protocol: http
   ip: 46.161.6.165
@@ -348,70 +378,60 @@
   geolocation:
     country: RU
     city: Glazov
-- proxy: socks4://82.202.130.176:1212
-  protocol: socks4
-  ip: 82.202.130.176
-  port: 1212
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Yuzhno-Sakhalinsk
-- proxy: socks4://194.67.207.95:19080
-  protocol: socks4
-  ip: 194.67.207.95
-  port: 19080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Moscow Oblast
-- proxy: socks4://147.45.72.31:45700
-  protocol: socks4
-  ip: 147.45.72.31
-  port: 45700
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Unknown
-- proxy: socks4://46.161.49.174:10808
-  protocol: socks4
-  ip: 46.161.49.174
-  port: 10808
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Unknown
-- proxy: http://188.246.186.54:8080
-  protocol: http
-  ip: 188.246.186.54
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Moscow
-- proxy: socks4://178.45.39.238:10808
-  protocol: socks4
-  ip: 178.45.39.238
-  port: 10808
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Samara
-- proxy: socks4://89.250.148.158:1080
-  protocol: socks4
-  ip: 89.250.148.158
+- proxy: socks5://89.208.34.183:1080
+  protocol: socks5
+  ip: 89.208.34.183
   port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Reutov
+- proxy: socks5://188.134.95.74:1080
+  protocol: socks5
+  ip: 188.134.95.74
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: St Petersburg
+- proxy: socks4://37.193.125.68:1090
+  protocol: socks4
+  ip: 37.193.125.68
+  port: 1090
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Novosibirsk
+- proxy: http://89.108.81.40:8118
+  protocol: http
+  ip: 89.108.81.40
+  port: 8118
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Unknown
+- proxy: socks5://83.69.80.63:8443
+  protocol: socks5
+  ip: 83.69.80.63
+  port: 8443
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Proletarskiy Gorodok
+- proxy: http://193.233.86.198:8080
+  protocol: http
+  ip: 193.233.86.198
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
@@ -428,20 +448,180 @@
   geolocation:
     country: RU
     city: St Petersburg
-- proxy: socks5://46.161.49.174:10808
-  protocol: socks5
-  ip: 46.161.49.174
-  port: 10808
+- proxy: socks4://176.215.179.44:1080
+  protocol: socks4
+  ip: 176.215.179.44
+  port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: RU
     city: Unknown
+- proxy: http://79.174.63.25:8081
+  protocol: http
+  ip: 79.174.63.25
+  port: 8081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Odintsovo
+- proxy: socks5://90.150.52.50:1080
+  protocol: socks5
+  ip: 90.150.52.50
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Unknown
+- proxy: socks5://37.18.73.60:5566
+  protocol: socks5
+  ip: 37.18.73.60
+  port: 5566
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Unknown
+- proxy: socks5://85.172.81.216:1080
+  protocol: socks5
+  ip: 85.172.81.216
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Volgograd
+- proxy: socks4://31.148.13.96:1080
+  protocol: socks4
+  ip: 31.148.13.96
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Moscow
+- proxy: http://91.147.42.50:3128
+  protocol: http
+  ip: 91.147.42.50
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Unknown
+- proxy: http://109.120.131.122:3128
+  protocol: http
+  ip: 109.120.131.122
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Unknown
+- proxy: http://185.103.134.36:8080
+  protocol: http
+  ip: 185.103.134.36
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Unknown
+- proxy: socks5://178.176.118.74:1080
+  protocol: socks5
+  ip: 178.176.118.74
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Yekaterinburg
+- proxy: http://45.159.0.194:5050
+  protocol: http
+  ip: 45.159.0.194
+  port: 5050
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Unknown
+- proxy: socks5://81.3.182.222:5555
+  protocol: socks5
+  ip: 81.3.182.222
+  port: 5555
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Unknown
+- proxy: http://91.122.216.160:8080
+  protocol: http
+  ip: 91.122.216.160
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Severodvinsk
 - proxy: socks4://91.196.33.189:1080
   protocol: socks4
   ip: 91.196.33.189
   port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Unknown
+- proxy: socks5://82.144.85.78:1080
+  protocol: socks5
+  ip: 82.144.85.78
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Moscow
+- proxy: socks5://78.109.137.53:1080
+  protocol: socks5
+  ip: 78.109.137.53
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Unknown
+- proxy: socks5://91.196.33.189:1080
+  protocol: socks5
+  ip: 91.196.33.189
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Unknown
+- proxy: socks5://46.161.49.174:10808
+  protocol: socks5
+  ip: 46.161.49.174
+  port: 10808
   https: false
   anonymity: transparent
   score: 1
@@ -488,16 +668,6 @@
   geolocation:
     country: RU
     city: St Petersburg
-- proxy: socks5://83.69.80.63:8443
-  protocol: socks5
-  ip: 83.69.80.63
-  port: 8443
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Proletarskiy Gorodok
 - proxy: socks5://95.31.52.151:1080
   protocol: socks5
   ip: 95.31.52.151
@@ -538,16 +708,6 @@
   geolocation:
     country: RU
     city: Serpukhov
-- proxy: http://80.82.55.71:80
-  protocol: http
-  ip: 80.82.55.71
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Voronezh
 - proxy: socks5://83.174.229.42:1080
   protocol: socks5
   ip: 83.174.229.42
@@ -578,16 +738,6 @@
   geolocation:
     country: RU
     city: Krasnodar
-- proxy: http://176.115.146.232:8080
-  protocol: http
-  ip: 176.115.146.232
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Nizhniy Novgorod
 - proxy: socks5://83.234.137.154:1080
   protocol: socks5
   ip: 83.234.137.154
@@ -598,36 +748,6 @@
   geolocation:
     country: RU
     city: Unknown
-- proxy: http://91.234.54.83:81
-  protocol: http
-  ip: 91.234.54.83
-  port: 81
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Khabarovsk
-- proxy: http://62.32.73.54:8080
-  protocol: http
-  ip: 62.32.73.54
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Unknown
-- proxy: http://88.204.22.105:8080
-  protocol: http
-  ip: 88.204.22.105
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Tomsk
 - proxy: socks5://77.82.83.181:1080
   protocol: socks5
   ip: 77.82.83.181
@@ -638,26 +758,6 @@
   geolocation:
     country: RU
     city: Petropavlovsk-Kamchatsky
-- proxy: http://176.99.134.183:8090
-  protocol: http
-  ip: 176.99.134.183
-  port: 8090
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Moscow
-- proxy: http://193.233.86.198:8080
-  protocol: http
-  ip: 193.233.86.198
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Unknown
 - proxy: socks5://80.248.53.90:1080
   protocol: socks5
   ip: 80.248.53.90
@@ -668,16 +768,6 @@
   geolocation:
     country: RU
     city: Unknown
-- proxy: http://178.45.39.238:10808
-  protocol: http
-  ip: 178.45.39.238
-  port: 10808
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Samara
 - proxy: socks5://109.63.254.142:8080
   protocol: socks5
   ip: 109.63.254.142
@@ -712,16 +802,6 @@
   protocol: socks5
   ip: 81.211.26.237
   port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Unknown
-- proxy: socks5://37.18.73.60:5566
-  protocol: socks5
-  ip: 37.18.73.60
-  port: 5566
   https: false
   anonymity: transparent
   score: 1
@@ -768,16 +848,6 @@
   geolocation:
     country: RU
     city: Unknown
-- proxy: socks5://82.144.85.78:1080
-  protocol: socks5
-  ip: 82.144.85.78
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Moscow
 - proxy: socks5://212.67.12.161:1080
   protocol: socks5
   ip: 212.67.12.161
@@ -968,16 +1038,6 @@
   geolocation:
     country: RU
     city: Podolsk
-- proxy: socks5://89.208.34.183:1080
-  protocol: socks5
-  ip: 89.208.34.183
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Reutov
 - proxy: socks5://188.32.80.88:1080
   protocol: socks5
   ip: 188.32.80.88
@@ -1151,16 +1211,6 @@
 - proxy: socks5://31.43.194.184:1080
   protocol: socks5
   ip: 31.43.194.184
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Unknown
-- proxy: socks5://195.190.121.154:1080
-  protocol: socks5
-  ip: 195.190.121.154
   port: 1080
   https: false
   anonymity: transparent
@@ -1618,16 +1668,6 @@
   geolocation:
     country: RU
     city: Angarsk
-- proxy: socks5://85.172.81.216:1080
-  protocol: socks5
-  ip: 85.172.81.216
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Volgograd
 - proxy: socks5://91.214.141.224:10808
   protocol: socks5
   ip: 91.214.141.224
@@ -1958,16 +1998,6 @@
   geolocation:
     country: RU
     city: Rostov-on-Don
-- proxy: socks5://188.134.95.74:1080
-  protocol: socks5
-  ip: 188.134.95.74
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: St Petersburg
 - proxy: socks5://90.188.250.169:1080
   protocol: socks5
   ip: 90.188.250.169
@@ -1978,16 +2008,6 @@
   geolocation:
     country: RU
     city: Irkutsk
-- proxy: socks5://178.176.118.74:1080
-  protocol: socks5
-  ip: 178.176.118.74
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Yekaterinburg
 - proxy: socks5://94.232.62.170:1080
   protocol: socks5
   ip: 94.232.62.170
@@ -2318,16 +2338,6 @@
   geolocation:
     country: RU
     city: Ufa
-- proxy: socks5://89.148.196.156:1080
-  protocol: socks5
-  ip: 89.148.196.156
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Perm
 - proxy: socks5://31.129.147.102:1080
   protocol: socks5
   ip: 31.129.147.102
@@ -2518,16 +2528,6 @@
   geolocation:
     country: RU
     city: Naberezhnyye Chelny
-- proxy: socks5://31.41.227.175:2080
-  protocol: socks5
-  ip: 31.41.227.175
-  port: 2080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Unknown
 - proxy: socks5://217.118.188.122:1080
   protocol: socks5
   ip: 217.118.188.122
@@ -2912,16 +2912,6 @@
   protocol: socks5
   ip: 109.111.179.206
   port: 1090
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Unknown
-- proxy: socks5://90.150.52.50:1080
-  protocol: socks5
-  ip: 90.150.52.50
-  port: 1080
   https: false
   anonymity: transparent
   score: 1
@@ -3788,16 +3778,6 @@
   geolocation:
     country: RU
     city: Moscow
-- proxy: socks5://81.3.182.222:5555
-  protocol: socks5
-  ip: 81.3.182.222
-  port: 5555
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Unknown
 - proxy: socks5://83.221.219.245:7890
   protocol: socks5
   ip: 83.221.219.245
@@ -9118,16 +9098,6 @@
   geolocation:
     country: RU
     city: Moscow
-- proxy: http://185.103.134.36:8080
-  protocol: http
-  ip: 185.103.134.36
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Unknown
 - proxy: http://80.246.16.2:3128
   protocol: http
   ip: 80.246.16.2
@@ -9148,16 +9118,6 @@
   geolocation:
     country: RU
     city: Moscow
-- proxy: http://85.237.39.139:8080
-  protocol: http
-  ip: 85.237.39.139
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Zasechnoye
 - proxy: http://185.234.229.132:8000
   protocol: http
   ip: 185.234.229.132
@@ -9178,6 +9138,16 @@
   geolocation:
     country: RU
     city: Unknown
+- proxy: http://88.204.22.105:8080
+  protocol: http
+  ip: 88.204.22.105
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Tomsk
 - proxy: http://89.175.174.210:8080
   protocol: http
   ip: 89.175.174.210
@@ -9198,6 +9168,26 @@
   geolocation:
     country: RU
     city: St Petersburg
+- proxy: http://46.161.49.174:10809
+  protocol: http
+  ip: 46.161.49.174
+  port: 10809
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Unknown
+- proxy: http://176.99.134.183:8090
+  protocol: http
+  ip: 176.99.134.183
+  port: 8090
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Moscow
 - proxy: http://91.236.238.103:8080
   protocol: http
   ip: 91.236.238.103
@@ -9458,6 +9448,16 @@
   geolocation:
     country: RU
     city: Moscow
+- proxy: http://188.246.186.54:8080
+  protocol: http
+  ip: 188.246.186.54
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Moscow
 - proxy: http://91.230.65.202:8080
   protocol: http
   ip: 91.230.65.202
@@ -9478,6 +9478,26 @@
   geolocation:
     country: RU
     city: Novosibirsk
+- proxy: http://176.208.93.34:8989
+  protocol: http
+  ip: 176.208.93.34
+  port: 8989
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Unknown
+- proxy: http://176.115.146.232:8080
+  protocol: http
+  ip: 176.115.146.232
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Nizhniy Novgorod
 - proxy: http://188.226.89.87:8080
   protocol: http
   ip: 188.226.89.87
@@ -9498,16 +9518,6 @@
   geolocation:
     country: RU
     city: Khabarovsk
-- proxy: http://45.159.0.194:5050
-  protocol: http
-  ip: 45.159.0.194
-  port: 5050
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Unknown
 - proxy: http://85.117.95.125:8080
   protocol: http
   ip: 85.117.95.125
@@ -10148,6 +10158,16 @@
   geolocation:
     country: RU
     city: Moscow
+- proxy: http://62.32.73.54:8080
+  protocol: http
+  ip: 62.32.73.54
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Unknown
 - proxy: http://95.105.78.79:1080
   protocol: http
   ip: 95.105.78.79
