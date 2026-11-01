@@ -1,13 +1,13 @@
-- proxy: socks4://83.218.186.22:5678
+- proxy: socks4://213.173.75.222:5678
   protocol: socks4
-  ip: 83.218.186.22
+  ip: 213.173.75.222
   port: 5678
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: AT
-    city: Unknown
+    city: Kindberg
 - proxy: https://195.192.209.130:443
   protocol: https
   ip: 195.192.209.130
@@ -178,3 +178,13 @@
   geolocation:
     country: AT
     city: Ramsau am Dachstein
+- proxy: http://90.146.196.18:8080
+  protocol: http
+  ip: 90.146.196.18
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AT
+    city: Pasching

@@ -1,43 +1,13 @@
-- proxy: socks4://183.88.240.139:4153
+- proxy: socks4://203.172.120.179:1080
   protocol: socks4
-  ip: 183.88.240.139
-  port: 4153
+  ip: 203.172.120.179
+  port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: TH
-    city: Chon Buri
-- proxy: socks4://182.53.96.56:4145
-  protocol: socks4
-  ip: 182.53.96.56
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Chaloem Phra Kiat
-- proxy: socks4://110.77.135.70:4145
-  protocol: socks4
-  ip: 110.77.135.70
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Sam Phran
-- proxy: socks4://1.20.235.153:5678
-  protocol: socks4
-  ip: 1.20.235.153
-  port: 5678
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Yala
+    city: Bangkok
 - proxy: https://103.40.138.14:443
   protocol: https
   ip: 103.40.138.14
@@ -48,19 +18,69 @@
   geolocation:
     country: TH
     city: Pattaya
-- proxy: http://203.172.136.211:8080
+- proxy: https://103.58.150.11:443
+  protocol: https
+  ip: 103.58.150.11
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Unknown
+- proxy: http://61.19.145.66:8080
   protocol: http
-  ip: 203.172.136.211
+  ip: 61.19.145.66
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: TH
-    city: Unknown
-- proxy: http://180.180.156.53:80
+    city: Chiang Mai
+- proxy: http://1.20.101.24:80
   protocol: http
-  ip: 180.180.156.53
+  ip: 1.20.101.24
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Bangkok
+- proxy: http://182.52.113.57:8080
+  protocol: http
+  ip: 182.52.113.57
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Bacho
+- proxy: http://182.52.113.54:80
+  protocol: http
+  ip: 182.52.113.54
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Bacho
+- proxy: http://182.52.113.84:80
+  protocol: http
+  ip: 182.52.113.84
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Bacho
+- proxy: http://180.180.156.126:80
+  protocol: http
+  ip: 180.180.156.126
   port: 80
   https: false
   anonymity: transparent
@@ -68,16 +88,216 @@
   geolocation:
     country: TH
     city: Songkhla
-- proxy: http://101.51.121.149:80
+- proxy: http://125.25.167.196:80
   protocol: http
-  ip: 101.51.121.149
+  ip: 125.25.167.196
   port: 80
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: TH
-    city: Ubon Ratchathani
+    city: Lampang
+- proxy: http://125.25.167.129:80
+  protocol: http
+  ip: 125.25.167.129
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Lampang
+- proxy: http://1.10.248.239:80
+  protocol: http
+  ip: 1.10.248.239
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Nakhon Pathom
+- proxy: http://180.180.217.53:8080
+  protocol: http
+  ip: 180.180.217.53
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Bangkok
+- proxy: http://1.10.248.237:80
+  protocol: http
+  ip: 1.10.248.237
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Nakhon Pathom
+- proxy: http://203.150.128.244:8080
+  protocol: http
+  ip: 203.150.128.244
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Unknown
+- proxy: socks5://8.213.222.157:9091
+  protocol: socks5
+  ip: 8.213.222.157
+  port: 9091
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Bangkok
+- proxy: socks5://8.213.222.157:88
+  protocol: socks5
+  ip: 8.213.222.157
+  port: 88
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Bangkok
+- proxy: http://1.20.101.35:80
+  protocol: http
+  ip: 1.20.101.35
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Bangkok
+- proxy: socks4://182.53.96.56:4145
+  protocol: socks4
+  ip: 182.53.96.56
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Chaloem Phra Kiat
+- proxy: socks5://8.213.222.157:312
+  protocol: socks5
+  ip: 8.213.222.157
+  port: 312
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Bangkok
+- proxy: socks4://159.192.139.42:5678
+  protocol: socks4
+  ip: 159.192.139.42
+  port: 5678
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Bangkok
+- proxy: http://1.20.101.33:80
+  protocol: http
+  ip: 1.20.101.33
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Bangkok
+- proxy: http://182.52.113.85:443
+  protocol: http
+  ip: 182.52.113.85
+  port: 443
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Bacho
+- proxy: http://124.122.253.182:8080
+  protocol: http
+  ip: 124.122.253.182
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Phra Nakhon Si Ayutthaya
+- proxy: http://182.52.136.32:80
+  protocol: http
+  ip: 182.52.136.32
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Phayao
+- proxy: http://182.53.202.229:80
+  protocol: http
+  ip: 182.53.202.229
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Bangkok
+- proxy: http://1.1.189.58:8080
+  protocol: http
+  ip: 1.1.189.58
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Sakon Nakhon
+- proxy: http://1.20.101.23:80
+  protocol: http
+  ip: 1.20.101.23
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Bangkok
+- proxy: socks4://119.63.95.3:4153
+  protocol: socks4
+  ip: 119.63.95.3
+  port: 4153
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Chanthaburi
+- proxy: http://125.25.167.128:8080
+  protocol: http
+  ip: 125.25.167.128
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Lampang
 - proxy: http://182.52.136.43:80
   protocol: http
   ip: 182.52.136.43
@@ -88,126 +308,136 @@
   geolocation:
     country: TH
     city: Phayao
-- proxy: http://223.205.112.34:8080
-  protocol: http
-  ip: 223.205.112.34
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Wang Noi
-- proxy: http://182.52.113.61:8080
-  protocol: http
-  ip: 182.52.113.61
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Bacho
-- proxy: socks4://125.26.4.197:4145
+- proxy: socks4://1.20.254.32:4153
   protocol: socks4
-  ip: 125.26.4.197
-  port: 4145
+  ip: 1.20.254.32
+  port: 4153
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: TH
-    city: Bangkok
-- proxy: http://1.10.248.240:80
+    city: Ban Na Phen
+- proxy: http://1.10.248.239:8080
   protocol: http
-  ip: 1.10.248.240
-  port: 80
+  ip: 1.10.248.239
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: TH
     city: Nakhon Pathom
-- proxy: http://203.150.166.174:8080
+- proxy: http://1.20.178.201:80
   protocol: http
-  ip: 203.150.166.174
-  port: 8080
+  ip: 1.20.178.201
+  port: 80
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: TH
     city: Bangkok
-- proxy: http://125.25.167.132:80
+- proxy: http://184.82.16.125:8080
   protocol: http
-  ip: 125.25.167.132
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Lampang
-- proxy: http://1.4.141.10:80
-  protocol: http
-  ip: 1.4.141.10
-  port: 80
+  ip: 184.82.16.125
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: TH
     city: Phra Nakhon Si Ayutthaya
-- proxy: http://150.107.29.165:3128
+- proxy: http://171.103.19.126:8080
   protocol: http
-  ip: 150.107.29.165
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Unknown
-- proxy: socks4://1.179.151.165:31948
-  protocol: socks4
-  ip: 1.179.151.165
-  port: 31948
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Changwat Sara Buri
-- proxy: http://1.20.101.32:8080
-  protocol: http
-  ip: 1.20.101.32
+  ip: 171.103.19.126
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: TH
-    city: Bangkok
-- proxy: socks5://8.213.222.157:8443
-  protocol: socks5
-  ip: 8.213.222.157
-  port: 8443
+    city: Nakhon Ratchasima
+- proxy: http://180.180.156.95:80
+  protocol: http
+  ip: 180.180.156.95
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Songkhla
+- proxy: http://180.180.156.69:80
+  protocol: http
+  ip: 180.180.156.69
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Songkhla
+- proxy: http://1.20.178.212:80
+  protocol: http
+  ip: 1.20.178.212
+  port: 80
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: TH
     city: Bangkok
-- proxy: socks5://8.213.222.157:5060
-  protocol: socks5
-  ip: 8.213.222.157
-  port: 5060
+- proxy: http://182.53.202.238:80
+  protocol: http
+  ip: 182.53.202.238
+  port: 80
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: TH
     city: Bangkok
+- proxy: socks4://125.25.57.57:4153
+  protocol: socks4
+  ip: 125.25.57.57
+  port: 4153
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Chachoengsao
+- proxy: http://101.109.119.24:8080
+  protocol: http
+  ip: 101.109.119.24
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Mueang Samut Prakan
+- proxy: http://182.52.113.74:80
+  protocol: http
+  ip: 182.52.113.74
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Bacho
+- proxy: http://106.0.168.138:8080
+  protocol: http
+  ip: 106.0.168.138
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Unknown
 - proxy: socks5://8.213.193.151:1080
   protocol: socks5
   ip: 8.213.193.151
@@ -258,16 +488,6 @@
   geolocation:
     country: TH
     city: Trang
-- proxy: socks5://8.213.222.157:4145
-  protocol: socks5
-  ip: 8.213.222.157
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Bangkok
 - proxy: socks5://8.213.197.208:100
   protocol: socks5
   ip: 8.213.197.208
@@ -312,16 +532,6 @@
   protocol: socks5
   ip: 102.129.229.131
   port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Bangkok
-- proxy: http://1.20.101.35:80
-  protocol: http
-  ip: 1.20.101.35
-  port: 80
   https: false
   anonymity: transparent
   score: 1
@@ -401,6 +611,16 @@
 - proxy: http://1.10.248.236:80
   protocol: http
   ip: 1.10.248.236
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Nakhon Pathom
+- proxy: http://1.10.248.240:80
+  protocol: http
+  ip: 1.10.248.240
   port: 80
   https: false
   anonymity: transparent
@@ -488,16 +708,6 @@
   geolocation:
     country: TH
     city: Lampang
-- proxy: http://1.20.101.23:80
-  protocol: http
-  ip: 1.20.101.23
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Bangkok
 - proxy: http://182.52.136.44:80
   protocol: http
   ip: 182.52.136.44
@@ -608,16 +818,6 @@
   geolocation:
     country: TH
     city: Nakhon Pathom
-- proxy: http://1.1.189.58:8080
-  protocol: http
-  ip: 1.1.189.58
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Sakon Nakhon
 - proxy: http://182.53.143.200:8180
   protocol: http
   ip: 182.53.143.200
@@ -648,26 +848,16 @@
   geolocation:
     country: TH
     city: Phayao
-- proxy: http://1.10.248.237:80
+- proxy: http://101.51.121.149:80
   protocol: http
-  ip: 1.10.248.237
+  ip: 101.51.121.149
   port: 80
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: TH
-    city: Nakhon Pathom
-- proxy: http://180.180.156.126:80
-  protocol: http
-  ip: 180.180.156.126
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Songkhla
+    city: Ubon Ratchathani
 - proxy: http://125.25.167.188:80
   protocol: http
   ip: 125.25.167.188
@@ -768,26 +958,6 @@
   geolocation:
     country: TH
     city: Bangkok
-- proxy: http://182.53.202.238:80
-  protocol: http
-  ip: 182.53.202.238
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Bangkok
-- proxy: http://182.53.202.229:80
-  protocol: http
-  ip: 182.53.202.229
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Bangkok
 - proxy: http://1.2.248.41:80
   protocol: http
   ip: 1.2.248.41
@@ -818,16 +988,6 @@
   geolocation:
     country: TH
     city: Bangkok
-- proxy: http://182.52.113.85:443
-  protocol: http
-  ip: 182.52.113.85
-  port: 443
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Bacho
 - proxy: http://125.25.167.176:80
   protocol: http
   ip: 125.25.167.176
@@ -838,16 +998,6 @@
   geolocation:
     country: TH
     city: Lampang
-- proxy: http://1.20.101.33:80
-  protocol: http
-  ip: 1.20.101.33
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Bangkok
 - proxy: http://183.88.213.178:8080
   protocol: http
   ip: 183.88.213.178
@@ -948,6 +1098,16 @@
   geolocation:
     country: TH
     city: Lampang
+- proxy: http://223.205.112.34:8080
+  protocol: http
+  ip: 223.205.112.34
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Wang Noi
 - proxy: http://182.53.202.217:80
   protocol: http
   ip: 182.53.202.217
@@ -968,16 +1128,6 @@
   geolocation:
     country: TH
     city: Bacho
-- proxy: http://1.20.178.201:80
-  protocol: http
-  ip: 1.20.178.201
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Bangkok
 - proxy: http://1.4.141.68:80
   protocol: http
   ip: 1.4.141.68
@@ -1118,16 +1268,6 @@
   geolocation:
     country: TH
     city: Phra Nakhon Si Ayutthaya
-- proxy: http://182.52.113.54:80
-  protocol: http
-  ip: 182.52.113.54
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Bacho
 - proxy: http://183.88.184.48:8080
   protocol: http
   ip: 183.88.184.48
@@ -1258,30 +1398,10 @@
   geolocation:
     country: TH
     city: Chon Buri
-- proxy: http://1.10.248.239:80
-  protocol: http
-  ip: 1.10.248.239
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Nakhon Pathom
 - proxy: http://171.6.155.76:8000
   protocol: http
   ip: 171.6.155.76
   port: 8000
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Bangkok
-- proxy: http://1.20.178.212:80
-  protocol: http
-  ip: 1.20.178.212
-  port: 80
   https: false
   anonymity: transparent
   score: 1
@@ -1312,16 +1432,6 @@
   protocol: http
   ip: 183.89.250.246
   port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Bangkok
-- proxy: http://1.20.101.24:80
-  protocol: http
-  ip: 1.20.101.24
-  port: 80
   https: false
   anonymity: transparent
   score: 1
@@ -1488,6 +1598,16 @@
   geolocation:
     country: TH
     city: Bangkok
+- proxy: http://125.25.167.132:80
+  protocol: http
+  ip: 125.25.167.132
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Lampang
 - proxy: http://1.179.148.9:55636
   protocol: http
   ip: 1.179.148.9
@@ -1738,76 +1858,6 @@
   geolocation:
     country: TH
     city: Bangkok
-- proxy: http://182.52.113.57:8080
-  protocol: http
-  ip: 182.52.113.57
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Bacho
-- proxy: http://1.10.133.83:8081
-  protocol: http
-  ip: 1.10.133.83
-  port: 8081
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Trang
-- proxy: http://184.82.164.23:8080
-  protocol: http
-  ip: 184.82.164.23
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Nakhon Ratchasima
-- proxy: http://125.25.167.199:80
-  protocol: http
-  ip: 125.25.167.199
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Lampang
-- proxy: http://110.164.128.124:8080
-  protocol: http
-  ip: 110.164.128.124
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Chiang Mai
-- proxy: http://182.52.136.32:8080
-  protocol: http
-  ip: 182.52.136.32
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Phayao
-- proxy: http://1.20.178.208:80
-  protocol: http
-  ip: 1.20.178.208
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Bangkok
 - proxy: http://182.52.113.109:80
   protocol: http
   ip: 182.52.113.109
@@ -1818,19 +1868,9 @@
   geolocation:
     country: TH
     city: Bacho
-- proxy: http://182.52.136.39:80
+- proxy: http://1.4.141.80:80
   protocol: http
-  ip: 182.52.136.39
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Phayao
-- proxy: http://1.4.141.42:80
-  protocol: http
-  ip: 1.4.141.42
+  ip: 1.4.141.80
   port: 80
   https: false
   anonymity: transparent
@@ -1838,29 +1878,9 @@
   geolocation:
     country: TH
     city: Phra Nakhon Si Ayutthaya
-- proxy: http://182.52.136.62:8080
+- proxy: http://125.25.167.202:80
   protocol: http
-  ip: 182.52.136.62
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Phayao
-- proxy: http://101.108.197.189:8080
-  protocol: http
-  ip: 101.108.197.189
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Bangkok
-- proxy: http://125.25.167.196:80
-  protocol: http
-  ip: 125.25.167.196
+  ip: 125.25.167.202
   port: 80
   https: false
   anonymity: transparent
@@ -1868,16 +1888,6 @@
   geolocation:
     country: TH
     city: Lampang
-- proxy: http://182.52.113.85:8080
-  protocol: http
-  ip: 182.52.113.85
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Bacho
 - proxy: http://1.10.248.237:8080
   protocol: http
   ip: 1.10.248.237
@@ -1888,56 +1898,6 @@
   geolocation:
     country: TH
     city: Nakhon Pathom
-- proxy: http://182.52.136.76:80
-  protocol: http
-  ip: 182.52.136.76
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Phayao
-- proxy: http://1.10.248.249:8080
-  protocol: http
-  ip: 1.10.248.249
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Nakhon Pathom
-- proxy: http://210.86.172.190:8080
-  protocol: http
-  ip: 210.86.172.190
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Bangkok
-- proxy: http://182.52.136.59:8080
-  protocol: http
-  ip: 182.52.136.59
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Phayao
-- proxy: http://1.20.101.17:80
-  protocol: http
-  ip: 1.20.101.17
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TH
-    city: Bangkok
 - proxy: http://1.20.101.30:80
   protocol: http
   ip: 1.20.101.30
@@ -1948,19 +1908,79 @@
   geolocation:
     country: TH
     city: Bangkok
-- proxy: http://124.122.253.182:8080
+- proxy: http://1.20.178.221:80
   protocol: http
-  ip: 124.122.253.182
+  ip: 1.20.178.221
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Bangkok
+- proxy: http://182.52.149.67:80
+  protocol: http
+  ip: 182.52.149.67
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Bangkok
+- proxy: http://1.20.101.24:8080
+  protocol: http
+  ip: 1.20.101.24
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: TH
-    city: Phra Nakhon Si Ayutthaya
-- proxy: http://106.0.168.138:8080
+    city: Bangkok
+- proxy: http://180.180.123.40:8080
   protocol: http
-  ip: 106.0.168.138
+  ip: 180.180.123.40
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Bangkok
+- proxy: http://110.164.128.124:8080
+  protocol: http
+  ip: 110.164.128.124
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Chiang Mai
+- proxy: http://1.10.248.226:80
+  protocol: http
+  ip: 1.10.248.226
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Nakhon Pathom
+- proxy: http://182.52.136.41:80
+  protocol: http
+  ip: 182.52.136.41
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Phayao
+- proxy: http://203.172.136.211:8080
+  protocol: http
+  ip: 203.172.136.211
   port: 8080
   https: false
   anonymity: transparent
@@ -1968,23 +1988,123 @@
   geolocation:
     country: TH
     city: Unknown
-- proxy: http://180.180.156.111:8080
+- proxy: http://1.10.248.249:8080
   protocol: http
-  ip: 180.180.156.111
+  ip: 1.10.248.249
   port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Nakhon Pathom
+- proxy: http://1.4.141.80:8080
+  protocol: http
+  ip: 1.4.141.80
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Phra Nakhon Si Ayutthaya
+- proxy: http://125.25.167.188:8080
+  protocol: http
+  ip: 125.25.167.188
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Lampang
+- proxy: http://1.4.141.66:80
+  protocol: http
+  ip: 1.4.141.66
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Phra Nakhon Si Ayutthaya
+- proxy: http://1.20.101.35:8080
+  protocol: http
+  ip: 1.20.101.35
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Bangkok
+- proxy: http://43.251.205.146:8080
+  protocol: http
+  ip: 43.251.205.146
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Bangkok
+- proxy: http://180.180.156.53:80
+  protocol: http
+  ip: 180.180.156.53
+  port: 80
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: TH
     city: Songkhla
-- proxy: http://182.52.113.71:8080
+- proxy: http://182.53.202.228:80
   protocol: http
-  ip: 182.52.113.71
+  ip: 182.53.202.228
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Bangkok
+- proxy: http://1.20.101.22:8080
+  protocol: http
+  ip: 1.20.101.22
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: TH
-    city: Bacho
+    city: Bangkok
+- proxy: http://202.183.236.221:8080
+  protocol: http
+  ip: 202.183.236.221
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Bangkok
+- proxy: http://1.20.101.16:8080
+  protocol: http
+  ip: 1.20.101.16
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Bangkok
+- proxy: http://180.180.217.53:80
+  protocol: http
+  ip: 180.180.217.53
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TH
+    city: Bangkok
