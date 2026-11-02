@@ -1,3 +1,23 @@
+- proxy: socks4://46.8.104.176:1080
+  protocol: socks4
+  ip: 46.8.104.176
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Unknown
+- proxy: socks4://109.69.211.18:1080
+  protocol: socks4
+  ip: 109.69.211.18
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Chropyne
 - proxy: https://31.31.78.117:443
   protocol: https
   ip: 31.31.78.117
@@ -48,6 +68,16 @@
   geolocation:
     country: CZ
     city: Klatovy
+- proxy: https://95.173.223.78:9443
+  protocol: https
+  ip: 95.173.223.78
+  port: 9443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Prague
 - proxy: https://176.102.64.4:443
   protocol: https
   ip: 176.102.64.4
@@ -58,16 +88,6 @@
   geolocation:
     country: CZ
     city: Prague
-- proxy: http://185.73.103.23:3128
-  protocol: http
-  ip: 185.73.103.23
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Chodov
 - proxy: http://147.231.163.133:80
   protocol: http
   ip: 147.231.163.133
@@ -78,19 +98,9 @@
   geolocation:
     country: CZ
     city: Unknown
-- proxy: socks4://46.8.104.176:1080
-  protocol: socks4
-  ip: 46.8.104.176
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Unknown
-- proxy: socks5://93.99.104.209:1080
+- proxy: socks5://93.99.104.206:1080
   protocol: socks5
-  ip: 93.99.104.209
+  ip: 93.99.104.206
   port: 1080
   https: false
   anonymity: transparent
@@ -98,16 +108,36 @@
   geolocation:
     country: CZ
     city: Unknown
-- proxy: socks4://185.40.80.143:4153
-  protocol: socks4
-  ip: 185.40.80.143
-  port: 4153
+- proxy: http://95.129.101.73:80
+  protocol: http
+  ip: 95.129.101.73
+  port: 80
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: CZ
-    city: Klatovy
+    city: Unknown
+- proxy: socks5://176.62.229.17:1080
+  protocol: socks5
+  ip: 176.62.229.17
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Trutnov
+- proxy: socks5://193.124.15.177:60001
+  protocol: socks5
+  ip: 193.124.15.177
+  port: 60001
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Unknown
 - proxy: socks5://91.218.234.54:11080
   protocol: socks5
   ip: 91.218.234.54
@@ -118,6 +148,16 @@
   geolocation:
     country: CZ
     city: Stribro
+- proxy: socks5://93.99.104.209:1080
+  protocol: socks5
+  ip: 93.99.104.209
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Unknown
 - proxy: socks5://193.165.115.78:1080
   protocol: socks5
   ip: 193.165.115.78
@@ -138,16 +178,6 @@
   geolocation:
     country: CZ
     city: Semcice
-- proxy: socks5://176.62.229.17:1080
-  protocol: socks5
-  ip: 176.62.229.17
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Trutnov
 - proxy: socks5://31.47.103.207:1080
   protocol: socks5
   ip: 31.47.103.207
@@ -201,16 +231,6 @@
 - proxy: socks5://93.99.104.47:1080
   protocol: socks5
   ip: 93.99.104.47
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Unknown
-- proxy: socks5://93.99.104.206:1080
-  protocol: socks5
-  ip: 93.99.104.206
   port: 1080
   https: false
   anonymity: transparent
@@ -312,26 +332,6 @@
   protocol: socks5
   ip: 195.133.83.147
   port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Unknown
-- proxy: socks5://193.124.15.177:60001
-  protocol: socks5
-  ip: 193.124.15.177
-  port: 60001
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Unknown
-- proxy: http://95.129.101.73:80
-  protocol: http
-  ip: 95.129.101.73
-  port: 80
   https: false
   anonymity: transparent
   score: 1

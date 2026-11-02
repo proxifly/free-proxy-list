@@ -1,18 +1,5 @@
 [
   {
-    "proxy": "socks4://109.160.97.49:4145",
-    "protocol": "socks4",
-    "ip": "109.160.97.49",
-    "port": 4145,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "BG",
-      "city": "Starmen"
-    }
-  },
-  {
     "proxy": "socks4://213.149.156.87:5678",
     "protocol": "socks4",
     "ip": "213.149.156.87",
@@ -23,6 +10,19 @@
     "geolocation": {
       "country": "BG",
       "city": "Razlog"
+    }
+  },
+  {
+    "proxy": "socks4://85.187.5.66:48293",
+    "protocol": "socks4",
+    "ip": "85.187.5.66",
+    "port": 48293,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "BG",
+      "city": "Unknown"
     }
   },
   {
@@ -52,10 +52,36 @@
     }
   },
   {
-    "proxy": "http://109.199.119.160:80",
+    "proxy": "https://185.216.32.226:443",
+    "protocol": "https",
+    "ip": "185.216.32.226",
+    "port": 443,
+    "https": true,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "BG",
+      "city": "Sofia"
+    }
+  },
+  {
+    "proxy": "https://185.216.32.226:9443",
+    "protocol": "https",
+    "ip": "185.216.32.226",
+    "port": 9443,
+    "https": true,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "BG",
+      "city": "Sofia"
+    }
+  },
+  {
+    "proxy": "http://213.169.33.12:8001",
     "protocol": "http",
-    "ip": "109.199.119.160",
-    "port": 80,
+    "ip": "213.169.33.12",
+    "port": 8001,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -78,10 +104,23 @@
     }
   },
   {
-    "proxy": "http://88.87.6.135:3030",
+    "proxy": "socks4://109.160.97.49:4145",
+    "protocol": "socks4",
+    "ip": "109.160.97.49",
+    "port": 4145,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "BG",
+      "city": "Starmen"
+    }
+  },
+  {
+    "proxy": "http://109.199.119.160:80",
     "protocol": "http",
-    "ip": "88.87.6.135",
-    "port": 3030,
+    "ip": "109.199.119.160",
+    "port": 80,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
