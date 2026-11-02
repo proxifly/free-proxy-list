@@ -48,16 +48,6 @@
   geolocation:
     country: CZ
     city: Klatovy
-- proxy: https://79.127.139.33:9443
-  protocol: https
-  ip: 79.127.139.33
-  port: 9443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Unknown
 - proxy: https://176.102.64.4:443
   protocol: https
   ip: 176.102.64.4
@@ -68,6 +58,16 @@
   geolocation:
     country: CZ
     city: Prague
+- proxy: http://185.73.103.23:3128
+  protocol: http
+  ip: 185.73.103.23
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Chodov
 - proxy: http://147.231.163.133:80
   protocol: http
   ip: 147.231.163.133
@@ -88,16 +88,6 @@
   geolocation:
     country: CZ
     city: Unknown
-- proxy: http://95.129.101.73:80
-  protocol: http
-  ip: 95.129.101.73
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Unknown
 - proxy: socks5://93.99.104.209:1080
   protocol: socks5
   ip: 93.99.104.209
@@ -108,6 +98,16 @@
   geolocation:
     country: CZ
     city: Unknown
+- proxy: socks4://185.40.80.143:4153
+  protocol: socks4
+  ip: 185.40.80.143
+  port: 4153
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Klatovy
 - proxy: socks5://91.218.234.54:11080
   protocol: socks5
   ip: 91.218.234.54
@@ -322,6 +322,16 @@
   protocol: socks5
   ip: 193.124.15.177
   port: 60001
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Unknown
+- proxy: http://95.129.101.73:80
+  protocol: http
+  ip: 95.129.101.73
+  port: 80
   https: false
   anonymity: transparent
   score: 1
