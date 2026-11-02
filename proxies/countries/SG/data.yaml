@@ -1,13 +1,23 @@
-- proxy: socks4://154.18.220.190:5678
-  protocol: socks4
-  ip: 154.18.220.190
-  port: 5678
+- proxy: socks5://45.77.245.8:1082
+  protocol: socks5
+  ip: 45.77.245.8
+  port: 1082
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: SG
-    city: Unknown
+    city: Singapore
+- proxy: socks5://43.156.137.7:10808
+  protocol: socks5
+  ip: 43.156.137.7
+  port: 10808
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SG
+    city: Singapore
 - proxy: https://128.199.207.200:443
   protocol: https
   ip: 128.199.207.200
@@ -108,9 +118,9 @@
   geolocation:
     country: SG
     city: Unknown
-- proxy: https://166.0.9.70:9443
+- proxy: https://166.0.9.64:9443
   protocol: https
-  ip: 166.0.9.70
+  ip: 166.0.9.64
   port: 9443
   https: true
   anonymity: transparent
@@ -118,9 +128,9 @@
   geolocation:
     country: SG
     city: Singapore
-- proxy: https://166.0.9.96:9443
+- proxy: https://166.0.9.18:9443
   protocol: https
-  ip: 166.0.9.96
+  ip: 166.0.9.18
   port: 9443
   https: true
   anonymity: transparent
@@ -128,9 +138,9 @@
   geolocation:
     country: SG
     city: Singapore
-- proxy: https://166.0.9.46:9443
+- proxy: https://166.0.9.114:9443
   protocol: https
-  ip: 166.0.9.46
+  ip: 166.0.9.114
   port: 9443
   https: true
   anonymity: transparent
@@ -138,10 +148,10 @@
   geolocation:
     country: SG
     city: Singapore
-- proxy: https://66.42.49.247:8443
+- proxy: https://156.146.56.97:9443
   protocol: https
-  ip: 66.42.49.247
-  port: 8443
+  ip: 156.146.56.97
+  port: 9443
   https: true
   anonymity: transparent
   score: 1
@@ -158,16 +168,6 @@
   geolocation:
     country: SG
     city: Singapore
-- proxy: https://166.0.9.28:9443
-  protocol: https
-  ip: 166.0.9.28
-  port: 9443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SG
-    city: Singapore
 - proxy: https://213.35.107.110:443
   protocol: https
   ip: 213.35.107.110
@@ -178,6 +178,16 @@
   geolocation:
     country: SG
     city: Unknown
+- proxy: https://13.215.184.250:8087
+  protocol: https
+  ip: 13.215.184.250
+  port: 8087
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SG
+    city: Singapore
 - proxy: https://18.139.84.28:443
   protocol: https
   ip: 18.139.84.28
@@ -198,16 +208,26 @@
   geolocation:
     country: SG
     city: Singapore
-- proxy: https://47.129.130.0:7427
+- proxy: https://47.129.105.10:5680
   protocol: https
-  ip: 47.129.130.0
-  port: 7427
+  ip: 47.129.105.10
+  port: 5680
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: SG
     city: Singapore
+- proxy: http://8.222.175.80:6128
+  protocol: http
+  ip: 8.222.175.80
+  port: 6128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SG
+    city: Unknown
 - proxy: http://4.144.146.21:80
   protocol: http
   ip: 4.144.146.21
@@ -288,10 +308,70 @@
   geolocation:
     country: SG
     city: Unknown
-- proxy: socks4://43.160.245.155:8080
-  protocol: socks4
-  ip: 43.160.245.155
-  port: 8080
+- proxy: http://8.213.151.128:3128
+  protocol: http
+  ip: 8.213.151.128
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SG
+    city: Unknown
+- proxy: socks5://43.248.173.115:888
+  protocol: socks5
+  ip: 43.248.173.115
+  port: 888
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SG
+    city: Unknown
+- proxy: http://139.59.103.183:80
+  protocol: http
+  ip: 139.59.103.183
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SG
+    city: Singapore
+- proxy: http://128.199.247.154:3128
+  protocol: http
+  ip: 128.199.247.154
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SG
+    city: Singapore
+- proxy: http://47.237.107.41:1081
+  protocol: http
+  ip: 47.237.107.41
+  port: 1081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SG
+    city: Unknown
+- proxy: http://143.198.85.218:3128
+  protocol: http
+  ip: 143.198.85.218
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SG
+    city: Singapore
+- proxy: http://178.128.223.15:3128
+  protocol: http
+  ip: 178.128.223.15
+  port: 3128
   https: false
   anonymity: transparent
   score: 1
@@ -308,36 +388,6 @@
   geolocation:
     country: SG
     city: Singapore
-- proxy: http://135.149.41.223:3128
-  protocol: http
-  ip: 135.149.41.223
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SG
-    city: Unknown
-- proxy: socks5://45.77.245.8:1082
-  protocol: socks5
-  ip: 45.77.245.8
-  port: 1082
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SG
-    city: Singapore
-- proxy: socks5://43.248.173.115:888
-  protocol: socks5
-  ip: 43.248.173.115
-  port: 888
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SG
-    city: Unknown
 - proxy: socks5://8.219.245.123:1080
   protocol: socks5
   ip: 8.219.245.123
@@ -1448,16 +1498,6 @@
   geolocation:
     country: SG
     city: Unknown
-- proxy: http://8.213.151.128:3128
-  protocol: http
-  ip: 8.213.151.128
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SG
-    city: Unknown
 - proxy: http://47.236.86.147:443
   protocol: http
   ip: 47.236.86.147
@@ -1482,6 +1522,16 @@
   protocol: http
   ip: 103.43.191.71
   port: 8888
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SG
+    city: Unknown
+- proxy: http://135.149.41.223:3128
+  protocol: http
+  ip: 135.149.41.223
+  port: 3128
   https: false
   anonymity: transparent
   score: 1
@@ -1688,16 +1738,6 @@
   geolocation:
     country: SG
     city: Unknown
-- proxy: http://143.198.85.218:3128
-  protocol: http
-  ip: 143.198.85.218
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SG
-    city: Singapore
 - proxy: http://8.213.156.191:4145
   protocol: http
   ip: 8.213.156.191
@@ -1978,3 +2018,33 @@
   geolocation:
     country: SG
     city: Singapore
+- proxy: http://158.178.245.95:3129
+  protocol: http
+  ip: 158.178.245.95
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SG
+    city: Unknown
+- proxy: http://51.79.142.230:38414
+  protocol: http
+  ip: 51.79.142.230
+  port: 38414
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SG
+    city: Singapore
+- proxy: http://8.213.151.128:3129
+  protocol: http
+  ip: 8.213.151.128
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SG
+    city: Unknown

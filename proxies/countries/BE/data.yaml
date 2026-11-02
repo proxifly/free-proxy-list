@@ -1,13 +1,3 @@
-- proxy: https://89.207.188.137:443
-  protocol: https
-  ip: 89.207.188.137
-  port: 443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BE
-    city: Unknown
 - proxy: socks5://82.180.146.251:10800
   protocol: socks5
   ip: 82.180.146.251
@@ -18,6 +8,16 @@
   geolocation:
     country: BE
     city: Brussels
+- proxy: https://89.207.188.137:443
+  protocol: https
+  ip: 89.207.188.137
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BE
+    city: Unknown
 - proxy: socks5://146.103.124.138:1080
   protocol: socks5
   ip: 146.103.124.138
