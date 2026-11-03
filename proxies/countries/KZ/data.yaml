@@ -68,16 +68,16 @@
   geolocation:
     country: KZ
     city: Unknown
-- proxy: socks4://217.151.230.186:9055
-  protocol: socks4
-  ip: 217.151.230.186
-  port: 9055
+- proxy: http://82.115.60.51:80
+  protocol: http
+  ip: 82.115.60.51
+  port: 80
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: KZ
-    city: Almaty
+    city: Unknown
 - proxy: socks5://91.231.67.219:1080
   protocol: socks5
   ip: 91.231.67.219
@@ -168,16 +168,6 @@
   geolocation:
     country: KZ
     city: Unknown
-- proxy: http://82.115.60.51:80
-  protocol: http
-  ip: 82.115.60.51
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KZ
-    city: Unknown
 - proxy: http://46.8.252.12:8123
   protocol: http
   ip: 46.8.252.12
@@ -218,3 +208,13 @@
   geolocation:
     country: KZ
     city: Almaty
+- proxy: http://93.185.68.82:8080
+  protocol: http
+  ip: 93.185.68.82
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KZ
+    city: Atyrau

@@ -38,6 +38,26 @@
   geolocation:
     country: CZ
     city: Unknown
+- proxy: https://185.68.28.79:443
+  protocol: https
+  ip: 185.68.28.79
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Klatovy
+- proxy: https://95.173.223.78:9443
+  protocol: https
+  ip: 95.173.223.78
+  port: 9443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Prague
 - proxy: https://176.102.64.4:443
   protocol: https
   ip: 176.102.64.4
@@ -48,6 +68,16 @@
   geolocation:
     country: CZ
     city: Prague
+- proxy: http://217.75.208.181:8080
+  protocol: http
+  ip: 217.75.208.181
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Louny
 - proxy: http://147.231.163.133:80
   protocol: http
   ip: 147.231.163.133
@@ -58,46 +88,6 @@
   geolocation:
     country: CZ
     city: Unknown
-- proxy: socks4://46.8.104.176:1080
-  protocol: socks4
-  ip: 46.8.104.176
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Unknown
-- proxy: http://95.129.101.73:80
-  protocol: http
-  ip: 95.129.101.73
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Unknown
-- proxy: socks4://185.40.80.143:4153
-  protocol: socks4
-  ip: 185.40.80.143
-  port: 4153
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Klatovy
-- proxy: socks5://91.218.234.54:11080
-  protocol: socks5
-  ip: 91.218.234.54
-  port: 11080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Stribro
 - proxy: socks5://95.85.249.247:1080
   protocol: socks5
   ip: 95.85.249.247
@@ -108,6 +98,26 @@
   geolocation:
     country: CZ
     city: Semcice
+- proxy: http://77.240.102.149:800
+  protocol: http
+  ip: 77.240.102.149
+  port: 800
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Prague
+- proxy: socks5://91.218.234.54:11080
+  protocol: socks5
+  ip: 91.218.234.54
+  port: 11080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Stribro
 - proxy: socks5://93.99.104.206:1080
   protocol: socks5
   ip: 93.99.104.206
@@ -318,6 +328,16 @@
   geolocation:
     country: CZ
     city: Unknown
+- proxy: http://95.129.101.73:80
+  protocol: http
+  ip: 95.129.101.73
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Unknown
 - proxy: http://81.19.4.118:8000
   protocol: http
   ip: 81.19.4.118
@@ -348,16 +368,6 @@
   geolocation:
     country: CZ
     city: Kojetin
-- proxy: http://77.240.102.149:800
-  protocol: http
-  ip: 77.240.102.149
-  port: 800
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Prague
 - proxy: http://213.151.79.84:8080
   protocol: http
   ip: 213.151.79.84
@@ -398,3 +408,23 @@
   geolocation:
     country: CZ
     city: Unknown
+- proxy: http://85.207.89.34:8080
+  protocol: http
+  ip: 85.207.89.34
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Opava
+- proxy: http://88.146.222.250:8000
+  protocol: http
+  ip: 88.146.222.250
+  port: 8000
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Prague

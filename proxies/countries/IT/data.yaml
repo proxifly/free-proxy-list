@@ -98,6 +98,26 @@
   geolocation:
     country: IT
     city: Milan
+- proxy: https://89.150.35.94:443
+  protocol: https
+  ip: 89.150.35.94
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IT
+    city: Esine
+- proxy: https://194.243.172.243:443
+  protocol: https
+  ip: 194.243.172.243
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IT
+    city: Rome
 - proxy: https://83.103.36.213:443
   protocol: https
   ip: 83.103.36.213
@@ -188,9 +208,9 @@
   geolocation:
     country: IT
     city: Unknown
-- proxy: https://138.66.65.52:443
+- proxy: https://138.66.66.229:443
   protocol: https
-  ip: 138.66.65.52
+  ip: 138.66.66.229
   port: 443
   https: true
   anonymity: transparent
@@ -198,16 +218,26 @@
   geolocation:
     country: IT
     city: Unknown
-- proxy: http://185.191.106.0:8081
+- proxy: https://138.66.66.225:443
+  protocol: https
+  ip: 138.66.66.225
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IT
+    city: Unknown
+- proxy: http://93.187.26.134:58080
   protocol: http
-  ip: 185.191.106.0
-  port: 8081
+  ip: 93.187.26.134
+  port: 58080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IT
-    city: Milan
+    city: Siena
 - proxy: http://77.242.177.57:3128
   protocol: http
   ip: 77.242.177.57
@@ -218,16 +248,16 @@
   geolocation:
     country: IT
     city: Biella
-- proxy: http://45.142.134.5:8080
+- proxy: http://188.228.168.202:8080
   protocol: http
-  ip: 45.142.134.5
+  ip: 188.228.168.202
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IT
-    city: Trasacco
+    city: Ponte di Piave
 - proxy: socks5://109.73.177.227:7080
   protocol: socks5
   ip: 109.73.177.227
@@ -418,6 +448,16 @@
   geolocation:
     country: IT
     city: Rome
+- proxy: http://45.142.134.5:8080
+  protocol: http
+  ip: 45.142.134.5
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IT
+    city: Trasacco
 - proxy: http://93.55.126.162:8080
   protocol: http
   ip: 93.55.126.162
@@ -428,6 +468,16 @@
   geolocation:
     country: IT
     city: Marsala
+- proxy: http://185.191.106.0:8081
+  protocol: http
+  ip: 185.191.106.0
+  port: 8081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IT
+    city: Milan
 - proxy: http://78.134.20.48:8080
   protocol: http
   ip: 78.134.20.48
@@ -518,33 +568,13 @@
   geolocation:
     country: IT
     city: Biella
-- proxy: http://188.228.168.202:8080
+- proxy: http://149.86.203.217:8080
   protocol: http
-  ip: 188.228.168.202
+  ip: 149.86.203.217
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IT
-    city: Ponte di Piave
-- proxy: http://185.211.82.180:8080
-  protocol: http
-  ip: 185.211.82.180
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IT
-    city: Ragusa
-- proxy: http://188.153.87.133:8080
-  protocol: http
-  ip: 188.153.87.133
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IT
-    city: Teano
+    city: Unknown

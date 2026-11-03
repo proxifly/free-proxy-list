@@ -8,36 +8,36 @@
   geolocation:
     country: ID
     city: Unknown
-- proxy: socks4://36.94.119.218:4145
+- proxy: socks4://103.157.116.179:10810
   protocol: socks4
-  ip: 36.94.119.218
-  port: 4145
+  ip: 103.157.116.179
+  port: 10810
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Bogor
-- proxy: socks4://115.85.86.114:5678
+    city: Unknown
+- proxy: socks4://36.95.245.81:5678
   protocol: socks4
-  ip: 115.85.86.114
+  ip: 36.95.245.81
   port: 5678
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Depok
-- proxy: socks4://182.16.171.42:51459
+    city: South Tangerang
+- proxy: socks4://103.203.234.5:1083
   protocol: socks4
-  ip: 182.16.171.42
-  port: 51459
+  ip: 103.203.234.5
+  port: 1083
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Depok
+    city: Unknown
 - proxy: socks4://59.153.81.234:5678
   protocol: socks4
   ip: 59.153.81.234
@@ -48,16 +48,46 @@
   geolocation:
     country: ID
     city: Jakarta
-- proxy: socks4://182.253.144.20:4153
+- proxy: socks4://139.255.94.123:57853
   protocol: socks4
-  ip: 182.253.144.20
-  port: 4153
+  ip: 139.255.94.123
+  port: 57853
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Padang
+    city: Jakarta
+- proxy: socks4://103.177.20.27:1080
+  protocol: socks4
+  ip: 103.177.20.27
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Malang
+- proxy: socks4://103.105.79.18:1080
+  protocol: socks4
+  ip: 103.105.79.18
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Bekasi
+- proxy: socks4://103.186.1.185:2154
+  protocol: socks4
+  ip: 103.186.1.185
+  port: 2154
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Bandung
 - proxy: https://103.153.135.118:443
   protocol: https
   ip: 103.153.135.118
@@ -68,6 +98,16 @@
   geolocation:
     country: ID
     city: Tangerang
+- proxy: https://103.235.67.190:443
+  protocol: https
+  ip: 103.235.67.190
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
 - proxy: https://103.86.117.202:443
   protocol: https
   ip: 103.86.117.202
@@ -98,79 +138,119 @@
   geolocation:
     country: ID
     city: Sumenep
-- proxy: http://203.174.15.83:8080
+- proxy: http://103.227.243.73:8080
   protocol: http
-  ip: 203.174.15.83
+  ip: 103.227.243.73
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Tangerang
-- proxy: http://103.191.196.96:8080
+    city: Jakarta
+- proxy: http://103.120.76.34:8085
   protocol: http
-  ip: 103.191.196.96
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Indramayu
-- proxy: http://103.164.229.149:8080
-  protocol: http
-  ip: 103.164.229.149
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Demak
-- proxy: http://103.231.236.235:8182
-  protocol: http
-  ip: 103.231.236.235
-  port: 8182
+  ip: 103.120.76.34
+  port: 8085
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
     city: Unknown
-- proxy: http://103.103.145.13:8080
+- proxy: http://103.165.157.241:8090
   protocol: http
-  ip: 103.103.145.13
+  ip: 103.165.157.241
+  port: 8090
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Malang
+- proxy: http://103.126.86.27:8010
+  protocol: http
+  ip: 103.126.86.27
+  port: 8010
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Purworejo
+- proxy: http://175.106.14.126:3128
+  protocol: http
+  ip: 175.106.14.126
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Jakarta
+- proxy: http://103.156.15.105:1111
+  protocol: http
+  ip: 103.156.15.105
+  port: 1111
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Rangkasbitung
+- proxy: http://103.68.215.57:8181
+  protocol: http
+  ip: 103.68.215.57
+  port: 8181
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Tangerang
+- proxy: http://103.39.70.68:1452
+  protocol: http
+  ip: 103.39.70.68
+  port: 1452
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://103.218.183.133:8080
+  protocol: http
+  ip: 103.218.183.133
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Pangkalpinang
-- proxy: http://103.82.246.19:6080
+    city: Unknown
+- proxy: http://202.47.185.180:8080
   protocol: http
-  ip: 103.82.246.19
-  port: 6080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Banyuwangi
-- proxy: http://103.171.182.229:8080
-  protocol: http
-  ip: 103.171.182.229
+  ip: 202.47.185.180
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Munjul
-- proxy: http://210.79.146.107:8090
+    city: Unknown
+- proxy: http://103.249.18.148:10001
   protocol: http
-  ip: 210.79.146.107
+  ip: 103.249.18.148
+  port: 10001
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Bogor
+- proxy: http://160.20.39.23:8090
+  protocol: http
+  ip: 160.20.39.23
   port: 8090
   https: false
   anonymity: transparent
@@ -178,129 +258,59 @@
   geolocation:
     country: ID
     city: Unknown
-- proxy: http://101.255.209.249:3128
+- proxy: http://113.192.12.4:3333
   protocol: http
-  ip: 101.255.209.249
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Bekasi
-- proxy: http://103.87.202.19:8181
-  protocol: http
-  ip: 103.87.202.19
-  port: 8181
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Lamongan
-- proxy: http://103.220.23.113:8080
-  protocol: http
-  ip: 103.220.23.113
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Ponorogo
-- proxy: http://103.139.99.230:8080
-  protocol: http
-  ip: 103.139.99.230
-  port: 8080
+  ip: 113.192.12.4
+  port: 3333
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
     city: Unknown
-- proxy: http://114.141.50.210:8080
+- proxy: http://115.178.49.115:8787
   protocol: http
-  ip: 114.141.50.210
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Bekasi
-- proxy: http://103.156.75.49:8282
-  protocol: http
-  ip: 103.156.75.49
-  port: 8282
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Gianyar
-- proxy: http://182.253.40.39:8080
-  protocol: http
-  ip: 182.253.40.39
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Surabaya
-- proxy: http://103.135.48.30:8089
-  protocol: http
-  ip: 103.135.48.30
-  port: 8089
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Jakarta
-- proxy: http://103.176.96.23:8080
-  protocol: http
-  ip: 103.176.96.23
-  port: 8080
+  ip: 115.178.49.115
+  port: 8787
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
     city: Bandung
-- proxy: http://103.227.187.241:6090
+- proxy: http://103.247.82.36:8085
   protocol: http
-  ip: 103.227.187.241
-  port: 6090
+  ip: 103.247.82.36
+  port: 8085
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
     city: Unknown
-- proxy: http://103.169.255.202:6080
+- proxy: http://103.147.77.212:8080
   protocol: http
-  ip: 103.169.255.202
-  port: 6080
+  ip: 103.147.77.212
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Banyuwangi
-- proxy: http://36.92.24.12:9100
+    city: Ngawi
+- proxy: http://103.156.57.251:8090
   protocol: http
-  ip: 36.92.24.12
-  port: 9100
+  ip: 103.156.57.251
+  port: 8090
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Jakarta
-- proxy: http://163.227.135.146:8080
+    city: Batam
+- proxy: http://202.47.185.90:8080
   protocol: http
-  ip: 163.227.135.146
+  ip: 202.47.185.90
   port: 8080
   https: false
   anonymity: transparent
@@ -308,29 +318,19 @@
   geolocation:
     country: ID
     city: Unknown
-- proxy: http://45.198.32.207:8080
+- proxy: http://103.175.202.165:8090
   protocol: http
-  ip: 45.198.32.207
-  port: 8080
+  ip: 103.175.202.165
+  port: 8090
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Jakarta
-- proxy: http://175.158.40.224:1616
+    city: Unknown
+- proxy: http://160.25.119.29:8080
   protocol: http
-  ip: 175.158.40.224
-  port: 1616
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Jakarta
-- proxy: http://103.238.232.42:8080
-  protocol: http
-  ip: 103.238.232.42
+  ip: 160.25.119.29
   port: 8080
   https: false
   anonymity: transparent
@@ -338,59 +338,39 @@
   geolocation:
     country: ID
     city: Unknown
-- proxy: http://103.179.183.223:8089
+- proxy: http://103.159.96.29:8089
   protocol: http
-  ip: 103.179.183.223
+  ip: 103.159.96.29
   port: 8089
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Banyuwangi
-- proxy: http://103.156.17.83:8818
+    city: Mojokerto
+- proxy: http://103.124.136.105:3127
   protocol: http
-  ip: 103.156.17.83
-  port: 8818
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Indramayu
-- proxy: http://160.191.12.215:8080
-  protocol: http
-  ip: 160.191.12.215
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: http://202.145.5.208:8080
-  protocol: http
-  ip: 202.145.5.208
-  port: 8080
+  ip: 103.124.136.105
+  port: 3127
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
     city: Semarang
-- proxy: http://103.172.42.111:1111
+- proxy: http://202.10.55.50:3128
   protocol: http
-  ip: 103.172.42.111
-  port: 1111
+  ip: 202.10.55.50
+  port: 3128
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Karawang
-- proxy: http://103.145.176.162:8080
+    city: Unknown
+- proxy: http://49.0.2.166:8080
   protocol: http
-  ip: 103.145.176.162
+  ip: 49.0.2.166
   port: 8080
   https: false
   anonymity: transparent
@@ -398,29 +378,9 @@
   geolocation:
     country: ID
     city: Bogor
-- proxy: http://165.99.192.31:1111
+- proxy: http://162.4.78.53:8080
   protocol: http
-  ip: 165.99.192.31
-  port: 1111
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: http://103.162.54.91:8080
-  protocol: http
-  ip: 103.162.54.91
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: West Java
-- proxy: http://103.191.169.126:8080
-  protocol: http
-  ip: 103.191.169.126
+  ip: 162.4.78.53
   port: 8080
   https: false
   anonymity: transparent
@@ -428,119 +388,29 @@
   geolocation:
     country: ID
     city: Unknown
-- proxy: http://202.58.73.246:1111
+- proxy: http://103.208.103.34:8080
   protocol: http
-  ip: 202.58.73.246
-  port: 1111
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: http://163.227.248.119:8818
-  protocol: http
-  ip: 163.227.248.119
-  port: 8818
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: http://103.130.63.13:1080
-  protocol: http
-  ip: 103.130.63.13
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Bandung
-- proxy: http://111.95.55.210:8080
-  protocol: http
-  ip: 111.95.55.210
+  ip: 103.208.103.34
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: South Tangerang
-- proxy: http://103.175.240.80:7777
+    city: Semarang
+- proxy: http://116.254.118.180:80
   protocol: http
-  ip: 103.175.240.80
-  port: 7777
+  ip: 116.254.118.180
+  port: 80
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Unknown
-- proxy: http://58.147.186.218:8081
+    city: Bantul
+- proxy: http://103.157.79.17:8080
   protocol: http
-  ip: 58.147.186.218
-  port: 8081
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Pemangkat
-- proxy: http://110.76.147.27:1080
-  protocol: http
-  ip: 110.76.147.27
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Sukoharjo
-- proxy: http://144.79.177.134:8090
-  protocol: http
-  ip: 144.79.177.134
-  port: 8090
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: http://103.173.230.250:8080
-  protocol: http
-  ip: 103.173.230.250
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Serang
-- proxy: http://103.80.83.27:8080
-  protocol: http
-  ip: 103.80.83.27
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Johar Baru
-- proxy: http://103.175.202.138:8090
-  protocol: http
-  ip: 103.175.202.138
-  port: 8090
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: http://103.46.186.126:8080
-  protocol: http
-  ip: 103.46.186.126
+  ip: 103.157.79.17
   port: 8080
   https: false
   anonymity: transparent
@@ -548,19 +418,39 @@
   geolocation:
     country: ID
     city: Jakarta
-- proxy: http://103.173.140.131:1111
+- proxy: http://111.95.161.133:8080
   protocol: http
-  ip: 103.173.140.131
-  port: 1111
+  ip: 111.95.161.133
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Cikarang Satu
+- proxy: http://157.20.233.146:8080
+  protocol: http
+  ip: 157.20.233.146
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
     city: Unknown
-- proxy: http://103.205.223.49:8080
+- proxy: http://103.94.250.22:8080
   protocol: http
-  ip: 103.205.223.49
+  ip: 103.94.250.22
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://116.68.171.226:8080
+  protocol: http
+  ip: 116.68.171.226
   port: 8080
   https: false
   anonymity: transparent
@@ -568,49 +458,19 @@
   geolocation:
     country: ID
     city: Jakarta
-- proxy: http://36.67.114.94:8187
+- proxy: http://103.156.71.122:3128
   protocol: http
-  ip: 36.67.114.94
-  port: 8187
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: http://160.19.16.6:8182
-  protocol: http
-  ip: 160.19.16.6
-  port: 8182
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: http://115.178.50.122:8080
-  protocol: http
-  ip: 115.178.50.122
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Bandung
-- proxy: http://103.178.42.73:3128
-  protocol: http
-  ip: 103.178.42.73
+  ip: 103.156.71.122
   port: 3128
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Ngantru
-- proxy: http://111.68.122.154:8080
+    city: Banyuwangi
+- proxy: http://36.66.242.118:8080
   protocol: http
-  ip: 111.68.122.154
+  ip: 36.66.242.118
   port: 8080
   https: false
   anonymity: transparent
@@ -618,36 +478,76 @@
   geolocation:
     country: ID
     city: Unknown
-- proxy: http://115.178.55.163:8080
+- proxy: http://103.97.198.2:8080
   protocol: http
-  ip: 115.178.55.163
+  ip: 103.97.198.2
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Bandung
-- proxy: http://45.123.142.13:8181
+    city: Unknown
+- proxy: http://103.192.174.158:8080
   protocol: http
-  ip: 45.123.142.13
-  port: 8181
+  ip: 103.192.174.158
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
     city: Unknown
-- proxy: http://103.39.70.97:8181
+- proxy: http://103.151.34.158:8080
   protocol: http
-  ip: 103.39.70.97
-  port: 8181
+  ip: 103.151.34.158
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Tangerang
+- proxy: http://49.0.26.43:1080
+  protocol: http
+  ip: 49.0.26.43
+  port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
     city: Unknown
+- proxy: http://43.252.238.102:8080
+  protocol: http
+  ip: 43.252.238.102
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Bogor
+- proxy: http://103.208.101.34:8080
+  protocol: http
+  ip: 103.208.101.34
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Montelan
+- proxy: http://103.68.215.123:8080
+  protocol: http
+  ip: 103.68.215.123
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Tangerang
 - proxy: http://103.166.159.227:8080
   protocol: http
   ip: 103.166.159.227
@@ -688,6 +588,36 @@
   geolocation:
     country: ID
     city: Unknown
+- proxy: socks5://110.76.144.112:1080
+  protocol: socks5
+  ip: 110.76.144.112
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Sukoharjo
+- proxy: socks4://103.23.100.9:1080
+  protocol: socks4
+  ip: 103.23.100.9
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Semarang
+- proxy: http://103.39.51.160:80
+  protocol: http
+  ip: 103.39.51.160
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Kuningan Barat
 - proxy: socks4://119.18.156.243:1080
   protocol: socks4
   ip: 119.18.156.243
@@ -698,616 +628,6 @@
   geolocation:
     country: ID
     city: Cilandak
-- proxy: socks5://103.180.123.111:1080
-  protocol: socks5
-  ip: 103.180.123.111
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Bekasi
-- proxy: http://103.13.204.84:8082
-  protocol: http
-  ip: 103.13.204.84
-  port: 8082
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Pati
-- proxy: socks4://203.77.239.219:50574
-  protocol: socks4
-  ip: 203.77.239.219
-  port: 50574
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Jakarta
-- proxy: socks5://103.142.255.32:1080
-  protocol: socks5
-  ip: 103.142.255.32
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Ponorogo
-- proxy: http://103.156.17.158:8818
-  protocol: http
-  ip: 103.156.17.158
-  port: 8818
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Sukabumi
-- proxy: http://103.189.249.210:8080
-  protocol: http
-  ip: 103.189.249.210
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Pati
-- proxy: http://103.103.193.194:8080
-  protocol: http
-  ip: 103.103.193.194
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: http://103.208.101.34:8080
-  protocol: http
-  ip: 103.208.101.34
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Montelan
-- proxy: http://103.156.57.251:8090
-  protocol: http
-  ip: 103.156.57.251
-  port: 8090
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Batam
-- proxy: http://103.178.41.46:9291
-  protocol: http
-  ip: 103.178.41.46
-  port: 9291
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: http://103.181.254.101:8080
-  protocol: http
-  ip: 103.181.254.101
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Rembangan
-- proxy: http://103.144.18.84:3128
-  protocol: http
-  ip: 103.144.18.84
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Jember
-- proxy: http://103.191.165.171:8181
-  protocol: http
-  ip: 103.191.165.171
-  port: 8181
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Subang
-- proxy: http://103.125.116.126:8080
-  protocol: http
-  ip: 103.125.116.126
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Bandung
-- proxy: http://103.178.23.6:8080
-  protocol: http
-  ip: 103.178.23.6
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: http://38.253.240.231:9191
-  protocol: http
-  ip: 38.253.240.231
-  port: 9191
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Jakarta
-- proxy: http://103.46.11.160:8080
-  protocol: http
-  ip: 103.46.11.160
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Malang
-- proxy: http://45.198.11.147:8080
-  protocol: http
-  ip: 45.198.11.147
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Jakarta
-- proxy: http://103.174.122.79:3128
-  protocol: http
-  ip: 103.174.122.79
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Sumedang
-- proxy: http://103.193.144.101:8080
-  protocol: http
-  ip: 103.193.144.101
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: socks4://103.161.62.153:1080
-  protocol: socks4
-  ip: 103.161.62.153
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: http://43.252.107.151:8080
-  protocol: http
-  ip: 43.252.107.151
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Mojosari
-- proxy: http://103.80.214.177:8080
-  protocol: http
-  ip: 103.80.214.177
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: socks5://103.184.182.185:1080
-  protocol: socks5
-  ip: 103.184.182.185
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Lumajang
-- proxy: http://202.154.19.7:8080
-  protocol: http
-  ip: 202.154.19.7
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Jombang
-- proxy: http://103.172.23.250:1080
-  protocol: http
-  ip: 103.172.23.250
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Cabeanngemplik
-- proxy: http://103.133.25.247:8080
-  protocol: http
-  ip: 103.133.25.247
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Subang
-- proxy: http://139.255.94.122:39635
-  protocol: http
-  ip: 139.255.94.122
-  port: 39635
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Jakarta
-- proxy: http://103.242.104.48:3125
-  protocol: http
-  ip: 103.242.104.48
-  port: 3125
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Bekasi
-- proxy: http://45.198.20.173:8080
-  protocol: http
-  ip: 45.198.20.173
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Jakarta
-- proxy: http://110.232.78.195:8080
-  protocol: http
-  ip: 110.232.78.195
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Medan
-- proxy: http://103.155.197.96:3125
-  protocol: http
-  ip: 103.155.197.96
-  port: 3125
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Sukabumi
-- proxy: http://103.177.11.107:8080
-  protocol: http
-  ip: 103.177.11.107
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Kediri
-- proxy: socks4://103.51.45.50:4145
-  protocol: socks4
-  ip: 103.51.45.50
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Siak Sri Indrapura
-- proxy: http://103.227.187.13:6080
-  protocol: http
-  ip: 103.227.187.13
-  port: 6080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: http://103.191.169.147:3125
-  protocol: http
-  ip: 103.191.169.147
-  port: 3125
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: http://45.198.10.131:9191
-  protocol: http
-  ip: 45.198.10.131
-  port: 9191
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Jakarta
-- proxy: http://101.255.45.46:8080
-  protocol: http
-  ip: 101.255.45.46
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Bekasi
-- proxy: http://150.107.244.200:8080
-  protocol: http
-  ip: 150.107.244.200
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Bandung
-- proxy: http://103.180.123.49:8788
-  protocol: http
-  ip: 103.180.123.49
-  port: 8788
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Bekasi
-- proxy: http://43.252.106.133:3125
-  protocol: http
-  ip: 43.252.106.133
-  port: 3125
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Kudus
-- proxy: http://103.163.13.17:1111
-  protocol: http
-  ip: 103.163.13.17
-  port: 1111
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Bojonegoro
-- proxy: http://223.25.110.250:8088
-  protocol: http
-  ip: 223.25.110.250
-  port: 8088
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: http://103.199.117.121:7777
-  protocol: http
-  ip: 103.199.117.121
-  port: 7777
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Karanganyar Wetankali
-- proxy: http://45.198.11.95:9191
-  protocol: http
-  ip: 45.198.11.95
-  port: 9191
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Jakarta
-- proxy: http://103.145.129.43:8083
-  protocol: http
-  ip: 103.145.129.43
-  port: 8083
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: http://103.46.8.102:8080
-  protocol: http
-  ip: 103.46.8.102
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Denpasar
-- proxy: http://103.166.158.41:1080
-  protocol: http
-  ip: 103.166.158.41
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Serang
-- proxy: http://36.64.51.163:3128
-  protocol: http
-  ip: 36.64.51.163
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: http://103.124.137.171:8080
-  protocol: http
-  ip: 103.124.137.171
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Semarang
-- proxy: http://118.99.127.129:8080
-  protocol: http
-  ip: 118.99.127.129
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Malang
-- proxy: http://103.147.77.212:8080
-  protocol: http
-  ip: 103.147.77.212
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Ngawi
-- proxy: http://103.247.14.138:7778
-  protocol: http
-  ip: 103.247.14.138
-  port: 7778
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Semarang
-- proxy: http://202.152.134.202:8071
-  protocol: http
-  ip: 202.152.134.202
-  port: 8071
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Yogyakarta
-- proxy: http://103.227.186.73:6080
-  protocol: http
-  ip: 103.227.186.73
-  port: 6080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: http://103.46.8.85:8080
-  protocol: http
-  ip: 103.46.8.85
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Denpasar
-- proxy: http://103.153.83.45:8080
-  protocol: http
-  ip: 103.153.83.45
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: http://103.174.123.5:8089
-  protocol: http
-  ip: 103.174.123.5
-  port: 8089
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Sumedang
-- proxy: http://103.172.42.105:1111
-  protocol: http
-  ip: 103.172.42.105
-  port: 1111
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Karawang
-- proxy: http://103.80.215.98:8080
-  protocol: http
-  ip: 103.80.215.98
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: http://103.147.134.137:8080
-  protocol: http
-  ip: 103.147.134.137
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Prapattunggal
 - proxy: socks4://36.95.189.165:5678
   protocol: socks4
   ip: 36.95.189.165
@@ -1318,36 +638,36 @@
   geolocation:
     country: ID
     city: Sukabumi
-- proxy: http://38.253.240.153:8080
+- proxy: http://103.66.47.10:8080
   protocol: http
-  ip: 38.253.240.153
+  ip: 103.66.47.10
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Jakarta
-- proxy: http://103.19.78.125:1080
-  protocol: http
-  ip: 103.19.78.125
+    city: Unknown
+- proxy: socks5://103.112.139.54:1080
+  protocol: socks5
+  ip: 103.112.139.54
   port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Unknown
-- proxy: http://103.120.175.243:9191
+    city: Bandung
+- proxy: http://202.51.121.59:8080
   protocol: http
-  ip: 103.120.175.243
-  port: 9191
+  ip: 202.51.121.59
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Bulanbulan
+    city: Kojan
 - proxy: http://103.66.62.187:8080
   protocol: http
   ip: 103.66.62.187
@@ -1358,16 +678,126 @@
   geolocation:
     country: ID
     city: Unknown
-- proxy: http://103.147.247.191:8080
+- proxy: socks5://103.180.123.135:1080
+  protocol: socks5
+  ip: 103.180.123.135
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Bekasi
+- proxy: socks4://36.95.235.18:3629
+  protocol: socks4
+  ip: 36.95.235.18
+  port: 3629
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: socks4://103.51.44.73:4145
+  protocol: socks4
+  ip: 103.51.44.73
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Siak Sri Indrapura
+- proxy: http://103.193.144.251:8080
   protocol: http
-  ip: 103.147.247.191
+  ip: 103.193.144.251
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
+    city: Unknown
+- proxy: http://103.172.42.221:1111
+  protocol: http
+  ip: 103.172.42.221
+  port: 1111
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Karawang
+- proxy: http://103.153.135.90:1080
+  protocol: http
+  ip: 103.153.135.90
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
     city: Tangerang
+- proxy: http://202.58.73.246:1111
+  protocol: http
+  ip: 202.58.73.246
+  port: 1111
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://103.131.19.41:8080
+  protocol: http
+  ip: 103.131.19.41
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Jember
+- proxy: http://103.172.71.83:9191
+  protocol: http
+  ip: 103.172.71.83
+  port: 9191
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Karawang
+- proxy: socks4://103.169.188.14:8080
+  protocol: socks4
+  ip: 103.169.188.14
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Madiun
+- proxy: http://111.68.125.34:8080
+  protocol: http
+  ip: 111.68.125.34
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://103.173.163.199:8818
+  protocol: http
+  ip: 103.173.163.199
+  port: 8818
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
 - proxy: http://103.76.108.165:3125
   protocol: http
   ip: 103.76.108.165
@@ -1378,29 +808,29 @@
   geolocation:
     country: ID
     city: Unknown
-- proxy: http://36.94.246.17:8080
+- proxy: http://117.18.21.53:8081
   protocol: http
-  ip: 36.94.246.17
-  port: 8080
+  ip: 117.18.21.53
+  port: 8081
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Bekasi
-- proxy: http://103.156.71.124:3128
+    city: Unknown
+- proxy: http://34.101.229.7:80
   protocol: http
-  ip: 103.156.71.124
-  port: 3128
+  ip: 34.101.229.7
+  port: 80
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Banyuwangi
-- proxy: http://223.25.110.76:3125
+    city: Jakarta
+- proxy: http://103.26.131.29:3125
   protocol: http
-  ip: 223.25.110.76
+  ip: 103.26.131.29
   port: 3125
   https: false
   anonymity: transparent
@@ -1408,26 +838,156 @@
   geolocation:
     country: ID
     city: Unknown
-- proxy: http://103.179.183.153:8080
+- proxy: http://103.67.85.150:3127
   protocol: http
-  ip: 103.179.183.153
+  ip: 103.67.85.150
+  port: 3127
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://103.147.134.133:8080
+  protocol: http
+  ip: 103.147.134.133
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Banyuwangi
-- proxy: socks4://36.90.222.21:4153
-  protocol: socks4
-  ip: 36.90.222.21
-  port: 4153
+    city: Prapattunggal
+- proxy: http://103.152.148.15:8080
+  protocol: http
+  ip: 103.152.148.15
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Mojorejo
+    city: Unknown
+- proxy: http://103.80.77.1:443
+  protocol: http
+  ip: 103.80.77.1
+  port: 443
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://36.64.2.214:8090
+  protocol: http
+  ip: 36.64.2.214
+  port: 8090
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Sukabumi Utara
+- proxy: http://103.147.134.137:8080
+  protocol: http
+  ip: 103.147.134.137
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Prapattunggal
+- proxy: http://115.178.52.10:8080
+  protocol: http
+  ip: 115.178.52.10
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Pangandaran
+- proxy: http://103.180.123.15:8080
+  protocol: http
+  ip: 103.180.123.15
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Bekasi
+- proxy: http://103.80.215.100:8080
+  protocol: http
+  ip: 103.80.215.100
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://114.129.19.139:8080
+  protocol: http
+  ip: 114.129.19.139
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://103.126.87.175:53934
+  protocol: http
+  ip: 103.126.87.175
+  port: 53934
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Klaten
+- proxy: http://45.198.10.169:9191
+  protocol: http
+  ip: 45.198.10.169
+  port: 9191
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Jakarta
+- proxy: http://103.208.101.16:8080
+  protocol: http
+  ip: 103.208.101.16
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Montelan
+- proxy: http://103.147.77.66:8080
+  protocol: http
+  ip: 103.147.77.66
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Madiun
+- proxy: http://103.172.42.37:1111
+  protocol: http
+  ip: 103.172.42.37
+  port: 1111
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Karawang
 - proxy: http://122.102.52.24:1080
   protocol: http
   ip: 122.102.52.24
@@ -1438,36 +998,296 @@
   geolocation:
     country: ID
     city: Unknown
-- proxy: http://103.172.42.81:1111
+- proxy: http://202.154.19.63:8090
   protocol: http
-  ip: 103.172.42.81
+  ip: 202.154.19.63
+  port: 8090
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Jombang
+- proxy: http://103.97.141.142:8080
+  protocol: http
+  ip: 103.97.141.142
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://103.189.138.254:8080
+  protocol: http
+  ip: 103.189.138.254
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://103.193.144.41:8080
+  protocol: http
+  ip: 103.193.144.41
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://202.58.77.239:8080
+  protocol: http
+  ip: 202.58.77.239
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://103.208.102.1:8080
+  protocol: http
+  ip: 103.208.102.1
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Semarang
+- proxy: http://202.145.5.208:8080
+  protocol: http
+  ip: 202.145.5.208
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Semarang
+- proxy: http://103.46.186.57:8080
+  protocol: http
+  ip: 103.46.186.57
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Jakarta
+- proxy: http://103.4.76.242:1111
+  protocol: http
+  ip: 103.4.76.242
   port: 1111
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Karawang
-- proxy: http://103.173.142.250:3125
+    city: Bogor
+- proxy: http://103.179.252.170:3127
   protocol: http
-  ip: 103.173.142.250
+  ip: 103.179.252.170
+  port: 3127
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Mekarjaya
+- proxy: http://36.92.104.123:8080
+  protocol: http
+  ip: 36.92.104.123
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Banjar Pacung
+- proxy: http://103.150.12.175:8080
+  protocol: http
+  ip: 103.150.12.175
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://103.142.255.226:3125
+  protocol: http
+  ip: 103.142.255.226
   port: 3125
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Kajen
-- proxy: http://103.39.51.160:8088
+    city: Ponorogo
+- proxy: http://43.252.107.151:8080
   protocol: http
-  ip: 103.39.51.160
-  port: 8088
+  ip: 43.252.107.151
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Kuningan Barat
+    city: Mojosari
+- proxy: http://103.142.255.32:8080
+  protocol: http
+  ip: 103.142.255.32
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Ponorogo
+- proxy: http://38.253.240.231:9191
+  protocol: http
+  ip: 38.253.240.231
+  port: 9191
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Jakarta
+- proxy: http://36.64.54.98:8080
+  protocol: http
+  ip: 36.64.54.98
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://103.170.22.44:8080
+  protocol: http
+  ip: 103.170.22.44
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Cilacap
+- proxy: http://103.172.120.33:8080
+  protocol: http
+  ip: 103.172.120.33
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Danyang Selatan
+- proxy: http://36.88.247.75:8081
+  protocol: http
+  ip: 36.88.247.75
+  port: 8081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Cipete Selatan
+- proxy: http://103.146.38.65:1080
+  protocol: http
+  ip: 103.146.38.65
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Karawang
+- proxy: http://103.171.255.242:8086
+  protocol: http
+  ip: 103.171.255.242
+  port: 8086
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://103.80.215.123:8080
+  protocol: http
+  ip: 103.80.215.123
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://103.165.126.65:8080
+  protocol: http
+  ip: 103.165.126.65
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Jakarta
+- proxy: http://103.169.188.126:8080
+  protocol: http
+  ip: 103.169.188.126
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Madiun
+- proxy: http://49.0.26.97:8080
+  protocol: http
+  ip: 49.0.26.97
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: socks5://103.180.123.111:1080
+  protocol: socks5
+  ip: 103.180.123.111
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Bekasi
+- proxy: socks5://103.142.255.32:1080
+  protocol: socks5
+  ip: 103.142.255.32
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Ponorogo
+- proxy: socks5://103.184.182.185:1080
+  protocol: socks5
+  ip: 103.184.182.185
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Lumajang
 - proxy: socks5://149.129.226.9:9090
   protocol: socks5
   ip: 149.129.226.9
@@ -1478,36 +1298,6 @@
   geolocation:
     country: ID
     city: Jakarta
-- proxy: http://27.124.81.146:8080
-  protocol: http
-  ip: 27.124.81.146
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: http://103.166.32.25:3125
-  protocol: http
-  ip: 103.166.32.25
-  port: 3125
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Kudus
-- proxy: http://103.172.70.191:3125
-  protocol: http
-  ip: 103.172.70.191
-  port: 3125
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Karawang
 - proxy: socks5://149.129.226.9:32768
   protocol: socks5
   ip: 149.129.226.9
@@ -1518,16 +1308,6 @@
   geolocation:
     country: ID
     city: Jakarta
-- proxy: http://103.178.171.61:8080
-  protocol: http
-  ip: 103.178.171.61
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Madiun
 - proxy: socks5://103.39.49.101:1082
   protocol: socks5
   ip: 103.39.49.101
@@ -1768,16 +1548,6 @@
   geolocation:
     country: ID
     city: Sumedang
-- proxy: socks5://110.76.144.112:1080
-  protocol: socks5
-  ip: 110.76.144.112
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Sukoharjo
 - proxy: socks5://36.93.226.203:1080
   protocol: socks5
   ip: 36.93.226.203
@@ -2298,6 +2068,16 @@
   geolocation:
     country: ID
     city: Unknown
+- proxy: http://103.178.42.73:3128
+  protocol: http
+  ip: 103.178.42.73
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Ngantru
 - proxy: http://103.80.214.243:1111
   protocol: http
   ip: 103.80.214.243
@@ -2368,6 +2148,16 @@
   geolocation:
     country: ID
     city: Unknown
+- proxy: http://103.145.129.43:8083
+  protocol: http
+  ip: 103.145.129.43
+  port: 8083
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
 - proxy: http://103.172.42.235:8080
   protocol: http
   ip: 103.172.42.235
@@ -2408,6 +2198,16 @@
   geolocation:
     country: ID
     city: Sukabumi
+- proxy: http://36.92.24.12:9100
+  protocol: http
+  ip: 36.92.24.12
+  port: 9100
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Jakarta
 - proxy: http://103.76.12.158:8080
   protocol: http
   ip: 103.76.12.158
@@ -2448,16 +2248,6 @@
   geolocation:
     country: ID
     city: Ngawi
-- proxy: http://117.18.21.53:8081
-  protocol: http
-  ip: 117.18.21.53
-  port: 8081
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
 - proxy: http://36.89.90.97:3128
   protocol: http
   ip: 36.89.90.97
@@ -2478,6 +2268,16 @@
   geolocation:
     country: ID
     city: Bogor
+- proxy: http://103.144.18.84:3128
+  protocol: http
+  ip: 103.144.18.84
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Jember
 - proxy: http://121.101.133.96:8080
   protocol: http
   ip: 121.101.133.96
@@ -2538,6 +2338,16 @@
   geolocation:
     country: ID
     city: Bogor
+- proxy: http://103.156.17.158:8818
+  protocol: http
+  ip: 103.156.17.158
+  port: 8818
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Sukabumi
 - proxy: http://103.152.148.21:8080
   protocol: http
   ip: 103.152.148.21
@@ -2608,6 +2418,16 @@
   geolocation:
     country: ID
     city: Lumajang
+- proxy: http://103.173.230.250:8080
+  protocol: http
+  ip: 103.173.230.250
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Serang
 - proxy: http://121.101.129.103:8080
   protocol: http
   ip: 121.101.129.103
@@ -2778,16 +2598,16 @@
   geolocation:
     country: ID
     city: Klaten
-- proxy: http://103.151.34.158:8080
+- proxy: http://103.177.11.107:8080
   protocol: http
-  ip: 103.151.34.158
+  ip: 103.177.11.107
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Tangerang
+    city: Kediri
 - proxy: http://36.94.149.149:8090
   protocol: http
   ip: 36.94.149.149
@@ -2798,16 +2618,6 @@
   geolocation:
     country: ID
     city: Selong
-- proxy: http://103.46.186.57:8080
-  protocol: http
-  ip: 103.46.186.57
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Jakarta
 - proxy: http://103.171.240.170:8090
   protocol: http
   ip: 103.171.240.170
@@ -2818,16 +2628,6 @@
   geolocation:
     country: ID
     city: Depok
-- proxy: http://111.95.161.133:8080
-  protocol: http
-  ip: 111.95.161.133
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Cikarang Satu
 - proxy: http://103.173.138.37:3125
   protocol: http
   ip: 103.173.138.37
@@ -3058,16 +2858,6 @@
   geolocation:
     country: ID
     city: Bekasi
-- proxy: http://103.66.47.10:8080
-  protocol: http
-  ip: 103.66.47.10
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
 - proxy: http://203.175.126.229:8000
   protocol: http
   ip: 203.175.126.229
@@ -3088,6 +2878,16 @@
   geolocation:
     country: ID
     city: Surabaya
+- proxy: http://103.191.165.171:8181
+  protocol: http
+  ip: 103.191.165.171
+  port: 8181
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Subang
 - proxy: http://103.157.83.231:8080
   protocol: http
   ip: 103.157.83.231
@@ -3148,6 +2948,16 @@
   geolocation:
     country: ID
     city: Sungai Penuh
+- proxy: http://103.175.240.80:7777
+  protocol: http
+  ip: 103.175.240.80
+  port: 7777
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
 - proxy: http://202.165.47.90:55443
   protocol: http
   ip: 202.165.47.90
@@ -3168,6 +2978,16 @@
   geolocation:
     country: ID
     city: Unknown
+- proxy: http://103.103.193.194:8080
+  protocol: http
+  ip: 103.103.193.194
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
 - proxy: http://103.177.106.41:3125
   protocol: http
   ip: 103.177.106.41
@@ -3178,16 +2998,16 @@
   geolocation:
     country: ID
     city: Unknown
-- proxy: http://103.180.123.15:8080
+- proxy: http://110.232.78.195:8080
   protocol: http
-  ip: 103.180.123.15
+  ip: 110.232.78.195
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Bekasi
+    city: Medan
 - proxy: http://45.198.11.163:9191
   protocol: http
   ip: 45.198.11.163
@@ -3228,6 +3048,16 @@
   geolocation:
     country: ID
     city: Unknown
+- proxy: http://103.205.223.49:8080
+  protocol: http
+  ip: 103.205.223.49
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Jakarta
 - proxy: http://182.253.42.232:2026
   protocol: http
   ip: 182.253.42.232
@@ -3288,6 +3118,16 @@
   geolocation:
     country: ID
     city: Magetan
+- proxy: http://103.13.204.84:8082
+  protocol: http
+  ip: 103.13.204.84
+  port: 8082
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Pati
 - proxy: http://103.122.1.188:8181
   protocol: http
   ip: 103.122.1.188
@@ -3338,6 +3178,16 @@
   geolocation:
     country: ID
     city: Jakarta
+- proxy: http://103.172.42.81:1111
+  protocol: http
+  ip: 103.172.42.81
+  port: 1111
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Karawang
 - proxy: http://103.156.15.122:8087
   protocol: http
   ip: 103.156.15.122
@@ -3348,16 +3198,6 @@
   geolocation:
     country: ID
     city: Rangkasbitung
-- proxy: http://43.252.238.102:8080
-  protocol: http
-  ip: 43.252.238.102
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Bogor
 - proxy: http://103.204.46.2:8090
   protocol: http
   ip: 103.204.46.2
@@ -3388,16 +3228,6 @@
   geolocation:
     country: ID
     city: Sukabumi
-- proxy: http://103.39.51.160:80
-  protocol: http
-  ip: 103.39.51.160
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Kuningan Barat
 - proxy: http://103.156.71.121:3128
   protocol: http
   ip: 103.156.71.121
@@ -3441,16 +3271,6 @@
 - proxy: http://103.177.176.62:8080
   protocol: http
   ip: 103.177.176.62
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Jakarta
-- proxy: http://103.165.126.65:8080
-  protocol: http
-  ip: 103.165.126.65
   port: 8080
   https: false
   anonymity: transparent
@@ -3518,20 +3338,20 @@
   geolocation:
     country: ID
     city: Bekasi
-- proxy: http://175.184.236.2:1111
+- proxy: http://103.156.71.124:3128
   protocol: http
-  ip: 175.184.236.2
-  port: 1111
+  ip: 103.156.71.124
+  port: 3128
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Unknown
-- proxy: http://36.66.242.118:8080
+    city: Banyuwangi
+- proxy: http://175.184.236.2:1111
   protocol: http
-  ip: 36.66.242.118
-  port: 8080
+  ip: 175.184.236.2
+  port: 1111
   https: false
   anonymity: transparent
   score: 1
@@ -3738,16 +3558,16 @@
   geolocation:
     country: ID
     city: Jakarta
-- proxy: http://103.192.174.158:8080
+- proxy: http://103.179.183.153:8080
   protocol: http
-  ip: 103.192.174.158
+  ip: 103.179.183.153
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Unknown
+    city: Banyuwangi
 - proxy: http://110.232.92.49:8080
   protocol: http
   ip: 110.232.92.49
@@ -3768,16 +3588,6 @@
   geolocation:
     country: ID
     city: Sukabumi
-- proxy: http://103.152.148.15:8080
-  protocol: http
-  ip: 103.152.148.15
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
 - proxy: http://103.247.83.253:8085
   protocol: http
   ip: 103.247.83.253
@@ -3918,6 +3728,16 @@
   geolocation:
     country: ID
     city: Purwokerto
+- proxy: http://103.147.247.191:8080
+  protocol: http
+  ip: 103.147.247.191
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Tangerang
 - proxy: http://103.170.22.145:8080
   protocol: http
   ip: 103.170.22.145
@@ -4048,16 +3868,6 @@
   geolocation:
     country: ID
     city: Unknown
-- proxy: http://103.153.135.90:1080
-  protocol: http
-  ip: 103.153.135.90
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Tangerang
 - proxy: http://103.19.58.139:8080
   protocol: http
   ip: 103.19.58.139
@@ -4078,6 +3888,16 @@
   geolocation:
     country: ID
     city: Jakarta
+- proxy: http://103.39.51.160:8088
+  protocol: http
+  ip: 103.39.51.160
+  port: 8088
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Kuningan Barat
 - proxy: http://203.190.46.103:8080
   protocol: http
   ip: 203.190.46.103
@@ -4128,6 +3948,16 @@
   geolocation:
     country: ID
     city: Unknown
+- proxy: http://103.166.158.41:1080
+  protocol: http
+  ip: 103.166.158.41
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Serang
 - proxy: http://103.172.71.85:9191
   protocol: http
   ip: 103.172.71.85
@@ -4138,16 +3968,16 @@
   geolocation:
     country: ID
     city: Karawang
-- proxy: http://103.147.134.133:8080
+- proxy: http://103.82.246.19:6080
   protocol: http
-  ip: 103.147.134.133
-  port: 8080
+  ip: 103.82.246.19
+  port: 6080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Prapattunggal
+    city: Banyuwangi
 - proxy: http://103.188.168.225:8080
   protocol: http
   ip: 103.188.168.225
@@ -4198,6 +4028,16 @@
   geolocation:
     country: ID
     city: Pekalongan
+- proxy: http://103.120.175.243:9191
+  protocol: http
+  ip: 103.120.175.243
+  port: 9191
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Bulanbulan
 - proxy: http://103.184.181.71:8080
   protocol: http
   ip: 103.184.181.71
@@ -4258,16 +4098,16 @@
   geolocation:
     country: ID
     city: Pati
-- proxy: http://111.68.125.34:8080
+- proxy: http://103.242.104.48:3125
   protocol: http
-  ip: 111.68.125.34
-  port: 8080
+  ip: 103.242.104.48
+  port: 3125
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Unknown
+    city: Bekasi
 - proxy: http://103.1.50.23:3125
   protocol: http
   ip: 103.1.50.23
@@ -4308,20 +4148,40 @@
   geolocation:
     country: ID
     city: Serang
-- proxy: http://103.172.120.33:8080
+- proxy: http://103.189.249.210:8080
   protocol: http
-  ip: 103.172.120.33
+  ip: 103.189.249.210
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Danyang Selatan
+    city: Pati
+- proxy: http://103.125.116.126:8080
+  protocol: http
+  ip: 103.125.116.126
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Bandung
 - proxy: http://103.172.18.38:3125
   protocol: http
   ip: 103.172.18.38
   port: 3125
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://103.80.215.98:8080
+  protocol: http
+  ip: 103.80.215.98
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
@@ -4488,16 +4348,6 @@
   geolocation:
     country: ID
     city: Sumedang
-- proxy: http://103.156.71.122:3128
-  protocol: http
-  ip: 103.156.71.122
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Banyuwangi
 - proxy: http://103.217.224.75:3125
   protocol: http
   ip: 103.217.224.75
@@ -4548,16 +4398,6 @@
   geolocation:
     country: ID
     city: Mekarjaya
-- proxy: http://202.10.55.50:3128
-  protocol: http
-  ip: 202.10.55.50
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
 - proxy: http://103.208.103.35:8080
   protocol: http
   ip: 103.208.103.35
@@ -4758,6 +4598,16 @@
   geolocation:
     country: ID
     city: Bandung
+- proxy: http://103.172.23.250:1080
+  protocol: http
+  ip: 103.172.23.250
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Cabeanngemplik
 - proxy: http://103.156.248.247:8080
   protocol: http
   ip: 103.156.248.247
@@ -4938,16 +4788,6 @@
   geolocation:
     country: ID
     city: Unknown
-- proxy: http://103.157.79.17:8080
-  protocol: http
-  ip: 103.157.79.17
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Jakarta
 - proxy: http://36.92.104.123:8000
   protocol: http
   ip: 36.92.104.123
@@ -5198,16 +5038,6 @@
   geolocation:
     country: ID
     city: Unknown
-- proxy: http://103.147.77.66:8080
-  protocol: http
-  ip: 103.147.77.66
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Madiun
 - proxy: http://103.175.84.6:80
   protocol: http
   ip: 103.175.84.6
@@ -5298,6 +5128,16 @@
   geolocation:
     country: ID
     city: Indramayu
+- proxy: http://110.76.147.27:1080
+  protocol: http
+  ip: 110.76.147.27
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Sukoharjo
 - proxy: http://36.50.56.11:8818
   protocol: http
   ip: 36.50.56.11
@@ -5318,16 +5158,6 @@
   geolocation:
     country: ID
     city: Bogor
-- proxy: http://103.179.252.170:3127
-  protocol: http
-  ip: 103.179.252.170
-  port: 3127
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Mekarjaya
 - proxy: http://103.164.171.210:8080
   protocol: http
   ip: 103.164.171.210
@@ -5458,16 +5288,6 @@
   geolocation:
     country: ID
     city: Jakarta
-- proxy: http://115.178.52.10:8080
-  protocol: http
-  ip: 115.178.52.10
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Pangandaran
 - proxy: http://101.255.137.2:80
   protocol: http
   ip: 101.255.137.2
@@ -5541,16 +5361,6 @@
 - proxy: http://103.229.185.154:8080
   protocol: http
   ip: 103.229.185.154
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: http://103.97.198.2:8080
-  protocol: http
-  ip: 103.97.198.2
   port: 8080
   https: false
   anonymity: transparent
@@ -5678,6 +5488,16 @@
   geolocation:
     country: ID
     city: Bekasi
+- proxy: http://103.133.25.247:8080
+  protocol: http
+  ip: 103.133.25.247
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Subang
 - proxy: http://103.186.193.135:8080
   protocol: http
   ip: 103.186.193.135
@@ -5778,6 +5598,16 @@
   geolocation:
     country: ID
     city: Tangerang
+- proxy: http://45.198.10.131:9191
+  protocol: http
+  ip: 45.198.10.131
+  port: 9191
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Jakarta
 - proxy: http://192.145.228.212:8082
   protocol: http
   ip: 192.145.228.212
@@ -6018,16 +5848,6 @@
   geolocation:
     country: ID
     city: Jakarta
-- proxy: http://116.68.171.226:8080
-  protocol: http
-  ip: 116.68.171.226
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Jakarta
 - proxy: http://175.106.15.186:8080
   protocol: http
   ip: 175.106.15.186
@@ -6058,6 +5878,16 @@
   geolocation:
     country: ID
     city: Citarum
+- proxy: http://103.193.144.101:8080
+  protocol: http
+  ip: 103.193.144.101
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
 - proxy: http://103.173.162.95:8818
   protocol: http
   ip: 103.173.162.95
@@ -6128,6 +5958,16 @@
   geolocation:
     country: ID
     city: Kuningan Barat
+- proxy: http://103.191.169.126:8080
+  protocol: http
+  ip: 103.191.169.126
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
 - proxy: http://150.107.136.205:39843
   protocol: http
   ip: 150.107.136.205
@@ -6228,6 +6068,16 @@
   geolocation:
     country: ID
     city: Unknown
+- proxy: http://45.198.11.147:8080
+  protocol: http
+  ip: 45.198.11.147
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Jakarta
 - proxy: http://103.168.254.81:1111
   protocol: http
   ip: 103.168.254.81
@@ -6458,6 +6308,16 @@
   geolocation:
     country: ID
     city: Bandung
+- proxy: http://203.174.15.83:8080
+  protocol: http
+  ip: 203.174.15.83
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Tangerang
 - proxy: http://103.36.11.21:8080
   protocol: http
   ip: 103.36.11.21
@@ -6658,159 +6518,19 @@
   geolocation:
     country: ID
     city: Unknown
-- proxy: http://103.167.156.22:1081
+- proxy: http://103.175.237.232:8080
   protocol: http
-  ip: 103.167.156.22
-  port: 1081
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Pemalang
-- proxy: http://103.188.173.84:7777
-  protocol: http
-  ip: 103.188.173.84
-  port: 7777
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Banyumas
-- proxy: http://202.58.77.31:8080
-  protocol: http
-  ip: 202.58.77.31
+  ip: 103.175.237.232
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Unknown
-- proxy: http://103.173.141.10:8080
+    city: Malang
+- proxy: http://45.198.20.173:8080
   protocol: http
-  ip: 103.173.141.10
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: http://103.152.21.35:3129
-  protocol: http
-  ip: 103.152.21.35
-  port: 3129
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Sidoarjo
-- proxy: http://103.230.48.110:8082
-  protocol: http
-  ip: 103.230.48.110
-  port: 8082
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Bandar Lampung
-- proxy: http://103.178.194.133:2016
-  protocol: http
-  ip: 103.178.194.133
-  port: 2016
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Tangerang
-- proxy: http://103.167.30.238:64999
-  protocol: http
-  ip: 103.167.30.238
-  port: 64999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: http://43.252.107.218:3125
-  protocol: http
-  ip: 43.252.107.218
-  port: 3125
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Mojosari
-- proxy: http://103.236.142.59:8080
-  protocol: http
-  ip: 103.236.142.59
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Pati
-- proxy: http://103.179.117.247:8083
-  protocol: http
-  ip: 103.179.117.247
-  port: 8083
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: http://103.26.131.29:3125
-  protocol: http
-  ip: 103.26.131.29
-  port: 3125
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: http://103.169.189.124:3125
-  protocol: http
-  ip: 103.169.189.124
-  port: 3125
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Madiun
-- proxy: http://36.95.208.13:8080
-  protocol: http
-  ip: 36.95.208.13
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: http://103.153.62.217:8181
-  protocol: http
-  ip: 103.153.62.217
-  port: 8181
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Banyuwangi
-- proxy: http://103.122.32.62:8080
-  protocol: http
-  ip: 103.122.32.62
+  ip: 45.198.20.173
   port: 8080
   https: false
   anonymity: transparent
@@ -6818,129 +6538,9 @@
   geolocation:
     country: ID
     city: Jakarta
-- proxy: http://103.166.158.213:8080
+- proxy: http://103.203.234.147:8080
   protocol: http
-  ip: 103.166.158.213
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Serang
-- proxy: http://103.172.23.90:1081
-  protocol: http
-  ip: 103.172.23.90
-  port: 1081
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Cabeanngemplik
-- proxy: http://103.174.122.203:3129
-  protocol: http
-  ip: 103.174.122.203
-  port: 3129
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Sumedang
-- proxy: http://103.81.110.137:3125
-  protocol: http
-  ip: 103.81.110.137
-  port: 3125
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: http://36.50.56.17:8818
-  protocol: http
-  ip: 36.50.56.17
-  port: 8818
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: http://103.113.3.29:8080
-  protocol: http
-  ip: 103.113.3.29
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Bogor
-- proxy: http://103.38.104.164:7777
-  protocol: http
-  ip: 103.38.104.164
-  port: 7777
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: http://49.0.26.43:1081
-  protocol: http
-  ip: 49.0.26.43
-  port: 1081
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: http://103.166.158.193:1081
-  protocol: http
-  ip: 103.166.158.193
-  port: 1081
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Serang
-- proxy: http://103.147.247.83:8080
-  protocol: http
-  ip: 103.147.247.83
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Tangerang
-- proxy: http://202.154.19.63:8090
-  protocol: http
-  ip: 202.154.19.63
-  port: 8090
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Jombang
-- proxy: http://103.124.137.193:8181
-  protocol: http
-  ip: 103.124.137.193
-  port: 8181
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Semarang
-- proxy: http://103.80.215.123:8080
-  protocol: http
-  ip: 103.80.215.123
+  ip: 103.203.234.147
   port: 8080
   https: false
   anonymity: transparent
@@ -6948,76 +6548,26 @@
   geolocation:
     country: ID
     city: Unknown
-- proxy: http://103.172.42.43:1111
+- proxy: http://103.193.145.51:8080
   protocol: http
-  ip: 103.172.42.43
+  ip: 103.193.145.51
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://150.107.104.125:1111
+  protocol: http
+  ip: 150.107.104.125
   port: 1111
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Karawang
-- proxy: http://103.150.12.175:8080
-  protocol: http
-  ip: 103.150.12.175
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
     city: Unknown
-- proxy: http://45.198.20.246:8080
-  protocol: http
-  ip: 45.198.20.246
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Jakarta
-- proxy: http://103.169.186.203:3125
-  protocol: http
-  ip: 103.169.186.203
-  port: 3125
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Probolinggo
-- proxy: http://101.255.209.250:3129
-  protocol: http
-  ip: 101.255.209.250
-  port: 3129
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Bekasi
-- proxy: http://103.247.83.244:8085
-  protocol: http
-  ip: 103.247.83.244
-  port: 8085
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: http://103.208.101.16:8080
-  protocol: http
-  ip: 103.208.101.16
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Montelan
 - proxy: http://103.54.171.46:8080
   protocol: http
   ip: 103.54.171.46
@@ -7028,70 +6578,210 @@
   geolocation:
     country: ID
     city: Unknown
-- proxy: http://202.73.27.115:8080
+- proxy: http://103.174.122.92:3129
   protocol: http
-  ip: 202.73.27.115
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Bogor
-- proxy: http://103.172.42.37:1111
-  protocol: http
-  ip: 103.172.42.37
-  port: 1111
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Karawang
-- proxy: http://103.154.25.58:3125
-  protocol: http
-  ip: 103.154.25.58
-  port: 3125
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: http://124.158.164.150:8080
-  protocol: http
-  ip: 124.158.164.150
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Karawang
-- proxy: http://36.89.90.97:3129
-  protocol: http
-  ip: 36.89.90.97
+  ip: 103.174.122.92
   port: 3129
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Unknown
-- proxy: http://103.247.83.241:8085
+    city: Sumedang
+- proxy: http://103.174.123.5:8089
   protocol: http
-  ip: 103.247.83.241
-  port: 8085
+  ip: 103.174.123.5
+  port: 8089
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Sumedang
+- proxy: http://36.89.56.169:8080
+  protocol: http
+  ip: 36.89.56.169
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
     city: Unknown
-- proxy: http://103.247.83.247:8085
+- proxy: http://103.133.61.239:8080
   protocol: http
-  ip: 103.247.83.247
-  port: 8085
+  ip: 103.133.61.239
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Bandar Lampung
+- proxy: http://103.156.71.124:3129
+  protocol: http
+  ip: 103.156.71.124
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Banyuwangi
+- proxy: http://123.176.126.95:8080
+  protocol: http
+  ip: 123.176.126.95
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://103.247.21.83:8446
+  protocol: http
+  ip: 103.247.21.83
+  port: 8446
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Bekasi
+- proxy: http://43.229.254.221:8181
+  protocol: http
+  ip: 43.229.254.221
+  port: 8181
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Bekasi
+- proxy: http://103.191.251.197:8080
+  protocol: http
+  ip: 103.191.251.197
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Batam
+- proxy: http://103.227.186.61:6080
+  protocol: http
+  ip: 103.227.186.61
+  port: 6080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://111.95.55.210:8080
+  protocol: http
+  ip: 111.95.55.210
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: South Tangerang
+- proxy: http://121.101.131.110:8080
+  protocol: http
+  ip: 121.101.131.110
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Yogyakarta
+- proxy: http://103.180.123.47:8080
+  protocol: http
+  ip: 103.180.123.47
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Bekasi
+- proxy: http://103.167.156.22:1081
+  protocol: http
+  ip: 103.167.156.22
+  port: 1081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Pemalang
+- proxy: http://202.154.19.50:3125
+  protocol: http
+  ip: 202.154.19.50
+  port: 3125
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Jombang
+- proxy: http://150.107.244.200:8080
+  protocol: http
+  ip: 150.107.244.200
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Bandung
+- proxy: http://103.242.105.31:8080
+  protocol: http
+  ip: 103.242.105.31
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Bekasi
+- proxy: http://45.198.11.95:9191
+  protocol: http
+  ip: 45.198.11.95
+  port: 9191
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Jakarta
+- proxy: http://45.198.10.189:9191
+  protocol: http
+  ip: 45.198.10.189
+  port: 9191
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Jakarta
+- proxy: http://103.174.122.93:3129
+  protocol: http
+  ip: 103.174.122.93
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Sumedang
+- proxy: http://45.249.216.248:6060
+  protocol: http
+  ip: 45.249.216.248
+  port: 6060
   https: false
   anonymity: transparent
   score: 1
@@ -7108,29 +6798,129 @@
   geolocation:
     country: ID
     city: Jakarta
-- proxy: http://202.159.35.84:9933
+- proxy: http://182.16.171.42:43188
   protocol: http
-  ip: 202.159.35.84
-  port: 9933
+  ip: 182.16.171.42
+  port: 43188
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Depok
+- proxy: http://103.162.63.74:8080
+  protocol: http
+  ip: 103.162.63.74
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Brebes
+- proxy: http://103.247.23.242:1111
+  protocol: http
+  ip: 103.247.23.242
+  port: 1111
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Purwokerto
+- proxy: http://103.180.123.49:8788
+  protocol: http
+  ip: 103.180.123.49
+  port: 8788
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Bekasi
+- proxy: http://103.217.224.29:8089
+  protocol: http
+  ip: 103.217.224.29
+  port: 8089
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Ungaran
+- proxy: http://45.198.10.53:9191
+  protocol: http
+  ip: 45.198.10.53
+  port: 9191
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
     city: Jakarta
-- proxy: http://36.50.56.209:8818
+- proxy: http://103.233.152.18:8080
   protocol: http
-  ip: 36.50.56.209
-  port: 8818
+  ip: 103.233.152.18
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
     city: Unknown
-- proxy: http://101.255.32.41:8080
+- proxy: http://103.46.11.129:8090
   protocol: http
-  ip: 101.255.32.41
+  ip: 103.46.11.129
+  port: 8090
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Malang
+- proxy: http://103.82.246.21:6080
+  protocol: http
+  ip: 103.82.246.21
+  port: 6080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Banyuwangi
+- proxy: http://103.156.17.83:8818
+  protocol: http
+  ip: 103.156.17.83
+  port: 8818
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Indramayu
+- proxy: http://103.160.205.12:8081
+  protocol: http
+  ip: 103.160.205.12
+  port: 8081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Masbagik
+- proxy: http://103.194.46.99:8082
+  protocol: http
+  ip: 103.194.46.99
+  port: 8082
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Tasikmalaya
+- proxy: http://101.255.151.246:8080
+  protocol: http
+  ip: 101.255.151.246
   port: 8080
   https: false
   anonymity: transparent
@@ -7138,119 +6928,69 @@
   geolocation:
     country: ID
     city: Bekasi
-- proxy: http://103.66.62.125:8080
+- proxy: http://103.124.139.197:8181
   protocol: http
-  ip: 103.66.62.125
-  port: 8080
+  ip: 103.124.139.197
+  port: 8181
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Unknown
-- proxy: http://103.94.133.20:8080
+    city: Semarang
+- proxy: http://103.153.135.2:8181
   protocol: http
-  ip: 103.94.133.20
-  port: 8080
+  ip: 103.153.135.2
+  port: 8181
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
     city: Tangerang
-- proxy: http://103.156.17.125:8818
+- proxy: http://103.68.215.115:8181
   protocol: http
-  ip: 103.156.17.125
-  port: 8818
+  ip: 103.68.215.115
+  port: 8181
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Babakangarut
-- proxy: http://103.3.59.251:8080
+    city: Tangerang
+- proxy: http://103.1.50.94:3125
   protocol: http
-  ip: 103.3.59.251
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: http://103.154.76.169:8080
-  protocol: http
-  ip: 103.154.76.169
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Yogyakarta
-- proxy: http://103.175.240.64:3125
-  protocol: http
-  ip: 103.175.240.64
+  ip: 103.1.50.94
   port: 3125
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Unknown
-- proxy: http://202.180.21.213:80
+    city: Pasuruan
+- proxy: http://101.255.209.249:3129
   protocol: http
-  ip: 202.180.21.213
-  port: 80
+  ip: 101.255.209.249
+  port: 3129
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Karawang
-- proxy: http://103.18.79.188:3125
+    city: Bekasi
+- proxy: http://139.255.94.122:39635
   protocol: http
-  ip: 103.18.79.188
-  port: 3125
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Bogor
-- proxy: http://103.184.54.77:8081
-  protocol: http
-  ip: 103.184.54.77
-  port: 8081
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Talkandang Barat
-- proxy: http://103.190.171.32:8088
-  protocol: http
-  ip: 103.190.171.32
-  port: 8088
+  ip: 139.255.94.122
+  port: 39635
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
     city: Jakarta
-- proxy: http://103.227.187.11:6090
+- proxy: http://36.64.157.154:8080
   protocol: http
-  ip: 103.227.187.11
-  port: 6090
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: http://103.146.26.106:8080
-  protocol: http
-  ip: 103.146.26.106
+  ip: 36.64.157.154
   port: 8080
   https: false
   anonymity: transparent
@@ -7258,29 +6998,59 @@
   geolocation:
     country: ID
     city: Unknown
-- proxy: http://103.147.247.193:8080
+- proxy: http://103.130.129.231:10001
   protocol: http
-  ip: 103.147.247.193
+  ip: 103.130.129.231
+  port: 10001
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Bogor
+- proxy: http://103.153.62.253:8181
+  protocol: http
+  ip: 103.153.62.253
+  port: 8181
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Banyuwangi
+- proxy: http://202.154.19.203:8090
+  protocol: http
+  ip: 202.154.19.203
+  port: 8090
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Jombang
+- proxy: http://36.67.194.162:8042
+  protocol: http
+  ip: 36.67.194.162
+  port: 8042
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Jakarta
+- proxy: http://103.166.158.213:8080
+  protocol: http
+  ip: 103.166.158.213
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Tangerang
-- proxy: http://103.172.42.24:1111
+    city: Serang
+- proxy: http://103.66.47.38:8080
   protocol: http
-  ip: 103.172.42.24
-  port: 1111
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Karawang
-- proxy: http://202.58.77.239:8080
-  protocol: http
-  ip: 202.58.77.239
+  ip: 103.66.47.38
   port: 8080
   https: false
   anonymity: transparent
@@ -7288,6 +7058,36 @@
   geolocation:
     country: ID
     city: Unknown
+- proxy: http://103.164.212.125:8080
+  protocol: http
+  ip: 103.164.212.125
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Kediri
+- proxy: http://103.38.104.164:7777
+  protocol: http
+  ip: 103.38.104.164
+  port: 7777
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://118.99.127.129:8080
+  protocol: http
+  ip: 118.99.127.129
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Malang
 - proxy: http://103.183.58.230:8085
   protocol: http
   ip: 103.183.58.230
@@ -7298,9 +7098,309 @@
   geolocation:
     country: ID
     city: Unknown
-- proxy: http://103.174.122.79:3129
+- proxy: http://36.89.90.97:3129
   protocol: http
-  ip: 103.174.122.79
+  ip: 36.89.90.97
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://103.144.102.82:8080
+  protocol: http
+  ip: 103.144.102.82
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Indramayu
+- proxy: http://101.255.45.46:8080
+  protocol: http
+  ip: 101.255.45.46
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Bekasi
+- proxy: http://172.232.228.149:3129
+  protocol: http
+  ip: 172.232.228.149
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Jakarta
+- proxy: http://103.156.75.243:3125
+  protocol: http
+  ip: 103.156.75.243
+  port: 3125
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Gianyar
+- proxy: http://103.179.183.129:8090
+  protocol: http
+  ip: 103.179.183.129
+  port: 8090
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Banyuwangi
+- proxy: http://103.178.3.243:8818
+  protocol: http
+  ip: 103.178.3.243
+  port: 8818
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Gawul
+- proxy: http://223.25.110.76:3125
+  protocol: http
+  ip: 223.25.110.76
+  port: 3125
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://103.155.166.226:7850
+  protocol: http
+  ip: 103.155.166.226
+  port: 7850
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Bogor
+- proxy: http://103.152.21.35:3129
+  protocol: http
+  ip: 103.152.21.35
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Sidoarjo
+- proxy: http://36.88.111.250:8787
+  protocol: http
+  ip: 36.88.111.250
+  port: 8787
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Surabaya
+- proxy: http://103.154.52.5:1111
+  protocol: http
+  ip: 103.154.52.5
+  port: 1111
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Cilacap
+- proxy: http://36.66.130.147:8080
+  protocol: http
+  ip: 36.66.130.147
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Bandung
+- proxy: http://103.167.222.10:3129
+  protocol: http
+  ip: 103.167.222.10
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://103.172.71.209:1081
+  protocol: http
+  ip: 103.172.71.209
+  port: 1081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Karawang
+- proxy: http://103.184.54.77:8081
+  protocol: http
+  ip: 103.184.54.77
+  port: 8081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Talkandang Barat
+- proxy: http://103.38.104.199:8080
+  protocol: http
+  ip: 103.38.104.199
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://101.255.167.235:8080
+  protocol: http
+  ip: 101.255.167.235
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Karawang
+- proxy: http://43.252.236.215:8080
+  protocol: http
+  ip: 43.252.236.215
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Babakan Sari
+- proxy: http://103.253.124.98:80
+  protocol: http
+  ip: 103.253.124.98
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://103.26.130.29:3125
+  protocol: http
+  ip: 103.26.130.29
+  port: 3125
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://223.25.110.250:8088
+  protocol: http
+  ip: 223.25.110.250
+  port: 8088
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://103.162.63.70:8080
+  protocol: http
+  ip: 103.162.63.70
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Brebes
+- proxy: http://36.89.82.54:8080
+  protocol: http
+  ip: 36.89.82.54
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://103.227.186.73:6080
+  protocol: http
+  ip: 103.227.186.73
+  port: 6080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://103.161.1.34:1111
+  protocol: http
+  ip: 103.161.1.34
+  port: 1111
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://103.25.195.121:8181
+  protocol: http
+  ip: 103.25.195.121
+  port: 8181
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Karawang
+- proxy: http://103.172.71.203:8080
+  protocol: http
+  ip: 103.172.71.203
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Karawang
+- proxy: http://103.227.187.3:6090
+  protocol: http
+  ip: 103.227.187.3
+  port: 6090
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://103.80.214.241:8097
+  protocol: http
+  ip: 103.80.214.241
+  port: 8097
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://103.174.122.89:3129
+  protocol: http
+  ip: 103.174.122.89
   port: 3129
   https: false
   anonymity: transparent
@@ -7308,6 +7408,116 @@
   geolocation:
     country: ID
     city: Sumedang
+- proxy: http://103.46.11.92:8080
+  protocol: http
+  ip: 103.46.11.92
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Malang
+- proxy: http://117.18.16.47:1111
+  protocol: http
+  ip: 117.18.16.47
+  port: 1111
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://103.229.164.178:3129
+  protocol: http
+  ip: 103.229.164.178
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Keputih
+- proxy: http://36.67.114.94:8187
+  protocol: http
+  ip: 36.67.114.94
+  port: 8187
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://103.173.162.61:8080
+  protocol: http
+  ip: 103.173.162.61
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://45.198.11.9:9191
+  protocol: http
+  ip: 45.198.11.9
+  port: 9191
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Jakarta
+- proxy: http://103.126.86.130:8080
+  protocol: http
+  ip: 103.126.86.130
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Karanganyar Wetankali
+- proxy: http://103.77.79.64:1081
+  protocol: http
+  ip: 103.77.79.64
+  port: 1081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://103.220.23.113:8080
+  protocol: http
+  ip: 103.220.23.113
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Ponorogo
+- proxy: http://202.159.35.84:9933
+  protocol: http
+  ip: 202.159.35.84
+  port: 9933
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Jakarta
+- proxy: http://121.101.134.181:8080
+  protocol: http
+  ip: 121.101.134.181
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Yogyakarta
 - proxy: http://103.162.61.167:8080
   protocol: http
   ip: 103.162.61.167
@@ -7318,9 +7528,219 @@
   geolocation:
     country: ID
     city: Klaten
-- proxy: http://103.31.235.102:8080
+- proxy: http://103.160.205.244:8181
   protocol: http
-  ip: 103.31.235.102
+  ip: 103.160.205.244
+  port: 8181
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Masbagik
+- proxy: http://103.167.30.238:64999
+  protocol: http
+  ip: 103.167.30.238
+  port: 64999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://45.198.20.223:8080
+  protocol: http
+  ip: 45.198.20.223
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Jakarta
+- proxy: http://103.147.134.71:8081
+  protocol: http
+  ip: 103.147.134.71
+  port: 8081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Prapattunggal
+- proxy: http://103.159.96.117:80
+  protocol: http
+  ip: 103.159.96.117
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Mojokerto
+- proxy: http://103.46.8.85:8080
+  protocol: http
+  ip: 103.46.8.85
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Denpasar
+- proxy: http://103.124.138.213:8090
+  protocol: http
+  ip: 103.124.138.213
+  port: 8090
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Semarang
+- proxy: http://117.18.21.115:3125
+  protocol: http
+  ip: 117.18.21.115
+  port: 3125
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://103.163.13.17:1111
+  protocol: http
+  ip: 103.163.13.17
+  port: 1111
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Bojonegoro
+- proxy: http://103.247.22.77:4357
+  protocol: http
+  ip: 103.247.22.77
+  port: 4357
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Bekasi
+- proxy: http://103.19.78.133:8090
+  protocol: http
+  ip: 103.19.78.133
+  port: 8090
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://36.88.150.66:8080
+  protocol: http
+  ip: 36.88.150.66
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Angke
+- proxy: http://103.76.107.3:8085
+  protocol: http
+  ip: 103.76.107.3
+  port: 8085
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Patuk
+- proxy: http://103.178.42.7:8080
+  protocol: http
+  ip: 103.178.42.7
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Ngantru
+- proxy: http://103.174.122.83:3129
+  protocol: http
+  ip: 103.174.122.83
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Sumedang
+- proxy: http://103.156.15.55:8080
+  protocol: http
+  ip: 103.156.15.55
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Tangerang
+- proxy: http://103.247.21.82:8446
+  protocol: http
+  ip: 103.247.21.82
+  port: 8446
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Bekasi
+- proxy: http://103.230.48.110:8082
+  protocol: http
+  ip: 103.230.48.110
+  port: 8082
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Bandar Lampung
+- proxy: http://103.172.42.93:1111
+  protocol: http
+  ip: 103.172.42.93
+  port: 1111
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Karawang
+- proxy: http://182.253.38.179:3129
+  protocol: http
+  ip: 182.253.38.179
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Semarang
+- proxy: http://103.134.221.52:1111
+  protocol: http
+  ip: 103.134.221.52
+  port: 1111
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Yogyakarta
+- proxy: http://103.113.3.25:8080
+  protocol: http
+  ip: 103.113.3.25
   port: 8080
   https: false
   anonymity: transparent
@@ -7328,29 +7748,89 @@
   geolocation:
     country: ID
     city: Bogor
-- proxy: http://103.171.31.77:8080
+- proxy: http://118.136.142.110:8080
   protocol: http
-  ip: 103.171.31.77
+  ip: 118.136.142.110
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Bidara Cina
-- proxy: http://36.66.180.186:8080
+    city: Jakarta
+- proxy: http://103.177.199.111:1111
   protocol: http
-  ip: 36.66.180.186
+  ip: 103.177.199.111
+  port: 1111
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Bekasi
+- proxy: http://103.169.139.4:8081
+  protocol: http
+  ip: 103.169.139.4
+  port: 8081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://103.172.23.90:1081
+  protocol: http
+  ip: 103.172.23.90
+  port: 1081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Cabeanngemplik
+- proxy: http://110.76.147.26:1111
+  protocol: http
+  ip: 110.76.147.26
+  port: 1111
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Sukoharjo
+- proxy: http://175.158.40.224:1616
+  protocol: http
+  ip: 175.158.40.224
+  port: 1616
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Jakarta
+- proxy: http://103.18.77.101:8080
+  protocol: http
+  ip: 103.18.77.101
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Yogyakarta
-- proxy: http://103.193.144.91:8080
+    city: Bogor
+- proxy: http://103.247.15.103:9090
   protocol: http
-  ip: 103.193.144.91
+  ip: 103.247.15.103
+  port: 9090
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Kebumen Satu
+- proxy: http://111.68.122.154:8080
+  protocol: http
+  ip: 111.68.122.154
   port: 8080
   https: false
   anonymity: transparent
@@ -7358,13 +7838,233 @@
   geolocation:
     country: ID
     city: Unknown
-- proxy: http://36.88.247.76:8081
+- proxy: http://103.165.157.107:8080
   protocol: http
-  ip: 36.88.247.76
+  ip: 103.165.157.107
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Malang
+- proxy: http://103.189.254.72:8080
+  protocol: http
+  ip: 103.189.254.72
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Surabaya
+- proxy: http://103.172.42.115:1111
+  protocol: http
+  ip: 103.172.42.115
+  port: 1111
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Karawang
+- proxy: http://103.156.17.34:8818
+  protocol: http
+  ip: 103.156.17.34
+  port: 8818
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Indramayu
+- proxy: http://103.169.138.23:8081
+  protocol: http
+  ip: 103.169.138.23
   port: 8081
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ID
-    city: Cipete Selatan
+    city: Unknown
+- proxy: http://202.73.27.115:8080
+  protocol: http
+  ip: 202.73.27.115
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Bogor
+- proxy: http://103.154.76.29:3125
+  protocol: http
+  ip: 103.154.76.29
+  port: 3125
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Yogyakarta
+- proxy: http://203.142.71.53:8080
+  protocol: http
+  ip: 203.142.71.53
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Jakarta
+- proxy: http://101.255.104.54:8080
+  protocol: http
+  ip: 101.255.104.54
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Bekasi
+- proxy: http://103.247.83.237:8085
+  protocol: http
+  ip: 103.247.83.237
+  port: 8085
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://103.251.153.75:8282
+  protocol: http
+  ip: 103.251.153.75
+  port: 8282
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://103.158.13.177:3125
+  protocol: http
+  ip: 103.158.13.177
+  port: 3125
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://103.171.182.229:8080
+  protocol: http
+  ip: 103.171.182.229
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Munjul
+- proxy: http://103.123.64.234:3129
+  protocol: http
+  ip: 103.123.64.234
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Lamongan
+- proxy: http://103.188.169.93:8080
+  protocol: http
+  ip: 103.188.169.93
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://180.211.93.104:8080
+  protocol: http
+  ip: 180.211.93.104
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Bekasi
+- proxy: http://103.161.1.114:1111
+  protocol: http
+  ip: 103.161.1.114
+  port: 1111
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://103.165.155.163:1111
+  protocol: http
+  ip: 103.165.155.163
+  port: 1111
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Tangerang
+- proxy: http://103.199.117.121:7777
+  protocol: http
+  ip: 103.199.117.121
+  port: 7777
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Karanganyar Wetankali
+- proxy: http://103.132.40.72:8080
+  protocol: http
+  ip: 103.132.40.72
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Jakarta
+- proxy: http://103.188.173.101:1081
+  protocol: http
+  ip: 103.188.173.101
+  port: 1081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Banyumas
+- proxy: http://112.215.62.81:8080
+  protocol: http
+  ip: 112.215.62.81
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: http://45.198.8.222:8080
+  protocol: http
+  ip: 45.198.8.222
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Jakarta

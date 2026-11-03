@@ -78,20 +78,30 @@
   geolocation:
     country: IR
     city: Unknown
-- proxy: http://217.219.83.186:2222
-  protocol: http
-  ip: 217.219.83.186
-  port: 2222
+- proxy: socks4://213.176.74.119:1080
+  protocol: socks4
+  ip: 213.176.74.119
+  port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IR
-    city: Unknown
-- proxy: http://78.157.46.76:8090
+    city: Tehran
+- proxy: http://2.179.95.57:8080
   protocol: http
-  ip: 78.157.46.76
-  port: 8090
+  ip: 2.179.95.57
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IR
+    city: Arak
+- proxy: http://79.127.30.250:8080
+  protocol: http
+  ip: 79.127.30.250
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
@@ -108,10 +118,10 @@
   geolocation:
     country: IR
     city: Unknown
-- proxy: http://185.112.35.184:3128
+- proxy: http://94.183.206.215:8080
   protocol: http
-  ip: 185.112.35.184
-  port: 3128
+  ip: 94.183.206.215
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
@@ -122,16 +132,6 @@
   protocol: socks5
   ip: 213.176.74.119
   port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IR
-    city: Tehran
-- proxy: http://31.56.65.108:80
-  protocol: http
-  ip: 31.56.65.108
-  port: 80
   https: false
   anonymity: transparent
   score: 1
@@ -848,6 +848,26 @@
   geolocation:
     country: IR
     city: Unknown
+- proxy: http://217.219.83.186:2222
+  protocol: http
+  ip: 217.219.83.186
+  port: 2222
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IR
+    city: Unknown
+- proxy: http://185.112.35.184:3128
+  protocol: http
+  ip: 185.112.35.184
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IR
+    city: Unknown
 - proxy: http://78.39.253.48:8080
   protocol: http
   ip: 78.39.253.48
@@ -902,16 +922,6 @@
   protocol: http
   ip: 31.57.28.179
   port: 4433
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IR
-    city: Unknown
-- proxy: http://79.127.30.250:8080
-  protocol: http
-  ip: 79.127.30.250
-  port: 8080
   https: false
   anonymity: transparent
   score: 1
@@ -1338,6 +1348,16 @@
   geolocation:
     country: IR
     city: Unknown
+- proxy: http://78.157.46.76:8090
+  protocol: http
+  ip: 78.157.46.76
+  port: 8090
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IR
+    city: Unknown
 - proxy: http://31.59.20.216:6794
   protocol: http
   ip: 31.59.20.216
@@ -1378,6 +1398,16 @@
   geolocation:
     country: IR
     city: Unknown
+- proxy: http://31.56.65.108:80
+  protocol: http
+  ip: 31.56.65.108
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IR
+    city: Tehran
 - proxy: http://31.58.18.192:6461
   protocol: http
   ip: 31.58.18.192
@@ -1398,66 +1428,16 @@
   geolocation:
     country: IR
     city: Tehran
-- proxy: http://94.183.206.215:8080
+- proxy: http://80.191.46.62:1090
   protocol: http
-  ip: 94.183.206.215
-  port: 8080
+  ip: 80.191.46.62
+  port: 1090
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IR
-    city: Unknown
-- proxy: http://46.209.15.187:8080
-  protocol: http
-  ip: 46.209.15.187
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IR
-    city: Unknown
-- proxy: http://178.252.171.229:8080
-  protocol: http
-  ip: 178.252.171.229
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IR
-    city: Unknown
-- proxy: http://2.179.95.57:8080
-  protocol: http
-  ip: 2.179.95.57
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IR
-    city: Arak
-- proxy: http://178.252.171.226:8080
-  protocol: http
-  ip: 178.252.171.226
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IR
-    city: Unknown
-- proxy: http://185.112.35.184:3129
-  protocol: http
-  ip: 185.112.35.184
-  port: 3129
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IR
-    city: Unknown
+    city: Tehran
 - proxy: http://46.100.44.35:8080
   protocol: http
   ip: 46.100.44.35
@@ -1468,23 +1448,33 @@
   geolocation:
     country: IR
     city: Tehran
-- proxy: http://5.63.9.218:10818
+- proxy: http://79.175.133.48:8080
   protocol: http
-  ip: 5.63.9.218
-  port: 10818
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IR
-    city: Tehran
-- proxy: http://195.181.40.34:8080
-  protocol: http
-  ip: 195.181.40.34
+  ip: 79.175.133.48
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IR
-    city: Babol
+    city: Unknown
+- proxy: http://5.200.72.58:3129
+  protocol: http
+  ip: 5.200.72.58
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IR
+    city: Tehran
+- proxy: http://185.112.35.184:3129
+  protocol: http
+  ip: 185.112.35.184
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IR
+    city: Unknown

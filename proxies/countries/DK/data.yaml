@@ -8,6 +8,16 @@
   geolocation:
     country: DK
     city: Unknown
+- proxy: socks4://159.195.62.125:9050
+  protocol: socks4
+  ip: 159.195.62.125
+  port: 9050
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DK
+    city: Unknown
 - proxy: https://87.238.253.66:443
   protocol: https
   ip: 87.238.253.66
@@ -90,16 +100,6 @@
     city: Copenhagen
 - proxy: socks5://159.195.62.125:9050
   protocol: socks5
-  ip: 159.195.62.125
-  port: 9050
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DK
-    city: Unknown
-- proxy: socks4://159.195.62.125:9050
-  protocol: socks4
   ip: 159.195.62.125
   port: 9050
   https: false
