@@ -1,23 +1,13 @@
-- proxy: socks4://102.215.245.6:4153
+- proxy: socks4://105.27.180.194:1080
   protocol: socks4
-  ip: 102.215.245.6
-  port: 4153
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ZA
-    city: Benoni
-- proxy: socks4://196.216.133.18:1080
-  protocol: socks4
-  ip: 196.216.133.18
+  ip: 105.27.180.194
   port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ZA
-    city: Wolmaransstad
+    city: Johannesburg
 - proxy: https://129.151.160.199:443
   protocol: https
   ip: 129.151.160.199
@@ -38,6 +28,16 @@
   geolocation:
     country: ZA
     city: Durban
+- proxy: https://196.21.109.82:443
+  protocol: https
+  ip: 196.21.109.82
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: Pretoria
 - proxy: https://196.21.60.44:443
   protocol: https
   ip: 196.21.60.44
@@ -88,20 +88,20 @@
   geolocation:
     country: ZA
     city: Cape Town
-- proxy: https://13.245.161.189:13676
+- proxy: https://13.245.161.189:43052
   protocol: https
   ip: 13.245.161.189
-  port: 13676
+  port: 43052
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: ZA
     city: Cape Town
-- proxy: https://13.245.161.189:9452
+- proxy: https://13.245.161.189:437
   protocol: https
   ip: 13.245.161.189
-  port: 9452
+  port: 437
   https: true
   anonymity: transparent
   score: 1
@@ -128,26 +128,46 @@
   geolocation:
     country: ZA
     city: Midrand
-- proxy: http://213.172.130.3:9999
+- proxy: http://196.251.213.192:8081
   protocol: http
-  ip: 213.172.130.3
-  port: 9999
+  ip: 196.251.213.192
+  port: 8081
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ZA
-    city: Worcester
-- proxy: http://217.29.208.206:9999
+    city: Brits
+- proxy: http://20.33.10.79:443
   protocol: http
-  ip: 217.29.208.206
-  port: 9999
+  ip: 20.33.10.79
+  port: 443
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ZA
-    city: Potchefstroom
+    city: Johannesburg
+- proxy: http://156.155.50.93:8080
+  protocol: http
+  ip: 156.155.50.93
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: Johannesburg
+- proxy: http://41.78.38.197:8005
+  protocol: http
+  ip: 41.78.38.197
+  port: 8005
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: Krugersdorp
 - proxy: socks5://168.253.92.93:10808
   protocol: socks5
   ip: 168.253.92.93
@@ -238,6 +258,16 @@
   geolocation:
     country: ZA
     city: Johannesburg
+- proxy: http://213.172.130.3:9999
+  protocol: http
+  ip: 213.172.130.3
+  port: 9999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: Worcester
 - proxy: http://196.25.34.194:8080
   protocol: http
   ip: 196.25.34.194
@@ -258,16 +288,6 @@
   geolocation:
     country: ZA
     city: Unknown
-- proxy: http://20.33.10.79:443
-  protocol: http
-  ip: 20.33.10.79
-  port: 443
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ZA
-    city: Johannesburg
 - proxy: http://169.239.209.12:8080
   protocol: http
   ip: 169.239.209.12
@@ -342,6 +362,36 @@
   protocol: http
   ip: 196.251.223.54
   port: 8104
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: Brits
+- proxy: http://41.78.36.250:8005
+  protocol: http
+  ip: 41.78.36.250
+  port: 8005
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: Krugersdorp
+- proxy: http://154.117.154.194:8080
+  protocol: http
+  ip: 154.117.154.194
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: Havenside
+- proxy: http://196.251.221.2:8080
+  protocol: http
+  ip: 196.251.221.2
+  port: 8080
   https: false
   anonymity: transparent
   score: 1

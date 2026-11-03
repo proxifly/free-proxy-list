@@ -148,16 +148,6 @@
   geolocation:
     country: LV
     city: Unknown
-- proxy: https://89.111.27.219:443
-  protocol: https
-  ip: 89.111.27.219
-  port: 443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: LV
-    city: Unknown
 - proxy: https://89.111.28.78:443
   protocol: https
   ip: 89.111.28.78
@@ -181,16 +171,6 @@
 - proxy: https://89.111.27.220:443
   protocol: https
   ip: 89.111.27.220
-  port: 443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: LV
-    city: Unknown
-- proxy: https://89.111.27.218:443
-  protocol: https
-  ip: 89.111.27.218
   port: 443
   https: true
   anonymity: transparent
@@ -428,11 +408,11 @@
   geolocation:
     country: LV
     city: Unknown
-- proxy: https://37.203.35.48:443
-  protocol: https
-  ip: 37.203.35.48
-  port: 443
-  https: true
+- proxy: socks4://159.148.146.65:5678
+  protocol: socks4
+  ip: 159.148.146.65
+  port: 5678
+  https: false
   anonymity: transparent
   score: 1
   geolocation:
