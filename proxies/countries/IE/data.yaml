@@ -1,3 +1,13 @@
+- proxy: socks5://45.159.173.68:1080
+  protocol: socks5
+  ip: 45.159.173.68
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IE
+    city: Unknown
 - proxy: https://89.124.11.13:443
   protocol: https
   ip: 89.124.11.13
@@ -11,16 +21,6 @@
 - proxy: https://89.124.11.10:443
   protocol: https
   ip: 89.124.11.10
-  port: 443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IE
-    city: Unknown
-- proxy: https://89.124.11.11:443
-  protocol: https
-  ip: 89.124.11.11
   port: 443
   https: true
   anonymity: transparent
@@ -138,16 +138,6 @@
   geolocation:
     country: IE
     city: Unknown
-- proxy: https://89.124.8.87:443
-  protocol: https
-  ip: 89.124.8.87
-  port: 443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IE
-    city: Unknown
 - proxy: https://89.124.8.85:443
   protocol: https
   ip: 89.124.8.85
@@ -258,16 +248,6 @@
   geolocation:
     country: IE
     city: Dublin
-- proxy: https://89.124.8.76:443
-  protocol: https
-  ip: 89.124.8.76
-  port: 443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IE
-    city: Unknown
 - proxy: https://34.249.214.108:443
   protocol: https
   ip: 34.249.214.108
@@ -278,16 +258,6 @@
   geolocation:
     country: IE
     city: Dublin
-- proxy: https://89.124.8.83:443
-  protocol: https
-  ip: 89.124.8.83
-  port: 443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IE
-    city: Unknown
 - proxy: https://34.248.251.170:443
   protocol: https
   ip: 34.248.251.170
@@ -298,20 +268,30 @@
   geolocation:
     country: IE
     city: Dublin
-- proxy: http://45.159.173.68:3128
-  protocol: http
+- proxy: https://108.131.152.118:7803
+  protocol: https
+  ip: 108.131.152.118
+  port: 7803
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IE
+    city: Dublin
+- proxy: socks4://45.159.173.68:1080
+  protocol: socks4
   ip: 45.159.173.68
-  port: 3128
+  port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IE
     city: Unknown
-- proxy: socks5://45.159.173.68:1080
-  protocol: socks5
+- proxy: http://45.159.173.68:3128
+  protocol: http
   ip: 45.159.173.68
-  port: 1080
+  port: 3128
   https: false
   anonymity: transparent
   score: 1
@@ -442,16 +422,6 @@
   protocol: http
   ip: 87.192.231.122
   port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IE
-    city: Unknown
-- proxy: http://45.159.173.68:3129
-  protocol: http
-  ip: 45.159.173.68
-  port: 3129
   https: false
   anonymity: transparent
   score: 1

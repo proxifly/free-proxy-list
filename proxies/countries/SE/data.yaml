@@ -8,6 +8,16 @@
   geolocation:
     country: SE
     city: Vaxjo
+- proxy: socks4://81.228.44.187:65530
+  protocol: socks4
+  ip: 81.228.44.187
+  port: 65530
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SE
+    city: Kinna
 - proxy: https://84.235.228.156:443
   protocol: https
   ip: 84.235.228.156
@@ -18,16 +28,6 @@
   geolocation:
     country: SE
     city: Unknown
-- proxy: https://46.246.39.246:443
-  protocol: https
-  ip: 46.246.39.246
-  port: 443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SE
-    city: Stockholm
 - proxy: https://217.210.129.243:443
   protocol: https
   ip: 217.210.129.243
@@ -43,6 +43,16 @@
   ip: 79.72.36.217
   port: 443
   https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SE
+    city: Unknown
+- proxy: http://80.225.250.95:8888
+  protocol: http
+  ip: 80.225.250.95
+  port: 8888
+  https: false
   anonymity: transparent
   score: 1
   geolocation:
@@ -428,16 +438,6 @@
   geolocation:
     country: SE
     city: Unknown
-- proxy: http://80.225.250.95:8888
-  protocol: http
-  ip: 80.225.250.95
-  port: 8888
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SE
-    city: Unknown
 - proxy: http://217.142.24.106:8085
   protocol: http
   ip: 217.142.24.106
@@ -542,6 +542,16 @@
   protocol: http
   ip: 80.225.231.172
   port: 9090
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SE
+    city: Unknown
+- proxy: http://84.8.248.36:3129
+  protocol: http
+  ip: 84.8.248.36
+  port: 3129
   https: false
   anonymity: transparent
   score: 1

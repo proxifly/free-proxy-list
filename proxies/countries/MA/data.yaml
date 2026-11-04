@@ -1,3 +1,13 @@
+- proxy: http://160.177.16.250:8080
+  protocol: http
+  ip: 160.177.16.250
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MA
+    city: Agadir
 - proxy: socks5://105.159.153.123:4567
   protocol: socks5
   ip: 105.159.153.123
@@ -12,16 +22,6 @@
   protocol: socks5
   ip: 105.159.150.184
   port: 4042
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MA
-    city: Casablanca
-- proxy: http://105.157.39.125:8080
-  protocol: http
-  ip: 105.157.39.125
-  port: 8080
   https: false
   anonymity: transparent
   score: 1

@@ -1,3 +1,13 @@
+- proxy: socks4://178.189.56.158:4153
+  protocol: socks4
+  ip: 178.189.56.158
+  port: 4153
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AT
+    city: Ramsau am Dachstein
 - proxy: socks4://213.173.75.222:5678
   protocol: socks4
   ip: 213.173.75.222
@@ -8,16 +18,6 @@
   geolocation:
     country: AT
     city: Kindberg
-- proxy: socks4://185.196.178.238:60606
-  protocol: socks4
-  ip: 185.196.178.238
-  port: 60606
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AT
-    city: Längenfeld
 - proxy: https://195.192.209.130:443
   protocol: https
   ip: 195.192.209.130
@@ -82,6 +82,16 @@
   protocol: http
   ip: 213.143.113.82
   port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AT
+    city: Vienna
+- proxy: http://193.233.232.33:3128
+  protocol: http
+  ip: 193.233.232.33
+  port: 3128
   https: false
   anonymity: transparent
   score: 1
@@ -188,3 +198,13 @@
   geolocation:
     country: AT
     city: Ramsau am Dachstein
+- proxy: http://193.233.232.33:3129
+  protocol: http
+  ip: 193.233.232.33
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AT
+    city: Vienna
