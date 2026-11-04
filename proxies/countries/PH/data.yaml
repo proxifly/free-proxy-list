@@ -48,9 +48,29 @@
   geolocation:
     country: PH
     city: Manila
-- proxy: http://180.191.137.49:8080
+- proxy: http://161.49.87.222:8095
   protocol: http
-  ip: 180.191.137.49
+  ip: 161.49.87.222
+  port: 8095
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
+    city: Makati City
+- proxy: http://180.191.231.123:9999
+  protocol: http
+  ip: 180.191.231.123
+  port: 9999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
+    city: General Trias
+- proxy: http://160.30.141.21:8080
+  protocol: http
+  ip: 160.30.141.21
   port: 8080
   https: false
   anonymity: transparent
@@ -58,56 +78,76 @@
   geolocation:
     country: PH
     city: Unknown
-- proxy: http://124.105.110.243:8181
+- proxy: http://163.227.87.123:5050
   protocol: http
-  ip: 124.105.110.243
-  port: 8181
+  ip: 163.227.87.123
+  port: 5050
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
+    city: Unknown
+- proxy: http://124.105.110.52:8082
+  protocol: http
+  ip: 124.105.110.52
+  port: 8082
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: PH
     city: Bacoor
-- proxy: http://180.191.100.135:8082
+- proxy: http://112.202.230.201:8082
   protocol: http
-  ip: 180.191.100.135
+  ip: 112.202.230.201
   port: 8082
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: PH
-    city: Makati City
-- proxy: http://124.6.143.5:8080
+    city: Quezon City
+- proxy: http://180.190.240.86:8082
   protocol: http
-  ip: 124.6.143.5
+  ip: 180.190.240.86
+  port: 8082
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
+    city: Iloilo City
+- proxy: http://163.52.18.238:8087
+  protocol: http
+  ip: 163.52.18.238
+  port: 8087
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
+    city: Unknown
+- proxy: http://222.127.155.12:8345
+  protocol: http
+  ip: 222.127.155.12
+  port: 8345
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
+    city: Makati City
+- proxy: http://180.190.222.184:8080
+  protocol: http
+  ip: 180.190.222.184
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: PH
-    city: Makati City
-- proxy: http://180.190.84.19:8082
-  protocol: http
-  ip: 180.190.84.19
-  port: 8082
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PH
-    city: Cagayan de Oro
-- proxy: http://103.25.220.246:8086
-  protocol: http
-  ip: 103.25.220.246
-  port: 8086
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PH
-    city: San Jose del Monte
+    city: Lahug
 - proxy: http://120.28.152.190:8082
   protocol: http
   ip: 120.28.152.190
@@ -118,156 +158,86 @@
   geolocation:
     country: PH
     city: San Juan
-- proxy: http://143.44.244.111:8081
+- proxy: http://120.28.135.76:8082
   protocol: http
-  ip: 143.44.244.111
-  port: 8081
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PH
-    city: Olongapo City
-- proxy: http://180.191.0.205:8081
-  protocol: http
-  ip: 180.191.0.205
-  port: 8081
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PH
-    city: Cabanatuan City
-- proxy: http://124.6.152.122:8080
-  protocol: http
-  ip: 124.6.152.122
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PH
-    city: Koronadal
-- proxy: http://112.211.38.208:8081
-  protocol: http
-  ip: 112.211.38.208
-  port: 8081
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PH
-    city: Makati City
-- proxy: http://58.69.124.137:8080
-  protocol: http
-  ip: 58.69.124.137
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PH
-    city: Bago City
-- proxy: http://49.145.53.55:8080
-  protocol: http
-  ip: 49.145.53.55
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PH
-    city: Iloilo City
-- proxy: http://124.107.173.219:8082
-  protocol: http
-  ip: 124.107.173.219
+  ip: 120.28.135.76
   port: 8082
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: PH
-    city: Abuyog
-- proxy: http://122.52.184.149:8082
+    city: Quezon City
+- proxy: http://124.6.156.226:8082
   protocol: http
-  ip: 122.52.184.149
+  ip: 124.6.156.226
   port: 8082
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: PH
-    city: Makati City
-- proxy: http://161.49.90.70:1337
+    city: La Libertad
+- proxy: http://161.49.219.181:8082
   protocol: http
-  ip: 161.49.90.70
-  port: 1337
+  ip: 161.49.219.181
+  port: 8082
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: PH
-    city: Makati City
-- proxy: http://49.148.17.137:9999
+    city: Minalin
+- proxy: http://120.28.216.166:8082
   protocol: http
-  ip: 49.148.17.137
-  port: 9999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PH
-    city: Cebu City
-- proxy: http://180.191.127.195:5050
-  protocol: http
-  ip: 180.191.127.195
-  port: 5050
+  ip: 120.28.216.166
+  port: 8082
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: PH
     city: Cagayan de Oro
-- proxy: http://119.94.119.26:8081
+- proxy: http://112.198.138.29:8082
   protocol: http
-  ip: 119.94.119.26
-  port: 8081
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PH
-    city: Santa Maria
-- proxy: http://180.191.23.171:8081
-  protocol: http
-  ip: 180.191.23.171
-  port: 8081
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PH
-    city: Cabanatuan City
-- proxy: http://112.208.174.83:8080
-  protocol: http
-  ip: 112.208.174.83
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PH
-    city: Sucat
-- proxy: http://122.52.185.85:8082
-  protocol: http
-  ip: 122.52.185.85
+  ip: 112.198.138.29
   port: 8082
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: PH
+    city: General Trias
+- proxy: http://112.211.84.86:8585
+  protocol: http
+  ip: 112.211.84.86
+  port: 8585
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
     city: Makati City
+- proxy: http://122.3.127.68:8080
+  protocol: http
+  ip: 122.3.127.68
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
+    city: Makati City
+- proxy: http://49.146.53.14:8082
+  protocol: http
+  ip: 49.146.53.14
+  port: 8082
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
+    city: Cagayan de Oro
 - proxy: http://180.190.187.41:5050
   protocol: http
   ip: 180.190.187.41
@@ -278,46 +248,86 @@
   geolocation:
     country: PH
     city: Lahug
-- proxy: http://222.127.232.128:9999
+- proxy: http://45.194.3.132:8080
   protocol: http
-  ip: 222.127.232.128
-  port: 9999
+  ip: 45.194.3.132
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: PH
-    city: Lahug
-- proxy: http://49.146.48.103:8082
+    city: Makati City
+- proxy: http://119.92.138.118:8088
   protocol: http
-  ip: 49.146.48.103
-  port: 8082
+  ip: 119.92.138.118
+  port: 8088
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: PH
-    city: Cagayan de Oro
-- proxy: http://139.135.182.132:8081
+    city: Cebu City
+- proxy: http://122.54.141.104:5050
   protocol: http
-  ip: 139.135.182.132
+  ip: 122.54.141.104
+  port: 5050
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
+    city: Davao City
+- proxy: http://119.93.158.162:9090
+  protocol: http
+  ip: 119.93.158.162
+  port: 9090
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
+    city: Angat
+- proxy: http://49.146.231.205:8081
+  protocol: http
+  ip: 49.146.231.205
   port: 8081
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: PH
-    city: Taguig
-- proxy: http://49.147.46.158:8082
+    city: Cebu City
+- proxy: http://49.144.20.20:8082
   protocol: http
-  ip: 49.147.46.158
+  ip: 49.144.20.20
   port: 8082
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: PH
-    city: Lucena City
+    city: Rosario
+- proxy: http://222.127.76.123:8082
+  protocol: http
+  ip: 222.127.76.123
+  port: 8082
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
+    city: Lahug
+- proxy: http://112.203.194.62:8082
+  protocol: http
+  ip: 112.203.194.62
+  port: 8082
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
+    city: Quezon City
 - proxy: socks5://38.49.210.79:40000
   protocol: socks5
   ip: 38.49.210.79
@@ -638,16 +648,16 @@
   geolocation:
     country: PH
     city: Mandaluyong City
-- proxy: http://49.146.231.205:8081
+- proxy: http://49.146.48.103:8082
   protocol: http
-  ip: 49.146.231.205
-  port: 8081
+  ip: 49.146.48.103
+  port: 8082
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: PH
-    city: Cebu City
+    city: Cagayan de Oro
 - proxy: http://122.3.77.27:8082
   protocol: http
   ip: 122.3.77.27
@@ -728,6 +738,16 @@
   geolocation:
     country: PH
     city: Cagayan de Oro
+- proxy: http://222.127.232.128:9999
+  protocol: http
+  ip: 222.127.232.128
+  port: 9999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
+    city: Lahug
 - proxy: http://180.191.14.210:8081
   protocol: http
   ip: 180.191.14.210
@@ -738,16 +758,26 @@
   geolocation:
     country: PH
     city: Cabanatuan City
-- proxy: http://49.144.20.20:8082
+- proxy: http://180.191.23.171:8081
   protocol: http
-  ip: 49.144.20.20
+  ip: 180.191.23.171
+  port: 8081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
+    city: Cabanatuan City
+- proxy: http://122.52.184.149:8082
+  protocol: http
+  ip: 122.52.184.149
   port: 8082
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: PH
-    city: Rosario
+    city: Makati City
 - proxy: http://180.191.1.195:8081
   protocol: http
   ip: 180.191.1.195
@@ -858,16 +888,6 @@
   geolocation:
     country: PH
     city: Unknown
-- proxy: http://112.202.230.201:8082
-  protocol: http
-  ip: 112.202.230.201
-  port: 8082
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PH
-    city: Quezon City
 - proxy: http://119.93.128.161:8082
   protocol: http
   ip: 119.93.128.161
@@ -968,16 +988,6 @@
   geolocation:
     country: PH
     city: San Pedro
-- proxy: http://222.127.76.123:8082
-  protocol: http
-  ip: 222.127.76.123
-  port: 8082
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PH
-    city: Lahug
 - proxy: http://112.201.227.236:5050
   protocol: http
   ip: 112.201.227.236
@@ -1058,16 +1068,6 @@
   geolocation:
     country: PH
     city: Cebu City
-- proxy: http://45.194.3.132:8080
-  protocol: http
-  ip: 45.194.3.132
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PH
-    city: Makati City
 - proxy: http://119.93.69.83:8081
   protocol: http
   ip: 119.93.69.83
@@ -1118,6 +1118,16 @@
   geolocation:
     country: PH
     city: Naic
+- proxy: http://119.94.119.26:8081
+  protocol: http
+  ip: 119.94.119.26
+  port: 8081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
+    city: Santa Maria
 - proxy: http://123.253.137.3:8080
   protocol: http
   ip: 123.253.137.3
@@ -1128,16 +1138,16 @@
   geolocation:
     country: PH
     city: Aroroy
-- proxy: http://49.146.53.14:8082
+- proxy: http://49.145.53.55:8080
   protocol: http
-  ip: 49.146.53.14
-  port: 8082
+  ip: 49.145.53.55
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: PH
-    city: Cagayan de Oro
+    city: Iloilo City
 - proxy: http://180.191.153.75:2020
   protocol: http
   ip: 180.191.153.75
@@ -1288,16 +1298,6 @@
   geolocation:
     country: PH
     city: Pembo
-- proxy: http://112.211.84.86:8585
-  protocol: http
-  ip: 112.211.84.86
-  port: 8585
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PH
-    city: Makati City
 - proxy: http://27.49.68.66:9999
   protocol: http
   ip: 27.49.68.66
@@ -1458,136 +1458,46 @@
   geolocation:
     country: PH
     city: Makati City
-- proxy: http://49.149.195.243:8081
+- proxy: http://180.194.78.50:8082
   protocol: http
-  ip: 49.149.195.243
-  port: 8081
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PH
-    city: Davao City
-- proxy: http://119.95.163.223:8082
-  protocol: http
-  ip: 119.95.163.223
+  ip: 180.194.78.50
   port: 8082
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: PH
-    city: Manila
-- proxy: http://122.54.139.32:5050
+    city: Quezon City
+- proxy: http://112.207.166.195:8082
   protocol: http
-  ip: 122.54.139.32
-  port: 5050
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PH
-    city: Tagbilaran
-- proxy: http://45.194.3.119:8080
-  protocol: http
-  ip: 45.194.3.119
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PH
-    city: Makati City
-- proxy: http://124.105.3.173:5051
-  protocol: http
-  ip: 124.105.3.173
-  port: 5051
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PH
-    city: Apalit
-- proxy: http://103.174.12.240:8082
-  protocol: http
-  ip: 103.174.12.240
+  ip: 112.207.166.195
   port: 8082
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PH
-    city: Samal
-- proxy: http://180.191.16.9:8085
-  protocol: http
-  ip: 180.191.16.9
-  port: 8085
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PH
-    city: Cabanatuan City
-- proxy: http://119.92.252.190:8082
-  protocol: http
-  ip: 119.92.252.190
-  port: 8082
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PH
-    city: Binangonan
-- proxy: http://119.94.124.90:8081
-  protocol: http
-  ip: 119.94.124.90
-  port: 8081
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PH
-    city: Santa Maria
-- proxy: http://8.220.136.174:4006
-  protocol: http
-  ip: 8.220.136.174
-  port: 4006
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PH
-    city: Manila
-- proxy: http://180.190.222.184:8080
-  protocol: http
-  ip: 180.190.222.184
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PH
-    city: Lahug
-- proxy: http://124.217.5.100:5050
-  protocol: http
-  ip: 124.217.5.100
-  port: 5050
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: PH
     city: Unknown
-- proxy: http://180.191.231.112:8082
+- proxy: http://119.93.139.196:8082
   protocol: http
-  ip: 180.191.231.112
+  ip: 119.93.139.196
   port: 8082
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: PH
-    city: General Trias
+    city: Valenzuela
+- proxy: http://124.6.152.122:8080
+  protocol: http
+  ip: 124.6.152.122
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
+    city: Koronadal
 - proxy: http://180.191.127.7:8082
   protocol: http
   ip: 180.191.127.7
@@ -1598,56 +1508,26 @@
   geolocation:
     country: PH
     city: Cagayan de Oro
-- proxy: http://120.28.200.84:5050
+- proxy: http://139.135.141.12:8095
   protocol: http
-  ip: 120.28.200.84
-  port: 5050
+  ip: 139.135.141.12
+  port: 8095
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: PH
-    city: Davao City
-- proxy: http://180.191.233.16:8085
+    city: Quezon City
+- proxy: http://139.135.182.132:8081
   protocol: http
-  ip: 180.191.233.16
-  port: 8085
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PH
-    city: General Trias
-- proxy: http://180.191.153.2:2020
-  protocol: http
-  ip: 180.191.153.2
-  port: 2020
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PH
-    city: Makati City
-- proxy: http://180.232.171.210:8080
-  protocol: http
-  ip: 180.232.171.210
-  port: 8080
+  ip: 139.135.182.132
+  port: 8081
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: PH
     city: Taguig
-- proxy: http://222.127.206.145:8085
-  protocol: http
-  ip: 222.127.206.145
-  port: 8085
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PH
-    city: Makati City
 - proxy: http://124.106.83.244:8083
   protocol: http
   ip: 124.106.83.244
@@ -1658,36 +1538,16 @@
   geolocation:
     country: PH
     city: Paranaque City
-- proxy: http://124.106.223.156:9999
+- proxy: http://124.105.196.148:8081
   protocol: http
-  ip: 124.106.223.156
-  port: 9999
+  ip: 124.105.196.148
+  port: 8081
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: PH
-    city: Quezon City
-- proxy: http://124.105.110.52:8082
-  protocol: http
-  ip: 124.105.110.52
-  port: 8082
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PH
-    city: Bacoor
-- proxy: http://49.149.126.183:8082
-  protocol: http
-  ip: 49.149.126.183
-  port: 8082
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PH
-    city: Cagayan de Oro
+    city: Guiguinto
 - proxy: http://120.28.82.207:8082
   protocol: http
   ip: 120.28.82.207
@@ -1698,26 +1558,46 @@
   geolocation:
     country: PH
     city: Caloocan City
-- proxy: http://61.245.30.166:5050
+- proxy: http://180.190.186.161:8082
   protocol: http
-  ip: 61.245.30.166
+  ip: 180.190.186.161
+  port: 8082
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
+    city: Lahug
+- proxy: http://123.253.136.159:1256
+  protocol: http
+  ip: 123.253.136.159
+  port: 1256
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
+    city: Aroroy
+- proxy: http://180.191.229.72:5050
+  protocol: http
+  ip: 180.191.229.72
   port: 5050
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: PH
-    city: Unknown
-- proxy: http://122.54.141.104:5050
+    city: General Trias
+- proxy: http://122.3.87.41:8080
   protocol: http
-  ip: 122.54.141.104
-  port: 5050
+  ip: 122.3.87.41
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: PH
-    city: Davao City
+    city: Plaridel
 - proxy: http://115.147.26.200:8181
   protocol: http
   ip: 115.147.26.200
@@ -1728,23 +1608,183 @@
   geolocation:
     country: PH
     city: Labo
-- proxy: http://161.49.219.181:8082
+- proxy: http://49.148.17.137:9999
   protocol: http
-  ip: 161.49.219.181
+  ip: 49.148.17.137
+  port: 9999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
+    city: Cebu City
+- proxy: http://8.220.189.51:8118
+  protocol: http
+  ip: 8.220.189.51
+  port: 8118
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
+    city: Manila
+- proxy: http://119.93.120.93:8000
+  protocol: http
+  ip: 119.93.120.93
+  port: 8000
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
+    city: Makati City
+- proxy: http://180.191.120.247:5050
+  protocol: http
+  ip: 180.191.120.247
+  port: 5050
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
+    city: Cagayan de Oro
+- proxy: http://119.93.170.95:8085
+  protocol: http
+  ip: 119.93.170.95
+  port: 8085
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
+    city: Makati City
+- proxy: http://120.28.194.248:8282
+  protocol: http
+  ip: 120.28.194.248
+  port: 8282
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
+    city: Cagayan de Oro
+- proxy: http://112.203.219.172:8082
+  protocol: http
+  ip: 112.203.219.172
   port: 8082
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: PH
-    city: Minalin
-- proxy: http://119.93.36.139:8080
+    city: Quezon City
+- proxy: http://115.147.16.205:5050
   protocol: http
-  ip: 119.93.36.139
+  ip: 115.147.16.205
+  port: 5050
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
+    city: Quezon City
+- proxy: http://180.191.234.166:8080
+  protocol: http
+  ip: 180.191.234.166
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: PH
-    city: Las Pinas
+    city: General Trias
+- proxy: http://180.190.185.211:9999
+  protocol: http
+  ip: 180.190.185.211
+  port: 9999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
+    city: Lahug
+- proxy: http://180.191.0.205:8081
+  protocol: http
+  ip: 180.191.0.205
+  port: 8081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
+    city: Cabanatuan City
+- proxy: http://122.52.20.79:8081
+  protocol: http
+  ip: 122.52.20.79
+  port: 8081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
+    city: Manila
+- proxy: http://143.44.244.111:8081
+  protocol: http
+  ip: 143.44.244.111
+  port: 8081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
+    city: Olongapo City
+- proxy: http://112.208.173.248:8081
+  protocol: http
+  ip: 112.208.173.248
+  port: 8081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
+    city: Sucat
+- proxy: http://180.191.229.193:5050
+  protocol: http
+  ip: 180.191.229.193
+  port: 5050
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
+    city: General Trias
+- proxy: http://124.6.164.229:8085
+  protocol: http
+  ip: 124.6.164.229
+  port: 8085
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
+    city: Lahug
+- proxy: http://58.69.175.135:8080
+  protocol: http
+  ip: 58.69.175.135
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
+    city: Malabon
+- proxy: http://122.54.160.148:8082
+  protocol: http
+  ip: 122.54.160.148
+  port: 8082
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
+    city: Makati City
