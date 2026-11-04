@@ -8,16 +8,6 @@
   geolocation:
     country: CD
     city: Unknown
-- proxy: http://102.222.231.1:2333
-  protocol: http
-  ip: 102.222.231.1
-  port: 2333
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CD
-    city: Unknown
 - proxy: socks5://217.171.85.178:1080
   protocol: socks5
   ip: 217.171.85.178
@@ -28,10 +18,20 @@
   geolocation:
     country: CD
     city: Unknown
-- proxy: http://217.171.94.166:1081
+- proxy: http://102.222.231.1:2333
   protocol: http
-  ip: 217.171.94.166
-  port: 1081
+  ip: 102.222.231.1
+  port: 2333
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CD
+    city: Unknown
+- proxy: http://102.36.168.185:8080
+  protocol: http
+  ip: 102.36.168.185
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
