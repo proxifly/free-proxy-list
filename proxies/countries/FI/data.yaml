@@ -1,17 +1,27 @@
-- proxy: socks5://65.21.252.66:10803
+- proxy: socks5://65.21.252.66:10811
   protocol: socks5
   ip: 65.21.252.66
-  port: 10803
+  port: 10811
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: FI
     city: Helsinki
-- proxy: socks5://65.21.252.66:10807
+- proxy: socks5://65.21.252.66:10808
   protocol: socks5
   ip: 65.21.252.66
-  port: 10807
+  port: 10808
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: FI
+    city: Helsinki
+- proxy: socks5://65.21.252.66:10814
+  protocol: socks5
+  ip: 65.21.252.66
+  port: 10814
   https: false
   anonymity: transparent
   score: 1
@@ -98,19 +108,19 @@
   geolocation:
     country: FI
     city: Helsinki
-- proxy: socks5://65.21.252.66:10813
-  protocol: socks5
-  ip: 65.21.252.66
-  port: 10813
+- proxy: http://65.108.203.36:18080
+  protocol: http
+  ip: 65.108.203.36
+  port: 18080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: FI
     city: Helsinki
-- proxy: http://65.109.65.239:28080
+- proxy: http://65.108.203.37:28080
   protocol: http
-  ip: 65.109.65.239
+  ip: 65.108.203.37
   port: 28080
   https: false
   anonymity: transparent
@@ -518,26 +528,26 @@
   geolocation:
     country: FI
     city: Helsinki
-- proxy: http://185.17.2.127:3128
+- proxy: http://34.88.38.81:9443
   protocol: http
-  ip: 185.17.2.127
-  port: 3128
+  ip: 34.88.38.81
+  port: 9443
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: FI
-    city: Helsinki
-- proxy: http://65.108.203.35:18080
+    city: Lappeenranta
+- proxy: http://35.228.49.168:9443
   protocol: http
-  ip: 65.108.203.35
-  port: 18080
+  ip: 35.228.49.168
+  port: 9443
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: FI
-    city: Helsinki
+    city: Lappeenranta
 - proxy: http://65.109.231.48:8080
   protocol: http
   ip: 65.109.231.48
@@ -578,10 +588,10 @@
   geolocation:
     country: FI
     city: Helsinki
-- proxy: http://185.17.2.127:3129
+- proxy: http://65.108.203.35:18080
   protocol: http
-  ip: 185.17.2.127
-  port: 3129
+  ip: 65.108.203.35
+  port: 18080
   https: false
   anonymity: transparent
   score: 1

@@ -1,13 +1,3 @@
-- proxy: socks5://92.205.186.129:1080
-  protocol: socks5
-  ip: 92.205.186.129
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: FR
-    city: Strasbourg
 - proxy: socks5://213.199.47.140:1080
   protocol: socks5
   ip: 213.199.47.140
@@ -248,10 +238,10 @@
   geolocation:
     country: FR
     city: Unknown
-- proxy: https://82.64.46.151:8012
+- proxy: https://82.64.46.151:8007
   protocol: https
   ip: 82.64.46.151
-  port: 8012
+  port: 8007
   https: true
   anonymity: transparent
   score: 1
@@ -358,6 +348,16 @@
   geolocation:
     country: FR
     city: Pessac-sur-Dordogne
+- proxy: https://13.38.27.183:3351
+  protocol: https
+  ip: 13.38.27.183
+  port: 3351
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: FR
+    city: Paris
 - proxy: https://15.236.122.205:443
   protocol: https
   ip: 15.236.122.205
@@ -468,6 +468,16 @@
   geolocation:
     country: FR
     city: Paris
+- proxy: https://15.236.122.91:443
+  protocol: https
+  ip: 15.236.122.91
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: FR
+    city: Paris
 - proxy: https://15.236.239.3:443
   protocol: https
   ip: 15.236.239.3
@@ -488,6 +498,16 @@
   geolocation:
     country: FR
     city: Paris
+- proxy: http://149.202.47.125:3128
+  protocol: http
+  ip: 149.202.47.125
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: FR
+    city: Unknown
 - proxy: http://37.187.109.70:10111
   protocol: http
   ip: 37.187.109.70
@@ -1028,16 +1048,36 @@
   geolocation:
     country: FR
     city: Paris
-- proxy: http://163.172.53.142:80
+- proxy: http://51.75.156.167:10002
   protocol: http
-  ip: 163.172.53.142
-  port: 80
+  ip: 51.75.156.167
+  port: 10002
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: FR
     city: Unknown
+- proxy: http://149.202.184.186:3128
+  protocol: http
+  ip: 149.202.184.186
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: FR
+    city: Unknown
+- proxy: http://45.9.117.63:3128
+  protocol: http
+  ip: 45.9.117.63
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: FR
+    city: Strasbourg
 - proxy: http://188.165.199.207:80
   protocol: http
   ip: 188.165.199.207
@@ -1048,16 +1088,16 @@
   geolocation:
     country: FR
     city: Unknown
-- proxy: http://51.68.10.90:80
-  protocol: http
-  ip: 51.68.10.90
-  port: 80
+- proxy: socks5://92.205.186.129:1080
+  protocol: socks5
+  ip: 92.205.186.129
+  port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: FR
-    city: Créteil
+    city: Strasbourg
 - proxy: socks5://57.128.249.250:9052
   protocol: socks5
   ip: 57.128.249.250
@@ -1528,20 +1568,10 @@
   geolocation:
     country: FR
     city: Paris
-- proxy: http://82.67.105.31:8888
+- proxy: http://51.159.6.55:5555
   protocol: http
-  ip: 82.67.105.31
-  port: 8888
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: FR
-    city: Unknown
-- proxy: http://51.159.66.158:3128
-  protocol: http
-  ip: 51.159.66.158
-  port: 3128
+  ip: 51.159.6.55
+  port: 5555
   https: false
   anonymity: transparent
   score: 1
@@ -1558,19 +1588,19 @@
   geolocation:
     country: FR
     city: Unknown
-- proxy: http://149.202.184.186:3128
+- proxy: http://51.159.66.158:3128
   protocol: http
-  ip: 149.202.184.186
+  ip: 51.159.66.158
   port: 3128
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: FR
-    city: Unknown
-- proxy: http://37.59.110.73:80
+    city: Paris
+- proxy: http://163.172.53.142:80
   protocol: http
-  ip: 37.59.110.73
+  ip: 163.172.53.142
   port: 80
   https: false
   anonymity: transparent
@@ -1588,19 +1618,49 @@
   geolocation:
     country: FR
     city: Unknown
-- proxy: http://51.38.120.110:10009
+- proxy: http://62.210.189.192:13323
   protocol: http
-  ip: 51.38.120.110
-  port: 10009
+  ip: 62.210.189.192
+  port: 13323
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: FR
     city: Unknown
-- proxy: http://54.36.101.53:3128
+- proxy: http://162.19.177.244:10014
   protocol: http
-  ip: 54.36.101.53
+  ip: 162.19.177.244
+  port: 10014
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: FR
+    city: Unknown
+- proxy: http://54.37.74.255:3128
+  protocol: http
+  ip: 54.37.74.255
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: FR
+    city: Unknown
+- proxy: http://195.154.233.154:8156
+  protocol: http
+  ip: 195.154.233.154
+  port: 8156
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: FR
+    city: Marseille
+- proxy: http://141.94.220.45:3128
+  protocol: http
+  ip: 141.94.220.45
   port: 3128
   https: false
   anonymity: transparent
@@ -1618,39 +1678,29 @@
   geolocation:
     country: FR
     city: Unknown
-- proxy: http://51.38.120.110:10013
+- proxy: http://51.68.10.90:80
   protocol: http
-  ip: 51.38.120.110
-  port: 10013
+  ip: 51.68.10.90
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: FR
+    city: Créteil
+- proxy: http://51.195.34.91:10012
+  protocol: http
+  ip: 51.195.34.91
+  port: 10012
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: FR
     city: Unknown
-- proxy: http://45.9.117.63:3128
+- proxy: http://54.36.101.53:3128
   protocol: http
-  ip: 45.9.117.63
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: FR
-    city: Strasbourg
-- proxy: http://54.37.74.255:3128
-  protocol: http
-  ip: 54.37.74.255
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: FR
-    city: Unknown
-- proxy: http://57.128.44.204:3128
-  protocol: http
-  ip: 57.128.44.204
+  ip: 54.36.101.53
   port: 3128
   https: false
   anonymity: transparent
@@ -1658,16 +1708,36 @@
   geolocation:
     country: FR
     city: Unknown
-- proxy: http://92.205.186.129:1080
+- proxy: http://54.37.126.248:3001
   protocol: http
-  ip: 92.205.186.129
-  port: 1080
+  ip: 54.37.126.248
+  port: 3001
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: FR
-    city: Strasbourg
+    city: Unknown
+- proxy: http://82.67.114.12:8888
+  protocol: http
+  ip: 82.67.114.12
+  port: 8888
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: FR
+    city: Unknown
+- proxy: http://146.59.14.197:8118
+  protocol: http
+  ip: 146.59.14.197
+  port: 8118
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: FR
+    city: Unknown
 - proxy: http://31.24.252.97:8080
   protocol: http
   ip: 31.24.252.97
@@ -1678,6 +1748,16 @@
   geolocation:
     country: FR
     city: Poitiers
+- proxy: http://82.67.105.31:8888
+  protocol: http
+  ip: 82.67.105.31
+  port: 8888
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: FR
+    city: Unknown
 - proxy: http://212.23.175.80:8443
   protocol: http
   ip: 212.23.175.80
@@ -1902,6 +1982,36 @@
   protocol: http
   ip: 94.23.19.184
   port: 2912
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: FR
+    city: Unknown
+- proxy: http://51.159.66.158:3129
+  protocol: http
+  ip: 51.159.66.158
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: FR
+    city: Paris
+- proxy: http://51.195.115.18:8080
+  protocol: http
+  ip: 51.195.115.18
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: FR
+    city: Unknown
+- proxy: http://141.95.53.104:9898
+  protocol: http
+  ip: 141.95.53.104
+  port: 9898
   https: false
   anonymity: transparent
   score: 1
