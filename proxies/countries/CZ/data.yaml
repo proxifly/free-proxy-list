@@ -1,3 +1,23 @@
+- proxy: socks5://95.85.249.247:1080
+  protocol: socks5
+  ip: 95.85.249.247
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Semcice
+- proxy: socks4://46.8.104.176:1080
+  protocol: socks4
+  ip: 46.8.104.176
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Unknown
 - proxy: https://31.31.78.117:443
   protocol: https
   ip: 31.31.78.117
@@ -68,16 +88,6 @@
   geolocation:
     country: CZ
     city: Unknown
-- proxy: socks4://95.85.249.247:1080
-  protocol: socks4
-  ip: 95.85.249.247
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Semcice
 - proxy: socks5://91.218.234.54:11080
   protocol: socks5
   ip: 91.218.234.54
@@ -88,16 +98,6 @@
   geolocation:
     country: CZ
     city: Stribro
-- proxy: socks5://95.85.249.247:1080
-  protocol: socks5
-  ip: 95.85.249.247
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Semcice
 - proxy: socks5://193.165.115.78:1080
   protocol: socks5
   ip: 193.165.115.78
@@ -318,130 +318,10 @@
   geolocation:
     country: CZ
     city: Unknown
-- proxy: http://217.16.183.156:8080
+- proxy: http://217.16.183.155:8080
   protocol: http
-  ip: 217.16.183.156
+  ip: 217.16.183.155
   port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Unknown
-- proxy: http://93.91.156.65:8080
-  protocol: http
-  ip: 93.91.156.65
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Kadan
-- proxy: http://95.85.249.247:3128
-  protocol: http
-  ip: 95.85.249.247
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Semcice
-- proxy: http://85.207.89.34:8080
-  protocol: http
-  ip: 85.207.89.34
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Opava
-- proxy: http://185.82.238.42:8888
-  protocol: http
-  ip: 185.82.238.42
-  port: 8888
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Kojetin
-- proxy: http://85.207.11.133:3128
-  protocol: http
-  ip: 85.207.11.133
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Krtiny
-- proxy: http://185.71.233.113:8080
-  protocol: http
-  ip: 185.71.233.113
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Bzova
-- proxy: http://81.19.4.118:8000
-  protocol: http
-  ip: 81.19.4.118
-  port: 8000
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Brno
-- proxy: http://185.40.80.143:4153
-  protocol: http
-  ip: 185.40.80.143
-  port: 4153
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Klatovy
-- proxy: http://176.62.229.17:1080
-  protocol: http
-  ip: 176.62.229.17
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Trutnov
-- proxy: http://213.151.79.84:8080
-  protocol: http
-  ip: 213.151.79.84
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Prague
-- proxy: http://217.197.151.182:5678
-  protocol: http
-  ip: 217.197.151.182
-  port: 5678
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Přerov
-- proxy: http://46.8.104.176:1080
-  protocol: http
-  ip: 46.8.104.176
-  port: 1080
   https: false
   anonymity: transparent
   score: 1
@@ -458,6 +338,16 @@
   geolocation:
     country: CZ
     city: Prague
+- proxy: http://185.82.238.42:8888
+  protocol: http
+  ip: 185.82.238.42
+  port: 8888
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Kojetin
 - proxy: http://95.129.101.73:80
   protocol: http
   ip: 95.129.101.73
@@ -468,3 +358,103 @@
   geolocation:
     country: CZ
     city: Unknown
+- proxy: http://93.91.156.65:8080
+  protocol: http
+  ip: 93.91.156.65
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Kadan
+- proxy: http://217.75.208.178:8080
+  protocol: http
+  ip: 217.75.208.178
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Louny
+- proxy: http://217.16.183.156:8080
+  protocol: http
+  ip: 217.16.183.156
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Unknown
+- proxy: http://91.218.234.54:11080
+  protocol: http
+  ip: 91.218.234.54
+  port: 11080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Stribro
+- proxy: http://85.207.11.133:3128
+  protocol: http
+  ip: 85.207.11.133
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Krtiny
+- proxy: http://213.151.79.84:8080
+  protocol: http
+  ip: 213.151.79.84
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Prague
+- proxy: http://188.119.98.126:9999
+  protocol: http
+  ip: 188.119.98.126
+  port: 9999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Unknown
+- proxy: http://85.207.89.34:8080
+  protocol: http
+  ip: 85.207.89.34
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Opava
+- proxy: http://185.71.233.113:8080
+  protocol: http
+  ip: 185.71.233.113
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Bzova
+- proxy: http://185.73.103.23:3128
+  protocol: http
+  ip: 185.73.103.23
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Chodov
