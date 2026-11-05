@@ -8,6 +8,16 @@
   geolocation:
     country: PT
     city: Lisbon
+- proxy: https://94.126.171.252:443
+  protocol: https
+  ip: 94.126.171.252
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PT
+    city: Unknown
 - proxy: http://176.61.151.123:80
   protocol: http
   ip: 176.61.151.123
@@ -18,13 +28,3 @@
   geolocation:
     country: PT
     city: Unknown
-- proxy: http://161.230.153.228:3128
-  protocol: http
-  ip: 161.230.153.228
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PT
-    city: Lisbon
