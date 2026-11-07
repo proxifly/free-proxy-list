@@ -1,3 +1,33 @@
+- proxy: socks4://109.245.110.145:4145
+  protocol: socks4
+  ip: 109.245.110.145
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RS
+    city: Unknown
+- proxy: socks4://95.140.118.34:1080
+  protocol: socks4
+  ip: 95.140.118.34
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RS
+    city: Unknown
+- proxy: socks4://217.16.130.83:4145
+  protocol: socks4
+  ip: 217.16.130.83
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RS
+    city: Unknown
 - proxy: https://212.200.119.174:443
   protocol: https
   ip: 212.200.119.174
@@ -8,11 +38,31 @@
   geolocation:
     country: RS
     city: Aleksandrovac
-- proxy: socks4://217.169.223.18:1080
-  protocol: socks4
-  ip: 217.169.223.18
-  port: 1080
-  https: false
+- proxy: https://146.70.221.18:9443
+  protocol: https
+  ip: 146.70.221.18
+  port: 9443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RS
+    city: Belgrade
+- proxy: https://146.70.221.34:9443
+  protocol: https
+  ip: 146.70.221.34
+  port: 9443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RS
+    city: Belgrade
+- proxy: https://146.70.221.18:443
+  protocol: https
+  ip: 146.70.221.18
+  port: 443
+  https: true
   anonymity: transparent
   score: 1
   geolocation:
@@ -28,6 +78,16 @@
   geolocation:
     country: RS
     city: Novi Sad
+- proxy: http://212.200.223.89:8080
+  protocol: http
+  ip: 212.200.223.89
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RS
+    city: Conoplja
 - proxy: socks5://138.124.125.198:1080
   protocol: socks5
   ip: 138.124.125.198
@@ -48,6 +108,16 @@
   geolocation:
     country: RS
     city: Belgrade
+- proxy: http://77.46.138.49:8080
+  protocol: http
+  ip: 77.46.138.49
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RS
+    city: Unknown
 - proxy: http://87.250.63.90:8080
   protocol: http
   ip: 87.250.63.90
@@ -72,16 +142,6 @@
   protocol: http
   ip: 95.140.113.74
   port: 6666
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RS
-    city: Unknown
-- proxy: http://77.46.138.49:8080
-  protocol: http
-  ip: 77.46.138.49
-  port: 8080
   https: false
   anonymity: transparent
   score: 1
