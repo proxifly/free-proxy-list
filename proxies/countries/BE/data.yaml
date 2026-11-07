@@ -8,26 +8,6 @@
   geolocation:
     country: BE
     city: Brussels
-- proxy: https://146.70.123.98:9443
-  protocol: https
-  ip: 146.70.123.98
-  port: 9443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BE
-    city: Brussels
-- proxy: https://146.70.176.242:9443
-  protocol: https
-  ip: 146.70.176.242
-  port: 9443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BE
-    city: Brussels
 - proxy: https://89.207.188.137:443
   protocol: https
   ip: 89.207.188.137
@@ -58,16 +38,6 @@
   geolocation:
     country: BE
     city: Brussels
-- proxy: http://146.103.123.157:80
-  protocol: http
-  ip: 146.103.123.157
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BE
-    city: Unknown
 - proxy: socks5://146.103.124.138:1080
   protocol: socks5
   ip: 146.103.124.138
@@ -142,6 +112,16 @@
   protocol: socks5
   ip: 146.103.125.38
   port: 9053
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BE
+    city: Unknown
+- proxy: http://146.103.123.157:80
+  protocol: http
+  ip: 146.103.123.157
+  port: 80
   https: false
   anonymity: transparent
   score: 1
