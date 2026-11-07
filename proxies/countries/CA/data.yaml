@@ -1,16 +1,66 @@
-- proxy: socks5://192.111.137.34:18765
+- proxy: socks5://192.111.139.163:19404
   protocol: socks5
-  ip: 192.111.137.34
-  port: 18765
+  ip: 192.111.139.163
+  port: 19404
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: CA
     city: Brampton
-- proxy: socks5://129.222.108.201:1080
-  protocol: socks5
-  ip: 129.222.108.201
+- proxy: socks4://192.111.139.165:4145
+  protocol: socks4
+  ip: 192.111.139.165
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Brampton
+- proxy: socks4://198.8.94.170:4145
+  protocol: socks4
+  ip: 198.8.94.170
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Toronto
+- proxy: socks4://192.111.129.150:4145
+  protocol: socks4
+  ip: 192.111.129.150
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Brampton
+- proxy: socks4://198.8.84.3:4145
+  protocol: socks4
+  ip: 198.8.84.3
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Unknown
+- proxy: socks4://68.71.251.134:4145
+  protocol: socks4
+  ip: 68.71.251.134
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Toronto
+- proxy: socks4://129.222.104.125:1080
+  protocol: socks4
+  ip: 129.222.104.125
   port: 1080
   https: false
   anonymity: transparent
@@ -18,16 +68,6 @@
   geolocation:
     country: CA
     city: Winnipeg
-- proxy: https://149.57.28.9:9443
-  protocol: https
-  ip: 149.57.28.9
-  port: 9443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Toronto
 - proxy: https://129.97.50.72:443
   protocol: https
   ip: 129.97.50.72
@@ -118,9 +158,9 @@
   geolocation:
     country: CA
     city: Pointe-Claire
-- proxy: https://149.57.28.9:443
+- proxy: https://198.44.142.51:443
   protocol: https
-  ip: 149.57.28.9
+  ip: 198.44.142.51
   port: 443
   https: true
   anonymity: transparent
@@ -128,16 +168,16 @@
   geolocation:
     country: CA
     city: Toronto
-- proxy: https://69.161.223.85:8447
+- proxy: https://198.44.142.51:9443
   protocol: https
-  ip: 69.161.223.85
-  port: 8447
+  ip: 198.44.142.51
+  port: 9443
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: CA
-    city: Hastings
+    city: Toronto
 - proxy: https://4.172.245.121:443
   protocol: https
   ip: 4.172.245.121
@@ -158,16 +198,26 @@
   geolocation:
     country: CA
     city: Unknown
-- proxy: https://206.223.183.21:9443
+- proxy: https://69.161.223.220:8447
   protocol: https
-  ip: 206.223.183.21
-  port: 9443
+  ip: 69.161.223.220
+  port: 8447
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: CA
-    city: Toronto
+    city: Hastings
+- proxy: https://69.161.222.98:8447
+  protocol: https
+  ip: 69.161.222.98
+  port: 8447
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Hastings
 - proxy: https://208.66.248.70:443
   protocol: https
   ip: 208.66.248.70
@@ -178,19 +228,29 @@
   geolocation:
     country: CA
     city: Vancouver
-- proxy: https://15.223.187.219:3128
+- proxy: https://69.161.223.220:8443
   protocol: https
-  ip: 15.223.187.219
-  port: 3128
+  ip: 69.161.223.220
+  port: 8443
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: CA
-    city: Montreal
-- proxy: https://69.161.223.124:8447
+    city: Hastings
+- proxy: https://69.161.223.38:8443
   protocol: https
-  ip: 69.161.223.124
+  ip: 69.161.223.38
+  port: 8443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Hastings
+- proxy: https://69.161.222.228:8447
+  protocol: https
+  ip: 69.161.222.228
   port: 8447
   https: true
   anonymity: transparent
@@ -198,9 +258,9 @@
   geolocation:
     country: CA
     city: Hastings
-- proxy: https://69.161.223.196:8443
+- proxy: https://69.161.222.90:8443
   protocol: https
-  ip: 69.161.223.196
+  ip: 69.161.222.90
   port: 8443
   https: true
   anonymity: transparent
@@ -208,40 +268,10 @@
   geolocation:
     country: CA
     city: Hastings
-- proxy: https://69.161.222.210:8443
+- proxy: https://69.161.223.133:8447
   protocol: https
-  ip: 69.161.222.210
-  port: 8443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Hastings
-- proxy: https://69.161.223.26:8443
-  protocol: https
-  ip: 69.161.223.26
-  port: 8443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Hastings
-- proxy: https://35.183.78.223:34960
-  protocol: https
-  ip: 35.183.78.223
-  port: 34960
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Montreal
-- proxy: https://69.161.222.40:8443
-  protocol: https
-  ip: 69.161.222.40
-  port: 8443
+  ip: 69.161.223.133
+  port: 8447
   https: true
   anonymity: transparent
   score: 1
@@ -258,6 +288,36 @@
   geolocation:
     country: CA
     city: Montreal
+- proxy: https://69.161.223.25:8443
+  protocol: https
+  ip: 69.161.223.25
+  port: 8443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Hastings
+- proxy: https://69.161.222.209:8443
+  protocol: https
+  ip: 69.161.222.209
+  port: 8443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Hastings
+- proxy: https://69.161.222.224:8447
+  protocol: https
+  ip: 69.161.222.224
+  port: 8447
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Hastings
 - proxy: https://155.138.145.11:443
   protocol: https
   ip: 155.138.145.11
@@ -268,29 +328,69 @@
   geolocation:
     country: CA
     city: Toronto
-- proxy: https://3.96.141.200:15392
+- proxy: https://69.161.222.158:8443
   protocol: https
-  ip: 3.96.141.200
-  port: 15392
+  ip: 69.161.222.158
+  port: 8443
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: CA
-    city: Montreal
-- proxy: socks4://192.111.137.35:4145
-  protocol: socks4
-  ip: 192.111.137.35
-  port: 4145
-  https: false
+    city: Hastings
+- proxy: https://69.161.223.87:8447
+  protocol: https
+  ip: 69.161.223.87
+  port: 8447
+  https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: CA
-    city: Brampton
-- proxy: socks4://192.111.129.150:4145
+    city: Hastings
+- proxy: https://69.161.222.128:8447
+  protocol: https
+  ip: 69.161.222.128
+  port: 8447
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Hastings
+- proxy: https://69.161.222.41:8443
+  protocol: https
+  ip: 69.161.222.41
+  port: 8443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Hastings
+- proxy: https://69.161.222.130:8443
+  protocol: https
+  ip: 69.161.222.130
+  port: 8443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Hastings
+- proxy: https://69.161.223.185:8443
+  protocol: https
+  ip: 69.161.223.185
+  port: 8443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Hastings
+- proxy: socks4://192.111.137.35:4145
   protocol: socks4
-  ip: 192.111.129.150
+  ip: 192.111.137.35
   port: 4145
   https: false
   anonymity: transparent
@@ -388,16 +488,6 @@
   geolocation:
     country: CA
     city: Toronto
-- proxy: socks4://198.8.84.3:4145
-  protocol: socks4
-  ip: 198.8.84.3
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Unknown
 - proxy: socks4://192.111.129.145:16894
   protocol: socks4
   ip: 192.111.129.145
@@ -508,16 +598,6 @@
   geolocation:
     country: CA
     city: Brampton
-- proxy: socks4://192.111.139.165:4145
-  protocol: socks4
-  ip: 192.111.139.165
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Brampton
 - proxy: socks4://192.111.130.2:4145
   protocol: socks4
   ip: 192.111.130.2
@@ -548,26 +628,6 @@
   geolocation:
     country: CA
     city: Ottawa
-- proxy: socks4://68.71.251.134:4145
-  protocol: socks4
-  ip: 68.71.251.134
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Toronto
-- proxy: socks4://198.8.94.170:4145
-  protocol: socks4
-  ip: 198.8.94.170
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Toronto
 - proxy: socks4://68.71.252.38:4145
   protocol: socks4
   ip: 68.71.252.38
@@ -608,19 +668,9 @@
   geolocation:
     country: CA
     city: Toronto
-- proxy: socks5://198.8.84.3:4145
+- proxy: socks5://192.111.139.165:4145
   protocol: socks5
-  ip: 198.8.84.3
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Unknown
-- proxy: socks5://192.111.137.35:4145
-  protocol: socks5
-  ip: 192.111.137.35
+  ip: 192.111.139.165
   port: 4145
   https: false
   anonymity: transparent
@@ -638,6 +688,106 @@
   geolocation:
     country: CA
     city: Brampton
+- proxy: socks5://68.71.254.6:4145
+  protocol: socks5
+  ip: 68.71.254.6
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Toronto
+- proxy: socks5://68.71.241.33:4145
+  protocol: socks5
+  ip: 68.71.241.33
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Toronto
+- proxy: socks5://159.203.61.169:1080
+  protocol: socks5
+  ip: 159.203.61.169
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Toronto
+- proxy: http://184.70.113.34:3128
+  protocol: http
+  ip: 184.70.113.34
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Calgary
+- proxy: socks5://68.71.249.158:4145
+  protocol: socks5
+  ip: 68.71.249.158
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Toronto
+- proxy: socks5://192.111.137.35:4145
+  protocol: socks5
+  ip: 192.111.137.35
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Brampton
+- proxy: socks5://129.222.108.201:1080
+  protocol: socks5
+  ip: 129.222.108.201
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Winnipeg
+- proxy: socks5://198.8.94.170:4145
+  protocol: socks5
+  ip: 198.8.94.170
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Toronto
+- proxy: socks5://192.111.137.34:18765
+  protocol: socks5
+  ip: 192.111.137.34
+  port: 18765
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Brampton
+- proxy: socks5://198.8.84.3:4145
+  protocol: socks5
+  ip: 198.8.84.3
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Unknown
 - proxy: socks5://68.71.240.210:4145
   protocol: socks5
   ip: 68.71.240.210
@@ -652,26 +802,6 @@
   protocol: socks5
   ip: 192.111.130.5
   port: 17002
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Brampton
-- proxy: socks5://68.71.254.6:4145
-  protocol: socks5
-  ip: 68.71.254.6
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Toronto
-- proxy: socks5://192.111.139.165:4145
-  protocol: socks5
-  ip: 192.111.139.165
-  port: 4145
   https: false
   anonymity: transparent
   score: 1
@@ -748,30 +878,10 @@
   geolocation:
     country: CA
     city: Toronto
-- proxy: socks5://68.71.241.33:4145
-  protocol: socks5
-  ip: 68.71.241.33
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Toronto
 - proxy: socks5://192.111.137.37:18762
   protocol: socks5
   ip: 192.111.137.37
   port: 18762
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Brampton
-- proxy: socks5://192.111.139.163:19404
-  protocol: socks5
-  ip: 192.111.139.163
-  port: 19404
   https: false
   anonymity: transparent
   score: 1
@@ -828,16 +938,6 @@
   geolocation:
     country: CA
     city: Winnipeg
-- proxy: socks5://68.71.249.158:4145
-  protocol: socks5
-  ip: 68.71.249.158
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Toronto
 - proxy: socks5://68.71.243.14:4145
   protocol: socks5
   ip: 68.71.243.14
@@ -858,26 +958,6 @@
   geolocation:
     country: CA
     city: Brampton
-- proxy: socks5://159.203.61.169:1080
-  protocol: socks5
-  ip: 159.203.61.169
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Toronto
-- proxy: socks5://198.8.94.170:4145
-  protocol: socks5
-  ip: 198.8.94.170
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Toronto
 - proxy: socks5://192.111.129.150:4145
   protocol: socks5
   ip: 192.111.129.150
@@ -1498,39 +1578,9 @@
   geolocation:
     country: CA
     city: Unknown
-- proxy: http://184.70.113.34:3128
+- proxy: http://68.183.199.14:3128
   protocol: http
-  ip: 184.70.113.34
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Calgary
-- proxy: http://68.233.127.229:1080
-  protocol: http
-  ip: 68.233.127.229
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Montreal
-- proxy: http://151.145.63.243:1080
-  protocol: http
-  ip: 151.145.63.243
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Montreal
-- proxy: http://159.203.61.169:3128
-  protocol: http
-  ip: 159.203.61.169
+  ip: 68.183.199.14
   port: 3128
   https: false
   anonymity: transparent
@@ -1538,49 +1588,69 @@
   geolocation:
     country: CA
     city: Toronto
-- proxy: http://198.8.94.174:39078
+- proxy: http://96.1.101.113:80
   protocol: http
-  ip: 198.8.94.174
-  port: 39078
+  ip: 96.1.101.113
+  port: 80
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: CA
-    city: Toronto
-- proxy: http://129.222.104.186:1080
+    city: Unknown
+- proxy: http://129.222.204.27:10000
   protocol: http
-  ip: 129.222.104.186
+  ip: 129.222.204.27
+  port: 10000
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Montreal
+- proxy: http://3.96.141.200:1080
+  protocol: http
+  ip: 3.96.141.200
   port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: CA
-    city: Winnipeg
-- proxy: http://192.111.139.162:4145
+    city: Montreal
+- proxy: http://192.18.158.84:3128
   protocol: http
-  ip: 192.111.139.162
-  port: 4145
+  ip: 192.18.158.84
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Toronto
+- proxy: http://3.96.141.200:2996
+  protocol: http
+  ip: 3.96.141.200
+  port: 2996
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Montreal
+- proxy: http://192.111.129.145:16894
+  protocol: http
+  ip: 192.111.129.145
+  port: 16894
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: CA
     city: Brampton
-- proxy: http://162.254.178.133:1080
+- proxy: http://68.71.243.14:4145
   protocol: http
-  ip: 162.254.178.133
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Dryden
-- proxy: http://68.71.240.210:4145
-  protocol: http
-  ip: 68.71.240.210
+  ip: 68.71.243.14
   port: 4145
   https: false
   anonymity: transparent
@@ -1598,20 +1668,90 @@
   geolocation:
     country: CA
     city: Vancouver
-- proxy: http://158.69.157.172:80
+- proxy: http://68.71.242.118:4145
   protocol: http
-  ip: 158.69.157.172
+  ip: 68.71.242.118
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Toronto
+- proxy: http://192.111.137.34:18765
+  protocol: http
+  ip: 192.111.137.34
+  port: 18765
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Brampton
+- proxy: http://192.111.138.29:4145
+  protocol: http
+  ip: 192.111.138.29
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Brampton
+- proxy: http://159.203.61.169:1080
+  protocol: http
+  ip: 159.203.61.169
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Toronto
+- proxy: http://192.111.130.5:17002
+  protocol: http
+  ip: 192.111.130.5
+  port: 17002
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Brampton
+- proxy: http://192.111.139.163:19404
+  protocol: http
+  ip: 192.111.139.163
+  port: 19404
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Brampton
+- proxy: http://159.203.13.121:80
+  protocol: http
+  ip: 159.203.13.121
   port: 80
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: CA
-    city: Montreal
-- proxy: http://172.105.107.223:3128
+    city: Toronto
+- proxy: http://185.196.61.251:1080
   protocol: http
-  ip: 172.105.107.223
-  port: 3128
+  ip: 185.196.61.251
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Toronto
+- proxy: http://155.138.132.50:80
+  protocol: http
+  ip: 155.138.132.50
+  port: 80
   https: false
   anonymity: transparent
   score: 1
@@ -1628,46 +1768,26 @@
   geolocation:
     country: CA
     city: Toronto
-- proxy: http://159.203.13.121:80
+- proxy: http://68.71.252.38:4145
   protocol: http
-  ip: 159.203.13.121
+  ip: 68.71.252.38
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Toronto
+- proxy: http://158.69.157.172:80
+  protocol: http
+  ip: 158.69.157.172
   port: 80
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: CA
-    city: Toronto
-- proxy: http://192.158.15.201:50877
-  protocol: http
-  ip: 192.158.15.201
-  port: 50877
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Mississauga
-- proxy: http://185.196.61.251:1080
-  protocol: http
-  ip: 185.196.61.251
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Toronto
-- proxy: http://192.111.129.145:16894
-  protocol: http
-  ip: 192.111.129.145
-  port: 16894
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Brampton
+    city: Montreal
 - proxy: http://192.111.139.165:4145
   protocol: http
   ip: 192.111.139.165
@@ -1678,16 +1798,6 @@
   geolocation:
     country: CA
     city: Brampton
-- proxy: http://155.138.132.50:80
-  protocol: http
-  ip: 155.138.132.50
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Toronto
 - proxy: http://24.156.198.241:8080
   protocol: http
   ip: 24.156.198.241
@@ -1698,23 +1808,103 @@
   geolocation:
     country: CA
     city: Belleville
-- proxy: http://184.70.113.34:3129
+- proxy: http://68.71.249.158:4145
   protocol: http
-  ip: 184.70.113.34
-  port: 3129
+  ip: 68.71.249.158
+  port: 4145
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: CA
-    city: Calgary
-- proxy: http://129.222.204.27:10000
+    city: Toronto
+- proxy: http://68.71.245.206:4145
   protocol: http
-  ip: 129.222.204.27
-  port: 10000
+  ip: 68.71.245.206
+  port: 4145
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: CA
-    city: Montreal
+    city: Toronto
+- proxy: http://68.71.254.6:4145
+  protocol: http
+  ip: 68.71.254.6
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Toronto
+- proxy: http://68.71.240.210:4145
+  protocol: http
+  ip: 68.71.240.210
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Toronto
+- proxy: http://192.111.139.162:4145
+  protocol: http
+  ip: 192.111.139.162
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Brampton
+- proxy: http://198.8.94.174:39078
+  protocol: http
+  ip: 198.8.94.174
+  port: 39078
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Toronto
+- proxy: http://172.105.107.223:3128
+  protocol: http
+  ip: 172.105.107.223
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Toronto
+- proxy: http://159.203.61.169:3128
+  protocol: http
+  ip: 159.203.61.169
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Toronto
+- proxy: http://68.71.241.33:4145
+  protocol: http
+  ip: 68.71.241.33
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Toronto
+- proxy: http://34.130.92.118:443
+  protocol: http
+  ip: 34.130.92.118
+  port: 443
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Toronto

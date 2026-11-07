@@ -308,36 +308,16 @@
   geolocation:
     country: IE
     city: Unknown
-- proxy: https://52.214.92.206:16683
+- proxy: https://34.248.251.170:443
   protocol: https
-  ip: 52.214.92.206
-  port: 16683
+  ip: 34.248.251.170
+  port: 443
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: IE
     city: Dublin
-- proxy: https://52.214.92.206:26699
-  protocol: https
-  ip: 52.214.92.206
-  port: 26699
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IE
-    city: Dublin
-- proxy: socks4://78.17.98.71:10808
-  protocol: socks4
-  ip: 78.17.98.71
-  port: 10808
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IE
-    city: Galway
 - proxy: socks5://78.17.98.71:10808
   protocol: socks5
   ip: 78.17.98.71
@@ -348,16 +328,6 @@
   geolocation:
     country: IE
     city: Galway
-- proxy: http://87.192.231.122:3128
-  protocol: http
-  ip: 87.192.231.122
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IE
-    city: Unknown
 - proxy: socks5://45.159.173.68:1080
   protocol: socks5
   ip: 45.159.173.68
@@ -478,9 +448,19 @@
   geolocation:
     country: IE
     city: Unknown
-- proxy: http://87.192.233.75:3128
+- proxy: http://185.138.114.111:8080
   protocol: http
-  ip: 87.192.233.75
+  ip: 185.138.114.111
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IE
+    city: Limerick
+- proxy: http://87.192.231.122:3128
+  protocol: http
+  ip: 87.192.231.122
   port: 3128
   https: false
   anonymity: transparent
@@ -488,3 +468,23 @@
   geolocation:
     country: IE
     city: Unknown
+- proxy: http://78.17.98.71:10819
+  protocol: http
+  ip: 78.17.98.71
+  port: 10819
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IE
+    city: Galway
+- proxy: http://78.17.98.71:10818
+  protocol: http
+  ip: 78.17.98.71
+  port: 10818
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IE
+    city: Galway
