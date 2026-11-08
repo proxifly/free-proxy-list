@@ -1,3 +1,13 @@
+- proxy: https://84.235.228.156:443
+  protocol: https
+  ip: 84.235.228.156
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SE
+    city: Unknown
 - proxy: https://217.210.129.243:443
   protocol: https
   ip: 217.210.129.243
@@ -28,26 +38,16 @@
   geolocation:
     country: SE
     city: Unknown
-- proxy: socks5://171.25.158.95:1080
-  protocol: socks5
-  ip: 171.25.158.95
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SE
-    city: Vaxjo
-- proxy: http://46.59.120.87:81
+- proxy: http://194.14.207.87:8001
   protocol: http
-  ip: 46.59.120.87
-  port: 81
+  ip: 194.14.207.87
+  port: 8001
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: SE
-    city: Laholm
+    city: Falun
 - proxy: http://194.14.207.87:80
   protocol: http
   ip: 194.14.207.87
@@ -58,6 +58,16 @@
   geolocation:
     country: SE
     city: Falun
+- proxy: socks5://171.25.158.95:1080
+  protocol: socks5
+  ip: 171.25.158.95
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SE
+    city: Vaxjo
 - proxy: socks5://91.90.25.84:1080
   protocol: socks5
   ip: 91.90.25.84
@@ -398,26 +408,16 @@
   geolocation:
     country: SE
     city: Limhamn
-- proxy: http://80.225.250.95:8888
+- proxy: http://46.59.120.87:81
   protocol: http
-  ip: 80.225.250.95
-  port: 8888
+  ip: 46.59.120.87
+  port: 81
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: SE
-    city: Unknown
-- proxy: http://194.14.207.87:8001
-  protocol: http
-  ip: 194.14.207.87
-  port: 8001
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SE
-    city: Falun
+    city: Laholm
 - proxy: http://171.25.158.95:1080
   protocol: http
   ip: 171.25.158.95
@@ -448,3 +448,13 @@
   geolocation:
     country: SE
     city: Upplands Vasby
+- proxy: http://84.8.248.36:3129
+  protocol: http
+  ip: 84.8.248.36
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SE
+    city: Unknown
