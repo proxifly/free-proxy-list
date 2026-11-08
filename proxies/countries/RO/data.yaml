@@ -1,3 +1,13 @@
+- proxy: socks4://81.12.157.98:5678
+  protocol: socks4
+  ip: 81.12.157.98
+  port: 5678
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RO
+    city: Făgăraș
 - proxy: https://193.176.84.34:9002
   protocol: https
   ip: 193.176.84.34
@@ -258,6 +268,26 @@
   geolocation:
     country: RO
     city: Unknown
+- proxy: https://146.70.244.18:9443
+  protocol: https
+  ip: 146.70.244.18
+  port: 9443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RO
+    city: Unknown
+- proxy: https://146.70.244.18:443
+  protocol: https
+  ip: 146.70.244.18
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RO
+    city: Unknown
 - proxy: https://81.180.222.73:443
   protocol: https
   ip: 81.180.222.73
@@ -498,26 +528,36 @@
   geolocation:
     country: RO
     city: Unknown
-- proxy: http://45.80.151.33:3128
-  protocol: http
-  ip: 45.80.151.33
-  port: 3128
+- proxy: socks4://93.115.174.1:1080
+  protocol: socks4
+  ip: 93.115.174.1
+  port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: RO
     city: Unknown
-- proxy: http://188.211.30.65:8787
-  protocol: http
-  ip: 188.211.30.65
-  port: 8787
+- proxy: socks5://45.95.38.57:9050
+  protocol: socks5
+  ip: 45.95.38.57
+  port: 9050
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: RO
-    city: Românești
+    city: Unknown
+- proxy: http://91.132.224.113:6789
+  protocol: http
+  ip: 91.132.224.113
+  port: 6789
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RO
+    city: Unknown
 - proxy: socks5://45.13.212.229:1080
   protocol: socks5
   ip: 45.13.212.229
@@ -532,16 +572,6 @@
   protocol: socks5
   ip: 88.218.122.246
   port: 50051
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RO
-    city: Unknown
-- proxy: socks5://45.95.38.57:9050
-  protocol: socks5
-  ip: 45.95.38.57
-  port: 9050
   https: false
   anonymity: transparent
   score: 1
@@ -748,16 +778,46 @@
   geolocation:
     country: RO
     city: Hârlău
-- proxy: http://91.132.224.113:6789
+- proxy: http://188.211.30.65:8787
   protocol: http
-  ip: 91.132.224.113
-  port: 6789
+  ip: 188.211.30.65
+  port: 8787
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RO
+    city: Românești
+- proxy: http://45.80.151.33:3128
+  protocol: http
+  ip: 45.80.151.33
+  port: 3128
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: RO
     city: Unknown
+- proxy: http://89.40.77.249:8787
+  protocol: http
+  ip: 89.40.77.249
+  port: 8787
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RO
+    city: Făget
+- proxy: http://82.78.114.54:8080
+  protocol: http
+  ip: 82.78.114.54
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RO
+    city: Dobroeşti
 - proxy: http://92.86.207.198:8080
   protocol: http
   ip: 92.86.207.198
@@ -768,26 +828,6 @@
   geolocation:
     country: RO
     city: Giroc
-- proxy: http://81.12.157.98:5678
-  protocol: http
-  ip: 81.12.157.98
-  port: 5678
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RO
-    city: Făgăraș
-- proxy: http://88.218.122.246:50051
-  protocol: http
-  ip: 88.218.122.246
-  port: 50051
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RO
-    city: Unknown
 - proxy: http://81.12.169.254:4153
   protocol: http
   ip: 81.12.169.254
@@ -798,10 +838,20 @@
   geolocation:
     country: RO
     city: Bucharest
-- proxy: http://45.80.151.33:3129
+- proxy: http://81.18.90.43:4153
   protocol: http
-  ip: 45.80.151.33
-  port: 3129
+  ip: 81.18.90.43
+  port: 4153
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RO
+    city: Ploieşti
+- proxy: http://93.115.174.1:1080
+  protocol: http
+  ip: 93.115.174.1
+  port: 1080
   https: false
   anonymity: transparent
   score: 1
