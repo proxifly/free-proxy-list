@@ -1,6 +1,16 @@
-- proxy: http://185.225.43.248:8080
+- proxy: socks4://193.43.159.161:1080
+  protocol: socks4
+  ip: 193.43.159.161
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SY
+    city: Unknown
+- proxy: http://185.225.43.57:8080
   protocol: http
-  ip: 185.225.43.248
+  ip: 185.225.43.57
   port: 8080
   https: false
   anonymity: transparent
@@ -8,9 +18,9 @@
   geolocation:
     country: SY
     city: Unknown
-- proxy: http://193.43.159.96:8080
+- proxy: http://185.146.138.151:8080
   protocol: http
-  ip: 193.43.159.96
+  ip: 185.146.138.151
   port: 8080
   https: false
   anonymity: transparent
@@ -18,9 +28,9 @@
   geolocation:
     country: SY
     city: Unknown
-- proxy: http://213.217.33.6:8080
+- proxy: http://185.146.138.178:8080
   protocol: http
-  ip: 213.217.33.6
+  ip: 185.146.138.178
   port: 8080
   https: false
   anonymity: transparent
@@ -28,10 +38,40 @@
   geolocation:
     country: SY
     city: Unknown
-- proxy: http://78.155.64.250:8080
+- proxy: http://193.43.140.85:8080
   protocol: http
-  ip: 78.155.64.250
+  ip: 193.43.140.85
   port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SY
+    city: Unknown
+- proxy: http://193.43.149.85:8080
+  protocol: http
+  ip: 193.43.149.85
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SY
+    city: Unknown
+- proxy: http://193.43.140.101:8080
+  protocol: http
+  ip: 193.43.140.101
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SY
+    city: Unknown
+- proxy: http://193.43.140.220:7890
+  protocol: http
+  ip: 193.43.140.220
+  port: 7890
   https: false
   anonymity: transparent
   score: 1
@@ -68,66 +108,6 @@
   geolocation:
     country: SY
     city: Unknown
-- proxy: http://213.217.34.2:8080
-  protocol: http
-  ip: 213.217.34.2
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SY
-    city: Unknown
-- proxy: http://193.43.140.85:8080
-  protocol: http
-  ip: 193.43.140.85
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SY
-    city: Unknown
-- proxy: http://185.146.138.159:8080
-  protocol: http
-  ip: 185.146.138.159
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SY
-    city: Unknown
-- proxy: http://78.155.66.90:8080
-  protocol: http
-  ip: 78.155.66.90
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SY
-    city: Unknown
-- proxy: http://193.43.140.222:7890
-  protocol: http
-  ip: 193.43.140.222
-  port: 7890
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SY
-    city: Unknown
-- proxy: http://78.155.65.204:8080
-  protocol: http
-  ip: 78.155.65.204
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SY
-    city: Unknown
 - proxy: http://185.225.41.228:7890
   protocol: http
   ip: 185.225.41.228
@@ -138,9 +118,49 @@
   geolocation:
     country: SY
     city: Unknown
+- proxy: http://193.43.140.240:8080
+  protocol: http
+  ip: 193.43.140.240
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SY
+    city: Unknown
+- proxy: http://193.43.145.121:8080
+  protocol: http
+  ip: 193.43.145.121
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SY
+    city: Unknown
+- proxy: http://91.144.30.93:8080
+  protocol: http
+  ip: 91.144.30.93
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SY
+    city: Unknown
 - proxy: http://78.155.66.87:8080
   protocol: http
   ip: 78.155.66.87
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SY
+    city: Unknown
+- proxy: http://193.43.159.96:8080
+  protocol: http
+  ip: 193.43.159.96
   port: 8080
   https: false
   anonymity: transparent
@@ -168,6 +188,16 @@
   geolocation:
     country: SY
     city: Unknown
+- proxy: http://185.146.138.159:8080
+  protocol: http
+  ip: 185.146.138.159
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SY
+    city: Unknown
 - proxy: http://82.137.244.151:8080
   protocol: http
   ip: 82.137.244.151
@@ -178,9 +208,19 @@
   geolocation:
     country: SY
     city: Unknown
-- proxy: http://78.155.67.224:8080
+- proxy: http://193.43.140.222:7890
   protocol: http
-  ip: 78.155.67.224
+  ip: 193.43.140.222
+  port: 7890
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SY
+    city: Unknown
+- proxy: http://193.43.145.231:8080
+  protocol: http
+  ip: 193.43.145.231
   port: 8080
   https: false
   anonymity: transparent
@@ -188,9 +228,9 @@
   geolocation:
     country: SY
     city: Unknown
-- proxy: http://193.43.149.85:8080
+- proxy: http://185.225.43.248:8080
   protocol: http
-  ip: 193.43.149.85
+  ip: 185.225.43.248
   port: 8080
   https: false
   anonymity: transparent
@@ -198,9 +238,9 @@
   geolocation:
     country: SY
     city: Unknown
-- proxy: http://91.144.30.93:8080
+- proxy: http://78.155.66.84:8080
   protocol: http
-  ip: 91.144.30.93
+  ip: 78.155.66.84
   port: 8080
   https: false
   anonymity: transparent
