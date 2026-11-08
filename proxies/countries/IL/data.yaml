@@ -8,16 +8,6 @@
   geolocation:
     country: IL
     city: Ramat Gan
-- proxy: https://51.16.4.39:44924
-  protocol: https
-  ip: 51.16.4.39
-  port: 44924
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IL
-    city: Tel Aviv
 - proxy: socks5://80.65.211.149:8888
   protocol: socks5
   ip: 80.65.211.149
@@ -148,6 +138,16 @@
   geolocation:
     country: IL
     city: Unknown
+- proxy: http://199.203.152.99:8111
+  protocol: http
+  ip: 199.203.152.99
+  port: 8111
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IL
+    city: Ness Ziona
 - proxy: http://77.91.74.77:80
   protocol: http
   ip: 77.91.74.77
@@ -158,3 +158,13 @@
   geolocation:
     country: IL
     city: Unknown
+- proxy: http://147.236.181.86:50009
+  protocol: http
+  ip: 147.236.181.86
+  port: 50009
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IL
+    city: '''Ezer'
