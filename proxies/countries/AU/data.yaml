@@ -48,36 +48,46 @@
   geolocation:
     country: AU
     city: Melbourne
-- proxy: https://16.51.5.77:17200
+- proxy: https://140.238.205.29:443
   protocol: https
-  ip: 16.51.5.77
-  port: 17200
+  ip: 140.238.205.29
+  port: 443
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: AU
-    city: Melbourne
-- proxy: https://16.51.5.77:4092
-  protocol: https
-  ip: 16.51.5.77
-  port: 4092
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AU
-    city: Melbourne
-- proxy: https://13.239.253.213:11189
+    city: Bungarribee
+- proxy: https://13.239.253.213:8000
   protocol: https
   ip: 13.239.253.213
-  port: 11189
+  port: 8000
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: AU
     city: Sydney
+- proxy: https://16.51.5.77:42126
+  protocol: https
+  ip: 16.51.5.77
+  port: 42126
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AU
+    city: Melbourne
+- proxy: https://16.51.53.116:56411
+  protocol: https
+  ip: 16.51.53.116
+  port: 56411
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AU
+    city: Melbourne
 - proxy: http://202.133.88.173:80
   protocol: http
   ip: 202.133.88.173
@@ -118,6 +128,36 @@
   geolocation:
     country: AU
     city: Sydney
+- proxy: socks5://168.138.9.147:1080
+  protocol: socks5
+  ip: 168.138.9.147
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AU
+    city: Melbourne
+- proxy: socks4://168.138.9.147:1080
+  protocol: socks4
+  ip: 168.138.9.147
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AU
+    city: Melbourne
+- proxy: http://159.196.182.72:8080
+  protocol: http
+  ip: 159.196.182.72
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AU
+    city: Unknown
 - proxy: socks5://103.248.47.230:1080
   protocol: socks5
   ip: 103.248.47.230
@@ -168,16 +208,6 @@
   geolocation:
     country: AU
     city: Canberra
-- proxy: socks5://168.138.9.147:1080
-  protocol: socks5
-  ip: 168.138.9.147
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AU
-    city: Melbourne
 - proxy: socks5://113.20.7.76:30001
   protocol: socks5
   ip: 113.20.7.76
@@ -378,46 +408,6 @@
   geolocation:
     country: AU
     city: Melbourne
-- proxy: http://130.162.192.208:8080
-  protocol: http
-  ip: 130.162.192.208
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AU
-    city: Melbourne
-- proxy: http://168.138.9.147:1080
-  protocol: http
-  ip: 168.138.9.147
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AU
-    city: Melbourne
-- proxy: http://172.105.166.114:31282
-  protocol: http
-  ip: 172.105.166.114
-  port: 31282
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AU
-    city: Sydney
-- proxy: http://203.206.235.153:50042
-  protocol: http
-  ip: 203.206.235.153
-  port: 50042
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AU
-    city: Sydney
 - proxy: http://203.31.199.68:8118
   protocol: http
   ip: 203.31.199.68
@@ -428,6 +418,16 @@
   geolocation:
     country: AU
     city: Unknown
+- proxy: http://172.105.166.114:31282
+  protocol: http
+  ip: 172.105.166.114
+  port: 31282
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AU
+    city: Sydney
 - proxy: http://152.67.99.80:80
   protocol: http
   ip: 152.67.99.80
@@ -438,3 +438,13 @@
   geolocation:
     country: AU
     city: Bungarribee
+- proxy: http://61.29.96.146:80
+  protocol: http
+  ip: 61.29.96.146
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AU
+    city: Melbourne

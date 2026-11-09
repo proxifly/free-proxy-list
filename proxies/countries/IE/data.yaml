@@ -318,10 +318,10 @@
   geolocation:
     country: IE
     city: Dublin
-- proxy: https://52.214.92.206:24067
+- proxy: https://52.214.92.206:32912
   protocol: https
   ip: 52.214.92.206
-  port: 24067
+  port: 32912
   https: true
   anonymity: transparent
   score: 1
@@ -338,16 +338,26 @@
   geolocation:
     country: IE
     city: Dublin
-- proxy: socks4://78.17.98.71:10808
-  protocol: socks4
-  ip: 78.17.98.71
-  port: 10808
+- proxy: https://52.214.92.206:59502
+  protocol: https
+  ip: 52.214.92.206
+  port: 59502
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IE
+    city: Dublin
+- proxy: http://87.192.233.75:3128
+  protocol: http
+  ip: 87.192.233.75
+  port: 3128
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IE
-    city: Galway
+    city: Unknown
 - proxy: socks5://78.17.98.71:10808
   protocol: socks5
   ip: 78.17.98.71
@@ -498,23 +508,13 @@
   geolocation:
     country: IE
     city: Galway
-- proxy: http://87.192.231.122:3128
+- proxy: http://78.17.98.71:10808
   protocol: http
-  ip: 87.192.231.122
-  port: 3128
+  ip: 78.17.98.71
+  port: 10808
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IE
-    city: Unknown
-- proxy: http://87.192.233.75:3129
-  protocol: http
-  ip: 87.192.233.75
-  port: 3129
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IE
-    city: Unknown
+    city: Galway
