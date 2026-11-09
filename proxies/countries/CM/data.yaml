@@ -1,13 +1,3 @@
-- proxy: http://102.244.78.61:8083
-  protocol: http
-  ip: 102.244.78.61
-  port: 8083
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CM
-    city: Unknown
 - proxy: http://102.244.78.61:8085
   protocol: http
   ip: 102.244.78.61
@@ -18,10 +8,20 @@
   geolocation:
     country: CM
     city: Unknown
-- proxy: http://102.244.78.61:8081
+- proxy: http://102.244.78.61:8086
   protocol: http
   ip: 102.244.78.61
-  port: 8081
+  port: 8086
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CM
+    city: Unknown
+- proxy: http://102.244.78.61:8082
+  protocol: http
+  ip: 102.244.78.61
+  port: 8082
   https: false
   anonymity: transparent
   score: 1

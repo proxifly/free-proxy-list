@@ -1,13 +1,3 @@
-- proxy: socks5://185.147.72.168:1081
-  protocol: socks5
-  ip: 185.147.72.168
-  port: 1081
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DK
-    city: Unknown
 - proxy: https://87.238.253.66:443
   protocol: https
   ip: 87.238.253.66
@@ -88,20 +78,10 @@
   geolocation:
     country: DK
     city: Copenhagen
-- proxy: http://159.195.77.126:3128
-  protocol: http
-  ip: 159.195.77.126
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DK
-    city: Unknown
-- proxy: http://159.195.77.126:8080
-  protocol: http
-  ip: 159.195.77.126
-  port: 8080
+- proxy: socks5://185.147.72.168:1081
+  protocol: socks5
+  ip: 185.147.72.168
+  port: 1081
   https: false
   anonymity: transparent
   score: 1
@@ -152,16 +132,6 @@
   protocol: http
   ip: 194.150.110.134
   port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DK
-    city: Unknown
-- proxy: http://159.195.53.110:3128
-  protocol: http
-  ip: 159.195.53.110
-  port: 3128
   https: false
   anonymity: transparent
   score: 1

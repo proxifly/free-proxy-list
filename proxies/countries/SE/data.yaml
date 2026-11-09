@@ -1,3 +1,13 @@
+- proxy: socks5://171.25.158.95:1080
+  protocol: socks5
+  ip: 171.25.158.95
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SE
+    city: Vaxjo
 - proxy: socks5://46.246.12.13:1080
   protocol: socks5
   ip: 46.246.12.13
@@ -48,16 +58,16 @@
   geolocation:
     country: SE
     city: Stockholm
-- proxy: http://80.225.250.95:8888
+- proxy: http://193.181.35.88:8118
   protocol: http
-  ip: 80.225.250.95
-  port: 8888
+  ip: 193.181.35.88
+  port: 8118
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: SE
-    city: Unknown
+    city: Stockholm
 - proxy: http://185.146.173.20:80
   protocol: http
   ip: 185.146.173.20
@@ -68,26 +78,16 @@
   geolocation:
     country: SE
     city: Unknown
-- proxy: socks4://85.228.42.180:4153
-  protocol: socks4
-  ip: 85.228.42.180
-  port: 4153
+- proxy: http://84.8.248.36:3128
+  protocol: http
+  ip: 84.8.248.36
+  port: 3128
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: SE
-    city: Upplands Vasby
-- proxy: socks5://171.25.158.95:1080
-  protocol: socks5
-  ip: 171.25.158.95
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SE
-    city: Vaxjo
+    city: Unknown
 - proxy: socks5://91.90.25.84:1080
   protocol: socks5
   ip: 91.90.25.84
@@ -438,6 +438,26 @@
   geolocation:
     country: SE
     city: Falun
+- proxy: http://185.157.160.159:8118
+  protocol: http
+  ip: 185.157.160.159
+  port: 8118
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SE
+    city: Unknown
+- proxy: http://46.59.120.87:81
+  protocol: http
+  ip: 46.59.120.87
+  port: 81
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SE
+    city: Laholm
 - proxy: http://81.228.44.187:65530
   protocol: http
   ip: 81.228.44.187
@@ -448,16 +468,6 @@
   geolocation:
     country: SE
     city: Kinna
-- proxy: http://84.8.248.36:3128
-  protocol: http
-  ip: 84.8.248.36
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SE
-    city: Unknown
 - proxy: http://194.14.207.87:8001
   protocol: http
   ip: 194.14.207.87
@@ -468,13 +478,3 @@
   geolocation:
     country: SE
     city: Falun
-- proxy: http://84.8.216.34:80
-  protocol: http
-  ip: 84.8.216.34
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SE
-    city: Unknown
