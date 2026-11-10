@@ -1,17 +1,17 @@
-- proxy: socks5://65.21.252.66:10814
+- proxy: socks5://65.21.252.66:10808
   protocol: socks5
   ip: 65.21.252.66
-  port: 10814
+  port: 10808
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: FI
     city: Helsinki
-- proxy: socks5://65.21.252.66:10807
+- proxy: socks5://65.21.252.66:10813
   protocol: socks5
   ip: 65.21.252.66
-  port: 10807
+  port: 10813
   https: false
   anonymity: transparent
   score: 1
@@ -31,26 +31,6 @@
 - proxy: https://5.22.212.106:443
   protocol: https
   ip: 5.22.212.106
-  port: 443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: FI
-    city: Unknown
-- proxy: https://185.4.228.100:443
-  protocol: https
-  ip: 185.4.228.100
-  port: 443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: FI
-    city: Unknown
-- proxy: https://185.4.228.99:443
-  protocol: https
-  ip: 185.4.228.99
   port: 443
   https: true
   anonymity: transparent
@@ -88,30 +68,20 @@
   geolocation:
     country: FI
     city: Helsinki
-- proxy: http://65.108.159.129:8081
-  protocol: http
-  ip: 65.108.159.129
-  port: 8081
+- proxy: socks5://185.121.133.190:1080
+  protocol: socks5
+  ip: 185.121.133.190
+  port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: FI
-    city: Helsinki
-- proxy: socks5://65.21.252.66:10811
+    city: Unknown
+- proxy: socks5://65.21.252.66:10814
   protocol: socks5
   ip: 65.21.252.66
-  port: 10811
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: FI
-    city: Helsinki
-- proxy: http://65.108.156.253:3128
-  protocol: http
-  ip: 65.108.156.253
-  port: 3128
+  port: 10814
   https: false
   anonymity: transparent
   score: 1
@@ -291,16 +261,6 @@
 - proxy: socks5://185.121.133.189:1080
   protocol: socks5
   ip: 185.121.133.189
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: FI
-    city: Unknown
-- proxy: socks5://185.121.133.190:1080
-  protocol: socks5
-  ip: 185.121.133.190
   port: 1080
   https: false
   anonymity: transparent
@@ -688,50 +648,10 @@
   geolocation:
     country: FI
     city: Helsinki
-- proxy: http://185.121.133.141:1080
+- proxy: http://87.92.90.2:8080
   protocol: http
-  ip: 185.121.133.141
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: FI
-    city: Unknown
-- proxy: http://185.121.133.143:1080
-  protocol: http
-  ip: 185.121.133.143
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: FI
-    city: Unknown
-- proxy: http://65.109.230.25:8080
-  protocol: http
-  ip: 65.109.230.25
+  ip: 87.92.90.2
   port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: FI
-    city: Helsinki
-- proxy: http://185.121.133.200:1080
-  protocol: http
-  ip: 185.121.133.200
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: FI
-    city: Unknown
-- proxy: http://65.109.196.122:2080
-  protocol: http
-  ip: 65.109.196.122
-  port: 2080
   https: false
   anonymity: transparent
   score: 1
@@ -768,39 +688,19 @@
   geolocation:
     country: FI
     city: Helsinki
-- proxy: http://185.121.133.133:1080
+- proxy: http://65.109.230.25:8080
   protocol: http
-  ip: 185.121.133.133
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: FI
-    city: Unknown
-- proxy: http://185.121.133.164:1080
-  protocol: http
-  ip: 185.121.133.164
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: FI
-    city: Unknown
-- proxy: http://65.109.87.121:18080
-  protocol: http
-  ip: 65.109.87.121
-  port: 18080
+  ip: 65.109.230.25
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: FI
     city: Helsinki
-- proxy: http://185.121.133.144:1080
+- proxy: http://185.121.133.174:1080
   protocol: http
-  ip: 185.121.133.144
+  ip: 185.121.133.174
   port: 1080
   https: false
   anonymity: transparent
@@ -808,9 +708,9 @@
   geolocation:
     country: FI
     city: Unknown
-- proxy: http://185.121.133.158:1080
+- proxy: http://185.121.133.200:1080
   protocol: http
-  ip: 185.121.133.158
+  ip: 185.121.133.200
   port: 1080
   https: false
   anonymity: transparent
@@ -818,13 +718,3 @@
   geolocation:
     country: FI
     city: Unknown
-- proxy: http://65.108.156.253:3129
-  protocol: http
-  ip: 65.108.156.253
-  port: 3129
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: FI
-    city: Helsinki
