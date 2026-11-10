@@ -1,26 +1,16 @@
-- proxy: http://154.73.29.157:8080
+- proxy: http://102.38.7.110:1972
   protocol: http
-  ip: 154.73.29.157
-  port: 8080
+  ip: 102.38.7.110
+  port: 1972
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: LY
     city: Unknown
-- proxy: http://102.68.128.211:8080
+- proxy: http://102.38.13.8:19000
   protocol: http
-  ip: 102.68.128.211
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: LY
-    city: Tripoli
-- proxy: http://102.38.21.1:19000
-  protocol: http
-  ip: 102.38.21.1
+  ip: 102.38.13.8
   port: 19000
   https: false
   anonymity: transparent
@@ -28,16 +18,16 @@
   geolocation:
     country: LY
     city: Unknown
-- proxy: http://102.38.30.245:8080
+- proxy: http://102.68.129.54:8080
   protocol: http
-  ip: 102.38.30.245
+  ip: 102.68.129.54
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: LY
-    city: Unknown
+    city: Tripoli
 - proxy: http://102.68.128.210:8080
   protocol: http
   ip: 102.68.128.210
@@ -58,78 +48,8 @@
   geolocation:
     country: LY
     city: Benghazi
-- proxy: http://154.73.29.65:8080
-  protocol: http
-  ip: 154.73.29.65
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: LY
-    city: Unknown
-- proxy: http://102.38.13.9:19000
-  protocol: http
-  ip: 102.38.13.9
-  port: 19000
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: LY
-    city: Unknown
-- proxy: http://165.16.2.234:9999
-  protocol: http
-  ip: 165.16.2.234
-  port: 9999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: LY
-    city: Benghazi
-- proxy: http://165.16.17.189:8080
-  protocol: http
-  ip: 165.16.17.189
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: LY
-    city: Benghazi
-- proxy: http://165.16.58.124:8080
-  protocol: http
-  ip: 165.16.58.124
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: LY
-    city: Zliten
-- proxy: http://160.19.103.182:8080
-  protocol: http
-  ip: 160.19.103.182
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: LY
-    city: Unknown
-- proxy: http://154.73.28.79:8080
-  protocol: http
-  ip: 154.73.28.79
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: LY
-    city: Unknown
-- proxy: http://165.16.99.209:1080
-  protocol: http
+- proxy: socks4://165.16.99.209:1080
+  protocol: socks4
   ip: 165.16.99.209
   port: 1080
   https: false
@@ -138,6 +58,26 @@
   geolocation:
     country: LY
     city: Tripoli
+- proxy: http://62.68.48.22:8080
+  protocol: http
+  ip: 62.68.48.22
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: LY
+    city: Unknown
+- proxy: http://165.16.59.65:8080
+  protocol: http
+  ip: 165.16.59.65
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: LY
+    city: Zliten
 - proxy: http://165.16.27.42:1981
   protocol: http
   ip: 165.16.27.42
@@ -148,6 +88,36 @@
   geolocation:
     country: LY
     city: Benghazi
+- proxy: http://102.38.13.9:19000
+  protocol: http
+  ip: 102.38.13.9
+  port: 19000
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: LY
+    city: Unknown
+- proxy: http://102.38.30.245:8080
+  protocol: http
+  ip: 102.38.30.245
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: LY
+    city: Unknown
+- proxy: http://102.38.7.149:18000
+  protocol: http
+  ip: 102.38.7.149
+  port: 18000
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: LY
+    city: Unknown
 - proxy: http://154.73.28.89:8080
   protocol: http
   ip: 154.73.28.89
@@ -158,6 +128,36 @@
   geolocation:
     country: LY
     city: Unknown
+- proxy: http://102.68.128.216:8080
+  protocol: http
+  ip: 102.68.128.216
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: LY
+    city: Tripoli
+- proxy: http://102.38.30.24:8080
+  protocol: http
+  ip: 102.38.30.24
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: LY
+    city: Unknown
+- proxy: http://102.68.128.211:8080
+  protocol: http
+  ip: 102.68.128.211
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: LY
+    city: Tripoli
 - proxy: http://102.68.128.214:8080
   protocol: http
   ip: 102.68.128.214
@@ -168,13 +168,23 @@
   geolocation:
     country: LY
     city: Tripoli
-- proxy: http://102.68.129.54:8080
+- proxy: http://102.23.220.66:8520
   protocol: http
-  ip: 102.68.129.54
+  ip: 102.23.220.66
+  port: 8520
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: LY
+    city: Unknown
+- proxy: http://165.16.58.124:8080
+  protocol: http
+  ip: 165.16.58.124
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: LY
-    city: Tripoli
+    city: Zliten

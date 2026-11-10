@@ -1,8 +1,8 @@
-- proxy: https://164.160.240.37:443
-  protocol: https
-  ip: 164.160.240.37
-  port: 443
-  https: true
+- proxy: http://197.255.125.12:80
+  protocol: http
+  ip: 197.255.125.12
+  port: 80
+  https: false
   anonymity: transparent
   score: 1
   geolocation:
@@ -28,13 +28,3 @@
   geolocation:
     country: GH
     city: Cape Coast
-- proxy: http://197.255.125.12:80
-  protocol: http
-  ip: 197.255.125.12
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GH
-    city: Accra

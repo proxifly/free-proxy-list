@@ -1,3 +1,43 @@
+- proxy: socks5://194.44.255.112:8090
+  protocol: socks5
+  ip: 194.44.255.112
+  port: 8090
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: UA
+    city: Lviv
+- proxy: socks4://185.132.1.221:4145
+  protocol: socks4
+  ip: 185.132.1.221
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: UA
+    city: Odesa
+- proxy: socks4://193.105.62.11:58973
+  protocol: socks4
+  ip: 193.105.62.11
+  port: 58973
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: UA
+    city: Liubar
+- proxy: socks4://195.140.226.32:5678
+  protocol: socks4
+  ip: 195.140.226.32
+  port: 5678
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: UA
+    city: Kharkiv
 - proxy: socks4://37.52.13.164:5678
   protocol: socks4
   ip: 37.52.13.164
@@ -8,16 +48,56 @@
   geolocation:
     country: UA
     city: Kyiv
-- proxy: socks4://134.249.128.111:1080
+- proxy: socks4://91.247.92.63:5678
   protocol: socks4
-  ip: 134.249.128.111
-  port: 1080
+  ip: 91.247.92.63
+  port: 5678
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: UA
-    city: Kyiv
+    city: Kharkiv
+- proxy: socks4://176.120.32.135:5678
+  protocol: socks4
+  ip: 176.120.32.135
+  port: 5678
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: UA
+    city: Chernivtsi
+- proxy: socks4://195.78.100.186:3629
+  protocol: socks4
+  ip: 195.78.100.186
+  port: 3629
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: UA
+    city: Nova Vodolaha
+- proxy: socks4://195.225.49.138:55774
+  protocol: socks4
+  ip: 195.225.49.138
+  port: 55774
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: UA
+    city: Koryukivka
+- proxy: socks4://195.138.65.34:5678
+  protocol: socks4
+  ip: 195.138.65.34
+  port: 5678
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: UA
+    city: Velykodolynske
 - proxy: http://176.111.37.5:39811
   protocol: http
   ip: 176.111.37.5
@@ -38,26 +118,46 @@
   geolocation:
     country: UA
     city: Dobropol'ye
-- proxy: http://178.165.42.166:3128
+- proxy: http://176.125.242.58:3128
   protocol: http
-  ip: 178.165.42.166
+  ip: 176.125.242.58
   port: 3128
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: UA
-    city: Kharkiv
-- proxy: http://195.149.125.150:8080
-  protocol: http
-  ip: 195.149.125.150
-  port: 8080
+    city: Odesa
+- proxy: socks5://193.218.118.128:1080
+  protocol: socks5
+  ip: 193.218.118.128
+  port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: UA
-    city: Odesa
+    city: Kyiv
+- proxy: socks4://193.106.57.96:5678
+  protocol: socks4
+  ip: 193.106.57.96
+  port: 5678
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: UA
+    city: Kyiv
+- proxy: socks5://185.151.86.86:3699
+  protocol: socks5
+  ip: 185.151.86.86
+  port: 3699
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: UA
+    city: Kyiv
 - proxy: socks4://80.92.227.185:5678
   protocol: socks4
   ip: 80.92.227.185
@@ -68,16 +168,36 @@
   geolocation:
     country: UA
     city: Kyiv
-- proxy: socks4://193.105.62.11:58973
-  protocol: socks4
-  ip: 193.105.62.11
-  port: 58973
+- proxy: http://95.67.115.37:8181
+  protocol: http
+  ip: 95.67.115.37
+  port: 8181
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: UA
-    city: Liubar
+    city: Kyiv
+- proxy: http://45.149.24.137:8080
+  protocol: http
+  ip: 45.149.24.137
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: UA
+    city: Odesa
+- proxy: http://134.249.86.47:8080
+  protocol: http
+  ip: 134.249.86.47
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: UA
+    city: Kyiv
 - proxy: socks5://138.124.66.203:1080
   protocol: socks5
   ip: 138.124.66.203
@@ -88,36 +208,6 @@
   geolocation:
     country: UA
     city: Kyiv
-- proxy: socks4://185.132.1.221:4145
-  protocol: socks4
-  ip: 185.132.1.221
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: UA
-    city: Odesa
-- proxy: http://176.105.220.74:3129
-  protocol: http
-  ip: 176.105.220.74
-  port: 3129
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: UA
-    city: Semenivka
-- proxy: http://188.190.177.47:8989
-  protocol: http
-  ip: 188.190.177.47
-  port: 8989
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: UA
-    city: Khmelnytskyi
 - proxy: socks5://178.92.72.205:1080
   protocol: socks5
   ip: 178.92.72.205
@@ -148,40 +238,10 @@
   geolocation:
     country: UA
     city: Unknown
-- proxy: socks5://193.218.118.128:1080
-  protocol: socks5
-  ip: 193.218.118.128
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: UA
-    city: Kyiv
-- proxy: socks5://194.44.255.112:8090
-  protocol: socks5
-  ip: 194.44.255.112
-  port: 8090
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: UA
-    city: Lviv
 - proxy: socks5://37.53.90.82:12542
   protocol: socks5
   ip: 37.53.90.82
   port: 12542
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: UA
-    city: Kyiv
-- proxy: socks5://185.151.86.86:3699
-  protocol: socks5
-  ip: 185.151.86.86
-  port: 3699
   https: false
   anonymity: transparent
   score: 1
@@ -778,146 +838,16 @@
   geolocation:
     country: UA
     city: Fontanka
-- proxy: http://195.34.91.67:8080
+- proxy: http://178.165.42.166:3128
   protocol: http
-  ip: 195.34.91.67
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: UA
-    city: Kyiv
-- proxy: http://45.149.24.140:8080
-  protocol: http
-  ip: 45.149.24.140
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: UA
-    city: Odesa
-- proxy: http://195.123.190.38:8080
-  protocol: http
-  ip: 195.123.190.38
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: UA
-    city: Unknown
-- proxy: http://91.236.156.30:8282
-  protocol: http
-  ip: 91.236.156.30
-  port: 8282
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: UA
-    city: Poltava
-- proxy: http://178.251.111.26:8080
-  protocol: http
-  ip: 178.251.111.26
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: UA
-    city: Putyvl'
-- proxy: http://91.238.103.65:80
-  protocol: http
-  ip: 91.238.103.65
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: UA
-    city: Unknown
-- proxy: http://194.44.255.112:8090
-  protocol: http
-  ip: 194.44.255.112
-  port: 8090
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: UA
-    city: Lviv
-- proxy: http://31.202.49.61:33761
-  protocol: http
-  ip: 31.202.49.61
-  port: 33761
+  ip: 178.165.42.166
+  port: 3128
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: UA
     city: Kharkiv
-- proxy: http://176.105.212.219:8080
-  protocol: http
-  ip: 176.105.212.219
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: UA
-    city: Poltava
-- proxy: http://5.58.97.89:8080
-  protocol: http
-  ip: 5.58.97.89
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: UA
-    city: Ternopil
-- proxy: http://193.106.57.96:5678
-  protocol: http
-  ip: 193.106.57.96
-  port: 5678
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: UA
-    city: Kyiv
-- proxy: http://195.78.100.162:3629
-  protocol: http
-  ip: 195.78.100.162
-  port: 3629
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: UA
-    city: Nova Vodolaha
-- proxy: http://95.67.115.37:8181
-  protocol: http
-  ip: 95.67.115.37
-  port: 8181
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: UA
-    city: Kyiv
-- proxy: http://178.251.111.19:8080
-  protocol: http
-  ip: 178.251.111.19
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: UA
-    city: Putyvl'
 - proxy: http://134.249.185.223:41890
   protocol: http
   ip: 134.249.185.223
@@ -928,9 +858,19 @@
   geolocation:
     country: UA
     city: Kyiv
-- proxy: http://91.210.117.184:8080
+- proxy: http://176.105.220.74:3129
   protocol: http
-  ip: 91.210.117.184
+  ip: 176.105.220.74
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: UA
+    city: Semenivka
+- proxy: http://176.118.150.178:8080
+  protocol: http
+  ip: 176.118.150.178
   port: 8080
   https: false
   anonymity: transparent
@@ -938,19 +878,59 @@
   geolocation:
     country: UA
     city: Unknown
-- proxy: http://92.118.132.125:8080
+- proxy: http://45.149.24.140:8080
   protocol: http
-  ip: 92.118.132.125
+  ip: 45.149.24.140
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: UA
-    city: Luhansk
-- proxy: http://178.251.111.23:8080
+    city: Odesa
+- proxy: http://195.34.91.67:8080
   protocol: http
-  ip: 178.251.111.23
+  ip: 195.34.91.67
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: UA
+    city: Kyiv
+- proxy: http://193.105.62.11:58973
+  protocol: http
+  ip: 193.105.62.11
+  port: 58973
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: UA
+    city: Liubar
+- proxy: http://95.182.78.10:5678
+  protocol: http
+  ip: 95.182.78.10
+  port: 5678
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: UA
+    city: Liuboml
+- proxy: http://195.114.7.6:1080
+  protocol: http
+  ip: 195.114.7.6
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: UA
+    city: Simferopol
+- proxy: http://178.251.111.26:8080
+  protocol: http
+  ip: 178.251.111.26
   port: 8080
   https: false
   anonymity: transparent
@@ -958,26 +938,26 @@
   geolocation:
     country: UA
     city: Putyvl'
-- proxy: http://93.175.204.173:8080
+- proxy: http://178.251.111.19:8080
   protocol: http
-  ip: 93.175.204.173
+  ip: 178.251.111.19
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: UA
-    city: Ivano-Frankivsk
-- proxy: http://37.53.90.82:12542
+    city: Putyvl'
+- proxy: http://193.107.75.242:33500
   protocol: http
-  ip: 37.53.90.82
-  port: 12542
+  ip: 193.107.75.242
+  port: 33500
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: UA
-    city: Kyiv
+    city: Zhytomyr
 - proxy: http://178.92.72.205:1080
   protocol: http
   ip: 178.92.72.205
@@ -988,26 +968,86 @@
   geolocation:
     country: UA
     city: Zhytomyr
-- proxy: http://80.92.227.185:5678
+- proxy: http://5.58.97.89:8080
   protocol: http
-  ip: 80.92.227.185
-  port: 5678
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: UA
-    city: Kyiv
-- proxy: http://134.249.86.47:8080
-  protocol: http
-  ip: 134.249.86.47
+  ip: 5.58.97.89
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: UA
-    city: Kyiv
+    city: Ternopil
+- proxy: http://91.238.103.65:80
+  protocol: http
+  ip: 91.238.103.65
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: UA
+    city: Unknown
+- proxy: http://176.105.212.219:8080
+  protocol: http
+  ip: 176.105.212.219
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: UA
+    city: Poltava
+- proxy: http://178.251.111.23:8080
+  protocol: http
+  ip: 178.251.111.23
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: UA
+    city: Putyvl'
+- proxy: http://46.98.193.59:5678
+  protocol: http
+  ip: 46.98.193.59
+  port: 5678
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: UA
+    city: Poltava
+- proxy: http://91.236.156.30:8282
+  protocol: http
+  ip: 91.236.156.30
+  port: 8282
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: UA
+    city: Poltava
+- proxy: http://185.65.247.133:48049
+  protocol: http
+  ip: 185.65.247.133
+  port: 48049
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: UA
+    city: Unknown
+- proxy: http://193.24.222.150:33500
+  protocol: http
+  ip: 193.24.222.150
+  port: 33500
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: UA
+    city: Unknown
 - proxy: http://195.138.72.170:8080
   protocol: http
   ip: 195.138.72.170
@@ -1018,13 +1058,73 @@
   geolocation:
     country: UA
     city: Odesa
-- proxy: http://178.165.42.166:3129
+- proxy: http://134.249.128.111:1080
   protocol: http
-  ip: 178.165.42.166
-  port: 3129
+  ip: 134.249.128.111
+  port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: UA
-    city: Kharkiv
+    city: Kyiv
+- proxy: http://5.53.119.134:1080
+  protocol: http
+  ip: 5.53.119.134
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: UA
+    city: Lypovets
+- proxy: http://92.118.132.125:8080
+  protocol: http
+  ip: 92.118.132.125
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: UA
+    city: Luhansk
+- proxy: http://195.78.100.162:3629
+  protocol: http
+  ip: 195.78.100.162
+  port: 3629
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: UA
+    city: Nova Vodolaha
+- proxy: http://185.151.86.121:3699
+  protocol: http
+  ip: 185.151.86.121
+  port: 3699
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: UA
+    city: Dykanka
+- proxy: http://93.175.204.173:8080
+  protocol: http
+  ip: 93.175.204.173
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: UA
+    city: Ivano-Frankivsk
+- proxy: http://45.149.24.147:8080
+  protocol: http
+  ip: 45.149.24.147
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: UA
+    city: Odesa

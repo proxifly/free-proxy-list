@@ -1,3 +1,13 @@
+- proxy: socks4://103.1.105.10:4153
+  protocol: socks4
+  ip: 103.1.105.10
+  port: 4153
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MY
+    city: Unknown
 - proxy: https://210.48.154.99:443
   protocol: https
   ip: 210.48.154.99
@@ -38,6 +48,16 @@
   geolocation:
     country: MY
     city: Unknown
+- proxy: https://113.23.216.129:9088
+  protocol: https
+  ip: 113.23.216.129
+  port: 9088
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MY
+    city: Petaling Jaya
 - proxy: https://47.250.36.85:9001
   protocol: https
   ip: 47.250.36.85
@@ -78,16 +98,6 @@
   geolocation:
     country: MY
     city: Kota Kinabalu
-- proxy: http://219.93.101.62:80
-  protocol: http
-  ip: 219.93.101.62
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MY
-    city: Kota Kinabalu
 - proxy: http://219.93.101.60:80
   protocol: http
   ip: 219.93.101.60
@@ -98,90 +108,60 @@
   geolocation:
     country: MY
     city: Kota Kinabalu
-- proxy: http://47.250.188.249:3128
+- proxy: http://47.250.155.254:8004
   protocol: http
-  ip: 47.250.188.249
-  port: 3128
+  ip: 47.250.155.254
+  port: 8004
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: MY
     city: Kuala Lumpur
-- proxy: http://47.254.213.60:1081
-  protocol: http
-  ip: 47.254.213.60
-  port: 1081
+- proxy: socks5://47.250.155.254:4145
+  protocol: socks5
+  ip: 47.250.155.254
+  port: 4145
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: MY
     city: Kuala Lumpur
-- proxy: http://47.250.159.65:10002
-  protocol: http
-  ip: 47.250.159.65
-  port: 10002
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MY
-    city: Kuala Lumpur
-- proxy: http://113.23.200.86:8081
-  protocol: http
-  ip: 113.23.200.86
-  port: 8081
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MY
-    city: Semenyih
-- proxy: socks4://47.254.213.60:1081
+- proxy: socks4://47.250.155.254:3129
   protocol: socks4
-  ip: 47.254.213.60
-  port: 1081
+  ip: 47.250.155.254
+  port: 3129
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: MY
     city: Kuala Lumpur
+- proxy: http://175.145.9.218:8080
+  protocol: http
+  ip: 175.145.9.218
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MY
+    city: Kuala Lumpur
+- proxy: http://219.93.101.62:80
+  protocol: http
+  ip: 219.93.101.62
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MY
+    city: Kota Kinabalu
 - proxy: socks5://47.254.213.60:1081
   protocol: socks5
   ip: 47.254.213.60
   port: 1081
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MY
-    city: Kuala Lumpur
-- proxy: socks5://47.250.155.254:9090
-  protocol: socks5
-  ip: 47.250.155.254
-  port: 9090
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MY
-    city: Kuala Lumpur
-- proxy: socks5://47.250.155.254:3128
-  protocol: socks5
-  ip: 47.250.155.254
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MY
-    city: Kuala Lumpur
-- proxy: socks5://47.250.155.254:9080
-  protocol: socks5
-  ip: 47.250.155.254
-  port: 9080
   https: false
   anonymity: transparent
   score: 1
@@ -238,16 +218,46 @@
   geolocation:
     country: MY
     city: Kuala Lumpur
-- proxy: http://47.250.177.202:5060
+- proxy: http://47.250.11.111:9098
   protocol: http
-  ip: 47.250.177.202
-  port: 5060
+  ip: 47.250.11.111
+  port: 9098
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: MY
     city: Kuala Lumpur
+- proxy: http://58.84.16.214:1231
+  protocol: http
+  ip: 58.84.16.214
+  port: 1231
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MY
+    city: Unknown
+- proxy: http://45.195.249.146:8080
+  protocol: http
+  ip: 45.195.249.146
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MY
+    city: Kuala Lumpur
+- proxy: http://113.23.230.90:8080
+  protocol: http
+  ip: 113.23.230.90
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MY
+    city: Sungai Petani
 - proxy: http://1.32.48.243:8081
   protocol: http
   ip: 1.32.48.243
@@ -258,39 +268,9 @@
   geolocation:
     country: MY
     city: Johor Bahru
-- proxy: http://219.93.111.125:9412
+- proxy: http://45.195.249.150:8080
   protocol: http
-  ip: 219.93.111.125
-  port: 9412
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MY
-    city: Kuala Lumpur
-- proxy: http://47.250.11.111:8085
-  protocol: http
-  ip: 47.250.11.111
-  port: 8085
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MY
-    city: Kuala Lumpur
-- proxy: http://47.254.198.237:3128
-  protocol: http
-  ip: 47.254.198.237
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MY
-    city: Kuala Lumpur
-- proxy: http://47.250.11.111:8080
-  protocol: http
-  ip: 47.250.11.111
+  ip: 45.195.249.150
   port: 8080
   https: false
   anonymity: transparent
@@ -298,9 +278,29 @@
   geolocation:
     country: MY
     city: Kuala Lumpur
-- proxy: http://175.139.201.193:4153
+- proxy: http://47.250.159.65:1080
   protocol: http
-  ip: 175.139.201.193
+  ip: 47.250.159.65
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MY
+    city: Kuala Lumpur
+- proxy: http://47.250.177.202:5060
+  protocol: http
+  ip: 47.250.177.202
+  port: 5060
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MY
+    city: Kuala Lumpur
+- proxy: http://175.139.200.17:4153
+  protocol: http
+  ip: 175.139.200.17
   port: 4153
   https: false
   anonymity: transparent
@@ -308,10 +308,70 @@
   geolocation:
     country: MY
     city: Ipoh
-- proxy: http://47.250.11.111:1337
+- proxy: http://175.144.198.226:31694
+  protocol: http
+  ip: 175.144.198.226
+  port: 31694
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MY
+    city: Kangar
+- proxy: http://47.250.11.111:55443
   protocol: http
   ip: 47.250.11.111
-  port: 1337
+  port: 55443
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MY
+    city: Kuala Lumpur
+- proxy: http://103.58.16.106:4145
+  protocol: http
+  ip: 103.58.16.106
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MY
+    city: Unknown
+- proxy: http://47.250.51.110:8080
+  protocol: http
+  ip: 47.250.51.110
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MY
+    city: Kuala Lumpur
+- proxy: http://47.254.213.60:1081
+  protocol: http
+  ip: 47.254.213.60
+  port: 1081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MY
+    city: Kuala Lumpur
+- proxy: http://103.1.105.10:4153
+  protocol: http
+  ip: 103.1.105.10
+  port: 4153
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MY
+    city: Unknown
+- proxy: http://47.254.198.237:3128
+  protocol: http
+  ip: 47.254.198.237
+  port: 3128
   https: false
   anonymity: transparent
   score: 1
@@ -328,3 +388,23 @@
   geolocation:
     country: MY
     city: Petaling Jaya
+- proxy: http://47.250.177.202:3129
+  protocol: http
+  ip: 47.250.177.202
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MY
+    city: Kuala Lumpur
+- proxy: http://47.250.140.201:7000
+  protocol: http
+  ip: 47.250.140.201
+  port: 7000
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MY
+    city: Kuala Lumpur

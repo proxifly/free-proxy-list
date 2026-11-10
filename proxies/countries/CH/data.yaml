@@ -18,16 +18,6 @@
   geolocation:
     country: CH
     city: Zurich
-- proxy: https://45.131.254.246:443
-  protocol: https
-  ip: 45.131.254.246
-  port: 443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CH
-    city: Richterswil
 - proxy: http://185.191.239.248:3128
   protocol: http
   ip: 185.191.239.248
@@ -38,6 +28,16 @@
   geolocation:
     country: CH
     city: Unknown
+- proxy: socks4://178.83.46.167:1080
+  protocol: socks4
+  ip: 178.83.46.167
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CH
+    city: Basel
 - proxy: http://185.85.111.18:80
   protocol: http
   ip: 185.85.111.18
@@ -188,6 +188,16 @@
   geolocation:
     country: CH
     city: Geneva
+- proxy: http://51.103.137.65:80
+  protocol: http
+  ip: 51.103.137.65
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CH
+    city: Zurich
 - proxy: http://34.65.99.32:3128
   protocol: http
   ip: 34.65.99.32
@@ -208,23 +218,23 @@
   geolocation:
     country: CH
     city: Baden
-- proxy: http://51.103.137.65:80
+- proxy: http://194.182.163.117:3128
   protocol: http
-  ip: 51.103.137.65
-  port: 80
+  ip: 194.182.163.117
+  port: 3128
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: CH
-    city: Zurich
-- proxy: http://34.65.99.32:3129
+    city: Geneva
+- proxy: http://62.220.129.81:8080
   protocol: http
-  ip: 34.65.99.32
-  port: 3129
+  ip: 62.220.129.81
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: CH
-    city: Zurich
+    city: La Tour-de-Peilz
