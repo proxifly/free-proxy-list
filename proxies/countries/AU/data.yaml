@@ -28,6 +28,16 @@
   geolocation:
     country: AU
     city: Bungarribee
+- proxy: https://103.77.232.74:443
+  protocol: https
+  ip: 103.77.232.74
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AU
+    city: Sydney
 - proxy: https://51.161.152.170:443
   protocol: https
   ip: 51.161.152.170
@@ -48,16 +58,16 @@
   geolocation:
     country: AU
     city: Melbourne
-- proxy: https://16.51.53.116:21053
+- proxy: https://140.238.205.29:443
   protocol: https
-  ip: 16.51.53.116
-  port: 21053
+  ip: 140.238.205.29
+  port: 443
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: AU
-    city: Melbourne
+    city: Bungarribee
 - proxy: http://202.133.88.173:80
   protocol: http
   ip: 202.133.88.173
@@ -98,20 +108,10 @@
   geolocation:
     country: AU
     city: Sydney
-- proxy: socks5://45.86.61.138:1080
-  protocol: socks5
-  ip: 45.86.61.138
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AU
-    city: Canberra
-- proxy: http://180.181.215.232:3128
+- proxy: http://114.111.151.41:80
   protocol: http
-  ip: 180.181.215.232
-  port: 3128
+  ip: 114.111.151.41
+  port: 80
   https: false
   anonymity: transparent
   score: 1
@@ -120,6 +120,26 @@
     city: Melbourne
 - proxy: socks4://45.86.61.138:1080
   protocol: socks4
+  ip: 45.86.61.138
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AU
+    city: Canberra
+- proxy: http://45.86.61.138:1080
+  protocol: http
+  ip: 45.86.61.138
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AU
+    city: Canberra
+- proxy: socks5://45.86.61.138:1080
+  protocol: socks5
   ip: 45.86.61.138
   port: 1080
   https: false
@@ -368,36 +388,6 @@
   geolocation:
     country: AU
     city: Unknown
-- proxy: http://130.162.192.208:8080
-  protocol: http
-  ip: 130.162.192.208
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AU
-    city: Melbourne
-- proxy: http://114.111.151.41:80
-  protocol: http
-  ip: 114.111.151.41
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AU
-    city: Melbourne
-- proxy: http://45.86.61.138:1080
-  protocol: http
-  ip: 45.86.61.138
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AU
-    city: Canberra
 - proxy: http://103.18.205.162:8080
   protocol: http
   ip: 103.18.205.162
@@ -408,26 +398,16 @@
   geolocation:
     country: AU
     city: Melbourne
-- proxy: http://103.248.47.230:1080
+- proxy: http://61.29.96.146:80
   protocol: http
-  ip: 103.248.47.230
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AU
-    city: Sydney
-- proxy: http://152.67.99.80:80
-  protocol: http
-  ip: 152.67.99.80
+  ip: 61.29.96.146
   port: 80
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: AU
-    city: Bungarribee
+    city: Melbourne
 - proxy: http://172.105.166.114:31282
   protocol: http
   ip: 172.105.166.114
@@ -448,33 +428,33 @@
   geolocation:
     country: AU
     city: Unknown
-- proxy: http://61.29.96.146:80
+- proxy: http://85.121.51.40:9091
   protocol: http
-  ip: 61.29.96.146
+  ip: 85.121.51.40
+  port: 9091
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AU
+    city: Sydney
+- proxy: http://168.138.9.147:1080
+  protocol: http
+  ip: 168.138.9.147
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AU
+    city: Melbourne
+- proxy: http://152.67.99.80:80
+  protocol: http
+  ip: 152.67.99.80
   port: 80
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: AU
-    city: Melbourne
-- proxy: http://180.181.215.232:3129
-  protocol: http
-  ip: 180.181.215.232
-  port: 3129
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AU
-    city: Melbourne
-- proxy: http://159.196.182.72:8080
-  protocol: http
-  ip: 159.196.182.72
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AU
-    city: Unknown
+    city: Bungarribee
