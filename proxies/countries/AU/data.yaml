@@ -1,3 +1,13 @@
+- proxy: https://4.198.140.211:443
+  protocol: https
+  ip: 4.198.140.211
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AU
+    city: Melbourne
 - proxy: https://159.13.44.228:443
   protocol: https
   ip: 159.13.44.228
@@ -38,36 +48,36 @@
   geolocation:
     country: AU
     city: Melbourne
-- proxy: https://13.239.253.213:35383
-  protocol: https
-  ip: 13.239.253.213
-  port: 35383
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AU
-    city: Sydney
-- proxy: https://3.26.199.107:53375
+- proxy: https://3.26.199.107:41253
   protocol: https
   ip: 3.26.199.107
-  port: 53375
+  port: 41253
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: AU
     city: Sydney
-- proxy: https://180.222.192.60:443
+- proxy: https://16.51.53.116:11667
   protocol: https
-  ip: 180.222.192.60
-  port: 443
+  ip: 16.51.53.116
+  port: 11667
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: AU
-    city: Unknown
+    city: Melbourne
+- proxy: http://180.181.215.232:3128
+  protocol: http
+  ip: 180.181.215.232
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AU
+    city: Melbourne
 - proxy: http://202.133.88.173:80
   protocol: http
   ip: 202.133.88.173
@@ -358,16 +368,6 @@
   geolocation:
     country: AU
     city: Unknown
-- proxy: http://130.162.192.208:8080
-  protocol: http
-  ip: 130.162.192.208
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AU
-    city: Melbourne
 - proxy: http://103.18.205.162:8080
   protocol: http
   ip: 103.18.205.162
@@ -378,6 +378,16 @@
   geolocation:
     country: AU
     city: Melbourne
+- proxy: http://159.196.182.72:8080
+  protocol: http
+  ip: 159.196.182.72
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AU
+    city: Unknown
 - proxy: http://152.67.99.80:80
   protocol: http
   ip: 152.67.99.80
@@ -428,13 +438,13 @@
   geolocation:
     country: AU
     city: Sydney
-- proxy: http://159.196.182.72:8080
+- proxy: http://61.29.96.146:8000
   protocol: http
-  ip: 159.196.182.72
-  port: 8080
+  ip: 61.29.96.146
+  port: 8000
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: AU
-    city: Unknown
+    city: Melbourne

@@ -1,3 +1,13 @@
+- proxy: socks5://101.36.104.239:10808
+  protocol: socks5
+  ip: 101.36.104.239
+  port: 10808
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: JP
+    city: Tokyo
 - proxy: socks5://101.36.104.46:10808
   protocol: socks5
   ip: 101.36.104.46
@@ -118,6 +128,16 @@
   geolocation:
     country: JP
     city: Osaka
+- proxy: https://133.9.6.9:443
+  protocol: https
+  ip: 133.9.6.9
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: JP
+    city: Sugao
 - proxy: https://140.238.50.134:1234
   protocol: https
   ip: 140.238.50.134
@@ -128,26 +148,26 @@
   geolocation:
     country: JP
     city: Unknown
-- proxy: https://103.135.244.2:443
+- proxy: https://52.195.147.51:9263
   protocol: https
-  ip: 103.135.244.2
-  port: 443
+  ip: 52.195.147.51
+  port: 9263
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: JP
-    city: Unknown
-- proxy: https://103.135.244.2:9443
+    city: Tokyo
+- proxy: https://15.152.38.117:12437
   protocol: https
-  ip: 103.135.244.2
-  port: 9443
+  ip: 15.152.38.117
+  port: 12437
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: JP
-    city: Unknown
+    city: Osaka
 - proxy: https://8.216.54.87:443
   protocol: https
   ip: 8.216.54.87
@@ -168,6 +188,16 @@
   geolocation:
     country: JP
     city: Tokyo
+- proxy: https://20.78.34.79:443
+  protocol: https
+  ip: 20.78.34.79
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: JP
+    city: Tokyo
 - proxy: https://43.207.141.180:33259
   protocol: https
   ip: 43.207.141.180
@@ -178,10 +208,40 @@
   geolocation:
     country: JP
     city: Tokyo
-- proxy: http://126.209.105.227:5050
+- proxy: https://52.195.147.51:20908
+  protocol: https
+  ip: 52.195.147.51
+  port: 20908
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: JP
+    city: Tokyo
+- proxy: https://52.195.147.51:42319
+  protocol: https
+  ip: 52.195.147.51
+  port: 42319
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: JP
+    city: Tokyo
+- proxy: https://35.78.212.217:44748
+  protocol: https
+  ip: 35.78.212.217
+  port: 44748
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: JP
+    city: Tokyo
+- proxy: http://126.209.110.96:8087
   protocol: http
-  ip: 126.209.105.227
-  port: 5050
+  ip: 126.209.110.96
+  port: 8087
   https: false
   anonymity: transparent
   score: 1
@@ -192,26 +252,6 @@
   protocol: http
   ip: 140.238.32.108
   port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: JP
-    city: Unknown
-- proxy: http://126.209.13.13:8087
-  protocol: http
-  ip: 126.209.13.13
-  port: 8087
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: JP
-    city: Unknown
-- proxy: http://126.209.17.234:8080
-  protocol: http
-  ip: 126.209.17.234
-  port: 8080
   https: false
   anonymity: transparent
   score: 1
@@ -288,56 +328,6 @@
   geolocation:
     country: JP
     city: Unknown
-- proxy: socks4://47.91.29.151:9080
-  protocol: socks4
-  ip: 47.91.29.151
-  port: 9080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: JP
-    city: Tokyo
-- proxy: socks4://47.91.29.151:8443
-  protocol: socks4
-  ip: 47.91.29.151
-  port: 8443
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: JP
-    city: Tokyo
-- proxy: socks4://47.91.29.151:9091
-  protocol: socks4
-  ip: 47.91.29.151
-  port: 9091
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: JP
-    city: Tokyo
-- proxy: socks5://194.113.38.227:1080
-  protocol: socks5
-  ip: 194.113.38.227
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: JP
-    city: Tokyo
-- proxy: http://8.209.255.13:3128
-  protocol: http
-  ip: 8.209.255.13
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: JP
-    city: Tokyo
 - proxy: socks5://180.222.187.50:10800
   protocol: socks5
   ip: 180.222.187.50
@@ -348,19 +338,9 @@
   geolocation:
     country: JP
     city: Unknown
-- proxy: socks5://101.36.104.239:10808
-  protocol: socks5
-  ip: 101.36.104.239
-  port: 10808
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: JP
-    city: Tokyo
-- proxy: socks5://139.162.78.109:1080
-  protocol: socks5
-  ip: 139.162.78.109
+- proxy: socks4://194.113.38.227:1080
+  protocol: socks4
+  ip: 194.113.38.227
   port: 1080
   https: false
   anonymity: transparent
@@ -378,6 +358,96 @@
   geolocation:
     country: JP
     city: Osaka
+- proxy: http://140.227.61.201:3128
+  protocol: http
+  ip: 140.227.61.201
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: JP
+    city: Chuo
+- proxy: http://160.248.7.177:80
+  protocol: http
+  ip: 160.248.7.177
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: JP
+    city: Yokohama
+- proxy: http://126.209.107.13:8080
+  protocol: http
+  ip: 126.209.107.13
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: JP
+    city: Unknown
+- proxy: socks5://43.163.219.10:20000
+  protocol: socks5
+  ip: 43.163.219.10
+  port: 20000
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: JP
+    city: Tokyo
+- proxy: socks4://103.13.19.219:10808
+  protocol: socks4
+  ip: 103.13.19.219
+  port: 10808
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: JP
+    city: Unknown
+- proxy: http://126.209.107.122:5050
+  protocol: http
+  ip: 126.209.107.122
+  port: 5050
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: JP
+    city: Unknown
+- proxy: http://8.209.255.13:3128
+  protocol: http
+  ip: 8.209.255.13
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: JP
+    city: Tokyo
+- proxy: socks5://194.113.38.227:1080
+  protocol: socks5
+  ip: 194.113.38.227
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: JP
+    city: Tokyo
+- proxy: socks5://139.162.78.109:1080
+  protocol: socks5
+  ip: 139.162.78.109
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: JP
+    city: Tokyo
 - proxy: socks5://8.216.40.169:7890
   protocol: socks5
   ip: 8.216.40.169
@@ -618,16 +688,6 @@
   geolocation:
     country: JP
     city: Kamiaso
-- proxy: socks5://43.163.219.10:20000
-  protocol: socks5
-  ip: 43.163.219.10
-  port: 20000
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: JP
-    city: Tokyo
 - proxy: socks5://188.253.22.75:1081
   protocol: socks5
   ip: 188.253.22.75
@@ -998,70 +1058,60 @@
   geolocation:
     country: JP
     city: Tokyo
-- proxy: http://8.221.141.88:443
+- proxy: http://168.138.47.101:3128
   protocol: http
-  ip: 8.221.141.88
-  port: 443
+  ip: 168.138.47.101
+  port: 3128
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: JP
-    city: Tokyo
-- proxy: http://8.221.141.88:2101
+    city: Osaka
+- proxy: http://126.209.13.13:8087
   protocol: http
-  ip: 8.221.141.88
-  port: 2101
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: JP
-    city: Tokyo
-- proxy: http://8.221.141.88:8443
-  protocol: http
-  ip: 8.221.141.88
-  port: 8443
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: JP
-    city: Tokyo
-- proxy: http://160.248.7.177:80
-  protocol: http
-  ip: 160.248.7.177
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: JP
-    city: Yokohama
-- proxy: http://126.209.13.2:8085
-  protocol: http
-  ip: 126.209.13.2
-  port: 8085
+  ip: 126.209.13.13
+  port: 8087
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: JP
     city: Unknown
-- proxy: http://126.209.106.104:8080
+- proxy: http://126.209.124.147:8089
   protocol: http
-  ip: 126.209.106.104
-  port: 8080
+  ip: 126.209.124.147
+  port: 8089
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: JP
     city: Unknown
-- proxy: http://47.74.46.81:9080
+- proxy: http://126.209.79.226:8082
   protocol: http
-  ip: 47.74.46.81
-  port: 9080
+  ip: 126.209.79.226
+  port: 8082
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: JP
+    city: Unknown
+- proxy: http://8.221.141.88:8003
+  protocol: http
+  ip: 8.221.141.88
+  port: 8003
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: JP
+    city: Tokyo
+- proxy: http://8.221.141.88:1200
+  protocol: http
+  ip: 8.221.141.88
+  port: 1200
   https: false
   anonymity: transparent
   score: 1
@@ -1098,10 +1148,30 @@
   geolocation:
     country: JP
     city: Fukuoka
+- proxy: http://8.221.141.88:3142
+  protocol: http
+  ip: 8.221.141.88
+  port: 3142
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: JP
+    city: Tokyo
 - proxy: http://8.221.139.222:4002
   protocol: http
   ip: 8.221.139.222
   port: 4002
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: JP
+    city: Tokyo
+- proxy: http://47.91.29.151:6379
+  protocol: http
+  ip: 47.91.29.151
+  port: 6379
   https: false
   anonymity: transparent
   score: 1
@@ -1258,20 +1328,20 @@
   geolocation:
     country: JP
     city: Tokyo
-- proxy: http://140.227.61.201:3128
+- proxy: http://47.74.46.81:5060
   protocol: http
-  ip: 140.227.61.201
-  port: 3128
+  ip: 47.74.46.81
+  port: 5060
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: JP
-    city: Chuo
-- proxy: http://47.74.46.81:5060
+    city: Tokyo
+- proxy: http://47.74.46.81:8000
   protocol: http
   ip: 47.74.46.81
-  port: 5060
+  port: 8000
   https: false
   anonymity: transparent
   score: 1
@@ -1308,6 +1378,16 @@
   geolocation:
     country: JP
     city: Unknown
+- proxy: http://47.91.29.151:9098
+  protocol: http
+  ip: 47.91.29.151
+  port: 9098
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: JP
+    city: Tokyo
 - proxy: http://140.238.32.108:3129
   protocol: http
   ip: 140.238.32.108
@@ -1318,20 +1398,10 @@
   geolocation:
     country: JP
     city: Unknown
-- proxy: http://126.209.3.199:5050
+- proxy: http://126.209.2.2:8081
   protocol: http
-  ip: 126.209.3.199
-  port: 5050
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: JP
-    city: Unknown
-- proxy: http://126.209.17.226:8080
-  protocol: http
-  ip: 126.209.17.226
-  port: 8080
+  ip: 126.209.2.2
+  port: 8081
   https: false
   anonymity: transparent
   score: 1
@@ -1348,3 +1418,13 @@
   geolocation:
     country: JP
     city: Tokyo
+- proxy: http://126.209.3.199:5050
+  protocol: http
+  ip: 126.209.3.199
+  port: 5050
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: JP
+    city: Unknown
