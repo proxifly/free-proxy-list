@@ -1,17 +1,27 @@
-- proxy: http://203.81.69.126:1248
+- proxy: http://103.153.202.201:8181
   protocol: http
-  ip: 203.81.69.126
-  port: 1248
+  ip: 103.153.202.201
+  port: 8181
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: MM
-    city: Unknown
+    city: Yangon
 - proxy: http://103.25.79.150:8054
   protocol: http
   ip: 103.25.79.150
   port: 8054
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MM
+    city: Yangon
+- proxy: http://185.133.213.86:8074
+  protocol: http
+  ip: 185.133.213.86
+  port: 8074
   https: false
   anonymity: transparent
   score: 1
