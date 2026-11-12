@@ -1,13 +1,33 @@
-- proxy: http://149.86.142.224:8080
+- proxy: http://149.50.228.91:8080
   protocol: http
-  ip: 149.86.142.224
+  ip: 149.50.228.91
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: TR
-    city: Konya
+    city: Mersin
+- proxy: http://38.10.71.91:8080
+  protocol: http
+  ip: 38.10.71.91
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Selcuklu
+- proxy: http://188.132.150.204:8080
+  protocol: http
+  ip: 188.132.150.204
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Unknown
 - proxy: socks4://176.88.166.215:1080
   protocol: socks4
   ip: 176.88.166.215
@@ -18,46 +38,6 @@
   geolocation:
     country: TR
     city: Kilis
-- proxy: socks4://88.247.31.164:4153
-  protocol: socks4
-  ip: 88.247.31.164
-  port: 4153
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Cankaya
-- proxy: http://194.124.36.22:8080
-  protocol: http
-  ip: 194.124.36.22
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Antalya
-- proxy: http://195.142.250.53:8080
-  protocol: http
-  ip: 195.142.250.53
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Unknown
-- proxy: http://185.153.231.35:3128
-  protocol: http
-  ip: 185.153.231.35
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Unknown
 - proxy: socks4://176.236.37.132:1080
   protocol: socks4
   ip: 176.236.37.132
@@ -68,29 +48,39 @@
   geolocation:
     country: TR
     city: Kilis
-- proxy: http://176.88.166.176:8080
+- proxy: http://78.187.157.235:8080
   protocol: http
-  ip: 176.88.166.176
+  ip: 78.187.157.235
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: TR
-    city: Adıyaman
-- proxy: socks5://38.242.156.163:9050
+    city: Adana
+- proxy: socks5://95.3.92.2:1080
   protocol: socks5
-  ip: 38.242.156.163
-  port: 9050
+  ip: 95.3.92.2
+  port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: TR
-    city: Diyarbakır
-- proxy: http://188.132.150.249:8080
+    city: Unknown
+- proxy: http://212.252.71.20:8080
   protocol: http
-  ip: 188.132.150.249
+  ip: 212.252.71.20
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Gerede
+- proxy: http://198.145.118.103:8080
+  protocol: http
+  ip: 198.145.118.103
   port: 8080
   https: false
   anonymity: transparent
@@ -98,10 +88,30 @@
   geolocation:
     country: TR
     city: Unknown
-- proxy: http://212.175.50.85:8085
+- proxy: http://82.138.122.43:80
   protocol: http
-  ip: 212.175.50.85
-  port: 8085
+  ip: 82.138.122.43
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Istanbul
+- proxy: socks4://149.86.146.205:1080
+  protocol: socks4
+  ip: 149.86.146.205
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Konya
+- proxy: http://178.250.88.50:8080
+  protocol: http
+  ip: 178.250.88.50
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
@@ -118,16 +128,56 @@
   geolocation:
     country: TR
     city: Antalya
-- proxy: socks5://95.3.92.2:1080
-  protocol: socks5
-  ip: 95.3.92.2
-  port: 1080
+- proxy: http://194.124.36.22:8080
+  protocol: http
+  ip: 194.124.36.22
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: TR
-    city: Unknown
+    city: Antalya
+- proxy: http://188.132.249.148:8080
+  protocol: http
+  ip: 188.132.249.148
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Izmir
+- proxy: http://212.175.50.80:8085
+  protocol: http
+  ip: 212.175.50.80
+  port: 8085
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Istanbul
+- proxy: http://46.197.137.173:8080
+  protocol: http
+  ip: 46.197.137.173
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Bornova
+- proxy: socks5://38.242.156.163:9050
+  protocol: socks5
+  ip: 38.242.156.163
+  port: 9050
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Diyarbakır
 - proxy: socks5://78.187.157.235:1080
   protocol: socks5
   ip: 78.187.157.235
@@ -388,6 +438,16 @@
   geolocation:
     country: TR
     city: Istanbul
+- proxy: http://81.213.205.107:8080
+  protocol: http
+  ip: 81.213.205.107
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Lüleburgaz
 - proxy: http://31.223.16.134:8888
   protocol: http
   ip: 31.223.16.134
@@ -398,176 +458,6 @@
   geolocation:
     country: TR
     city: Ankara
-- proxy: http://185.200.37.231:8686
-  protocol: http
-  ip: 185.200.37.231
-  port: 8686
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Unknown
-- proxy: http://212.252.73.83:8080
-  protocol: http
-  ip: 212.252.73.83
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Unknown
-- proxy: http://88.248.250.76:8080
-  protocol: http
-  ip: 88.248.250.76
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Atakum
-- proxy: http://212.175.50.76:8085
-  protocol: http
-  ip: 212.175.50.76
-  port: 8085
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Istanbul
-- proxy: http://212.115.17.195:9090
-  protocol: http
-  ip: 212.115.17.195
-  port: 9090
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Istanbul
-- proxy: http://31.145.149.75:9090
-  protocol: http
-  ip: 31.145.149.75
-  port: 9090
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Unknown
-- proxy: http://198.145.118.103:8080
-  protocol: http
-  ip: 198.145.118.103
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Unknown
-- proxy: http://212.252.71.20:8080
-  protocol: http
-  ip: 212.252.71.20
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Gerede
-- proxy: http://176.88.166.163:8080
-  protocol: http
-  ip: 176.88.166.163
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Adıyaman
-- proxy: http://185.200.37.66:8080
-  protocol: http
-  ip: 185.200.37.66
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Unknown
-- proxy: http://82.138.122.43:80
-  protocol: http
-  ip: 82.138.122.43
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Istanbul
-- proxy: http://185.135.99.14:8080
-  protocol: http
-  ip: 185.135.99.14
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Unknown
-- proxy: http://195.62.50.239:8080
-  protocol: http
-  ip: 195.62.50.239
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Unknown
-- proxy: http://176.88.166.201:8080
-  protocol: http
-  ip: 176.88.166.201
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Kilis
-- proxy: http://176.88.168.120:8080
-  protocol: http
-  ip: 176.88.168.120
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Kilis
-- proxy: http://88.247.171.120:8080
-  protocol: http
-  ip: 88.247.171.120
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Bayrakli
-- proxy: http://188.132.249.103:8080
-  protocol: http
-  ip: 188.132.249.103
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Izmir
 - proxy: http://176.88.6.212:8080
   protocol: http
   ip: 176.88.6.212
@@ -578,39 +468,39 @@
   geolocation:
     country: TR
     city: Ankara
-- proxy: http://195.142.25.185:8080
+- proxy: http://176.88.166.163:8080
   protocol: http
-  ip: 195.142.25.185
+  ip: 176.88.166.163
   port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Adıyaman
+- proxy: http://212.175.50.76:8085
+  protocol: http
+  ip: 212.175.50.76
+  port: 8085
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: TR
     city: Istanbul
-- proxy: http://194.124.36.16:8080
+- proxy: http://88.247.171.120:8080
   protocol: http
-  ip: 194.124.36.16
+  ip: 88.247.171.120
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: TR
-    city: Antalya
-- proxy: http://198.145.118.109:8080
+    city: Bayrakli
+- proxy: http://212.252.73.83:8080
   protocol: http
-  ip: 198.145.118.109
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Unknown
-- proxy: http://195.62.50.98:8080
-  protocol: http
-  ip: 195.62.50.98
+  ip: 212.252.73.83
   port: 8080
   https: false
   anonymity: transparent
@@ -618,160 +508,70 @@
   geolocation:
     country: TR
     city: Unknown
-- proxy: http://176.88.65.164:8080
+- proxy: http://149.86.151.202:8085
   protocol: http
-  ip: 176.88.65.164
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Unknown
-- proxy: http://212.252.73.13:8080
-  protocol: http
-  ip: 212.252.73.13
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Unknown
-- proxy: http://178.250.88.50:8080
-  protocol: http
-  ip: 178.250.88.50
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Istanbul
-- proxy: http://212.252.73.66:8080
-  protocol: http
-  ip: 212.252.73.66
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Unknown
-- proxy: http://81.161.236.152:8080
-  protocol: http
-  ip: 81.161.236.152
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Istanbul
-- proxy: http://176.236.124.252:10001
-  protocol: http
-  ip: 176.236.124.252
-  port: 10001
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Magnesia ad Sipylum
-- proxy: http://78.189.32.215:8080
-  protocol: http
-  ip: 78.189.32.215
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Köseköy
-- proxy: http://95.0.84.26:80
-  protocol: http
-  ip: 95.0.84.26
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Gebze
-- proxy: http://95.3.92.2:1080
-  protocol: http
-  ip: 95.3.92.2
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Unknown
-- proxy: http://95.183.140.94:80
-  protocol: http
-  ip: 95.183.140.94
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Bayburt
-- proxy: http://85.105.194.113:4153
-  protocol: http
-  ip: 85.105.194.113
-  port: 4153
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Izmir
-- proxy: http://212.252.73.18:8080
-  protocol: http
-  ip: 212.252.73.18
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Unknown
-- proxy: http://83.217.9.235:2080
-  protocol: http
-  ip: 83.217.9.235
-  port: 2080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Unknown
-- proxy: http://149.86.146.205:1080
-  protocol: http
-  ip: 149.86.146.205
-  port: 1080
+  ip: 149.86.151.202
+  port: 8085
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: TR
     city: Konya
-- proxy: http://188.132.249.157:8080
+- proxy: http://185.153.231.35:3128
   protocol: http
-  ip: 188.132.249.157
+  ip: 185.153.231.35
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Unknown
+- proxy: http://149.86.142.224:8080
+  protocol: http
+  ip: 149.86.142.224
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: TR
-    city: Izmir
-- proxy: http://185.73.202.85:80
+    city: Konya
+- proxy: http://195.142.250.34:8080
   protocol: http
-  ip: 185.73.202.85
-  port: 80
+  ip: 195.142.250.34
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Unknown
+- proxy: http://188.132.150.149:8080
+  protocol: http
+  ip: 188.132.150.149
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Unknown
+- proxy: http://5.26.111.181:8080
+  protocol: http
+  ip: 5.26.111.181
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Unknown
+- proxy: http://188.132.222.142:8080
+  protocol: http
+  ip: 188.132.222.142
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
@@ -788,79 +588,69 @@
   geolocation:
     country: TR
     city: Istanbul
-- proxy: http://149.86.151.202:8085
+- proxy: http://176.88.166.219:8080
   protocol: http
-  ip: 149.86.151.202
-  port: 8085
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Konya
-- proxy: http://78.188.81.57:8080
-  protocol: http
-  ip: 78.188.81.57
+  ip: 176.88.166.219
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: TR
-    city: Istanbul
-- proxy: http://195.142.25.174:8080
+    city: Kilis
+- proxy: http://31.145.149.75:9090
   protocol: http
-  ip: 195.142.25.174
+  ip: 31.145.149.75
+  port: 9090
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Unknown
+- proxy: http://195.87.136.2:5331
+  protocol: http
+  ip: 195.87.136.2
+  port: 5331
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Tuzla
+- proxy: http://195.142.16.74:8080
+  protocol: http
+  ip: 195.142.16.74
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: TR
-    city: Istanbul
-- proxy: http://176.88.55.195:8080
+    city: Unknown
+- proxy: http://188.132.150.235:8080
   protocol: http
-  ip: 176.88.55.195
+  ip: 188.132.150.235
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: TR
-    city: Istanbul
-- proxy: http://194.124.37.20:8080
+    city: Unknown
+- proxy: http://185.200.38.201:8080
   protocol: http
-  ip: 194.124.37.20
+  ip: 185.200.38.201
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: TR
-    city: Antalya
-- proxy: http://95.183.140.89:80
+    city: Unknown
+- proxy: http://194.124.37.119:8080
   protocol: http
-  ip: 95.183.140.89
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Bayburt
-- proxy: http://188.132.221.186:8080
-  protocol: http
-  ip: 188.132.221.186
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Antakya
-- proxy: http://194.124.36.14:8080
-  protocol: http
-  ip: 194.124.36.14
+  ip: 194.124.37.119
   port: 8080
   https: false
   anonymity: transparent
@@ -868,26 +658,26 @@
   geolocation:
     country: TR
     city: Antalya
-- proxy: http://88.255.65.119:8080
+- proxy: http://94.54.82.4:9050
   protocol: http
-  ip: 88.255.65.119
-  port: 8080
+  ip: 94.54.82.4
+  port: 9050
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: TR
-    city: Istanbul
-- proxy: http://81.213.205.107:8080
+    city: Cankaya
+- proxy: http://38.242.156.163:9050
   protocol: http
-  ip: 81.213.205.107
-  port: 8080
+  ip: 38.242.156.163
+  port: 9050
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: TR
-    city: Lüleburgaz
+    city: Diyarbakır
 - proxy: http://212.174.242.114:8080
   protocol: http
   ip: 212.174.242.114
@@ -908,6 +698,96 @@
   geolocation:
     country: TR
     city: Unknown
+- proxy: http://195.142.25.174:8080
+  protocol: http
+  ip: 195.142.25.174
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Istanbul
+- proxy: http://78.188.81.57:8080
+  protocol: http
+  ip: 78.188.81.57
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Istanbul
+- proxy: http://176.88.55.195:8080
+  protocol: http
+  ip: 176.88.55.195
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Istanbul
+- proxy: http://195.175.29.38:9090
+  protocol: http
+  ip: 195.175.29.38
+  port: 9090
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Sehitkamil
+- proxy: http://95.183.140.89:80
+  protocol: http
+  ip: 95.183.140.89
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Bayburt
+- proxy: http://95.183.140.94:80
+  protocol: http
+  ip: 95.183.140.94
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Bayburt
+- proxy: http://188.132.221.186:8080
+  protocol: http
+  ip: 188.132.221.186
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Antakya
+- proxy: http://185.73.202.85:80
+  protocol: http
+  ip: 185.73.202.85
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Unknown
+- proxy: http://88.255.65.119:8080
+  protocol: http
+  ip: 88.255.65.119
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Istanbul
 - proxy: http://85.117.239.113:3128
   protocol: http
   ip: 85.117.239.113
@@ -918,9 +798,39 @@
   geolocation:
     country: TR
     city: Unknown
-- proxy: http://95.3.92.2:8080
+- proxy: http://45.93.170.251:888
   protocol: http
-  ip: 95.3.92.2
+  ip: 45.93.170.251
+  port: 888
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Istanbul
+- proxy: http://95.0.84.26:80
+  protocol: http
+  ip: 95.0.84.26
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Gebze
+- proxy: http://176.236.124.252:10001
+  protocol: http
+  ip: 176.236.124.252
+  port: 10001
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Magnesia ad Sipylum
+- proxy: http://195.62.50.239:8080
+  protocol: http
+  ip: 195.62.50.239
   port: 8080
   https: false
   anonymity: transparent
@@ -928,19 +838,59 @@
   geolocation:
     country: TR
     city: Unknown
-- proxy: http://88.247.31.164:4153
+- proxy: http://81.161.236.152:8080
   protocol: http
-  ip: 88.247.31.164
-  port: 4153
+  ip: 81.161.236.152
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: TR
-    city: Cankaya
-- proxy: http://188.132.222.142:8080
+    city: Istanbul
+- proxy: http://194.124.37.20:8080
   protocol: http
-  ip: 188.132.222.142
+  ip: 194.124.37.20
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Antalya
+- proxy: http://194.124.36.14:8080
+  protocol: http
+  ip: 194.124.36.14
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Antalya
+- proxy: http://78.189.32.215:8080
+  protocol: http
+  ip: 78.189.32.215
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Köseköy
+- proxy: http://188.132.249.157:8080
+  protocol: http
+  ip: 188.132.249.157
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Izmir
+- proxy: http://188.132.222.134:8080
+  protocol: http
+  ip: 188.132.222.134
   port: 8080
   https: false
   anonymity: transparent
@@ -948,9 +898,69 @@
   geolocation:
     country: TR
     city: Unknown
-- proxy: http://194.124.37.119:8080
+- proxy: http://212.175.50.85:8085
   protocol: http
-  ip: 194.124.37.119
+  ip: 212.175.50.85
+  port: 8085
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Istanbul
+- proxy: http://195.142.250.46:8080
+  protocol: http
+  ip: 195.142.250.46
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Unknown
+- proxy: http://149.86.140.210:8080
+  protocol: http
+  ip: 149.86.140.210
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Konya
+- proxy: http://185.153.231.35:3129
+  protocol: http
+  ip: 185.153.231.35
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Unknown
+- proxy: http://176.88.65.162:8080
+  protocol: http
+  ip: 176.88.65.162
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Unknown
+- proxy: http://212.252.73.18:8080
+  protocol: http
+  ip: 212.252.73.18
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Unknown
+- proxy: http://194.124.36.16:8080
+  protocol: http
+  ip: 194.124.36.16
   port: 8080
   https: false
   anonymity: transparent
@@ -968,23 +978,33 @@
   geolocation:
     country: TR
     city: Antalya
-- proxy: http://185.153.231.35:3129
+- proxy: http://195.142.250.53:8080
   protocol: http
-  ip: 185.153.231.35
-  port: 3129
+  ip: 195.142.250.53
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: TR
     city: Unknown
-- proxy: http://185.204.168.184:8090
+- proxy: http://88.248.250.76:8080
   protocol: http
-  ip: 185.204.168.184
-  port: 8090
+  ip: 88.248.250.76
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: TR
-    city: Istanbul
+    city: Atakum
+- proxy: http://188.132.249.102:8080
+  protocol: http
+  ip: 188.132.249.102
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Izmir

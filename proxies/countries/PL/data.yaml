@@ -168,6 +168,16 @@
   geolocation:
     country: PL
     city: Warsaw
+- proxy: https://80.72.39.35:443
+  protocol: https
+  ip: 80.72.39.35
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PL
+    city: Warsaw
 - proxy: https://79.133.217.232:443
   protocol: https
   ip: 79.133.217.232
@@ -188,6 +198,16 @@
   geolocation:
     country: PL
     city: Nowe Miasto Lubawskie
+- proxy: https://178.248.73.58:443
+  protocol: https
+  ip: 178.248.73.58
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PL
+    city: Unknown
 - proxy: https://46.170.93.122:443
   protocol: https
   ip: 46.170.93.122
@@ -208,6 +228,16 @@
   geolocation:
     country: PL
     city: Krakow
+- proxy: http://78.9.234.55:8080
+  protocol: http
+  ip: 78.9.234.55
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PL
+    city: Unknown
 - proxy: socks4://193.243.154.146:4145
   protocol: socks4
   ip: 193.243.154.146
@@ -238,6 +268,26 @@
   geolocation:
     country: PL
     city: Olsztyn
+- proxy: http://80.90.178.167:1081
+  protocol: http
+  ip: 80.90.178.167
+  port: 1081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PL
+    city: Warsaw
+- proxy: socks5://88.218.206.170:5432
+  protocol: socks5
+  ip: 88.218.206.170
+  port: 5432
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PL
+    city: Warsaw
 - proxy: socks5://88.218.206.170:22
   protocol: socks5
   ip: 88.218.206.170
@@ -268,16 +318,6 @@
   geolocation:
     country: PL
     city: Lubawa
-- proxy: socks5://88.218.206.170:5432
-  protocol: socks5
-  ip: 88.218.206.170
-  port: 5432
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Warsaw
 - proxy: socks5://37.221.102.172:1080
   protocol: socks5
   ip: 37.221.102.172
@@ -578,116 +618,6 @@
   geolocation:
     country: PL
     city: Warsaw
-- proxy: http://185.238.236.226:58080
-  protocol: http
-  ip: 185.238.236.226
-  port: 58080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Gmina Strzelin
-- proxy: http://185.238.238.49:58080
-  protocol: http
-  ip: 185.238.238.49
-  port: 58080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Gmina Strzelin
-- proxy: http://185.238.238.165:58080
-  protocol: http
-  ip: 185.238.238.165
-  port: 58080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Gmina Strzelin
-- proxy: http://185.238.238.113:58080
-  protocol: http
-  ip: 185.238.238.113
-  port: 58080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Gmina Strzelin
-- proxy: http://88.156.178.59:1122
-  protocol: http
-  ip: 88.156.178.59
-  port: 1122
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Unknown
-- proxy: http://91.202.5.45:1080
-  protocol: http
-  ip: 91.202.5.45
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Unknown
-- proxy: http://109.95.175.64:1080
-  protocol: http
-  ip: 109.95.175.64
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Lubawa
-- proxy: http://79.110.200.27:8000
-  protocol: http
-  ip: 79.110.200.27
-  port: 8000
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Wroclaw
-- proxy: http://78.31.93.76:1080
-  protocol: http
-  ip: 78.31.93.76
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Racibórz
-- proxy: http://91.150.189.122:30389
-  protocol: http
-  ip: 91.150.189.122
-  port: 30389
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Rzeszów
-- proxy: http://37.131.165.19:59341
-  protocol: http
-  ip: 37.131.165.19
-  port: 59341
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Drezdenko
 - proxy: http://78.9.232.205:8080
   protocol: http
   ip: 78.9.232.205
@@ -698,26 +628,16 @@
   geolocation:
     country: PL
     city: Unknown
-- proxy: http://91.202.5.45:3128
+- proxy: http://185.166.196.14:8443
   protocol: http
-  ip: 91.202.5.45
-  port: 3128
+  ip: 185.166.196.14
+  port: 8443
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: PL
-    city: Unknown
-- proxy: http://185.49.31.205:8080
-  protocol: http
-  ip: 185.49.31.205
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Wroclaw
+    city: Warsaw
 - proxy: http://185.32.4.210:8070
   protocol: http
   ip: 185.32.4.210
@@ -728,3 +648,183 @@
   geolocation:
     country: PL
     city: Unknown
+- proxy: http://185.238.238.165:58080
+  protocol: http
+  ip: 185.238.238.165
+  port: 58080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PL
+    city: Gmina Strzelin
+- proxy: http://185.238.236.226:58080
+  protocol: http
+  ip: 185.238.236.226
+  port: 58080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PL
+    city: Gmina Strzelin
+- proxy: http://185.238.238.29:58080
+  protocol: http
+  ip: 185.238.238.29
+  port: 58080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PL
+    city: Gmina Strzelin
+- proxy: http://78.31.93.76:1080
+  protocol: http
+  ip: 78.31.93.76
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PL
+    city: Racibórz
+- proxy: http://185.49.31.205:8080
+  protocol: http
+  ip: 185.49.31.205
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PL
+    city: Wroclaw
+- proxy: http://109.95.175.64:1080
+  protocol: http
+  ip: 109.95.175.64
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PL
+    city: Lubawa
+- proxy: http://217.182.74.56:9100
+  protocol: http
+  ip: 217.182.74.56
+  port: 9100
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PL
+    city: Warsaw
+- proxy: http://91.202.5.45:3128
+  protocol: http
+  ip: 91.202.5.45
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PL
+    city: Unknown
+- proxy: http://91.211.100.35:44744
+  protocol: http
+  ip: 91.211.100.35
+  port: 44744
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PL
+    city: Warsaw
+- proxy: http://46.171.28.162:59311
+  protocol: http
+  ip: 46.171.28.162
+  port: 59311
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PL
+    city: Radomsko
+- proxy: http://185.166.196.14:3128
+  protocol: http
+  ip: 185.166.196.14
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PL
+    city: Warsaw
+- proxy: http://31.42.6.125:5678
+  protocol: http
+  ip: 31.42.6.125
+  port: 5678
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PL
+    city: Radomsko
+- proxy: http://194.177.28.66:10808
+  protocol: http
+  ip: 194.177.28.66
+  port: 10808
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PL
+    city: Ustron
+- proxy: http://193.221.203.192:1080
+  protocol: http
+  ip: 193.221.203.192
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PL
+    city: Warsaw
+- proxy: http://88.218.206.170:5432
+  protocol: http
+  ip: 88.218.206.170
+  port: 5432
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PL
+    city: Warsaw
+- proxy: http://91.150.189.122:30389
+  protocol: http
+  ip: 91.150.189.122
+  port: 30389
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PL
+    city: Rzeszów
+- proxy: http://79.110.200.27:8000
+  protocol: http
+  ip: 79.110.200.27
+  port: 8000
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PL
+    city: Wroclaw
+- proxy: http://82.139.141.206:8080
+  protocol: http
+  ip: 82.139.141.206
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PL
+    city: Łomża
