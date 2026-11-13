@@ -1,13 +1,3 @@
-- proxy: socks4://93.115.174.1:1080
-  protocol: socks4
-  ip: 93.115.174.1
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RO
-    city: Unknown
 - proxy: https://193.176.84.34:9002
   protocol: https
   ip: 193.176.84.34
@@ -628,6 +618,16 @@
   geolocation:
     country: RO
     city: Unknown
+- proxy: socks4://93.115.174.1:1080
+  protocol: socks4
+  ip: 93.115.174.1
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RO
+    city: Unknown
 - proxy: socks4://81.12.157.98:5678
   protocol: socks4
   ip: 81.12.157.98
@@ -638,16 +638,6 @@
   geolocation:
     country: RO
     city: Făgăraș
-- proxy: http://91.132.224.113:6789
-  protocol: http
-  ip: 91.132.224.113
-  port: 6789
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RO
-    city: Unknown
 - proxy: socks5://45.95.38.57:9050
   protocol: socks5
   ip: 45.95.38.57
@@ -878,26 +868,6 @@
   geolocation:
     country: RO
     city: Hârlău
-- proxy: http://92.81.131.98:8080
-  protocol: http
-  ip: 92.81.131.98
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RO
-    city: Bucharest
-- proxy: http://89.40.77.249:8787
-  protocol: http
-  ip: 89.40.77.249
-  port: 8787
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RO
-    city: Făget
 - proxy: http://188.211.30.65:8787
   protocol: http
   ip: 188.211.30.65
@@ -908,16 +878,46 @@
   geolocation:
     country: RO
     city: Românești
-- proxy: http://5.2.238.216:8787
+- proxy: http://92.86.207.198:8080
   protocol: http
-  ip: 5.2.238.216
-  port: 8787
+  ip: 92.86.207.198
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: RO
-    city: Constanța
+    city: Giroc
+- proxy: http://91.132.224.113:6789
+  protocol: http
+  ip: 91.132.224.113
+  port: 6789
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RO
+    city: Unknown
+- proxy: http://45.80.151.33:3128
+  protocol: http
+  ip: 45.80.151.33
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RO
+    city: Unknown
+- proxy: http://109.166.207.162:3629
+  protocol: http
+  ip: 109.166.207.162
+  port: 3629
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RO
+    city: Bucharest
 - proxy: http://88.218.122.246:50051
   protocol: http
   ip: 88.218.122.246
@@ -928,53 +928,13 @@
   geolocation:
     country: RO
     city: Unknown
-- proxy: http://92.86.92.126:42740
+- proxy: http://81.18.90.43:4153
   protocol: http
-  ip: 92.86.92.126
-  port: 42740
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RO
-    city: Alba Iulia
-- proxy: http://193.187.148.198:8118
-  protocol: http
-  ip: 193.187.148.198
-  port: 8118
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RO
-    city: Bucharest
-- proxy: http://89.47.113.13:9050
-  protocol: http
-  ip: 89.47.113.13
-  port: 9050
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RO
-    city: Chiajna
-- proxy: http://81.12.169.254:4153
-  protocol: http
-  ip: 81.12.169.254
+  ip: 81.18.90.43
   port: 4153
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: RO
-    city: Bucharest
-- proxy: http://93.115.175.190:3129
-  protocol: http
-  ip: 93.115.175.190
-  port: 3129
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RO
-    city: Unknown
+    city: Ploieşti

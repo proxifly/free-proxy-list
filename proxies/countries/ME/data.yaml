@@ -1,13 +1,3 @@
-- proxy: socks4://109.72.100.113:48293
-  protocol: socks4
-  ip: 109.72.100.113
-  port: 48293
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ME
-    city: Podgorica
 - proxy: socks4://109.72.109.214:48293
   protocol: socks4
   ip: 109.72.109.214
@@ -28,6 +18,16 @@
   geolocation:
     country: ME
     city: Unknown
+- proxy: http://94.102.235.131:32650
+  protocol: http
+  ip: 94.102.235.131
+  port: 32650
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ME
+    city: Podgorica
 - proxy: http://109.72.109.214:48293
   protocol: http
   ip: 109.72.109.214
@@ -48,13 +48,13 @@
   geolocation:
     country: ME
     city: Podgorica
-- proxy: http://94.102.235.131:32650
+- proxy: http://109.72.107.227:48293
   protocol: http
-  ip: 94.102.235.131
-  port: 32650
+  ip: 109.72.107.227
+  port: 48293
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ME
-    city: Podgorica
+    city: Zabljak
