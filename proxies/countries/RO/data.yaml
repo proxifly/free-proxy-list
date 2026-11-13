@@ -8,6 +8,16 @@
   geolocation:
     country: RO
     city: Făgăraș
+- proxy: socks4://109.166.207.162:3629
+  protocol: socks4
+  ip: 109.166.207.162
+  port: 3629
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RO
+    city: Bucharest
 - proxy: https://193.176.84.34:9002
   protocol: https
   ip: 193.176.84.34
@@ -628,16 +638,16 @@
   geolocation:
     country: RO
     city: Unknown
-- proxy: http://92.86.207.198:8080
-  protocol: http
-  ip: 92.86.207.198
-  port: 8080
+- proxy: socks4://93.115.174.1:1080
+  protocol: socks4
+  ip: 93.115.174.1
+  port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: RO
-    city: Giroc
+    city: Unknown
 - proxy: http://92.81.131.98:8080
   protocol: http
   ip: 92.81.131.98
@@ -888,16 +898,26 @@
   geolocation:
     country: RO
     city: Unknown
-- proxy: http://89.40.77.249:8787
+- proxy: http://171.22.132.95:8888
   protocol: http
-  ip: 89.40.77.249
-  port: 8787
+  ip: 171.22.132.95
+  port: 8888
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: RO
-    city: Făget
+    city: Bucharest
+- proxy: http://92.86.207.198:8080
+  protocol: http
+  ip: 92.86.207.198
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RO
+    city: Giroc
 - proxy: http://81.12.157.98:5678
   protocol: http
   ip: 81.12.157.98

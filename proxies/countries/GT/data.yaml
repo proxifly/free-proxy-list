@@ -1,6 +1,16 @@
-- proxy: http://45.5.119.17:999
+- proxy: socks4://181.189.132.74:5678
+  protocol: socks4
+  ip: 181.189.132.74
+  port: 5678
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GT
+    city: Guatemala City
+- proxy: http://181.119.109.13:999
   protocol: http
-  ip: 45.5.119.17
+  ip: 181.119.109.13
   port: 999
   https: false
   anonymity: transparent
@@ -8,9 +18,9 @@
   geolocation:
     country: GT
     city: Guatemala City
-- proxy: http://181.119.111.53:999
+- proxy: http://181.119.111.59:999
   protocol: http
-  ip: 181.119.111.53
+  ip: 181.119.111.59
   port: 999
   https: false
   anonymity: transparent
@@ -28,19 +38,9 @@
   geolocation:
     country: GT
     city: Guatemala City
-- proxy: http://181.174.115.9:1994
+- proxy: http://138.118.107.29:999
   protocol: http
-  ip: 181.174.115.9
-  port: 1994
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GT
-    city: Santiago Sacatepequez
-- proxy: http://167.250.222.233:999
-  protocol: http
-  ip: 167.250.222.233
+  ip: 138.118.107.29
   port: 999
   https: false
   anonymity: transparent
@@ -48,9 +48,29 @@
   geolocation:
     country: GT
     city: Guatemala City
-- proxy: http://45.228.233.78:999
+- proxy: http://181.189.27.158:999
   protocol: http
-  ip: 45.228.233.78
+  ip: 181.189.27.158
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GT
+    city: Unknown
+- proxy: http://45.5.119.17:999
+  protocol: http
+  ip: 45.5.119.17
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GT
+    city: Guatemala City
+- proxy: http://181.119.111.53:999
+  protocol: http
+  ip: 181.119.111.53
   port: 999
   https: false
   anonymity: transparent
@@ -91,16 +111,6 @@
 - proxy: http://143.208.57.165:999
   protocol: http
   ip: 143.208.57.165
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GT
-    city: Guatemala City
-- proxy: http://181.119.111.59:999
-  protocol: http
-  ip: 181.119.111.59
   port: 999
   https: false
   anonymity: transparent

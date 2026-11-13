@@ -28,6 +28,46 @@
   geolocation:
     country: CH
     city: Richterswil
+- proxy: https://89.187.165.97:443
+  protocol: https
+  ip: 89.187.165.97
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CH
+    city: Zurich
+- proxy: https://89.187.165.97:9443
+  protocol: https
+  ip: 89.187.165.97
+  port: 9443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CH
+    city: Zurich
+- proxy: https://149.88.27.33:9443
+  protocol: https
+  ip: 149.88.27.33
+  port: 9443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CH
+    city: Zurich
+- proxy: https://146.70.126.50:9443
+  protocol: https
+  ip: 146.70.126.50
+  port: 9443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CH
+    city: Zurich
 - proxy: https://217.192.241.88:443
   protocol: https
   ip: 217.192.241.88
@@ -38,6 +78,16 @@
   geolocation:
     country: CH
     city: Effretikon
+- proxy: http://34.65.99.32:3128
+  protocol: http
+  ip: 34.65.99.32
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CH
+    city: Zurich
 - proxy: http://185.85.111.18:80
   protocol: http
   ip: 185.85.111.18
@@ -188,6 +238,16 @@
   geolocation:
     country: CH
     city: Geneva
+- proxy: http://62.220.129.81:8080
+  protocol: http
+  ip: 62.220.129.81
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CH
+    city: La Tour-de-Peilz
 - proxy: http://51.103.137.65:80
   protocol: http
   ip: 51.103.137.65
@@ -228,16 +288,6 @@
   geolocation:
     country: CH
     city: Unknown
-- proxy: http://34.65.99.32:3128
-  protocol: http
-  ip: 34.65.99.32
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CH
-    city: Zurich
 - proxy: http://195.225.116.14:4145
   protocol: http
   ip: 195.225.116.14
@@ -248,9 +298,9 @@
   geolocation:
     country: CH
     city: Unknown
-- proxy: http://74.242.169.16:3129
+- proxy: http://34.65.99.32:3129
   protocol: http
-  ip: 74.242.169.16
+  ip: 34.65.99.32
   port: 3129
   https: false
   anonymity: transparent
