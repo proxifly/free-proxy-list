@@ -1,33 +1,3 @@
-- proxy: socks5://176.62.229.17:1080
-  protocol: socks5
-  ip: 176.62.229.17
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Trutnov
-- proxy: socks5://78.80.157.35:1080
-  protocol: socks5
-  ip: 78.80.157.35
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Ústí nad Labem
-- proxy: socks4://90.182.147.170:4145
-  protocol: socks4
-  ip: 90.182.147.170
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Hodkovice nad Mohelkou
 - proxy: https://31.31.78.117:443
   protocol: https
   ip: 31.31.78.117
@@ -68,36 +38,6 @@
   geolocation:
     country: CZ
     city: Unknown
-- proxy: https://95.173.219.14:443
-  protocol: https
-  ip: 95.173.219.14
-  port: 443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Prague
-- proxy: https://95.173.219.14:9443
-  protocol: https
-  ip: 95.173.219.14
-  port: 9443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Prague
-- proxy: https://95.173.219.1:9443
-  protocol: https
-  ip: 95.173.219.1
-  port: 9443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Prague
 - proxy: https://176.102.64.4:443
   protocol: https
   ip: 176.102.64.4
@@ -128,16 +68,6 @@
   geolocation:
     country: CZ
     city: Prague
-- proxy: http://80.79.29.222:3128
-  protocol: http
-  ip: 80.79.29.222
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Unknown
 - proxy: http://147.231.163.133:80
   protocol: http
   ip: 147.231.163.133
@@ -148,10 +78,20 @@
   geolocation:
     country: CZ
     city: Unknown
-- proxy: http://95.129.101.73:80
-  protocol: http
-  ip: 95.129.101.73
-  port: 80
+- proxy: socks4://185.40.80.143:4153
+  protocol: socks4
+  ip: 185.40.80.143
+  port: 4153
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Klatovy
+- proxy: socks4://46.8.104.176:1080
+  protocol: socks4
+  ip: 46.8.104.176
+  port: 1080
   https: false
   anonymity: transparent
   score: 1
@@ -168,6 +108,26 @@
   geolocation:
     country: CZ
     city: Jindrichuv Hradec
+- proxy: socks5://176.62.229.17:1080
+  protocol: socks5
+  ip: 176.62.229.17
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Trutnov
+- proxy: socks5://78.80.157.35:1080
+  protocol: socks5
+  ip: 78.80.157.35
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Ústí nad Labem
 - proxy: socks5://176.62.237.51:1080
   protocol: socks5
   ip: 176.62.237.51
@@ -408,10 +368,20 @@
   geolocation:
     country: CZ
     city: Unknown
-- proxy: http://188.119.98.126:9999
+- proxy: http://217.75.208.181:8080
   protocol: http
-  ip: 188.119.98.126
-  port: 9999
+  ip: 217.75.208.181
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Louny
+- proxy: http://95.129.101.73:80
+  protocol: http
+  ip: 95.129.101.73
+  port: 80
   https: false
   anonymity: transparent
   score: 1
@@ -428,56 +398,6 @@
   geolocation:
     country: CZ
     city: Prague
-- proxy: http://78.80.157.35:1080
-  protocol: http
-  ip: 78.80.157.35
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Ústí nad Labem
-- proxy: http://176.62.229.17:1080
-  protocol: http
-  ip: 176.62.229.17
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Trutnov
-- proxy: http://185.71.233.113:8080
-  protocol: http
-  ip: 185.71.233.113
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Bzova
-- proxy: http://213.151.79.84:8080
-  protocol: http
-  ip: 213.151.79.84
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Prague
-- proxy: http://46.8.104.176:1080
-  protocol: http
-  ip: 46.8.104.176
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Unknown
 - proxy: http://193.165.115.78:1080
   protocol: http
   ip: 193.165.115.78
@@ -488,19 +408,79 @@
   geolocation:
     country: CZ
     city: Jindrichuv Hradec
-- proxy: http://90.182.147.170:4145
+- proxy: http://185.71.233.113:8080
   protocol: http
-  ip: 90.182.147.170
-  port: 4145
+  ip: 185.71.233.113
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: CZ
-    city: Hodkovice nad Mohelkou
-- proxy: http://93.99.104.47:1080
+    city: Bzova
+- proxy: http://185.115.74.222:8081
   protocol: http
-  ip: 93.99.104.47
+  ip: 185.115.74.222
+  port: 8081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Ostrava
+- proxy: http://78.80.157.35:1080
+  protocol: http
+  ip: 78.80.157.35
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Ústí nad Labem
+- proxy: http://188.120.198.182:1080
+  protocol: http
+  ip: 188.120.198.182
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Český Krumlov
+- proxy: http://213.151.79.84:8080
+  protocol: http
+  ip: 213.151.79.84
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Prague
+- proxy: http://188.119.98.126:9999
+  protocol: http
+  ip: 188.119.98.126
+  port: 9999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Unknown
+- proxy: http://95.85.248.54:1085
+  protocol: http
+  ip: 95.85.248.54
+  port: 1085
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Semcice
+- proxy: http://46.8.104.176:1080
+  protocol: http
+  ip: 46.8.104.176
   port: 1080
   https: false
   anonymity: transparent
@@ -508,13 +488,13 @@
   geolocation:
     country: CZ
     city: Unknown
-- proxy: http://185.73.103.23:3128
+- proxy: http://46.23.61.97:8080
   protocol: http
-  ip: 185.73.103.23
-  port: 3128
+  ip: 46.23.61.97
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: CZ
-    city: Chodov
+    city: Kdyne

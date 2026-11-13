@@ -68,26 +68,6 @@
   geolocation:
     country: DK
     city: Unknown
-- proxy: https://185.104.184.130:443
-  protocol: https
-  ip: 185.104.184.130
-  port: 443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DK
-    city: Glostrup Municipality
-- proxy: https://185.104.184.130:9443
-  protocol: https
-  ip: 185.104.184.130
-  port: 9443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DK
-    city: Glostrup Municipality
 - proxy: http://91.132.92.231:80
   protocol: http
   ip: 91.132.92.231
@@ -98,20 +78,20 @@
   geolocation:
     country: DK
     city: Copenhagen
-- proxy: http://194.150.110.134:80
-  protocol: http
-  ip: 194.150.110.134
-  port: 80
+- proxy: socks5://159.195.62.125:9050
+  protocol: socks5
+  ip: 159.195.62.125
+  port: 9050
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: DK
     city: Unknown
-- proxy: socks5://159.195.62.125:9050
-  protocol: socks5
-  ip: 159.195.62.125
-  port: 9050
+- proxy: http://194.150.110.134:80
+  protocol: http
+  ip: 194.150.110.134
+  port: 80
   https: false
   anonymity: transparent
   score: 1
@@ -158,20 +138,10 @@
   geolocation:
     country: DK
     city: Unknown
-- proxy: http://93.167.245.6:4145
+- proxy: http://159.195.77.126:3128
   protocol: http
-  ip: 93.167.245.6
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DK
-    city: Støvring
-- proxy: http://159.195.62.125:9050
-  protocol: http
-  ip: 159.195.62.125
-  port: 9050
+  ip: 159.195.77.126
+  port: 3128
   https: false
   anonymity: transparent
   score: 1

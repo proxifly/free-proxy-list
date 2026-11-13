@@ -1,7 +1,57 @@
-- proxy: http://109.224.2.58:8080
+- proxy: socks4://62.201.233.59:4145
+  protocol: socks4
+  ip: 62.201.233.59
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IQ
+    city: Sulaymaniyah
+- proxy: http://62.201.217.194:8080
   protocol: http
-  ip: 109.224.2.58
+  ip: 62.201.217.194
   port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IQ
+    city: Unknown
+- proxy: http://188.72.43.129:47193
+  protocol: http
+  ip: 188.72.43.129
+  port: 47193
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IQ
+    city: Erbil
+- proxy: http://185.166.27.208:2020
+  protocol: http
+  ip: 185.166.27.208
+  port: 2020
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IQ
+    city: Erbil
+- proxy: socks4://109.224.22.34:51372
+  protocol: socks4
+  ip: 109.224.22.34
+  port: 51372
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IQ
+    city: Unknown
+- proxy: http://185.135.69.34:80
+  protocol: http
+  ip: 185.135.69.34
+  port: 80
   https: false
   anonymity: transparent
   score: 1
@@ -18,16 +68,6 @@
   geolocation:
     country: IQ
     city: Mosul
-- proxy: socks4://109.224.22.34:51372
-  protocol: socks4
-  ip: 109.224.22.34
-  port: 51372
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IQ
-    city: Unknown
 - proxy: socks5://212.237.125.216:6969
   protocol: socks5
   ip: 212.237.125.216
@@ -38,26 +78,6 @@
   geolocation:
     country: IQ
     city: Duhok
-- proxy: http://185.135.69.34:80
-  protocol: http
-  ip: 185.135.69.34
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IQ
-    city: Unknown
-- proxy: http://62.201.217.243:40010
-  protocol: http
-  ip: 62.201.217.243
-  port: 40010
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IQ
-    city: Unknown
 - proxy: socks5://130.255.95.177:4080
   protocol: socks5
   ip: 130.255.95.177
@@ -68,16 +88,6 @@
   geolocation:
     country: IQ
     city: Unknown
-- proxy: http://95.170.205.202:8080
-  protocol: http
-  ip: 95.170.205.202
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IQ
-    city: Erbil
 - proxy: socks5://81.90.25.129:1080
   protocol: socks5
   ip: 81.90.25.129
@@ -138,9 +148,19 @@
   geolocation:
     country: IQ
     city: Unknown
-- proxy: http://62.201.217.194:8080
+- proxy: http://185.136.243.101:3128
   protocol: http
-  ip: 62.201.217.194
+  ip: 185.136.243.101
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IQ
+    city: Unknown
+- proxy: http://185.95.186.140:8080
+  protocol: http
+  ip: 185.95.186.140
   port: 8080
   https: false
   anonymity: transparent
@@ -148,29 +168,9 @@
   geolocation:
     country: IQ
     city: Unknown
-- proxy: http://65.20.230.118:9090
+- proxy: http://188.72.16.74:1080
   protocol: http
-  ip: 65.20.230.118
-  port: 9090
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IQ
-    city: Unknown
-- proxy: http://130.255.94.32:5080
-  protocol: http
-  ip: 130.255.94.32
-  port: 5080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IQ
-    city: Unknown
-- proxy: http://130.193.165.54:1080
-  protocol: http
-  ip: 130.193.165.54
+  ip: 188.72.16.74
   port: 1080
   https: false
   anonymity: transparent
@@ -178,23 +178,33 @@
   geolocation:
     country: IQ
     city: Unknown
-- proxy: http://109.224.22.34:51372
+- proxy: http://62.201.212.198:4673
   protocol: http
-  ip: 109.224.22.34
-  port: 51372
+  ip: 62.201.212.198
+  port: 4673
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IQ
     city: Unknown
-- proxy: http://188.72.42.241:47193
+- proxy: http://85.31.41.9:1080
   protocol: http
-  ip: 188.72.42.241
-  port: 47193
+  ip: 85.31.41.9
+  port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IQ
-    city: Erbil
+    city: Mosul
+- proxy: http://130.255.95.177:4080
+  protocol: http
+  ip: 130.255.95.177
+  port: 4080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IQ
+    city: Unknown
