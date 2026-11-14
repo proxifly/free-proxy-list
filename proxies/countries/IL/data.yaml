@@ -18,16 +18,26 @@
   geolocation:
     country: IL
     city: Tel Aviv
-- proxy: https://51.17.99.116:1901
-  protocol: https
-  ip: 51.17.99.116
-  port: 1901
-  https: true
+- proxy: http://80.65.211.149:8888
+  protocol: http
+  ip: 80.65.211.149
+  port: 8888
+  https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IL
-    city: Tel Aviv
+    city: Unknown
+- proxy: http://83.229.73.225:13554
+  protocol: http
+  ip: 83.229.73.225
+  port: 13554
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IL
+    city: Haifa
 - proxy: socks5://80.65.211.149:8888
   protocol: socks5
   ip: 80.65.211.149
@@ -38,16 +48,6 @@
   geolocation:
     country: IL
     city: Unknown
-- proxy: http://147.236.181.86:50009
-  protocol: http
-  ip: 147.236.181.86
-  port: 50009
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IL
-    city: '''Ezer'
 - proxy: socks5://195.211.71.150:1081
   protocol: socks5
   ip: 195.211.71.150
@@ -158,16 +158,16 @@
   geolocation:
     country: IL
     city: Jerusalem
-- proxy: http://80.65.211.149:8888
+- proxy: http://199.203.152.99:8111
   protocol: http
-  ip: 80.65.211.149
-  port: 8888
+  ip: 199.203.152.99
+  port: 8111
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IL
-    city: Unknown
+    city: Ness Ziona
 - proxy: http://77.91.74.77:80
   protocol: http
   ip: 77.91.74.77
@@ -178,3 +178,23 @@
   geolocation:
     country: IL
     city: Unknown
+- proxy: http://51.17.99.135:35715
+  protocol: http
+  ip: 51.17.99.135
+  port: 35715
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IL
+    city: Tel Aviv
+- proxy: http://147.236.181.86:50009
+  protocol: http
+  ip: 147.236.181.86
+  port: 50009
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IL
+    city: '''Ezer'
