@@ -8,10 +8,20 @@
   geolocation:
     country: NG
     city: Lagos
-- proxy: http://102.134.19.170:8080
-  protocol: http
-  ip: 102.134.19.170
-  port: 8080
+- proxy: socks4://196.1.182.130:1080
+  protocol: socks4
+  ip: 196.1.182.130
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: NG
+    city: Lagos
+- proxy: socks4://197.156.240.66:5678
+  protocol: socks4
+  ip: 197.156.240.66
+  port: 5678
   https: false
   anonymity: transparent
   score: 1
@@ -28,16 +38,6 @@
   geolocation:
     country: NG
     city: Unknown
-- proxy: http://154.113.18.189:9779
-  protocol: http
-  ip: 154.113.18.189
-  port: 9779
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: NG
-    city: Lagos
 - proxy: socks5://102.69.146.59:7080
   protocol: socks5
   ip: 102.69.146.59
@@ -68,46 +68,6 @@
   geolocation:
     country: NG
     city: Unknown
-- proxy: http://197.156.240.66:5678
-  protocol: http
-  ip: 197.156.240.66
-  port: 5678
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: NG
-    city: Lagos
-- proxy: http://41.216.169.82:5678
-  protocol: http
-  ip: 41.216.169.82
-  port: 5678
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: NG
-    city: Lagos
-- proxy: http://102.69.146.59:7080
-  protocol: http
-  ip: 102.69.146.59
-  port: 7080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: NG
-    city: Lagos
-- proxy: http://105.235.201.234:32639
-  protocol: http
-  ip: 105.235.201.234
-  port: 32639
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: NG
-    city: Lagos
 - proxy: http://41.203.83.242:8080
   protocol: http
   ip: 41.203.83.242
@@ -118,3 +78,33 @@
   geolocation:
     country: NG
     city: Port Harcourt
+- proxy: http://105.235.201.234:32639
+  protocol: http
+  ip: 105.235.201.234
+  port: 32639
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: NG
+    city: Lagos
+- proxy: http://154.113.196.17:5678
+  protocol: http
+  ip: 154.113.196.17
+  port: 5678
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: NG
+    city: Lagos
+- proxy: http://41.75.84.86:4153
+  protocol: http
+  ip: 41.75.84.86
+  port: 4153
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: NG
+    city: Lagos

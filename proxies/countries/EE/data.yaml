@@ -8,6 +8,26 @@
   geolocation:
     country: EE
     city: Kanepi
+- proxy: https://95.153.32.2:9443
+  protocol: https
+  ip: 95.153.32.2
+  port: 9443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: EE
+    city: Tapa
+- proxy: https://95.153.32.2:443
+  protocol: https
+  ip: 95.153.32.2
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: EE
+    city: Tapa
 - proxy: http://185.145.4.8:8080
   protocol: http
   ip: 185.145.4.8

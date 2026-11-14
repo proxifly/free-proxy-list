@@ -1,3 +1,13 @@
+- proxy: socks5://171.25.158.95:1080
+  protocol: socks5
+  ip: 171.25.158.95
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SE
+    city: Vaxjo
 - proxy: socks4://188.150.229.60:5678
   protocol: socks4
   ip: 188.150.229.60
@@ -38,6 +48,26 @@
   geolocation:
     country: SE
     city: Stockholm
+- proxy: https://149.50.216.65:443
+  protocol: https
+  ip: 149.50.216.65
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SE
+    city: Stockholm
+- proxy: https://149.50.216.65:9443
+  protocol: https
+  ip: 149.50.216.65
+  port: 9443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SE
+    city: Stockholm
 - proxy: http://185.146.173.20:80
   protocol: http
   ip: 185.146.173.20
@@ -48,16 +78,16 @@
   geolocation:
     country: SE
     city: Unknown
-- proxy: http://194.14.207.87:80
-  protocol: http
-  ip: 194.14.207.87
-  port: 80
+- proxy: socks5://46.246.98.194:1080
+  protocol: socks5
+  ip: 46.246.98.194
+  port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: SE
-    city: Falun
+    city: Stockholm
 - proxy: http://194.14.207.87:8001
   protocol: http
   ip: 194.14.207.87
@@ -68,36 +98,16 @@
   geolocation:
     country: SE
     city: Falun
-- proxy: socks5://171.25.158.95:1080
-  protocol: socks5
-  ip: 171.25.158.95
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SE
-    city: Vaxjo
-- proxy: socks4://16.171.3.4:1080
-  protocol: socks4
-  ip: 16.171.3.4
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SE
-    city: Stockholm
-- proxy: http://80.225.231.172:9090
+- proxy: http://194.14.207.87:80
   protocol: http
-  ip: 80.225.231.172
-  port: 9090
+  ip: 194.14.207.87
+  port: 80
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: SE
-    city: Unknown
+    city: Falun
 - proxy: socks5://46.246.98.97:1080
   protocol: socks5
   ip: 46.246.98.97
@@ -498,13 +508,23 @@
   geolocation:
     country: SE
     city: Unknown
-- proxy: http://151.177.155.238:8080
+- proxy: http://16.171.3.4:1080
   protocol: http
-  ip: 151.177.155.238
-  port: 8080
+  ip: 16.171.3.4
+  port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: SE
-    city: Gothenburg
+    city: Stockholm
+- proxy: http://81.228.44.187:65530
+  protocol: http
+  ip: 81.228.44.187
+  port: 65530
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SE
+    city: Kinna
