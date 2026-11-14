@@ -1,23 +1,13 @@
-- proxy: socks4://83.218.186.22:5678
+- proxy: socks4://178.189.56.158:4153
   protocol: socks4
-  ip: 83.218.186.22
-  port: 5678
+  ip: 178.189.56.158
+  port: 4153
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: AT
-    city: Unknown
-- proxy: socks4://213.173.75.222:5678
-  protocol: socks4
-  ip: 213.173.75.222
-  port: 5678
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AT
-    city: Kindberg
+    city: Ramsau am Dachstein
 - proxy: https://195.192.209.130:443
   protocol: https
   ip: 195.192.209.130
@@ -88,20 +78,20 @@
   geolocation:
     country: AT
     city: Vienna
-- proxy: socks5://194.182.187.78:1080
+- proxy: socks5://78.153.130.53:9050
   protocol: socks5
-  ip: 194.182.187.78
-  port: 1080
+  ip: 78.153.130.53
+  port: 9050
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: AT
     city: Vienna
-- proxy: socks5://78.153.130.53:9050
+- proxy: socks5://194.182.187.78:1080
   protocol: socks5
-  ip: 78.153.130.53
-  port: 9050
+  ip: 194.182.187.78
+  port: 1080
   https: false
   anonymity: transparent
   score: 1
@@ -152,6 +142,26 @@
   protocol: socks5
   ip: 193.233.233.62
   port: 56736
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AT
+    city: Vienna
+- proxy: http://83.218.186.22:5678
+  protocol: http
+  ip: 83.218.186.22
+  port: 5678
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AT
+    city: Unknown
+- proxy: http://194.182.187.78:1080
+  protocol: http
+  ip: 194.182.187.78
+  port: 1080
   https: false
   anonymity: transparent
   score: 1
