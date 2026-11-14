@@ -48,6 +48,16 @@
   geolocation:
     country: SE
     city: Unknown
+- proxy: http://194.14.207.87:80
+  protocol: http
+  ip: 194.14.207.87
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SE
+    city: Falun
 - proxy: http://194.14.207.87:8001
   protocol: http
   ip: 194.14.207.87
@@ -68,19 +78,9 @@
   geolocation:
     country: SE
     city: Vaxjo
-- proxy: http://194.14.207.87:80
-  protocol: http
-  ip: 194.14.207.87
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SE
-    city: Falun
-- proxy: socks5://46.246.98.12:1080
-  protocol: socks5
-  ip: 46.246.98.12
+- proxy: socks4://16.171.3.4:1080
+  protocol: socks4
+  ip: 16.171.3.4
   port: 1080
   https: false
   anonymity: transparent
@@ -88,9 +88,29 @@
   geolocation:
     country: SE
     city: Stockholm
+- proxy: http://80.225.231.172:9090
+  protocol: http
+  ip: 80.225.231.172
+  port: 9090
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SE
+    city: Unknown
 - proxy: socks5://46.246.98.97:1080
   protocol: socks5
   ip: 46.246.98.97
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SE
+    city: Stockholm
+- proxy: socks5://46.246.98.12:1080
+  protocol: socks5
+  ip: 46.246.98.12
   port: 1080
   https: false
   anonymity: transparent
@@ -468,26 +488,6 @@
   geolocation:
     country: SE
     city: Limhamn
-- proxy: http://80.225.88.28:8082
-  protocol: http
-  ip: 80.225.88.28
-  port: 8082
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SE
-    city: Unknown
-- proxy: http://84.8.248.36:3128
-  protocol: http
-  ip: 84.8.248.36
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SE
-    city: Unknown
 - proxy: http://80.225.250.95:8888
   protocol: http
   ip: 80.225.250.95
@@ -498,13 +498,13 @@
   geolocation:
     country: SE
     city: Unknown
-- proxy: http://217.64.149.146:8118
+- proxy: http://151.177.155.238:8080
   protocol: http
-  ip: 217.64.149.146
-  port: 8118
+  ip: 151.177.155.238
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: SE
-    city: Stockholm
+    city: Gothenburg

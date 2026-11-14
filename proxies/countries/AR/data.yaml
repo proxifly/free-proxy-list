@@ -1,13 +1,3 @@
-- proxy: socks5://45.169.106.140:1086
-  protocol: socks5
-  ip: 45.169.106.140
-  port: 1086
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AR
-    city: Córdoba
 - proxy: socks4://200.80.227.234:4145
   protocol: socks4
   ip: 200.80.227.234
@@ -18,16 +8,6 @@
   geolocation:
     country: AR
     city: Buenos Aires
-- proxy: socks4://201.234.24.89:4153
-  protocol: socks4
-  ip: 201.234.24.89
-  port: 4153
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AR
-    city: Despenaderos
 - proxy: socks4://190.122.144.23:5678
   protocol: socks4
   ip: 190.122.144.23
@@ -38,6 +18,26 @@
   geolocation:
     country: AR
     city: Dolores
+- proxy: socks4://200.70.56.84:1080
+  protocol: socks4
+  ip: 200.70.56.84
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Beccar
+- proxy: socks4://198.12.37.25:1080
+  protocol: socks4
+  ip: 198.12.37.25
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Berazategui
 - proxy: socks4://190.18.170.230:5678
   protocol: socks4
   ip: 190.18.170.230
@@ -58,6 +58,46 @@
   geolocation:
     country: AR
     city: San Miguel
+- proxy: socks4://177.136.86.5:1080
+  protocol: socks4
+  ip: 177.136.86.5
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Puerto Eldorado
+- proxy: socks4://190.111.243.150:1085
+  protocol: socks4
+  ip: 190.111.243.150
+  port: 1085
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Rafael Calzada
+- proxy: socks4://190.220.25.42:4153
+  protocol: socks4
+  ip: 190.220.25.42
+  port: 4153
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Dock Sud
+- proxy: socks4://181.209.98.106:1080
+  protocol: socks4
+  ip: 181.209.98.106
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Zárate
 - proxy: socks4://190.108.57.19:1085
   protocol: socks4
   ip: 190.108.57.19
@@ -68,6 +108,16 @@
   geolocation:
     country: AR
     city: Eduardo Castex
+- proxy: socks4://200.85.137.1:4153
+  protocol: socks4
+  ip: 200.85.137.1
+  port: 4153
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Unknown
 - proxy: socks4://200.85.137.32:4153
   protocol: socks4
   ip: 200.85.137.32
@@ -88,76 +138,16 @@
   geolocation:
     country: AR
     city: Moron
-- proxy: http://138.118.51.137:8080
+- proxy: http://45.167.20.31:999
   protocol: http
-  ip: 138.118.51.137
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AR
-    city: La Plata
-- proxy: socks4://200.16.211.78:4153
-  protocol: socks4
-  ip: 200.16.211.78
-  port: 4153
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AR
-    city: Bahía Blanca
-- proxy: http://45.65.224.125:999
-  protocol: http
-  ip: 45.65.224.125
+  ip: 45.167.20.31
   port: 999
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: AR
-    city: Ciudadela
-- proxy: http://168.196.115.217:65000
-  protocol: http
-  ip: 168.196.115.217
-  port: 65000
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AR
-    city: Los Juries
-- proxy: socks4://181.209.98.106:1080
-  protocol: socks4
-  ip: 181.209.98.106
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AR
-    city: Zárate
-- proxy: http://138.121.113.12:8787
-  protocol: http
-  ip: 138.121.113.12
-  port: 8787
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AR
-    city: Formosa
-- proxy: http://198.12.37.6:8080
-  protocol: http
-  ip: 198.12.37.6
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AR
-    city: Berazategui
+    city: Cruz del Eje
 - proxy: http://181.78.44.63:999
   protocol: http
   ip: 181.78.44.63
@@ -168,19 +158,49 @@
   geolocation:
     country: AR
     city: Unknown
-- proxy: http://186.33.57.44:999
+- proxy: http://45.229.17.17:999
   protocol: http
-  ip: 186.33.57.44
+  ip: 45.229.17.17
   port: 999
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: AR
-    city: Unknown
-- proxy: http://45.65.225.17:999
+    city: Posadas
+- proxy: http://45.172.19.173:999
   protocol: http
-  ip: 45.65.225.17
+  ip: 45.172.19.173
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Isidro Casanova
+- proxy: http://168.228.140.145:999
+  protocol: http
+  ip: 168.228.140.145
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Caleta Olivia
+- proxy: http://170.246.36.225:999
+  protocol: http
+  ip: 170.246.36.225
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Caleta Olivia
+- proxy: http://45.65.226.172:999
+  protocol: http
+  ip: 45.65.226.172
   port: 999
   https: false
   anonymity: transparent
@@ -188,6 +208,76 @@
   geolocation:
     country: AR
     city: Ciudadela
+- proxy: http://190.122.91.130:999
+  protocol: http
+  ip: 190.122.91.130
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Buenos Aires
+- proxy: http://64.76.33.108:999
+  protocol: http
+  ip: 64.76.33.108
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Buenos Aires
+- proxy: socks4://200.70.56.204:4153
+  protocol: socks4
+  ip: 200.70.56.204
+  port: 4153
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Beccar
+- proxy: http://181.79.217.1:8080
+  protocol: http
+  ip: 181.79.217.1
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Buenos Aires
+- proxy: socks4://190.228.33.44:1085
+  protocol: socks4
+  ip: 190.228.33.44
+  port: 1085
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: La Bodeguita
+- proxy: http://179.43.103.97:8080
+  protocol: http
+  ip: 179.43.103.97
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Los Cardales
+- proxy: http://45.229.17.57:999
+  protocol: http
+  ip: 45.229.17.57
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Posadas
 - proxy: http://45.229.17.137:999
   protocol: http
   ip: 45.229.17.137
@@ -198,36 +288,56 @@
   geolocation:
     country: AR
     city: Posadas
-- proxy: http://186.38.100.130:999
+- proxy: http://45.65.224.125:999
   protocol: http
-  ip: 186.38.100.130
+  ip: 45.65.224.125
   port: 999
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: AR
-    city: Canadon Once de Septiembre
-- proxy: http://181.114.61.17:8085
+    city: Ciudadela
+- proxy: http://201.217.244.115:80
   protocol: http
-  ip: 181.114.61.17
-  port: 8085
+  ip: 201.217.244.115
+  port: 80
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: AR
-    city: Ramallo
-- proxy: http://200.70.35.2:8080
+    city: Resistencia
+- proxy: http://45.226.225.107:999
   protocol: http
-  ip: 200.70.35.2
+  ip: 45.226.225.107
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Villa Aberastain
+- proxy: http://198.12.37.18:8080
+  protocol: http
+  ip: 198.12.37.18
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: AR
-    city: Luján
+    city: Berazategui
+- proxy: http://45.177.147.119:80
+  protocol: http
+  ip: 45.177.147.119
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: General Rodriguez
 - proxy: http://168.228.140.1:999
   protocol: http
   ip: 168.228.140.1
@@ -238,9 +348,49 @@
   geolocation:
     country: AR
     city: Caleta Olivia
-- proxy: http://181.119.177.229:999
+- proxy: http://45.229.16.34:999
   protocol: http
-  ip: 181.119.177.229
+  ip: 45.229.16.34
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Posadas
+- proxy: http://45.65.226.169:999
+  protocol: http
+  ip: 45.65.226.169
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Ciudadela
+- proxy: http://201.190.178.191:8080
+  protocol: http
+  ip: 201.190.178.191
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Maipu
+- proxy: http://190.136.211.228:999
+  protocol: http
+  ip: 190.136.211.228
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Formosa
+- proxy: http://190.104.252.14:999
+  protocol: http
+  ip: 190.104.252.14
   port: 999
   https: false
   anonymity: transparent
@@ -248,16 +398,46 @@
   geolocation:
     country: AR
     city: Buenos Aires
-- proxy: http://181.78.25.252:999
+- proxy: http://181.13.221.155:999
   protocol: http
-  ip: 181.78.25.252
+  ip: 181.13.221.155
   port: 999
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: AR
+    city: Córdoba
+- proxy: http://186.33.5.13:8080
+  protocol: http
+  ip: 186.33.5.13
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
     city: Unknown
+- proxy: http://179.60.219.72:999
+  protocol: http
+  ip: 179.60.219.72
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Rosario
+- proxy: socks5://45.169.106.140:1086
+  protocol: socks5
+  ip: 45.169.106.140
+  port: 1086
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Córdoba
 - proxy: socks5://181.82.25.225:1080
   protocol: socks5
   ip: 181.82.25.225
@@ -298,49 +478,79 @@
   geolocation:
     country: AR
     city: Buenos Aires
-- proxy: http://179.60.219.66:999
+- proxy: http://190.105.228.27:3128
   protocol: http
-  ip: 179.60.219.66
+  ip: 190.105.228.27
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Unknown
+- proxy: http://45.177.147.151:999
+  protocol: http
+  ip: 45.177.147.151
   port: 999
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: AR
-    city: Rosario
-- proxy: http://168.228.140.145:999
+    city: General Rodriguez
+- proxy: http://181.79.84.254:999
   protocol: http
-  ip: 168.228.140.145
+  ip: 181.79.84.254
   port: 999
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: AR
-    city: Caleta Olivia
-- proxy: http://181.209.107.154:999
+    city: Buenos Aires
+- proxy: http://181.209.125.236:999
   protocol: http
-  ip: 181.209.107.154
+  ip: 181.209.125.236
   port: 999
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: AR
-    city: Lincoln
-- proxy: http://181.114.225.248:8080
+    city: Unknown
+- proxy: http://168.196.115.217:65000
   protocol: http
-  ip: 181.114.225.248
-  port: 8080
+  ip: 168.196.115.217
+  port: 65000
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: AR
-    city: Mar del Plata
-- proxy: http://45.65.226.172:999
+    city: Los Juries
+- proxy: http://186.33.0.203:999
   protocol: http
-  ip: 45.65.226.172
+  ip: 186.33.0.203
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Unknown
+- proxy: http://45.229.16.161:999
+  protocol: http
+  ip: 45.229.16.161
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Posadas
+- proxy: http://45.65.226.174:999
+  protocol: http
+  ip: 45.65.226.174
   port: 999
   https: false
   anonymity: transparent
@@ -348,86 +558,36 @@
   geolocation:
     country: AR
     city: Ciudadela
-- proxy: http://45.229.16.153:999
+- proxy: http://190.109.126.44:1010
   protocol: http
-  ip: 45.229.16.153
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AR
-    city: Posadas
-- proxy: http://201.190.178.191:8080
-  protocol: http
-  ip: 201.190.178.191
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AR
-    city: Maipu
-- proxy: http://45.229.17.57:999
-  protocol: http
-  ip: 45.229.17.57
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AR
-    city: Posadas
-- proxy: http://181.119.190.196:999
-  protocol: http
-  ip: 181.119.190.196
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AR
-    city: Buenos Aires
-- proxy: http://190.104.252.14:999
-  protocol: http
-  ip: 190.104.252.14
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AR
-    city: Buenos Aires
-- proxy: http://200.49.99.78:9991
-  protocol: http
-  ip: 200.49.99.78
-  port: 9991
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AR
-    city: Toay
-- proxy: http://138.117.14.113:9090
-  protocol: http
-  ip: 138.117.14.113
-  port: 9090
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AR
-    city: Laferrere
-- proxy: http://181.13.221.154:999
-  protocol: http
-  ip: 181.13.221.154
-  port: 999
+  ip: 190.109.126.44
+  port: 1010
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: AR
     city: Córdoba
+- proxy: http://45.65.227.161:999
+  protocol: http
+  ip: 45.65.227.161
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Ciudadela
+- proxy: http://186.33.55.77:999
+  protocol: http
+  ip: 186.33.55.77
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Unknown
 - proxy: http://181.209.122.117:999
   protocol: http
   ip: 181.209.122.117
@@ -438,89 +598,9 @@
   geolocation:
     country: AR
     city: Mocoreta
-- proxy: http://190.210.62.131:8080
-  protocol: http
-  ip: 190.210.62.131
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AR
-    city: Buenos Aires
-- proxy: http://45.172.142.186:999
-  protocol: http
-  ip: 45.172.142.186
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AR
-    city: Las Heras
-- proxy: http://45.229.17.2:999
-  protocol: http
-  ip: 45.229.17.2
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AR
-    city: Posadas
 - proxy: http://45.65.226.173:999
   protocol: http
   ip: 45.65.226.173
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AR
-    city: Ciudadela
-- proxy: http://45.238.220.1:8181
-  protocol: http
-  ip: 45.238.220.1
-  port: 8181
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AR
-    city: Curuzu Cuatia
-- proxy: http://181.209.111.147:999
-  protocol: http
-  ip: 181.209.111.147
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AR
-    city: Nueva Esperanza
-- proxy: http://45.229.17.17:999
-  protocol: http
-  ip: 45.229.17.17
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AR
-    city: Posadas
-- proxy: http://181.79.86.103:999
-  protocol: http
-  ip: 181.79.86.103
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AR
-    city: Buenos Aires
-- proxy: http://45.65.226.169:999
-  protocol: http
-  ip: 45.65.226.169
   port: 999
   https: false
   anonymity: transparent
@@ -538,16 +618,26 @@
   geolocation:
     country: AR
     city: Posadas
-- proxy: http://131.221.65.109:8090
+- proxy: http://200.110.218.12:999
   protocol: http
-  ip: 131.221.65.109
-  port: 8090
+  ip: 200.110.218.12
+  port: 999
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: AR
-    city: San Miguel de Tucumán
+    city: Buenos Aires
+- proxy: http://45.229.16.153:999
+  protocol: http
+  ip: 45.229.16.153
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Posadas
 - proxy: http://190.123.83.137:999
   protocol: http
   ip: 190.123.83.137
@@ -558,9 +648,19 @@
   geolocation:
     country: AR
     city: Río Cuarto
-- proxy: http://45.175.137.250:999
+- proxy: http://168.194.34.196:9001
   protocol: http
-  ip: 45.175.137.250
+  ip: 168.194.34.196
+  port: 9001
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Córdoba
+- proxy: http://181.78.25.252:999
+  protocol: http
+  ip: 181.78.25.252
   port: 999
   https: false
   anonymity: transparent
@@ -568,9 +668,29 @@
   geolocation:
     country: AR
     city: Unknown
-- proxy: http://45.172.19.174:999
+- proxy: http://181.191.223.179:999
   protocol: http
-  ip: 45.172.19.174
+  ip: 181.191.223.179
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Monte Grande
+- proxy: http://181.114.62.1:8085
+  protocol: http
+  ip: 181.114.62.1
+  port: 8085
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Ramallo
+- proxy: http://45.172.19.170:999
+  protocol: http
+  ip: 45.172.19.170
   port: 999
   https: false
   anonymity: transparent
@@ -578,16 +698,66 @@
   geolocation:
     country: AR
     city: Isidro Casanova
-- proxy: http://198.12.37.18:8080
+- proxy: http://200.110.218.10:999
   protocol: http
-  ip: 198.12.37.18
-  port: 8080
+  ip: 200.110.218.10
+  port: 999
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: AR
-    city: Berazategui
+    city: Buenos Aires
+- proxy: http://200.59.10.42:999
+  protocol: http
+  ip: 200.59.10.42
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Belen de Escobar
+- proxy: http://181.79.86.103:999
+  protocol: http
+  ip: 181.79.86.103
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Buenos Aires
+- proxy: http://186.33.42.171:999
+  protocol: http
+  ip: 186.33.42.171
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Unknown
+- proxy: http://168.196.3.1:999
+  protocol: http
+  ip: 168.196.3.1
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Unknown
+- proxy: http://181.119.185.194:999
+  protocol: http
+  ip: 181.119.185.194
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Buenos Aires
 - proxy: http://170.155.2.119:80
   protocol: http
   ip: 170.155.2.119
@@ -658,16 +828,16 @@
   geolocation:
     country: AR
     city: Pilar
-- proxy: http://181.114.62.1:8085
+- proxy: http://200.70.35.2:8080
   protocol: http
-  ip: 181.114.62.1
-  port: 8085
+  ip: 200.70.35.2
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: AR
-    city: Ramallo
+    city: Luján
 - proxy: http://181.12.99.204:8080
   protocol: http
   ip: 181.12.99.204
@@ -678,6 +848,16 @@
   geolocation:
     country: AR
     city: Godoy Cruz
+- proxy: http://45.238.220.1:8181
+  protocol: http
+  ip: 45.238.220.1
+  port: 8181
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Curuzu Cuatia
 - proxy: http://200.61.16.80:8080
   protocol: http
   ip: 200.61.16.80
@@ -718,6 +898,16 @@
   geolocation:
     country: AR
     city: Puerto Tirol
+- proxy: http://138.121.113.12:8787
+  protocol: http
+  ip: 138.121.113.12
+  port: 8787
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Formosa
 - proxy: http://186.33.54.195:999
   protocol: http
   ip: 186.33.54.195
@@ -808,16 +998,16 @@
   geolocation:
     country: AR
     city: Puerto Eldorado
-- proxy: http://200.59.10.42:999
+- proxy: http://198.12.37.6:8080
   protocol: http
-  ip: 200.59.10.42
-  port: 999
+  ip: 198.12.37.6
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: AR
-    city: Belen de Escobar
+    city: Berazategui
 - proxy: http://190.228.33.42:1085
   protocol: http
   ip: 190.228.33.42
@@ -828,26 +1018,6 @@
   geolocation:
     country: AR
     city: La Bodeguita
-- proxy: http://186.33.5.13:8080
-  protocol: http
-  ip: 186.33.5.13
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AR
-    city: Unknown
-- proxy: http://64.76.33.108:999
-  protocol: http
-  ip: 64.76.33.108
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AR
-    city: Buenos Aires
 - proxy: http://190.108.57.210:1085
   protocol: http
   ip: 190.108.57.210
@@ -898,6 +1068,16 @@
   geolocation:
     country: AR
     city: Berazategui
+- proxy: http://190.210.62.131:8080
+  protocol: http
+  ip: 190.210.62.131
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Buenos Aires
 - proxy: http://131.196.191.251:9876
   protocol: http
   ip: 131.196.191.251
@@ -908,13 +1088,43 @@
   geolocation:
     country: AR
     city: Canada de Gomez
-- proxy: http://190.220.1.173:56974
+- proxy: http://138.121.113.179:999
   protocol: http
-  ip: 190.220.1.173
-  port: 56974
+  ip: 138.121.113.179
+  port: 999
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: AR
-    city: San Miguel
+    city: Formosa
+- proxy: http://138.117.14.113:9090
+  protocol: http
+  ip: 138.117.14.113
+  port: 9090
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Laferrere
+- proxy: http://190.122.91.11:999
+  protocol: http
+  ip: 190.122.91.11
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Buenos Aires
+- proxy: http://200.110.218.11:999
+  protocol: http
+  ip: 200.110.218.11
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Buenos Aires

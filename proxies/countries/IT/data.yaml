@@ -1,3 +1,43 @@
+- proxy: socks4://91.192.25.158:4145
+  protocol: socks4
+  ip: 91.192.25.158
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IT
+    city: San Giovanni Valdarno
+- proxy: socks4://5.95.121.180:4153
+  protocol: socks4
+  ip: 5.95.121.180
+  port: 4153
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IT
+    city: Potenza
+- proxy: socks4://91.192.25.37:80
+  protocol: socks4
+  ip: 91.192.25.37
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IT
+    city: San Giovanni Valdarno
+- proxy: socks4://212.43.119.1:1080
+  protocol: socks4
+  ip: 212.43.119.1
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IT
+    city: Polverigi
 - proxy: https://93.63.43.131:443
   protocol: https
   ip: 93.63.43.131
@@ -108,6 +148,16 @@
   geolocation:
     country: IT
     city: Rome
+- proxy: https://83.103.36.213:443
+  protocol: https
+  ip: 83.103.36.213
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IT
+    city: Arcore
 - proxy: https://2.228.224.4:443
   protocol: https
   ip: 2.228.224.4
@@ -148,6 +198,26 @@
   geolocation:
     country: IT
     city: Milan
+- proxy: https://87.120.103.242:443
+  protocol: https
+  ip: 87.120.103.242
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IT
+    city: Treviso
+- proxy: https://87.120.103.242:9443
+  protocol: https
+  ip: 87.120.103.242
+  port: 9443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IT
+    city: Treviso
 - proxy: https://138.66.65.52:443
   protocol: https
   ip: 138.66.65.52
@@ -168,16 +238,6 @@
   geolocation:
     country: IT
     city: Unknown
-- proxy: http://93.187.26.134:58080
-  protocol: http
-  ip: 93.187.26.134
-  port: 58080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IT
-    city: Siena
 - proxy: http://77.242.177.57:3128
   protocol: http
   ip: 77.242.177.57
@@ -188,26 +248,6 @@
   geolocation:
     country: IT
     city: Biella
-- proxy: http://79.59.124.55:8080
-  protocol: http
-  ip: 79.59.124.55
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IT
-    city: Sorbolo
-- proxy: http://93.55.126.190:8080
-  protocol: http
-  ip: 93.55.126.190
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IT
-    city: Marsala
 - proxy: socks5://80.211.131.230:9050
   protocol: socks5
   ip: 80.211.131.230
@@ -218,26 +258,16 @@
   geolocation:
     country: IT
     city: Arezzo
-- proxy: http://2.32.175.26:8080
+- proxy: http://185.211.82.45:8080
   protocol: http
-  ip: 2.32.175.26
+  ip: 185.211.82.45
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IT
-    city: Portici
-- proxy: socks5://212.77.75.25:1088
-  protocol: socks5
-  ip: 212.77.75.25
-  port: 1088
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IT
-    city: Impruneta
+    city: Ragusa
 - proxy: socks5://77.81.230.90:9050
   protocol: socks5
   ip: 77.81.230.90
@@ -248,6 +278,36 @@
   geolocation:
     country: IT
     city: Arezzo
+- proxy: http://79.52.108.2:8081
+  protocol: http
+  ip: 79.52.108.2
+  port: 8081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IT
+    city: San Giovanni la Punta
+- proxy: http://149.86.206.27:8080
+  protocol: http
+  ip: 149.86.206.27
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IT
+    city: Unknown
+- proxy: socks5://212.77.75.25:1088
+  protocol: socks5
+  ip: 212.77.75.25
+  port: 1088
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IT
+    city: Impruneta
 - proxy: socks5://109.70.74.195:9091
   protocol: socks5
   ip: 109.70.74.195
@@ -438,16 +498,6 @@
   geolocation:
     country: IT
     city: Rome
-- proxy: http://85.208.200.185:8081
-  protocol: http
-  ip: 85.208.200.185
-  port: 8081
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IT
-    city: Milan
 - proxy: http://5.88.145.106:8080
   protocol: http
   ip: 5.88.145.106
@@ -458,36 +508,26 @@
   geolocation:
     country: IT
     city: Fidenza
-- proxy: http://85.235.150.219:3128
+- proxy: http://185.191.106.0:8081
   protocol: http
-  ip: 85.235.150.219
-  port: 3128
+  ip: 185.191.106.0
+  port: 8081
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IT
-    city: Arezzo
-- proxy: http://149.86.203.217:8080
+    city: Milan
+- proxy: http://45.142.134.5:8080
   protocol: http
-  ip: 149.86.203.217
+  ip: 45.142.134.5
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IT
-    city: Unknown
-- proxy: http://2.194.164.115:8080
-  protocol: http
-  ip: 2.194.164.115
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IT
-    city: Unknown
+    city: Trasacco
 - proxy: http://91.192.25.158:4145
   protocol: http
   ip: 91.192.25.158
@@ -568,13 +608,13 @@
   geolocation:
     country: IT
     city: Marsala
-- proxy: http://185.191.106.0:8081
+- proxy: http://77.242.177.57:3129
   protocol: http
-  ip: 185.191.106.0
-  port: 8081
+  ip: 77.242.177.57
+  port: 3129
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IT
-    city: Milan
+    city: Biella
