@@ -1,13 +1,13 @@
-- proxy: socks5://121.169.46.116:1090
+- proxy: socks5://183.106.215.208:1080
   protocol: socks5
-  ip: 121.169.46.116
-  port: 1090
+  ip: 183.106.215.208
+  port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: KR
-    city: Bucheon-si
+    city: Pohang
 - proxy: socks4://121.139.218.165:43295
   protocol: socks4
   ip: 121.139.218.165
@@ -78,6 +78,16 @@
   geolocation:
     country: KR
     city: Yangp'yong
+- proxy: socks5://121.169.46.116:1090
+  protocol: socks5
+  ip: 121.169.46.116
+  port: 1090
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KR
+    city: Bucheon-si
 - proxy: http://183.110.216.128:8090
   protocol: http
   ip: 183.110.216.128
@@ -108,16 +118,6 @@
   geolocation:
     country: KR
     city: Yeongdeungpo-gu
-- proxy: socks4://114.108.177.104:60984
-  protocol: socks4
-  ip: 114.108.177.104
-  port: 60984
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KR
-    city: Unknown
 - proxy: socks4://183.106.215.208:1080
   protocol: socks4
   ip: 183.106.215.208
@@ -138,6 +138,16 @@
   geolocation:
     country: KR
     city: Seoul
+- proxy: socks4://221.157.45.249:80
+  protocol: socks4
+  ip: 221.157.45.249
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KR
+    city: Dalseo-gu
 - proxy: http://183.110.216.128:8091
   protocol: http
   ip: 183.110.216.128
@@ -148,6 +158,26 @@
   geolocation:
     country: KR
     city: Unknown
+- proxy: http://8.220.204.215:4145
+  protocol: http
+  ip: 8.220.204.215
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KR
+    city: Seoul
+- proxy: http://8.220.204.215:8443
+  protocol: http
+  ip: 8.220.204.215
+  port: 8443
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KR
+    city: Seoul
 - proxy: http://183.110.216.159:8090
   protocol: http
   ip: 183.110.216.159
@@ -158,16 +188,6 @@
   geolocation:
     country: KR
     city: Unknown
-- proxy: socks5://183.106.215.208:1080
-  protocol: socks5
-  ip: 183.106.215.208
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KR
-    city: Pohang
 - proxy: socks5://59.11.209.162:1080
   protocol: socks5
   ip: 59.11.209.162
@@ -798,16 +818,16 @@
   geolocation:
     country: KR
     city: Cheongju-si
-- proxy: http://8.220.204.215:3128
+- proxy: http://183.110.216.159:8091
   protocol: http
-  ip: 8.220.204.215
-  port: 3128
+  ip: 183.110.216.159
+  port: 8091
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: KR
-    city: Seoul
+    city: Unknown
 - proxy: http://211.188.50.146:80
   protocol: http
   ip: 211.188.50.146
@@ -818,29 +838,19 @@
   geolocation:
     country: KR
     city: Unknown
-- proxy: http://211.188.59.191:80
-  protocol: http
-  ip: 211.188.59.191
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KR
-    city: Unknown
-- proxy: http://211.188.55.218:80
-  protocol: http
-  ip: 211.188.55.218
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KR
-    city: Unknown
 - proxy: http://211.188.60.84:80
   protocol: http
   ip: 211.188.60.84
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KR
+    city: Unknown
+- proxy: http://211.188.59.191:80
+  protocol: http
+  ip: 211.188.59.191
   port: 80
   https: false
   anonymity: transparent
@@ -938,26 +948,6 @@
   geolocation:
     country: KR
     city: Gangseo-gu
-- proxy: http://8.220.204.215:31433
-  protocol: http
-  ip: 8.220.204.215
-  port: 31433
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KR
-    city: Seoul
-- proxy: http://183.110.216.159:8091
-  protocol: http
-  ip: 183.110.216.159
-  port: 8091
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KR
-    city: Unknown
 - proxy: http://14.46.231.109:8001
   protocol: http
   ip: 14.46.231.109

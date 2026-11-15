@@ -258,26 +258,6 @@
   geolocation:
     country: RO
     city: Unknown
-- proxy: https://146.70.242.130:9443
-  protocol: https
-  ip: 146.70.242.130
-  port: 9443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RO
-    city: Unknown
-- proxy: https://146.70.253.194:443
-  protocol: https
-  ip: 146.70.253.194
-  port: 443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RO
-    city: Unknown
 - proxy: https://81.180.222.73:443
   protocol: https
   ip: 81.180.222.73
@@ -583,7 +563,7 @@
   ip: 185.128.240.2
   port: 3128
   https: false
-  anonymity: elite
+  anonymity: transparent
   score: 1
   geolocation:
     country: RO
@@ -878,26 +858,6 @@
   geolocation:
     country: RO
     city: Unknown
-- proxy: http://45.80.151.33:3128
-  protocol: http
-  ip: 45.80.151.33
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RO
-    city: Unknown
-- proxy: http://188.211.30.65:8787
-  protocol: http
-  ip: 188.211.30.65
-  port: 8787
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RO
-    city: Românești
 - proxy: http://81.18.90.43:4153
   protocol: http
   ip: 81.18.90.43
@@ -948,13 +908,23 @@
   geolocation:
     country: RO
     city: Făgăraș
-- proxy: http://185.128.240.2:3129
+- proxy: http://188.211.30.65:8787
   protocol: http
-  ip: 185.128.240.2
-  port: 3129
+  ip: 188.211.30.65
+  port: 8787
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: RO
-    city: Cerneți
+    city: Românești
+- proxy: http://89.40.77.249:8787
+  protocol: http
+  ip: 89.40.77.249
+  port: 8787
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RO
+    city: Făget

@@ -1,16 +1,16 @@
-- proxy: socks4://185.95.186.165:48293
+- proxy: socks4://62.201.212.198:4673
   protocol: socks4
-  ip: 185.95.186.165
-  port: 48293
+  ip: 62.201.212.198
+  port: 4673
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IQ
     city: Unknown
-- proxy: socks4://109.224.22.34:51372
+- proxy: socks4://109.224.22.35:51372
   protocol: socks4
-  ip: 109.224.22.34
+  ip: 109.224.22.35
   port: 51372
   https: false
   anonymity: transparent
@@ -28,6 +28,16 @@
   geolocation:
     country: IQ
     city: Unknown
+- proxy: http://185.136.243.101:3128
+  protocol: http
+  ip: 185.136.243.101
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IQ
+    city: Unknown
 - proxy: socks5://130.255.95.177:4080
   protocol: socks5
   ip: 130.255.95.177
@@ -38,9 +48,9 @@
   geolocation:
     country: IQ
     city: Unknown
-- proxy: http://62.201.217.194:8080
+- proxy: http://109.224.2.58:8080
   protocol: http
-  ip: 62.201.217.194
+  ip: 109.224.2.58
   port: 8080
   https: false
   anonymity: transparent
@@ -138,16 +148,6 @@
   geolocation:
     country: IQ
     city: Erbil
-- proxy: http://62.201.217.243:40010
-  protocol: http
-  ip: 62.201.217.243
-  port: 40010
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IQ
-    city: Unknown
 - proxy: http://212.237.125.216:6969
   protocol: http
   ip: 212.237.125.216
@@ -158,20 +158,30 @@
   geolocation:
     country: IQ
     city: Duhok
-- proxy: http://185.136.243.101:3128
+- proxy: http://31.25.139.82:21
   protocol: http
-  ip: 185.136.243.101
-  port: 3128
+  ip: 31.25.139.82
+  port: 21
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IQ
+    city: Erbil
+- proxy: http://62.201.217.194:8080
+  protocol: http
+  ip: 62.201.217.194
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IQ
     city: Unknown
-- proxy: http://31.25.139.82:21
+- proxy: http://95.170.205.202:8080
   protocol: http
-  ip: 31.25.139.82
-  port: 21
+  ip: 95.170.205.202
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
