@@ -78,16 +78,16 @@
   geolocation:
     country: AT
     city: Vienna
-- proxy: http://152.53.120.85:8080
+- proxy: http://80.64.142.192:8080
   protocol: http
-  ip: 152.53.120.85
+  ip: 80.64.142.192
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: AT
-    city: Unknown
+    city: Sankt Florian
 - proxy: socks5://78.153.130.53:9050
   protocol: socks5
   ip: 78.153.130.53
@@ -158,16 +158,6 @@
   geolocation:
     country: AT
     city: Vienna
-- proxy: http://80.64.142.192:8080
-  protocol: http
-  ip: 80.64.142.192
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AT
-    city: Sankt Florian
 - proxy: http://185.196.178.238:60606
   protocol: http
   ip: 185.196.178.238
@@ -188,3 +178,13 @@
   geolocation:
     country: AT
     city: Ramsau am Dachstein
+- proxy: http://152.53.120.85:8080
+  protocol: http
+  ip: 152.53.120.85
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AT
+    city: Unknown

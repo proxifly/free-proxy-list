@@ -1,63 +1,33 @@
-- proxy: https://195.54.178.210:443
-  protocol: https
-  ip: 195.54.178.210
-  port: 443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GE
-    city: Tbilisi
-- proxy: https://195.54.178.210:9443
-  protocol: https
-  ip: 195.54.178.210
-  port: 9443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GE
-    city: Tbilisi
-- proxy: socks4://85.117.32.166:4153
-  protocol: socks4
-  ip: 85.117.32.166
-  port: 4153
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GE
-    city: Unknown
-- proxy: http://2.57.218.131:8080
+- proxy: http://85.117.56.147:8080
   protocol: http
-  ip: 2.57.218.131
+  ip: 85.117.56.147
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: GE
-    city: Tbilisi
-- proxy: socks5://38.255.17.95:1080
-  protocol: socks5
-  ip: 38.255.17.95
+    city: Unknown
+- proxy: http://85.117.56.85:8080
+  protocol: http
+  ip: 85.117.56.85
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GE
+    city: Unknown
+- proxy: socks4://85.117.60.118:1080
+  protocol: socks4
+  ip: 85.117.60.118
   port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: GE
-    city: Batumi
-- proxy: socks5://38.255.17.111:1080
-  protocol: socks5
-  ip: 38.255.17.111
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GE
-    city: Batumi
+    city: Marneuli
 - proxy: http://2.57.218.132:8080
   protocol: http
   ip: 2.57.218.132
@@ -88,6 +58,36 @@
   geolocation:
     country: GE
     city: Unknown
+- proxy: socks5://38.255.17.95:1080
+  protocol: socks5
+  ip: 38.255.17.95
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GE
+    city: Batumi
+- proxy: socks5://38.255.17.111:1080
+  protocol: socks5
+  ip: 38.255.17.111
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GE
+    city: Batumi
+- proxy: http://85.117.56.42:8080
+  protocol: http
+  ip: 85.117.56.42
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GE
+    city: Unknown
 - proxy: http://85.117.56.29:8080
   protocol: http
   ip: 85.117.56.29
@@ -98,9 +98,19 @@
   geolocation:
     country: GE
     city: Unknown
-- proxy: http://94.43.164.242:8080
+- proxy: http://85.117.56.114:8080
   protocol: http
-  ip: 94.43.164.242
+  ip: 85.117.56.114
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GE
+    city: Unknown
+- proxy: http://85.117.63.207:8080
+  protocol: http
+  ip: 85.117.63.207
   port: 8080
   https: false
   anonymity: transparent
@@ -108,6 +118,16 @@
   geolocation:
     country: GE
     city: Tbilisi
+- proxy: http://85.117.56.104:8080
+  protocol: http
+  ip: 85.117.56.104
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GE
+    city: Unknown
 - proxy: http://80.241.251.54:8080
   protocol: http
   ip: 80.241.251.54
@@ -128,29 +148,9 @@
   geolocation:
     country: GE
     city: Tbilisi
-- proxy: http://85.117.56.85:8080
+- proxy: http://94.43.164.242:8080
   protocol: http
-  ip: 85.117.56.85
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GE
-    city: Unknown
-- proxy: http://85.117.56.66:8080
-  protocol: http
-  ip: 85.117.56.66
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GE
-    city: Unknown
-- proxy: http://85.117.61.108:8080
-  protocol: http
-  ip: 85.117.61.108
+  ip: 94.43.164.242
   port: 8080
   https: false
   anonymity: transparent
