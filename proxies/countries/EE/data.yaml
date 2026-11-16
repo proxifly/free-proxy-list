@@ -1,3 +1,13 @@
+- proxy: socks5://91.199.137.149:2000
+  protocol: socks5
+  ip: 91.199.137.149
+  port: 2000
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: EE
+    city: Unknown
 - proxy: socks4://185.157.111.3:5678
   protocol: socks4
   ip: 185.157.111.3
@@ -8,8 +18,8 @@
   geolocation:
     country: EE
     city: Kanepi
-- proxy: socks5://91.199.137.149:2000
-  protocol: socks5
+- proxy: socks4://91.199.137.149:2000
+  protocol: socks4
   ip: 91.199.137.149
   port: 2000
   https: false
@@ -92,16 +102,6 @@
   protocol: http
   ip: 185.145.4.8
   port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: EE
-    city: Unknown
-- proxy: http://91.199.137.149:2000
-  protocol: http
-  ip: 91.199.137.149
-  port: 2000
   https: false
   anonymity: transparent
   score: 1

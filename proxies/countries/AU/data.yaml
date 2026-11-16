@@ -1,3 +1,13 @@
+- proxy: https://4.198.140.211:443
+  protocol: https
+  ip: 4.198.140.211
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AU
+    city: Melbourne
 - proxy: https://150.230.14.159:443
   protocol: https
   ip: 150.230.14.159
@@ -28,20 +38,30 @@
   geolocation:
     country: AU
     city: Melbourne
-- proxy: https://16.51.5.77:28291
+- proxy: https://3.26.199.107:42984
   protocol: https
-  ip: 16.51.5.77
-  port: 28291
+  ip: 3.26.199.107
+  port: 42984
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: AU
-    city: Melbourne
-- proxy: https://13.239.253.213:5847
+    city: Sydney
+- proxy: https://3.26.199.107:26338
   protocol: https
-  ip: 13.239.253.213
-  port: 5847
+  ip: 3.26.199.107
+  port: 26338
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AU
+    city: Sydney
+- proxy: https://3.26.199.107:13849
+  protocol: https
+  ip: 3.26.199.107
+  port: 13849
   https: true
   anonymity: transparent
   score: 1
@@ -98,16 +118,16 @@
   geolocation:
     country: AU
     city: Melbourne
-- proxy: socks5://103.248.47.230:1080
-  protocol: socks5
-  ip: 103.248.47.230
-  port: 1080
+- proxy: http://61.29.96.146:8000
+  protocol: http
+  ip: 61.29.96.146
+  port: 8000
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: AU
-    city: Sydney
+    city: Melbourne
 - proxy: socks5://168.138.9.147:1080
   protocol: socks5
   ip: 168.138.9.147
@@ -118,6 +138,16 @@
   geolocation:
     country: AU
     city: Melbourne
+- proxy: socks5://103.248.47.230:1080
+  protocol: socks5
+  ip: 103.248.47.230
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AU
+    city: Sydney
 - proxy: socks5://45.86.61.138:1080
   protocol: socks5
   ip: 45.86.61.138
@@ -348,6 +378,26 @@
   geolocation:
     country: AU
     city: Unknown
+- proxy: http://180.181.215.232:3128
+  protocol: http
+  ip: 180.181.215.232
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AU
+    city: Melbourne
+- proxy: http://110.146.3.137:443
+  protocol: http
+  ip: 110.146.3.137
+  port: 443
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AU
+    city: Townsville
 - proxy: http://172.105.166.114:31282
   protocol: http
   ip: 172.105.166.114
@@ -358,26 +408,16 @@
   geolocation:
     country: AU
     city: Sydney
-- proxy: http://13.239.253.213:54583
+- proxy: http://61.29.96.146:80
   protocol: http
-  ip: 13.239.253.213
-  port: 54583
+  ip: 61.29.96.146
+  port: 80
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: AU
-    city: Sydney
-- proxy: http://103.248.47.230:1080
-  protocol: http
-  ip: 103.248.47.230
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AU
-    city: Sydney
+    city: Melbourne
 - proxy: http://152.67.99.80:80
   protocol: http
   ip: 152.67.99.80
@@ -388,3 +428,13 @@
   geolocation:
     country: AU
     city: Bungarribee
+- proxy: http://103.248.47.230:1080
+  protocol: http
+  ip: 103.248.47.230
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AU
+    city: Sydney
