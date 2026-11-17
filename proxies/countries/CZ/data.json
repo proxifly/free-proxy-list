@@ -1,5 +1,18 @@
 [
   {
+    "proxy": "socks5://193.165.115.78:1080",
+    "protocol": "socks5",
+    "ip": "193.165.115.78",
+    "port": 1080,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CZ",
+      "city": "Jindrichuv Hradec"
+    }
+  },
+  {
     "proxy": "socks5://176.62.229.17:1080",
     "protocol": "socks5",
     "ip": "176.62.229.17",
@@ -26,6 +39,19 @@
     }
   },
   {
+    "proxy": "https://195.181.220.235:443",
+    "protocol": "https",
+    "ip": "195.181.220.235",
+    "port": 443,
+    "https": true,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CZ",
+      "city": "Prague"
+    }
+  },
+  {
     "proxy": "https://46.229.114.132:40000",
     "protocol": "https",
     "ip": "46.229.114.132",
@@ -36,6 +62,19 @@
     "geolocation": {
       "country": "CZ",
       "city": "Dolni Dobrouc"
+    }
+  },
+  {
+    "proxy": "https://95.173.219.1:9443",
+    "protocol": "https",
+    "ip": "95.173.219.1",
+    "port": 9443,
+    "https": true,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CZ",
+      "city": "Prague"
     }
   },
   {
@@ -91,16 +130,16 @@
     }
   },
   {
-    "proxy": "socks5://193.165.115.78:1080",
-    "protocol": "socks5",
-    "ip": "193.165.115.78",
+    "proxy": "socks4://46.8.104.176:1080",
+    "protocol": "socks4",
+    "ip": "46.8.104.176",
     "port": 1080,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "CZ",
-      "city": "Jindrichuv Hradec"
+      "city": "Unknown"
     }
   },
   {
@@ -114,19 +153,6 @@
     "geolocation": {
       "country": "CZ",
       "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://77.240.102.149:800",
-    "protocol": "http",
-    "ip": "77.240.102.149",
-    "port": 800,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "CZ",
-      "city": "Prague"
     }
   },
   {
@@ -481,36 +507,10 @@
     }
   },
   {
-    "proxy": "http://213.151.79.84:8080",
+    "proxy": "http://194.58.42.230:3128",
     "protocol": "http",
-    "ip": "213.151.79.84",
-    "port": 8080,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "CZ",
-      "city": "Prague"
-    }
-  },
-  {
-    "proxy": "http://78.80.149.106:1080",
-    "protocol": "http",
-    "ip": "78.80.149.106",
-    "port": 1080,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "CZ",
-      "city": "Prague"
-    }
-  },
-  {
-    "proxy": "http://46.8.104.176:1080",
-    "protocol": "http",
-    "ip": "46.8.104.176",
-    "port": 1080,
+    "ip": "194.58.42.230",
+    "port": 3128,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
@@ -520,16 +520,16 @@
     }
   },
   {
-    "proxy": "http://176.62.229.17:1080",
+    "proxy": "http://185.73.103.23:3128",
     "protocol": "http",
-    "ip": "176.62.229.17",
-    "port": 1080,
+    "ip": "185.73.103.23",
+    "port": 3128,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "CZ",
-      "city": "Trutnov"
+      "city": "Chodov"
     }
   },
   {
@@ -546,16 +546,42 @@
     }
   },
   {
-    "proxy": "http://185.73.103.23:3128",
+    "proxy": "http://78.80.157.35:1080",
     "protocol": "http",
-    "ip": "185.73.103.23",
-    "port": 3128,
+    "ip": "78.80.157.35",
+    "port": 1080,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "CZ",
-      "city": "Chodov"
+      "city": "Ústí nad Labem"
+    }
+  },
+  {
+    "proxy": "http://77.240.102.149:800",
+    "protocol": "http",
+    "ip": "77.240.102.149",
+    "port": 800,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CZ",
+      "city": "Prague"
+    }
+  },
+  {
+    "proxy": "http://213.151.79.84:8080",
+    "protocol": "http",
+    "ip": "213.151.79.84",
+    "port": 8080,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "CZ",
+      "city": "Prague"
     }
   }
 ]
