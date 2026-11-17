@@ -1,13 +1,13 @@
-- proxy: https://58.120.141.74:9443
-  protocol: https
-  ip: 58.120.141.74
-  port: 9443
-  https: true
+- proxy: socks5://183.106.215.208:1080
+  protocol: socks5
+  ip: 183.106.215.208
+  port: 1080
+  https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: KR
-    city: Geumcheon-gu
+    city: Pohang
 - proxy: https://123.108.164.102:443
   protocol: https
   ip: 123.108.164.102
@@ -38,10 +38,10 @@
   geolocation:
     country: KR
     city: Gwanak-gu
-- proxy: https://13.209.65.136:38219
+- proxy: https://43.202.114.177:8118
   protocol: https
-  ip: 13.209.65.136
-  port: 38219
+  ip: 43.202.114.177
+  port: 8118
   https: true
   anonymity: transparent
   score: 1
@@ -98,16 +98,16 @@
   geolocation:
     country: KR
     city: Yeongdeungpo-gu
-- proxy: socks5://152.70.237.238:3128
-  protocol: socks5
-  ip: 152.70.237.238
-  port: 3128
+- proxy: http://183.110.216.128:8091
+  protocol: http
+  ip: 183.110.216.128
+  port: 8091
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: KR
-    city: Seoul
+    city: Unknown
 - proxy: socks4://183.106.215.208:1080
   protocol: socks4
   ip: 183.106.215.208
@@ -118,6 +118,16 @@
   geolocation:
     country: KR
     city: Pohang
+- proxy: socks4://152.70.237.238:3128
+  protocol: socks4
+  ip: 152.70.237.238
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KR
+    city: Seoul
 - proxy: socks4://114.108.177.104:60984
   protocol: socks4
   ip: 114.108.177.104
@@ -128,6 +138,66 @@
   geolocation:
     country: KR
     city: Unknown
+- proxy: http://183.110.216.159:8090
+  protocol: http
+  ip: 183.110.216.159
+  port: 8090
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KR
+    city: Unknown
+- proxy: socks4://121.139.218.165:43295
+  protocol: socks4
+  ip: 121.139.218.165
+  port: 43295
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KR
+    city: Ansan-si
+- proxy: socks5://152.67.221.233:8008
+  protocol: socks5
+  ip: 152.67.221.233
+  port: 8008
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KR
+    city: Chuncheon
+- proxy: http://183.110.216.159:8091
+  protocol: http
+  ip: 183.110.216.159
+  port: 8091
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KR
+    city: Unknown
+- proxy: http://220.81.123.23:48678
+  protocol: http
+  ip: 220.81.123.23
+  port: 48678
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KR
+    city: Suseong-gu
+- proxy: socks5://152.70.237.238:3128
+  protocol: socks5
+  ip: 152.70.237.238
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KR
+    city: Seoul
 - proxy: socks5://8.220.204.215:111
   protocol: socks5
   ip: 8.220.204.215
@@ -158,16 +228,6 @@
   geolocation:
     country: KR
     city: Seoul
-- proxy: socks5://183.106.215.208:1080
-  protocol: socks5
-  ip: 183.106.215.208
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KR
-    city: Pohang
 - proxy: socks5://59.11.209.162:1080
   protocol: socks5
   ip: 59.11.209.162
@@ -208,16 +268,6 @@
   geolocation:
     country: KR
     city: Dong-gu
-- proxy: socks5://152.67.221.233:8008
-  protocol: socks5
-  ip: 152.67.221.233
-  port: 8008
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KR
-    city: Chuncheon
 - proxy: socks5://193.122.105.251:65535
   protocol: socks5
   ip: 193.122.105.251
@@ -788,59 +838,9 @@
   geolocation:
     country: KR
     city: Cheongju-si
-- proxy: http://183.110.216.159:8091
-  protocol: http
-  ip: 183.110.216.159
-  port: 8091
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KR
-    city: Unknown
-- proxy: http://183.110.216.128:8091
-  protocol: http
-  ip: 183.110.216.128
-  port: 8091
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KR
-    city: Unknown
-- proxy: http://183.110.216.159:8090
-  protocol: http
-  ip: 183.110.216.159
-  port: 8090
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KR
-    city: Unknown
 - proxy: http://211.188.50.146:80
   protocol: http
   ip: 211.188.50.146
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KR
-    city: Unknown
-- proxy: http://211.188.60.84:80
-  protocol: http
-  ip: 211.188.60.84
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KR
-    city: Unknown
-- proxy: http://211.188.55.218:80
-  protocol: http
-  ip: 211.188.55.218
   port: 80
   https: false
   anonymity: transparent
@@ -858,6 +858,16 @@
   geolocation:
     country: KR
     city: Unknown
+- proxy: http://211.188.60.84:80
+  protocol: http
+  ip: 211.188.60.84
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KR
+    city: Unknown
 - proxy: http://211.188.59.191:80
   protocol: http
   ip: 211.188.59.191
@@ -868,9 +878,29 @@
   geolocation:
     country: KR
     city: Unknown
-- proxy: http://8.220.204.92:8081
+- proxy: http://211.188.55.218:80
   protocol: http
-  ip: 8.220.204.92
+  ip: 211.188.55.218
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KR
+    city: Unknown
+- proxy: http://130.162.157.198:8118
+  protocol: http
+  ip: 130.162.157.198
+  port: 8118
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KR
+    city: Seoul
+- proxy: http://8.220.205.172:8081
+  protocol: http
+  ip: 8.220.205.172
   port: 8081
   https: false
   anonymity: transparent
@@ -878,6 +908,106 @@
   geolocation:
     country: KR
     city: Seoul
+- proxy: http://14.46.231.109:8001
+  protocol: http
+  ip: 14.46.231.109
+  port: 8001
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KR
+    city: Gumi
+- proxy: http://193.122.105.251:65535
+  protocol: http
+  ip: 193.122.105.251
+  port: 65535
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KR
+    city: Seoul
+- proxy: http://211.43.214.205:80
+  protocol: http
+  ip: 211.43.214.205
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KR
+    city: Gwangjin-gu
+- proxy: http://8.220.204.92:1081
+  protocol: http
+  ip: 8.220.204.92
+  port: 1081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KR
+    city: Seoul
+- proxy: http://49.254.32.54:8001
+  protocol: http
+  ip: 49.254.32.54
+  port: 8001
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KR
+    city: Seongbuk-gu
+- proxy: http://114.108.177.104:60984
+  protocol: http
+  ip: 114.108.177.104
+  port: 60984
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KR
+    city: Unknown
+- proxy: http://221.157.45.249:80
+  protocol: http
+  ip: 221.157.45.249
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KR
+    city: Dalseo-gu
+- proxy: http://13.209.65.136:27085
+  protocol: http
+  ip: 13.209.65.136
+  port: 27085
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KR
+    city: Incheon
+- proxy: http://220.116.142.217:80
+  protocol: http
+  ip: 220.116.142.217
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KR
+    city: Uijeongbu-si
+- proxy: http://210.95.145.226:3128
+  protocol: http
+  ip: 210.95.145.226
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KR
+    city: Seongnam-si
 - proxy: http://52.79.107.158:8080
   protocol: http
   ip: 52.79.107.158
@@ -898,16 +1028,6 @@
   geolocation:
     country: KR
     city: Unknown
-- proxy: http://49.254.32.54:8001
-  protocol: http
-  ip: 49.254.32.54
-  port: 8001
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KR
-    city: Seongbuk-gu
 - proxy: http://152.67.222.114:8001
   protocol: http
   ip: 152.67.222.114
@@ -918,103 +1038,3 @@
   geolocation:
     country: KR
     city: Chuncheon
-- proxy: http://43.155.215.149:20000
-  protocol: http
-  ip: 43.155.215.149
-  port: 20000
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KR
-    city: Seoul
-- proxy: http://14.46.231.109:8001
-  protocol: http
-  ip: 14.46.231.109
-  port: 8001
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KR
-    city: Gumi
-- proxy: http://130.162.157.198:8118
-  protocol: http
-  ip: 130.162.157.198
-  port: 8118
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KR
-    city: Seoul
-- proxy: http://221.157.45.249:80
-  protocol: http
-  ip: 221.157.45.249
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KR
-    city: Dalseo-gu
-- proxy: http://211.43.214.205:80
-  protocol: http
-  ip: 211.43.214.205
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KR
-    city: Gwangjin-gu
-- proxy: http://59.6.108.215:1080
-  protocol: http
-  ip: 59.6.108.215
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KR
-    city: Gwangjin-gu
-- proxy: http://210.95.145.226:3128
-  protocol: http
-  ip: 210.95.145.226
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KR
-    city: Seongnam-si
-- proxy: http://152.70.237.238:3128
-  protocol: http
-  ip: 152.70.237.238
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KR
-    city: Seoul
-- proxy: http://13.209.65.136:27085
-  protocol: http
-  ip: 13.209.65.136
-  port: 27085
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KR
-    city: Incheon
-- proxy: http://220.81.123.23:48678
-  protocol: http
-  ip: 220.81.123.23
-  port: 48678
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KR
-    city: Suseong-gu
