@@ -1,3 +1,13 @@
+- proxy: socks4://62.103.186.66:4153
+  protocol: socks4
+  ip: 62.103.186.66
+  port: 4153
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GR
+    city: Athens
 - proxy: https://88.197.53.165:443
   protocol: https
   ip: 88.197.53.165
@@ -78,16 +88,16 @@
   geolocation:
     country: GR
     city: Unknown
-- proxy: http://94.68.245.147:8080
+- proxy: http://150.140.148.235:80
   protocol: http
-  ip: 94.68.245.147
-  port: 8080
+  ip: 150.140.148.235
+  port: 80
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: GR
-    city: Alexándreia
+    city: Pátrai
 - proxy: socks5://62.217.77.159:1080
   protocol: socks5
   ip: 62.217.77.159
@@ -128,13 +138,13 @@
   geolocation:
     country: GR
     city: Athens
-- proxy: http://150.140.148.235:80
+- proxy: http://62.217.77.159:1080
   protocol: http
-  ip: 150.140.148.235
-  port: 80
+  ip: 62.217.77.159
+  port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: GR
-    city: Pátrai
+    city: Saronida

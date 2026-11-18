@@ -68,10 +68,10 @@
   geolocation:
     country: SE
     city: Unknown
-- proxy: http://194.14.207.87:8001
+- proxy: http://194.14.207.87:80
   protocol: http
   ip: 194.14.207.87
-  port: 8001
+  port: 80
   https: false
   anonymity: transparent
   score: 1
@@ -508,20 +508,30 @@
   geolocation:
     country: SE
     city: Limhamn
-- proxy: http://80.225.231.172:9090
+- proxy: http://46.246.12.31:8888
   protocol: http
-  ip: 80.225.231.172
-  port: 9090
+  ip: 46.246.12.31
+  port: 8888
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SE
+    city: Stockholm
+- proxy: http://84.8.248.36:3128
+  protocol: http
+  ip: 84.8.248.36
+  port: 3128
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: SE
     city: Unknown
-- proxy: http://194.14.207.87:80
+- proxy: http://194.14.207.87:8001
   protocol: http
   ip: 194.14.207.87
-  port: 80
+  port: 8001
   https: false
   anonymity: transparent
   score: 1
@@ -548,36 +558,6 @@
   geolocation:
     country: SE
     city: Stockholm
-- proxy: http://188.150.229.60:5678
-  protocol: http
-  ip: 188.150.229.60
-  port: 5678
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SE
-    city: Lund
-- proxy: http://81.228.44.187:65530
-  protocol: http
-  ip: 81.228.44.187
-  port: 65530
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SE
-    city: Kinna
-- proxy: http://84.8.248.36:3128
-  protocol: http
-  ip: 84.8.248.36
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SE
-    city: Unknown
 - proxy: http://80.225.250.95:8888
   protocol: http
   ip: 80.225.250.95
@@ -588,3 +568,33 @@
   geolocation:
     country: SE
     city: Unknown
+- proxy: http://81.228.44.187:65530
+  protocol: http
+  ip: 81.228.44.187
+  port: 65530
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SE
+    city: Kinna
+- proxy: http://80.225.224.2:10808
+  protocol: http
+  ip: 80.225.224.2
+  port: 10808
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SE
+    city: Unknown
+- proxy: http://217.64.149.146:8118
+  protocol: http
+  ip: 217.64.149.146
+  port: 8118
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SE
+    city: Stockholm

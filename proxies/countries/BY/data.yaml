@@ -1,5 +1,5 @@
-- proxy: socks4://185.236.20.175:1080
-  protocol: socks4
+- proxy: socks5://185.236.20.175:1080
+  protocol: socks5
   ip: 185.236.20.175
   port: 1080
   https: false
@@ -8,8 +8,8 @@
   geolocation:
     country: BY
     city: Minsk
-- proxy: socks5://185.236.20.175:1080
-  protocol: socks5
+- proxy: socks4://185.236.20.175:1080
+  protocol: socks4
   ip: 185.236.20.175
   port: 1080
   https: false
@@ -38,3 +38,13 @@
   geolocation:
     country: BY
     city: Minsk
+- proxy: http://80.249.81.179:9050
+  protocol: http
+  ip: 80.249.81.179
+  port: 9050
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BY
+    city: Unknown
