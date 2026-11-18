@@ -8,36 +8,6 @@
   geolocation:
     country: IL
     city: Ramat Gan
-- proxy: https://51.16.4.39:1737
-  protocol: https
-  ip: 51.16.4.39
-  port: 1737
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IL
-    city: Tel Aviv
-- proxy: https://51.16.4.39:46313
-  protocol: https
-  ip: 51.16.4.39
-  port: 46313
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IL
-    city: Tel Aviv
-- proxy: https://51.17.99.135:46629
-  protocol: https
-  ip: 51.17.99.135
-  port: 46629
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IL
-    city: Tel Aviv
 - proxy: socks5://80.65.211.149:8888
   protocol: socks5
   ip: 80.65.211.149
@@ -158,36 +128,6 @@
   geolocation:
     country: IL
     city: Jerusalem
-- proxy: http://147.236.181.86:50009
-  protocol: http
-  ip: 147.236.181.86
-  port: 50009
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IL
-    city: '''Ezer'
-- proxy: http://80.65.211.149:8888
-  protocol: http
-  ip: 80.65.211.149
-  port: 8888
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IL
-    city: Unknown
-- proxy: http://51.17.99.135:35715
-  protocol: http
-  ip: 51.17.99.135
-  port: 35715
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IL
-    city: Tel Aviv
 - proxy: http://77.91.74.77:80
   protocol: http
   ip: 77.91.74.77
@@ -198,10 +138,30 @@
   geolocation:
     country: IL
     city: Unknown
+- proxy: http://80.65.211.149:8888
+  protocol: http
+  ip: 80.65.211.149
+  port: 8888
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IL
+    city: Unknown
 - proxy: http://51.16.4.39:4954
   protocol: http
   ip: 51.16.4.39
   port: 4954
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IL
+    city: Tel Aviv
+- proxy: http://51.17.99.135:35715
+  protocol: http
+  ip: 51.17.99.135
+  port: 35715
   https: false
   anonymity: transparent
   score: 1
