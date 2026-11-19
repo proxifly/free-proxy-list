@@ -1,6 +1,6 @@
-- proxy: http://192.203.0.166:999
+- proxy: http://192.203.0.198:999
   protocol: http
-  ip: 192.203.0.166
+  ip: 192.203.0.198
   port: 999
   https: false
   anonymity: transparent
@@ -18,16 +18,6 @@
   geolocation:
     country: PR
     city: Caguas
-- proxy: http://192.203.0.198:999
-  protocol: http
-  ip: 192.203.0.198
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PR
-    city: Caguas
 - proxy: http://67.206.213.202:55555
   protocol: http
   ip: 67.206.213.202
@@ -38,6 +28,16 @@
   geolocation:
     country: PR
     city: Bayamón
+- proxy: http://204.77.11.13:999
+  protocol: http
+  ip: 204.77.11.13
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PR
+    city: Carolina
 - proxy: http://192.203.0.78:999
   protocol: http
   ip: 192.203.0.78
