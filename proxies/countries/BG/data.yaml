@@ -1,7 +1,17 @@
-- proxy: socks4://46.10.198.10:4153
+- proxy: socks4://213.149.156.87:5678
   protocol: socks4
-  ip: 46.10.198.10
-  port: 4153
+  ip: 213.149.156.87
+  port: 5678
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BG
+    city: Razlog
+- proxy: socks4://77.238.79.111:5678
+  protocol: socks4
+  ip: 77.238.79.111
+  port: 5678
   https: false
   anonymity: transparent
   score: 1
@@ -28,9 +38,49 @@
   geolocation:
     country: BG
     city: Sofia
-- proxy: http://213.169.33.12:8001
+- proxy: socks4://46.10.198.10:4153
+  protocol: socks4
+  ip: 46.10.198.10
+  port: 4153
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BG
+    city: Sofia
+- proxy: http://213.169.33.10:8001
   protocol: http
-  ip: 213.169.33.12
+  ip: 213.169.33.10
+  port: 8001
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BG
+    city: Unknown
+- proxy: http://88.87.6.135:3030
+  protocol: http
+  ip: 88.87.6.135
+  port: 3030
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BG
+    city: Unknown
+- proxy: http://5.104.174.199:23500
+  protocol: http
+  ip: 5.104.174.199
+  port: 23500
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BG
+    city: Dobrich
+- proxy: http://213.169.33.3:8001
+  protocol: http
+  ip: 213.169.33.3
   port: 8001
   https: false
   anonymity: transparent
@@ -208,6 +258,16 @@
   geolocation:
     country: BG
     city: Unknown
+- proxy: http://213.169.33.12:8001
+  protocol: http
+  ip: 213.169.33.12
+  port: 8001
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BG
+    city: Unknown
 - proxy: http://213.169.33.7:8001
   protocol: http
   ip: 213.169.33.7
@@ -258,16 +318,6 @@
   geolocation:
     country: BG
     city: Sofia
-- proxy: http://5.104.174.199:23500
-  protocol: http
-  ip: 5.104.174.199
-  port: 23500
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BG
-    city: Dobrich
 - proxy: http://77.238.79.111:5678
   protocol: http
   ip: 77.238.79.111
@@ -278,16 +328,6 @@
   geolocation:
     country: BG
     city: Sofia
-- proxy: http://213.169.33.3:8001
-  protocol: http
-  ip: 213.169.33.3
-  port: 8001
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BG
-    city: Unknown
 - proxy: http://85.187.224.21:8080
   protocol: http
   ip: 85.187.224.21
@@ -358,13 +398,3 @@
   geolocation:
     country: BG
     city: Varna
-- proxy: http://88.87.6.135:3030
-  protocol: http
-  ip: 88.87.6.135
-  port: 3030
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BG
-    city: Unknown

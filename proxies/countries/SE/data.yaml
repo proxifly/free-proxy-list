@@ -18,6 +18,16 @@
   geolocation:
     country: SE
     city: Stockholm
+- proxy: https://84.235.228.156:443
+  protocol: https
+  ip: 84.235.228.156
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SE
+    city: Unknown
 - proxy: https://79.72.36.217:443
   protocol: https
   ip: 79.72.36.217
@@ -28,42 +38,12 @@
   geolocation:
     country: SE
     city: Unknown
-- proxy: https://46.246.39.246:443
-  protocol: https
-  ip: 46.246.39.246
-  port: 443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SE
-    city: Stockholm
 - proxy: http://185.146.173.20:80
   protocol: http
   ip: 185.146.173.20
   port: 80
   https: false
   anonymity: elite
-  score: 1
-  geolocation:
-    country: SE
-    city: Unknown
-- proxy: http://46.246.12.31:8888
-  protocol: http
-  ip: 46.246.12.31
-  port: 8888
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SE
-    city: Stockholm
-- proxy: http://84.8.216.34:80
-  protocol: http
-  ip: 84.8.216.34
-  port: 80
-  https: false
-  anonymity: transparent
   score: 1
   geolocation:
     country: SE
@@ -548,3 +528,13 @@
   geolocation:
     country: SE
     city: Stockholm
+- proxy: http://194.14.207.87:80
+  protocol: http
+  ip: 194.14.207.87
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SE
+    city: Falun
