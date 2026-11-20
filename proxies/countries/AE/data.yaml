@@ -1,7 +1,7 @@
-- proxy: https://191.101.179.131:2443
+- proxy: https://191.101.179.131:4443
   protocol: https
   ip: 191.101.179.131
-  port: 2443
+  port: 4443
   https: true
   anonymity: transparent
   score: 1
@@ -18,6 +18,16 @@
   geolocation:
     country: AE
     city: Unknown
+- proxy: socks4://47.91.109.17:8060
+  protocol: socks4
+  ip: 47.91.109.17
+  port: 8060
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AE
+    city: Dubai
 - proxy: socks5://47.91.110.148:5060
   protocol: socks5
   ip: 47.91.110.148
@@ -32,16 +42,6 @@
   protocol: socks5
   ip: 47.91.110.148
   port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AE
-    city: Dubai
-- proxy: socks4://47.91.110.148:8123
-  protocol: socks4
-  ip: 47.91.110.148
-  port: 8123
   https: false
   anonymity: transparent
   score: 1
@@ -72,16 +72,6 @@
   protocol: socks5
   ip: 47.91.121.127
   port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AE
-    city: Dubai
-- proxy: http://151.253.146.146:8080
-  protocol: http
-  ip: 151.253.146.146
-  port: 8080
   https: false
   anonymity: transparent
   score: 1
@@ -348,20 +338,10 @@
   geolocation:
     country: AE
     city: Dubai
-- proxy: http://47.91.109.17:1337
+- proxy: http://47.91.110.148:8888
   protocol: http
-  ip: 47.91.109.17
-  port: 1337
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AE
-    city: Dubai
-- proxy: http://47.91.109.17:80
-  protocol: http
-  ip: 47.91.109.17
-  port: 80
+  ip: 47.91.110.148
+  port: 8888
   https: false
   anonymity: transparent
   score: 1
