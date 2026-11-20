@@ -38,6 +38,16 @@
   geolocation:
     country: US
     city: Unknown
+- proxy: socks5://98.178.72.21:10919
+  protocol: socks5
+  ip: 98.178.72.21
+  port: 10919
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
 - proxy: socks5://184.178.172.18:15280
   protocol: socks5
   ip: 184.178.172.18
@@ -68,6 +78,26 @@
   geolocation:
     country: US
     city: Roanoke
+- proxy: socks5://70.166.167.38:57728
+  protocol: socks5
+  ip: 70.166.167.38
+  port: 57728
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Mesa
+- proxy: socks5://70.166.65.160:4145
+  protocol: socks5
+  ip: 70.166.65.160
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Lafayette
 - proxy: socks5://193.25.215.182:22222
   protocol: socks5
   ip: 193.25.215.182
@@ -98,26 +128,6 @@
   geolocation:
     country: US
     city: Reston
-- proxy: socks5://192.252.215.2:4145
-  protocol: socks5
-  ip: 192.252.215.2
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Portland
-- proxy: socks5://141.148.65.110:1081
-  protocol: socks5
-  ip: 141.148.65.110
-  port: 1081
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Ashburn
 - proxy: socks5://45.194.33.12:30002
   protocol: socks5
   ip: 45.194.33.12
@@ -138,16 +148,6 @@
   geolocation:
     country: US
     city: Miami
-- proxy: socks5://158.101.8.92:1080
-  protocol: socks5
-  ip: 158.101.8.92
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Phoenix
 - proxy: socks5://209.50.255.91:1080
   protocol: socks5
   ip: 209.50.255.91
@@ -178,46 +178,6 @@
   geolocation:
     country: US
     city: North Bergen
-- proxy: socks5://67.204.153.223:1080
-  protocol: socks5
-  ip: 67.204.153.223
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Bend
-- proxy: socks5://66.170.46.17:1080
-  protocol: socks5
-  ip: 66.170.46.17
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Syracuse
-- proxy: socks5://109.105.218.62:1080
-  protocol: socks5
-  ip: 109.105.218.62
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: socks5://192.210.197.13:1080
-  protocol: socks5
-  ip: 192.210.197.13
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Buffalo
 - proxy: socks5://107.174.30.94:1080
   protocol: socks5
   ip: 107.174.30.94
@@ -228,6 +188,16 @@
   geolocation:
     country: US
     city: Dallas
+- proxy: socks5://47.251.166.203:1080
+  protocol: socks5
+  ip: 47.251.166.203
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
 - proxy: socks5://5.161.210.253:1080
   protocol: socks5
   ip: 5.161.210.253
@@ -258,56 +228,16 @@
   geolocation:
     country: US
     city: Cincinnati
-- proxy: socks4://174.77.111.196:4145
+- proxy: socks4://184.178.172.14:4145
   protocol: socks4
-  ip: 174.77.111.196
+  ip: 184.178.172.14
   port: 4145
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: US
-    city: Unknown
-- proxy: socks4://174.64.199.79:4145
-  protocol: socks4
-  ip: 174.64.199.79
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: socks4://98.170.57.231:4145
-  protocol: socks4
-  ip: 98.170.57.231
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: socks4://184.181.217.210:4145
-  protocol: socks4
-  ip: 184.181.217.210
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: socks4://98.175.31.195:4145
-  protocol: socks4
-  ip: 98.175.31.195
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Norfolk
+    city: Roanoke
 - proxy: socks4://98.188.47.132:4145
   protocol: socks4
   ip: 98.188.47.132
@@ -318,29 +248,19 @@
   geolocation:
     country: US
     city: Baton Rouge
-- proxy: socks4://98.188.47.150:4145
+- proxy: socks4://184.181.217.206:4145
   protocol: socks4
-  ip: 98.188.47.150
+  ip: 184.181.217.206
   port: 4145
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: US
-    city: Baton Rouge
+    city: Unknown
 - proxy: socks4://184.178.172.3:4145
   protocol: socks4
   ip: 184.178.172.3
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Roanoke
-- proxy: socks4://184.178.172.11:4145
-  protocol: socks4
-  ip: 184.178.172.11
   port: 4145
   https: false
   anonymity: transparent
@@ -358,9 +278,9 @@
   geolocation:
     country: US
     city: Roanoke
-- proxy: socks4://184.181.217.213:4145
+- proxy: socks4://184.181.217.201:4145
   protocol: socks4
-  ip: 184.181.217.213
+  ip: 184.181.217.201
   port: 4145
   https: false
   anonymity: transparent
@@ -368,9 +288,9 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: socks4://184.181.217.201:4145
+- proxy: socks4://184.181.217.194:4145
   protocol: socks4
-  ip: 184.181.217.201
+  ip: 184.181.217.194
   port: 4145
   https: false
   anonymity: transparent
@@ -392,6 +312,26 @@
   protocol: socks4
   ip: 98.170.57.249
   port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks4://174.77.111.198:49547
+  protocol: socks4
+  ip: 174.77.111.198
+  port: 49547
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks4://72.195.34.60:27391
+  protocol: socks4
+  ip: 72.195.34.60
+  port: 27391
   https: false
   anonymity: transparent
   score: 1
@@ -428,26 +368,16 @@
   geolocation:
     country: US
     city: Omaha
-- proxy: socks4://98.181.137.83:4145
+- proxy: socks4://68.1.210.163:4145
   protocol: socks4
-  ip: 98.181.137.83
+  ip: 68.1.210.163
   port: 4145
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: US
-    city: Las Vegas
-- proxy: socks4://184.178.172.13:15311
-  protocol: socks4
-  ip: 184.178.172.13
-  port: 15311
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Roanoke
+    city: Santee
 - proxy: socks4://174.75.211.222:4145
   protocol: socks4
   ip: 174.75.211.222
@@ -478,16 +408,6 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: socks4://72.205.0.93:4145
-  protocol: socks4
-  ip: 72.205.0.93
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Alexandria
 - proxy: socks4://216.68.128.121:4145
   protocol: socks4
   ip: 216.68.128.121
@@ -538,16 +458,6 @@
   geolocation:
     country: US
     city: Fairfax
-- proxy: socks4://98.178.72.30:4145
-  protocol: socks4
-  ip: 98.178.72.30
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks4://184.182.240.211:4145
   protocol: socks4
   ip: 184.182.240.211
@@ -678,6 +588,26 @@
   geolocation:
     country: US
     city: Fountain Inn
+- proxy: socks4://47.176.213.210:39593
+  protocol: socks4
+  ip: 47.176.213.210
+  port: 39593
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Santa Fe Springs
+- proxy: socks4://50.234.24.129:32100
+  protocol: socks4
+  ip: 50.234.24.129
+  port: 32100
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Chicago
 - proxy: socks4://99.56.147.242:53096
   protocol: socks4
   ip: 99.56.147.242
@@ -1018,6 +948,16 @@
   geolocation:
     country: US
     city: Dallas
+- proxy: https://150.136.9.146:443
+  protocol: https
+  ip: 150.136.9.146
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Ashburn
 - proxy: https://104.236.195.215:443
   protocol: https
   ip: 104.236.195.215
@@ -1031,16 +971,6 @@
 - proxy: https://74.208.228.10:443
   protocol: https
   ip: 74.208.228.10
-  port: 443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: https://20.94.247.224:443
-  protocol: https
-  ip: 20.94.247.224
   port: 443
   https: true
   anonymity: transparent
@@ -1088,16 +1018,6 @@
   geolocation:
     country: US
     city: Charlotte
-- proxy: https://209.148.53.153:8090
-  protocol: https
-  ip: 209.148.53.153
-  port: 8090
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: https://173.42.49.102:8090
   protocol: https
   ip: 173.42.49.102
@@ -1168,16 +1088,6 @@
   geolocation:
     country: US
     city: Fairfax
-- proxy: https://13.65.27.74:443
-  protocol: https
-  ip: 13.65.27.74
-  port: 443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: San Antonio
 - proxy: https://24.225.10.211:443
   protocol: https
   ip: 24.225.10.211
@@ -1278,16 +1188,6 @@
   geolocation:
     country: US
     city: Ashburn
-- proxy: https://98.101.229.212:8090
-  protocol: https
-  ip: 98.101.229.212
-  port: 8090
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Concord
 - proxy: https://45.33.29.181:443
   protocol: https
   ip: 45.33.29.181
@@ -1298,6 +1198,16 @@
   geolocation:
     country: US
     city: Richardson
+- proxy: https://66.64.100.66:443
+  protocol: https
+  ip: 66.64.100.66
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Kansas City
 - proxy: https://162.244.227.36:443
   protocol: https
   ip: 162.244.227.36
@@ -1378,9 +1288,9 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: https://74.80.181.131:9443
+- proxy: https://12.221.146.147:9443
   protocol: https
-  ip: 74.80.181.131
+  ip: 12.221.146.147
   port: 9443
   https: true
   anonymity: transparent
@@ -1508,16 +1418,6 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: https://34.148.25.49:8443
-  protocol: https
-  ip: 34.148.25.49
-  port: 8443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: North Charleston
 - proxy: https://23.133.176.14:443
   protocol: https
   ip: 23.133.176.14
@@ -1568,16 +1468,16 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: https://23.82.138.110:9443
+- proxy: https://38.95.111.226:9443
   protocol: https
-  ip: 23.82.138.110
+  ip: 38.95.111.226
   port: 9443
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: US
-    city: Boynton Beach
+    city: Secaucus
 - proxy: https://138.199.35.196:9002
   protocol: https
   ip: 138.199.35.196
@@ -1618,6 +1518,16 @@
   geolocation:
     country: US
     city: Unknown
+- proxy: https://172.64.69.89:443
+  protocol: https
+  ip: 172.64.69.89
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
 - proxy: https://154.26.137.244:443
   protocol: https
   ip: 154.26.137.244
@@ -1641,6 +1551,16 @@
 - proxy: https://107.91.88.70:8443
   protocol: https
   ip: 107.91.88.70
+  port: 8443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Las Vegas
+- proxy: https://107.91.88.6:8443
+  protocol: https
+  ip: 107.91.88.6
   port: 8443
   https: true
   anonymity: transparent
@@ -1778,6 +1698,16 @@
   geolocation:
     country: US
     city: Unknown
+- proxy: https://181.215.52.40:9443
+  protocol: https
+  ip: 181.215.52.40
+  port: 9443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: New York
 - proxy: https://198.200.57.153:443
   protocol: https
   ip: 198.200.57.153
@@ -1938,6 +1868,16 @@
   geolocation:
     country: US
     city: Ashburn
+- proxy: https://213.139.10.33:9443
+  protocol: https
+  ip: 213.139.10.33
+  port: 9443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
 - proxy: https://162.191.139.40:8443
   protocol: https
   ip: 162.191.139.40
@@ -1978,6 +1918,16 @@
   geolocation:
     country: US
     city: Ashburn
+- proxy: https://213.139.9.129:9443
+  protocol: https
+  ip: 213.139.9.129
+  port: 9443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
 - proxy: https://137.175.22.84:443
   protocol: https
   ip: 137.175.22.84
@@ -2078,16 +2028,16 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: https://150.136.227.155:443
+- proxy: https://149.34.247.209:9443
   protocol: https
-  ip: 150.136.227.155
-  port: 443
+  ip: 149.34.247.209
+  port: 9443
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: US
-    city: Ashburn
+    city: Los Angeles
 - proxy: https://204.48.31.203:443
   protocol: https
   ip: 204.48.31.203
@@ -2108,6 +2058,16 @@
   geolocation:
     country: US
     city: Hilton Head Island
+- proxy: https://2.56.188.241:443
+  protocol: https
+  ip: 2.56.188.241
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Dallas
 - proxy: https://89.117.94.201:80
   protocol: https
   ip: 89.117.94.201
@@ -2118,6 +2078,26 @@
   geolocation:
     country: US
     city: New York
+- proxy: https://2.56.188.241:9443
+  protocol: https
+  ip: 2.56.188.241
+  port: 9443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Dallas
+- proxy: https://135.136.3.34:9443
+  protocol: https
+  ip: 135.136.3.34
+  port: 9443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
 - proxy: https://137.175.22.116:443
   protocol: https
   ip: 137.175.22.116
@@ -2228,9 +2208,29 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: https://198.44.137.35:9443
+- proxy: https://198.44.159.19:9443
   protocol: https
-  ip: 198.44.137.35
+  ip: 198.44.159.19
+  port: 9443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: https://198.44.159.27:9443
+  protocol: https
+  ip: 198.44.159.27
+  port: 9443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: https://198.44.137.19:9443
+  protocol: https
+  ip: 198.44.137.19
   port: 9443
   https: true
   anonymity: transparent
@@ -2238,9 +2238,9 @@
   geolocation:
     country: US
     city: Brooklyn
-- proxy: https://198.44.138.27:9443
+- proxy: https://198.44.138.19:9443
   protocol: https
-  ip: 198.44.138.27
+  ip: 198.44.138.19
   port: 9443
   https: true
   anonymity: transparent
@@ -2248,6 +2248,16 @@
   geolocation:
     country: US
     city: Brooklyn
+- proxy: https://149.102.227.77:9443
+  protocol: https
+  ip: 149.102.227.77
+  port: 9443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Ashburn
 - proxy: https://45.91.211.14:1443
   protocol: https
   ip: 45.91.211.14
@@ -2378,6 +2388,16 @@
   geolocation:
     country: US
     city: Las Vegas
+- proxy: https://207.204.53.240:8443
+  protocol: https
+  ip: 207.204.53.240
+  port: 8443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
 - proxy: https://74.208.250.147:8443
   protocol: https
   ip: 74.208.250.147
@@ -2388,16 +2408,16 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: https://144.168.63.34:9443
+- proxy: https://162.251.237.199:443
   protocol: https
-  ip: 144.168.63.34
-  port: 9443
+  ip: 162.251.237.199
+  port: 443
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: US
-    city: Los Angeles
+    city: Unknown
 - proxy: https://162.210.194.10:443
   protocol: https
   ip: 162.210.194.10
@@ -2408,6 +2428,16 @@
   geolocation:
     country: US
     city: Lanham
+- proxy: https://181.215.52.6:9443
+  protocol: https
+  ip: 181.215.52.6
+  port: 9443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: New York
 - proxy: https://156.232.13.24:8088
   protocol: https
   ip: 156.232.13.24
@@ -2458,6 +2488,16 @@
   geolocation:
     country: US
     city: Unknown
+- proxy: https://205.178.144.96:8443
+  protocol: https
+  ip: 205.178.144.96
+  port: 8443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
 - proxy: https://156.232.13.157:8088
   protocol: https
   ip: 156.232.13.157
@@ -2468,6 +2508,16 @@
   geolocation:
     country: US
     city: Unknown
+- proxy: https://68.235.56.51:9443
+  protocol: https
+  ip: 68.235.56.51
+  port: 9443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Chicago
 - proxy: https://172.191.23.249:443
   protocol: https
   ip: 172.191.23.249
@@ -2478,9 +2528,9 @@
   geolocation:
     country: US
     city: Tappahannock
-- proxy: https://147.90.45.48:9443
+- proxy: https://147.90.45.36:9443
   protocol: https
-  ip: 147.90.45.48
+  ip: 147.90.45.36
   port: 9443
   https: true
   anonymity: transparent
@@ -2488,9 +2538,9 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: https://147.90.45.146:9443
+- proxy: https://147.90.45.62:9443
   protocol: https
-  ip: 147.90.45.146
+  ip: 147.90.45.62
   port: 9443
   https: true
   anonymity: transparent
@@ -2498,9 +2548,59 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: https://147.90.45.160:9443
+- proxy: https://147.90.45.86:9443
   protocol: https
-  ip: 147.90.45.160
+  ip: 147.90.45.86
+  port: 9443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: https://147.90.45.110:9443
+  protocol: https
+  ip: 147.90.45.110
+  port: 9443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: https://147.90.45.120:9443
+  protocol: https
+  ip: 147.90.45.120
+  port: 9443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: https://147.90.45.142:9443
+  protocol: https
+  ip: 147.90.45.142
+  port: 9443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: https://147.90.45.150:9443
+  protocol: https
+  ip: 147.90.45.150
+  port: 9443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: https://147.90.45.186:9443
+  protocol: https
+  ip: 147.90.45.186
   port: 9443
   https: true
   anonymity: transparent
@@ -2518,9 +2618,9 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: https://147.90.45.244:9443
+- proxy: https://147.90.45.204:9443
   protocol: https
-  ip: 147.90.45.244
+  ip: 147.90.45.204
   port: 9443
   https: true
   anonymity: transparent
@@ -2548,6 +2648,16 @@
   geolocation:
     country: US
     city: Los Angeles
+- proxy: https://23.161.192.2:9443
+  protocol: https
+  ip: 23.161.192.2
+  port: 9443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
 - proxy: https://64.31.39.226:443
   protocol: https
   ip: 64.31.39.226
@@ -2708,6 +2818,16 @@
   geolocation:
     country: US
     city: Unknown
+- proxy: https://66.163.119.84:443
+  protocol: https
+  ip: 66.163.119.84
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
 - proxy: https://45.150.164.23:8443
   protocol: https
   ip: 45.150.164.23
@@ -2748,16 +2868,6 @@
   geolocation:
     country: US
     city: Seattle
-- proxy: https://205.178.186.44:8443
-  protocol: https
-  ip: 205.178.186.44
-  port: 8443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: https://45.145.72.122:8443
   protocol: https
   ip: 45.145.72.122
@@ -2778,16 +2888,16 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: https://167.88.60.226:9443
+- proxy: https://98.94.14.234:9951
   protocol: https
-  ip: 167.88.60.226
-  port: 9443
+  ip: 98.94.14.234
+  port: 9951
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: US
-    city: Santa Clara
+    city: Unknown
 - proxy: https://45.150.164.14:443
   protocol: https
   ip: 45.150.164.14
@@ -2818,16 +2928,46 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: https://24.144.86.14:443
+- proxy: https://67.214.181.66:9443
   protocol: https
-  ip: 24.144.86.14
+  ip: 67.214.181.66
+  port: 9443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: https://56.68.116.64:9295
+  protocol: https
+  ip: 56.68.116.64
+  port: 9295
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: https://66.163.119.93:443
+  protocol: https
+  ip: 66.163.119.93
   port: 443
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: US
-    city: Santa Clara
+    city: Unknown
+- proxy: https://66.163.119.33:443
+  protocol: https
+  ip: 66.163.119.33
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
 - proxy: https://52.52.84.111:443
   protocol: https
   ip: 52.52.84.111
@@ -2848,19 +2988,9 @@
   geolocation:
     country: US
     city: Chicago
-- proxy: https://206.188.212.157:8447
+- proxy: https://205.178.186.41:8443
   protocol: https
-  ip: 206.188.212.157
-  port: 8447
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Bend
-- proxy: https://205.178.137.66:8443
-  protocol: https
-  ip: 205.178.137.66
+  ip: 205.178.186.41
   port: 8443
   https: true
   anonymity: transparent
@@ -2878,29 +3008,29 @@
   geolocation:
     country: US
     city: Las Vegas
-- proxy: https://205.178.137.185:8447
+- proxy: https://206.188.208.181:8447
   protocol: https
-  ip: 205.178.137.185
+  ip: 206.188.208.181
   port: 8447
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: US
-    city: Unknown
-- proxy: https://205.178.136.236:8447
+    city: Bend
+- proxy: https://63.180.203.233:9002
   protocol: https
-  ip: 205.178.136.236
-  port: 8447
+  ip: 63.180.203.233
+  port: 9002
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: US
     city: Unknown
-- proxy: https://205.178.137.158:8443
+- proxy: https://205.178.137.211:8443
   protocol: https
-  ip: 205.178.137.158
+  ip: 205.178.137.211
   port: 8443
   https: true
   anonymity: transparent
@@ -2908,9 +3038,9 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: https://205.178.144.89:8447
+- proxy: https://205.178.186.117:8447
   protocol: https
-  ip: 205.178.144.89
+  ip: 205.178.186.117
   port: 8447
   https: true
   anonymity: transparent
@@ -2918,16 +3048,26 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: https://205.178.137.203:8447
+- proxy: https://205.178.144.114:8443
   protocol: https
-  ip: 205.178.137.203
-  port: 8447
+  ip: 205.178.144.114
+  port: 8443
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: US
     city: Unknown
+- proxy: https://206.188.206.101:8447
+  protocol: https
+  ip: 206.188.206.101
+  port: 8447
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Amarillo
 - proxy: https://38.28.185.144:443
   protocol: https
   ip: 38.28.185.144
@@ -2978,20 +3118,30 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: https://205.178.186.232:8447
+- proxy: https://206.188.209.100:8447
   protocol: https
-  ip: 205.178.186.232
+  ip: 206.188.209.100
   port: 8447
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: US
-    city: Unknown
-- proxy: https://205.178.144.166:8447
+    city: Bend
+- proxy: https://205.178.136.215:8443
   protocol: https
-  ip: 205.178.144.166
-  port: 8447
+  ip: 205.178.136.215
+  port: 8443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: https://51.85.44.162:32768
+  protocol: https
+  ip: 51.85.44.162
+  port: 32768
   https: true
   anonymity: transparent
   score: 1
@@ -3018,60 +3168,50 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: https://206.188.207.112:8447
+- proxy: https://205.178.137.51:8443
   protocol: https
-  ip: 206.188.207.112
-  port: 8447
+  ip: 205.178.137.51
+  port: 8443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: https://207.204.53.187:8443
+  protocol: https
+  ip: 207.204.53.187
+  port: 8443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: https://206.188.205.157:8443
+  protocol: https
+  ip: 206.188.205.157
+  port: 8443
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: US
     city: Amarillo
-- proxy: https://205.178.186.225:8443
+- proxy: https://205.178.144.202:8447
   protocol: https
-  ip: 205.178.186.225
-  port: 8443
+  ip: 205.178.144.202
+  port: 8447
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: US
     city: Unknown
-- proxy: https://3.21.247.154:43139
+- proxy: https://205.178.186.247:8447
   protocol: https
-  ip: 3.21.247.154
-  port: 43139
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Columbus
-- proxy: https://205.178.186.134:8443
-  protocol: https
-  ip: 205.178.186.134
-  port: 8443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: https://205.178.186.60:8443
-  protocol: https
-  ip: 205.178.186.60
-  port: 8443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: https://205.178.186.73:8443
-  protocol: https
-  ip: 205.178.186.73
-  port: 8443
+  ip: 205.178.186.247
+  port: 8447
   https: true
   anonymity: transparent
   score: 1
@@ -3108,16 +3248,46 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: https://205.178.144.129:8443
+- proxy: https://16.28.32.67:31224
   protocol: https
-  ip: 205.178.144.129
-  port: 8443
+  ip: 16.28.32.67
+  port: 31224
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: US
     city: Unknown
+- proxy: https://206.188.204.148:8447
+  protocol: https
+  ip: 206.188.204.148
+  port: 8447
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Amarillo
+- proxy: https://205.178.186.131:8447
+  protocol: https
+  ip: 205.178.186.131
+  port: 8447
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: https://149.22.80.142:9443
+  protocol: https
+  ip: 149.22.80.142
+  port: 9443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Washington
 - proxy: https://142.0.139.113:443
   protocol: https
   ip: 142.0.139.113
@@ -3238,36 +3408,6 @@
   geolocation:
     country: US
     city: Elk Grove Village
-- proxy: https://205.178.186.182:8443
-  protocol: https
-  ip: 205.178.186.182
-  port: 8443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: https://206.188.212.4:8447
-  protocol: https
-  ip: 206.188.212.4
-  port: 8447
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Bend
-- proxy: https://205.178.186.112:8443
-  protocol: https
-  ip: 205.178.186.112
-  port: 8443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: https://54.157.89.139:443
   protocol: https
   ip: 54.157.89.139
@@ -3278,50 +3418,10 @@
   geolocation:
     country: US
     city: Ashburn
-- proxy: https://205.178.137.205:8443
+- proxy: https://104.36.250.114:443
   protocol: https
-  ip: 205.178.137.205
-  port: 8443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: https://205.178.137.217:8447
-  protocol: https
-  ip: 205.178.137.217
-  port: 8447
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: https://205.178.137.219:8447
-  protocol: https
-  ip: 205.178.137.219
-  port: 8447
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: https://206.188.212.16:8447
-  protocol: https
-  ip: 206.188.212.16
-  port: 8447
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Bend
-- proxy: https://205.178.144.171:8447
-  protocol: https
-  ip: 205.178.144.171
-  port: 8447
+  ip: 104.36.250.114
+  port: 443
   https: true
   anonymity: transparent
   score: 1
@@ -3338,10 +3438,10 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: https://104.36.250.66:443
+- proxy: https://104.36.250.114:4343
   protocol: https
-  ip: 104.36.250.66
-  port: 443
+  ip: 104.36.250.114
+  port: 4343
   https: true
   anonymity: transparent
   score: 1
@@ -3358,6 +3458,16 @@
   geolocation:
     country: US
     city: Unknown
+- proxy: https://206.188.207.239:8443
+  protocol: https
+  ip: 206.188.207.239
+  port: 8443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Amarillo
 - proxy: https://205.178.137.198:8447
   protocol: https
   ip: 205.178.137.198
@@ -3368,90 +3478,30 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: https://205.178.136.231:8443
+- proxy: https://206.188.206.162:8443
   protocol: https
-  ip: 205.178.136.231
+  ip: 206.188.206.162
   port: 8443
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: US
-    city: Unknown
-- proxy: https://206.188.209.229:8443
+    city: Amarillo
+- proxy: https://206.188.212.3:8447
   protocol: https
-  ip: 206.188.209.229
-  port: 8443
+  ip: 206.188.212.3
+  port: 8447
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: US
     city: Bend
-- proxy: https://206.188.212.76:8443
+- proxy: https://194.122.87.179:9443
   protocol: https
-  ip: 206.188.212.76
-  port: 8443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Bend
-- proxy: https://205.178.137.30:8443
-  protocol: https
-  ip: 205.178.137.30
-  port: 8443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: https://205.178.186.30:8447
-  protocol: https
-  ip: 205.178.186.30
-  port: 8447
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: https://34.236.59.94:443
-  protocol: https
-  ip: 34.236.59.94
-  port: 443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Ashburn
-- proxy: https://205.178.137.87:8447
-  protocol: https
-  ip: 205.178.137.87
-  port: 8447
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: https://205.178.137.141:8443
-  protocol: https
-  ip: 205.178.137.141
-  port: 8443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: https://205.178.186.166:8447
-  protocol: https
-  ip: 205.178.186.166
-  port: 8447
+  ip: 194.122.87.179
+  port: 9443
   https: true
   anonymity: transparent
   score: 1
@@ -3518,6 +3568,26 @@
   geolocation:
     country: US
     city: Fort Lauderdale
+- proxy: https://205.178.136.23:8443
+  protocol: https
+  ip: 205.178.136.23
+  port: 8443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: https://205.178.136.249:8443
+  protocol: https
+  ip: 205.178.136.249
+  port: 8443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
 - proxy: https://100.20.117.16:443
   protocol: https
   ip: 100.20.117.16
@@ -3528,9 +3598,9 @@
   geolocation:
     country: US
     city: Boardman
-- proxy: https://205.178.136.36:8447
+- proxy: https://205.178.144.165:8447
   protocol: https
-  ip: 205.178.136.36
+  ip: 205.178.144.165
   port: 8447
   https: true
   anonymity: transparent
@@ -3538,6 +3608,16 @@
   geolocation:
     country: US
     city: Unknown
+- proxy: https://18.222.28.236:54534
+  protocol: https
+  ip: 18.222.28.236
+  port: 54534
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Columbus
 - proxy: https://135.136.177.141:443
   protocol: https
   ip: 135.136.177.141
@@ -3548,39 +3628,9 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: https://207.204.52.160:8443
+- proxy: https://206.188.207.91:8447
   protocol: https
-  ip: 207.204.52.160
-  port: 8443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: https://205.178.137.31:8443
-  protocol: https
-  ip: 205.178.137.31
-  port: 8443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: https://205.178.137.246:8447
-  protocol: https
-  ip: 205.178.137.246
-  port: 8447
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: https://206.188.204.146:8447
-  protocol: https
-  ip: 206.188.204.146
+  ip: 206.188.207.91
   port: 8447
   https: true
   anonymity: transparent
@@ -3588,39 +3638,19 @@
   geolocation:
     country: US
     city: Amarillo
-- proxy: https://15.217.214.40:33001
+- proxy: https://206.188.212.64:8443
   protocol: https
-  ip: 15.217.214.40
-  port: 33001
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: https://205.178.186.98:8443
-  protocol: https
-  ip: 205.178.186.98
+  ip: 206.188.212.64
   port: 8443
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: US
-    city: Unknown
-- proxy: https://205.178.186.23:8443
+    city: Bend
+- proxy: https://206.188.207.139:8443
   protocol: https
-  ip: 205.178.186.23
-  port: 8443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: https://206.188.206.48:8443
-  protocol: https
-  ip: 206.188.206.48
+  ip: 206.188.207.139
   port: 8443
   https: true
   anonymity: transparent
@@ -3628,9 +3658,9 @@
   geolocation:
     country: US
     city: Amarillo
-- proxy: https://205.178.136.22:8447
+- proxy: https://205.178.136.71:8447
   protocol: https
-  ip: 205.178.136.22
+  ip: 205.178.136.71
   port: 8447
   https: true
   anonymity: transparent
@@ -3668,29 +3698,19 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: https://206.188.209.188:8443
+- proxy: https://149.50.212.193:9443
   protocol: https
-  ip: 206.188.209.188
-  port: 8443
+  ip: 149.50.212.193
+  port: 9443
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: US
-    city: Bend
-- proxy: https://206.188.212.226:8443
+    city: Santa Clara
+- proxy: https://205.178.144.193:8443
   protocol: https
-  ip: 206.188.212.226
-  port: 8443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Bend
-- proxy: https://205.178.186.24:8443
-  protocol: https
-  ip: 205.178.186.24
+  ip: 205.178.144.193
   port: 8443
   https: true
   anonymity: transparent
@@ -3728,10 +3748,10 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: https://18.222.231.188:9179
+- proxy: https://18.222.231.188:31476
   protocol: https
   ip: 18.222.231.188
-  port: 9179
+  port: 31476
   https: true
   anonymity: transparent
   score: 1
@@ -3742,26 +3762,6 @@
   protocol: https
   ip: 63.180.195.247
   port: 443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: https://205.178.137.183:8447
-  protocol: https
-  ip: 205.178.137.183
-  port: 8447
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: https://16.174.124.173:40000
-  protocol: https
-  ip: 16.174.124.173
-  port: 40000
   https: true
   anonymity: transparent
   score: 1
@@ -3808,20 +3808,20 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: https://56.112.92.32:29738
+- proxy: https://16.26.208.68:15642
   protocol: https
-  ip: 56.112.92.32
-  port: 29738
+  ip: 16.26.208.68
+  port: 15642
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: US
     city: Unknown
-- proxy: https://205.178.144.208:8443
+- proxy: https://51.85.44.162:1687
   protocol: https
-  ip: 205.178.144.208
-  port: 8443
+  ip: 51.85.44.162
+  port: 1687
   https: true
   anonymity: transparent
   score: 1
@@ -3838,89 +3838,129 @@
   geolocation:
     country: US
     city: New York
-- proxy: https://40.177.104.199:10490
+- proxy: https://51.85.44.162:11389
   protocol: https
-  ip: 40.177.104.199
-  port: 10490
+  ip: 51.85.44.162
+  port: 11389
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: US
     city: Unknown
-- proxy: https://3.134.245.77:16621
+- proxy: https://44.200.234.67:1980
+  protocol: https
+  ip: 44.200.234.67
+  port: 1980
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Ashburn
+- proxy: https://3.134.245.77:5137
   protocol: https
   ip: 3.134.245.77
-  port: 16621
+  port: 5137
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: US
     city: Columbus
-- proxy: https://16.176.232.186:54763
+- proxy: https://16.26.208.68:35670
   protocol: https
-  ip: 16.176.232.186
-  port: 54763
+  ip: 16.26.208.68
+  port: 35670
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: US
     city: Unknown
-- proxy: https://34.229.190.39:54376
+- proxy: https://15.217.214.40:41612
   protocol: https
-  ip: 34.229.190.39
-  port: 54376
+  ip: 15.217.214.40
+  port: 41612
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: US
-    city: Ashburn
-- proxy: https://54.198.140.56:30571
+    city: Unknown
+- proxy: https://78.14.19.3:16859
   protocol: https
-  ip: 54.198.140.56
-  port: 30571
+  ip: 78.14.19.3
+  port: 16859
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: US
-    city: Ashburn
-- proxy: https://18.191.250.90:38949
+    city: Unknown
+- proxy: https://18.191.250.90:35548
   protocol: https
   ip: 18.191.250.90
-  port: 38949
+  port: 35548
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: US
     city: Columbus
-- proxy: http://75.109.189.86:8080
-  protocol: http
-  ip: 75.109.189.86
-  port: 8080
-  https: false
+- proxy: https://18.191.250.90:10573
+  protocol: https
+  ip: 18.191.250.90
+  port: 10573
+  https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: US
-    city: Nacogdoches
-- proxy: http://38.226.241.242:8080
-  protocol: http
-  ip: 38.226.241.242
-  port: 8080
-  https: false
+    city: Columbus
+- proxy: https://51.85.44.149:34555
+  protocol: https
+  ip: 51.85.44.149
+  port: 34555
+  https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: US
     city: Unknown
-- proxy: http://38.58.130.128:999
+- proxy: https://40.177.104.199:23171
+  protocol: https
+  ip: 40.177.104.199
+  port: 23171
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: https://40.177.104.199:25808
+  protocol: https
+  ip: 40.177.104.199
+  port: 25808
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: https://40.177.104.199:34523
+  protocol: https
+  ip: 40.177.104.199
+  port: 34523
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://38.19.41.228:999
   protocol: http
-  ip: 38.58.130.128
+  ip: 38.19.41.228
   port: 999
   https: false
   anonymity: transparent
@@ -3928,19 +3968,9 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: http://206.135.11.170:8080
+- proxy: http://38.210.179.115:999
   protocol: http
-  ip: 206.135.11.170
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://64.204.90.17:999
-  protocol: http
-  ip: 64.204.90.17
+  ip: 38.210.179.115
   port: 999
   https: false
   anonymity: transparent
@@ -3958,9 +3988,9 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: http://38.210.179.204:999
+- proxy: http://154.62.127.105:999
   protocol: http
-  ip: 38.210.179.204
+  ip: 154.62.127.105
   port: 999
   https: false
   anonymity: transparent
@@ -3968,9 +3998,19 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: http://38.19.43.186:999
+- proxy: http://205.172.56.239:3128
   protocol: http
-  ip: 38.19.43.186
+  ip: 205.172.56.239
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://154.59.56.76:999
+  protocol: http
+  ip: 154.59.56.76
   port: 999
   https: false
   anonymity: transparent
@@ -3978,6 +4018,36 @@
   geolocation:
     country: US
     city: Unknown
+- proxy: http://206.135.63.146:999
+  protocol: http
+  ip: 206.135.63.146
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://69.75.140.157:8080
+  protocol: http
+  ip: 69.75.140.157
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Whittier
+- proxy: http://31.207.4.14:3128
+  protocol: http
+  ip: 31.207.4.14
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Charlotte
 - proxy: http://45.194.41.16:8080
   protocol: http
   ip: 45.194.41.16
@@ -3988,29 +4058,29 @@
   geolocation:
     country: US
     city: Ashburn
-- proxy: http://45.194.41.70:8080
+- proxy: http://154.201.126.245:8080
   protocol: http
-  ip: 45.194.41.70
+  ip: 154.201.126.245
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: US
-    city: Ashburn
-- proxy: http://45.194.41.103:8080
+    city: Unknown
+- proxy: http://38.19.41.172:8080
   protocol: http
-  ip: 45.194.41.103
+  ip: 38.19.41.172
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: US
-    city: Ashburn
-- proxy: http://38.199.88.1:999
+    city: Unknown
+- proxy: http://206.135.66.54:999
   protocol: http
-  ip: 38.199.88.1
+  ip: 206.135.66.54
   port: 999
   https: false
   anonymity: transparent
@@ -4018,30 +4088,10 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: http://38.210.160.159:8080
+- proxy: http://104.168.134.178:3128
   protocol: http
-  ip: 38.210.160.159
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://207.244.244.178:3128
-  protocol: http
-  ip: 207.244.244.178
+  ip: 104.168.134.178
   port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: St Louis
-- proxy: http://38.191.161.190:999
-  protocol: http
-  ip: 38.191.161.190
-  port: 999
   https: false
   anonymity: transparent
   score: 1
@@ -4068,26 +4118,66 @@
   geolocation:
     country: US
     city: Reston
-- proxy: http://38.19.41.173:8080
+- proxy: http://185.147.157.135:3128
   protocol: http
-  ip: 38.19.41.173
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://13.59.11.63:3128
-  protocol: http
-  ip: 13.59.11.63
+  ip: 185.147.157.135
   port: 3128
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: US
-    city: Columbus
+    city: Los Angeles
+- proxy: http://50.104.182.9:3128
+  protocol: http
+  ip: 50.104.182.9
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Fort Wayne
+- proxy: http://64.31.49.174:3128
+  protocol: http
+  ip: 64.31.49.174
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://130.250.199.73:999
+  protocol: http
+  ip: 130.250.199.73
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Bullhead City
+- proxy: http://20.98.234.24:8080
+  protocol: http
+  ip: 20.98.234.24
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Boydton
+- proxy: http://13.140.178.224:3128
+  protocol: http
+  ip: 13.140.178.224
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
 - proxy: socks4://72.195.101.99:4145
   protocol: socks4
   ip: 72.195.101.99
@@ -4318,16 +4408,6 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: socks4://184.181.217.194:4145
-  protocol: socks4
-  ip: 184.181.217.194
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks4://72.223.188.92:4145
   protocol: socks4
   ip: 72.223.188.92
@@ -4368,6 +4448,26 @@
   geolocation:
     country: US
     city: Portland
+- proxy: socks4://98.170.57.231:4145
+  protocol: socks4
+  ip: 98.170.57.231
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks4://98.188.47.150:4145
+  protocol: socks4
+  ip: 98.188.47.150
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Baton Rouge
 - proxy: socks4://72.205.0.67:4145
   protocol: socks4
   ip: 72.205.0.67
@@ -4481,6 +4581,16 @@
 - proxy: socks4://192.252.216.81:4145
   protocol: socks4
   ip: 192.252.216.81
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks4://184.181.217.213:4145
+  protocol: socks4
+  ip: 184.181.217.213
   port: 4145
   https: false
   anonymity: transparent
@@ -5458,16 +5568,6 @@
   geolocation:
     country: US
     city: Roanoke
-- proxy: socks4://184.181.217.206:4145
-  protocol: socks4
-  ip: 184.181.217.206
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks4://199.58.185.9:4145
   protocol: socks4
   ip: 199.58.185.9
@@ -5638,16 +5738,6 @@
   geolocation:
     country: US
     city: Roanoke
-- proxy: socks4://174.77.111.198:49547
-  protocol: socks4
-  ip: 174.77.111.198
-  port: 49547
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks4://134.199.159.23:1080
   protocol: socks4
   ip: 134.199.159.23
@@ -5978,6 +6068,16 @@
   geolocation:
     country: US
     city: Unknown
+- proxy: socks4://98.181.137.83:4145
+  protocol: socks4
+  ip: 98.181.137.83
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Las Vegas
 - proxy: http://172.64.154.2:80
   protocol: http
   ip: 172.64.154.2
@@ -6158,16 +6258,6 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: socks4://184.178.172.14:4145
-  protocol: socks4
-  ip: 184.178.172.14
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Roanoke
 - proxy: socks4://192.252.209.155:14455
   protocol: socks4
   ip: 192.252.209.155
@@ -6308,6 +6398,26 @@
   geolocation:
     country: US
     city: Canton
+- proxy: socks4://184.178.172.11:4145
+  protocol: socks4
+  ip: 184.178.172.11
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Roanoke
+- proxy: socks4://174.77.111.196:4145
+  protocol: socks4
+  ip: 174.77.111.196
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
 - proxy: http://102.177.176.192:80
   protocol: http
   ip: 102.177.176.192
@@ -6438,16 +6548,16 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: socks4://68.1.210.163:4145
+- proxy: socks4://98.178.72.30:4145
   protocol: socks4
-  ip: 68.1.210.163
+  ip: 98.178.72.30
   port: 4145
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: US
-    city: Santee
+    city: Unknown
 - proxy: socks4://199.102.106.94:4145
   protocol: socks4
   ip: 199.102.106.94
@@ -6458,6 +6568,16 @@
   geolocation:
     country: US
     city: Unknown
+- proxy: socks4://184.178.172.13:15311
+  protocol: socks4
+  ip: 184.178.172.13
+  port: 15311
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Roanoke
 - proxy: http://172.65.90.2:80
   protocol: http
   ip: 172.65.90.2
@@ -6678,6 +6798,16 @@
   geolocation:
     country: US
     city: Mesa
+- proxy: socks4://184.181.217.210:4145
+  protocol: socks4
+  ip: 184.181.217.210
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
 - proxy: http://172.67.208.95:80
   protocol: http
   ip: 172.67.208.95
@@ -7298,6 +7428,16 @@
   geolocation:
     country: US
     city: Unknown
+- proxy: socks4://98.175.31.195:4145
+  protocol: socks4
+  ip: 98.175.31.195
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Norfolk
 - proxy: http://172.65.90.0:80
   protocol: http
   ip: 172.65.90.0
@@ -7438,9 +7578,59 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: socks5://192.111.134.10:4145
+- proxy: socks5://167.99.3.26:5701
   protocol: socks5
-  ip: 192.111.134.10
+  ip: 167.99.3.26
+  port: 5701
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: North Bergen
+- proxy: socks4://167.99.3.26:5741
+  protocol: socks4
+  ip: 167.99.3.26
+  port: 5741
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: North Bergen
+- proxy: socks5://192.252.214.20:15864
+  protocol: socks5
+  ip: 192.252.214.20
+  port: 15864
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Portland
+- proxy: socks4://167.99.3.26:8242
+  protocol: socks4
+  ip: 167.99.3.26
+  port: 8242
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: North Bergen
+- proxy: socks5://199.116.114.11:4145
+  protocol: socks5
+  ip: 199.116.114.11
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Newark
+- proxy: socks5://104.200.152.30:4145
+  protocol: socks5
+  ip: 104.200.152.30
   port: 4145
   https: false
   anonymity: transparent
@@ -7448,29 +7638,49 @@
   geolocation:
     country: US
     city: Los Angeles
-- proxy: socks5://138.68.60.8:1080
-  protocol: socks5
-  ip: 138.68.60.8
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Santa Clara
-- proxy: socks4://167.99.3.26:7569
+- proxy: socks4://174.64.199.79:4145
   protocol: socks4
-  ip: 167.99.3.26
-  port: 7569
+  ip: 174.64.199.79
+  port: 4145
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: US
-    city: North Bergen
-- proxy: socks5://184.182.240.211:4145
+    city: Unknown
+- proxy: socks5://72.195.114.184:4145
   protocol: socks5
-  ip: 184.182.240.211
+  ip: 72.195.114.184
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://192.252.215.5:16137
+  protocol: socks5
+  ip: 192.252.215.5
+  port: 16137
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Portland
+- proxy: http://172.235.157.127:3128
+  protocol: http
+  ip: 172.235.157.127
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://184.182.240.12:4145
+  protocol: socks5
+  ip: 184.182.240.12
   port: 4145
   https: false
   anonymity: transparent
@@ -7478,6 +7688,86 @@
   geolocation:
     country: US
     city: Phoenix
+- proxy: socks5://67.201.35.145:4145
+  protocol: socks5
+  ip: 67.201.35.145
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: West Covina
+- proxy: socks5://192.252.214.17:4145
+  protocol: socks5
+  ip: 192.252.214.17
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Portland
+- proxy: socks5://199.58.184.97:4145
+  protocol: socks5
+  ip: 199.58.184.97
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://184.181.217.220:4145
+  protocol: socks5
+  ip: 184.181.217.220
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://166.62.53.45:45842
+  protocol: socks5
+  ip: 166.62.53.45
+  port: 45842
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://184.170.248.5:4145
+  protocol: socks5
+  ip: 184.170.248.5
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://157.230.219.85:8118
+  protocol: http
+  ip: 157.230.219.85
+  port: 8118
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: North Bergen
+- proxy: http://34.122.187.196:80
+  protocol: http
+  ip: 34.122.187.196
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Council Bluffs
 - proxy: socks5://184.178.172.3:4145
   protocol: socks5
   ip: 184.178.172.3
@@ -7488,6 +7778,696 @@
   geolocation:
     country: US
     city: Roanoke
+- proxy: socks5://216.68.128.121:4145
+  protocol: socks5
+  ip: 216.68.128.121
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Cincinnati
+- proxy: socks5://72.205.0.67:4145
+  protocol: socks5
+  ip: 72.205.0.67
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Alexandria
+- proxy: socks5://184.185.2.12:4145
+  protocol: socks5
+  ip: 184.185.2.12
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Omaha
+- proxy: http://38.58.126.25:8080
+  protocol: http
+  ip: 38.58.126.25
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://184.178.172.23:4145
+  protocol: socks5
+  ip: 184.178.172.23
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Roanoke
+- proxy: socks4://174.64.199.82:4145
+  protocol: socks4
+  ip: 174.64.199.82
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks4://72.195.114.184:4145
+  protocol: socks4
+  ip: 72.195.114.184
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://154.19.38.195:1111
+  protocol: http
+  ip: 154.19.38.195
+  port: 1111
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Pasadena
+- proxy: http://47.89.184.18:3128
+  protocol: http
+  ip: 47.89.184.18
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://207.246.234.115:4669
+  protocol: http
+  ip: 207.246.234.115
+  port: 4669
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Clovis
+- proxy: socks5://72.195.114.169:4145
+  protocol: socks5
+  ip: 72.195.114.169
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks4://24.249.199.4:4145
+  protocol: socks4
+  ip: 24.249.199.4
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Crestview
+- proxy: socks5://184.181.217.201:4145
+  protocol: socks5
+  ip: 184.181.217.201
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://98.175.31.222:4145
+  protocol: socks5
+  ip: 98.175.31.222
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Norfolk
+- proxy: http://159.65.230.46:8888
+  protocol: http
+  ip: 159.65.230.46
+  port: 8888
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: North Bergen
+- proxy: http://195.86.215.2:3128
+  protocol: http
+  ip: 195.86.215.2
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://172.85.99.53:16062
+  protocol: http
+  ip: 172.85.99.53
+  port: 16062
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Los Angeles
+- proxy: socks4://72.194.42.156:4145
+  protocol: socks4
+  ip: 72.194.42.156
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://98.170.57.231:4145
+  protocol: socks5
+  ip: 98.170.57.231
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://174.77.111.197:4145
+  protocol: socks5
+  ip: 174.77.111.197
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://107.174.30.93:1080
+  protocol: socks5
+  ip: 107.174.30.93
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Dallas
+- proxy: socks4://72.36.32.222:9050
+  protocol: socks4
+  ip: 72.36.32.222
+  port: 9050
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Newcastle
+- proxy: socks5://192.252.220.89:4145
+  protocol: socks5
+  ip: 192.252.220.89
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://72.207.113.97:4145
+  protocol: socks5
+  ip: 72.207.113.97
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: El Cajon
+- proxy: socks5://150.136.58.221:1080
+  protocol: socks5
+  ip: 150.136.58.221
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Ashburn
+- proxy: socks5://154.29.145.165:1080
+  protocol: socks5
+  ip: 154.29.145.165
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Los Angeles
+- proxy: http://154.27.196.249:999
+  protocol: http
+  ip: 154.27.196.249
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Washington
+- proxy: http://4.227.178.164:3128
+  protocol: http
+  ip: 4.227.178.164
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Tappahannock
+- proxy: socks4://72.194.42.131:4145
+  protocol: socks4
+  ip: 72.194.42.131
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://184.181.217.210:4145
+  protocol: socks5
+  ip: 184.181.217.210
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks4://162.255.108.254:5678
+  protocol: socks4
+  ip: 162.255.108.254
+  port: 5678
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Pasco
+- proxy: http://24.173.217.114:55443
+  protocol: http
+  ip: 24.173.217.114
+  port: 55443
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Balch Springs
+- proxy: http://154.17.8.103:1680
+  protocol: http
+  ip: 154.17.8.103
+  port: 1680
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: New York
+- proxy: socks5://206.220.175.2:4145
+  protocol: socks5
+  ip: 206.220.175.2
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://216.152.152.44:80
+  protocol: http
+  ip: 216.152.152.44
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Turtle Creek
+- proxy: socks4://141.148.65.110:1081
+  protocol: socks4
+  ip: 141.148.65.110
+  port: 1081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Ashburn
+- proxy: http://34.43.46.91:80
+  protocol: http
+  ip: 34.43.46.91
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://184.181.217.206:4145
+  protocol: socks5
+  ip: 184.181.217.206
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://192.252.211.197:14921
+  protocol: socks5
+  ip: 192.252.211.197
+  port: 14921
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Portland
+- proxy: socks5://192.111.134.10:4145
+  protocol: socks5
+  ip: 192.111.134.10
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Los Angeles
+- proxy: socks5://98.181.137.83:4145
+  protocol: socks5
+  ip: 98.181.137.83
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Las Vegas
+- proxy: http://167.99.8.113:8009
+  protocol: http
+  ip: 167.99.8.113
+  port: 8009
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: North Bergen
+- proxy: socks5://98.190.239.3:4145
+  protocol: socks5
+  ip: 98.190.239.3
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Wichita
+- proxy: http://38.63.122.4:999
+  protocol: http
+  ip: 38.63.122.4
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Los Angeles
+- proxy: socks5://199.229.254.129:4145
+  protocol: socks5
+  ip: 199.229.254.129
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Vancouver
+- proxy: http://45.43.60.220:8080
+  protocol: http
+  ip: 45.43.60.220
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://74.103.66.15:80
+  protocol: http
+  ip: 74.103.66.15
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Gambrills
+- proxy: socks5://98.181.137.80:4145
+  protocol: socks5
+  ip: 98.181.137.80
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Las Vegas
+- proxy: socks4://72.195.34.59:4145
+  protocol: socks4
+  ip: 72.195.34.59
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://72.49.49.11:31034
+  protocol: socks5
+  ip: 72.49.49.11
+  port: 31034
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Cincinnati
+- proxy: http://206.135.47.110:999
+  protocol: http
+  ip: 206.135.47.110
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://72.207.33.64:4145
+  protocol: socks5
+  ip: 72.207.33.64
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: San Diego
+- proxy: socks4://47.85.37.60:1080
+  protocol: socks4
+  ip: 47.85.37.60
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://38.58.66.175:999
+  protocol: http
+  ip: 38.58.66.175
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://51.49.204.91:3128
+  protocol: http
+  ip: 51.49.204.91
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://66.231.128.103:1080
+  protocol: socks5
+  ip: 66.231.128.103
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Gainesville
+- proxy: http://5.161.55.103:3128
+  protocol: http
+  ip: 5.161.55.103
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks4://68.1.210.189:4145
+  protocol: socks4
+  ip: 68.1.210.189
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Santee
+- proxy: http://109.122.203.91:3128
+  protocol: http
+  ip: 109.122.203.91
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Miami
+- proxy: http://43.153.45.165:8118
+  protocol: http
+  ip: 43.153.45.165
+  port: 8118
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks4://150.228.196.238:1080
+  protocol: socks4
+  ip: 150.228.196.238
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://109.105.218.62:1080
+  protocol: socks5
+  ip: 109.105.218.62
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://38.224.32.188:999
+  protocol: http
+  ip: 38.224.32.188
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://72.194.42.156:4145
+  protocol: socks5
+  ip: 72.194.42.156
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://192.252.210.233:4145
+  protocol: socks5
+  ip: 192.252.210.233
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Portland
+- proxy: socks4://163.176.179.226:1080
+  protocol: socks4
+  ip: 163.176.179.226
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://104.218.199.116:16062
+  protocol: http
+  ip: 104.218.199.116
+  port: 16062
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Denver
+- proxy: socks5://72.195.34.60:27391
+  protocol: socks5
+  ip: 72.195.34.60
+  port: 27391
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://206.135.80.194:999
+  protocol: http
+  ip: 206.135.80.194
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
 - proxy: socks5://192.111.135.17:18302
   protocol: socks5
   ip: 192.111.135.17
@@ -7498,6 +8478,426 @@
   geolocation:
     country: US
     city: Atlanta
+- proxy: socks5://192.252.216.81:4145
+  protocol: socks5
+  ip: 192.252.216.81
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://107.181.168.145:4145
+  protocol: socks5
+  ip: 107.181.168.145
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://174.75.34.109:80
+  protocol: http
+  ip: 174.75.34.109
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Las Vegas
+- proxy: socks5://184.178.172.11:4145
+  protocol: socks5
+  ip: 184.178.172.11
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Roanoke
+- proxy: http://129.146.7.166:80
+  protocol: http
+  ip: 129.146.7.166
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Phoenix
+- proxy: http://38.103.250.83:8080
+  protocol: http
+  ip: 38.103.250.83
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Pasadena
+- proxy: socks5://47.85.9.228:10800
+  protocol: socks5
+  ip: 47.85.9.228
+  port: 10800
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://184.182.240.211:4145
+  protocol: socks5
+  ip: 184.182.240.211
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Phoenix
+- proxy: http://45.61.133.104:7777
+  protocol: http
+  ip: 45.61.133.104
+  port: 7777
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://45.79.62.98:3128
+  protocol: http
+  ip: 45.79.62.98
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Richardson
+- proxy: http://152.42.192.59:3128
+  protocol: http
+  ip: 152.42.192.59
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://216.152.149.246:80
+  protocol: http
+  ip: 216.152.149.246
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Turtle Creek
+- proxy: http://107.210.56.161:80
+  protocol: http
+  ip: 107.210.56.161
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Southside
+- proxy: http://167.148.33.176:3128
+  protocol: http
+  ip: 167.148.33.176
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://98.178.72.30:4145
+  protocol: socks5
+  ip: 98.178.72.30
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://142.54.235.9:4145
+  protocol: socks5
+  ip: 142.54.235.9
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://174.75.211.193:4145
+  protocol: socks5
+  ip: 174.75.211.193
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://154.201.127.230:8080
+  protocol: http
+  ip: 154.201.127.230
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://23.191.176.193:1080
+  protocol: socks5
+  ip: 23.191.176.193
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Ajo
+- proxy: socks4://72.195.34.41:4145
+  protocol: socks4
+  ip: 72.195.34.41
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://184.178.172.25:15291
+  protocol: socks5
+  ip: 184.178.172.25
+  port: 15291
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Roanoke
+- proxy: socks5://98.170.57.241:4145
+  protocol: socks5
+  ip: 98.170.57.241
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks4://43.130.38.45:51029
+  protocol: socks4
+  ip: 43.130.38.45
+  port: 51029
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Santa Clara
+- proxy: http://137.66.1.45:80
+  protocol: http
+  ip: 137.66.1.45
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://47.85.37.60:1080
+  protocol: socks5
+  ip: 47.85.37.60
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://155.138.221.32:1082
+  protocol: socks5
+  ip: 155.138.221.32
+  port: 1082
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Atlanta
+- proxy: http://192.6.154.179:3128
+  protocol: http
+  ip: 192.6.154.179
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://209.97.150.167:1080
+  protocol: socks5
+  ip: 209.97.150.167
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Clifton
+- proxy: http://154.29.145.165:3128
+  protocol: http
+  ip: 154.29.145.165
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Los Angeles
+- proxy: socks5://184.178.172.17:4145
+  protocol: socks5
+  ip: 184.178.172.17
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Roanoke
+- proxy: socks5://85.92.153.104:1080
+  protocol: socks5
+  ip: 85.92.153.104
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Garden City
+- proxy: http://38.194.246.34:999
+  protocol: http
+  ip: 38.194.246.34
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://38.76.251.84:999
+  protocol: http
+  ip: 38.76.251.84
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://72.206.74.126:4145
+  protocol: socks5
+  ip: 72.206.74.126
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Fairfax
+- proxy: http://165.154.162.73:8888
+  protocol: http
+  ip: 165.154.162.73
+  port: 8888
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Los Angeles
+- proxy: http://143.246.138.227:80
+  protocol: http
+  ip: 143.246.138.227
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://38.191.217.254:999
+  protocol: http
+  ip: 38.191.217.254
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://184.181.217.194:4145
+  protocol: socks5
+  ip: 184.181.217.194
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://98.175.31.195:4145
+  protocol: socks5
+  ip: 98.175.31.195
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Norfolk
+- proxy: socks5://45.61.129.165:9050
+  protocol: socks5
+  ip: 45.61.129.165
+  port: 9050
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Las Vegas
+- proxy: http://43.159.128.164:10000
+  protocol: http
+  ip: 43.159.128.164
+  port: 10000
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://38.226.242.61:8080
+  protocol: http
+  ip: 38.226.242.61
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
 - proxy: http://45.91.248.107:80
   protocol: http
   ip: 45.91.248.107
@@ -7508,16 +8908,376 @@
   geolocation:
     country: US
     city: Boston
-- proxy: socks4://167.99.3.26:7742
-  protocol: socks4
-  ip: 167.99.3.26
-  port: 7742
+- proxy: socks5://192.252.208.70:14282
+  protocol: socks5
+  ip: 192.252.208.70
+  port: 14282
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: US
-    city: North Bergen
+    city: Portland
+- proxy: socks5://72.195.34.59:4145
+  protocol: socks5
+  ip: 72.195.34.59
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://184.178.172.13:15311
+  protocol: socks5
+  ip: 184.178.172.13
+  port: 15311
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Roanoke
+- proxy: http://154.19.39.50:80
+  protocol: http
+  ip: 154.19.39.50
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Pasadena
+- proxy: http://9.154.243.10:8080
+  protocol: http
+  ip: 9.154.243.10
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://34.43.46.91:443
+  protocol: http
+  ip: 34.43.46.91
+  port: 443
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://8.40.19.133:1080
+  protocol: socks5
+  ip: 8.40.19.133
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Martins Ferry
+- proxy: http://24.144.86.14:80
+  protocol: http
+  ip: 24.144.86.14
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Santa Clara
+- proxy: http://35.194.4.51:3128
+  protocol: http
+  ip: 35.194.4.51
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Council Bluffs
+- proxy: http://40.160.36.112:999
+  protocol: http
+  ip: 40.160.36.112
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://174.77.111.196:4145
+  protocol: socks5
+  ip: 174.77.111.196
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://72.195.34.41:4145
+  protocol: socks5
+  ip: 72.195.34.41
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://154.18.196.6:8083
+  protocol: http
+  ip: 154.18.196.6
+  port: 8083
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Washington
+- proxy: http://9.154.247.138:8080
+  protocol: http
+  ip: 9.154.247.138
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://23.185.192.66:8181
+  protocol: http
+  ip: 23.185.192.66
+  port: 8181
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Frankfort
+- proxy: http://129.146.163.237:8888
+  protocol: http
+  ip: 129.146.163.237
+  port: 8888
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Phoenix
+- proxy: http://47.85.161.37:3128
+  protocol: http
+  ip: 47.85.161.37
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://45.38.210.105:9050
+  protocol: socks5
+  ip: 45.38.210.105
+  port: 9050
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://157.230.134.174:3128
+  protocol: http
+  ip: 157.230.134.174
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Santa Clara
+- proxy: socks5://174.75.211.222:4145
+  protocol: socks5
+  ip: 174.75.211.222
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://38.211.68.70:999
+  protocol: http
+  ip: 38.211.68.70
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://5.161.210.253:1080
+  protocol: http
+  ip: 5.161.210.253
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://38.121.212.134:999
+  protocol: http
+  ip: 38.121.212.134
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Hogansburg
+- proxy: http://184.75.221.82:3118
+  protocol: http
+  ip: 184.75.221.82
+  port: 3118
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://184.181.178.33:4145
+  protocol: socks5
+  ip: 184.181.178.33
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://206.135.47.108:999
+  protocol: http
+  ip: 206.135.47.108
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://38.188.201.10:999
+  protocol: http
+  ip: 38.188.201.10
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://45.39.60.198:1080
+  protocol: socks5
+  ip: 45.39.60.198
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://198.98.51.187:3128
+  protocol: http
+  ip: 198.98.51.187
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Staten Island
+- proxy: socks5://45.202.240.161:10808
+  protocol: socks5
+  ip: 45.202.240.161
+  port: 10808
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://192.252.215.2:4145
+  protocol: socks5
+  ip: 192.252.215.2
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Portland
+- proxy: socks5://141.148.65.110:1081
+  protocol: socks5
+  ip: 141.148.65.110
+  port: 1081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Ashburn
+- proxy: socks5://158.101.8.92:1080
+  protocol: socks5
+  ip: 158.101.8.92
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Phoenix
+- proxy: socks5://67.204.153.223:1080
+  protocol: socks5
+  ip: 67.204.153.223
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Bend
+- proxy: socks5://66.170.46.17:1080
+  protocol: socks5
+  ip: 66.170.46.17
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Syracuse
+- proxy: socks5://192.210.197.13:1080
+  protocol: socks5
+  ip: 192.210.197.13
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Buffalo
+- proxy: socks5://138.68.60.8:1080
+  protocol: socks5
+  ip: 138.68.60.8
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Santa Clara
 - proxy: socks5://199.102.106.94:4145
   protocol: socks5
   ip: 199.102.106.94
@@ -7538,16 +9298,6 @@
   geolocation:
     country: US
     city: Oceanside
-- proxy: socks4://72.195.34.41:4145
-  protocol: socks4
-  ip: 72.195.34.41
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://24.249.199.12:4145
   protocol: socks5
   ip: 24.249.199.12
@@ -7558,26 +9308,6 @@
   geolocation:
     country: US
     city: Crestview
-- proxy: socks4://167.99.3.26:5773
-  protocol: socks4
-  ip: 167.99.3.26
-  port: 5773
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: North Bergen
-- proxy: socks4://72.195.34.59:4145
-  protocol: socks4
-  ip: 72.195.34.59
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://142.54.226.214:4145
   protocol: socks5
   ip: 142.54.226.214
@@ -7598,66 +9328,6 @@
   geolocation:
     country: US
     city: Roanoke
-- proxy: http://146.190.60.147:8020
-  protocol: http
-  ip: 146.190.60.147
-  port: 8020
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Santa Clara
-- proxy: socks5://107.174.30.93:1080
-  protocol: socks5
-  ip: 107.174.30.93
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Dallas
-- proxy: socks5://98.175.31.195:4145
-  protocol: socks5
-  ip: 98.175.31.195
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Norfolk
-- proxy: socks5://174.77.111.197:4145
-  protocol: socks5
-  ip: 174.77.111.197
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://216.152.152.44:80
-  protocol: http
-  ip: 216.152.152.44
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Turtle Creek
-- proxy: socks5://47.251.166.203:1080
-  protocol: socks5
-  ip: 47.251.166.203
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://24.121.73.10:1080
   protocol: socks5
   ip: 24.121.73.10
@@ -7668,29 +9338,9 @@
   geolocation:
     country: US
     city: Flagstaff
-- proxy: socks5://98.178.72.30:4145
-  protocol: socks5
-  ip: 98.178.72.30
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://72.194.42.131:4145
   protocol: socks5
   ip: 72.194.42.131
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: socks5://184.181.217.220:4145
-  protocol: socks5
-  ip: 184.181.217.220
   port: 4145
   https: false
   anonymity: transparent
@@ -7708,16 +9358,6 @@
   geolocation:
     country: US
     city: Naples
-- proxy: http://38.58.126.25:8080
-  protocol: http
-  ip: 38.58.126.25
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://198.199.86.11:1080
   protocol: socks5
   ip: 198.199.86.11
@@ -7728,56 +9368,6 @@
   geolocation:
     country: US
     city: North Bergen
-- proxy: socks5://199.116.114.11:4145
-  protocol: socks5
-  ip: 199.116.114.11
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Newark
-- proxy: socks4://68.1.210.189:4145
-  protocol: socks4
-  ip: 68.1.210.189
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Santee
-- proxy: socks5://184.181.217.201:4145
-  protocol: socks5
-  ip: 184.181.217.201
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: socks4://47.90.167.27:80
-  protocol: socks4
-  ip: 47.90.167.27
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: socks4://150.228.196.238:1080
-  protocol: socks4
-  ip: 150.228.196.238
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://43.130.38.45:51029
   protocol: socks5
   ip: 43.130.38.45
@@ -7788,66 +9378,6 @@
   geolocation:
     country: US
     city: Santa Clara
-- proxy: http://5.161.210.253:1080
-  protocol: http
-  ip: 5.161.210.253
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: socks5://192.252.210.233:4145
-  protocol: socks5
-  ip: 192.252.210.233
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Portland
-- proxy: socks4://47.90.167.27:5000
-  protocol: socks4
-  ip: 47.90.167.27
-  port: 5000
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://45.194.90.194:8080
-  protocol: http
-  ip: 45.194.90.194
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Washington
-- proxy: socks5://72.206.74.126:4145
-  protocol: socks5
-  ip: 72.206.74.126
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Fairfax
-- proxy: socks4://47.90.167.27:8888
-  protocol: socks4
-  ip: 47.90.167.27
-  port: 8888
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://24.249.199.4:4145
   protocol: socks5
   ip: 24.249.199.4
@@ -7858,16 +9388,6 @@
   geolocation:
     country: US
     city: Crestview
-- proxy: socks5://184.178.172.17:4145
-  protocol: socks5
-  ip: 184.178.172.17
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Roanoke
 - proxy: socks5://104.161.23.122:5029
   protocol: socks5
   ip: 104.161.23.122
@@ -7878,26 +9398,6 @@
   geolocation:
     country: US
     city: Phoenix
-- proxy: socks5://192.252.214.17:4145
-  protocol: socks5
-  ip: 192.252.214.17
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Portland
-- proxy: socks5://216.68.128.121:4145
-  protocol: socks5
-  ip: 216.68.128.121
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Cincinnati
 - proxy: socks5://98.191.0.37:4145
   protocol: socks5
   ip: 98.191.0.37
@@ -7908,16 +9408,6 @@
   geolocation:
     country: US
     city: Gilbert
-- proxy: socks5://72.207.33.64:4145
-  protocol: socks5
-  ip: 72.207.33.64
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: San Diego
 - proxy: socks5://72.37.216.68:4145
   protocol: socks5
   ip: 72.37.216.68
@@ -7928,16 +9418,6 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: http://207.177.122.144:8080
-  protocol: http
-  ip: 207.177.122.144
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Fort Madison
 - proxy: socks5://72.195.101.99:4145
   protocol: socks5
   ip: 72.195.101.99
@@ -7948,16 +9428,6 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: http://104.36.237.230:8080
-  protocol: http
-  ip: 104.36.237.230
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Pasco
 - proxy: socks5://174.77.111.198:49547
   protocol: socks5
   ip: 174.77.111.198
@@ -7978,26 +9448,6 @@
   geolocation:
     country: US
     city: Phoenix
-- proxy: socks5://192.252.211.197:14921
-  protocol: socks5
-  ip: 192.252.211.197
-  port: 14921
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Portland
-- proxy: socks5://184.181.217.194:4145
-  protocol: socks5
-  ip: 184.181.217.194
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://142.54.239.1:4145
   protocol: socks5
   ip: 142.54.239.1
@@ -8028,100 +9478,10 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: http://107.173.125.200:443
-  protocol: http
-  ip: 107.173.125.200
-  port: 443
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://130.250.199.73:999
-  protocol: http
-  ip: 130.250.199.73
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Bullhead City
-- proxy: socks5://184.178.172.23:4145
-  protocol: socks5
-  ip: 184.178.172.23
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Roanoke
-- proxy: socks4://72.194.42.156:4145
-  protocol: socks4
-  ip: 72.194.42.156
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: socks5://72.205.0.67:4145
-  protocol: socks5
-  ip: 72.205.0.67
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Alexandria
-- proxy: http://38.191.214.254:999
-  protocol: http
-  ip: 38.191.214.254
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://155.212.169.47:3128
-  protocol: http
-  ip: 155.212.169.47
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: socks5://184.181.178.33:4145
-  protocol: socks5
-  ip: 184.181.178.33
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://135.106.229.254:1080
   protocol: socks5
   ip: 135.106.229.254
   port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://38.191.208.41:999
-  protocol: http
-  ip: 38.191.208.41
-  port: 999
   https: false
   anonymity: transparent
   score: 1
@@ -8138,16 +9498,6 @@
   geolocation:
     country: US
     city: Lubbock
-- proxy: http://168.110.127.81:3128
-  protocol: http
-  ip: 168.110.127.81
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://192.111.135.18:18301
   protocol: socks5
   ip: 192.111.135.18
@@ -8158,26 +9508,6 @@
   geolocation:
     country: US
     city: Atlanta
-- proxy: socks5://192.252.214.20:15864
-  protocol: socks5
-  ip: 192.252.214.20
-  port: 15864
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Portland
-- proxy: socks5://184.185.2.12:4145
-  protocol: socks5
-  ip: 184.185.2.12
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Omaha
 - proxy: socks5://72.131.213.139:1080
   protocol: socks5
   ip: 72.131.213.139
@@ -8188,50 +9518,10 @@
   geolocation:
     country: US
     city: Plano
-- proxy: http://172.86.126.201:3128
-  protocol: http
-  ip: 172.86.126.201
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Los Angeles
-- proxy: http://47.90.149.238:9090
-  protocol: http
-  ip: 47.90.149.238
-  port: 9090
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://107.181.161.81:4145
   protocol: socks5
   ip: 107.181.161.81
   port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://69.171.214.160:999
-  protocol: http
-  ip: 69.171.214.160
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Chicago
-- proxy: http://23.95.91.167:80
-  protocol: http
-  ip: 23.95.91.167
-  port: 80
   https: false
   anonymity: transparent
   score: 1
@@ -8248,26 +9538,6 @@
   geolocation:
     country: US
     city: Roanoke
-- proxy: socks5://70.166.65.160:4145
-  protocol: socks5
-  ip: 70.166.65.160
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Lafayette
-- proxy: socks5://184.182.240.12:4145
-  protocol: socks5
-  ip: 184.182.240.12
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Phoenix
 - proxy: socks5://38.147.191.16:1081
   protocol: socks5
   ip: 38.147.191.16
@@ -8278,76 +9548,6 @@
   geolocation:
     country: US
     city: Los Angeles
-- proxy: socks5://72.49.49.11:31034
-  protocol: socks5
-  ip: 72.49.49.11
-  port: 31034
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Cincinnati
-- proxy: http://209.61.77.188:999
-  protocol: http
-  ip: 209.61.77.188
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://172.235.157.127:3128
-  protocol: http
-  ip: 172.235.157.127
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://38.19.42.177:999
-  protocol: http
-  ip: 38.19.42.177
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: socks5://206.220.175.2:4145
-  protocol: socks5
-  ip: 206.220.175.2
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://47.90.149.238:10008
-  protocol: http
-  ip: 47.90.149.238
-  port: 10008
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://34.43.46.91:80
-  protocol: http
-  ip: 34.43.46.91
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://72.214.108.67:4145
   protocol: socks5
   ip: 72.214.108.67
@@ -8358,200 +9558,10 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: http://192.6.154.179:3128
-  protocol: http
-  ip: 192.6.154.179
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: socks4://174.64.199.82:4145
-  protocol: socks4
-  ip: 174.64.199.82
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: socks5://98.190.239.3:4145
-  protocol: socks5
-  ip: 98.190.239.3
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Wichita
-- proxy: http://167.99.173.119:3128
-  protocol: http
-  ip: 167.99.173.119
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Santa Clara
-- proxy: socks5://98.178.72.21:10919
-  protocol: socks5
-  ip: 98.178.72.21
-  port: 10919
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: socks5://45.61.129.165:9050
-  protocol: socks5
-  ip: 45.61.129.165
-  port: 9050
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Las Vegas
-- proxy: http://172.85.99.53:16062
-  protocol: http
-  ip: 172.85.99.53
-  port: 16062
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Los Angeles
 - proxy: socks5://67.201.58.190:4145
   protocol: socks5
   ip: 67.201.58.190
   port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://45.61.133.104:7777
-  protocol: http
-  ip: 45.61.133.104
-  port: 7777
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://70.63.90.245:8080
-  protocol: http
-  ip: 70.63.90.245
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Wilmington
-- proxy: http://192.73.243.98:3128
-  protocol: http
-  ip: 192.73.243.98
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Miami
-- proxy: http://172.237.70.175:3128
-  protocol: http
-  ip: 172.237.70.175
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://104.253.134.37:3128
-  protocol: http
-  ip: 104.253.134.37
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://47.90.149.238:1111
-  protocol: http
-  ip: 47.90.149.238
-  port: 1111
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: socks4://24.249.199.4:4145
-  protocol: socks4
-  ip: 24.249.199.4
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Crestview
-- proxy: socks5://70.166.167.38:57728
-  protocol: socks5
-  ip: 70.166.167.38
-  port: 57728
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Mesa
-- proxy: http://45.194.90.225:8080
-  protocol: http
-  ip: 45.194.90.225
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Washington
-- proxy: http://34.42.192.244:8888
-  protocol: http
-  ip: 34.42.192.244
-  port: 8888
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Council Bluffs
-- proxy: http://216.152.149.246:80
-  protocol: http
-  ip: 216.152.149.246
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Turtle Creek
-- proxy: http://104.168.134.178:3128
-  protocol: http
-  ip: 104.168.134.178
-  port: 3128
   https: false
   anonymity: transparent
   score: 1
@@ -8568,26 +9578,6 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: http://143.246.138.227:80
-  protocol: http
-  ip: 143.246.138.227
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://167.99.8.113:8007
-  protocol: http
-  ip: 167.99.8.113
-  port: 8007
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: North Bergen
 - proxy: socks5://68.1.210.163:4145
   protocol: socks5
   ip: 68.1.210.163
@@ -8598,299 +9588,9 @@
   geolocation:
     country: US
     city: Santee
-- proxy: http://9.154.247.186:1080
-  protocol: http
-  ip: 9.154.247.186
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: socks5://98.170.57.231:4145
-  protocol: socks5
-  ip: 98.170.57.231
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: socks5://174.75.211.222:4145
-  protocol: socks5
-  ip: 174.75.211.222
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://206.135.47.107:999
-  protocol: http
-  ip: 206.135.47.107
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://38.226.49.194:999
-  protocol: http
-  ip: 38.226.49.194
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://154.19.39.50:80
-  protocol: http
-  ip: 154.19.39.50
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Pasadena
-- proxy: socks5://184.181.217.210:4145
-  protocol: socks5
-  ip: 184.181.217.210
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://149.2.83.157:999
-  protocol: http
-  ip: 149.2.83.157
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Portland
 - proxy: socks5://142.54.229.249:4145
   protocol: socks5
   ip: 142.54.229.249
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: socks5://72.207.113.97:4145
-  protocol: socks5
-  ip: 72.207.113.97
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: El Cajon
-- proxy: socks4://5.78.181.0:9052
-  protocol: socks4
-  ip: 5.78.181.0
-  port: 9052
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Portland
-- proxy: http://20.98.234.24:8080
-  protocol: http
-  ip: 20.98.234.24
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Boydton
-- proxy: socks5://209.97.150.167:1080
-  protocol: socks5
-  ip: 209.97.150.167
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Clifton
-- proxy: http://34.43.46.91:443
-  protocol: http
-  ip: 34.43.46.91
-  port: 443
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: socks5://85.92.153.104:1080
-  protocol: socks5
-  ip: 85.92.153.104
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Garden City
-- proxy: http://129.146.127.232:3128
-  protocol: http
-  ip: 129.146.127.232
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Phoenix
-- proxy: http://38.210.106.24:999
-  protocol: http
-  ip: 38.210.106.24
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://195.86.215.2:3128
-  protocol: http
-  ip: 195.86.215.2
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://38.63.98.16:999
-  protocol: http
-  ip: 38.63.98.16
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Los Angeles
-- proxy: socks5://98.181.137.80:4145
-  protocol: socks5
-  ip: 98.181.137.80
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Las Vegas
-- proxy: http://206.135.78.58:999
-  protocol: http
-  ip: 206.135.78.58
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://38.58.66.173:999
-  protocol: http
-  ip: 38.58.66.173
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://45.43.60.220:8080
-  protocol: http
-  ip: 45.43.60.220
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://38.211.76.177:999
-  protocol: http
-  ip: 38.211.76.177
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://38.19.43.76:999
-  protocol: http
-  ip: 38.19.43.76
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://38.211.76.145:999
-  protocol: http
-  ip: 38.211.76.145
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: socks5://98.170.57.241:4145
-  protocol: socks5
-  ip: 98.170.57.241
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://169.58.175.78:3128
-  protocol: http
-  ip: 169.58.175.78
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://12.49.24.22:8080
-  protocol: http
-  ip: 12.49.24.22
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Winnemucca
-- proxy: socks5://174.75.211.193:4145
-  protocol: socks5
-  ip: 174.75.211.193
   port: 4145
   https: false
   anonymity: transparent
@@ -8908,16 +9608,6 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: http://40.113.234.46:8080
-  protocol: http
-  ip: 40.113.234.46
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Des Moines
 - proxy: socks5://129.153.105.194:9050
   protocol: socks5
   ip: 129.153.105.194
@@ -8928,196 +9618,6 @@
   geolocation:
     country: US
     city: Phoenix
-- proxy: http://38.123.48.68:999
-  protocol: http
-  ip: 38.123.48.68
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://38.211.25.242:8080
-  protocol: http
-  ip: 38.211.25.242
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://74.214.254.17:8080
-  protocol: http
-  ip: 74.214.254.17
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Price
-- proxy: socks5://72.195.114.169:4145
-  protocol: socks5
-  ip: 72.195.114.169
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://108.170.12.14:80
-  protocol: http
-  ip: 108.170.12.14
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Phoenix
-- proxy: http://167.99.8.113:8010
-  protocol: http
-  ip: 167.99.8.113
-  port: 8010
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: North Bergen
-- proxy: http://129.146.163.237:8888
-  protocol: http
-  ip: 129.146.163.237
-  port: 8888
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Phoenix
-- proxy: http://104.161.23.122:5029
-  protocol: http
-  ip: 104.161.23.122
-  port: 5029
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Phoenix
-- proxy: http://38.250.183.132:8069
-  protocol: http
-  ip: 38.250.183.132
-  port: 8069
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://38.183.146.97:8090
-  protocol: http
-  ip: 38.183.146.97
-  port: 8090
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://143.42.6.185:3128
-  protocol: http
-  ip: 143.42.6.185
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Cedar Knolls
-- proxy: http://47.89.184.18:3128
-  protocol: http
-  ip: 47.89.184.18
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://47.79.33.142:3128
-  protocol: http
-  ip: 47.79.33.142
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://38.191.204.97:999
-  protocol: http
-  ip: 38.191.204.97
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://146.190.60.147:8007
-  protocol: http
-  ip: 146.190.60.147
-  port: 8007
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Santa Clara
-- proxy: http://174.75.34.109:80
-  protocol: http
-  ip: 174.75.34.109
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Las Vegas
-- proxy: http://205.172.56.239:3128
-  protocol: http
-  ip: 205.172.56.239
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://38.76.251.115:999
-  protocol: http
-  ip: 38.76.251.115
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://69.171.214.128:999
-  protocol: http
-  ip: 69.171.214.128
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Chicago
 - proxy: socks5://172.86.84.97:1085
   protocol: socks5
   ip: 172.86.84.97
@@ -9138,26 +9638,6 @@
   geolocation:
     country: US
     city: Alexandria
-- proxy: http://172.239.105.7:3128
-  protocol: http
-  ip: 172.239.105.7
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://104.251.93.219:16062
-  protocol: http
-  ip: 104.251.93.219
-  port: 16062
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Las Vegas
 - proxy: socks5://184.178.172.14:4145
   protocol: socks5
   ip: 184.178.172.14
@@ -9168,36 +9648,6 @@
   geolocation:
     country: US
     city: Roanoke
-- proxy: socks5://72.195.34.60:27391
-  protocol: socks5
-  ip: 72.195.34.60
-  port: 27391
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://38.19.238.36:999
-  protocol: http
-  ip: 38.19.238.36
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://184.75.221.82:3118
-  protocol: http
-  ip: 184.75.221.82
-  port: 3118
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://206.246.26.65:1080
   protocol: socks5
   ip: 206.246.26.65
@@ -9208,66 +9658,6 @@
   geolocation:
     country: US
     city: Claremore
-- proxy: http://38.211.68.74:999
-  protocol: http
-  ip: 38.211.68.74
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://168.107.66.134:3128
-  protocol: http
-  ip: 168.107.66.134
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: socks5://199.229.254.129:4145
-  protocol: socks5
-  ip: 199.229.254.129
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Vancouver
-- proxy: http://9.154.243.10:8080
-  protocol: http
-  ip: 9.154.243.10
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: socks4://141.148.65.110:1081
-  protocol: socks4
-  ip: 141.148.65.110
-  port: 1081
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Ashburn
-- proxy: http://38.76.228.240:8088
-  protocol: http
-  ip: 38.76.228.240
-  port: 8088
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://109.199.96.116:9050
   protocol: socks5
   ip: 109.199.96.116
@@ -9288,96 +9678,6 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: http://74.62.179.122:8080
-  protocol: http
-  ip: 74.62.179.122
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Hawthorne
-- proxy: http://23.185.192.66:8181
-  protocol: http
-  ip: 23.185.192.66
-  port: 8181
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Frankfort
-- proxy: http://38.194.251.246:999
-  protocol: http
-  ip: 38.194.251.246
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://38.19.43.79:999
-  protocol: http
-  ip: 38.19.43.79
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://185.147.157.135:3128
-  protocol: http
-  ip: 185.147.157.135
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Los Angeles
-- proxy: http://146.190.60.147:8015
-  protocol: http
-  ip: 146.190.60.147
-  port: 8015
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Santa Clara
-- proxy: http://47.79.90.218:8080
-  protocol: http
-  ip: 47.79.90.218
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: socks5://174.77.111.196:4145
-  protocol: socks5
-  ip: 174.77.111.196
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://172.85.99.64:16062
-  protocol: http
-  ip: 172.85.99.64
-  port: 16062
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Los Angeles
 - proxy: socks5://143.105.153.7:1080
   protocol: socks5
   ip: 143.105.153.7
@@ -9388,140 +9688,10 @@
   geolocation:
     country: US
     city: Northampton Center
-- proxy: http://38.156.141.96:999
-  protocol: http
-  ip: 38.156.141.96
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://38.211.76.17:999
-  protocol: http
-  ip: 38.211.76.17
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://13.140.178.224:3128
-  protocol: http
-  ip: 13.140.178.224
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://38.121.212.134:999
-  protocol: http
-  ip: 38.121.212.134
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Hogansburg
-- proxy: socks5://98.181.137.83:4145
-  protocol: socks5
-  ip: 98.181.137.83
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Las Vegas
-- proxy: http://104.251.93.39:16062
-  protocol: http
-  ip: 104.251.93.39
-  port: 16062
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Las Vegas
-- proxy: http://38.191.204.98:999
-  protocol: http
-  ip: 38.191.204.98
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://108.170.12.12:80
-  protocol: http
-  ip: 108.170.12.12
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Phoenix
-- proxy: http://47.85.161.37:3128
-  protocol: http
-  ip: 47.85.161.37
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: socks5://184.178.172.13:15311
-  protocol: socks5
-  ip: 184.178.172.13
-  port: 15311
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Roanoke
-- proxy: http://165.154.162.73:8888
-  protocol: http
-  ip: 165.154.162.73
-  port: 8888
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Los Angeles
 - proxy: socks5://192.252.209.155:14455
   protocol: socks5
   ip: 192.252.209.155
   port: 14455
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Portland
-- proxy: socks5://184.178.172.25:15291
-  protocol: socks5
-  ip: 184.178.172.25
-  port: 15291
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Roanoke
-- proxy: socks5://192.252.208.70:14282
-  protocol: socks5
-  ip: 192.252.208.70
-  port: 14282
   https: false
   anonymity: transparent
   score: 1
@@ -9558,26 +9728,6 @@
   geolocation:
     country: US
     city: Baton Rouge
-- proxy: socks5://192.252.220.89:4145
-  protocol: socks5
-  ip: 192.252.220.89
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: socks5://155.138.221.32:1082
-  protocol: socks5
-  ip: 155.138.221.32
-  port: 1082
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Atlanta
 - proxy: socks5://209.182.234.151:40000
   protocol: socks5
   ip: 209.182.234.151
@@ -9588,16 +9738,6 @@
   geolocation:
     country: US
     city: Dallas
-- proxy: socks5://72.194.42.156:4145
-  protocol: socks5
-  ip: 72.194.42.156
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://24.121.176.155:1080
   protocol: socks5
   ip: 24.121.176.155
@@ -9612,16 +9752,6 @@
   protocol: socks5
   ip: 16.5.163.105
   port: 10802
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: socks5://72.195.114.184:4145
-  protocol: socks5
-  ip: 72.195.114.184
-  port: 4145
   https: false
   anonymity: transparent
   score: 1
@@ -9668,16 +9798,6 @@
   geolocation:
     country: US
     city: Baton Rouge
-- proxy: socks5://184.181.217.206:4145
-  protocol: socks5
-  ip: 184.181.217.206
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://104.200.135.46:4145
   protocol: socks5
   ip: 104.200.135.46
@@ -9708,29 +9828,9 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: socks5://72.195.34.59:4145
-  protocol: socks5
-  ip: 72.195.34.59
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://184.181.217.213:4145
   protocol: socks5
   ip: 184.181.217.213
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: socks5://199.58.184.97:4145
-  protocol: socks5
-  ip: 199.58.184.97
   port: 4145
   https: false
   anonymity: transparent
@@ -9778,16 +9878,6 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: socks5://192.252.215.5:16137
-  protocol: socks5
-  ip: 192.252.215.5
-  port: 16137
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Portland
 - proxy: socks5://174.64.199.79:4145
   protocol: socks5
   ip: 174.64.199.79
@@ -9798,16 +9888,6 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: socks5://67.201.35.145:4145
-  protocol: socks5
-  ip: 67.201.35.145
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: West Covina
 - proxy: socks5://142.54.236.97:4145
   protocol: socks5
   ip: 142.54.236.97
@@ -9818,16 +9898,6 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: socks5://184.178.172.11:4145
-  protocol: socks5
-  ip: 184.178.172.11
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Roanoke
 - proxy: socks5://199.58.185.9:4145
   protocol: socks5
   ip: 199.58.185.9
@@ -9938,16 +10008,6 @@
   geolocation:
     country: US
     city: Princeton
-- proxy: socks5://142.54.235.9:4145
-  protocol: socks5
-  ip: 142.54.235.9
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://50.239.136.10:1080
   protocol: socks5
   ip: 50.239.136.10
@@ -9978,16 +10038,6 @@
   geolocation:
     country: US
     city: Canton
-- proxy: socks5://184.170.248.5:4145
-  protocol: socks5
-  ip: 184.170.248.5
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://74.119.147.209:4145
   protocol: socks5
   ip: 74.119.147.209
@@ -10028,16 +10078,6 @@
   geolocation:
     country: US
     city: Portland
-- proxy: socks5://107.181.168.145:4145
-  protocol: socks5
-  ip: 107.181.168.145
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://192.252.220.92:17328
   protocol: socks5
   ip: 192.252.220.92
@@ -10058,16 +10098,6 @@
   geolocation:
     country: US
     city: Los Angeles
-- proxy: socks5://47.85.9.228:10800
-  protocol: socks5
-  ip: 47.85.9.228
-  port: 10800
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://107.152.98.5:4145
   protocol: socks5
   ip: 107.152.98.5
@@ -10168,26 +10198,6 @@
   geolocation:
     country: US
     city: Apple Valley
-- proxy: socks5://98.175.31.222:4145
-  protocol: socks5
-  ip: 98.175.31.222
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Norfolk
-- proxy: socks5://72.195.34.41:4145
-  protocol: socks5
-  ip: 72.195.34.41
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://162.253.68.97:4145
   protocol: socks5
   ip: 162.253.68.97
@@ -10208,16 +10218,6 @@
   geolocation:
     country: US
     city: Springer
-- proxy: socks5://104.200.152.30:4145
-  protocol: socks5
-  ip: 104.200.152.30
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Los Angeles
 - proxy: socks5://152.86.78.16:1080
   protocol: socks5
   ip: 152.86.78.16
@@ -10232,16 +10232,6 @@
   protocol: socks5
   ip: 47.252.47.39
   port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: socks5://192.252.216.81:4145
-  protocol: socks5
-  ip: 192.252.216.81
-  port: 4145
   https: false
   anonymity: transparent
   score: 1
@@ -10338,16 +10328,6 @@
   geolocation:
     country: US
     city: Austin
-- proxy: socks5://8.40.19.133:1080
-  protocol: socks5
-  ip: 8.40.19.133
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Martins Ferry
 - proxy: socks5://193.233.210.148:8080
   protocol: socks5
   ip: 193.233.210.148
@@ -10358,16 +10338,6 @@
   geolocation:
     country: US
     city: Secaucus
-- proxy: socks5://47.85.37.60:1080
-  protocol: socks5
-  ip: 47.85.37.60
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://104.252.175.210:1080
   protocol: socks5
   ip: 104.252.175.210
@@ -10402,26 +10372,6 @@
   protocol: socks5
   ip: 155.117.100.64
   port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: socks5://66.231.128.103:1080
-  protocol: socks5
-  ip: 66.231.128.103
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Gainesville
-- proxy: socks5://166.62.53.45:45842
-  protocol: socks5
-  ip: 166.62.53.45
-  port: 45842
   https: false
   anonymity: transparent
   score: 1
@@ -10538,16 +10488,6 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: socks5://150.136.58.221:1080
-  protocol: socks5
-  ip: 150.136.58.221
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Ashburn
 - proxy: socks5://199.187.210.54:4145
   protocol: socks5
   ip: 199.187.210.54
@@ -10922,16 +10862,6 @@
   protocol: socks5
   ip: 47.89.159.212
   port: 5060
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: socks5://45.38.210.105:9050
-  protocol: socks5
-  ip: 45.38.210.105
-  port: 9050
   https: false
   anonymity: transparent
   score: 1
@@ -11388,16 +11318,6 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: socks5://45.39.60.198:1080
-  protocol: socks5
-  ip: 45.39.60.198
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://104.161.23.122:5006
   protocol: socks5
   ip: 104.161.23.122
@@ -11472,16 +11392,6 @@
   protocol: socks5
   ip: 98.159.100.100
   port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: socks5://45.202.240.161:10808
-  protocol: socks5
-  ip: 45.202.240.161
-  port: 10808
   https: false
   anonymity: transparent
   score: 1
@@ -21848,16 +21758,6 @@
   geolocation:
     country: US
     city: Phoenix
-- proxy: http://34.122.187.196:80
-  protocol: http
-  ip: 34.122.187.196
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Council Bluffs
 - proxy: http://20.98.45.49:3128
   protocol: http
   ip: 20.98.45.49
@@ -21868,6 +21768,16 @@
   geolocation:
     country: US
     city: Chicago
+- proxy: http://104.36.237.230:8080
+  protocol: http
+  ip: 104.36.237.230
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Pasco
 - proxy: http://209.62.196.68:8080
   protocol: http
   ip: 209.62.196.68
@@ -21878,26 +21788,6 @@
   geolocation:
     country: US
     city: Larose
-- proxy: http://159.65.230.46:8888
-  protocol: http
-  ip: 159.65.230.46
-  port: 8888
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: North Bergen
-- proxy: http://154.18.196.6:8083
-  protocol: http
-  ip: 154.18.196.6
-  port: 8083
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Washington
 - proxy: http://206.135.47.109:999
   protocol: http
   ip: 206.135.47.109
@@ -21908,16 +21798,16 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: http://24.144.86.14:80
+- proxy: http://47.79.90.218:8080
   protocol: http
-  ip: 24.144.86.14
-  port: 80
+  ip: 47.79.90.218
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: US
-    city: Santa Clara
+    city: Unknown
 - proxy: http://38.211.35.34:999
   protocol: http
   ip: 38.211.35.34
@@ -21948,6 +21838,16 @@
   geolocation:
     country: US
     city: Unknown
+- proxy: http://38.194.251.246:999
+  protocol: http
+  ip: 38.194.251.246
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
 - proxy: http://38.19.43.72:999
   protocol: http
   ip: 38.19.43.72
@@ -21958,6 +21858,16 @@
   geolocation:
     country: US
     city: Unknown
+- proxy: http://70.63.90.245:8080
+  protocol: http
+  ip: 70.63.90.245
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Wilmington
 - proxy: http://192.73.243.65:3128
   protocol: http
   ip: 192.73.243.65
@@ -21998,16 +21908,6 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: http://154.62.127.105:999
-  protocol: http
-  ip: 154.62.127.105
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: http://190.112.193.64:999
   protocol: http
   ip: 190.112.193.64
@@ -22028,16 +21928,6 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: http://38.63.122.4:999
-  protocol: http
-  ip: 38.63.122.4
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Los Angeles
 - proxy: http://104.251.93.136:16062
   protocol: http
   ip: 104.251.93.136
@@ -22062,16 +21952,6 @@
   protocol: http
   ip: 132.243.174.245
   port: 5002
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://206.135.47.108:999
-  protocol: http
-  ip: 206.135.47.108
-  port: 999
   https: false
   anonymity: transparent
   score: 1
@@ -22138,9 +22018,9 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: http://38.194.246.34:999
+- proxy: http://38.19.238.36:999
   protocol: http
-  ip: 38.194.246.34
+  ip: 38.19.238.36
   port: 999
   https: false
   anonymity: transparent
@@ -22168,16 +22048,16 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: http://45.79.62.98:3128
+- proxy: http://69.171.214.160:999
   protocol: http
-  ip: 45.79.62.98
-  port: 3128
+  ip: 69.171.214.160
+  port: 999
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: US
-    city: Richardson
+    city: Chicago
 - proxy: http://129.212.246.85:3128
   protocol: http
   ip: 129.212.246.85
@@ -22198,9 +22078,9 @@
   geolocation:
     country: US
     city: Globe
-- proxy: http://38.224.32.188:999
+- proxy: http://38.58.66.173:999
   protocol: http
-  ip: 38.224.32.188
+  ip: 38.58.66.173
   port: 999
   https: false
   anonymity: transparent
@@ -22208,10 +22088,20 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: http://137.66.1.45:80
+- proxy: http://108.170.12.14:80
   protocol: http
-  ip: 137.66.1.45
+  ip: 108.170.12.14
   port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Phoenix
+- proxy: http://38.156.141.96:999
+  protocol: http
+  ip: 38.156.141.96
+  port: 999
   https: false
   anonymity: transparent
   score: 1
@@ -22222,16 +22112,6 @@
   protocol: http
   ip: 68.169.55.189
   port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://40.160.36.112:999
-  protocol: http
-  ip: 40.160.36.112
-  port: 999
   https: false
   anonymity: transparent
   score: 1
@@ -22258,16 +22138,6 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: http://4.227.178.164:3128
-  protocol: http
-  ip: 4.227.178.164
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Tappahannock
 - proxy: http://47.80.26.236:8080
   protocol: http
   ip: 47.80.26.236
@@ -22308,6 +22178,16 @@
   geolocation:
     country: US
     city: Unknown
+- proxy: http://38.183.146.97:8090
+  protocol: http
+  ip: 38.183.146.97
+  port: 8090
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
 - proxy: http://167.99.236.14:80
   protocol: http
   ip: 167.99.236.14
@@ -22318,6 +22198,26 @@
   geolocation:
     country: US
     city: North Bergen
+- proxy: http://206.135.78.58:999
+  protocol: http
+  ip: 206.135.78.58
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://172.237.70.175:3128
+  protocol: http
+  ip: 172.237.70.175
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
 - proxy: http://38.194.250.174:999
   protocol: http
   ip: 38.194.250.174
@@ -22348,16 +22248,6 @@
   geolocation:
     country: US
     city: Council Bluffs
-- proxy: http://24.173.217.114:55443
-  protocol: http
-  ip: 24.173.217.114
-  port: 55443
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Balch Springs
 - proxy: http://108.170.12.11:80
   protocol: http
   ip: 108.170.12.11
@@ -22368,16 +22258,6 @@
   geolocation:
     country: US
     city: Phoenix
-- proxy: http://38.58.66.175:999
-  protocol: http
-  ip: 38.58.66.175
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: http://204.186.254.106:8080
   protocol: http
   ip: 204.186.254.106
@@ -22388,6 +22268,26 @@
   geolocation:
     country: US
     city: Bethlehem
+- proxy: http://23.95.91.167:80
+  protocol: http
+  ip: 23.95.91.167
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://169.58.175.78:3128
+  protocol: http
+  ip: 169.58.175.78
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
 - proxy: http://45.26.30.144:8888
   protocol: http
   ip: 45.26.30.144
@@ -22412,6 +22312,16 @@
   protocol: http
   ip: 144.31.111.155
   port: 8081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://38.76.251.115:999
+  protocol: http
+  ip: 38.76.251.115
+  port: 999
   https: false
   anonymity: transparent
   score: 1
@@ -22458,6 +22368,16 @@
   geolocation:
     country: US
     city: Santa Clara
+- proxy: http://75.109.189.86:8080
+  protocol: http
+  ip: 75.109.189.86
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Nacogdoches
 - proxy: http://38.196.176.133:999
   protocol: http
   ip: 38.196.176.133
@@ -22478,6 +22398,16 @@
   geolocation:
     country: US
     city: Denver
+- proxy: http://38.211.76.145:999
+  protocol: http
+  ip: 38.211.76.145
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
 - proxy: http://154.88.129.11:999
   protocol: http
   ip: 154.88.129.11
@@ -22558,10 +22488,10 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: http://206.135.66.54:999
+- proxy: http://206.135.11.170:8080
   protocol: http
-  ip: 206.135.66.54
-  port: 999
+  ip: 206.135.11.170
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
@@ -22598,6 +22528,16 @@
   geolocation:
     country: US
     city: Millinocket
+- proxy: http://45.194.90.194:8080
+  protocol: http
+  ip: 45.194.90.194
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Washington
 - proxy: http://68.225.17.237:4228
   protocol: http
   ip: 68.225.17.237
@@ -22638,29 +22578,19 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: http://154.17.8.103:1680
+- proxy: http://74.214.254.17:8080
   protocol: http
-  ip: 154.17.8.103
-  port: 1680
+  ip: 74.214.254.17
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: US
-    city: New York
+    city: Price
 - proxy: http://206.135.80.94:999
   protocol: http
   ip: 206.135.80.94
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://206.135.47.110:999
-  protocol: http
-  ip: 206.135.47.110
   port: 999
   https: false
   anonymity: transparent
@@ -22678,6 +22608,16 @@
   geolocation:
     country: US
     city: Unknown
+- proxy: http://143.42.6.185:3128
+  protocol: http
+  ip: 143.42.6.185
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Cedar Knolls
 - proxy: http://149.18.81.114:7890
   protocol: http
   ip: 149.18.81.114
@@ -22958,6 +22898,16 @@
   geolocation:
     country: US
     city: Santa Clara
+- proxy: http://167.99.8.113:8011
+  protocol: http
+  ip: 167.99.8.113
+  port: 8011
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: North Bergen
 - proxy: http://150.228.196.110:1080
   protocol: http
   ip: 150.228.196.110
@@ -23238,16 +23188,6 @@
   geolocation:
     country: US
     city: Portland
-- proxy: http://154.201.127.230:8080
-  protocol: http
-  ip: 154.201.127.230
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: http://199.102.105.242:4145
   protocol: http
   ip: 199.102.105.242
@@ -23288,6 +23228,16 @@
   geolocation:
     country: US
     city: Denver
+- proxy: http://47.90.149.238:5060
+  protocol: http
+  ip: 47.90.149.238
+  port: 5060
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
 - proxy: http://9.154.228.67:1080
   protocol: http
   ip: 9.154.228.67
@@ -23378,6 +23328,16 @@
   geolocation:
     country: US
     city: Unknown
+- proxy: http://47.90.149.238:41
+  protocol: http
+  ip: 47.90.149.238
+  port: 41
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
 - proxy: http://144.31.54.101:80
   protocol: http
   ip: 144.31.54.101
@@ -23418,6 +23378,16 @@
   geolocation:
     country: US
     city: Westfield
+- proxy: http://47.90.167.27:8443
+  protocol: http
+  ip: 47.90.167.27
+  port: 8443
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
 - proxy: http://160.3.168.70:8080
   protocol: http
   ip: 160.3.168.70
@@ -23478,6 +23448,16 @@
   geolocation:
     country: US
     city: Honolulu
+- proxy: http://47.79.33.142:3128
+  protocol: http
+  ip: 47.79.33.142
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
 - proxy: http://172.85.99.192:16062
   protocol: http
   ip: 172.85.99.192
@@ -23608,6 +23588,16 @@
   geolocation:
     country: US
     city: Columbus
+- proxy: http://47.90.167.27:8880
+  protocol: http
+  ip: 47.90.167.27
+  port: 8880
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
 - proxy: http://107.152.98.5:4145
   protocol: http
   ip: 107.152.98.5
@@ -23688,16 +23678,6 @@
   geolocation:
     country: US
     city: Dallas
-- proxy: http://154.29.145.165:3128
-  protocol: http
-  ip: 154.29.145.165
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Los Angeles
 - proxy: http://3.231.160.150:443
   protocol: http
   ip: 3.231.160.150
@@ -23738,16 +23718,6 @@
   geolocation:
     country: US
     city: Clifton
-- proxy: http://206.135.63.146:999
-  protocol: http
-  ip: 206.135.63.146
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: http://104.251.93.55:16062
   protocol: http
   ip: 104.251.93.55
@@ -24068,6 +24038,16 @@
   geolocation:
     country: US
     city: Unknown
+- proxy: http://47.90.167.27:8081
+  protocol: http
+  ip: 47.90.167.27
+  port: 8081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
 - proxy: http://155.50.242.81:3128
   protocol: http
   ip: 155.50.242.81
@@ -24158,16 +24138,46 @@
   geolocation:
     country: US
     city: Los Angeles
-- proxy: http://50.104.182.9:3128
+- proxy: http://207.244.244.178:3128
   protocol: http
-  ip: 50.104.182.9
+  ip: 207.244.244.178
   port: 3128
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: US
-    city: Fort Wayne
+    city: St Louis
+- proxy: http://108.170.12.12:80
+  protocol: http
+  ip: 108.170.12.12
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Phoenix
+- proxy: http://104.251.93.219:16062
+  protocol: http
+  ip: 104.251.93.219
+  port: 16062
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Las Vegas
+- proxy: http://47.90.149.238:9098
+  protocol: http
+  ip: 47.90.149.238
+  port: 9098
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
 - proxy: http://154.88.136.187:999
   protocol: http
   ip: 154.88.136.187
@@ -24198,6 +24208,16 @@
   geolocation:
     country: US
     city: Reston
+- proxy: http://146.190.60.147:8015
+  protocol: http
+  ip: 146.190.60.147
+  port: 8015
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Santa Clara
 - proxy: http://72.56.73.23:80
   protocol: http
   ip: 72.56.73.23
@@ -24278,16 +24298,6 @@
   geolocation:
     country: US
     city: Bluffton
-- proxy: http://207.246.234.115:4669
-  protocol: http
-  ip: 207.246.234.115
-  port: 4669
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Clovis
 - proxy: http://130.33.157.174:3128
   protocol: http
   ip: 130.33.157.174
@@ -24398,10 +24408,10 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: http://40.177.104.199:30577
+- proxy: http://107.173.125.200:443
   protocol: http
-  ip: 40.177.104.199
-  port: 30577
+  ip: 107.173.125.200
+  port: 443
   https: false
   anonymity: transparent
   score: 1
@@ -24498,6 +24508,16 @@
   geolocation:
     country: US
     city: Boca Raton
+- proxy: http://104.161.23.122:5006
+  protocol: http
+  ip: 104.161.23.122
+  port: 5006
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Phoenix
 - proxy: http://152.86.78.16:1080
   protocol: http
   ip: 152.86.78.16
@@ -24678,16 +24698,6 @@
   geolocation:
     country: US
     city: Cincinnati
-- proxy: http://206.135.80.194:999
-  protocol: http
-  ip: 206.135.80.194
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: http://70.166.65.160:4145
   protocol: http
   ip: 70.166.65.160
@@ -24808,26 +24818,6 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: http://198.98.51.187:3128
-  protocol: http
-  ip: 198.98.51.187
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Staten Island
-- proxy: http://16.26.208.68:56194
-  protocol: http
-  ip: 16.26.208.68
-  port: 56194
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: http://18.144.77.146:80
   protocol: http
   ip: 18.144.77.146
@@ -24878,16 +24868,6 @@
   geolocation:
     country: US
     city: Hartsville
-- proxy: http://43.153.45.165:8118
-  protocol: http
-  ip: 43.153.45.165
-  port: 8118
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: http://154.19.39.220:8090
   protocol: http
   ip: 154.19.39.220
@@ -24928,6 +24908,16 @@
   geolocation:
     country: US
     city: Portland
+- proxy: http://9.154.247.186:1080
+  protocol: http
+  ip: 9.154.247.186
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
 - proxy: http://3.21.247.154:4761
   protocol: http
   ip: 3.21.247.154
@@ -24988,6 +24978,16 @@
   geolocation:
     country: US
     city: Unknown
+- proxy: http://104.251.93.39:16062
+  protocol: http
+  ip: 104.251.93.39
+  port: 16062
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Las Vegas
 - proxy: http://191.101.1.116:80
   protocol: http
   ip: 191.101.1.116
@@ -25028,16 +25028,6 @@
   geolocation:
     country: US
     city: Hagerstown
-- proxy: http://157.230.219.85:8118
-  protocol: http
-  ip: 157.230.219.85
-  port: 8118
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: North Bergen
 - proxy: http://47.254.36.213:9080
   protocol: http
   ip: 47.254.36.213
@@ -25598,26 +25588,6 @@
   geolocation:
     country: US
     city: Las Vegas
-- proxy: http://154.201.126.245:8080
-  protocol: http
-  ip: 154.201.126.245
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://107.210.56.161:80
-  protocol: http
-  ip: 107.210.56.161
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Southside
 - proxy: http://52.88.105.39:80
   protocol: http
   ip: 52.88.105.39
@@ -25688,6 +25658,16 @@
   geolocation:
     country: US
     city: Austin
+- proxy: http://172.85.99.64:16062
+  protocol: http
+  ip: 172.85.99.64
+  port: 16062
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Los Angeles
 - proxy: http://155.50.215.37:3128
   protocol: http
   ip: 155.50.215.37
@@ -25708,6 +25688,16 @@
   geolocation:
     country: US
     city: Unknown
+- proxy: http://146.190.60.147:8003
+  protocol: http
+  ip: 146.190.60.147
+  port: 8003
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Santa Clara
 - proxy: http://107.173.41.13:3128
   protocol: http
   ip: 107.173.41.13
@@ -25768,16 +25758,6 @@
   geolocation:
     country: US
     city: Jacksonville
-- proxy: http://130.110.103.245:3129
-  protocol: http
-  ip: 130.110.103.245
-  port: 3129
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: http://5.161.210.253:1081
   protocol: http
   ip: 5.161.210.253
@@ -25788,79 +25768,9 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: http://142.93.202.130:3129
+- proxy: http://38.226.243.163:8080
   protocol: http
-  ip: 142.93.202.130
-  port: 3129
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: North Bergen
-- proxy: http://47.85.161.37:3129
-  protocol: http
-  ip: 47.85.161.37
-  port: 3129
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://47.84.179.9:3129
-  protocol: http
-  ip: 47.84.179.9
-  port: 3129
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Ashburn
-- proxy: http://38.19.43.106:999
-  protocol: http
-  ip: 38.19.43.106
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://216.243.112.30:3129
-  protocol: http
-  ip: 216.243.112.30
-  port: 3129
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Tijeras
-- proxy: http://38.58.114.145:3125
-  protocol: http
-  ip: 38.58.114.145
-  port: 3125
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://13.59.11.63:3129
-  protocol: http
-  ip: 13.59.11.63
-  port: 3129
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Columbus
-- proxy: http://38.188.63.169:8080
-  protocol: http
-  ip: 38.188.63.169
+  ip: 38.226.243.163
   port: 8080
   https: false
   anonymity: transparent
@@ -25868,9 +25778,49 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: http://154.88.136.186:999
+- proxy: http://34.153.18.123:443
   protocol: http
-  ip: 154.88.136.186
+  ip: 34.153.18.123
+  port: 443
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://47.89.184.18:3129
+  protocol: http
+  ip: 47.89.184.18
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://157.230.134.174:3129
+  protocol: http
+  ip: 157.230.134.174
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Santa Clara
+- proxy: http://13.140.178.224:3129
+  protocol: http
+  ip: 13.140.178.224
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://154.62.127.162:999
+  protocol: http
+  ip: 154.62.127.162
   port: 999
   https: false
   anonymity: transparent
@@ -25878,10 +25828,30 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: http://154.62.127.129:999
+- proxy: http://12.49.24.22:8080
   protocol: http
-  ip: 154.62.127.129
-  port: 999
+  ip: 12.49.24.22
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Winnemucca
+- proxy: http://38.226.243.161:8080
+  protocol: http
+  ip: 38.226.243.161
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://64.31.49.174:3129
+  protocol: http
+  ip: 64.31.49.174
+  port: 3129
   https: false
   anonymity: transparent
   score: 1
@@ -25898,49 +25868,239 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: http://154.19.38.195:1111
+- proxy: http://154.201.127.198:8080
   protocol: http
-  ip: 154.19.38.195
-  port: 1111
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Pasadena
-- proxy: http://47.89.184.18:3129
-  protocol: http
-  ip: 47.89.184.18
-  port: 3129
+  ip: 154.201.127.198
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: US
     city: Unknown
-- proxy: http://170.9.13.229:2020
+- proxy: http://209.61.77.188:999
   protocol: http
-  ip: 170.9.13.229
-  port: 2020
+  ip: 209.61.77.188
+  port: 999
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: US
     city: Unknown
-- proxy: http://185.147.157.135:3129
+- proxy: http://38.63.98.16:999
   protocol: http
-  ip: 185.147.157.135
-  port: 3129
+  ip: 38.63.98.16
+  port: 999
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: US
     city: Los Angeles
-- proxy: http://206.135.80.78:999
+- proxy: http://38.58.117.91:3125
   protocol: http
-  ip: 206.135.80.78
+  ip: 38.58.117.91
+  port: 3125
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://47.79.33.142:3129
+  protocol: http
+  ip: 47.79.33.142
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://38.226.243.191:8080
+  protocol: http
+  ip: 38.226.243.191
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://130.33.157.174:3129
+  protocol: http
+  ip: 130.33.157.174
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://154.12.231.32:80
+  protocol: http
+  ip: 154.12.231.32
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: St Louis
+- proxy: http://38.19.43.106:999
+  protocol: http
+  ip: 38.19.43.106
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://206.135.47.107:999
+  protocol: http
+  ip: 206.135.47.107
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://38.58.66.237:999
+  protocol: http
+  ip: 38.58.66.237
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://38.188.97.30:999
+  protocol: http
+  ip: 38.188.97.30
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://50.104.182.9:3129
+  protocol: http
+  ip: 50.104.182.9
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Fort Wayne
+- proxy: http://38.19.42.177:999
+  protocol: http
+  ip: 38.19.42.177
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://38.19.238.5:999
+  protocol: http
+  ip: 38.19.238.5
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://104.168.134.178:3129
+  protocol: http
+  ip: 104.168.134.178
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://130.110.103.245:3129
+  protocol: http
+  ip: 130.110.103.245
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://142.93.202.130:3129
+  protocol: http
+  ip: 142.93.202.130
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: North Bergen
+- proxy: http://134.199.160.93:8888
+  protocol: http
+  ip: 134.199.160.93
+  port: 8888
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://154.88.136.186:999
+  protocol: http
+  ip: 154.88.136.186
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://38.183.146.33:8080
+  protocol: http
+  ip: 38.183.146.33
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://164.92.105.30:1081
+  protocol: http
+  ip: 164.92.105.30
+  port: 1081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Santa Clara
+- proxy: http://47.85.161.37:3129
+  protocol: http
+  ip: 47.85.161.37
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: http://38.156.145.128:999
+  protocol: http
+  ip: 38.156.145.128
   port: 999
   https: false
   anonymity: transparent
@@ -25958,29 +26118,9 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: http://45.79.62.98:3129
+- proxy: http://38.194.253.115:999
   protocol: http
-  ip: 45.79.62.98
-  port: 3129
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Richardson
-- proxy: http://134.199.160.93:8888
-  protocol: http
-  ip: 134.199.160.93
-  port: 8888
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://38.199.250.2:999
-  protocol: http
-  ip: 38.199.250.2
+  ip: 38.194.253.115
   port: 999
   https: false
   anonymity: transparent
@@ -25988,19 +26128,19 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: http://16.5.163.105:10812
+- proxy: http://159.223.142.17:3129
   protocol: http
-  ip: 16.5.163.105
-  port: 10812
+  ip: 159.223.142.17
+  port: 3129
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: US
-    city: Unknown
-- proxy: http://38.210.201.144:999
+    city: North Bergen
+- proxy: http://209.61.12.217:999
   protocol: http
-  ip: 38.210.201.144
+  ip: 209.61.12.217
   port: 999
   https: false
   anonymity: transparent
@@ -26008,130 +26148,20 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: http://167.99.173.119:3129
+- proxy: http://146.190.60.147:8007
   protocol: http
-  ip: 167.99.173.119
-  port: 3129
+  ip: 146.190.60.147
+  port: 8007
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: US
     city: Santa Clara
-- proxy: http://38.226.243.161:8080
+- proxy: http://154.88.136.50:999
   protocol: http
-  ip: 38.226.243.161
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://20.98.45.49:3129
-  protocol: http
-  ip: 20.98.45.49
-  port: 3129
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Chicago
-- proxy: http://98.153.152.141:7070
-  protocol: http
-  ip: 98.153.152.141
-  port: 7070
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Waimea
-- proxy: http://167.172.250.185:999
-  protocol: http
-  ip: 167.172.250.185
+  ip: 154.88.136.50
   port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Clifton
-- proxy: http://38.191.217.254:999
-  protocol: http
-  ip: 38.191.217.254
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://38.188.99.66:999
-  protocol: http
-  ip: 38.188.99.66
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://38.76.251.244:999
-  protocol: http
-  ip: 38.76.251.244
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://47.79.33.142:3129
-  protocol: http
-  ip: 47.79.33.142
-  port: 3129
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://38.76.166.241:8443
-  protocol: http
-  ip: 38.76.166.241
-  port: 8443
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://45.130.127.14:3129
-  protocol: http
-  ip: 45.130.127.14
-  port: 3129
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Redmond
-- proxy: http://167.71.115.154:3129
-  protocol: http
-  ip: 167.71.115.154
-  port: 3129
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Santa Clara
-- proxy: http://47.88.14.212:3129
-  protocol: http
-  ip: 47.88.14.212
-  port: 3129
   https: false
   anonymity: transparent
   score: 1
@@ -26148,39 +26178,19 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: http://38.196.216.19:999
+- proxy: http://170.9.13.229:2020
   protocol: http
-  ip: 38.196.216.19
-  port: 999
+  ip: 170.9.13.229
+  port: 2020
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: US
     city: Unknown
-- proxy: http://154.88.136.182:999
+- proxy: http://38.190.120.65:999
   protocol: http
-  ip: 154.88.136.182
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://38.248.80.21:999
-  protocol: http
-  ip: 38.248.80.21
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: http://38.211.76.154:999
-  protocol: http
-  ip: 38.211.76.154
+  ip: 38.190.120.65
   port: 999
   https: false
   anonymity: transparent

@@ -1,13 +1,3 @@
-- proxy: socks5://103.176.187.228:9090
-  protocol: socks5
-  ip: 103.176.187.228
-  port: 9090
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Pune
 - proxy: socks5://103.124.172.134:1080
   protocol: socks5
   ip: 103.124.172.134
@@ -18,9 +8,49 @@
   geolocation:
     country: IN
     city: Unknown
+- proxy: socks5://34.131.151.65:1080
+  protocol: socks5
+  ip: 34.131.151.65
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: New Delhi
+- proxy: socks4://202.179.88.233:51951
+  protocol: socks4
+  ip: 202.179.88.233
+  port: 51951
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Unknown
+- proxy: socks4://115.187.50.40:5678
+  protocol: socks4
+  ip: 115.187.50.40
+  port: 5678
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Arāmbāgh
 - proxy: https://45.114.142.178:443
   protocol: https
   ip: 45.114.142.178
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Unknown
+- proxy: https://203.25.108.72:443
+  protocol: https
+  ip: 203.25.108.72
   port: 443
   https: true
   anonymity: transparent
@@ -118,6 +148,16 @@
   geolocation:
     country: IN
     city: Pune
+- proxy: https://163.223.186.141:443
+  protocol: https
+  ip: 163.223.186.141
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Unknown
 - proxy: https://4.213.225.50:443
   protocol: https
   ip: 4.213.225.50
@@ -208,6 +248,16 @@
   geolocation:
     country: IN
     city: Mumbai
+- proxy: https://13.232.233.63:443
+  protocol: https
+  ip: 13.232.233.63
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Mumbai
 - proxy: https://13.235.75.49:443
   protocol: https
   ip: 13.235.75.49
@@ -278,20 +328,10 @@
   geolocation:
     country: IN
     city: Mumbai
-- proxy: https://196.196.98.26:443
+- proxy: https://196.196.98.58:443
   protocol: https
-  ip: 196.196.98.26
+  ip: 196.196.98.58
   port: 443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: New Delhi
-- proxy: https://196.196.98.26:9443
-  protocol: https
-  ip: 196.196.98.26
-  port: 9443
   https: true
   anonymity: transparent
   score: 1
@@ -338,16 +378,26 @@
   geolocation:
     country: IN
     city: Mumbai
-- proxy: http://45.112.52.26:8080
+- proxy: https://18.61.230.250:33902
+  protocol: https
+  ip: 18.61.230.250
+  port: 33902
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Hyderabad
+- proxy: http://45.127.56.194:83
   protocol: http
-  ip: 45.112.52.26
-  port: 8080
+  ip: 45.127.56.194
+  port: 83
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IN
-    city: Unknown
+    city: Hyderabad
 - proxy: http://111.92.88.27:3128
   protocol: http
   ip: 111.92.88.27
@@ -368,69 +418,19 @@
   geolocation:
     country: IN
     city: Pune
-- proxy: http://202.62.75.38:83
+- proxy: http://103.158.242.62:83
   protocol: http
-  ip: 202.62.75.38
+  ip: 103.158.242.62
   port: 83
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IN
-    city: Pālakollu
-- proxy: http://14.143.130.210:1111
+    city: Unknown
+- proxy: http://103.48.68.18:83
   protocol: http
-  ip: 14.143.130.210
-  port: 1111
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Mumbai
-- proxy: http://103.71.22.8:3128
-  protocol: http
-  ip: 103.71.22.8
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Bilāspur
-- proxy: http://103.168.211.172:80
-  protocol: http
-  ip: 103.168.211.172
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Delhi
-- proxy: http://20.204.175.243:3128
-  protocol: http
-  ip: 20.204.175.243
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Pune
-- proxy: http://103.179.228.42:80
-  protocol: http
-  ip: 103.179.228.42
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Ahmedabad
-- proxy: http://103.143.168.177:83
-  protocol: http
-  ip: 103.143.168.177
+  ip: 103.48.68.18
   port: 83
   https: false
   anonymity: transparent
@@ -438,9 +438,19 @@
   geolocation:
     country: IN
     city: Hyderabad
-- proxy: http://45.119.113.81:83
+- proxy: http://103.163.244.217:83
   protocol: http
-  ip: 45.119.113.81
+  ip: 103.163.244.217
+  port: 83
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Panipat
+- proxy: http://103.48.68.171:83
+  protocol: http
+  ip: 103.48.68.171
   port: 83
   https: false
   anonymity: transparent
@@ -448,16 +458,6 @@
   geolocation:
     country: IN
     city: Hyderabad
-- proxy: http://103.51.21.138:82
-  protocol: http
-  ip: 103.51.21.138
-  port: 82
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Durg
 - proxy: http://4.213.167.178:80
   protocol: http
   ip: 4.213.167.178
@@ -508,59 +508,99 @@
   geolocation:
     country: IN
     city: Mumbai
-- proxy: socks4://111.90.169.178:5678
+- proxy: socks4://119.235.49.121:4153
   protocol: socks4
-  ip: 111.90.169.178
-  port: 5678
+  ip: 119.235.49.121
+  port: 4153
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IN
-    city: Unknown
-- proxy: socks5://139.59.1.14:1080
-  protocol: socks5
-  ip: 139.59.1.14
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Bengaluru
-- proxy: http://210.16.85.42:8080
+    city: Siddipet
+- proxy: http://103.178.176.9:8080
   protocol: http
-  ip: 210.16.85.42
+  ip: 103.178.176.9
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IN
-    city: Cuddalore
-- proxy: socks4://146.196.63.235:4145
+    city: Kolasib
+- proxy: socks4://139.59.52.90:8888
   protocol: socks4
-  ip: 146.196.63.235
-  port: 4145
+  ip: 139.59.52.90
+  port: 8888
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Bengaluru
+- proxy: http://45.118.35.169:8080
+  protocol: http
+  ip: 45.118.35.169
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IN
     city: Unknown
-- proxy: http://103.48.71.130:83
+- proxy: http://103.143.8.126:8089
   protocol: http
-  ip: 103.48.71.130
-  port: 83
+  ip: 103.143.8.126
+  port: 8089
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IN
-    city: Hyderabad
-- proxy: http://103.155.130.134:8082
+    city: Mumbai
+- proxy: http://111.125.242.34:1111
   protocol: http
-  ip: 103.155.130.134
+  ip: 111.125.242.34
+  port: 1111
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Mumbai
+- proxy: http://43.243.172.186:82
+  protocol: http
+  ip: 43.243.172.186
+  port: 82
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Pune
+- proxy: socks4://45.249.79.190:3629
+  protocol: socks4
+  ip: 45.249.79.190
+  port: 3629
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Guntur
+- proxy: http://139.84.135.33:80
+  protocol: http
+  ip: 139.84.135.33
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Bengaluru
+- proxy: http://103.174.161.6:8082
+  protocol: http
+  ip: 103.174.161.6
   port: 8082
   https: false
   anonymity: transparent
@@ -568,20 +608,70 @@
   geolocation:
     country: IN
     city: Unknown
-- proxy: http://103.48.68.219:83
+- proxy: http://20.204.175.243:3128
   protocol: http
-  ip: 103.48.68.219
-  port: 83
+  ip: 20.204.175.243
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Pune
+- proxy: http://103.48.70.200:84
+  protocol: http
+  ip: 103.48.70.200
+  port: 84
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IN
     city: Hyderabad
-- proxy: http://182.95.79.172:3128
+- proxy: http://103.84.203.57:8080
   protocol: http
-  ip: 182.95.79.172
+  ip: 103.84.203.57
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Charkhi Dadri
+- proxy: http://103.72.101.61:3128
+  protocol: http
+  ip: 103.72.101.61
   port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Hyderabad
+- proxy: http://103.172.255.26:84
+  protocol: http
+  ip: 103.172.255.26
+  port: 84
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Hyderabad
+- proxy: http://125.99.248.210:8080
+  protocol: http
+  ip: 125.99.248.210
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Bengaluru
+- proxy: http://103.49.166.145:82
+  protocol: http
+  ip: 103.49.166.145
+  port: 82
   https: false
   anonymity: transparent
   score: 1
@@ -598,16 +688,166 @@
   geolocation:
     country: IN
     city: Bengaluru
-- proxy: http://202.179.93.132:58080
+- proxy: http://20.40.43.171:3131
   protocol: http
-  ip: 202.179.93.132
-  port: 58080
+  ip: 20.40.43.171
+  port: 3131
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IN
-    city: Mumbai
+    city: Pune
+- proxy: http://210.16.85.42:8080
+  protocol: http
+  ip: 210.16.85.42
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Cuddalore
+- proxy: http://103.163.245.233:83
+  protocol: http
+  ip: 103.163.245.233
+  port: 83
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Panipat
+- proxy: http://103.250.151.22:1111
+  protocol: http
+  ip: 103.250.151.22
+  port: 1111
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Surat
+- proxy: http://103.125.154.1:8080
+  protocol: http
+  ip: 103.125.154.1
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Unknown
+- proxy: http://59.145.184.190:80
+  protocol: http
+  ip: 59.145.184.190
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Unknown
+- proxy: http://125.16.250.62:8080
+  protocol: http
+  ip: 125.16.250.62
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Bengaluru
+- proxy: http://103.171.55.34:82
+  protocol: http
+  ip: 103.171.55.34
+  port: 82
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Unknown
+- proxy: http://122.166.79.199:80
+  protocol: http
+  ip: 122.166.79.199
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Bengaluru
+- proxy: http://117.203.166.161:8080
+  protocol: http
+  ip: 117.203.166.161
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Jamshedpur
+- proxy: http://103.21.69.177:83
+  protocol: http
+  ip: 103.21.69.177
+  port: 83
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Murlinagar
+- proxy: http://103.83.87.150:3128
+  protocol: http
+  ip: 103.83.87.150
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Unknown
+- proxy: socks5://103.84.166.37:1080
+  protocol: socks5
+  ip: 103.84.166.37
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Unknown
+- proxy: http://103.41.97.225:83
+  protocol: http
+  ip: 103.41.97.225
+  port: 83
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Hyderabad
+- proxy: socks5://103.176.187.228:9090
+  protocol: socks5
+  ip: 103.176.187.228
+  port: 9090
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Pune
+- proxy: socks5://139.59.1.14:1080
+  protocol: socks5
+  ip: 139.59.1.14
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Bengaluru
 - proxy: socks5://150.129.115.253:6667
   protocol: socks5
   ip: 150.129.115.253
@@ -628,316 +868,6 @@
   geolocation:
     country: IN
     city: Unknown
-- proxy: socks4://103.137.148.253:1080
-  protocol: socks4
-  ip: 103.137.148.253
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Chennai
-- proxy: http://103.48.68.85:83
-  protocol: http
-  ip: 103.48.68.85
-  port: 83
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Hyderabad
-- proxy: socks4://202.179.76.105:51951
-  protocol: socks4
-  ip: 202.179.76.105
-  port: 51951
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Mumbai
-- proxy: http://103.41.32.185:58080
-  protocol: http
-  ip: 103.41.32.185
-  port: 58080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Mumbai
-- proxy: http://103.168.210.122:80
-  protocol: http
-  ip: 103.168.210.122
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Delhi
-- proxy: http://103.49.166.117:83
-  protocol: http
-  ip: 103.49.166.117
-  port: 83
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Unknown
-- proxy: http://103.48.68.126:84
-  protocol: http
-  ip: 103.48.68.126
-  port: 84
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Hyderabad
-- proxy: http://103.139.242.173:82
-  protocol: http
-  ip: 103.139.242.173
-  port: 82
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Pune
-- proxy: http://59.145.184.190:80
-  protocol: http
-  ip: 59.145.184.190
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Unknown
-- proxy: http://122.166.79.199:80
-  protocol: http
-  ip: 122.166.79.199
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Bengaluru
-- proxy: http://103.48.71.170:83
-  protocol: http
-  ip: 103.48.71.170
-  port: 83
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Hyderabad
-- proxy: http://143.244.141.103:3128
-  protocol: http
-  ip: 143.244.141.103
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Bengaluru
-- proxy: http://103.48.71.34:82
-  protocol: http
-  ip: 103.48.71.34
-  port: 82
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Hyderabad
-- proxy: http://103.174.161.6:8082
-  protocol: http
-  ip: 103.174.161.6
-  port: 8082
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Unknown
-- proxy: http://103.48.71.6:83
-  protocol: http
-  ip: 103.48.71.6
-  port: 83
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Hyderabad
-- proxy: http://64.227.174.131:9090
-  protocol: http
-  ip: 64.227.174.131
-  port: 9090
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Bengaluru
-- proxy: http://103.250.151.22:1111
-  protocol: http
-  ip: 103.250.151.22
-  port: 1111
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Surat
-- proxy: http://103.171.194.52:83
-  protocol: http
-  ip: 103.171.194.52
-  port: 83
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Byndoor
-- proxy: http://103.48.68.6:83
-  protocol: http
-  ip: 103.48.68.6
-  port: 83
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Hyderabad
-- proxy: http://103.161.30.29:82
-  protocol: http
-  ip: 103.161.30.29
-  port: 82
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Eluru
-- proxy: http://103.177.235.194:83
-  protocol: http
-  ip: 103.177.235.194
-  port: 83
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Bhatkal
-- proxy: http://103.143.8.126:8089
-  protocol: http
-  ip: 103.143.8.126
-  port: 8089
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Mumbai
-- proxy: http://103.172.255.26:84
-  protocol: http
-  ip: 103.172.255.26
-  port: 84
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Hyderabad
-- proxy: http://103.171.194.52:82
-  protocol: http
-  ip: 103.171.194.52
-  port: 82
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Byndoor
-- proxy: http://103.48.71.126:83
-  protocol: http
-  ip: 103.48.71.126
-  port: 83
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Hyderabad
-- proxy: http://103.72.101.61:3128
-  protocol: http
-  ip: 103.72.101.61
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Hyderabad
-- proxy: http://103.41.88.182:83
-  protocol: http
-  ip: 103.41.88.182
-  port: 83
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Hyderabad
-- proxy: http://103.125.154.1:8080
-  protocol: http
-  ip: 103.125.154.1
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Unknown
-- proxy: http://203.192.217.6:8080
-  protocol: http
-  ip: 203.192.217.6
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Delhi
-- proxy: http://103.146.170.193:83
-  protocol: http
-  ip: 103.146.170.193
-  port: 83
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Nalgonda
-- proxy: http://103.48.71.34:84
-  protocol: http
-  ip: 103.48.71.34
-  port: 84
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Hyderabad
 - proxy: socks5://103.215.216.13:9050
   protocol: socks5
   ip: 103.215.216.13
@@ -948,16 +878,6 @@
   geolocation:
     country: IN
     city: Navi Mumbai
-- proxy: socks5://103.84.166.37:1080
-  protocol: socks5
-  ip: 103.84.166.37
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Unknown
 - proxy: socks5://163.53.204.178:9813
   protocol: socks5
   ip: 163.53.204.178
@@ -1448,6 +1368,36 @@
   geolocation:
     country: IN
     city: Unknown
+- proxy: http://103.168.210.122:80
+  protocol: http
+  ip: 103.168.210.122
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Delhi
+- proxy: http://103.179.228.42:80
+  protocol: http
+  ip: 103.179.228.42
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Ahmedabad
+- proxy: http://103.48.71.170:83
+  protocol: http
+  ip: 103.48.71.170
+  port: 83
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Hyderabad
 - proxy: http://36.255.85.33:83
   protocol: http
   ip: 36.255.85.33
@@ -1458,16 +1408,16 @@
   geolocation:
     country: IN
     city: Bengaluru
-- proxy: http://103.41.97.225:83
+- proxy: http://182.95.79.172:3128
   protocol: http
-  ip: 103.41.97.225
-  port: 83
+  ip: 182.95.79.172
+  port: 3128
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IN
-    city: Hyderabad
+    city: Unknown
 - proxy: http://103.130.106.145:83
   protocol: http
   ip: 103.130.106.145
@@ -1478,16 +1428,26 @@
   geolocation:
     country: IN
     city: Kolkata
-- proxy: http://20.40.43.171:3131
+- proxy: http://103.171.194.52:83
   protocol: http
-  ip: 20.40.43.171
-  port: 3131
+  ip: 103.171.194.52
+  port: 83
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IN
-    city: Pune
+    city: Byndoor
+- proxy: http://64.227.174.131:9090
+  protocol: http
+  ip: 64.227.174.131
+  port: 9090
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Bengaluru
 - proxy: http://103.163.244.206:83
   protocol: http
   ip: 103.163.244.206
@@ -1548,16 +1508,16 @@
   geolocation:
     country: IN
     city: Penumantra
-- proxy: http://45.118.35.169:8080
+- proxy: http://103.48.71.130:83
   protocol: http
-  ip: 45.118.35.169
-  port: 8080
+  ip: 103.48.71.130
+  port: 83
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IN
-    city: Unknown
+    city: Hyderabad
 - proxy: http://182.78.36.218:83
   protocol: http
   ip: 182.78.36.218
@@ -1622,6 +1582,16 @@
   protocol: http
   ip: 103.66.12.225
   port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Unknown
+- proxy: http://103.155.130.134:8082
+  protocol: http
+  ip: 103.155.130.134
+  port: 8082
   https: false
   anonymity: transparent
   score: 1
@@ -1711,16 +1681,6 @@
 - proxy: http://103.48.69.54:83
   protocol: http
   ip: 103.48.69.54
-  port: 83
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Hyderabad
-- proxy: http://45.127.56.194:83
-  protocol: http
-  ip: 45.127.56.194
   port: 83
   https: false
   anonymity: transparent
@@ -1848,6 +1808,16 @@
   geolocation:
     country: IN
     city: Hyderabad
+- proxy: http://202.179.93.132:58080
+  protocol: http
+  ip: 202.179.93.132
+  port: 58080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Mumbai
 - proxy: http://103.23.236.162:8080
   protocol: http
   ip: 103.23.236.162
@@ -1888,16 +1858,6 @@
   geolocation:
     country: IN
     city: Chennai
-- proxy: http://125.16.250.62:8080
-  protocol: http
-  ip: 125.16.250.62
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Bengaluru
 - proxy: http://103.26.10.23:2080
   protocol: http
   ip: 103.26.10.23
@@ -2158,6 +2118,16 @@
   geolocation:
     country: IN
     city: Unknown
+- proxy: http://103.171.194.52:82
+  protocol: http
+  ip: 103.171.194.52
+  port: 82
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Byndoor
 - proxy: http://103.151.17.209:8080
   protocol: http
   ip: 103.151.17.209
@@ -2178,6 +2148,16 @@
   geolocation:
     country: IN
     city: Guntur
+- proxy: http://203.192.217.6:8080
+  protocol: http
+  ip: 203.192.217.6
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Delhi
 - proxy: http://103.41.32.250:51951
   protocol: http
   ip: 103.41.32.250
@@ -2458,6 +2438,16 @@
   geolocation:
     country: IN
     city: Unknown
+- proxy: http://103.41.88.182:83
+  protocol: http
+  ip: 103.41.88.182
+  port: 83
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Hyderabad
 - proxy: http://122.175.58.131:80
   protocol: http
   ip: 122.175.58.131
@@ -2578,6 +2568,26 @@
   geolocation:
     country: IN
     city: Indore
+- proxy: http://45.119.113.81:83
+  protocol: http
+  ip: 45.119.113.81
+  port: 83
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Hyderabad
+- proxy: http://45.112.52.26:8080
+  protocol: http
+  ip: 45.112.52.26
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Unknown
 - proxy: http://20.198.96.26:80
   protocol: http
   ip: 20.198.96.26
@@ -2588,6 +2598,16 @@
   geolocation:
     country: IN
     city: Pune
+- proxy: http://103.41.32.185:58080
+  protocol: http
+  ip: 103.41.32.185
+  port: 58080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Mumbai
 - proxy: http://103.102.85.1:8080
   protocol: http
   ip: 103.102.85.1
@@ -2738,56 +2758,26 @@
   geolocation:
     country: IN
     city: Unknown
-- proxy: http://103.125.160.178:83
+- proxy: http://103.48.68.6:82
   protocol: http
-  ip: 103.125.160.178
-  port: 83
+  ip: 103.48.68.6
+  port: 82
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IN
     city: Hyderabad
-- proxy: http://206.189.130.35:3129
+- proxy: http://103.209.88.72:8080
   protocol: http
-  ip: 206.189.130.35
-  port: 3129
+  ip: 103.209.88.72
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IN
-    city: Bengaluru
-- proxy: http://103.148.39.10:83
-  protocol: http
-  ip: 103.148.39.10
-  port: 83
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Bengaluru
-- proxy: http://103.48.68.218:83
-  protocol: http
-  ip: 103.48.68.218
-  port: 83
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Hyderabad
-- proxy: http://4.240.96.243:3129
-  protocol: http
-  ip: 4.240.96.243
-  port: 3129
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Pune
+    city: Guntur
 - proxy: http://103.48.69.170:83
   protocol: http
   ip: 103.48.69.170
@@ -2798,89 +2788,89 @@
   geolocation:
     country: IN
     city: Hyderabad
-- proxy: http://103.130.106.73:83
+- proxy: http://14.143.130.210:1111
   protocol: http
-  ip: 103.130.106.73
-  port: 83
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Kolkata
-- proxy: http://103.48.71.2:83
-  protocol: http
-  ip: 103.48.71.2
-  port: 83
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Hyderabad
-- proxy: http://43.251.215.2:8080
-  protocol: http
-  ip: 43.251.215.2
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Unknown
-- proxy: http://114.69.225.6:83
-  protocol: http
-  ip: 114.69.225.6
-  port: 83
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Morādābād
-- proxy: http://111.125.242.34:80
-  protocol: http
-  ip: 111.125.242.34
-  port: 80
+  ip: 14.143.130.210
+  port: 1111
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IN
     city: Mumbai
-- proxy: http://103.74.146.1:82
+- proxy: http://103.112.212.249:83
   protocol: http
-  ip: 103.74.146.1
+  ip: 103.112.212.249
+  port: 83
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Ilkal
+- proxy: http://103.130.70.217:82
+  protocol: http
+  ip: 103.130.70.217
   port: 82
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IN
-    city: New Delhi
-- proxy: http://103.51.21.138:83
+    city: Siliguri
+- proxy: http://103.209.88.74:8080
   protocol: http
-  ip: 103.51.21.138
+  ip: 103.209.88.74
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Guntur
+- proxy: http://103.49.166.177:84
+  protocol: http
+  ip: 103.49.166.177
+  port: 84
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Unknown
+- proxy: http://103.139.232.73:83
+  protocol: http
+  ip: 103.139.232.73
   port: 83
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IN
-    city: Durg
-- proxy: http://103.48.70.161:83
+    city: Bānka
+- proxy: http://103.130.70.217:83
   protocol: http
-  ip: 103.48.70.161
+  ip: 103.130.70.217
   port: 83
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IN
-    city: Hyderabad
-- proxy: http://103.60.139.1:8080
+    city: Siliguri
+- proxy: http://103.163.245.64:83
   protocol: http
-  ip: 103.60.139.1
+  ip: 103.163.245.64
+  port: 83
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Panipat
+- proxy: http://117.240.151.205:8080
+  protocol: http
+  ip: 117.240.151.205
   port: 8080
   https: false
   anonymity: transparent
@@ -2888,13 +2878,113 @@
   geolocation:
     country: IN
     city: Unknown
-- proxy: http://103.130.106.153:83
+- proxy: http://103.48.70.200:83
   protocol: http
-  ip: 103.130.106.153
+  ip: 103.48.70.200
   port: 83
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IN
-    city: Kolkata
+    city: Hyderabad
+- proxy: http://103.48.69.70:83
+  protocol: http
+  ip: 103.48.69.70
+  port: 83
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Hyderabad
+- proxy: http://103.255.222.253:83
+  protocol: http
+  ip: 103.255.222.253
+  port: 83
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Unknown
+- proxy: http://103.72.101.61:3129
+  protocol: http
+  ip: 103.72.101.61
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Hyderabad
+- proxy: http://183.87.160.62:83
+  protocol: http
+  ip: 183.87.160.62
+  port: 83
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Mumbai
+- proxy: http://103.21.68.225:83
+  protocol: http
+  ip: 103.21.68.225
+  port: 83
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Murlinagar
+- proxy: http://103.48.71.6:83
+  protocol: http
+  ip: 103.48.71.6
+  port: 83
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Hyderabad
+- proxy: http://182.78.36.218:84
+  protocol: http
+  ip: 182.78.36.218
+  port: 84
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Unknown
+- proxy: http://182.95.79.172:3129
+  protocol: http
+  ip: 182.95.79.172
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Unknown
+- proxy: http://103.122.60.245:8080
+  protocol: http
+  ip: 103.122.60.245
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Gajuwaka
+- proxy: http://125.16.33.58:80
+  protocol: http
+  ip: 125.16.33.58
+  port: 80
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Patna

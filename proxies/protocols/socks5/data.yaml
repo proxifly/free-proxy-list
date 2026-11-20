@@ -38,6 +38,16 @@
   geolocation:
     country: US
     city: Unknown
+- proxy: socks5://98.178.72.21:10919
+  protocol: socks5
+  ip: 98.178.72.21
+  port: 10919
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
 - proxy: socks5://184.178.172.18:15280
   protocol: socks5
   ip: 184.178.172.18
@@ -68,36 +78,26 @@
   geolocation:
     country: US
     city: Roanoke
-- proxy: socks5://198.8.94.174:39078
+- proxy: socks5://70.166.167.38:57728
   protocol: socks5
-  ip: 198.8.94.174
-  port: 39078
+  ip: 70.166.167.38
+  port: 57728
   https: false
   anonymity: transparent
   score: 1
   geolocation:
-    country: CA
-    city: Toronto
-- proxy: socks5://103.76.149.140:1080
+    country: US
+    city: Mesa
+- proxy: socks5://70.166.65.160:4145
   protocol: socks5
-  ip: 103.76.149.140
-  port: 1080
+  ip: 70.166.65.160
+  port: 4145
   https: false
   anonymity: transparent
   score: 1
   geolocation:
-    country: ID
-    city: Batu
-- proxy: socks5://5.255.117.127:1080
-  protocol: socks5
-  ip: 5.255.117.127
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: NL
-    city: Unknown
+    country: US
+    city: Lafayette
 - proxy: socks5://193.25.215.182:22222
   protocol: socks5
   ip: 193.25.215.182
@@ -118,26 +118,6 @@
   geolocation:
     country: US
     city: Ashburn
-- proxy: socks5://38.49.210.79:40000
-  protocol: socks5
-  ip: 38.49.210.79
-  port: 40000
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PH
-    city: Manila
-- proxy: socks5://202.74.203.17:1080
-  protocol: socks5
-  ip: 202.74.203.17
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: NZ
-    city: Auckland
 - proxy: socks5://15.204.235.27:1080
   protocol: socks5
   ip: 15.204.235.27
@@ -158,16 +138,16 @@
   geolocation:
     country: JP
     city: Tokyo
-- proxy: socks5://192.252.215.2:4145
+- proxy: socks5://45.179.145.12:6080
   protocol: socks5
-  ip: 192.252.215.2
-  port: 4145
+  ip: 45.179.145.12
+  port: 6080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
-    country: US
-    city: Portland
+    country: BR
+    city: Brasília
 - proxy: socks5://47.245.165.201:1080
   protocol: socks5
   ip: 47.245.165.201
@@ -178,96 +158,26 @@
   geolocation:
     country: DE
     city: Frankfurt am Main
-- proxy: socks5://141.148.65.110:1081
+- proxy: socks5://103.239.201.50:58765
   protocol: socks5
-  ip: 141.148.65.110
-  port: 1081
+  ip: 103.239.201.50
+  port: 58765
   https: false
   anonymity: transparent
   score: 1
   geolocation:
-    country: US
-    city: Ashburn
-- proxy: socks5://165.154.20.187:10808
-  protocol: socks5
-  ip: 165.154.20.187
-  port: 10808
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: HK
-    city: Hong Kong
-- proxy: socks5://203.189.155.68:1080
-  protocol: socks5
-  ip: 203.189.155.68
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KH
+    country: PH
     city: Unknown
-- proxy: socks5://65.21.252.66:10811
+- proxy: socks5://217.12.209.4:1080
   protocol: socks5
-  ip: 65.21.252.66
-  port: 10811
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: FI
-    city: Helsinki
-- proxy: socks5://5.255.99.75:1080
-  protocol: socks5
-  ip: 5.255.99.75
+  ip: 217.12.209.4
   port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: NL
-    city: Unknown
-- proxy: socks5://5.255.103.55:1080
-  protocol: socks5
-  ip: 5.255.103.55
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: NL
-    city: Unknown
-- proxy: socks5://5.255.117.250:1080
-  protocol: socks5
-  ip: 5.255.117.250
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: NL
-    city: Unknown
-- proxy: socks5://5.255.113.177:1080
-  protocol: socks5
-  ip: 5.255.113.177
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: NL
-    city: Unknown
-- proxy: socks5://103.176.187.228:9090
-  protocol: socks5
-  ip: 103.176.187.228
-  port: 9090
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Pune
+    city: Meppel
 - proxy: socks5://45.194.33.12:30002
   protocol: socks5
   ip: 45.194.33.12
@@ -278,16 +188,6 @@
   geolocation:
     country: US
     city: Ashburn
-- proxy: socks5://49.13.22.249:10808
-  protocol: socks5
-  ip: 49.13.22.249
-  port: 10808
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DE
-    city: Unknown
 - proxy: socks5://45.61.188.134:44499
   protocol: socks5
   ip: 45.61.188.134
@@ -298,126 +198,26 @@
   geolocation:
     country: US
     city: Miami
-- proxy: socks5://5.75.133.113:10811
+- proxy: socks5://49.13.22.249:10806
   protocol: socks5
-  ip: 5.75.133.113
-  port: 10811
+  ip: 49.13.22.249
+  port: 10806
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: DE
     city: Unknown
-- proxy: socks5://113.249.111.67:1080
-  protocol: socks5
-  ip: 113.249.111.67
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CN
-    city: Unknown
-- proxy: socks5://119.148.20.109:22122
-  protocol: socks5
-  ip: 119.148.20.109
-  port: 22122
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BD
-    city: Unknown
-- proxy: socks5://8.219.94.23:7890
-  protocol: socks5
-  ip: 8.219.94.23
-  port: 7890
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SG
-    city: Unknown
-- proxy: socks5://158.101.8.92:1080
-  protocol: socks5
-  ip: 158.101.8.92
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Phoenix
-- proxy: socks5://101.36.112.205:1081
-  protocol: socks5
-  ip: 101.36.112.205
-  port: 1081
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: HK
-    city: Hong Kong
-- proxy: socks5://5.75.133.113:10803
-  protocol: socks5
-  ip: 5.75.133.113
-  port: 10803
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DE
-    city: Unknown
-- proxy: socks5://5.75.133.113:10813
-  protocol: socks5
-  ip: 5.75.133.113
-  port: 10813
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DE
-    city: Unknown
-- proxy: socks5://65.21.252.66:10813
+- proxy: socks5://65.21.252.66:10814
   protocol: socks5
   ip: 65.21.252.66
-  port: 10813
+  port: 10814
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: FI
     city: Helsinki
-- proxy: socks5://45.74.31.41:10959
-  protocol: socks5
-  ip: 45.74.31.41
-  port: 10959
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: LU
-    city: Luxembourg
-- proxy: socks5://45.74.31.40:4181
-  protocol: socks5
-  ip: 45.74.31.40
-  port: 4181
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: LU
-    city: Luxembourg
-- proxy: socks5://68.233.127.229:1080
-  protocol: socks5
-  ip: 68.233.127.229
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Montreal
 - proxy: socks5://49.13.22.249:10805
   protocol: socks5
   ip: 49.13.22.249
@@ -428,26 +228,6 @@
   geolocation:
     country: DE
     city: Unknown
-- proxy: socks5://118.179.93.24:9090
-  protocol: socks5
-  ip: 118.179.93.24
-  port: 9090
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BD
-    city: Panchagarh
-- proxy: socks5://103.36.11.18:8199
-  protocol: socks5
-  ip: 103.36.11.18
-  port: 8199
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Pandeglang
 - proxy: socks5://209.50.255.91:1080
   protocol: socks5
   ip: 209.50.255.91
@@ -468,136 +248,36 @@
   geolocation:
     country: SE
     city: Vaxjo
-- proxy: socks5://49.13.22.249:10807
-  protocol: socks5
-  ip: 49.13.22.249
-  port: 10807
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DE
-    city: Unknown
-- proxy: socks5://103.138.145.150:1999
-  protocol: socks5
-  ip: 103.138.145.150
-  port: 1999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BD
-    city: Kishorganj
-- proxy: socks5://45.74.31.42:4190
-  protocol: socks5
-  ip: 45.74.31.42
-  port: 4190
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: LU
-    city: Luxembourg
-- proxy: socks5://45.74.31.41:4319
-  protocol: socks5
-  ip: 45.74.31.41
-  port: 4319
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: LU
-    city: Luxembourg
-- proxy: socks5://45.74.31.47:5137
+- proxy: socks5://45.74.31.47:4020
   protocol: socks5
   ip: 45.74.31.47
-  port: 5137
+  port: 4020
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: LU
     city: Luxembourg
-- proxy: socks5://45.74.31.47:4015
+- proxy: socks5://45.74.31.47:4120
   protocol: socks5
   ip: 45.74.31.47
-  port: 4015
+  port: 4120
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: LU
     city: Luxembourg
-- proxy: socks5://45.74.31.47:4010
+- proxy: socks5://45.74.31.47:6995
   protocol: socks5
   ip: 45.74.31.47
-  port: 4010
+  port: 6995
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: LU
     city: Luxembourg
-- proxy: socks5://182.184.30.96:1080
-  protocol: socks5
-  ip: 182.184.30.96
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PK
-    city: Unknown
-- proxy: socks5://45.74.31.41:4986
-  protocol: socks5
-  ip: 45.74.31.41
-  port: 4986
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: LU
-    city: Luxembourg
-- proxy: socks5://95.3.92.2:1080
-  protocol: socks5
-  ip: 95.3.92.2
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Unknown
-- proxy: socks5://2.28.105.45:8888
-  protocol: socks5
-  ip: 2.28.105.45
-  port: 8888
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GB
-    city: Glasgow
-- proxy: socks5://118.179.136.122:9090
-  protocol: socks5
-  ip: 118.179.136.122
-  port: 9090
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BD
-    city: Dhaka
-- proxy: socks5://118.179.155.202:9090
-  protocol: socks5
-  ip: 118.179.155.202
-  port: 9090
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BD
-    city: Dhaka
 - proxy: socks5://107.174.30.92:1080
   protocol: socks5
   ip: 107.174.30.92
@@ -608,146 +288,46 @@
   geolocation:
     country: US
     city: Dallas
-- proxy: socks5://45.74.31.46:4069
+- proxy: socks5://45.74.31.41:4053
   protocol: socks5
-  ip: 45.74.31.46
-  port: 4069
+  ip: 45.74.31.41
+  port: 4053
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: LU
     city: Luxembourg
-- proxy: socks5://119.73.109.210:1080
+- proxy: socks5://183.106.215.208:1080
   protocol: socks5
-  ip: 119.73.109.210
+  ip: 183.106.215.208
   port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
-    country: PK
-    city: Unknown
-- proxy: socks5://45.74.31.46:4640
+    country: KR
+    city: Pohang
+- proxy: socks5://45.74.31.46:10316
   protocol: socks5
   ip: 45.74.31.46
-  port: 4640
+  port: 10316
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: LU
     city: Luxembourg
-- proxy: socks5://194.44.255.112:8090
-  protocol: socks5
-  ip: 194.44.255.112
-  port: 8090
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: UA
-    city: Lviv
-- proxy: socks5://8.219.122.8:9999
-  protocol: socks5
-  ip: 8.219.122.8
-  port: 9999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SG
-    city: Unknown
-- proxy: socks5://45.74.31.42:4212
-  protocol: socks5
-  ip: 45.74.31.42
-  port: 4212
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: LU
-    city: Luxembourg
-- proxy: socks5://163.47.37.190:1080
-  protocol: socks5
-  ip: 163.47.37.190
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BD
-    city: Kushtia
-- proxy: socks5://45.74.31.42:4203
-  protocol: socks5
-  ip: 45.74.31.42
-  port: 4203
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: LU
-    city: Luxembourg
-- proxy: socks5://195.13.182.211:8080
-  protocol: socks5
-  ip: 195.13.182.211
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: LV
-    city: Riga
-- proxy: socks5://45.74.31.40:4447
-  protocol: socks5
-  ip: 45.74.31.40
-  port: 4447
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: LU
-    city: Luxembourg
-- proxy: socks5://45.74.31.46:4681
+- proxy: socks5://45.74.31.46:4120
   protocol: socks5
   ip: 45.74.31.46
-  port: 4681
+  port: 4120
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: LU
     city: Luxembourg
-- proxy: socks5://45.74.31.40:8836
-  protocol: socks5
-  ip: 45.74.31.40
-  port: 8836
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: LU
-    city: Luxembourg
-- proxy: socks5://202.4.101.249:9090
-  protocol: socks5
-  ip: 202.4.101.249
-  port: 9090
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BD
-    city: Unknown
-- proxy: socks5://170.233.72.43:1080
-  protocol: socks5
-  ip: 170.233.72.43
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GP
-    city: Sainte-Anne
 - proxy: socks5://69.55.49.177:38182
   protocol: socks5
   ip: 69.55.49.177
@@ -758,26 +338,16 @@
   geolocation:
     country: US
     city: North Bergen
-- proxy: socks5://116.172.234.154:1181
+- proxy: socks5://45.74.31.41:9384
   protocol: socks5
-  ip: 116.172.234.154
-  port: 1181
+  ip: 45.74.31.41
+  port: 9384
   https: false
   anonymity: transparent
   score: 1
   geolocation:
-    country: CN
-    city: Unknown
-- proxy: socks5://110.93.199.114:1080
-  protocol: socks5
-  ip: 110.93.199.114
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PK
-    city: Unknown
+    country: LU
+    city: Luxembourg
 - proxy: socks5://193.218.118.128:1080
   protocol: socks5
   ip: 193.218.118.128
@@ -788,16 +358,6 @@
   geolocation:
     country: UA
     city: Kyiv
-- proxy: socks5://67.204.153.223:1080
-  protocol: socks5
-  ip: 67.204.153.223
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Bend
 - proxy: socks5://82.180.146.251:10800
   protocol: socks5
   ip: 82.180.146.251
@@ -808,76 +368,46 @@
   geolocation:
     country: BE
     city: Brussels
-- proxy: socks5://66.170.46.17:1080
+- proxy: socks5://188.226.27.24:1080
   protocol: socks5
-  ip: 66.170.46.17
+  ip: 188.226.27.24
   port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
-    country: US
-    city: Syracuse
-- proxy: socks5://176.62.229.17:1080
+    country: RU
+    city: Yekaterinburg
+- proxy: socks5://45.74.31.40:4168
   protocol: socks5
-  ip: 176.62.229.17
-  port: 1080
+  ip: 45.74.31.40
+  port: 4168
   https: false
   anonymity: transparent
   score: 1
   geolocation:
-    country: CZ
-    city: Trutnov
-- proxy: socks5://45.169.106.140:1086
+    country: LU
+    city: Luxembourg
+- proxy: socks5://47.254.213.60:1081
   protocol: socks5
-  ip: 45.169.106.140
-  port: 1086
+  ip: 47.254.213.60
+  port: 1081
   https: false
   anonymity: transparent
   score: 1
   geolocation:
-    country: AR
-    city: Córdoba
-- proxy: socks5://109.105.218.62:1080
+    country: MY
+    city: Kuala Lumpur
+- proxy: socks5://45.74.31.42:37285
   protocol: socks5
-  ip: 109.105.218.62
-  port: 1080
+  ip: 45.74.31.42
+  port: 37285
   https: false
   anonymity: transparent
   score: 1
   geolocation:
-    country: US
-    city: Unknown
-- proxy: socks5://203.189.153.170:1080
-  protocol: socks5
-  ip: 203.189.153.170
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KH
-    city: Unknown
-- proxy: socks5://46.36.220.243:1080
-  protocol: socks5
-  ip: 46.36.220.243
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: EE
-    city: Jõhvi
-- proxy: socks5://192.210.197.13:1080
-  protocol: socks5
-  ip: 192.210.197.13
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Buffalo
+    country: LU
+    city: Luxembourg
 - proxy: socks5://107.174.30.94:1080
   protocol: socks5
   ip: 107.174.30.94
@@ -888,6 +418,16 @@
   geolocation:
     country: US
     city: Dallas
+- proxy: socks5://47.251.166.203:1080
+  protocol: socks5
+  ip: 47.251.166.203
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
 - proxy: socks5://103.119.1.160:5555
   protocol: socks5
   ip: 103.119.1.160
@@ -898,66 +438,26 @@
   geolocation:
     country: CN
     city: Unknown
-- proxy: socks5://177.69.198.219:1080
+- proxy: socks5://38.10.71.91:1080
   protocol: socks5
-  ip: 177.69.198.219
+  ip: 38.10.71.91
   port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
-    country: BR
-    city: Recife
-- proxy: socks5://8.218.197.6:8099
+    country: TR
+    city: Selcuklu
+- proxy: socks5://45.74.31.46:7963
   protocol: socks5
-  ip: 8.218.197.6
-  port: 8099
+  ip: 45.74.31.46
+  port: 7963
   https: false
   anonymity: transparent
   score: 1
   geolocation:
-    country: HK
-    city: Hong Kong
-- proxy: socks5://88.198.69.51:1083
-  protocol: socks5
-  ip: 88.198.69.51
-  port: 1083
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DE
-    city: Unknown
-- proxy: socks5://88.198.69.51:1088
-  protocol: socks5
-  ip: 88.198.69.51
-  port: 1088
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DE
-    city: Unknown
-- proxy: socks5://88.198.69.51:1084
-  protocol: socks5
-  ip: 88.198.69.51
-  port: 1084
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DE
-    city: Unknown
-- proxy: socks5://116.110.241.234:1080
-  protocol: socks5
-  ip: 116.110.241.234
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Da Nang
+    country: LU
+    city: Luxembourg
 - proxy: socks5://46.246.12.31:1080
   protocol: socks5
   ip: 46.246.12.31
@@ -968,19 +468,19 @@
   geolocation:
     country: SE
     city: Stockholm
-- proxy: socks5://46.174.120.163:8090
+- proxy: socks5://45.74.31.40:23075
   protocol: socks5
-  ip: 46.174.120.163
-  port: 8090
+  ip: 45.74.31.40
+  port: 23075
   https: false
   anonymity: transparent
   score: 1
   geolocation:
-    country: UA
-    city: Lviv
-- proxy: socks5://58.234.114.199:1080
+    country: LU
+    city: Luxembourg
+- proxy: socks5://43.155.128.61:1080
   protocol: socks5
-  ip: 58.234.114.199
+  ip: 43.155.128.61
   port: 1080
   https: false
   anonymity: transparent
@@ -988,26 +488,36 @@
   geolocation:
     country: KR
     city: Seoul
-- proxy: socks5://145.249.249.10:1080
+- proxy: socks5://45.74.31.41:5154
   protocol: socks5
-  ip: 145.249.249.10
-  port: 1080
+  ip: 45.74.31.41
+  port: 5154
   https: false
   anonymity: transparent
   score: 1
   geolocation:
-    country: KZ
-    city: Rudnyy
-- proxy: socks5://185.221.196.47:1080
+    country: LU
+    city: Luxembourg
+- proxy: socks5://45.74.31.42:23440
   protocol: socks5
-  ip: 185.221.196.47
-  port: 1080
+  ip: 45.74.31.42
+  port: 23440
   https: false
   anonymity: transparent
   score: 1
   geolocation:
-    country: RU
-    city: Moscow
+    country: LU
+    city: Luxembourg
+- proxy: socks5://45.74.31.42:22894
+  protocol: socks5
+  ip: 45.74.31.42
+  port: 22894
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: LU
+    city: Luxembourg
 - proxy: socks5://92.5.68.29:1080
   protocol: socks5
   ip: 92.5.68.29
@@ -1028,6 +538,16 @@
   geolocation:
     country: US
     city: Unknown
+- proxy: socks5://27.112.79.97:1080
+  protocol: socks5
+  ip: 27.112.79.97
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Sukabumi
 - proxy: socks5://8.218.48.35:8099
   protocol: socks5
   ip: 8.218.48.35
@@ -1068,36 +588,36 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: socks5://45.198.20.252:1080
+- proxy: socks5://65.109.10.251:1080
   protocol: socks5
-  ip: 45.198.20.252
+  ip: 65.109.10.251
   port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
-    country: ID
-    city: Jakarta
-- proxy: socks5://27.102.70.198:5555
+    country: FI
+    city: Helsinki
+- proxy: socks5://34.131.151.65:1080
   protocol: socks5
-  ip: 27.102.70.198
-  port: 5555
+  ip: 34.131.151.65
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: New Delhi
+- proxy: socks5://116.38.109.180:1979
+  protocol: socks5
+  ip: 116.38.109.180
+  port: 1979
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: KR
     city: Unknown
-- proxy: socks5://188.132.249.166:1080
-  protocol: socks5
-  ip: 188.132.249.166
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Izmir
 - proxy: socks5://107.219.228.250:7777
   protocol: socks5
   ip: 107.219.228.250
@@ -1178,6 +698,16 @@
   geolocation:
     country: DE
     city: Düsseldorf
+- proxy: socks5://5.255.117.127:1080
+  protocol: socks5
+  ip: 5.255.117.127
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: NL
+    city: Unknown
 - proxy: socks5://124.248.191.117:1080
   protocol: socks5
   ip: 124.248.191.117
@@ -1248,6 +778,26 @@
   geolocation:
     country: KR
     city: Bucheon-si
+- proxy: socks5://5.255.117.250:1080
+  protocol: socks5
+  ip: 5.255.117.250
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: NL
+    city: Unknown
+- proxy: socks5://5.255.113.177:1080
+  protocol: socks5
+  ip: 5.255.113.177
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: NL
+    city: Unknown
 - proxy: socks5://194.163.182.6:1080
   protocol: socks5
   ip: 194.163.182.6
@@ -1268,6 +818,2926 @@
   geolocation:
     country: CN
     city: Chengdu
+- proxy: socks5://167.99.3.26:5701
+  protocol: socks5
+  ip: 167.99.3.26
+  port: 5701
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: North Bergen
+- proxy: socks5://88.198.69.51:1080
+  protocol: socks5
+  ip: 88.198.69.51
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Unknown
+- proxy: socks5://216.9.225.61:1080
+  protocol: socks5
+  ip: 216.9.225.61
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Istanbul
+- proxy: socks5://203.76.123.6:1080
+  protocol: socks5
+  ip: 203.76.123.6
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BD
+    city: Dhaka
+- proxy: socks5://57.128.249.250:9052
+  protocol: socks5
+  ip: 57.128.249.250
+  port: 9052
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: FR
+    city: Unknown
+- proxy: socks5://110.93.218.62:1080
+  protocol: socks5
+  ip: 110.93.218.62
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PK
+    city: Unknown
+- proxy: socks5://90.150.21.88:1080
+  protocol: socks5
+  ip: 90.150.21.88
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Salekhard
+- proxy: socks5://1.55.102.13:1080
+  protocol: socks5
+  ip: 1.55.102.13
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Ho Chi Minh City
+- proxy: socks5://192.252.214.20:15864
+  protocol: socks5
+  ip: 192.252.214.20
+  port: 15864
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Portland
+- proxy: socks5://116.202.32.250:1087
+  protocol: socks5
+  ip: 116.202.32.250
+  port: 1087
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Unknown
+- proxy: socks5://45.74.31.40:8806
+  protocol: socks5
+  ip: 45.74.31.40
+  port: 8806
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: LU
+    city: Luxembourg
+- proxy: socks5://199.116.114.11:4145
+  protocol: socks5
+  ip: 199.116.114.11
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Newark
+- proxy: socks5://38.49.210.79:40000
+  protocol: socks5
+  ip: 38.49.210.79
+  port: 40000
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PH
+    city: Manila
+- proxy: socks5://8.218.197.6:8099
+  protocol: socks5
+  ip: 8.218.197.6
+  port: 8099
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: HK
+    city: Hong Kong
+- proxy: socks5://8.219.122.8:9999
+  protocol: socks5
+  ip: 8.219.122.8
+  port: 9999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SG
+    city: Unknown
+- proxy: socks5://103.206.68.241:1080
+  protocol: socks5
+  ip: 103.206.68.241
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: MN
+    city: Unknown
+- proxy: socks5://185.9.73.44:1080
+  protocol: socks5
+  ip: 185.9.73.44
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Serpukhov
+- proxy: socks5://212.220.113.31:1080
+  protocol: socks5
+  ip: 212.220.113.31
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Yekaterinburg
+- proxy: socks5://104.200.152.30:4145
+  protocol: socks5
+  ip: 104.200.152.30
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Los Angeles
+- proxy: socks5://103.178.121.234:1080
+  protocol: socks5
+  ip: 103.178.121.234
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PK
+    city: Jhang
+- proxy: socks5://72.195.114.184:4145
+  protocol: socks5
+  ip: 72.195.114.184
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://129.222.104.186:1080
+  protocol: socks5
+  ip: 129.222.104.186
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Winnipeg
+- proxy: socks5://192.252.215.5:16137
+  protocol: socks5
+  ip: 192.252.215.5
+  port: 16137
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Portland
+- proxy: socks5://221.176.85.236:1080
+  protocol: socks5
+  ip: 221.176.85.236
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CN
+    city: Unknown
+- proxy: socks5://58.187.192.47:1080
+  protocol: socks5
+  ip: 58.187.192.47
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Hanoi
+- proxy: socks5://184.182.240.12:4145
+  protocol: socks5
+  ip: 184.182.240.12
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Phoenix
+- proxy: socks5://8.211.200.183:10002
+  protocol: socks5
+  ip: 8.211.200.183
+  port: 10002
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GB
+    city: London
+- proxy: socks5://67.201.35.145:4145
+  protocol: socks5
+  ip: 67.201.35.145
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: West Covina
+- proxy: socks5://8.211.200.183:4006
+  protocol: socks5
+  ip: 8.211.200.183
+  port: 4006
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GB
+    city: London
+- proxy: socks5://27.219.186.8:1081
+  protocol: socks5
+  ip: 27.219.186.8
+  port: 1081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CN
+    city: Unknown
+- proxy: socks5://130.255.95.177:4080
+  protocol: socks5
+  ip: 130.255.95.177
+  port: 4080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IQ
+    city: Unknown
+- proxy: socks5://8.211.200.183:10000
+  protocol: socks5
+  ip: 8.211.200.183
+  port: 10000
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GB
+    city: London
+- proxy: socks5://113.249.111.67:1080
+  protocol: socks5
+  ip: 113.249.111.67
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CN
+    city: Unknown
+- proxy: socks5://188.75.3.66:1080
+  protocol: socks5
+  ip: 188.75.3.66
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Unknown
+- proxy: socks5://192.252.214.17:4145
+  protocol: socks5
+  ip: 192.252.214.17
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Portland
+- proxy: socks5://5.255.123.162:1080
+  protocol: socks5
+  ip: 5.255.123.162
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: NL
+    city: Unknown
+- proxy: socks5://46.232.249.209:40001
+  protocol: socks5
+  ip: 46.232.249.209
+  port: 40001
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Unknown
+- proxy: socks5://65.21.252.66:10805
+  protocol: socks5
+  ip: 65.21.252.66
+  port: 10805
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: FI
+    city: Helsinki
+- proxy: socks5://101.36.112.205:1081
+  protocol: socks5
+  ip: 101.36.112.205
+  port: 1081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: HK
+    city: Hong Kong
+- proxy: socks5://199.58.184.97:4145
+  protocol: socks5
+  ip: 199.58.184.97
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://202.44.106.141:1080
+  protocol: socks5
+  ip: 202.44.106.141
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BD
+    city: Dhaka
+- proxy: socks5://184.181.217.220:4145
+  protocol: socks5
+  ip: 184.181.217.220
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://93.153.222.83:1080
+  protocol: socks5
+  ip: 93.153.222.83
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Unknown
+- proxy: socks5://101.36.104.46:10808
+  protocol: socks5
+  ip: 101.36.104.46
+  port: 10808
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: JP
+    city: Tokyo
+- proxy: socks5://78.187.157.235:1080
+  protocol: socks5
+  ip: 78.187.157.235
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Adana
+- proxy: socks5://176.115.192.185:1080
+  protocol: socks5
+  ip: 176.115.192.185
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Moscow
+- proxy: socks5://166.62.53.45:45842
+  protocol: socks5
+  ip: 166.62.53.45
+  port: 45842
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://184.170.248.5:4145
+  protocol: socks5
+  ip: 184.170.248.5
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://184.178.172.3:4145
+  protocol: socks5
+  ip: 184.178.172.3
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Roanoke
+- proxy: socks5://151.241.14.8:1080
+  protocol: socks5
+  ip: 151.241.14.8
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IR
+    city: Tehran
+- proxy: socks5://216.68.128.121:4145
+  protocol: socks5
+  ip: 216.68.128.121
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Cincinnati
+- proxy: socks5://65.21.252.66:10811
+  protocol: socks5
+  ip: 65.21.252.66
+  port: 10811
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: FI
+    city: Helsinki
+- proxy: socks5://46.226.167.214:1080
+  protocol: socks5
+  ip: 46.226.167.214
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AM
+    city: Unknown
+- proxy: socks5://68.71.242.118:4145
+  protocol: socks5
+  ip: 68.71.242.118
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Toronto
+- proxy: socks5://72.205.0.67:4145
+  protocol: socks5
+  ip: 72.205.0.67
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Alexandria
+- proxy: socks5://184.185.2.12:4145
+  protocol: socks5
+  ip: 184.185.2.12
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Omaha
+- proxy: socks5://184.178.172.23:4145
+  protocol: socks5
+  ip: 184.178.172.23
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Roanoke
+- proxy: socks5://83.172.43.66:1080
+  protocol: socks5
+  ip: 83.172.43.66
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Unknown
+- proxy: socks5://110.93.227.229:1080
+  protocol: socks5
+  ip: 110.93.227.229
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PK
+    city: Islamabad
+- proxy: socks5://72.195.114.169:4145
+  protocol: socks5
+  ip: 72.195.114.169
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://85.208.51.17:1089
+  protocol: socks5
+  ip: 85.208.51.17
+  port: 1089
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Düsseldorf
+- proxy: socks5://111.231.166.199:1080
+  protocol: socks5
+  ip: 111.231.166.199
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CN
+    city: Unknown
+- proxy: socks5://68.71.249.158:4145
+  protocol: socks5
+  ip: 68.71.249.158
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Toronto
+- proxy: socks5://217.113.119.222:1080
+  protocol: socks5
+  ip: 217.113.119.222
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Zhigulevsk
+- proxy: socks5://184.181.217.201:4145
+  protocol: socks5
+  ip: 184.181.217.201
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://98.175.31.222:4145
+  protocol: socks5
+  ip: 98.175.31.222
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Norfolk
+- proxy: socks5://58.27.213.133:1080
+  protocol: socks5
+  ip: 58.27.213.133
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PK
+    city: Lahore
+- proxy: socks5://49.13.22.249:10813
+  protocol: socks5
+  ip: 49.13.22.249
+  port: 10813
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Unknown
+- proxy: socks5://192.111.130.2:4145
+  protocol: socks5
+  ip: 192.111.130.2
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Brampton
+- proxy: socks5://8.209.96.245:31433
+  protocol: socks5
+  ip: 8.209.96.245
+  port: 31433
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Frankfurt am Main
+- proxy: socks5://221.176.85.226:1080
+  protocol: socks5
+  ip: 221.176.85.226
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CN
+    city: Unknown
+- proxy: socks5://119.73.109.210:1080
+  protocol: socks5
+  ip: 119.73.109.210
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PK
+    city: Unknown
+- proxy: socks5://31.58.144.19:1080
+  protocol: socks5
+  ip: 31.58.144.19
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IR
+    city: Unknown
+- proxy: socks5://98.170.57.231:4145
+  protocol: socks5
+  ip: 98.170.57.231
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://116.172.234.154:1181
+  protocol: socks5
+  ip: 116.172.234.154
+  port: 1181
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CN
+    city: Unknown
+- proxy: socks5://174.77.111.197:4145
+  protocol: socks5
+  ip: 174.77.111.197
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://8.209.96.245:89
+  protocol: socks5
+  ip: 8.209.96.245
+  port: 89
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Frankfurt am Main
+- proxy: socks5://154.219.101.12:1080
+  protocol: socks5
+  ip: 154.219.101.12
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: HK
+    city: Unknown
+- proxy: socks5://107.174.30.93:1080
+  protocol: socks5
+  ip: 107.174.30.93
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Dallas
+- proxy: socks5://8.209.96.245:8443
+  protocol: socks5
+  ip: 8.209.96.245
+  port: 8443
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Frankfurt am Main
+- proxy: socks5://103.136.106.5:1081
+  protocol: socks5
+  ip: 103.136.106.5
+  port: 1081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BD
+    city: Unknown
+- proxy: socks5://103.189.63.149:53053
+  protocol: socks5
+  ip: 103.189.63.149
+  port: 53053
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: socks5://192.252.220.89:4145
+  protocol: socks5
+  ip: 192.252.220.89
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://72.207.113.97:4145
+  protocol: socks5
+  ip: 72.207.113.97
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: El Cajon
+- proxy: socks5://88.198.69.51:1093
+  protocol: socks5
+  ip: 88.198.69.51
+  port: 1093
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Unknown
+- proxy: socks5://220.158.232.118:1080
+  protocol: socks5
+  ip: 220.158.232.118
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KH
+    city: Unknown
+- proxy: socks5://150.136.58.221:1080
+  protocol: socks5
+  ip: 150.136.58.221
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Ashburn
+- proxy: socks5://154.29.145.165:1080
+  protocol: socks5
+  ip: 154.29.145.165
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Los Angeles
+- proxy: socks5://188.113.182.218:1080
+  protocol: socks5
+  ip: 188.113.182.218
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Yuzhno-Sakhalinsk
+- proxy: socks5://78.40.198.4:8443
+  protocol: socks5
+  ip: 78.40.198.4
+  port: 8443
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: NL
+    city: Unknown
+- proxy: socks5://8.211.49.86:161
+  protocol: socks5
+  ip: 8.211.49.86
+  port: 161
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Frankfurt am Main
+- proxy: socks5://184.181.217.210:4145
+  protocol: socks5
+  ip: 184.181.217.210
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://198.8.94.174:39078
+  protocol: socks5
+  ip: 198.8.94.174
+  port: 39078
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Toronto
+- proxy: socks5://23.134.76.172:1080
+  protocol: socks5
+  ip: 23.134.76.172
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZZ
+    city: Unknown
+- proxy: socks5://65.109.196.122:2080
+  protocol: socks5
+  ip: 65.109.196.122
+  port: 2080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: FI
+    city: Helsinki
+- proxy: socks5://8.211.49.86:7777
+  protocol: socks5
+  ip: 8.211.49.86
+  port: 7777
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Frankfurt am Main
+- proxy: socks5://1.53.40.240:1080
+  protocol: socks5
+  ip: 1.53.40.240
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Ho Chi Minh City
+- proxy: socks5://87.117.2.201:1080
+  protocol: socks5
+  ip: 87.117.2.201
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Rostov-on-Don
+- proxy: socks5://206.220.175.2:4145
+  protocol: socks5
+  ip: 206.220.175.2
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://132.226.7.23:30277
+  protocol: socks5
+  ip: 132.226.7.23
+  port: 30277
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: JP
+    city: Unknown
+- proxy: socks5://118.179.205.174:2080
+  protocol: socks5
+  ip: 118.179.205.174
+  port: 2080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BD
+    city: Qasba
+- proxy: socks5://203.83.43.120:1080
+  protocol: socks5
+  ip: 203.83.43.120
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Unknown
+- proxy: socks5://184.181.217.206:4145
+  protocol: socks5
+  ip: 184.181.217.206
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://192.252.211.197:14921
+  protocol: socks5
+  ip: 192.252.211.197
+  port: 14921
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Portland
+- proxy: socks5://192.111.134.10:4145
+  protocol: socks5
+  ip: 192.111.134.10
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Los Angeles
+- proxy: socks5://98.181.137.83:4145
+  protocol: socks5
+  ip: 98.181.137.83
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Las Vegas
+- proxy: socks5://141.147.109.224:1080
+  protocol: socks5
+  ip: 141.147.109.224
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GB
+    city: Slough
+- proxy: socks5://182.184.30.96:1080
+  protocol: socks5
+  ip: 182.184.30.96
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PK
+    city: Unknown
+- proxy: socks5://5.75.133.113:10806
+  protocol: socks5
+  ip: 5.75.133.113
+  port: 10806
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Unknown
+- proxy: socks5://2.28.105.45:8888
+  protocol: socks5
+  ip: 2.28.105.45
+  port: 8888
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GB
+    city: Glasgow
+- proxy: socks5://151.158.134.29:1080
+  protocol: socks5
+  ip: 151.158.134.29
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZZ
+    city: Unknown
+- proxy: socks5://178.92.72.205:1080
+  protocol: socks5
+  ip: 178.92.72.205
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: UA
+    city: Zhytomyr
+- proxy: socks5://8.211.49.86:17
+  protocol: socks5
+  ip: 8.211.49.86
+  port: 17
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Frankfurt am Main
+- proxy: socks5://85.235.62.246:1080
+  protocol: socks5
+  ip: 85.235.62.246
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Unknown
+- proxy: socks5://47.91.110.148:5060
+  protocol: socks5
+  ip: 47.91.110.148
+  port: 5060
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AE
+    city: Dubai
+- proxy: socks5://45.92.217.106:1080
+  protocol: socks5
+  ip: 45.92.217.106
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Frankfurt am Main
+- proxy: socks5://47.91.110.148:4145
+  protocol: socks5
+  ip: 47.91.110.148
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AE
+    city: Dubai
+- proxy: socks5://103.82.246.255:1080
+  protocol: socks5
+  ip: 103.82.246.255
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Banyuwangi
+- proxy: socks5://88.198.69.51:1083
+  protocol: socks5
+  ip: 88.198.69.51
+  port: 1083
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Unknown
+- proxy: socks5://98.190.239.3:4145
+  protocol: socks5
+  ip: 98.190.239.3
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Wichita
+- proxy: socks5://192.111.139.162:4145
+  protocol: socks5
+  ip: 192.111.139.162
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Brampton
+- proxy: socks5://199.229.254.129:4145
+  protocol: socks5
+  ip: 199.229.254.129
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Vancouver
+- proxy: socks5://124.248.177.43:1080
+  protocol: socks5
+  ip: 124.248.177.43
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KH
+    city: Unknown
+- proxy: socks5://124.248.191.83:1080
+  protocol: socks5
+  ip: 124.248.191.83
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KH
+    city: Phnom Penh
+- proxy: socks5://98.181.137.80:4145
+  protocol: socks5
+  ip: 98.181.137.80
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Las Vegas
+- proxy: socks5://118.179.27.153:1080
+  protocol: socks5
+  ip: 118.179.27.153
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BD
+    city: Dhaka
+- proxy: socks5://103.96.233.10:1080
+  protocol: socks5
+  ip: 103.96.233.10
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AF
+    city: Unknown
+- proxy: socks5://68.183.7.53:9100
+  protocol: socks5
+  ip: 68.183.7.53
+  port: 9100
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: NL
+    city: Amsterdam
+- proxy: socks5://151.241.14.41:1080
+  protocol: socks5
+  ip: 151.241.14.41
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IR
+    city: Tehran
+- proxy: socks5://5.75.133.113:10803
+  protocol: socks5
+  ip: 5.75.133.113
+  port: 10803
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Unknown
+- proxy: socks5://72.49.49.11:31034
+  protocol: socks5
+  ip: 72.49.49.11
+  port: 31034
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Cincinnati
+- proxy: socks5://5.75.133.113:10805
+  protocol: socks5
+  ip: 5.75.133.113
+  port: 10805
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Unknown
+- proxy: socks5://82.149.217.54:1080
+  protocol: socks5
+  ip: 82.149.217.54
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Moscow
+- proxy: socks5://186.219.210.133:7080
+  protocol: socks5
+  ip: 186.219.210.133
+  port: 7080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Unknown
+- proxy: socks5://110.38.233.122:1080
+  protocol: socks5
+  ip: 110.38.233.122
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PK
+    city: Unknown
+- proxy: socks5://72.207.33.64:4145
+  protocol: socks5
+  ip: 72.207.33.64
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: San Diego
+- proxy: socks5://47.91.121.127:9098
+  protocol: socks5
+  ip: 47.91.121.127
+  port: 9098
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AE
+    city: Dubai
+- proxy: socks5://120.133.82.62:44022
+  protocol: socks5
+  ip: 120.133.82.62
+  port: 44022
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CN
+    city: Unknown
+- proxy: socks5://203.189.155.68:1080
+  protocol: socks5
+  ip: 203.189.155.68
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KH
+    city: Unknown
+- proxy: socks5://47.91.121.127:20
+  protocol: socks5
+  ip: 47.91.121.127
+  port: 20
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AE
+    city: Dubai
+- proxy: socks5://222.211.216.201:7890
+  protocol: socks5
+  ip: 222.211.216.201
+  port: 7890
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CN
+    city: Chengdu
+- proxy: socks5://103.110.80.238:1081
+  protocol: socks5
+  ip: 103.110.80.238
+  port: 1081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CN
+    city: Unknown
+- proxy: socks5://62.152.37.189:1080
+  protocol: socks5
+  ip: 62.152.37.189
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: St Petersburg
+- proxy: socks5://31.211.142.115:8192
+  protocol: socks5
+  ip: 31.211.142.115
+  port: 8192
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BG
+    city: Pleven
+- proxy: socks5://128.199.202.122:1080
+  protocol: socks5
+  ip: 128.199.202.122
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SG
+    city: Singapore
+- proxy: socks5://118.68.15.86:1080
+  protocol: socks5
+  ip: 118.68.15.86
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Ho Chi Minh City
+- proxy: socks5://92.205.186.129:1080
+  protocol: socks5
+  ip: 92.205.186.129
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: FR
+    city: Strasbourg
+- proxy: socks5://151.241.14.37:1080
+  protocol: socks5
+  ip: 151.241.14.37
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IR
+    city: Tehran
+- proxy: socks5://47.91.121.127:999
+  protocol: socks5
+  ip: 47.91.121.127
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AE
+    city: Dubai
+- proxy: socks5://195.13.182.211:8080
+  protocol: socks5
+  ip: 195.13.182.211
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: LV
+    city: Riga
+- proxy: socks5://66.231.128.103:1080
+  protocol: socks5
+  ip: 66.231.128.103
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Gainesville
+- proxy: socks5://149.210.44.175:1080
+  protocol: socks5
+  ip: 149.210.44.175
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GR
+    city: Argostoli
+- proxy: socks5://109.105.218.62:1080
+  protocol: socks5
+  ip: 109.105.218.62
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://103.197.48.208:1080
+  protocol: socks5
+  ip: 103.197.48.208
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BD
+    city: Unknown
+- proxy: socks5://72.194.42.156:4145
+  protocol: socks5
+  ip: 72.194.42.156
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://192.252.210.233:4145
+  protocol: socks5
+  ip: 192.252.210.233
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Portland
+- proxy: socks5://165.154.20.187:10808
+  protocol: socks5
+  ip: 165.154.20.187
+  port: 10808
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: HK
+    city: Hong Kong
+- proxy: socks5://202.44.106.73:1080
+  protocol: socks5
+  ip: 202.44.106.73
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BD
+    city: Dhaka
+- proxy: socks5://118.70.151.55:1080
+  protocol: socks5
+  ip: 118.70.151.55
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Ho Chi Minh City
+- proxy: socks5://68.71.251.134:4145
+  protocol: socks5
+  ip: 68.71.251.134
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Toronto
+- proxy: socks5://103.9.185.33:1080
+  protocol: socks5
+  ip: 103.9.185.33
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BD
+    city: Unknown
+- proxy: socks5://202.142.153.220:1080
+  protocol: socks5
+  ip: 202.142.153.220
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PK
+    city: Lahore
+- proxy: socks5://46.174.120.163:8090
+  protocol: socks5
+  ip: 46.174.120.163
+  port: 8090
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: UA
+    city: Lviv
+- proxy: socks5://72.195.34.60:27391
+  protocol: socks5
+  ip: 72.195.34.60
+  port: 27391
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://37.18.73.60:5566
+  protocol: socks5
+  ip: 37.18.73.60
+  port: 5566
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Unknown
+- proxy: socks5://8.211.195.139:2000
+  protocol: socks5
+  ip: 8.211.195.139
+  port: 2000
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GB
+    city: London
+- proxy: socks5://192.111.135.17:18302
+  protocol: socks5
+  ip: 192.111.135.17
+  port: 18302
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Atlanta
+- proxy: socks5://202.62.52.20:1080
+  protocol: socks5
+  ip: 202.62.52.20
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KH
+    city: Phnom Penh
+- proxy: socks5://36.213.79.159:1080
+  protocol: socks5
+  ip: 36.213.79.159
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CN
+    city: Unknown
+- proxy: socks5://192.252.216.81:4145
+  protocol: socks5
+  ip: 192.252.216.81
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://107.181.168.145:4145
+  protocol: socks5
+  ip: 107.181.168.145
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://184.178.172.11:4145
+  protocol: socks5
+  ip: 184.178.172.11
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Roanoke
+- proxy: socks5://68.233.127.229:1080
+  protocol: socks5
+  ip: 68.233.127.229
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Montreal
+- proxy: socks5://47.91.29.151:3128
+  protocol: socks5
+  ip: 47.91.29.151
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: JP
+    city: Tokyo
+- proxy: socks5://47.85.9.228:10800
+  protocol: socks5
+  ip: 47.85.9.228
+  port: 10800
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://8.211.195.139:20
+  protocol: socks5
+  ip: 8.211.195.139
+  port: 20
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GB
+    city: London
+- proxy: socks5://184.182.240.211:4145
+  protocol: socks5
+  ip: 184.182.240.211
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Phoenix
+- proxy: socks5://156.225.31.18:7890
+  protocol: socks5
+  ip: 156.225.31.18
+  port: 7890
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: HK
+    city: Unknown
+- proxy: socks5://47.91.29.151:6379
+  protocol: socks5
+  ip: 47.91.29.151
+  port: 6379
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: JP
+    city: Tokyo
+- proxy: socks5://195.201.246.53:1082
+  protocol: socks5
+  ip: 195.201.246.53
+  port: 1082
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Gunzenhausen
+- proxy: socks5://192.111.139.165:4145
+  protocol: socks5
+  ip: 192.111.139.165
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Brampton
+- proxy: socks5://47.91.29.151:9080
+  protocol: socks5
+  ip: 47.91.29.151
+  port: 9080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: JP
+    city: Tokyo
+- proxy: socks5://178.176.118.74:1080
+  protocol: socks5
+  ip: 178.176.118.74
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Yekaterinburg
+- proxy: socks5://116.100.197.166:1080
+  protocol: socks5
+  ip: 116.100.197.166
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: My Binh
+- proxy: socks5://103.119.60.219:1080
+  protocol: socks5
+  ip: 103.119.60.219
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Jakarta
+- proxy: socks5://98.178.72.30:4145
+  protocol: socks5
+  ip: 98.178.72.30
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://176.119.168.162:1080
+  protocol: socks5
+  ip: 176.119.168.162
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Stroitel
+- proxy: socks5://142.54.235.9:4145
+  protocol: socks5
+  ip: 142.54.235.9
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://174.75.211.193:4145
+  protocol: socks5
+  ip: 174.75.211.193
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://103.191.218.119:69
+  protocol: socks5
+  ip: 103.191.218.119
+  port: 69
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Cirebon
+- proxy: socks5://144.91.83.56:9050
+  protocol: socks5
+  ip: 144.91.83.56
+  port: 9050
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Nuremberg
+- proxy: socks5://78.109.137.53:1080
+  protocol: socks5
+  ip: 78.109.137.53
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Unknown
+- proxy: socks5://203.189.153.170:1080
+  protocol: socks5
+  ip: 203.189.153.170
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KH
+    city: Unknown
+- proxy: socks5://83.242.252.202:1080
+  protocol: socks5
+  ip: 83.242.252.202
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Tolyatti
+- proxy: socks5://8.211.195.139:8128
+  protocol: socks5
+  ip: 8.211.195.139
+  port: 8128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GB
+    city: London
+- proxy: socks5://23.191.176.193:1080
+  protocol: socks5
+  ip: 23.191.176.193
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Ajo
+- proxy: socks5://87.107.68.231:1081
+  protocol: socks5
+  ip: 87.107.68.231
+  port: 1081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IR
+    city: Unknown
+- proxy: socks5://184.178.172.25:15291
+  protocol: socks5
+  ip: 184.178.172.25
+  port: 15291
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Roanoke
+- proxy: socks5://192.111.138.29:4145
+  protocol: socks5
+  ip: 192.111.138.29
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Brampton
+- proxy: socks5://98.170.57.241:4145
+  protocol: socks5
+  ip: 98.170.57.241
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://103.82.193.105:9191
+  protocol: socks5
+  ip: 103.82.193.105
+  port: 9191
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Unknown
+- proxy: socks5://128.199.37.92:1080
+  protocol: socks5
+  ip: 128.199.37.92
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: NL
+    city: Amsterdam
+- proxy: socks5://202.62.42.167:1080
+  protocol: socks5
+  ip: 202.62.42.167
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KH
+    city: Phnom Penh
+- proxy: socks5://152.70.237.238:3128
+  protocol: socks5
+  ip: 152.70.237.238
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KR
+    city: Seoul
+- proxy: socks5://95.85.242.7:9050
+  protocol: socks5
+  ip: 95.85.242.7
+  port: 9050
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Brniste
+- proxy: socks5://47.85.37.60:1080
+  protocol: socks5
+  ip: 47.85.37.60
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://68.71.247.130:4145
+  protocol: socks5
+  ip: 68.71.247.130
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Toronto
+- proxy: socks5://155.138.221.32:1082
+  protocol: socks5
+  ip: 155.138.221.32
+  port: 1082
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Atlanta
+- proxy: socks5://46.62.212.153:1080
+  protocol: socks5
+  ip: 46.62.212.153
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Unknown
+- proxy: socks5://23.141.116.9:9000
+  protocol: socks5
+  ip: 23.141.116.9
+  port: 9000
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZZ
+    city: Unknown
+- proxy: socks5://188.19.202.254:1080
+  protocol: socks5
+  ip: 188.19.202.254
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Unknown
+- proxy: socks5://110.93.199.114:1080
+  protocol: socks5
+  ip: 110.93.199.114
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PK
+    city: Unknown
+- proxy: socks5://87.76.138.46:1080
+  protocol: socks5
+  ip: 87.76.138.46
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: UA
+    city: Unknown
+- proxy: socks5://209.97.150.167:1080
+  protocol: socks5
+  ip: 209.97.150.167
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Clifton
+- proxy: socks5://184.178.172.17:4145
+  protocol: socks5
+  ip: 184.178.172.17
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Roanoke
+- proxy: socks5://85.92.153.104:1080
+  protocol: socks5
+  ip: 85.92.153.104
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Garden City
+- proxy: socks5://103.248.228.166:5555
+  protocol: socks5
+  ip: 103.248.228.166
+  port: 5555
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SG
+    city: Unknown
+- proxy: socks5://163.5.53.209:1080
+  protocol: socks5
+  ip: 163.5.53.209
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: FR
+    city: Unknown
+- proxy: socks5://72.206.74.126:4145
+  protocol: socks5
+  ip: 72.206.74.126
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Fairfax
+- proxy: socks5://95.163.85.73:1080
+  protocol: socks5
+  ip: 95.163.85.73
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Unknown
+- proxy: socks5://192.111.137.35:4145
+  protocol: socks5
+  ip: 192.111.137.35
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Brampton
+- proxy: socks5://139.162.78.109:1080
+  protocol: socks5
+  ip: 139.162.78.109
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: JP
+    city: Tokyo
+- proxy: socks5://46.224.14.155:9050
+  protocol: socks5
+  ip: 46.224.14.155
+  port: 9050
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IR
+    city: Unknown
+- proxy: socks5://88.218.206.170:5432
+  protocol: socks5
+  ip: 88.218.206.170
+  port: 5432
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PL
+    city: Warsaw
+- proxy: socks5://103.4.95.90:1080
+  protocol: socks5
+  ip: 103.4.95.90
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PK
+    city: Lahore
+- proxy: socks5://91.234.183.79:1080
+  protocol: socks5
+  ip: 91.234.183.79
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Voskresensk
+- proxy: socks5://195.19.56.209:1080
+  protocol: socks5
+  ip: 195.19.56.209
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Unknown
+- proxy: socks5://178.57.102.50:1080
+  protocol: socks5
+  ip: 178.57.102.50
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Cherepovets
+- proxy: socks5://184.181.217.194:4145
+  protocol: socks5
+  ip: 184.181.217.194
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://80.249.131.218:10800
+  protocol: socks5
+  ip: 80.249.131.218
+  port: 10800
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: St Petersburg
+- proxy: socks5://98.175.31.195:4145
+  protocol: socks5
+  ip: 98.175.31.195
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Norfolk
+- proxy: socks5://45.61.129.165:9050
+  protocol: socks5
+  ip: 45.61.129.165
+  port: 9050
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Las Vegas
+- proxy: socks5://120.133.82.62:44007
+  protocol: socks5
+  ip: 120.133.82.62
+  port: 44007
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CN
+    city: Unknown
+- proxy: socks5://88.218.206.170:22
+  protocol: socks5
+  ip: 88.218.206.170
+  port: 22
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PL
+    city: Warsaw
+- proxy: socks5://168.253.92.93:10808
+  protocol: socks5
+  ip: 168.253.92.93
+  port: 10808
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: Middelburg
+- proxy: socks5://192.252.208.70:14282
+  protocol: socks5
+  ip: 192.252.208.70
+  port: 14282
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Portland
+- proxy: socks5://72.195.34.59:4145
+  protocol: socks5
+  ip: 72.195.34.59
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://184.178.172.13:15311
+  protocol: socks5
+  ip: 184.178.172.13
+  port: 15311
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Roanoke
+- proxy: socks5://202.4.101.249:9090
+  protocol: socks5
+  ip: 202.4.101.249
+  port: 9090
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BD
+    city: Unknown
+- proxy: socks5://5.255.103.55:1080
+  protocol: socks5
+  ip: 5.255.103.55
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: NL
+    city: Unknown
+- proxy: socks5://110.39.13.162:1080
+  protocol: socks5
+  ip: 110.39.13.162
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PK
+    city: Lahore
+- proxy: socks5://193.178.226.95:1080
+  protocol: socks5
+  ip: 193.178.226.95
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZZ
+    city: Unknown
+- proxy: socks5://177.69.198.219:1080
+  protocol: socks5
+  ip: 177.69.198.219
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BR
+    city: Recife
+- proxy: socks5://8.40.19.133:1080
+  protocol: socks5
+  ip: 8.40.19.133
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Martins Ferry
+- proxy: socks5://94.242.50.113:2080
+  protocol: socks5
+  ip: 94.242.50.113
+  port: 2080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: St Petersburg
+- proxy: socks5://51.75.68.184:9050
+  protocol: socks5
+  ip: 51.75.68.184
+  port: 9050
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Unknown
+- proxy: socks5://68.71.252.38:4145
+  protocol: socks5
+  ip: 68.71.252.38
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CA
+    city: Toronto
+- proxy: socks5://174.77.111.196:4145
+  protocol: socks5
+  ip: 174.77.111.196
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://149.104.24.86:40001
+  protocol: socks5
+  ip: 149.104.24.86
+  port: 40001
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: HK
+    city: Unknown
+- proxy: socks5://91.92.155.207:1080
+  protocol: socks5
+  ip: 91.92.155.207
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CH
+    city: Unknown
+- proxy: socks5://72.195.34.41:4145
+  protocol: socks5
+  ip: 72.195.34.41
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://203.189.150.126:1080
+  protocol: socks5
+  ip: 203.189.150.126
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KH
+    city: Phnom Penh
+- proxy: socks5://49.235.161.213:2080
+  protocol: socks5
+  ip: 49.235.161.213
+  port: 2080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CN
+    city: Unknown
+- proxy: socks5://45.38.210.105:9050
+  protocol: socks5
+  ip: 45.38.210.105
+  port: 9050
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://116.202.32.250:1089
+  protocol: socks5
+  ip: 116.202.32.250
+  port: 1089
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: DE
+    city: Unknown
+- proxy: socks5://174.75.211.222:4145
+  protocol: socks5
+  ip: 174.75.211.222
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://184.181.178.33:4145
+  protocol: socks5
+  ip: 184.181.178.33
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://45.39.60.198:1080
+  protocol: socks5
+  ip: 45.39.60.198
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://43.230.193.154:1080
+  protocol: socks5
+  ip: 43.230.193.154
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KH
+    city: Unknown
+- proxy: socks5://103.84.166.37:1080
+  protocol: socks5
+  ip: 103.84.166.37
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Unknown
+- proxy: socks5://45.202.240.161:10808
+  protocol: socks5
+  ip: 45.202.240.161
+  port: 10808
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Unknown
+- proxy: socks5://103.76.149.140:1080
+  protocol: socks5
+  ip: 103.76.149.140
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Batu
+- proxy: socks5://202.74.203.17:1080
+  protocol: socks5
+  ip: 202.74.203.17
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: NZ
+    city: Auckland
+- proxy: socks5://192.252.215.2:4145
+  protocol: socks5
+  ip: 192.252.215.2
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Portland
+- proxy: socks5://141.148.65.110:1081
+  protocol: socks5
+  ip: 141.148.65.110
+  port: 1081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Ashburn
+- proxy: socks5://5.255.99.75:1080
+  protocol: socks5
+  ip: 5.255.99.75
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: NL
+    city: Unknown
+- proxy: socks5://103.176.187.228:9090
+  protocol: socks5
+  ip: 103.176.187.228
+  port: 9090
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IN
+    city: Pune
+- proxy: socks5://119.148.20.109:22122
+  protocol: socks5
+  ip: 119.148.20.109
+  port: 22122
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BD
+    city: Unknown
+- proxy: socks5://8.219.94.23:7890
+  protocol: socks5
+  ip: 8.219.94.23
+  port: 7890
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SG
+    city: Unknown
+- proxy: socks5://158.101.8.92:1080
+  protocol: socks5
+  ip: 158.101.8.92
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Phoenix
+- proxy: socks5://118.179.93.24:9090
+  protocol: socks5
+  ip: 118.179.93.24
+  port: 9090
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BD
+    city: Panchagarh
+- proxy: socks5://103.36.11.18:8199
+  protocol: socks5
+  ip: 103.36.11.18
+  port: 8199
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Pandeglang
+- proxy: socks5://103.138.145.150:1999
+  protocol: socks5
+  ip: 103.138.145.150
+  port: 1999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BD
+    city: Kishorganj
+- proxy: socks5://95.3.92.2:1080
+  protocol: socks5
+  ip: 95.3.92.2
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Unknown
+- proxy: socks5://118.179.136.122:9090
+  protocol: socks5
+  ip: 118.179.136.122
+  port: 9090
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BD
+    city: Dhaka
+- proxy: socks5://118.179.155.202:9090
+  protocol: socks5
+  ip: 118.179.155.202
+  port: 9090
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BD
+    city: Dhaka
+- proxy: socks5://194.44.255.112:8090
+  protocol: socks5
+  ip: 194.44.255.112
+  port: 8090
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: UA
+    city: Lviv
+- proxy: socks5://163.47.37.190:1080
+  protocol: socks5
+  ip: 163.47.37.190
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BD
+    city: Kushtia
+- proxy: socks5://170.233.72.43:1080
+  protocol: socks5
+  ip: 170.233.72.43
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GP
+    city: Sainte-Anne
+- proxy: socks5://67.204.153.223:1080
+  protocol: socks5
+  ip: 67.204.153.223
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Bend
+- proxy: socks5://66.170.46.17:1080
+  protocol: socks5
+  ip: 66.170.46.17
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Syracuse
+- proxy: socks5://176.62.229.17:1080
+  protocol: socks5
+  ip: 176.62.229.17
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CZ
+    city: Trutnov
+- proxy: socks5://45.169.106.140:1086
+  protocol: socks5
+  ip: 45.169.106.140
+  port: 1086
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AR
+    city: Córdoba
+- proxy: socks5://46.36.220.243:1080
+  protocol: socks5
+  ip: 46.36.220.243
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: EE
+    city: Jõhvi
+- proxy: socks5://192.210.197.13:1080
+  protocol: socks5
+  ip: 192.210.197.13
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: US
+    city: Buffalo
+- proxy: socks5://116.110.241.234:1080
+  protocol: socks5
+  ip: 116.110.241.234
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: VN
+    city: Da Nang
+- proxy: socks5://58.234.114.199:1080
+  protocol: socks5
+  ip: 58.234.114.199
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KR
+    city: Seoul
+- proxy: socks5://145.249.249.10:1080
+  protocol: socks5
+  ip: 145.249.249.10
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KZ
+    city: Rudnyy
+- proxy: socks5://185.221.196.47:1080
+  protocol: socks5
+  ip: 185.221.196.47
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RU
+    city: Moscow
+- proxy: socks5://45.198.20.252:1080
+  protocol: socks5
+  ip: 45.198.20.252
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ID
+    city: Jakarta
+- proxy: socks5://27.102.70.198:5555
+  protocol: socks5
+  ip: 27.102.70.198
+  port: 5555
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KR
+    city: Unknown
+- proxy: socks5://188.132.249.166:1080
+  protocol: socks5
+  ip: 188.132.249.166
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TR
+    city: Izmir
 - proxy: socks5://176.65.132.138:1080
   protocol: socks5
   ip: 176.65.132.138
@@ -1288,26 +3758,6 @@
   geolocation:
     country: DE
     city: Frankfurt am Main
-- proxy: socks5://192.111.138.29:4145
-  protocol: socks5
-  ip: 192.111.138.29
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Brampton
-- proxy: socks5://192.111.134.10:4145
-  protocol: socks5
-  ip: 192.111.134.10
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Los Angeles
 - proxy: socks5://91.144.9.131:1080
   protocol: socks5
   ip: 91.144.9.131
@@ -1338,16 +3788,6 @@
   geolocation:
     country: CA
     city: Brampton
-- proxy: socks5://139.162.78.109:1080
-  protocol: socks5
-  ip: 139.162.78.109
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: JP
-    city: Tokyo
 - proxy: socks5://103.240.68.154:1080
   protocol: socks5
   ip: 103.240.68.154
@@ -1357,46 +3797,6 @@
   score: 1
   geolocation:
     country: ID
-    city: Unknown
-- proxy: socks5://68.71.251.134:4145
-  protocol: socks5
-  ip: 68.71.251.134
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Toronto
-- proxy: socks5://184.182.240.211:4145
-  protocol: socks5
-  ip: 184.182.240.211
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Phoenix
-- proxy: socks5://184.178.172.3:4145
-  protocol: socks5
-  ip: 184.178.172.3
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Roanoke
-- proxy: socks5://31.58.144.19:1080
-  protocol: socks5
-  ip: 31.58.144.19
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IR
     city: Unknown
 - proxy: socks5://84.253.122.42:1080
   protocol: socks5
@@ -1408,16 +3808,6 @@
   geolocation:
     country: RU
     city: Unknown
-- proxy: socks5://192.111.135.17:18302
-  protocol: socks5
-  ip: 192.111.135.17
-  port: 18302
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Atlanta
 - proxy: socks5://81.211.26.237:1080
   protocol: socks5
   ip: 81.211.26.237
@@ -1438,16 +3828,6 @@
   geolocation:
     country: ID
     city: Bandar Lampung
-- proxy: socks5://23.141.116.9:9000
-  protocol: socks5
-  ip: 23.141.116.9
-  port: 9000
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ZZ
-    city: Unknown
 - proxy: socks5://199.102.106.94:4145
   protocol: socks5
   ip: 199.102.106.94
@@ -1478,36 +3858,6 @@
   geolocation:
     country: US
     city: Crestview
-- proxy: socks5://65.21.252.66:10803
-  protocol: socks5
-  ip: 65.21.252.66
-  port: 10803
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: FI
-    city: Helsinki
-- proxy: socks5://118.179.27.153:1080
-  protocol: socks5
-  ip: 118.179.27.153
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BD
-    city: Dhaka
-- proxy: socks5://192.111.137.35:4145
-  protocol: socks5
-  ip: 192.111.137.35
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Brampton
 - proxy: socks5://142.54.226.214:4145
   protocol: socks5
   ip: 142.54.226.214
@@ -1528,26 +3878,6 @@
   geolocation:
     country: US
     city: Roanoke
-- proxy: socks5://107.174.30.93:1080
-  protocol: socks5
-  ip: 107.174.30.93
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Dallas
-- proxy: socks5://98.175.31.195:4145
-  protocol: socks5
-  ip: 98.175.31.195
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Norfolk
 - proxy: socks5://221.176.85.228:1080
   protocol: socks5
   ip: 221.176.85.228
@@ -1557,16 +3887,6 @@
   score: 1
   geolocation:
     country: CN
-    city: Unknown
-- proxy: socks5://174.77.111.197:4145
-  protocol: socks5
-  ip: 174.77.111.197
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
     city: Unknown
 - proxy: socks5://83.237.213.34:1080
   protocol: socks5
@@ -1578,16 +3898,6 @@
   geolocation:
     country: RU
     city: Moscow
-- proxy: socks5://47.251.166.203:1080
-  protocol: socks5
-  ip: 47.251.166.203
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://24.121.73.10:1080
   protocol: socks5
   ip: 24.121.73.10
@@ -1607,16 +3917,6 @@
   score: 1
   geolocation:
     country: GB
-    city: Unknown
-- proxy: socks5://98.178.72.30:4145
-  protocol: socks5
-  ip: 98.178.72.30
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
     city: Unknown
 - proxy: socks5://194.182.187.78:1080
   protocol: socks5
@@ -1648,16 +3948,6 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: socks5://184.181.217.220:4145
-  protocol: socks5
-  ip: 184.181.217.220
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://62.148.143.229:1080
   protocol: socks5
   ip: 62.148.143.229
@@ -1668,16 +3958,6 @@
   geolocation:
     country: RU
     city: Kaluga
-- proxy: socks5://46.62.212.153:1080
-  protocol: socks5
-  ip: 46.62.212.153
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DE
-    city: Unknown
 - proxy: socks5://74.112.62.118:1080
   protocol: socks5
   ip: 74.112.62.118
@@ -1688,16 +3968,6 @@
   geolocation:
     country: US
     city: Naples
-- proxy: socks5://78.187.157.235:1080
-  protocol: socks5
-  ip: 78.187.157.235
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Adana
 - proxy: socks5://198.199.86.11:1080
   protocol: socks5
   ip: 198.199.86.11
@@ -1708,16 +3978,6 @@
   geolocation:
     country: US
     city: North Bergen
-- proxy: socks5://199.116.114.11:4145
-  protocol: socks5
-  ip: 199.116.114.11
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Newark
 - proxy: socks5://115.127.53.114:1080
   protocol: socks5
   ip: 115.127.53.114
@@ -1748,16 +4008,6 @@
   geolocation:
     country: CA
     city: Toronto
-- proxy: socks5://184.181.217.201:4145
-  protocol: socks5
-  ip: 184.181.217.201
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://195.13.182.210:443
   protocol: socks5
   ip: 195.13.182.210
@@ -1777,16 +4027,6 @@
   score: 1
   geolocation:
     country: GB
-    city: Unknown
-- proxy: socks5://220.158.232.118:1080
-  protocol: socks5
-  ip: 220.158.232.118
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KH
     city: Unknown
 - proxy: socks5://139.59.1.14:1080
   protocol: socks5
@@ -1828,16 +4068,6 @@
   geolocation:
     country: US
     city: Santa Clara
-- proxy: socks5://192.252.210.233:4145
-  protocol: socks5
-  ip: 192.252.210.233
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Portland
 - proxy: socks5://198.8.84.3:4145
   protocol: socks5
   ip: 198.8.84.3
@@ -1848,16 +4078,6 @@
   geolocation:
     country: CA
     city: Unknown
-- proxy: socks5://72.206.74.126:4145
-  protocol: socks5
-  ip: 72.206.74.126
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Fairfax
 - proxy: socks5://24.249.199.4:4145
   protocol: socks5
   ip: 24.249.199.4
@@ -1878,26 +4098,6 @@
   geolocation:
     country: RU
     city: Moscow
-- proxy: socks5://184.178.172.17:4145
-  protocol: socks5
-  ip: 184.178.172.17
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Roanoke
-- proxy: socks5://88.218.206.170:5432
-  protocol: socks5
-  ip: 88.218.206.170
-  port: 5432
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Warsaw
 - proxy: socks5://115.74.200.4:1080
   protocol: socks5
   ip: 115.74.200.4
@@ -1918,26 +4118,6 @@
   geolocation:
     country: US
     city: Phoenix
-- proxy: socks5://192.252.214.17:4145
-  protocol: socks5
-  ip: 192.252.214.17
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Portland
-- proxy: socks5://216.68.128.121:4145
-  protocol: socks5
-  ip: 216.68.128.121
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Cincinnati
 - proxy: socks5://98.191.0.37:4145
   protocol: socks5
   ip: 98.191.0.37
@@ -1948,16 +4128,6 @@
   geolocation:
     country: US
     city: Gilbert
-- proxy: socks5://72.207.33.64:4145
-  protocol: socks5
-  ip: 72.207.33.64
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: San Diego
 - proxy: socks5://72.37.216.68:4145
   protocol: socks5
   ip: 72.37.216.68
@@ -1978,16 +4148,6 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: socks5://80.249.131.218:10800
-  protocol: socks5
-  ip: 80.249.131.218
-  port: 10800
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: St Petersburg
 - proxy: socks5://43.252.238.252:69
   protocol: socks5
   ip: 43.252.238.252
@@ -2008,16 +4168,6 @@
   geolocation:
     country: SG
     city: Singapore
-- proxy: socks5://103.248.228.166:5555
-  protocol: socks5
-  ip: 103.248.228.166
-  port: 5555
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SG
-    city: Unknown
 - proxy: socks5://174.77.111.198:49547
   protocol: socks5
   ip: 174.77.111.198
@@ -2038,16 +4188,6 @@
   geolocation:
     country: US
     city: Phoenix
-- proxy: socks5://192.252.211.197:14921
-  protocol: socks5
-  ip: 192.252.211.197
-  port: 14921
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Portland
 - proxy: socks5://45.6.13.4:1080
   protocol: socks5
   ip: 45.6.13.4
@@ -2088,16 +4228,6 @@
   geolocation:
     country: ZZ
     city: Unknown
-- proxy: socks5://184.181.217.194:4145
-  protocol: socks5
-  ip: 184.181.217.194
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://192.111.129.145:16894
   protocol: socks5
   ip: 192.111.129.145
@@ -2128,16 +4258,6 @@
   geolocation:
     country: US
     city: Portland
-- proxy: socks5://47.91.121.127:8118
-  protocol: socks5
-  ip: 47.91.121.127
-  port: 8118
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AE
-    city: Dubai
 - proxy: socks5://142.54.237.38:4145
   protocol: socks5
   ip: 142.54.237.38
@@ -2168,16 +4288,6 @@
   geolocation:
     country: AE
     city: Unknown
-- proxy: socks5://184.178.172.23:4145
-  protocol: socks5
-  ip: 184.178.172.23
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Roanoke
 - proxy: socks5://193.178.226.93:1080
   protocol: socks5
   ip: 193.178.226.93
@@ -2198,16 +4308,6 @@
   geolocation:
     country: DE
     city: Gunzenhausen
-- proxy: socks5://72.205.0.67:4145
-  protocol: socks5
-  ip: 72.205.0.67
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Alexandria
 - proxy: socks5://168.138.155.212:9050
   protocol: socks5
   ip: 168.138.155.212
@@ -2218,16 +4318,6 @@
   geolocation:
     country: BR
     city: São Paulo
-- proxy: socks5://184.181.178.33:4145
-  protocol: socks5
-  ip: 184.181.178.33
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://135.106.229.254:1080
   protocol: socks5
   ip: 135.106.229.254
@@ -2258,16 +4348,6 @@
   geolocation:
     country: US
     city: Lubbock
-- proxy: socks5://37.18.73.60:5566
-  protocol: socks5
-  ip: 37.18.73.60
-  port: 5566
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Unknown
 - proxy: socks5://192.111.135.18:18301
   protocol: socks5
   ip: 192.111.135.18
@@ -2288,16 +4368,6 @@
   geolocation:
     country: BR
     city: Sao Joao de Meriti
-- proxy: socks5://192.252.214.20:15864
-  protocol: socks5
-  ip: 192.252.214.20
-  port: 15864
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Portland
 - proxy: socks5://194.67.207.95:19080
   protocol: socks5
   ip: 194.67.207.95
@@ -2318,16 +4388,6 @@
   geolocation:
     country: RU
     city: Unknown
-- proxy: socks5://184.185.2.12:4145
-  protocol: socks5
-  ip: 184.185.2.12
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Omaha
 - proxy: socks5://72.131.213.139:1080
   protocol: socks5
   ip: 72.131.213.139
@@ -2338,16 +4398,6 @@
   geolocation:
     country: US
     city: Plano
-- proxy: socks5://47.91.121.127:36389
-  protocol: socks5
-  ip: 47.91.121.127
-  port: 36389
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AE
-    city: Dubai
 - proxy: socks5://95.64.183.46:1080
   protocol: socks5
   ip: 95.64.183.46
@@ -2378,26 +4428,6 @@
   geolocation:
     country: US
     city: Roanoke
-- proxy: socks5://70.166.65.160:4145
-  protocol: socks5
-  ip: 70.166.65.160
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Lafayette
-- proxy: socks5://184.182.240.12:4145
-  protocol: socks5
-  ip: 184.182.240.12
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Phoenix
 - proxy: socks5://38.147.191.16:1081
   protocol: socks5
   ip: 38.147.191.16
@@ -2408,36 +4438,6 @@
   geolocation:
     country: US
     city: Los Angeles
-- proxy: socks5://72.49.49.11:31034
-  protocol: socks5
-  ip: 72.49.49.11
-  port: 31034
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Cincinnati
-- proxy: socks5://45.92.217.106:1080
-  protocol: socks5
-  ip: 45.92.217.106
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DE
-    city: Frankfurt am Main
-- proxy: socks5://206.220.175.2:4145
-  protocol: socks5
-  ip: 206.220.175.2
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://27.131.14.9:1088
   protocol: socks5
   ip: 27.131.14.9
@@ -2478,56 +4478,6 @@
   geolocation:
     country: CN
     city: Qingdao
-- proxy: socks5://94.242.50.113:2080
-  protocol: socks5
-  ip: 94.242.50.113
-  port: 2080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: St Petersburg
-- proxy: socks5://5.255.123.162:1080
-  protocol: socks5
-  ip: 5.255.123.162
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: NL
-    city: Unknown
-- proxy: socks5://98.190.239.3:4145
-  protocol: socks5
-  ip: 98.190.239.3
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Wichita
-- proxy: socks5://98.178.72.21:10919
-  protocol: socks5
-  ip: 98.178.72.21
-  port: 10919
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: socks5://45.61.129.165:9050
-  protocol: socks5
-  ip: 45.61.129.165
-  port: 9050
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Las Vegas
 - proxy: socks5://86.110.194.159:1080
   protocol: socks5
   ip: 86.110.194.159
@@ -2548,16 +4498,6 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: socks5://141.147.109.224:1080
-  protocol: socks5
-  ip: 141.147.109.224
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GB
-    city: Slough
 - proxy: socks5://167.86.79.35:1080
   protocol: socks5
   ip: 167.86.79.35
@@ -2608,16 +4548,6 @@
   geolocation:
     country: IN
     city: Unknown
-- proxy: socks5://70.166.167.38:57728
-  protocol: socks5
-  ip: 70.166.167.38
-  port: 57728
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Mesa
 - proxy: socks5://176.62.237.51:1080
   protocol: socks5
   ip: 176.62.237.51
@@ -2658,16 +4588,6 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: socks5://156.225.31.18:7890
-  protocol: socks5
-  ip: 156.225.31.18
-  port: 7890
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: HK
-    city: Unknown
 - proxy: socks5://68.1.210.163:4145
   protocol: socks5
   ip: 68.1.210.163
@@ -2678,16 +4598,6 @@
   geolocation:
     country: US
     city: Santee
-- proxy: socks5://98.170.57.231:4145
-  protocol: socks5
-  ip: 98.170.57.231
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://68.71.241.33:4145
   protocol: socks5
   ip: 68.71.241.33
@@ -2698,16 +4608,6 @@
   geolocation:
     country: CA
     city: Toronto
-- proxy: socks5://174.75.211.222:4145
-  protocol: socks5
-  ip: 174.75.211.222
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://85.173.153.90:1080
   protocol: socks5
   ip: 85.173.153.90
@@ -2748,16 +4648,6 @@
   geolocation:
     country: RU
     city: Yekaterinburg
-- proxy: socks5://124.248.177.43:1080
-  protocol: socks5
-  ip: 124.248.177.43
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KH
-    city: Unknown
 - proxy: socks5://95.80.120.246:1080
   protocol: socks5
   ip: 95.80.120.246
@@ -2778,16 +4668,6 @@
   geolocation:
     country: IR
     city: Tehran
-- proxy: socks5://184.181.217.210:4145
-  protocol: socks5
-  ip: 184.181.217.210
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://46.101.55.173:10000
   protocol: socks5
   ip: 46.101.55.173
@@ -2818,16 +4698,6 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: socks5://72.207.113.97:4145
-  protocol: socks5
-  ip: 72.207.113.97
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: El Cajon
 - proxy: socks5://8.213.197.208:312
   protocol: socks5
   ip: 8.213.197.208
@@ -2838,26 +4708,6 @@
   geolocation:
     country: TH
     city: Bangkok
-- proxy: socks5://103.110.80.238:1081
-  protocol: socks5
-  ip: 103.110.80.238
-  port: 1081
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CN
-    city: Unknown
-- proxy: socks5://209.97.150.167:1080
-  protocol: socks5
-  ip: 209.97.150.167
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Clifton
 - proxy: socks5://117.50.223.75:1080
   protocol: socks5
   ip: 117.50.223.75
@@ -2868,16 +4718,6 @@
   geolocation:
     country: CN
     city: Unknown
-- proxy: socks5://85.92.153.104:1080
-  protocol: socks5
-  ip: 85.92.153.104
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Garden City
 - proxy: socks5://109.169.5.92:1080
   protocol: socks5
   ip: 109.169.5.92
@@ -2908,36 +4748,6 @@
   geolocation:
     country: DE
     city: Nuremberg
-- proxy: socks5://203.83.43.120:1080
-  protocol: socks5
-  ip: 203.83.43.120
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: socks5://36.213.79.159:1080
-  protocol: socks5
-  ip: 36.213.79.159
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CN
-    city: Unknown
-- proxy: socks5://98.181.137.80:4145
-  protocol: socks5
-  ip: 98.181.137.80
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Las Vegas
 - proxy: socks5://68.71.249.153:48606
   protocol: socks5
   ip: 68.71.249.153
@@ -2978,16 +4788,6 @@
   geolocation:
     country: PL
     city: Unknown
-- proxy: socks5://217.12.209.4:1080
-  protocol: socks5
-  ip: 217.12.209.4
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: NL
-    city: Meppel
 - proxy: socks5://218.77.50.79:6666
   protocol: socks5
   ip: 218.77.50.79
@@ -3027,26 +4827,6 @@
   score: 1
   geolocation:
     country: CA
-    city: Unknown
-- proxy: socks5://98.170.57.241:4145
-  protocol: socks5
-  ip: 98.170.57.241
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: socks5://174.75.211.193:4145
-  protocol: socks5
-  ip: 174.75.211.193
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
     city: Unknown
 - proxy: socks5://142.54.237.34:4145
   protocol: socks5
@@ -3128,16 +4908,6 @@
   geolocation:
     country: PH
     city: Manila
-- proxy: socks5://72.195.114.169:4145
-  protocol: socks5
-  ip: 72.195.114.169
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://68.71.254.6:4145
   protocol: socks5
   ip: 68.71.254.6
@@ -3158,16 +4928,6 @@
   geolocation:
     country: RU
     city: Ussuriysk
-- proxy: socks5://149.104.24.86:40001
-  protocol: socks5
-  ip: 149.104.24.86
-  port: 40001
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: HK
-    city: Unknown
 - proxy: socks5://8.213.215.187:9098
   protocol: socks5
   ip: 8.213.215.187
@@ -3228,26 +4988,6 @@
   geolocation:
     country: US
     city: Roanoke
-- proxy: socks5://118.68.15.86:1080
-  protocol: socks5
-  ip: 118.68.15.86
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Ho Chi Minh City
-- proxy: socks5://72.195.34.60:27391
-  protocol: socks5
-  ip: 72.195.34.60
-  port: 27391
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://206.246.26.65:1080
   protocol: socks5
   ip: 206.246.26.65
@@ -3268,56 +5008,6 @@
   geolocation:
     country: TR
     city: Unknown
-- proxy: socks5://8.221.139.222:4002
-  protocol: socks5
-  ip: 8.221.139.222
-  port: 4002
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: JP
-    city: Tokyo
-- proxy: socks5://199.229.254.129:4145
-  protocol: socks5
-  ip: 199.229.254.129
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Vancouver
-- proxy: socks5://103.136.106.5:1081
-  protocol: socks5
-  ip: 103.136.106.5
-  port: 1081
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BD
-    city: Unknown
-- proxy: socks5://47.91.110.148:9090
-  protocol: socks5
-  ip: 47.91.110.148
-  port: 9090
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AE
-    city: Dubai
-- proxy: socks5://8.221.139.222:9098
-  protocol: socks5
-  ip: 8.221.139.222
-  port: 9098
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: JP
-    city: Tokyo
 - proxy: socks5://203.89.25.35:1080
   protocol: socks5
   ip: 203.89.25.35
@@ -3338,16 +5028,6 @@
   geolocation:
     country: RU
     city: Unknown
-- proxy: socks5://8.209.96.245:81
-  protocol: socks5
-  ip: 8.209.96.245
-  port: 81
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DE
-    city: Frankfurt am Main
 - proxy: socks5://109.199.96.116:9050
   protocol: socks5
   ip: 109.199.96.116
@@ -3378,16 +5058,6 @@
   geolocation:
     country: SG
     city: Singapore
-- proxy: socks5://8.209.96.245:1099
-  protocol: socks5
-  ip: 8.209.96.245
-  port: 1099
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DE
-    city: Frankfurt am Main
 - proxy: socks5://8.217.103.13:8443
   protocol: socks5
   ip: 8.217.103.13
@@ -3408,36 +5078,6 @@
   geolocation:
     country: RU
     city: Moscow
-- proxy: socks5://47.91.110.148:1080
-  protocol: socks5
-  ip: 47.91.110.148
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AE
-    city: Dubai
-- proxy: socks5://47.91.110.148:55443
-  protocol: socks5
-  ip: 47.91.110.148
-  port: 55443
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AE
-    city: Dubai
-- proxy: socks5://174.77.111.196:4145
-  protocol: socks5
-  ip: 174.77.111.196
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://143.105.153.7:1080
   protocol: socks5
   ip: 143.105.153.7
@@ -3448,26 +5088,6 @@
   geolocation:
     country: US
     city: Northampton Center
-- proxy: socks5://92.205.186.129:1080
-  protocol: socks5
-  ip: 92.205.186.129
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: FR
-    city: Strasbourg
-- proxy: socks5://98.181.137.83:4145
-  protocol: socks5
-  ip: 98.181.137.83
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Las Vegas
 - proxy: socks5://8.213.156.191:138
   protocol: socks5
   ip: 8.213.156.191
@@ -3478,16 +5098,6 @@
   geolocation:
     country: SG
     city: Unknown
-- proxy: socks5://103.119.60.219:1080
-  protocol: socks5
-  ip: 103.119.60.219
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Jakarta
 - proxy: socks5://47.74.46.81:443
   protocol: socks5
   ip: 47.74.46.81
@@ -3498,16 +5108,6 @@
   geolocation:
     country: JP
     city: Tokyo
-- proxy: socks5://184.178.172.13:15311
-  protocol: socks5
-  ip: 184.178.172.13
-  port: 15311
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Roanoke
 - proxy: socks5://2.50.191.129:10800
   protocol: socks5
   ip: 2.50.191.129
@@ -3558,16 +5158,6 @@
   geolocation:
     country: US
     city: Portland
-- proxy: socks5://184.178.172.25:15291
-  protocol: socks5
-  ip: 184.178.172.25
-  port: 15291
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Roanoke
 - proxy: socks5://123.58.219.171:10808
   protocol: socks5
   ip: 123.58.219.171
@@ -3578,16 +5168,6 @@
   geolocation:
     country: HK
     city: Hong Kong
-- proxy: socks5://101.36.104.46:10808
-  protocol: socks5
-  ip: 101.36.104.46
-  port: 10808
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: JP
-    city: Tokyo
 - proxy: socks5://138.199.25.13:3903
   protocol: socks5
   ip: 138.199.25.13
@@ -3598,16 +5178,6 @@
   geolocation:
     country: SG
     city: Singapore
-- proxy: socks5://183.106.215.208:1080
-  protocol: socks5
-  ip: 183.106.215.208
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KR
-    city: Pohang
 - proxy: socks5://43.155.215.149:20000
   protocol: socks5
   ip: 43.155.215.149
@@ -3688,16 +5258,6 @@
   geolocation:
     country: VN
     city: Ho Chi Minh City
-- proxy: socks5://149.210.44.175:1080
-  protocol: socks5
-  ip: 149.210.44.175
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GR
-    city: Argostoli
 - proxy: socks5://116.101.73.52:1054
   protocol: socks5
   ip: 116.101.73.52
@@ -3728,26 +5288,6 @@
   geolocation:
     country: EE
     city: Unknown
-- proxy: socks5://192.252.208.70:14282
-  protocol: socks5
-  ip: 192.252.208.70
-  port: 14282
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Portland
-- proxy: socks5://178.92.72.205:1080
-  protocol: socks5
-  ip: 178.92.72.205
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: UA
-    city: Zhytomyr
 - proxy: socks5://138.199.25.13:3907
   protocol: socks5
   ip: 138.199.25.13
@@ -3868,36 +5408,6 @@
   geolocation:
     country: CA
     city: Brampton
-- proxy: socks5://103.189.63.149:53053
-  protocol: socks5
-  ip: 103.189.63.149
-  port: 53053
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Unknown
-- proxy: socks5://192.252.220.89:4145
-  protocol: socks5
-  ip: 192.252.220.89
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
-- proxy: socks5://192.111.130.2:4145
-  protocol: socks5
-  ip: 192.111.130.2
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Brampton
 - proxy: socks5://8.211.42.167:3333
   protocol: socks5
   ip: 8.211.42.167
@@ -3968,16 +5478,6 @@
   geolocation:
     country: VN
     city: Ho Chi Minh City
-- proxy: socks5://155.138.221.32:1082
-  protocol: socks5
-  ip: 155.138.221.32
-  port: 1082
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Atlanta
 - proxy: socks5://116.101.73.161:1057
   protocol: socks5
   ip: 116.101.73.161
@@ -4008,16 +5508,6 @@
   geolocation:
     country: AU
     city: Melbourne
-- proxy: socks5://216.9.225.61:1080
-  protocol: socks5
-  ip: 216.9.225.61
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Istanbul
 - proxy: socks5://209.182.234.151:40000
   protocol: socks5
   ip: 209.182.234.151
@@ -4048,39 +5538,9 @@
   geolocation:
     country: RU
     city: Moscow
-- proxy: socks5://27.219.186.8:1081
-  protocol: socks5
-  ip: 27.219.186.8
-  port: 1081
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CN
-    city: Unknown
 - proxy: socks5://23.134.76.33:1080
   protocol: socks5
   ip: 23.134.76.33
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ZZ
-    city: Unknown
-- proxy: socks5://132.226.7.23:30277
-  protocol: socks5
-  ip: 132.226.7.23
-  port: 30277
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: JP
-    city: Unknown
-- proxy: socks5://193.178.226.95:1080
-  protocol: socks5
-  ip: 193.178.226.95
   port: 1080
   https: false
   anonymity: transparent
@@ -4098,16 +5558,6 @@
   geolocation:
     country: RU
     city: Angarsk
-- proxy: socks5://128.199.37.92:1080
-  protocol: socks5
-  ip: 128.199.37.92
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: NL
-    city: Amsterdam
 - proxy: socks5://46.245.163.207:1080
   protocol: socks5
   ip: 46.245.163.207
@@ -4137,16 +5587,6 @@
   score: 1
   geolocation:
     country: SG
-    city: Unknown
-- proxy: socks5://72.194.42.156:4145
-  protocol: socks5
-  ip: 72.194.42.156
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
     city: Unknown
 - proxy: socks5://160.250.123.94:1080
   protocol: socks5
@@ -4238,16 +5678,6 @@
   geolocation:
     country: AE
     city: Dubai
-- proxy: socks5://128.199.202.122:1080
-  protocol: socks5
-  ip: 128.199.202.122
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SG
-    city: Singapore
 - proxy: socks5://24.121.176.155:1080
   protocol: socks5
   ip: 24.121.176.155
@@ -4288,36 +5718,6 @@
   geolocation:
     country: IR
     city: Mashhad
-- proxy: socks5://68.71.242.118:4145
-  protocol: socks5
-  ip: 68.71.242.118
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Toronto
-- proxy: socks5://88.218.206.170:22
-  protocol: socks5
-  ip: 88.218.206.170
-  port: 22
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Warsaw
-- proxy: socks5://72.195.114.184:4145
-  protocol: socks5
-  ip: 72.195.114.184
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://47.91.115.179:9080
   protocol: socks5
   ip: 47.91.115.179
@@ -4378,16 +5778,6 @@
   geolocation:
     country: ID
     city: Jakarta
-- proxy: socks5://68.183.7.53:9100
-  protocol: socks5
-  ip: 68.183.7.53
-  port: 9100
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: NL
-    city: Amsterdam
 - proxy: socks5://72.195.34.42:4145
   protocol: socks5
   ip: 72.195.34.42
@@ -4498,16 +5888,6 @@
   geolocation:
     country: RU
     city: Tolyatti
-- proxy: socks5://184.181.217.206:4145
-  protocol: socks5
-  ip: 184.181.217.206
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://5.144.133.195:9050
   protocol: socks5
   ip: 5.144.133.195
@@ -4568,16 +5948,6 @@
   geolocation:
     country: VN
     city: Ho Chi Minh City
-- proxy: socks5://78.109.137.53:1080
-  protocol: socks5
-  ip: 78.109.137.53
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Unknown
 - proxy: socks5://72.195.34.58:4145
   protocol: socks5
   ip: 72.195.34.58
@@ -4587,16 +5957,6 @@
   score: 1
   geolocation:
     country: US
-    city: Unknown
-- proxy: socks5://103.9.185.33:1080
-  protocol: socks5
-  ip: 103.9.185.33
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BD
     city: Unknown
 - proxy: socks5://210.16.122.12:1080
   protocol: socks5
@@ -4608,16 +5968,6 @@
   geolocation:
     country: HK
     city: Unknown
-- proxy: socks5://103.178.121.234:1080
-  protocol: socks5
-  ip: 103.178.121.234
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PK
-    city: Jhang
 - proxy: socks5://198.46.249.70:1080
   protocol: socks5
   ip: 198.46.249.70
@@ -4638,16 +5988,6 @@
   geolocation:
     country: RU
     city: Moscow
-- proxy: socks5://72.195.34.59:4145
-  protocol: socks5
-  ip: 72.195.34.59
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://8.210.17.35:11
   protocol: socks5
   ip: 8.210.17.35
@@ -4678,16 +6018,6 @@
   geolocation:
     country: CN
     city: Beijing
-- proxy: socks5://188.226.27.24:1080
-  protocol: socks5
-  ip: 188.226.27.24
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Yekaterinburg
 - proxy: socks5://203.99.63.97:1080
   protocol: socks5
   ip: 203.99.63.97
@@ -4718,16 +6048,6 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: socks5://68.71.247.130:4145
-  protocol: socks5
-  ip: 68.71.247.130
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Toronto
 - proxy: socks5://138.199.25.13:3904
   protocol: socks5
   ip: 138.199.25.13
@@ -4738,16 +6058,6 @@
   geolocation:
     country: SG
     city: Singapore
-- proxy: socks5://199.58.184.97:4145
-  protocol: socks5
-  ip: 199.58.184.97
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://199.116.112.6:4145
   protocol: socks5
   ip: 199.116.112.6
@@ -4778,16 +6088,6 @@
   geolocation:
     country: GB
     city: Unknown
-- proxy: socks5://91.234.183.79:1080
-  protocol: socks5
-  ip: 91.234.183.79
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Voskresensk
 - proxy: socks5://185.87.199.40:1080
   protocol: socks5
   ip: 185.87.199.40
@@ -4838,16 +6138,6 @@
   geolocation:
     country: RU
     city: Ufa
-- proxy: socks5://68.71.252.38:4145
-  protocol: socks5
-  ip: 68.71.252.38
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Toronto
 - proxy: socks5://138.199.222.72:9050
   protocol: socks5
   ip: 138.199.222.72
@@ -4888,16 +6178,6 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: socks5://116.202.32.250:1086
-  protocol: socks5
-  ip: 116.202.32.250
-  port: 1086
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DE
-    city: Unknown
 - proxy: socks5://72.37.217.3:4145
   protocol: socks5
   ip: 72.37.217.3
@@ -4918,16 +6198,6 @@
   geolocation:
     country: CN
     city: Unknown
-- proxy: socks5://192.252.215.5:16137
-  protocol: socks5
-  ip: 192.252.215.5
-  port: 16137
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Portland
 - proxy: socks5://174.64.199.79:4145
   protocol: socks5
   ip: 174.64.199.79
@@ -4968,16 +6238,6 @@
   geolocation:
     country: ZA
     city: Johannesburg
-- proxy: socks5://67.201.35.145:4145
-  protocol: socks5
-  ip: 67.201.35.145
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: West Covina
 - proxy: socks5://142.54.236.97:4145
   protocol: socks5
   ip: 142.54.236.97
@@ -4987,26 +6247,6 @@
   score: 1
   geolocation:
     country: US
-    city: Unknown
-- proxy: socks5://222.211.216.201:7890
-  protocol: socks5
-  ip: 222.211.216.201
-  port: 7890
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CN
-    city: Chengdu
-- proxy: socks5://87.107.68.231:1081
-  protocol: socks5
-  ip: 87.107.68.231
-  port: 1081
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IR
     city: Unknown
 - proxy: socks5://199.247.18.115:9050
   protocol: socks5
@@ -5028,16 +6268,6 @@
   geolocation:
     country: RU
     city: Unknown
-- proxy: socks5://184.178.172.11:4145
-  protocol: socks5
-  ip: 184.178.172.11
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Roanoke
 - proxy: socks5://8.215.15.163:8080
   protocol: socks5
   ip: 8.215.15.163
@@ -5098,16 +6328,6 @@
   geolocation:
     country: PH
     city: Manila
-- proxy: socks5://58.27.213.133:1080
-  protocol: socks5
-  ip: 58.27.213.133
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PK
-    city: Lahore
 - proxy: socks5://47.238.130.212:5000
   protocol: socks5
   ip: 47.238.130.212
@@ -5118,16 +6338,6 @@
   geolocation:
     country: HK
     city: Hong Kong
-- proxy: socks5://57.128.249.250:9052
-  protocol: socks5
-  ip: 57.128.249.250
-  port: 9052
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: FR
-    city: Unknown
 - proxy: socks5://8.215.15.163:8000
   protocol: socks5
   ip: 8.215.15.163
@@ -5208,16 +6418,6 @@
   geolocation:
     country: IT
     city: Arezzo
-- proxy: socks5://202.142.153.220:1080
-  protocol: socks5
-  ip: 202.142.153.220
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PK
-    city: Lahore
 - proxy: socks5://174.64.199.82:4145
   protocol: socks5
   ip: 174.64.199.82
@@ -5227,16 +6427,6 @@
   score: 1
   geolocation:
     country: US
-    city: Unknown
-- proxy: socks5://43.230.193.154:1080
-  protocol: socks5
-  ip: 43.230.193.154
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KH
     city: Unknown
 - proxy: socks5://212.3.127.242:10801
   protocol: socks5
@@ -5308,26 +6498,6 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: socks5://43.155.128.61:1080
-  protocol: socks5
-  ip: 43.155.128.61
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KR
-    city: Seoul
-- proxy: socks5://178.176.118.74:1080
-  protocol: socks5
-  ip: 178.176.118.74
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Yekaterinburg
 - proxy: socks5://91.199.137.149:2010
   protocol: socks5
   ip: 91.199.137.149
@@ -5418,26 +6588,6 @@
   geolocation:
     country: RU
     city: Rostov-on-Don
-- proxy: socks5://168.253.92.93:10808
-  protocol: socks5
-  ip: 168.253.92.93
-  port: 10808
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ZA
-    city: Middelburg
-- proxy: socks5://110.39.13.162:1080
-  protocol: socks5
-  ip: 110.39.13.162
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PK
-    city: Lahore
 - proxy: socks5://188.134.95.74:1080
   protocol: socks5
   ip: 188.134.95.74
@@ -5448,26 +6598,6 @@
   geolocation:
     country: RU
     city: St Petersburg
-- proxy: socks5://62.152.37.189:1080
-  protocol: socks5
-  ip: 62.152.37.189
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: St Petersburg
-- proxy: socks5://111.231.166.199:1080
-  protocol: socks5
-  ip: 111.231.166.199
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CN
-    city: Unknown
 - proxy: socks5://203.189.135.140:1080
   protocol: socks5
   ip: 203.189.135.140
@@ -5528,16 +6658,6 @@
   geolocation:
     country: US
     city: North Bergen
-- proxy: socks5://120.133.82.62:44074
-  protocol: socks5
-  ip: 120.133.82.62
-  port: 44074
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CN
-    city: Unknown
 - proxy: socks5://68.1.210.189:4145
   protocol: socks5
   ip: 68.1.210.189
@@ -5548,16 +6668,6 @@
   geolocation:
     country: US
     city: Santee
-- proxy: socks5://202.62.42.167:1080
-  protocol: socks5
-  ip: 202.62.42.167
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KH
-    city: Phnom Penh
 - proxy: socks5://103.126.173.159:1080
   protocol: socks5
   ip: 103.126.173.159
@@ -5578,16 +6688,6 @@
   geolocation:
     country: ID
     city: Indramayu
-- proxy: socks5://120.133.82.62:44204
-  protocol: socks5
-  ip: 120.133.82.62
-  port: 44204
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CN
-    city: Unknown
 - proxy: socks5://185.121.133.164:1080
   protocol: socks5
   ip: 185.121.133.164
@@ -5647,16 +6747,6 @@
   score: 1
   geolocation:
     country: DE
-    city: Unknown
-- proxy: socks5://142.54.235.9:4145
-  protocol: socks5
-  ip: 142.54.235.9
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
     city: Unknown
 - proxy: socks5://103.155.185.26:1088
   protocol: socks5
@@ -5728,16 +6818,6 @@
   geolocation:
     country: KH
     city: Unknown
-- proxy: socks5://103.84.166.37:1080
-  protocol: socks5
-  ip: 103.84.166.37
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IN
-    city: Unknown
 - proxy: socks5://184.170.245.148:4145
   protocol: socks5
   ip: 184.170.245.148
@@ -5788,16 +6868,6 @@
   geolocation:
     country: AE
     city: Dubai
-- proxy: socks5://184.170.248.5:4145
-  protocol: socks5
-  ip: 184.170.248.5
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://74.119.147.209:4145
   protocol: socks5
   ip: 74.119.147.209
@@ -5818,16 +6888,6 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: socks5://124.248.191.83:1080
-  protocol: socks5
-  ip: 124.248.191.83
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KH
-    city: Phnom Penh
 - proxy: socks5://161.97.140.69:9060
   protocol: socks5
   ip: 161.97.140.69
@@ -5908,26 +6968,6 @@
   geolocation:
     country: VN
     city: Unknown
-- proxy: socks5://118.70.151.55:1080
-  protocol: socks5
-  ip: 118.70.151.55
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Ho Chi Minh City
-- proxy: socks5://107.181.168.145:4145
-  protocol: socks5
-  ip: 107.181.168.145
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://8.211.194.78:8080
   protocol: socks5
   ip: 8.211.194.78
@@ -5988,16 +7028,6 @@
   geolocation:
     country: PH
     city: Manila
-- proxy: socks5://103.206.68.241:1080
-  protocol: socks5
-  ip: 103.206.68.241
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MN
-    city: Unknown
 - proxy: socks5://103.182.22.197:9000
   protocol: socks5
   ip: 103.182.22.197
@@ -6048,26 +7078,6 @@
   geolocation:
     country: MN
     city: Unknown
-- proxy: socks5://110.93.227.229:1080
-  protocol: socks5
-  ip: 110.93.227.229
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PK
-    city: Islamabad
-- proxy: socks5://185.9.73.44:1080
-  protocol: socks5
-  ip: 185.9.73.44
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Serpukhov
 - proxy: socks5://37.53.90.82:12542
   protocol: socks5
   ip: 37.53.90.82
@@ -6138,16 +7148,6 @@
   geolocation:
     country: VN
     city: Ho Chi Minh City
-- proxy: socks5://47.85.9.228:10800
-  protocol: socks5
-  ip: 47.85.9.228
-  port: 10800
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://94.230.127.180:1080
   protocol: socks5
   ip: 94.230.127.180
@@ -6198,26 +7198,6 @@
   geolocation:
     country: JP
     city: Tokyo
-- proxy: socks5://103.239.201.50:58765
-  protocol: socks5
-  ip: 103.239.201.50
-  port: 58765
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PH
-    city: Unknown
-- proxy: socks5://195.201.246.53:1082
-  protocol: socks5
-  ip: 195.201.246.53
-  port: 1082
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DE
-    city: Gunzenhausen
 - proxy: socks5://91.215.189.234:1080
   protocol: socks5
   ip: 91.215.189.234
@@ -6248,16 +7228,6 @@
   geolocation:
     country: RU
     city: Moscow
-- proxy: socks5://103.82.246.255:1080
-  protocol: socks5
-  ip: 103.82.246.255
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Banyuwangi
 - proxy: socks5://102.0.14.42:1080
   protocol: socks5
   ip: 102.0.14.42
@@ -6288,16 +7258,6 @@
   geolocation:
     country: US
     city: West Covina
-- proxy: socks5://188.113.182.218:1080
-  protocol: socks5
-  ip: 188.113.182.218
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Yuzhno-Sakhalinsk
 - proxy: socks5://194.9.233.171:1080
   protocol: socks5
   ip: 194.9.233.171
@@ -6388,16 +7348,6 @@
   geolocation:
     country: SG
     city: Unknown
-- proxy: socks5://116.202.32.250:1085
-  protocol: socks5
-  ip: 116.202.32.250
-  port: 1085
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DE
-    city: Unknown
 - proxy: socks5://103.151.74.29:2025
   protocol: socks5
   ip: 103.151.74.29
@@ -6428,16 +7378,6 @@
   geolocation:
     country: VN
     city: Unknown
-- proxy: socks5://202.62.52.20:1080
-  protocol: socks5
-  ip: 202.62.52.20
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KH
-    city: Phnom Penh
 - proxy: socks5://185.9.144.189:1080
   protocol: socks5
   ip: 185.9.144.189
@@ -6488,16 +7428,6 @@
   geolocation:
     country: IQ
     city: Unknown
-- proxy: socks5://203.76.123.6:1080
-  protocol: socks5
-  ip: 203.76.123.6
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BD
-    city: Dhaka
 - proxy: socks5://85.122.120.119:30016
   protocol: socks5
   ip: 85.122.120.119
@@ -6528,16 +7458,6 @@
   geolocation:
     country: BG
     city: Unknown
-- proxy: socks5://103.191.218.119:69
-  protocol: socks5
-  ip: 103.191.218.119
-  port: 69
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Cirebon
 - proxy: socks5://101.2.166.41:1080
   protocol: socks5
   ip: 101.2.166.41
@@ -6728,26 +7648,6 @@
   geolocation:
     country: US
     city: Apple Valley
-- proxy: socks5://98.175.31.222:4145
-  protocol: socks5
-  ip: 98.175.31.222
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Norfolk
-- proxy: socks5://72.195.34.41:4145
-  protocol: socks5
-  ip: 72.195.34.41
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://162.253.68.97:4145
   protocol: socks5
   ip: 162.253.68.97
@@ -6858,16 +7758,6 @@
   geolocation:
     country: BD
     city: Dhaka
-- proxy: socks5://104.200.152.30:4145
-  protocol: socks5
-  ip: 104.200.152.30
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Los Angeles
 - proxy: socks5://116.99.206.177:1080
   protocol: socks5
   ip: 116.99.206.177
@@ -6918,16 +7808,6 @@
   geolocation:
     country: PK
     city: Unknown
-- proxy: socks5://186.219.210.133:7080
-  protocol: socks5
-  ip: 186.219.210.133
-  port: 7080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Unknown
 - proxy: socks5://185.121.133.162:1080
   protocol: socks5
   ip: 185.121.133.162
@@ -6977,16 +7857,6 @@
   score: 1
   geolocation:
     country: PS
-    city: Unknown
-- proxy: socks5://192.252.216.81:4145
-  protocol: socks5
-  ip: 192.252.216.81
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
     city: Unknown
 - proxy: socks5://103.136.106.13:1081
   protocol: socks5
@@ -7068,16 +7938,6 @@
   geolocation:
     country: RU
     city: St Petersburg
-- proxy: socks5://95.163.85.73:1080
-  protocol: socks5
-  ip: 95.163.85.73
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Unknown
 - proxy: socks5://103.138.145.102:1999
   protocol: socks5
   ip: 103.138.145.102
@@ -7328,16 +8188,6 @@
   geolocation:
     country: AR
     city: Rosario
-- proxy: socks5://87.76.138.46:1080
-  protocol: socks5
-  ip: 87.76.138.46
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: UA
-    city: Unknown
 - proxy: socks5://113.160.188.21:1080
   protocol: socks5
   ip: 113.160.188.21
@@ -7378,16 +8228,6 @@
   geolocation:
     country: ID
     city: Bogor
-- proxy: socks5://178.57.102.50:1080
-  protocol: socks5
-  ip: 178.57.102.50
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Cherepovets
 - proxy: socks5://74.205.206.13:1080
   protocol: socks5
   ip: 74.205.206.13
@@ -7428,36 +8268,6 @@
   geolocation:
     country: CN
     city: Suzhou
-- proxy: socks5://130.255.95.177:4080
-  protocol: socks5
-  ip: 130.255.95.177
-  port: 4080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IQ
-    city: Unknown
-- proxy: socks5://202.44.106.141:1080
-  protocol: socks5
-  ip: 202.44.106.141
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BD
-    city: Dhaka
-- proxy: socks5://31.211.142.115:8192
-  protocol: socks5
-  ip: 31.211.142.115
-  port: 8192
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BG
-    city: Pleven
 - proxy: socks5://43.165.133.188:9050
   protocol: socks5
   ip: 43.165.133.188
@@ -7488,16 +8298,6 @@
   geolocation:
     country: TH
     city: Bangkok
-- proxy: socks5://87.117.2.201:1080
-  protocol: socks5
-  ip: 87.117.2.201
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Rostov-on-Don
 - proxy: socks5://8.213.222.247:8888
   protocol: socks5
   ip: 8.213.222.247
@@ -7628,16 +8428,6 @@
   geolocation:
     country: US
     city: Austin
-- proxy: socks5://45.179.145.12:6080
-  protocol: socks5
-  ip: 45.179.145.12
-  port: 6080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BR
-    city: Brasília
 - proxy: socks5://123.0.24.154:9090
   protocol: socks5
   ip: 123.0.24.154
@@ -7668,16 +8458,6 @@
   geolocation:
     country: IN
     city: Indore
-- proxy: socks5://8.40.19.133:1080
-  protocol: socks5
-  ip: 8.40.19.133
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Martins Ferry
 - proxy: socks5://138.124.66.203:1080
   protocol: socks5
   ip: 138.124.66.203
@@ -7698,26 +8478,6 @@
   geolocation:
     country: ID
     city: Unknown
-- proxy: socks5://65.109.196.122:2080
-  protocol: socks5
-  ip: 65.109.196.122
-  port: 2080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: FI
-    city: Helsinki
-- proxy: socks5://47.254.213.60:1081
-  protocol: socks5
-  ip: 47.254.213.60
-  port: 1081
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MY
-    city: Kuala Lumpur
 - proxy: socks5://78.80.157.35:1080
   protocol: socks5
   ip: 78.80.157.35
@@ -7838,16 +8598,6 @@
   geolocation:
     country: BR
     city: Brasília
-- proxy: socks5://176.115.192.185:1080
-  protocol: socks5
-  ip: 176.115.192.185
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Moscow
 - proxy: socks5://212.46.215.90:1080
   protocol: socks5
   ip: 212.46.215.90
@@ -7898,16 +8648,6 @@
   geolocation:
     country: MX
     city: Unknown
-- proxy: socks5://27.112.79.97:1080
-  protocol: socks5
-  ip: 27.112.79.97
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ID
-    city: Sukabumi
 - proxy: socks5://61.9.34.222:58765
   protocol: socks5
   ip: 61.9.34.222
@@ -7917,16 +8657,6 @@
   score: 1
   geolocation:
     country: PH
-    city: Unknown
-- proxy: socks5://46.224.14.155:9050
-  protocol: socks5
-  ip: 46.224.14.155
-  port: 9050
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IR
     city: Unknown
 - proxy: socks5://213.27.29.153:51000
   protocol: socks5
@@ -7948,16 +8678,6 @@
   geolocation:
     country: FI
     city: Helsinki
-- proxy: socks5://202.44.106.73:1080
-  protocol: socks5
-  ip: 202.44.106.73
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BD
-    city: Dhaka
 - proxy: socks5://95.216.45.44:10625
   protocol: socks5
   ip: 95.216.45.44
@@ -7978,16 +8698,6 @@
   geolocation:
     country: HK
     city: Hong Kong
-- proxy: socks5://217.113.119.222:1080
-  protocol: socks5
-  ip: 217.113.119.222
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Zhigulevsk
 - proxy: socks5://95.216.8.124:1088
   protocol: socks5
   ip: 95.216.8.124
@@ -8017,16 +8727,6 @@
   score: 1
   geolocation:
     country: VN
-    city: Unknown
-- proxy: socks5://47.85.37.60:1080
-  protocol: socks5
-  ip: 47.85.37.60
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
     city: Unknown
 - proxy: socks5://65.21.19.137:10469
   protocol: socks5
@@ -8198,16 +8898,6 @@
   geolocation:
     country: US
     city: Boone
-- proxy: socks5://46.232.249.209:40001
-  protocol: socks5
-  ip: 46.232.249.209
-  port: 40001
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DE
-    city: Unknown
 - proxy: socks5://147.45.42.90:9050
   protocol: socks5
   ip: 147.45.42.90
@@ -8257,36 +8947,6 @@
   score: 1
   geolocation:
     country: VN
-    city: Unknown
-- proxy: socks5://68.71.249.158:4145
-  protocol: socks5
-  ip: 68.71.249.158
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Toronto
-- proxy: socks5://66.231.128.103:1080
-  protocol: socks5
-  ip: 66.231.128.103
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Gainesville
-- proxy: socks5://85.235.62.246:1080
-  protocol: socks5
-  ip: 85.235.62.246
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
     city: Unknown
 - proxy: socks5://95.216.8.124:1083
   protocol: socks5
@@ -8338,16 +8998,6 @@
   geolocation:
     country: RU
     city: Unknown
-- proxy: socks5://192.111.139.165:4145
-  protocol: socks5
-  ip: 192.111.139.165
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Brampton
 - proxy: socks5://92.101.193.58:1080
   protocol: socks5
   ip: 92.101.193.58
@@ -8358,16 +9008,6 @@
   geolocation:
     country: RU
     city: Murmansk
-- proxy: socks5://47.250.155.254:8443
-  protocol: socks5
-  ip: 47.250.155.254
-  port: 8443
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MY
-    city: Kuala Lumpur
 - proxy: socks5://123.145.92.71:1081
   protocol: socks5
   ip: 123.145.92.71
@@ -8408,16 +9048,6 @@
   geolocation:
     country: DE
     city: Frankfurt am Main
-- proxy: socks5://166.62.53.45:45842
-  protocol: socks5
-  ip: 166.62.53.45
-  port: 45842
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://77.91.108.85:1080
   protocol: socks5
   ip: 77.91.108.85
@@ -8438,16 +9068,6 @@
   geolocation:
     country: DE
     city: Frankfurt am Main
-- proxy: socks5://110.93.218.62:1080
-  protocol: socks5
-  ip: 110.93.218.62
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PK
-    city: Unknown
 - proxy: socks5://178.253.38.101:10808
   protocol: socks5
   ip: 178.253.38.101
@@ -8468,16 +9088,6 @@
   geolocation:
     country: DE
     city: Frankfurt am Main
-- proxy: socks5://154.219.101.12:1080
-  protocol: socks5
-  ip: 154.219.101.12
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: HK
-    city: Unknown
 - proxy: socks5://166.62.88.163:45842
   protocol: socks5
   ip: 166.62.88.163
@@ -8508,16 +9118,6 @@
   geolocation:
     country: TR
     city: Selcuklu
-- proxy: socks5://90.150.21.88:1080
-  protocol: socks5
-  ip: 90.150.21.88
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Salekhard
 - proxy: socks5://72.56.104.252:9058
   protocol: socks5
   ip: 72.56.104.252
@@ -8598,16 +9198,6 @@
   geolocation:
     country: RU
     city: Unknown
-- proxy: socks5://103.96.233.10:1080
-  protocol: socks5
-  ip: 103.96.233.10
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AF
-    city: Unknown
 - proxy: socks5://192.254.65.12:1080
   protocol: socks5
   ip: 192.254.65.12
@@ -8618,16 +9208,6 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: socks5://1.53.40.240:1080
-  protocol: socks5
-  ip: 1.53.40.240
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Ho Chi Minh City
 - proxy: socks5://5.183.146.186:1080
   protocol: socks5
   ip: 5.183.146.186
@@ -8638,16 +9218,6 @@
   geolocation:
     country: RU
     city: Ust'-Ilimsk
-- proxy: socks5://129.222.104.186:1080
-  protocol: socks5
-  ip: 129.222.104.186
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Winnipeg
 - proxy: socks5://193.232.179.68:10808
   protocol: socks5
   ip: 193.232.179.68
@@ -8658,16 +9228,6 @@
   geolocation:
     country: RU
     city: Moscow
-- proxy: socks5://1.55.102.13:1080
-  protocol: socks5
-  ip: 1.55.102.13
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Ho Chi Minh City
 - proxy: socks5://27.64.194.122:1080
   protocol: socks5
   ip: 27.64.194.122
@@ -8687,16 +9247,6 @@
   score: 1
   geolocation:
     country: HK
-    city: Unknown
-- proxy: socks5://46.226.167.214:1080
-  protocol: socks5
-  ip: 46.226.167.214
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AM
     city: Unknown
 - proxy: socks5://202.112.47.116:7890
   protocol: socks5
@@ -8758,26 +9308,6 @@
   geolocation:
     country: RU
     city: Unknown
-- proxy: socks5://110.38.233.122:1080
-  protocol: socks5
-  ip: 110.38.233.122
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PK
-    city: Unknown
-- proxy: socks5://152.70.237.238:3128
-  protocol: socks5
-  ip: 152.70.237.238
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KR
-    city: Seoul
 - proxy: socks5://198.252.108.20:9050
   protocol: socks5
   ip: 198.252.108.20
@@ -8848,16 +9378,6 @@
   geolocation:
     country: RU
     city: Murino
-- proxy: socks5://82.149.217.54:1080
-  protocol: socks5
-  ip: 82.149.217.54
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Moscow
 - proxy: socks5://47.251.73.54:80
   protocol: socks5
   ip: 47.251.73.54
@@ -8978,16 +9498,6 @@
   geolocation:
     country: US
     city: Los Angeles
-- proxy: socks5://144.91.83.56:9050
-  protocol: socks5
-  ip: 144.91.83.56
-  port: 9050
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DE
-    city: Nuremberg
 - proxy: socks5://58.32.16.138:7001
   protocol: socks5
   ip: 58.32.16.138
@@ -9078,16 +9588,6 @@
   geolocation:
     country: RU
     city: Moscow
-- proxy: socks5://195.19.56.209:1080
-  protocol: socks5
-  ip: 195.19.56.209
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Unknown
 - proxy: socks5://83.69.2.36:1080
   protocol: socks5
   ip: 83.69.2.36
@@ -9108,16 +9608,6 @@
   geolocation:
     country: HK
     city: Tuen Mun
-- proxy: socks5://150.136.58.221:1080
-  protocol: socks5
-  ip: 150.136.58.221
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Ashburn
 - proxy: socks5://103.248.47.230:1080
   protocol: socks5
   ip: 103.248.47.230
@@ -9138,16 +9628,6 @@
   geolocation:
     country: ZZ
     city: Unknown
-- proxy: socks5://38.10.71.91:1080
-  protocol: socks5
-  ip: 38.10.71.91
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TR
-    city: Selcuklu
 - proxy: socks5://188.233.187.89:1080
   protocol: socks5
   ip: 188.233.187.89
@@ -9428,16 +9908,6 @@
   geolocation:
     country: GB
     city: Crawley
-- proxy: socks5://51.75.68.184:9050
-  protocol: socks5
-  ip: 51.75.68.184
-  port: 9050
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DE
-    city: Unknown
 - proxy: socks5://14.224.194.181:2080
   protocol: socks5
   ip: 14.224.194.181
@@ -9588,16 +10058,6 @@
   geolocation:
     country: CA
     city: Dryden
-- proxy: socks5://83.172.43.66:1080
-  protocol: socks5
-  ip: 83.172.43.66
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Unknown
 - proxy: socks5://182.176.111.188:1080
   protocol: socks5
   ip: 182.176.111.188
@@ -9728,16 +10188,6 @@
   geolocation:
     country: RU
     city: Unknown
-- proxy: socks5://93.153.222.83:1080
-  protocol: socks5
-  ip: 93.153.222.83
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Unknown
 - proxy: socks5://103.179.189.64:9191
   protocol: socks5
   ip: 103.179.189.64
@@ -9778,16 +10228,6 @@
   geolocation:
     country: US
     city: Council Bluffs
-- proxy: socks5://47.91.121.127:50
-  protocol: socks5
-  ip: 47.91.121.127
-  port: 50
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AE
-    city: Dubai
 - proxy: socks5://89.110.98.72:9050
   protocol: socks5
   ip: 89.110.98.72
@@ -9797,16 +10237,6 @@
   score: 1
   geolocation:
     country: NL
-    city: Unknown
-- proxy: socks5://221.176.85.236:1080
-  protocol: socks5
-  ip: 221.176.85.236
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CN
     city: Unknown
 - proxy: socks5://194.87.79.243:2333
   protocol: socks5
@@ -9918,26 +10348,6 @@
   geolocation:
     country: ZZ
     city: Unknown
-- proxy: socks5://8.211.49.86:1081
-  protocol: socks5
-  ip: 8.211.49.86
-  port: 1081
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DE
-    city: Frankfurt am Main
-- proxy: socks5://8.211.49.86:5007
-  protocol: socks5
-  ip: 8.211.49.86
-  port: 5007
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DE
-    city: Frankfurt am Main
 - proxy: socks5://47.237.107.41:8443
   protocol: socks5
   ip: 47.237.107.41
@@ -9998,16 +10408,6 @@
   geolocation:
     country: GB
     city: Stoke-on-Trent
-- proxy: socks5://103.82.193.105:9191
-  protocol: socks5
-  ip: 103.82.193.105
-  port: 9191
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Unknown
 - proxy: socks5://8.213.215.187:5269
   protocol: socks5
   ip: 8.213.215.187
@@ -10148,16 +10548,6 @@
   geolocation:
     country: JP
     city: Unknown
-- proxy: socks5://188.75.3.66:1080
-  protocol: socks5
-  ip: 188.75.3.66
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Unknown
 - proxy: socks5://27.74.13.219:5001
   protocol: socks5
   ip: 27.74.13.219
@@ -10228,26 +10618,6 @@
   geolocation:
     country: US
     city: Ashburn
-- proxy: socks5://212.220.113.31:1080
-  protocol: socks5
-  ip: 212.220.113.31
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Yekaterinburg
-- proxy: socks5://8.209.96.245:1234
-  protocol: socks5
-  ip: 8.209.96.245
-  port: 1234
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DE
-    city: Frankfurt am Main
 - proxy: socks5://27.74.13.212:5001
   protocol: socks5
   ip: 27.74.13.212
@@ -10338,16 +10708,6 @@
   geolocation:
     country: RU
     city: Petropavlovsk-Kamchatsky
-- proxy: socks5://58.187.192.47:1080
-  protocol: socks5
-  ip: 58.187.192.47
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: VN
-    city: Hanoi
 - proxy: socks5://78.80.149.106:1080
   protocol: socks5
   ip: 78.80.149.106
@@ -10448,36 +10808,6 @@
   geolocation:
     country: BR
     city: Itajaí
-- proxy: socks5://8.211.200.183:1000
-  protocol: socks5
-  ip: 8.211.200.183
-  port: 1000
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GB
-    city: London
-- proxy: socks5://8.211.200.183:6379
-  protocol: socks5
-  ip: 8.211.200.183
-  port: 6379
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GB
-    city: London
-- proxy: socks5://8.211.200.183:80
-  protocol: socks5
-  ip: 8.211.200.183
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GB
-    city: London
 - proxy: socks5://38.242.156.163:9050
   protocol: socks5
   ip: 38.242.156.163
@@ -10648,16 +10978,6 @@
   geolocation:
     country: VN
     city: Ho Chi Minh City
-- proxy: socks5://103.4.95.90:1080
-  protocol: socks5
-  ip: 103.4.95.90
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PK
-    city: Lahore
 - proxy: socks5://27.74.14.60:5000
   protocol: socks5
   ip: 27.74.14.60
@@ -10708,16 +11028,6 @@
   geolocation:
     country: CA
     city: Unknown
-- proxy: socks5://47.237.2.245:9080
-  protocol: socks5
-  ip: 47.237.2.245
-  port: 9080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SG
-    city: Unknown
 - proxy: socks5://8.218.201.34:1111
   protocol: socks5
   ip: 8.218.201.34
@@ -10728,16 +11038,6 @@
   geolocation:
     country: HK
     city: Hong Kong
-- proxy: socks5://192.111.139.162:4145
-  protocol: socks5
-  ip: 192.111.139.162
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CA
-    city: Brampton
 - proxy: socks5://188.17.153.86:11080
   protocol: socks5
   ip: 188.17.153.86
@@ -10908,16 +11208,6 @@
   geolocation:
     country: RU
     city: Unknown
-- proxy: socks5://118.179.205.174:2080
-  protocol: socks5
-  ip: 118.179.205.174
-  port: 2080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BD
-    city: Qasba
 - proxy: socks5://216.144.231.107:1080
   protocol: socks5
   ip: 216.144.231.107
@@ -11508,26 +11798,6 @@
   geolocation:
     country: RU
     city: Unknown
-- proxy: socks5://47.91.29.151:33427
-  protocol: socks5
-  ip: 47.91.29.151
-  port: 33427
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: JP
-    city: Tokyo
-- proxy: socks5://47.91.29.151:8443
-  protocol: socks5
-  ip: 47.91.29.151
-  port: 8443
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: JP
-    city: Tokyo
 - proxy: socks5://47.89.159.212:137
   protocol: socks5
   ip: 47.89.159.212
@@ -11618,16 +11888,6 @@
   geolocation:
     country: IN
     city: Panipat
-- proxy: socks5://47.250.155.254:10002
-  protocol: socks5
-  ip: 47.250.155.254
-  port: 10002
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: MY
-    city: Kuala Lumpur
 - proxy: socks5://195.182.149.117:1080
   protocol: socks5
   ip: 195.182.149.117
@@ -11638,16 +11898,6 @@
   geolocation:
     country: RU
     city: St Petersburg
-- proxy: socks5://45.38.210.105:9050
-  protocol: socks5
-  ip: 45.38.210.105
-  port: 9050
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://31.58.46.112:1080
   protocol: socks5
   ip: 31.58.46.112
@@ -11948,16 +12198,6 @@
   geolocation:
     country: US
     city: Palisades
-- proxy: socks5://91.92.155.207:1080
-  protocol: socks5
-  ip: 91.92.155.207
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CH
-    city: Unknown
 - proxy: socks5://151.59.125.200:1080
   protocol: socks5
   ip: 151.59.125.200
@@ -12438,16 +12678,6 @@
   geolocation:
     country: VN
     city: Ho Chi Minh City
-- proxy: socks5://163.5.53.209:1080
-  protocol: socks5
-  ip: 163.5.53.209
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: FR
-    city: Unknown
 - proxy: socks5://145.220.227.142:8080
   protocol: socks5
   ip: 145.220.227.142
@@ -13858,16 +14088,6 @@
   geolocation:
     country: RU
     city: Kirov
-- proxy: socks5://221.176.85.226:1080
-  protocol: socks5
-  ip: 221.176.85.226
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CN
-    city: Unknown
 - proxy: socks5://31.58.78.147:1080
   protocol: socks5
   ip: 31.58.78.147
@@ -13908,16 +14128,6 @@
   geolocation:
     country: BD
     city: Dhaka
-- proxy: socks5://23.134.76.172:1080
-  protocol: socks5
-  ip: 23.134.76.172
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ZZ
-    city: Unknown
 - proxy: socks5://45.76.13.121:49995
   protocol: socks5
   ip: 45.76.13.121
@@ -14098,16 +14308,6 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: socks5://103.197.48.208:1080
-  protocol: socks5
-  ip: 103.197.48.208
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BD
-    city: Unknown
 - proxy: socks5://68.64.179.186:1080
   protocol: socks5
   ip: 68.64.179.186
@@ -14167,16 +14367,6 @@
   score: 1
   geolocation:
     country: SC
-    city: Unknown
-- proxy: socks5://45.39.60.198:1080
-  protocol: socks5
-  ip: 45.39.60.198
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
     city: Unknown
 - proxy: socks5://134.65.245.71:9050
   protocol: socks5
@@ -14868,16 +15058,6 @@
   geolocation:
     country: IT
     city: Unknown
-- proxy: socks5://45.202.240.161:10808
-  protocol: socks5
-  ip: 45.202.240.161
-  port: 10808
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: US
-    city: Unknown
 - proxy: socks5://43.131.25.228:9000
   protocol: socks5
   ip: 43.131.25.228
@@ -15068,16 +15248,6 @@
   geolocation:
     country: US
     city: Jupiter
-- proxy: socks5://85.208.51.17:1086
-  protocol: socks5
-  ip: 85.208.51.17
-  port: 1086
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: DE
-    city: Düsseldorf
 - proxy: socks5://222.184.87.68:8989
   protocol: socks5
   ip: 222.184.87.68
@@ -15577,16 +15747,6 @@
   score: 1
   geolocation:
     country: CN
-    city: Unknown
-- proxy: socks5://78.40.198.4:8443
-  protocol: socks5
-  ip: 78.40.198.4
-  port: 8443
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: NL
     city: Unknown
 - proxy: socks5://38.76.202.58:8888
   protocol: socks5
@@ -16368,16 +16528,6 @@
   geolocation:
     country: RU
     city: Krasnyy Bor
-- proxy: socks5://83.242.252.202:1080
-  protocol: socks5
-  ip: 83.242.252.202
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Tolyatti
 - proxy: socks5://195.239.55.171:1080
   protocol: socks5
   ip: 195.239.55.171
@@ -17578,16 +17728,6 @@
   geolocation:
     country: CZ
     city: Zabreh
-- proxy: socks5://49.235.161.213:2080
-  protocol: socks5
-  ip: 49.235.161.213
-  port: 2080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CN
-    city: Unknown
 - proxy: socks5://185.121.133.222:1080
   protocol: socks5
   ip: 185.121.133.222
@@ -22078,16 +22218,6 @@
   geolocation:
     country: TR
     city: Gaziantep
-- proxy: socks5://188.19.202.254:1080
-  protocol: socks5
-  ip: 188.19.202.254
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RU
-    city: Unknown
 - proxy: socks5://167.172.89.50:1080
   protocol: socks5
   ip: 167.172.89.50
@@ -23478,16 +23608,6 @@
   geolocation:
     country: US
     city: Anaheim
-- proxy: socks5://203.189.150.126:1080
-  protocol: socks5
-  ip: 203.189.150.126
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KH
-    city: Phnom Penh
 - proxy: socks5://154.17.9.96:3096
   protocol: socks5
   ip: 154.17.9.96
@@ -34438,16 +34558,6 @@
   geolocation:
     country: US
     city: Unknown
-- proxy: socks5://95.85.242.7:9050
-  protocol: socks5
-  ip: 95.85.242.7
-  port: 9050
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CZ
-    city: Brniste
 - proxy: socks5://45.93.94.227:1080
   protocol: socks5
   ip: 45.93.94.227

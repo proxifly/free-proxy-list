@@ -39,9 +39,22 @@
     }
   },
   {
-    "proxy": "https://150.241.139.238:9443",
+    "proxy": "https://150.241.139.214:9443",
     "protocol": "https",
-    "ip": "150.241.139.238",
+    "ip": "150.241.139.214",
+    "port": 9443,
+    "https": true,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "ES",
+      "city": "Bilbao"
+    }
+  },
+  {
+    "proxy": "https://150.241.139.30:9443",
+    "protocol": "https",
+    "ip": "150.241.139.30",
     "port": 9443,
     "https": true,
     "anonymity": "transparent",
@@ -104,16 +117,29 @@
     }
   },
   {
-    "proxy": "http://217.76.245.80:999",
+    "proxy": "http://89.42.71.98:8097",
     "protocol": "http",
-    "ip": "217.76.245.80",
+    "ip": "89.42.71.98",
+    "port": 8097,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "ES",
+      "city": "Albox"
+    }
+  },
+  {
+    "proxy": "http://185.226.194.8:999",
+    "protocol": "http",
+    "ip": "185.226.194.8",
     "port": 999,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "ES",
-      "city": "Unknown"
+      "city": "Granada"
     }
   },
   {
@@ -234,6 +260,19 @@
     }
   },
   {
+    "proxy": "http://194.31.107.138:3128",
+    "protocol": "http",
+    "ip": "194.31.107.138",
+    "port": 3128,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "ES",
+      "city": "Unknown"
+    }
+  },
+  {
     "proxy": "socks4://83.56.15.57:5678",
     "protocol": "socks4",
     "ip": "83.56.15.57",
@@ -247,29 +286,16 @@
     }
   },
   {
-    "proxy": "http://2.139.41.14:3128",
-    "protocol": "http",
-    "ip": "2.139.41.14",
-    "port": 3128,
+    "proxy": "socks4://194.31.107.138:1080",
+    "protocol": "socks4",
+    "ip": "194.31.107.138",
+    "port": 1080,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "ES",
-      "city": "Madrid"
-    }
-  },
-  {
-    "proxy": "http://90.161.220.67:3128",
-    "protocol": "http",
-    "ip": "90.161.220.67",
-    "port": 3128,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "ES",
-      "city": "Camas"
+      "city": "Unknown"
     }
   },
   {
@@ -689,29 +715,16 @@
     }
   },
   {
-    "proxy": "http://194.31.107.138:3128",
+    "proxy": "http://90.161.220.67:3128",
     "protocol": "http",
-    "ip": "194.31.107.138",
+    "ip": "90.161.220.67",
     "port": 3128,
     "https": false,
     "anonymity": "transparent",
     "score": 1,
     "geolocation": {
       "country": "ES",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://89.42.71.98:8097",
-    "protocol": "http",
-    "ip": "89.42.71.98",
-    "port": 8097,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "ES",
-      "city": "Albox"
+      "city": "Camas"
     }
   },
   {
@@ -803,58 +816,6 @@
     "geolocation": {
       "country": "ES",
       "city": "Las Palmas de Gran Canaria"
-    }
-  },
-  {
-    "proxy": "http://90.161.220.67:3129",
-    "protocol": "http",
-    "ip": "90.161.220.67",
-    "port": 3129,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "ES",
-      "city": "Camas"
-    }
-  },
-  {
-    "proxy": "http://91.126.244.112:8080",
-    "protocol": "http",
-    "ip": "91.126.244.112",
-    "port": 8080,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "ES",
-      "city": "Santona"
-    }
-  },
-  {
-    "proxy": "http://194.31.107.138:3129",
-    "protocol": "http",
-    "ip": "194.31.107.138",
-    "port": 3129,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "ES",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://193.38.224.169:8081",
-    "protocol": "http",
-    "ip": "193.38.224.169",
-    "port": 8081,
-    "https": false,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "ES",
-      "city": "Madrid"
     }
   }
 ]
