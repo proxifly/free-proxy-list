@@ -8,16 +8,6 @@
   geolocation:
     country: LT
     city: Vilnius
-- proxy: socks4://81.7.112.174:4145
-  protocol: socks4
-  ip: 81.7.112.174
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: LT
-    city: Elektrėnai
 - proxy: https://93.115.26.111:443
   protocol: https
   ip: 93.115.26.111
@@ -38,16 +28,6 @@
   geolocation:
     country: LT
     city: Unknown
-- proxy: socks5://78.63.115.20:8899
-  protocol: socks5
-  ip: 78.63.115.20
-  port: 8899
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: LT
-    city: Vilnius
 - proxy: socks5://185.122.140.167:1080
   protocol: socks5
   ip: 185.122.140.167
@@ -68,9 +48,19 @@
   geolocation:
     country: LT
     city: Plungė
-- proxy: socks5://185.193.25.206:9050
+- proxy: socks4://81.7.112.174:4145
+  protocol: socks4
+  ip: 81.7.112.174
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: LT
+    city: Elektrėnai
+- proxy: socks5://185.193.25.181:9050
   protocol: socks5
-  ip: 185.193.25.206
+  ip: 185.193.25.181
   port: 9050
   https: false
   anonymity: transparent
@@ -78,9 +68,19 @@
   geolocation:
     country: LT
     city: Unknown
-- proxy: socks5://185.193.25.181:9050
+- proxy: socks5://78.63.115.20:8899
   protocol: socks5
-  ip: 185.193.25.181
+  ip: 78.63.115.20
+  port: 8899
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: LT
+    city: Vilnius
+- proxy: socks5://185.193.25.206:9050
+  protocol: socks5
+  ip: 185.193.25.206
   port: 9050
   https: false
   anonymity: transparent

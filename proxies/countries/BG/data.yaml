@@ -1,73 +1,3 @@
-- proxy: socks4://212.50.19.150:4153
-  protocol: socks4
-  ip: 212.50.19.150
-  port: 4153
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BG
-    city: Sofia
-- proxy: socks4://77.238.79.111:5678
-  protocol: socks4
-  ip: 77.238.79.111
-  port: 5678
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BG
-    city: Sofia
-- proxy: socks4://79.110.118.15:1080
-  protocol: socks4
-  ip: 79.110.118.15
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BG
-    city: Shumen
-- proxy: socks4://91.92.78.207:4145
-  protocol: socks4
-  ip: 91.92.78.207
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BG
-    city: Belashtitsa
-- proxy: socks4://212.5.132.74:5678
-  protocol: socks4
-  ip: 212.5.132.74
-  port: 5678
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BG
-    city: Sofia
-- proxy: https://91.92.250.33:443
-  protocol: https
-  ip: 91.92.250.33
-  port: 443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BG
-    city: Levski
-- proxy: http://88.87.6.135:3030
-  protocol: http
-  ip: 88.87.6.135
-  port: 3030
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BG
-    city: Unknown
 - proxy: socks4://109.160.97.49:4145
   protocol: socks4
   ip: 109.160.97.49
@@ -78,6 +8,26 @@
   geolocation:
     country: BG
     city: Starmen
+- proxy: https://91.92.250.33:443
+  protocol: https
+  ip: 91.92.250.33
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BG
+    city: Levski
+- proxy: https://80.72.66.116:443
+  protocol: https
+  ip: 80.72.66.116
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BG
+    city: Sofia
 - proxy: http://213.169.33.12:8001
   protocol: http
   ip: 213.169.33.12
@@ -88,9 +38,9 @@
   geolocation:
     country: BG
     city: Unknown
-- proxy: http://213.169.33.8:8001
+- proxy: http://213.169.33.3:8001
   protocol: http
-  ip: 213.169.33.8
+  ip: 213.169.33.3
   port: 8001
   https: false
   anonymity: transparent
@@ -98,6 +48,26 @@
   geolocation:
     country: BG
     city: Unknown
+- proxy: http://213.169.33.10:8001
+  protocol: http
+  ip: 213.169.33.10
+  port: 8001
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BG
+    city: Unknown
+- proxy: http://151.237.84.9:8080
+  protocol: http
+  ip: 151.237.84.9
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BG
+    city: Kardzhali
 - proxy: socks5://31.211.142.115:8192
   protocol: socks5
   ip: 31.211.142.115
@@ -338,16 +308,6 @@
   geolocation:
     country: BG
     city: Sofia
-- proxy: http://213.169.33.3:8001
-  protocol: http
-  ip: 213.169.33.3
-  port: 8001
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BG
-    city: Unknown
 - proxy: http://85.187.224.21:8080
   protocol: http
   ip: 85.187.224.21
@@ -378,16 +338,6 @@
   geolocation:
     country: BG
     city: Shumen
-- proxy: http://151.237.84.9:8080
-  protocol: http
-  ip: 151.237.84.9
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BG
-    city: Kardzhali
 - proxy: http://194.182.178.90:3128
   protocol: http
   ip: 194.182.178.90
