@@ -1,7 +1,17 @@
-- proxy: socks4://91.199.137.149:2001
+- proxy: socks5://91.199.137.149:2010
+  protocol: socks5
+  ip: 91.199.137.149
+  port: 2010
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: EE
+    city: Unknown
+- proxy: socks4://91.199.137.149:2010
   protocol: socks4
   ip: 91.199.137.149
-  port: 2001
+  port: 2010
   https: false
   anonymity: transparent
   score: 1
@@ -10,16 +20,6 @@
     city: Unknown
 - proxy: socks4://91.199.137.149:2015
   protocol: socks4
-  ip: 91.199.137.149
-  port: 2015
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: EE
-    city: Unknown
-- proxy: socks5://91.199.137.149:2015
-  protocol: socks5
   ip: 91.199.137.149
   port: 2015
   https: false
