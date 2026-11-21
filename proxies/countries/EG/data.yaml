@@ -1,6 +1,6 @@
-- proxy: http://41.65.55.27:1981
+- proxy: http://197.164.101.10:1981
   protocol: http
-  ip: 41.65.55.27
+  ip: 197.164.101.10
   port: 1981
   https: false
   anonymity: transparent
@@ -8,30 +8,60 @@
   geolocation:
     country: EG
     city: Unknown
-- proxy: http://197.164.101.14:1981
+- proxy: http://84.36.141.180:1976
   protocol: http
-  ip: 197.164.101.14
-  port: 1981
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: EG
-    city: Unknown
-- proxy: http://196.204.26.243:1981
-  protocol: http
-  ip: 196.204.26.243
-  port: 1981
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: EG
-    city: Unknown
-- proxy: http://41.33.89.100:1976
-  protocol: http
-  ip: 41.33.89.100
+  ip: 84.36.141.180
   port: 1976
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: EG
+    city: Unknown
+- proxy: http://41.128.77.76:1981
+  protocol: http
+  ip: 41.128.77.76
+  port: 1981
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: EG
+    city: Unknown
+- proxy: http://41.128.77.76:1976
+  protocol: http
+  ip: 41.128.77.76
+  port: 1976
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: EG
+    city: Unknown
+- proxy: http://196.204.83.232:1976
+  protocol: http
+  ip: 196.204.83.232
+  port: 1976
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: EG
+    city: Unknown
+- proxy: http://41.65.55.10:1976
+  protocol: http
+  ip: 41.65.55.10
+  port: 1976
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: EG
+    city: Unknown
+- proxy: http://41.65.103.168:8080
+  protocol: http
+  ip: 41.65.103.168
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
@@ -48,10 +78,10 @@
   geolocation:
     country: EG
     city: Giza
-- proxy: http://197.164.101.13:1976
+- proxy: http://197.164.101.13:1981
   protocol: http
   ip: 197.164.101.13
-  port: 1976
+  port: 1981
   https: false
   anonymity: transparent
   score: 1
@@ -68,9 +98,19 @@
   geolocation:
     country: EG
     city: Unknown
-- proxy: http://217.52.247.79:1976
+- proxy: http://41.196.16.233:1981
   protocol: http
-  ip: 217.52.247.79
+  ip: 41.196.16.233
+  port: 1981
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: EG
+    city: Unknown
+- proxy: http://196.204.26.243:1976
+  protocol: http
+  ip: 196.204.26.243
   port: 1976
   https: false
   anonymity: transparent
@@ -78,6 +118,16 @@
   geolocation:
     country: EG
     city: Unknown
+- proxy: http://41.33.89.100:1976
+  protocol: http
+  ip: 41.33.89.100
+  port: 1976
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: EG
+    city: Cairo
 - proxy: http://41.33.173.82:8080
   protocol: http
   ip: 41.33.173.82
@@ -88,39 +138,9 @@
   geolocation:
     country: EG
     city: Cairo
-- proxy: http://45.240.232.61:8080
+- proxy: http://41.65.162.72:1981
   protocol: http
-  ip: 45.240.232.61
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: EG
-    city: Giza
-- proxy: http://41.33.203.238:1975
-  protocol: http
-  ip: 41.33.203.238
-  port: 1975
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: EG
-    city: Giza
-- proxy: http://41.33.203.117:1976
-  protocol: http
-  ip: 41.33.203.117
-  port: 1976
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: EG
-    city: Giza
-- proxy: http://84.36.141.180:1981
-  protocol: http
-  ip: 84.36.141.180
+  ip: 41.65.162.72
   port: 1981
   https: false
   anonymity: transparent
@@ -128,36 +148,6 @@
   geolocation:
     country: EG
     city: Unknown
-- proxy: http://62.241.133.227:1981
-  protocol: http
-  ip: 62.241.133.227
-  port: 1981
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: EG
-    city: Hurghada
-- proxy: http://84.36.141.180:1976
-  protocol: http
-  ip: 84.36.141.180
-  port: 1976
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: EG
-    city: Unknown
-- proxy: socks5://38.60.226.203:1080
-  protocol: socks5
-  ip: 38.60.226.203
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: EG
-    city: Cairo
 - proxy: http://45.240.232.62:8080
   protocol: http
   ip: 45.240.232.62
@@ -168,6 +158,26 @@
   geolocation:
     country: EG
     city: Giza
+- proxy: socks5://38.60.226.203:1080
+  protocol: socks5
+  ip: 38.60.226.203
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: EG
+    city: Cairo
+- proxy: http://196.204.26.243:1981
+  protocol: http
+  ip: 196.204.26.243
+  port: 1981
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: EG
+    city: Unknown
 - proxy: http://41.128.72.142:1976
   protocol: http
   ip: 41.128.72.142
@@ -198,29 +208,29 @@
   geolocation:
     country: EG
     city: Unknown
-- proxy: http://196.204.26.243:1976
+- proxy: http://45.240.232.61:8080
   protocol: http
-  ip: 196.204.26.243
-  port: 1976
+  ip: 45.240.232.61
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: EG
-    city: Unknown
-- proxy: http://41.128.77.76:1976
-  protocol: http
-  ip: 41.128.77.76
-  port: 1976
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: EG
-    city: Unknown
+    city: Giza
 - proxy: http://41.128.72.140:1981
   protocol: http
   ip: 41.128.72.140
+  port: 1981
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: EG
+    city: Unknown
+- proxy: http://84.36.141.180:1981
+  protocol: http
+  ip: 84.36.141.180
   port: 1981
   https: false
   anonymity: transparent
@@ -308,6 +318,16 @@
   geolocation:
     country: EG
     city: Unknown
+- proxy: http://217.52.247.79:1976
+  protocol: http
+  ip: 217.52.247.79
+  port: 1976
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: EG
+    city: Unknown
 - proxy: http://41.128.90.50:1976
   protocol: http
   ip: 41.128.90.50
@@ -388,16 +408,6 @@
   geolocation:
     country: EG
     city: Cairo
-- proxy: http://41.65.55.10:1976
-  protocol: http
-  ip: 41.65.55.10
-  port: 1976
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: EG
-    city: Unknown
 - proxy: http://41.65.227.103:1981
   protocol: http
   ip: 41.65.227.103
@@ -408,16 +418,6 @@
   geolocation:
     country: EG
     city: Giza
-- proxy: http://41.65.103.168:8080
-  protocol: http
-  ip: 41.65.103.168
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: EG
-    city: Cairo
 - proxy: http://196.204.83.233:1976
   protocol: http
   ip: 196.204.83.233
@@ -478,6 +478,16 @@
   geolocation:
     country: EG
     city: Giza
+- proxy: http://41.33.203.238:1975
+  protocol: http
+  ip: 41.33.203.238
+  port: 1975
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: EG
+    city: Giza
 - proxy: http://217.52.247.84:1976
   protocol: http
   ip: 217.52.247.84
@@ -528,19 +538,9 @@
   geolocation:
     country: EG
     city: Unknown
-- proxy: http://41.128.72.136:1981
+- proxy: http://41.33.203.117:1981
   protocol: http
-  ip: 41.128.72.136
-  port: 1981
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: EG
-    city: Unknown
-- proxy: http://41.65.71.140:1981
-  protocol: http
-  ip: 41.65.71.140
+  ip: 41.33.203.117
   port: 1981
   https: false
   anonymity: transparent
@@ -548,13 +548,13 @@
   geolocation:
     country: EG
     city: Giza
-- proxy: http://62.241.133.227:1974
+- proxy: http://41.65.71.142:1981
   protocol: http
-  ip: 62.241.133.227
-  port: 1974
+  ip: 41.65.71.142
+  port: 1981
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: EG
-    city: Hurghada
+    city: Giza

@@ -1,33 +1,23 @@
-- proxy: socks4://196.1.182.130:1080
+- proxy: socks4://105.235.201.234:32639
   protocol: socks4
-  ip: 196.1.182.130
-  port: 1080
+  ip: 105.235.201.234
+  port: 32639
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: NG
     city: Lagos
-- proxy: socks4://102.36.231.77:1080
-  protocol: socks4
-  ip: 102.36.231.77
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: NG
-    city: Lagos
-- proxy: http://102.212.104.129:8082
+- proxy: http://155.93.96.210:8080
   protocol: http
-  ip: 102.212.104.129
-  port: 8082
+  ip: 155.93.96.210
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: NG
-    city: Agege
+    city: Ungwan Sanga
 - proxy: socks4://169.239.236.201:10801
   protocol: socks4
   ip: 169.239.236.201
@@ -38,6 +28,16 @@
   geolocation:
     country: NG
     city: Unknown
+- proxy: socks4://41.75.84.86:4153
+  protocol: socks4
+  ip: 41.75.84.86
+  port: 4153
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: NG
+    city: Lagos
 - proxy: socks5://102.69.146.59:7080
   protocol: socks5
   ip: 102.69.146.59
@@ -78,6 +78,16 @@
   geolocation:
     country: NG
     city: Lagos
+- proxy: http://102.212.104.129:8082
+  protocol: http
+  ip: 102.212.104.129
+  port: 8082
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: NG
+    city: Agege
 - proxy: http://102.90.0.149:8080
   protocol: http
   ip: 102.90.0.149
@@ -108,13 +118,3 @@
   geolocation:
     country: NG
     city: Port Harcourt
-- proxy: http://155.93.96.210:8080
-  protocol: http
-  ip: 155.93.96.210
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: NG
-    city: Ungwan Sanga
