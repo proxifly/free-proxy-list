@@ -1,43 +1,3 @@
-- proxy: socks5://185.100.85.64:1080
-  protocol: socks5
-  ip: 185.100.85.64
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RO
-    city: Bucharest
-- proxy: socks4://92.86.92.126:42740
-  protocol: socks4
-  ip: 92.86.92.126
-  port: 42740
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RO
-    city: Alba Iulia
-- proxy: socks4://93.115.174.1:1080
-  protocol: socks4
-  ip: 93.115.174.1
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RO
-    city: Unknown
-- proxy: socks4://194.50.50.100:1080
-  protocol: socks4
-  ip: 194.50.50.100
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RO
-    city: Reci
 - proxy: https://193.176.84.34:9002
   protocol: https
   ip: 193.176.84.34
@@ -603,7 +563,7 @@
   ip: 185.128.240.2
   port: 3128
   https: false
-  anonymity: elite
+  anonymity: transparent
   score: 1
   geolocation:
     country: RO
@@ -658,6 +618,26 @@
   geolocation:
     country: RO
     city: Unknown
+- proxy: socks4://93.115.174.1:1080
+  protocol: socks4
+  ip: 93.115.174.1
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RO
+    city: Unknown
+- proxy: http://45.80.151.33:3128
+  protocol: http
+  ip: 45.80.151.33
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RO
+    city: Unknown
 - proxy: socks4://81.12.157.98:5678
   protocol: socks4
   ip: 81.12.157.98
@@ -678,6 +658,16 @@
   geolocation:
     country: RO
     city: Giroc
+- proxy: socks5://185.100.85.64:1080
+  protocol: socks5
+  ip: 185.100.85.64
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RO
+    city: Bucharest
 - proxy: socks5://89.46.131.79:10000
   protocol: socks5
   ip: 89.46.131.79
@@ -958,23 +948,3 @@
   geolocation:
     country: RO
     city: Alba Iulia
-- proxy: http://89.46.131.79:10000
-  protocol: http
-  ip: 89.46.131.79
-  port: 10000
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RO
-    city: Unknown
-- proxy: http://89.46.131.79:3129
-  protocol: http
-  ip: 89.46.131.79
-  port: 3129
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RO
-    city: Unknown

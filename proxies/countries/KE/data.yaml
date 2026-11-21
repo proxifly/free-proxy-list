@@ -1,23 +1,43 @@
-- proxy: socks5://102.0.14.42:1080
-  protocol: socks5
-  ip: 102.0.14.42
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KE
-    city: Unknown
-- proxy: http://102.68.76.247:5566
+- proxy: http://102.209.18.248:8080
   protocol: http
-  ip: 102.68.76.247
-  port: 5566
+  ip: 102.209.18.248
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: KE
     city: Unknown
+- proxy: http://102.0.20.92:8080
+  protocol: http
+  ip: 102.0.20.92
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KE
+    city: Unknown
+- proxy: http://102.0.18.120:8080
+  protocol: http
+  ip: 102.0.18.120
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KE
+    city: Unknown
+- proxy: http://41.90.103.85:8080
+  protocol: http
+  ip: 41.90.103.85
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KE
+    city: Nairobi
 - proxy: http://41.139.160.219:8105
   protocol: http
   ip: 41.139.160.219
@@ -28,10 +48,10 @@
   geolocation:
     country: KE
     city: Eldoret
-- proxy: socks4://102.211.146.103:1080
-  protocol: socks4
-  ip: 102.211.146.103
-  port: 1080
+- proxy: http://197.248.75.221:8105
+  protocol: http
+  ip: 197.248.75.221
+  port: 8105
   https: false
   anonymity: transparent
   score: 1
@@ -48,9 +68,19 @@
   geolocation:
     country: KE
     city: Unknown
-- proxy: http://197.248.193.143:8080
+- proxy: socks4://102.0.35.254:1080
+  protocol: socks4
+  ip: 102.0.35.254
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KE
+    city: Unknown
+- proxy: http://102.213.179.66:8080
   protocol: http
-  ip: 197.248.193.143
+  ip: 102.213.179.66
   port: 8080
   https: false
   anonymity: transparent
@@ -58,19 +88,9 @@
   geolocation:
     country: KE
     city: Nairobi
-- proxy: http://41.90.103.85:8080
+- proxy: http://102.0.13.38:8080
   protocol: http
-  ip: 41.90.103.85
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KE
-    city: Nairobi
-- proxy: http://102.0.25.8:8080
-  protocol: http
-  ip: 102.0.25.8
+  ip: 102.0.13.38
   port: 8080
   https: false
   anonymity: transparent
@@ -78,30 +98,40 @@
   geolocation:
     country: KE
     city: Unknown
-- proxy: http://102.0.14.242:8080
+- proxy: http://41.139.160.219:8104
   protocol: http
-  ip: 102.0.14.242
-  port: 8080
+  ip: 41.139.160.219
+  port: 8104
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: KE
-    city: Unknown
-- proxy: http://102.213.179.210:8080
-  protocol: http
-  ip: 102.213.179.210
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KE
-    city: Nairobi
+    city: Eldoret
 - proxy: http://102.221.35.177:3128
   protocol: http
   ip: 102.221.35.177
   port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KE
+    city: Unknown
+- proxy: http://102.0.25.184:8080
+  protocol: http
+  ip: 102.0.25.184
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KE
+    city: Unknown
+- proxy: socks5://102.0.14.42:1080
+  protocol: socks5
+  ip: 102.0.14.42
+  port: 1080
   https: false
   anonymity: transparent
   score: 1
@@ -128,16 +158,16 @@
   geolocation:
     country: KE
     city: Nairobi
-- proxy: http://102.0.18.120:8080
+- proxy: http://197.248.193.143:8080
   protocol: http
-  ip: 102.0.18.120
+  ip: 197.248.193.143
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: KE
-    city: Unknown
+    city: Nairobi
 - proxy: http://197.232.25.204:8080
   protocol: http
   ip: 197.232.25.204
@@ -158,26 +188,6 @@
   geolocation:
     country: KE
     city: Nairobi
-- proxy: http://102.0.25.184:8080
-  protocol: http
-  ip: 102.0.25.184
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KE
-    city: Unknown
-- proxy: http://102.0.13.38:8080
-  protocol: http
-  ip: 102.0.13.38
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: KE
-    city: Unknown
 - proxy: http://102.215.79.121:8080
   protocol: http
   ip: 102.215.79.121
@@ -188,6 +198,16 @@
   geolocation:
     country: KE
     city: Nairobi
+- proxy: http://102.68.76.247:5566
+  protocol: http
+  ip: 102.68.76.247
+  port: 5566
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KE
+    city: Unknown
 - proxy: http://102.216.85.18:8080
   protocol: http
   ip: 102.216.85.18
@@ -358,13 +378,33 @@
   geolocation:
     country: KE
     city: Nairobi
-- proxy: http://197.248.59.159:8082
+- proxy: http://102.0.27.66:8080
   protocol: http
-  ip: 197.248.59.159
-  port: 8082
+  ip: 102.0.27.66
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: KE
-    city: Nairobi
+    city: Unknown
+- proxy: http://41.139.160.219:8080
+  protocol: http
+  ip: 41.139.160.219
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KE
+    city: Eldoret
+- proxy: http://102.0.16.226:8080
+  protocol: http
+  ip: 102.0.16.226
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: KE
+    city: Unknown
