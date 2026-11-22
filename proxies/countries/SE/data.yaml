@@ -18,6 +18,16 @@
   geolocation:
     country: SE
     city: Stockholm
+- proxy: socks4://188.150.229.60:5678
+  protocol: socks4
+  ip: 188.150.229.60
+  port: 5678
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SE
+    city: Lund
 - proxy: https://84.235.228.156:443
   protocol: https
   ip: 84.235.228.156
@@ -38,22 +48,22 @@
   geolocation:
     country: SE
     city: Stockholm
-- proxy: http://80.225.250.95:8888
-  protocol: http
-  ip: 80.225.250.95
-  port: 8888
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SE
-    city: Unknown
 - proxy: http://185.146.173.20:80
   protocol: http
   ip: 185.146.173.20
   port: 80
   https: false
   anonymity: elite
+  score: 1
+  geolocation:
+    country: SE
+    city: Unknown
+- proxy: http://80.225.250.95:8888
+  protocol: http
+  ip: 80.225.250.95
+  port: 8888
+  https: false
+  anonymity: transparent
   score: 1
   geolocation:
     country: SE
@@ -68,16 +78,16 @@
   geolocation:
     country: SE
     city: Falun
-- proxy: http://194.14.207.87:8001
+- proxy: http://80.225.231.172:9090
   protocol: http
-  ip: 194.14.207.87
-  port: 8001
+  ip: 80.225.231.172
+  port: 9090
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: SE
-    city: Falun
+    city: Unknown
 - proxy: socks5://80.225.224.2:10808
   protocol: socks5
   ip: 80.225.224.2
@@ -508,6 +518,16 @@
   geolocation:
     country: SE
     city: Limhamn
+- proxy: http://194.14.207.87:8001
+  protocol: http
+  ip: 194.14.207.87
+  port: 8001
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SE
+    city: Falun
 - proxy: http://46.59.120.87:81
   protocol: http
   ip: 46.59.120.87
@@ -548,3 +568,23 @@
   geolocation:
     country: SE
     city: Stockholm
+- proxy: http://172.232.155.226:8118
+  protocol: http
+  ip: 172.232.155.226
+  port: 8118
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SE
+    city: Stockholm
+- proxy: http://84.8.248.36:3129
+  protocol: http
+  ip: 84.8.248.36
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SE
+    city: Unknown
