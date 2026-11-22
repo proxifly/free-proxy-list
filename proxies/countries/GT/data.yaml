@@ -1,6 +1,16 @@
-- proxy: http://181.119.111.59:999
+- proxy: socks4://181.189.132.74:5678
+  protocol: socks4
+  ip: 181.189.132.74
+  port: 5678
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GT
+    city: Guatemala City
+- proxy: http://45.5.119.17:999
   protocol: http
-  ip: 181.119.111.59
+  ip: 45.5.119.17
   port: 999
   https: false
   anonymity: transparent
@@ -11,26 +21,6 @@
 - proxy: http://167.250.222.233:999
   protocol: http
   ip: 167.250.222.233
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GT
-    city: Guatemala City
-- proxy: http://181.174.115.9:1994
-  protocol: http
-  ip: 181.174.115.9
-  port: 1994
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GT
-    city: Santiago Sacatepequez
-- proxy: http://45.5.119.17:999
-  protocol: http
-  ip: 45.5.119.17
   port: 999
   https: false
   anonymity: transparent
@@ -68,6 +58,16 @@
   geolocation:
     country: GT
     city: Guatemala City
+- proxy: http://181.174.115.9:1994
+  protocol: http
+  ip: 181.174.115.9
+  port: 1994
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GT
+    city: Santiago Sacatepequez
 - proxy: http://181.189.132.74:5678
   protocol: http
   ip: 181.189.132.74
@@ -98,13 +98,13 @@
   geolocation:
     country: GT
     city: Esquipulas
-- proxy: http://181.119.111.239:999
+- proxy: http://143.208.59.2:999
   protocol: http
-  ip: 181.119.111.239
+  ip: 143.208.59.2
   port: 999
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: GT
-    city: Guatemala City
+    city: Esquipulas
