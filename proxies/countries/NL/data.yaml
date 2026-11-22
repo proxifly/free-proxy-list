@@ -1,36 +1,6 @@
-- proxy: socks5://5.255.117.127:1080
-  protocol: socks5
-  ip: 5.255.117.127
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: NL
-    city: Unknown
 - proxy: socks5://5.255.123.162:1080
   protocol: socks5
   ip: 5.255.123.162
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: NL
-    city: Unknown
-- proxy: socks5://5.255.117.250:1080
-  protocol: socks5
-  ip: 5.255.117.250
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: NL
-    city: Unknown
-- proxy: socks5://5.255.113.177:1080
-  protocol: socks5
-  ip: 5.255.113.177
   port: 1080
   https: false
   anonymity: transparent
@@ -128,16 +98,6 @@
   geolocation:
     country: NL
     city: Amsterdam
-- proxy: https://188.226.195.20:8881
-  protocol: https
-  ip: 188.226.195.20
-  port: 8881
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: NL
-    city: Amsterdam
 - proxy: https://89.105.200.65:443
   protocol: https
   ip: 89.105.200.65
@@ -148,6 +108,16 @@
   geolocation:
     country: NL
     city: Enschede
+- proxy: https://5.255.118.82:443
+  protocol: https
+  ip: 5.255.118.82
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: NL
+    city: Unknown
 - proxy: https://52.142.253.29:443
   protocol: https
   ip: 52.142.253.29
@@ -278,6 +248,16 @@
   geolocation:
     country: NL
     city: Amsterdam
+- proxy: https://86.107.178.104:443
+  protocol: https
+  ip: 86.107.178.104
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: NL
+    city: Amsterdam
 - proxy: https://172.201.221.190:443
   protocol: https
   ip: 172.201.221.190
@@ -328,6 +308,16 @@
   geolocation:
     country: NL
     city: Unknown
+- proxy: https://45.154.87.85:1443
+  protocol: https
+  ip: 45.154.87.85
+  port: 1443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: NL
+    city: Amsterdam
 - proxy: https://45.154.87.148:1443
   protocol: https
   ip: 45.154.87.148
@@ -423,26 +413,6 @@
   ip: 88.210.11.158
   port: 9443
   https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: NL
-    city: Unknown
-- proxy: http://38.180.137.149:999
-  protocol: http
-  ip: 38.180.137.149
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: NL
-    city: Amsterdam
-- proxy: http://45.136.253.145:3128
-  protocol: http
-  ip: 45.136.253.145
-  port: 3128
-  https: false
   anonymity: transparent
   score: 1
   geolocation:
@@ -604,6 +574,36 @@
   port: 80
   https: false
   anonymity: elite
+  score: 1
+  geolocation:
+    country: NL
+    city: Unknown
+- proxy: socks5://5.255.117.127:1080
+  protocol: socks5
+  ip: 5.255.117.127
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: NL
+    city: Unknown
+- proxy: socks5://5.255.117.250:1080
+  protocol: socks5
+  ip: 5.255.117.250
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: NL
+    city: Unknown
+- proxy: socks5://5.255.113.177:1080
+  protocol: socks5
+  ip: 5.255.113.177
+  port: 1080
+  https: false
+  anonymity: transparent
   score: 1
   geolocation:
     country: NL
@@ -848,16 +848,16 @@
   geolocation:
     country: NL
     city: Unknown
-- proxy: socks5://217.12.209.4:1080
-  protocol: socks5
-  ip: 217.12.209.4
-  port: 1080
+- proxy: http://193.33.157.101:8080
+  protocol: http
+  ip: 193.33.157.101
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: NL
-    city: Meppel
+    city: Amsterdam
 - proxy: socks5://5.255.99.75:1080
   protocol: socks5
   ip: 5.255.99.75
@@ -868,18 +868,38 @@
   geolocation:
     country: NL
     city: Unknown
-- proxy: socks5://128.199.37.92:1080
-  protocol: socks5
-  ip: 128.199.37.92
-  port: 1080
+- proxy: http://193.33.157.21:8080
+  protocol: http
+  ip: 193.33.157.21
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: NL
     city: Amsterdam
-- proxy: socks4://128.199.37.92:1080
-  protocol: socks4
+- proxy: http://193.33.157.18:8080
+  protocol: http
+  ip: 193.33.157.18
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: NL
+    city: Amsterdam
+- proxy: socks5://217.12.209.4:1080
+  protocol: socks5
+  ip: 217.12.209.4
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: NL
+    city: Meppel
+- proxy: socks5://128.199.37.92:1080
+  protocol: socks5
   ip: 128.199.37.92
   port: 1080
   https: false
@@ -898,16 +918,6 @@
   geolocation:
     country: NL
     city: Unknown
-- proxy: http://178.208.72.165:3128
-  protocol: http
-  ip: 178.208.72.165
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: NL
-    city: Amsterdam
 - proxy: socks5://89.110.98.72:9050
   protocol: socks5
   ip: 89.110.98.72
@@ -2558,16 +2568,6 @@
   geolocation:
     country: NL
     city: Amsterdam
-- proxy: http://193.33.157.18:8080
-  protocol: http
-  ip: 193.33.157.18
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: NL
-    city: Amsterdam
 - proxy: http://185.218.202.182:8080
   protocol: http
   ip: 185.218.202.182
@@ -2578,3 +2578,33 @@
   geolocation:
     country: NL
     city: Unknown
+- proxy: http://77.163.47.213:3129
+  protocol: http
+  ip: 77.163.47.213
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: NL
+    city: Schiedam
+- proxy: http://104.248.202.114:3129
+  protocol: http
+  ip: 104.248.202.114
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: NL
+    city: Amsterdam
+- proxy: http://178.208.72.165:3129
+  protocol: http
+  ip: 178.208.72.165
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: NL
+    city: Amsterdam
