@@ -1,13 +1,23 @@
-- proxy: http://138.117.231.133:999
+- proxy: http://45.164.151.150:999
   protocol: http
-  ip: 138.117.231.133
+  ip: 45.164.151.150
   port: 999
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: GT
-    city: Huehuetenango
+    city: Unknown
+- proxy: http://138.118.107.29:999
+  protocol: http
+  ip: 138.118.107.29
+  port: 999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GT
+    city: Guatemala City
 - proxy: http://181.119.109.10:999
   protocol: http
   ip: 181.119.109.10
@@ -18,16 +28,6 @@
   geolocation:
     country: GT
     city: Guatemala City
-- proxy: http://181.174.115.9:1994
-  protocol: http
-  ip: 181.174.115.9
-  port: 1994
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GT
-    city: Santiago Sacatepequez
 - proxy: http://45.5.119.17:999
   protocol: http
   ip: 45.5.119.17
@@ -78,6 +78,16 @@
   geolocation:
     country: GT
     city: Guatemala City
+- proxy: http://181.174.115.9:1994
+  protocol: http
+  ip: 181.174.115.9
+  port: 1994
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: GT
+    city: Santiago Sacatepequez
 - proxy: http://181.189.132.74:5678
   protocol: http
   ip: 181.189.132.74
@@ -108,13 +118,3 @@
   geolocation:
     country: GT
     city: Esquipulas
-- proxy: http://143.208.57.165:999
-  protocol: http
-  ip: 143.208.57.165
-  port: 999
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: GT
-    city: Guatemala City

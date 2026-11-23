@@ -38,60 +38,40 @@
   geolocation:
     country: CH
     city: Unknown
-- proxy: http://147.161.246.34:11525
+- proxy: http://85.1.140.150:3128
+  protocol: http
+  ip: 85.1.140.150
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CH
+    city: Lugano
+- proxy: http://147.161.246.34:11629
   protocol: http
   ip: 147.161.246.34
-  port: 11525
+  port: 11629
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: CH
     city: Zurich
-- proxy: http://147.161.246.34:12845
+- proxy: http://147.161.246.34:12544
   protocol: http
   ip: 147.161.246.34
-  port: 12845
+  port: 12544
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: CH
     city: Zurich
-- proxy: http://147.161.246.34:12525
+- proxy: http://147.161.246.34:10958
   protocol: http
   ip: 147.161.246.34
-  port: 12525
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CH
-    city: Zurich
-- proxy: http://62.220.129.81:8080
-  protocol: http
-  ip: 62.220.129.81
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CH
-    city: La Tour-de-Peilz
-- proxy: socks4://178.83.46.167:1080
-  protocol: socks4
-  ip: 178.83.46.167
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CH
-    city: Basel
-- proxy: http://31.6.42.186:8118
-  protocol: http
-  ip: 31.6.42.186
-  port: 8118
+  port: 10958
   https: false
   anonymity: transparent
   score: 1
@@ -248,6 +228,16 @@
   geolocation:
     country: CH
     city: Geneva
+- proxy: http://62.220.129.81:8080
+  protocol: http
+  ip: 62.220.129.81
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: CH
+    city: La Tour-de-Peilz
 - proxy: http://185.85.111.18:80
   protocol: http
   ip: 185.85.111.18
@@ -298,13 +288,3 @@
   geolocation:
     country: CH
     city: Baden
-- proxy: http://31.6.41.144:8118
-  protocol: http
-  ip: 31.6.41.144
-  port: 8118
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: CH
-    city: Zurich

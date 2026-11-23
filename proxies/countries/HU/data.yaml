@@ -1,13 +1,13 @@
-- proxy: socks4://178.48.13.177:80
+- proxy: socks4://46.107.230.122:1080
   protocol: socks4
-  ip: 178.48.13.177
-  port: 80
+  ip: 46.107.230.122
+  port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: HU
-    city: Nagytarcsa
+    city: Budapest
 - proxy: socks4://109.61.117.11:1080
   protocol: socks4
   ip: 109.61.117.11
@@ -68,9 +68,9 @@
   geolocation:
     country: HU
     city: Budapest
-- proxy: http://89.43.135.42:8080
+- proxy: http://89.43.132.197:8080
   protocol: http
-  ip: 89.43.135.42
+  ip: 89.43.132.197
   port: 8080
   https: false
   anonymity: transparent
@@ -78,30 +78,20 @@
   geolocation:
     country: HU
     city: Unknown
-- proxy: http://128.0.7.11:8080
+- proxy: socks4://89.132.170.211:4145
+  protocol: socks4
+  ip: 89.132.170.211
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: HU
+    city: Budapest
+- proxy: http://89.43.132.250:8080
   protocol: http
-  ip: 128.0.7.11
+  ip: 89.43.132.250
   port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: HU
-    city: Unknown
-- proxy: http://128.0.7.188:8085
-  protocol: http
-  ip: 128.0.7.188
-  port: 8085
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: HU
-    city: Unknown
-- proxy: socks5://89.43.133.56:1080
-  protocol: socks5
-  ip: 89.43.133.56
-  port: 1080
   https: false
   anonymity: transparent
   score: 1
@@ -111,6 +101,26 @@
 - proxy: socks5://89.43.133.169:1080
   protocol: socks5
   ip: 89.43.133.169
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: HU
+    city: Unknown
+- proxy: http://89.43.132.239:8080
+  protocol: http
+  ip: 89.43.132.239
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: HU
+    city: Unknown
+- proxy: socks5://89.43.133.56:1080
+  protocol: socks5
+  ip: 89.43.133.56
   port: 1080
   https: false
   anonymity: transparent
@@ -218,9 +228,39 @@
   geolocation:
     country: HU
     city: Kaposvár
+- proxy: http://89.43.132.219:8080
+  protocol: http
+  ip: 89.43.132.219
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: HU
+    city: Unknown
+- proxy: http://128.0.7.11:8080
+  protocol: http
+  ip: 128.0.7.11
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: HU
+    city: Unknown
 - proxy: http://89.43.133.165:8080
   protocol: http
   ip: 89.43.133.165
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: HU
+    city: Unknown
+- proxy: http://89.43.132.231:8080
+  protocol: http
+  ip: 89.43.132.231
   port: 8080
   https: false
   anonymity: transparent

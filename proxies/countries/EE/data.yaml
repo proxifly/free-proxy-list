@@ -8,16 +8,6 @@
   geolocation:
     country: EE
     city: Unknown
-- proxy: socks5://91.199.137.149:2005
-  protocol: socks5
-  ip: 91.199.137.149
-  port: 2005
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: EE
-    city: Unknown
 - proxy: socks5://91.199.137.149:2001
   protocol: socks5
   ip: 91.199.137.149
@@ -38,6 +28,36 @@
   geolocation:
     country: EE
     city: Kanepi
+- proxy: https://95.153.31.66:9443
+  protocol: https
+  ip: 95.153.31.66
+  port: 9443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: EE
+    city: Tallinn
+- proxy: https://95.153.31.66:443
+  protocol: https
+  ip: 95.153.31.66
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: EE
+    city: Tallinn
+- proxy: socks5://91.199.137.149:2005
+  protocol: socks5
+  ip: 91.199.137.149
+  port: 2005
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: EE
+    city: Unknown
 - proxy: socks5://46.36.220.243:1080
   protocol: socks5
   ip: 46.36.220.243
