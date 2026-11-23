@@ -28,16 +28,6 @@
   geolocation:
     country: SE
     city: Lund
-- proxy: https://84.235.228.156:443
-  protocol: https
-  ip: 84.235.228.156
-  port: 443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SE
-    city: Unknown
 - proxy: https://46.246.39.246:443
   protocol: https
   ip: 46.246.39.246
@@ -48,16 +38,6 @@
   geolocation:
     country: SE
     city: Stockholm
-- proxy: http://80.225.250.95:8888
-  protocol: http
-  ip: 80.225.250.95
-  port: 8888
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SE
-    city: Unknown
 - proxy: http://185.146.173.20:80
   protocol: http
   ip: 185.146.173.20
@@ -68,16 +48,36 @@
   geolocation:
     country: SE
     city: Unknown
-- proxy: http://80.225.231.172:9090
+- proxy: http://84.8.248.36:3128
   protocol: http
-  ip: 80.225.231.172
-  port: 9090
+  ip: 84.8.248.36
+  port: 3128
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: SE
     city: Unknown
+- proxy: http://80.225.88.28:8082
+  protocol: http
+  ip: 80.225.88.28
+  port: 8082
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SE
+    city: Unknown
+- proxy: http://194.14.207.87:8001
+  protocol: http
+  ip: 194.14.207.87
+  port: 8001
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SE
+    city: Falun
 - proxy: socks5://80.225.224.2:10808
   protocol: socks5
   ip: 80.225.224.2
@@ -508,16 +508,6 @@
   geolocation:
     country: SE
     city: Limhamn
-- proxy: http://194.14.207.87:8001
-  protocol: http
-  ip: 194.14.207.87
-  port: 8001
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SE
-    city: Falun
 - proxy: http://46.59.120.87:81
   protocol: http
   ip: 46.59.120.87

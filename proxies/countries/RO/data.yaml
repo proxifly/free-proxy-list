@@ -1,3 +1,23 @@
+- proxy: socks5://45.13.38.213:1080
+  protocol: socks5
+  ip: 45.13.38.213
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RO
+    city: Timișoara
+- proxy: socks4://81.12.157.98:5678
+  protocol: socks4
+  ip: 81.12.157.98
+  port: 5678
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RO
+    city: Făgăraș
 - proxy: socks4://194.50.50.100:1080
   protocol: socks4
   ip: 194.50.50.100
@@ -573,7 +593,7 @@
   ip: 185.128.240.2
   port: 3128
   https: false
-  anonymity: transparent
+  anonymity: elite
   score: 1
   geolocation:
     country: RO
@@ -628,28 +648,28 @@
   geolocation:
     country: RO
     city: Unknown
+- proxy: socks4://93.115.174.1:1080
+  protocol: socks4
+  ip: 93.115.174.1
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RO
+    city: Unknown
+- proxy: http://45.80.151.33:3128
+  protocol: http
+  ip: 45.80.151.33
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: RO
+    city: Unknown
 - proxy: socks5://89.46.131.79:10000
   protocol: socks5
-  ip: 89.46.131.79
-  port: 10000
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RO
-    city: Unknown
-- proxy: socks4://89.46.131.79:10000
-  protocol: socks4
-  ip: 89.46.131.79
-  port: 10000
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RO
-    city: Unknown
-- proxy: http://89.46.131.79:10000
-  protocol: http
   ip: 89.46.131.79
   port: 10000
   https: false
@@ -938,23 +958,3 @@
   geolocation:
     country: RO
     city: Alba Iulia
-- proxy: http://92.86.207.198:8080
-  protocol: http
-  ip: 92.86.207.198
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RO
-    city: Giroc
-- proxy: http://185.128.240.2:3129
-  protocol: http
-  ip: 185.128.240.2
-  port: 3129
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: RO
-    city: Cerneți
