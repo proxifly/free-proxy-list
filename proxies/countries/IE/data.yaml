@@ -258,26 +258,26 @@
   geolocation:
     country: IE
     city: Unknown
-- proxy: https://34.248.251.170:443
+- proxy: https://108.131.152.118:5050
   protocol: https
-  ip: 34.248.251.170
-  port: 443
+  ip: 108.131.152.118
+  port: 5050
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: IE
     city: Dublin
-- proxy: https://52.214.92.206:8443
-  protocol: https
-  ip: 52.214.92.206
-  port: 8443
-  https: true
+- proxy: http://87.192.243.177:8080
+  protocol: http
+  ip: 87.192.243.177
+  port: 8080
+  https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IE
-    city: Dublin
+    city: Ennis
 - proxy: socks5://78.17.98.71:10808
   protocol: socks5
   ip: 78.17.98.71
@@ -428,13 +428,23 @@
   geolocation:
     country: IE
     city: Unknown
-- proxy: http://87.192.231.122:3129
+- proxy: http://34.241.241.59:80
   protocol: http
-  ip: 87.192.231.122
-  port: 3129
+  ip: 34.241.241.59
+  port: 80
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IE
-    city: Unknown
+    city: Dublin
+- proxy: http://37.46.18.192:1080
+  protocol: http
+  ip: 37.46.18.192
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IE
+    city: Wexford

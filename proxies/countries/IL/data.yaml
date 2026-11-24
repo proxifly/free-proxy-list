@@ -1,13 +1,3 @@
-- proxy: socks5://80.65.211.149:8888
-  protocol: socks5
-  ip: 80.65.211.149
-  port: 8888
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IL
-    city: Unknown
 - proxy: https://62.90.77.30:443
   protocol: https
   ip: 62.90.77.30
@@ -18,26 +8,36 @@
   geolocation:
     country: IL
     city: Ramat Gan
-- proxy: https://51.17.99.116:20438
+- proxy: https://51.17.99.116:8800
   protocol: https
   ip: 51.17.99.116
-  port: 20438
+  port: 8800
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: IL
     city: Tel Aviv
-- proxy: http://147.236.181.86:50009
-  protocol: http
-  ip: 147.236.181.86
-  port: 50009
+- proxy: https://51.17.99.116:55260
+  protocol: https
+  ip: 51.17.99.116
+  port: 55260
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: IL
+    city: Tel Aviv
+- proxy: socks5://80.65.211.149:8888
+  protocol: socks5
+  ip: 80.65.211.149
+  port: 8888
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IL
-    city: '''Ezer'
+    city: Unknown
 - proxy: socks5://195.211.71.150:1081
   protocol: socks5
   ip: 195.211.71.150
@@ -148,40 +148,20 @@
   geolocation:
     country: IL
     city: Jerusalem
-- proxy: http://51.17.99.135:35715
+- proxy: http://80.65.211.149:8888
   protocol: http
-  ip: 51.17.99.135
-  port: 35715
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IL
-    city: Tel Aviv
-- proxy: http://51.16.4.39:4954
-  protocol: http
-  ip: 51.16.4.39
-  port: 4954
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: IL
-    city: Tel Aviv
-- proxy: http://77.91.74.77:80
-  protocol: http
-  ip: 77.91.74.77
-  port: 80
+  ip: 80.65.211.149
+  port: 8888
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: IL
     city: Unknown
-- proxy: http://80.65.211.149:8888
+- proxy: http://77.91.74.77:80
   protocol: http
-  ip: 80.65.211.149
-  port: 8888
+  ip: 77.91.74.77
+  port: 80
   https: false
   anonymity: transparent
   score: 1
