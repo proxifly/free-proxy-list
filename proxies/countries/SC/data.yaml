@@ -1,18 +1,18 @@
-- proxy: https://154.222.21.41:10240
-  protocol: https
-  ip: 154.222.21.41
-  port: 10240
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SC
-    city: Unknown
 - proxy: socks5://185.247.224.99:39997
   protocol: socks5
   ip: 185.247.224.99
   port: 39997
   https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: SC
+    city: Unknown
+- proxy: https://154.222.21.41:10240
+  protocol: https
+  ip: 154.222.21.41
+  port: 10240
+  https: true
   anonymity: transparent
   score: 1
   geolocation:
@@ -98,20 +98,10 @@
   geolocation:
     country: SC
     city: Unknown
-- proxy: http://41.86.55.240:88
+- proxy: http://156.247.40.95:8888
   protocol: http
-  ip: 41.86.55.240
-  port: 88
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: SC
-    city: Victoria
-- proxy: http://185.247.224.57:9050
-  protocol: http
-  ip: 185.247.224.57
-  port: 9050
+  ip: 156.247.40.95
+  port: 8888
   https: false
   anonymity: transparent
   score: 1

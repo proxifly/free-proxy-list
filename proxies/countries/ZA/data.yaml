@@ -1,3 +1,13 @@
+- proxy: socks4://160.226.220.30:1080
+  protocol: socks4
+  ip: 160.226.220.30
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: Bloemfontein
 - proxy: socks4://105.27.180.194:1080
   protocol: socks4
   ip: 105.27.180.194
@@ -8,6 +18,16 @@
   geolocation:
     country: ZA
     city: Johannesburg
+- proxy: socks4://160.226.138.129:5678
+  protocol: socks4
+  ip: 160.226.138.129
+  port: 5678
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: Ceres
 - proxy: https://129.151.160.199:443
   protocol: https
   ip: 129.151.160.199
@@ -38,6 +58,36 @@
   geolocation:
     country: ZA
     city: Nelspruit
+- proxy: https://196.21.60.44:443
+  protocol: https
+  ip: 196.21.60.44
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: Durban
+- proxy: https://13.245.161.189:34792
+  protocol: https
+  ip: 13.245.161.189
+  port: 34792
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: Cape Town
+- proxy: http://154.66.159.34:800
+  protocol: http
+  ip: 154.66.159.34
+  port: 800
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: Krugersdorp
 - proxy: http://206.238.236.92:80
   protocol: http
   ip: 206.238.236.92
@@ -58,10 +108,70 @@
   geolocation:
     country: ZA
     city: Midrand
+- proxy: http://196.251.221.33:8080
+  protocol: http
+  ip: 196.251.221.33
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: Brits
+- proxy: http://41.78.38.197:8005
+  protocol: http
+  ip: 41.78.38.197
+  port: 8005
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: Krugersdorp
+- proxy: http://160.19.112.18:8080
+  protocol: http
+  ip: 160.19.112.18
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: Bellville
+- proxy: http://196.251.222.170:1080
+  protocol: http
+  ip: 196.251.222.170
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: Brits
 - proxy: http://20.33.10.79:9480
   protocol: http
   ip: 20.33.10.79
   port: 9480
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: Johannesburg
+- proxy: http://20.33.10.79:9443
+  protocol: http
+  ip: 20.33.10.79
+  port: 9443
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: Johannesburg
+- proxy: http://20.33.10.79:443
+  protocol: http
+  ip: 20.33.10.79
+  port: 443
   https: false
   anonymity: transparent
   score: 1
@@ -78,56 +188,16 @@
   geolocation:
     country: ZA
     city: Cape Town
-- proxy: http://102.222.240.10:9999
+- proxy: http://213.172.130.3:9999
   protocol: http
-  ip: 102.222.240.10
+  ip: 213.172.130.3
   port: 9999
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ZA
-    city: Plettenberg Bay
-- proxy: http://20.33.10.79:443
-  protocol: http
-  ip: 20.33.10.79
-  port: 443
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ZA
-    city: Johannesburg
-- proxy: http://156.155.50.93:8080
-  protocol: http
-  ip: 156.155.50.93
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ZA
-    city: Johannesburg
-- proxy: http://20.33.10.132:443
-  protocol: http
-  ip: 20.33.10.132
-  port: 443
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ZA
-    city: Johannesburg
-- proxy: http://20.33.10.79:80
-  protocol: http
-  ip: 20.33.10.79
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ZA
-    city: Johannesburg
+    city: Worcester
 - proxy: socks5://102.36.127.249:1080
   protocol: socks5
   ip: 102.36.127.249
@@ -188,36 +258,26 @@
   geolocation:
     country: ZA
     city: Johannesburg
-- proxy: http://154.117.154.194:8080
+- proxy: http://20.33.10.132:443
   protocol: http
-  ip: 154.117.154.194
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ZA
-    city: Havenside
-- proxy: http://41.242.40.6:8084
-  protocol: http
-  ip: 41.242.40.6
-  port: 8084
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ZA
-    city: Brits
-- proxy: http://105.22.37.218:8080
-  protocol: http
-  ip: 105.22.37.218
-  port: 8080
+  ip: 20.33.10.132
+  port: 443
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ZA
     city: Johannesburg
+- proxy: http://105.27.130.22:9812
+  protocol: http
+  ip: 105.27.130.22
+  port: 9812
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: Port Elizabeth
 - proxy: http://196.251.212.52:8081
   protocol: http
   ip: 196.251.212.52
@@ -228,69 +288,19 @@
   geolocation:
     country: ZA
     city: Brits
-- proxy: http://165.0.136.30:8080
+- proxy: http://160.226.165.228:8080
   protocol: http
-  ip: 165.0.136.30
+  ip: 160.226.165.228
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ZA
-    city: Cape Town
-- proxy: http://102.215.245.6:4153
+    city: Tzaneen
+- proxy: http://196.251.222.222:8080
   protocol: http
-  ip: 102.215.245.6
-  port: 4153
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ZA
-    city: Benoni
-- proxy: http://154.126.213.152:1080
-  protocol: http
-  ip: 154.126.213.152
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ZA
-    city: Emalahleni
-- proxy: http://41.169.135.242:8080
-  protocol: http
-  ip: 41.169.135.242
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ZA
-    city: Johannesburg
-- proxy: http://102.217.139.31:8180
-  protocol: http
-  ip: 102.217.139.31
-  port: 8180
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ZA
-    city: Cape Town
-- proxy: http://196.216.133.18:1080
-  protocol: http
-  ip: 196.216.133.18
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ZA
-    city: Wolmaransstad
-- proxy: http://196.251.222.234:8080
-  protocol: http
-  ip: 196.251.222.234
+  ip: 196.251.222.222
   port: 8080
   https: false
   anonymity: transparent
@@ -298,16 +308,26 @@
   geolocation:
     country: ZA
     city: Brits
-- proxy: http://102.211.132.75:1080
+- proxy: http://196.251.195.146:8084
   protocol: http
-  ip: 102.211.132.75
-  port: 1080
+  ip: 196.251.195.146
+  port: 8084
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ZA
-    city: Johannesburg
+    city: Brits
+- proxy: http://196.251.195.253:8084
+  protocol: http
+  ip: 196.251.195.253
+  port: 8084
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: Brits
 - proxy: http://196.251.210.99:8080
   protocol: http
   ip: 196.251.210.99
@@ -318,6 +338,136 @@
   geolocation:
     country: ZA
     city: North West
+- proxy: http://102.69.196.5:8080
+  protocol: http
+  ip: 102.69.196.5
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: Kempton Park
+- proxy: http://196.251.221.30:8080
+  protocol: http
+  ip: 196.251.221.30
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: Brits
+- proxy: http://160.119.51.209:8088
+  protocol: http
+  ip: 160.119.51.209
+  port: 8088
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: Klawer
+- proxy: http://196.251.195.157:8084
+  protocol: http
+  ip: 196.251.195.157
+  port: 8084
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: Brits
+- proxy: http://102.23.239.2:8080
+  protocol: http
+  ip: 102.23.239.2
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: Potchefstroom
+- proxy: http://217.29.208.206:9999
+  protocol: http
+  ip: 217.29.208.206
+  port: 9999
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: Potchefstroom
+- proxy: http://196.216.132.35:8080
+  protocol: http
+  ip: 196.216.132.35
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: Jan Kempdorp
+- proxy: http://154.117.154.194:8080
+  protocol: http
+  ip: 154.117.154.194
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: Havenside
+- proxy: http://196.251.210.99:8081
+  protocol: http
+  ip: 196.251.210.99
+  port: 8081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: North West
+- proxy: http://154.126.213.152:1080
+  protocol: http
+  ip: 154.126.213.152
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: Emalahleni
+- proxy: http://41.78.36.250:8005
+  protocol: http
+  ip: 41.78.36.250
+  port: 8005
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: Krugersdorp
+- proxy: http://102.36.127.249:1080
+  protocol: http
+  ip: 102.36.127.249
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: Nelspruit
+- proxy: http://196.216.133.18:1080
+  protocol: http
+  ip: 196.216.133.18
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: Wolmaransstad
 - proxy: http://196.47.63.65:8080
   protocol: http
   ip: 196.47.63.65
@@ -338,33 +488,43 @@
   geolocation:
     country: ZA
     city: Johannesburg
-- proxy: http://102.36.127.249:1080
+- proxy: http://102.222.240.10:9999
   protocol: http
-  ip: 102.36.127.249
-  port: 1080
+  ip: 102.222.240.10
+  port: 9999
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ZA
-    city: Nelspruit
-- proxy: http://169.159.128.73:1080
+    city: Plettenberg Bay
+- proxy: http://165.0.136.30:8080
   protocol: http
-  ip: 169.159.128.73
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: ZA
-    city: Pretoria
-- proxy: http://160.19.112.15:8080
-  protocol: http
-  ip: 160.19.112.15
+  ip: 165.0.136.30
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: ZA
-    city: Bellville
+    city: Cape Town
+- proxy: http://196.251.195.253:8081
+  protocol: http
+  ip: 196.251.195.253
+  port: 8081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: Brits
+- proxy: http://156.155.50.93:8080
+  protocol: http
+  ip: 156.155.50.93
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: ZA
+    city: Johannesburg
