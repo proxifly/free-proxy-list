@@ -8,16 +8,6 @@
   geolocation:
     country: AT
     city: Unknown
-- proxy: socks4://185.196.178.238:60606
-  protocol: socks4
-  ip: 185.196.178.238
-  port: 60606
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AT
-    city: Längenfeld
 - proxy: https://195.192.209.130:443
   protocol: https
   ip: 195.192.209.130
@@ -168,6 +158,16 @@
   geolocation:
     country: AT
     city: Vienna
+- proxy: http://78.40.211.121:3128
+  protocol: http
+  ip: 78.40.211.121
+  port: 3128
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AT
+    city: Unknown
 - proxy: http://78.40.211.252:3128
   protocol: http
   ip: 78.40.211.252

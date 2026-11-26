@@ -18,20 +18,40 @@
   geolocation:
     country: AE
     city: Unknown
-- proxy: http://47.91.121.127:9080
-  protocol: http
-  ip: 47.91.121.127
-  port: 9080
+- proxy: socks5://47.91.120.190:1234
+  protocol: socks5
+  ip: 47.91.120.190
+  port: 1234
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: AE
     city: Dubai
-- proxy: http://47.91.121.127:8443
+- proxy: socks5://47.91.120.190:13
+  protocol: socks5
+  ip: 47.91.120.190
+  port: 13
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AE
+    city: Dubai
+- proxy: socks5://47.91.120.190:3129
+  protocol: socks5
+  ip: 47.91.120.190
+  port: 3129
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AE
+    city: Dubai
+- proxy: http://47.91.121.127:9080
   protocol: http
   ip: 47.91.121.127
-  port: 8443
+  port: 9080
   https: false
   anonymity: transparent
   score: 1
@@ -142,16 +162,6 @@
   protocol: socks5
   ip: 91.73.223.206
   port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AE
-    city: Dubai
-- proxy: socks5://47.91.120.190:3129
-  protocol: socks5
-  ip: 47.91.120.190
-  port: 3129
   https: false
   anonymity: transparent
   score: 1
@@ -308,19 +318,39 @@
   geolocation:
     country: AE
     city: Dubai
-- proxy: http://47.91.110.148:8181
+- proxy: http://151.253.146.146:8080
   protocol: http
-  ip: 47.91.110.148
-  port: 8181
+  ip: 151.253.146.146
+  port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: AE
     city: Dubai
-- proxy: http://47.91.120.190:80
+- proxy: http://89.34.219.146:1081
   protocol: http
-  ip: 47.91.120.190
+  ip: 89.34.219.146
+  port: 1081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AE
+    city: Unknown
+- proxy: http://2.50.191.129:10800
+  protocol: http
+  ip: 2.50.191.129
+  port: 10800
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AE
+    city: Dubai
+- proxy: http://47.91.110.148:80
+  protocol: http
+  ip: 47.91.110.148
   port: 80
   https: false
   anonymity: transparent
@@ -328,13 +358,23 @@
   geolocation:
     country: AE
     city: Dubai
-- proxy: http://47.91.110.148:4433
+- proxy: http://45.143.94.111:1080
   protocol: http
-  ip: 47.91.110.148
-  port: 4433
+  ip: 45.143.94.111
+  port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: AE
-    city: Dubai
+    city: Unknown
+- proxy: http://217.165.51.161:10800
+  protocol: http
+  ip: 217.165.51.161
+  port: 10800
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AE
+    city: Sharjah
