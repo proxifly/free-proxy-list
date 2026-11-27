@@ -1,6 +1,6 @@
-- proxy: socks4://31.42.6.125:5678
+- proxy: socks4://31.42.2.113:5678
   protocol: socks4
-  ip: 31.42.6.125
+  ip: 31.42.2.113
   port: 5678
   https: false
   anonymity: transparent
@@ -8,26 +8,6 @@
   geolocation:
     country: PL
     city: Radomsko
-- proxy: socks4://185.14.149.33:4145
-  protocol: socks4
-  ip: 185.14.149.33
-  port: 4145
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Zielona Góra
-- proxy: socks4://185.79.243.153:38431
-  protocol: socks4
-  ip: 185.79.243.153
-  port: 38431
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Myszkow
 - proxy: socks4://91.211.100.35:44744
   protocol: socks4
   ip: 91.211.100.35
@@ -58,36 +38,6 @@
   geolocation:
     country: PL
     city: Lublin
-- proxy: socks4://37.131.164.48:59341
-  protocol: socks4
-  ip: 37.131.164.48
-  port: 59341
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Drezdenko
-- proxy: socks4://37.131.164.124:59341
-  protocol: socks4
-  ip: 37.131.164.124
-  port: 59341
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Drezdenko
-- proxy: socks4://37.131.164.94:59341
-  protocol: socks4
-  ip: 37.131.164.94
-  port: 59341
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Drezdenko
 - proxy: https://151.115.78.51:443
   protocol: https
   ip: 151.115.78.51
@@ -108,46 +58,6 @@
   geolocation:
     country: PL
     city: Jaworzno
-- proxy: https://79.188.239.47:8443
-  protocol: https
-  ip: 79.188.239.47
-  port: 8443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Warsaw
-- proxy: https://79.188.239.40:8443
-  protocol: https
-  ip: 79.188.239.40
-  port: 8443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Warsaw
-- proxy: https://79.188.239.45:8443
-  protocol: https
-  ip: 79.188.239.45
-  port: 8443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Warsaw
-- proxy: https://79.188.239.42:8443
-  protocol: https
-  ip: 79.188.239.42
-  port: 8443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Warsaw
 - proxy: https://79.133.217.237:443
   protocol: https
   ip: 79.133.217.237
@@ -188,16 +98,6 @@
   geolocation:
     country: PL
     city: Osielsko
-- proxy: https://79.188.239.46:8443
-  protocol: https
-  ip: 79.188.239.46
-  port: 8443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Warsaw
 - proxy: https://79.133.217.236:443
   protocol: https
   ip: 79.133.217.236
@@ -228,16 +128,6 @@
   geolocation:
     country: PL
     city: Nowy Targ
-- proxy: https://79.188.239.43:8443
-  protocol: https
-  ip: 79.188.239.43
-  port: 8443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Warsaw
 - proxy: https://79.188.239.44:8443
   protocol: https
   ip: 79.188.239.44
@@ -288,6 +178,16 @@
   geolocation:
     country: PL
     city: Unknown
+- proxy: https://46.170.93.122:443
+  protocol: https
+  ip: 46.170.93.122
+  port: 443
+  https: true
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PL
+    city: Krakow
 - proxy: https://193.25.2.239:443
   protocol: https
   ip: 193.25.2.239
@@ -298,16 +198,6 @@
   geolocation:
     country: PL
     city: Krakow
-- proxy: https://153.19.91.76:1143
-  protocol: https
-  ip: 153.19.91.76
-  port: 1143
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Gdynia
 - proxy: https://31.186.85.171:7890
   protocol: https
   ip: 31.186.85.171
@@ -348,26 +238,36 @@
   geolocation:
     country: PL
     city: Olsztyn
-- proxy: socks4://46.151.118.108:5678
+- proxy: socks4://45.144.49.64:5443
   protocol: socks4
-  ip: 46.151.118.108
-  port: 5678
+  ip: 45.144.49.64
+  port: 5443
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: PL
-    city: Lipsko
-- proxy: socks5://194.177.28.66:10808
-  protocol: socks5
-  ip: 194.177.28.66
-  port: 10808
+    city: Warsaw
+- proxy: http://45.144.49.64:5443
+  protocol: http
+  ip: 45.144.49.64
+  port: 5443
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: PL
-    city: Ustron
+    city: Warsaw
+- proxy: http://185.32.4.210:8070
+  protocol: http
+  ip: 185.32.4.210
+  port: 8070
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PL
+    city: Unknown
 - proxy: socks5://45.144.49.64:5443
   protocol: socks5
   ip: 45.144.49.64
@@ -378,6 +278,26 @@
   geolocation:
     country: PL
     city: Warsaw
+- proxy: http://80.51.61.1:8080
+  protocol: http
+  ip: 80.51.61.1
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PL
+    city: Bialka Tatrzanska
+- proxy: socks5://194.177.28.66:10808
+  protocol: socks5
+  ip: 194.177.28.66
+  port: 10808
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PL
+    city: Ustron
 - proxy: socks5://91.202.5.45:1080
   protocol: socks5
   ip: 91.202.5.45
@@ -718,19 +638,29 @@
   geolocation:
     country: PL
     city: Warsaw
-- proxy: http://185.238.238.165:58080
+- proxy: http://185.166.196.14:8443
   protocol: http
-  ip: 185.238.238.165
-  port: 58080
+  ip: 185.166.196.14
+  port: 8443
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: PL
-    city: Gmina Strzelin
-- proxy: http://185.238.238.169:58080
+    city: Warsaw
+- proxy: http://80.90.178.167:1081
   protocol: http
-  ip: 185.238.238.169
+  ip: 80.90.178.167
+  port: 1081
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PL
+    city: Warsaw
+- proxy: http://185.238.238.165:58080
+  protocol: http
+  ip: 185.238.238.165
   port: 58080
   https: false
   anonymity: transparent
@@ -748,9 +678,9 @@
   geolocation:
     country: PL
     city: Gmina Strzelin
-- proxy: http://185.238.236.226:58080
+- proxy: http://185.238.238.169:58080
   protocol: http
-  ip: 185.238.236.226
+  ip: 185.238.238.169
   port: 58080
   https: false
   anonymity: transparent
@@ -758,9 +688,9 @@
   geolocation:
     country: PL
     city: Gmina Strzelin
-- proxy: http://185.238.238.21:58080
+- proxy: http://185.238.238.137:58080
   protocol: http
-  ip: 185.238.238.21
+  ip: 185.238.238.137
   port: 58080
   https: false
   anonymity: transparent
@@ -768,36 +698,6 @@
   geolocation:
     country: PL
     city: Gmina Strzelin
-- proxy: http://217.113.235.181:443
-  protocol: http
-  ip: 217.113.235.181
-  port: 443
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Ksawerow
-- proxy: http://81.200.156.136:1080
-  protocol: http
-  ip: 81.200.156.136
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Warsaw
-- proxy: http://45.144.49.64:5443
-  protocol: http
-  ip: 45.144.49.64
-  port: 5443
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Warsaw
 - proxy: http://88.156.178.59:1122
   protocol: http
   ip: 88.156.178.59
@@ -808,26 +708,6 @@
   geolocation:
     country: PL
     city: Unknown
-- proxy: http://185.166.196.14:3128
-  protocol: http
-  ip: 185.166.196.14
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Warsaw
-- proxy: http://194.31.175.75:1080
-  protocol: http
-  ip: 194.31.175.75
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Warsaw
 - proxy: http://78.9.232.205:8080
   protocol: http
   ip: 78.9.232.205
@@ -838,6 +718,16 @@
   geolocation:
     country: PL
     city: Unknown
+- proxy: http://37.131.164.94:59341
+  protocol: http
+  ip: 37.131.164.94
+  port: 59341
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PL
+    city: Drezdenko
 - proxy: http://109.95.175.64:1080
   protocol: http
   ip: 109.95.175.64
@@ -848,33 +738,33 @@
   geolocation:
     country: PL
     city: Lubawa
-- proxy: http://145.239.94.103:10084
+- proxy: http://77.83.246.110:2000
   protocol: http
-  ip: 145.239.94.103
-  port: 10084
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: PL
-    city: Wroclaw
-- proxy: http://185.166.196.14:3129
-  protocol: http
-  ip: 185.166.196.14
-  port: 3129
+  ip: 77.83.246.110
+  port: 2000
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: PL
     city: Warsaw
-- proxy: http://185.32.4.210:8070
+- proxy: http://185.166.196.14:3128
   protocol: http
-  ip: 185.32.4.210
-  port: 8070
+  ip: 185.166.196.14
+  port: 3128
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: PL
-    city: Unknown
+    city: Warsaw
+- proxy: http://94.40.127.166:4145
+  protocol: http
+  ip: 94.40.127.166
+  port: 4145
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: PL
+    city: Torun
