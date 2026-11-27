@@ -1,13 +1,3 @@
-- proxy: socks4://200.105.192.6:5678
-  protocol: socks4
-  ip: 200.105.192.6
-  port: 5678
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: BO
-    city: La Paz
 - proxy: socks4://190.104.26.227:33638
   protocol: socks4
   ip: 190.104.26.227
@@ -18,20 +8,30 @@
   geolocation:
     country: BO
     city: La Paz
-- proxy: http://190.186.237.103:80
+- proxy: http://190.186.18.161:999
   protocol: http
-  ip: 190.186.237.103
-  port: 80
+  ip: 190.186.18.161
+  port: 999
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: BO
     city: Santa Cruz
-- proxy: http://190.186.18.161:999
+- proxy: http://200.105.192.6:5678
   protocol: http
-  ip: 190.186.18.161
-  port: 999
+  ip: 200.105.192.6
+  port: 5678
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: BO
+    city: La Paz
+- proxy: http://190.186.237.103:80
+  protocol: http
+  ip: 190.186.237.103
+  port: 80
   https: false
   anonymity: transparent
   score: 1
