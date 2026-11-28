@@ -1,13 +1,23 @@
-- proxy: socks4://220.132.41.160:1088
+- proxy: socks4://211.22.151.163:60909
   protocol: socks4
-  ip: 220.132.41.160
-  port: 1088
+  ip: 211.22.151.163
+  port: 60909
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: TW
-    city: Chiayi City
+    city: Taichung
+- proxy: socks4://103.136.250.154:1080
+  protocol: socks4
+  ip: 103.136.250.154
+  port: 1080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TW
+    city: Taipei
 - proxy: https://107.167.191.95:8443
   protocol: https
   ip: 107.167.191.95
@@ -58,16 +68,6 @@
   geolocation:
     country: TW
     city: Taipei
-- proxy: http://210.201.86.72:8080
-  protocol: http
-  ip: 210.201.86.72
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TW
-    city: Chang-hua
 - proxy: http://34.81.160.132:80
   protocol: http
   ip: 34.81.160.132
@@ -78,16 +78,6 @@
   geolocation:
     country: TW
     city: Taipei
-- proxy: http://59.124.62.9:3128
-  protocol: http
-  ip: 59.124.62.9
-  port: 3128
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TW
-    city: Taoyuan District
 - proxy: socks5://37.128.252.5:1080
   protocol: socks5
   ip: 37.128.252.5
@@ -308,16 +298,16 @@
   geolocation:
     country: TW
     city: Tainan City
-- proxy: http://114.34.145.135:8080
+- proxy: http://61.216.156.222:60808
   protocol: http
-  ip: 114.34.145.135
-  port: 8080
+  ip: 61.216.156.222
+  port: 60808
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: TW
-    city: Taoyuan District
+    city: New Taipei
 - proxy: http://164.52.11.194:18080
   protocol: http
   ip: 164.52.11.194
@@ -358,6 +348,16 @@
   geolocation:
     country: TW
     city: New Taipei
+- proxy: http://114.34.145.135:8080
+  protocol: http
+  ip: 114.34.145.135
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TW
+    city: Taoyuan District
 - proxy: http://220.128.223.136:8085
   protocol: http
   ip: 220.128.223.136
@@ -368,6 +368,16 @@
   geolocation:
     country: TW
     city: Taipei
+- proxy: http://210.201.86.72:8080
+  protocol: http
+  ip: 210.201.86.72
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: TW
+    city: Chang-hua
 - proxy: http://104.199.219.13:3128
   protocol: http
   ip: 104.199.219.13
@@ -488,23 +498,3 @@
   geolocation:
     country: TW
     city: Xizhi District
-- proxy: http://61.216.156.222:60808
-  protocol: http
-  ip: 61.216.156.222
-  port: 60808
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TW
-    city: New Taipei
-- proxy: http://59.124.62.9:3129
-  protocol: http
-  ip: 59.124.62.9
-  port: 3129
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: TW
-    city: Taoyuan District

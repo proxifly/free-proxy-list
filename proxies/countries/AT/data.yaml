@@ -1,13 +1,3 @@
-- proxy: socks4://83.218.186.22:5678
-  protocol: socks4
-  ip: 83.218.186.22
-  port: 5678
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: AT
-    city: Unknown
 - proxy: socks4://185.196.178.238:60606
   protocol: socks4
   ip: 185.196.178.238
@@ -158,16 +148,16 @@
   geolocation:
     country: AT
     city: Vienna
-- proxy: http://90.146.196.18:8080
+- proxy: http://78.40.211.252:3128
   protocol: http
-  ip: 90.146.196.18
-  port: 8080
+  ip: 78.40.211.252
+  port: 3128
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: AT
-    city: Pasching
+    city: Unknown
 - proxy: http://152.53.53.54:10801
   protocol: http
   ip: 152.53.53.54
@@ -188,3 +178,13 @@
   geolocation:
     country: AT
     city: Unknown
+- proxy: http://90.146.196.18:8080
+  protocol: http
+  ip: 90.146.196.18
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: AT
+    city: Pasching
