@@ -1,33 +1,23 @@
-- proxy: socks4://84.2.239.42:4153
+- proxy: socks4://91.147.235.162:4153
   protocol: socks4
-  ip: 84.2.239.42
+  ip: 91.147.235.162
   port: 4153
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: HU
-    city: Hajdúnánás
-- proxy: socks4://89.132.170.211:4145
+    city: Kaba
+- proxy: socks4://89.43.135.181:1080
   protocol: socks4
-  ip: 89.132.170.211
-  port: 4145
+  ip: 89.43.135.181
+  port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: HU
-    city: Budapest
-- proxy: socks4://178.48.13.177:80
-  protocol: socks4
-  ip: 178.48.13.177
-  port: 80
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: HU
-    city: Nagytarcsa
+    city: Unknown
 - proxy: https://193.201.185.68:443
   protocol: https
   ip: 193.201.185.68
@@ -58,16 +48,6 @@
   geolocation:
     country: HU
     city: Unknown
-- proxy: https://146.70.203.18:443
-  protocol: https
-  ip: 146.70.203.18
-  port: 443
-  https: true
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: HU
-    city: Budapest
 - proxy: https://46.29.140.237:443
   protocol: https
   ip: 46.29.140.237
@@ -78,26 +58,16 @@
   geolocation:
     country: HU
     city: Egercsehi
-- proxy: https://146.70.203.18:9443
+- proxy: https://193.226.205.54:443
   protocol: https
-  ip: 146.70.203.18
-  port: 9443
+  ip: 193.226.205.54
+  port: 443
   https: true
   anonymity: transparent
   score: 1
   geolocation:
     country: HU
     city: Budapest
-- proxy: http://89.43.135.42:8080
-  protocol: http
-  ip: 89.43.135.42
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: HU
-    city: Unknown
 - proxy: socks5://77.91.72.22:1080
   protocol: socks5
   ip: 77.91.72.22
@@ -108,16 +78,16 @@
   geolocation:
     country: HU
     city: Budapest
-- proxy: http://89.43.133.165:8080
-  protocol: http
-  ip: 89.43.133.165
-  port: 8080
+- proxy: socks4://109.61.117.11:1080
+  protocol: socks4
+  ip: 109.61.117.11
+  port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: HU
-    city: Unknown
+    city: Pécs
 - proxy: socks5://89.43.133.56:1080
   protocol: socks5
   ip: 89.43.133.56
@@ -168,49 +138,59 @@
   geolocation:
     country: HU
     city: Hatvan
-- proxy: http://84.1.150.240:8080
+- proxy: http://89.43.132.219:8080
   protocol: http
-  ip: 84.1.150.240
+  ip: 89.43.132.219
   port: 8080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: HU
-    city: Kerekegyhaza
+    city: Unknown
+- proxy: http://89.43.133.165:8080
+  protocol: http
+  ip: 89.43.133.165
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: HU
+    city: Unknown
+- proxy: http://89.43.133.116:8080
+  protocol: http
+  ip: 89.43.133.116
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: HU
+    city: Unknown
+- proxy: http://89.43.133.131:8080
+  protocol: http
+  ip: 89.43.133.131
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: HU
+    city: Unknown
+- proxy: http://89.43.134.39:8080
+  protocol: http
+  ip: 89.43.134.39
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: HU
+    city: Unknown
 - proxy: http://89.43.132.231:8080
   protocol: http
   ip: 89.43.132.231
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: HU
-    city: Unknown
-- proxy: http://89.43.132.197:8080
-  protocol: http
-  ip: 89.43.132.197
-  port: 8080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: HU
-    city: Unknown
-- proxy: http://77.91.72.22:1080
-  protocol: http
-  ip: 77.91.72.22
-  port: 1080
-  https: false
-  anonymity: transparent
-  score: 1
-  geolocation:
-    country: HU
-    city: Budapest
-- proxy: http://128.0.7.126:8080
-  protocol: http
-  ip: 128.0.7.126
   port: 8080
   https: false
   anonymity: transparent
@@ -228,9 +208,19 @@
   geolocation:
     country: HU
     city: Unknown
-- proxy: http://89.43.135.9:8080
+- proxy: http://89.43.132.250:8080
   protocol: http
-  ip: 89.43.135.9
+  ip: 89.43.132.250
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: HU
+    city: Unknown
+- proxy: http://89.43.134.78:8080
+  protocol: http
+  ip: 89.43.134.78
   port: 8080
   https: false
   anonymity: transparent
@@ -248,46 +238,46 @@
   geolocation:
     country: HU
     city: Kaposvár
-- proxy: http://89.132.170.211:4145
+- proxy: http://89.135.59.77:8090
   protocol: http
-  ip: 89.132.170.211
-  port: 4145
+  ip: 89.135.59.77
+  port: 8090
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: HU
     city: Budapest
-- proxy: http://92.249.168.82:8080
+- proxy: http://77.91.72.22:1080
   protocol: http
-  ip: 92.249.168.82
-  port: 8080
+  ip: 77.91.72.22
+  port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: HU
-    city: Veszprém
-- proxy: http://84.236.30.237:8080
+    city: Budapest
+- proxy: http://109.61.117.11:1080
   protocol: http
-  ip: 84.236.30.237
-  port: 8080
+  ip: 109.61.117.11
+  port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: HU
-    city: Érd
-- proxy: http://89.43.133.101:8080
+    city: Pécs
+- proxy: http://79.172.212.71:1080
   protocol: http
-  ip: 89.43.133.101
-  port: 8080
+  ip: 79.172.212.71
+  port: 1080
   https: false
   anonymity: transparent
   score: 1
   geolocation:
     country: HU
-    city: Unknown
+    city: Budapest
 - proxy: http://94.21.216.125:9999
   protocol: http
   ip: 94.21.216.125
@@ -298,3 +288,13 @@
   geolocation:
     country: HU
     city: Székesfehérvár
+- proxy: http://89.43.133.229:8080
+  protocol: http
+  ip: 89.43.133.229
+  port: 8080
+  https: false
+  anonymity: transparent
+  score: 1
+  geolocation:
+    country: HU
+    city: Unknown
